@@ -1,0 +1,16 @@
+---
+layout: post
+title: Launched
+tags:
+- Software-Development
+- Panama
+status: publish
+type: post
+published: true
+meta: {}
+---
+<p>We've done it!</p>
+
+<p><a href="http://www.caimito.net">Caimito One Team 1.0</a> is out the door. Yesterday our development team in Panama finished the last tasks on our first product Caimito One Team 1.0 and published our new website.</p>
+
+<p>Caimito One Team is an Agile Collaboration and Planning tool aimed at small and medium sized teams. Read more on our website at <a href="http://www.caimito.net">www.caimito.net</a>.</p>

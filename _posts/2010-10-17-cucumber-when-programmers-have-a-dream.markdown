@@ -1,0 +1,224 @@
+---
+layout: post
+title: ! 'Cucumber: When Programmers Have a Dream'
+tags:
+- Software-Development
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '6384953'
+  jabber_published: '1287362533'
+  _wp_old_slug: ''
+  delicious: a:3:{s:5:"count";s:1:"0";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1288361692";}
+  _wpas_done_twitter: '1'
+  reddit: a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1303007696";}
+---
+<p>Sometimes software developers have a dream. They fantasize about working closely together with the real customer instead of being just one wheel in the big machine that produces custom software. So far this has been difficult to achieve.</p>
+
+<p>Traditionally testing in software development has been an activity that happened after the fact. People do it at the end of a project (very bad), at the end of a project phase (bad), at the end of an iteration (still bad) or at the end of a day spent writing production code which is as bad as any other variation just mentioned. Because the need for good testing is not debated, over time a lot of sophisticated testing tools have been developed and sold for good money to customers who want to improve the quality of their software. Because of the importance of testing we find testers on every larger team in any organization that is serious about software development. And to make testers more effective management buys them these sophisticated tools.</p>
+
+<p>A tester in many organizations is a person who is prevented from writing code.  At times intentionally because some deem it valuable that a tester does not know nor understands the inner workings of the application he is testing. He should explore it instead from the outside and think as an end-user (the customer) would.</p>
+
+<p>Often these skilled individuals are turned into human robots operating the test tool management has chosen for them. There they execute test scripts against software that appears on their computer screens after business analysts figured out precisely what the needs for the business are and programmers have written production code that exactly meets the specifications written in accurate language in a larger number of Word documents - at least one for each feature of the application.</p>
+
+<p>I think that we should not waste the skills of testers. Testers are pretty good at understanding business requirements and as they don't think about how to implement something they can be our constant reminder and guarding of the <em>what</em>. So instead of using their skills at the very end - when it is usually to late - we should use their skills as early as possible. In this post I'd like to show how we can achieve <em>test first</em> using Cucumber for a web application. The technique is not restricted to web applications but can work with any type of application.</p>
+
+<p>Cucumber is a testing tool that allows to describe behavior of an application in natural language and in a way that business people, testers and programmers can understand. Features can be described in plain English and many other languages spoken by people around the world. A typical feature description looks like this:</p>
+
+<pre>
+[sourcecode language="gherkin"]
+Feature: As photographer I want to take a picture of the elves lined up and
+  ordered by height
+
+  Scenario: Elves lined up side by side
+    Given I am in the forest
+    And the elves are not lined up
+    When I call the following elves to line up:
+    | elf    | height |
+    | Kadra  | 6' 20&quot; |
+    | Kaslin | 6' 35&quot; |
+    | Savah  | 5' 15&quot; |
+    Then they line up in the following order:
+    | Kaslin |
+    | Kadra  |
+    | Savah  |
+[/sourcecode]
+</pre>
+<p></p>
+<p>Wouldn't it be nice to use this feature description as the starting point for development? There is not yet any application. Any code has been written yet. All there is is a text file - let's call it <em>elf_photograph.feature</em> - and nothing else.</p>
+
+<p>After all we are talking to a photographer in this example and she will not really understand what we as programmers are babbling about, if we were talking about HTML, Java, Ruby, application servers and databases. All our babbling may at the very least be seen as distracting. If worse comes to worst, the business person might even believe we are talking about these things on purpose to hide something and leave with the impression that we don't know how to solve her problem. So we better don't talk like that at all.</p>
+
+<p>After we are done talking to the photographer we take the requirements captured in feature files back to the office and sit down with one of our testers to write Cucumber step definitions. Here is what we come up with:</p>
+
+<pre>
+[sourcecode language="ruby"]
+Given /^I am in the forest$/ do
+  @current_page = ForestPage::open @browser
+end
+
+When /^I call the following elves to line up:$/ do |elves|
+  @current_page.elves_line_up elves.hashes
+end
+
+Then /^they line up in the following order:$/ do |order_of_elves|
+  order_of_elves.diff!(@current_page.order_of_elves)
+end
+
+When /^the elves are not lined up$/ do
+  @current_page.elves_are_not_there
+end
+[/sourcecode]
+</pre>
+
+<p>Remember that our goal is to write the tests before we actually start writing production code or create web pages. So we have to make up a few things just to get us going. Just as in classic TDD we can run our code now and - obviously - we will be reminded that we don't have a ForestPage object neither the other methods we are calling. Let's create as much as needed to get a bit further:</p>
+
+<pre>
+[sourcecode language="ruby"]
+class ForestPage
+
+  def initialize(browser_to_be_used)
+    @browser = browser_to_be_used
+  end
+
+  def self.open(browser)
+    page = ForestPage.new(browser)
+#    browser.goto FOREST_PAGE
+    return page
+  end
+
+  def method_missing(m, *args)
+    puts &quot;Sorry, I (#{self}) don't know about any #{m} method.&quot;
+  end
+end
+[/sourcecode]
+</pre>
+
+<p>With that in place we can run again and will now see:</p>
+
+<pre>
+Testing started at 8:07 PM ...
+Sorry, I (#&lt;ForestPage:0x102675338&gt;) don't know about any elves_are_not_there method.
+Sorry, I (#&lt;ForestPage:0x102675338&gt;) don't know about any elves_line_up method.
+Sorry, I (#&lt;ForestPage:0x102675338&gt;) don't know about any order_of_elves method.
+
+NoMethodError: undefined method `[]' for nil:NilClass
+./features/step_definitions/elf_steps.rb:12:in `/^they line up in the following order:$/'
+</pre>
+
+<p>The Cucumber test runner in RubyMine shows up that we were able to execute successfully 3 out of 4 steps:</p>
+
+<img src="http://stephanschwab.files.wordpress.com/2010/10/screen-shot-2010-10-17-at-8-10-08-pm.png" alt="Screen shot 2010-10-17 at 8.10.08 PM.png" title="Screen shot 2010-10-17 at 8.10.08 PM.png" border="0" width="452" height="162" />
+
+<p>Great! But not so fast ... Our steps pass because we are accepting all messages being sent to the ForestPage class. We need to fix that later but for now this allows us to focus on last step which is:</p>
+
+<pre>[sourcecode language="ruby"]
+Then /^they line up in the following order:$/ do |order_of_elves|
+  order_of_elves.diff!(@current_page.order_of_elves)
+end
+[/sourcecode]</pre>
+
+<p>This is the assertion in our test where we figure out whether the application is behaving correctly or not. We should get this step right before we start writing the production code for the application.</p>
+
+<p>We have a table with all the elves ordered by height as input and we compare that table to what we read from the page using <code>@current_page.order_of_elves</code>. Let's create this method:</p>
+
+<pre>[sourcecode language="ruby"]
+  def order_of_elves
+    elves = []
+    elves.push ['Sara']
+  end
+[/sourcecode]</pre>
+
+<p>and run our feature again:</p>
+
+<img style="display:block;margin-left:auto;margin-right:auto;" src="http://stephanschwab.files.wordpress.com/2010/10/screen-shot-2010-10-17-at-8-25-00-pm.png" alt="Screen shot 2010-10-17 at 8.25.00 PM.png" title="Screen shot 2010-10-17 at 8.25.00 PM.png" border="0" width="600" height="106" />
+
+<p>We still fail at the same place but this time we fail because the two tables are not identical. So our step is working in general and we know what to return from the method <code>@current_page.order_of_elves</code>. Now write the rest of the ForestPage class:</p>
+
+<pre>[sourcecode language="ruby"]
+class ForestPage
+
+  def initialize(browser_to_be_used)
+    @browser = browser_to_be_used
+  end
+
+  def self.open(browser)
+    page = ForestPage.new(browser)
+    browser.goto &quot;file:///Users/sns/elf/src/main/resources/org/example/elf/pages/Forest.html&quot;
+    return page
+  end
+
+  def method_missing(m, *args)
+    puts &quot;Sorry, I (#{self}) don't know about any #{m} method.&quot;
+  end
+
+  def elves_are_not_there
+    @browser.link(:id, &quot;startOver&quot;).click
+  end
+
+  def elves_line_up(elves)
+    elves.each do |elf|
+      @browser.text_field(:id, &quot;elfName&quot;).set(elf['elf'])
+      @browser.text_field(:id, &quot;elfHeight&quot;).set(elf['height'])
+      @browser.button(:id, &quot;submit&quot;).click
+    end
+  end
+
+  def order_of_elves
+    elves = []
+
+    begin
+      elf_number = 0
+      elf = @browser.div(:id =&gt; &quot;elf&quot;, :index =&gt; elf_number)
+      while !elf.nil?
+        elves.push [elf.text]
+
+        elf_number = elf_number + 1
+        elf = @browser.div(:id =&gt; &quot;elf&quot;, :index =&gt; elf_number)
+      end
+
+    rescue
+      return elves
+    end
+  end
+
+end
+[/sourcecode]</pre>
+
+We also create the Forest.html as our first step to produce something visual:
+
+<pre>[sourcecode language="html"]
+&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot;
+        &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Forest Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;form&gt;
+	&lt;input type=&quot;text&quot; id=&quot;elfName&quot;/&gt;
+	&lt;input type=&quot;text&quot; id=&quot;elfHeight&quot;/&gt;
+	&lt;input type=&quot;submit&quot; id=&quot;submit&quot;/&gt;
+&lt;/form&gt;
+
+&lt;div id=&quot;elfLineup&quot;&gt;
+	&lt;div id=&quot;elf&quot;&gt;
+		Elf's name
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;a href=&quot;#&quot; id=&quot;startOver&quot;&gt;Start over&lt;/a&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+[/sourcecode]</pre>
+
+With that in place we can run our feature again and as before we get
+
+<img src="http://stephanschwab.files.wordpress.com/2010/10/screen-shot-2010-10-17-at-8-10-08-pm.png" alt="Screen shot 2010-10-17 at 8.10.08 PM.png" title="Screen shot 2010-10-17 at 8.10.08 PM.png" border="0" width="452" height="162" />
+
+At this point we have a failing test and can start writing the production code to make it pass. Of course now is the opportunity to show the HTML page and the feature again to our customer to make sure that we are still on the right track.
+
+<p>Update: The code for this is available on my <a href="https://github.com/snscaimito/cucumber-elf">github</a></p>
