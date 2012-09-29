@@ -7,7 +7,7 @@ title: Stephan Schwab
 	{% include categories-list.html %}
 </ul>
 
-{% for post in site.posts limit:5 %}
+{% for post in site.posts limit:10 %}
 	<div class="post">
 		<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 		{{ post.content }}
@@ -15,3 +15,5 @@ title: Stephan Schwab
 	</div>
 {% endfor %}
 
+</hr>
+<p align="center">See a listing of <a href="all-posts.html">all posts</a> on this site</p>
