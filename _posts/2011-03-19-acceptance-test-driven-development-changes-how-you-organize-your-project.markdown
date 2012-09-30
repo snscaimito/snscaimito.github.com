@@ -53,12 +53,12 @@ Whenever you start a software project the first question should be:
 
 In my example that leads to a generic Given/When/Then like this:
 
-[sourcecode language="text"]
+{% highlight Gherkin %}
 Scenario: Our ultimate goal for the project
 	Given an application with a well designed user interface
 	When the end user enters all the data needed by the backend system
 	Then the backend system will receive all the data
-[/sourcecode]
+{% endhighlight %}
 
 As we want our Given/When/Then steps to be executable, we now have to find out what is the smallest thing that could possibly work and allow the application to pass the test.
 
