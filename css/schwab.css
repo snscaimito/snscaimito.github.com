@@ -72,3 +72,21 @@ UL.horizontal LI {
 	display: inline;
 	padding-right: 5px;
 }
+
+BLOCKQUOTE.resume {
+	width: 80%;
+}
+
+BLOCKQUOTE.resume P {
+	font-size: 14px;
+	line-height: 18px;
+}
+
+BLOCKQUOTE.resume P.quote-source {
+	font-weight: bold;
+}
+
+DL.resume DT {
+	color: #AB1413;
+	border-bottom: 1px dotted black ;
+}
