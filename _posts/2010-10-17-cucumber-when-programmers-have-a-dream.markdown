@@ -26,8 +26,7 @@ meta:
 
 <p>Cucumber is a testing tool that allows to describe behavior of an application in natural language and in a way that business people, testers and programmers can understand. Features can be described in plain English and many other languages spoken by people around the world. A typical feature description looks like this:</p>
 
-<pre>
-[sourcecode language="gherkin"]
+{% highlight Gherkin %}
 Feature: As photographer I want to take a picture of the elves lined up and
   ordered by height
 
@@ -43,8 +42,8 @@ Feature: As photographer I want to take a picture of the elves lined up and
     | Kaslin |
     | Kadra  |
     | Savah  |
-[/sourcecode]
-</pre>
+{% endhighlight %}
+
 <p></p>
 <p>Wouldn't it be nice to use this feature description as the starting point for development? There is not yet any application. Any code has been written yet. All there is is a text file - let's call it <em>elf_photograph.feature</em> - and nothing else.</p>
 
@@ -52,8 +51,7 @@ Feature: As photographer I want to take a picture of the elves lined up and
 
 <p>After we are done talking to the photographer we take the requirements captured in feature files back to the office and sit down with one of our testers to write Cucumber step definitions. Here is what we come up with:</p>
 
-<pre>
-[sourcecode language="ruby"]
+{% highlight ruby %}
 Given /^I am in the forest$/ do
   @current_page = ForestPage::open @browser
 end
@@ -69,13 +67,11 @@ end
 When /^the elves are not lined up$/ do
   @current_page.elves_are_not_there
 end
-[/sourcecode]
-</pre>
+{% endhighlight %}
 
 <p>Remember that our goal is to write the tests before we actually start writing production code or create web pages. So we have to make up a few things just to get us going. Just as in classic TDD we can run our code now and - obviously - we will be reminded that we don't have a ForestPage object neither the other methods we are calling. Let's create as much as needed to get a bit further:</p>
 
-<pre>
-[sourcecode language="ruby"]
+{% highlight ruby %}
 class ForestPage
 
   def initialize(browser_to_be_used)
@@ -92,8 +88,7 @@ class ForestPage
     puts &quot;Sorry, I (#{self}) don't know about any #{m} method.&quot;
   end
 end
-[/sourcecode]
-</pre>
+{% endhighlight %}
 
 <p>With that in place we can run again and will now see:</p>
 
@@ -113,22 +108,22 @@ NoMethodError: undefined method `[]' for nil:NilClass
 
 <p>Great! But not so fast ... Our steps pass because we are accepting all messages being sent to the ForestPage class. We need to fix that later but for now this allows us to focus on last step which is:</p>
 
-<pre>[sourcecode language="ruby"]
+{% highlight ruby %}
 Then /^they line up in the following order:$/ do |order_of_elves|
   order_of_elves.diff!(@current_page.order_of_elves)
 end
-[/sourcecode]</pre>
+{% endhighlight %}
 
 <p>This is the assertion in our test where we figure out whether the application is behaving correctly or not. We should get this step right before we start writing the production code for the application.</p>
 
 <p>We have a table with all the elves ordered by height as input and we compare that table to what we read from the page using <code>@current_page.order_of_elves</code>. Let's create this method:</p>
 
-<pre>[sourcecode language="ruby"]
+{% highlight ruby %}
   def order_of_elves
     elves = []
     elves.push ['Sara']
   end
-[/sourcecode]</pre>
+{% endhighlight %}
 
 <p>and run our feature again:</p>
 
@@ -136,7 +131,7 @@ end
 
 <p>We still fail at the same place but this time we fail because the two tables are not identical. So our step is working in general and we know what to return from the method <code>@current_page.order_of_elves</code>. Now write the rest of the ForestPage class:</p>
 
-<pre>[sourcecode language="ruby"]
+{% highlight ruby %}
 class ForestPage
 
   def initialize(browser_to_be_used)
@@ -184,11 +179,11 @@ class ForestPage
   end
 
 end
-[/sourcecode]</pre>
+{% endhighlight %}
 
 We also create the Forest.html as our first step to produce something visual:
 
-<pre>[sourcecode language="html"]
+{% highlight html %}
 &lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot;
         &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;
 &lt;html&gt;
@@ -213,7 +208,7 @@ We also create the Forest.html as our first step to produce something visual:
 
 &lt;/body&gt;
 &lt;/html&gt;
-[/sourcecode]</pre>
+{% endhighlight %}
 
 With that in place we can run our feature again and as before we get
 
