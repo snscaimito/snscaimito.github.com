@@ -3,6 +3,7 @@ layout: post
 title: Focus on making the commitment leads to low quality code
 tags:
 - Coaching
+- quality
 status: publish
 type: post
 published: true

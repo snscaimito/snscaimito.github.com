@@ -3,6 +3,8 @@ layout: post
 title: Acceptance Test Driven Development brings teams together
 tags:
 - Software-Development
+- atdd
+- quality
 status: publish
 type: post
 published: true

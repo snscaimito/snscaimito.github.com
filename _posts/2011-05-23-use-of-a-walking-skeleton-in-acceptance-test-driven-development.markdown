@@ -3,6 +3,8 @@ layout: post
 title: Use of a Walking Skeleton in Acceptance Test Driven Development
 tags:
 - Software-Development
+- atdd
+- quality
 status: publish
 type: post
 published: true

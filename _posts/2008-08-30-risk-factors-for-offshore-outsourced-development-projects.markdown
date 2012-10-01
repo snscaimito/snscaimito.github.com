@@ -3,6 +3,7 @@ layout: post
 title: Risk Factors for Offshore-Outsourced Development Projects
 tags:
 - Software-Development
+- Management
 status: publish
 type: post
 published: true

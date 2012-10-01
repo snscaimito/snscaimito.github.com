@@ -3,6 +3,8 @@ layout: post
 title: Acceptance Test Driven Development changes how you organize your project
 tags:
 - Software-Development
+- atdd
+- quality
 status: publish
 type: post
 published: true

@@ -3,6 +3,7 @@ layout: post
 title: The importance of craftsmanship
 tags:
 - Software-Development
+- quality
 status: publish
 type: post
 published: true

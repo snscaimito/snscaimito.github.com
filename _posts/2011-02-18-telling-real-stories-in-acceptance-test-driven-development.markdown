@@ -3,6 +3,8 @@ layout: post
 title: Telling real stories in Acceptance Test Driven Development
 tags:
 - Software-Development
+- atdd
+- quality
 status: publish
 type: post
 published: true

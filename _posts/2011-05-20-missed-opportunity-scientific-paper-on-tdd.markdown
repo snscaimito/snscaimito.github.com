@@ -3,6 +3,7 @@ layout: post
 title: ! 'Missed Opportunity: Scientific Paper on TDD'
 tags:
 - Software-Development
+- quality
 status: publish
 type: post
 published: true

@@ -3,6 +3,8 @@ layout: post
 title: Validation rules for form input in Acceptance Test Driven Development
 tags:
 - Software-Development
+- atdd
+- quality
 status: publish
 type: post
 published: true

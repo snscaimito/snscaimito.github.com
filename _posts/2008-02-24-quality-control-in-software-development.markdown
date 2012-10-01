@@ -3,6 +3,7 @@ layout: post
 title: Quality control in software development
 tags:
 - Software-Development
+- quality
 status: publish
 type: post
 published: true

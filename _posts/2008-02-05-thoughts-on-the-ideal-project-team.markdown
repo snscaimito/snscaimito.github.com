@@ -3,6 +3,7 @@ layout: post
 title: Thoughts on the ideal project team
 tags:
 - Software-Development
+- Management
 status: publish
 type: post
 published: true

@@ -3,6 +3,7 @@ layout: post
 title: Estimation creates silos and prevents teams from developing solutions
 tags:
 - Software-Development
+- Management
 status: publish
 type: post
 published: true

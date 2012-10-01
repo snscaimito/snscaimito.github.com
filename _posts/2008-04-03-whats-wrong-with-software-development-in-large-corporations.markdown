@@ -3,6 +3,7 @@ layout: post
 title: What's wrong with software development in large corporations
 tags:
 - Software-Development
+- Management
 status: publish
 type: post
 published: true

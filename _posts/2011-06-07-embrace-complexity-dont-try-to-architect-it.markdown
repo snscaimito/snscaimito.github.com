@@ -3,6 +3,7 @@ layout: post
 title: Embrace complexity - Don't try to architect it
 tags:
 - Software-Development
+- Management
 status: publish
 type: post
 published: true

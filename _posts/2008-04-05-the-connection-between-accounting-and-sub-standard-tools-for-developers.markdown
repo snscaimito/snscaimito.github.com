@@ -3,6 +3,7 @@ layout: post
 title: The connection between accounting and sub-standard tools for developers
 tags:
 - Software-Development
+- Management
 status: publish
 type: post
 published: true

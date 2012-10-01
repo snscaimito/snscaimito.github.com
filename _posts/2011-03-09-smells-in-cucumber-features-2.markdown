@@ -3,6 +3,8 @@ layout: post
 title: Smells in Cucumber features
 tags:
 - Software-Development
+- atdd
+- quality
 status: publish
 type: post
 published: true

@@ -3,6 +3,8 @@ layout: post
 title: Don't tie Cucumber features 1:1 to stories
 tags:
 - Software-Development
+- atdd
+- quality
 status: publish
 type: post
 published: true
