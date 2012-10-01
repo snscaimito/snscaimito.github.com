@@ -35,9 +35,9 @@ Feature: As photographer I want to take a picture of the elves lined up and
     And the elves are not lined up
     When I call the following elves to line up:
     | elf    | height |
-    | Kadra  | 6' 20&quot; |
-    | Kaslin | 6' 35&quot; |
-    | Savah  | 5' 15&quot; |
+    | Kadra  | 6' 20" |
+    | Kaslin | 6' 35" |
+    | Savah  | 5' 15" |
     Then they line up in the following order:
     | Kaslin |
     | Kadra  |
@@ -85,7 +85,7 @@ class ForestPage
   end
 
   def method_missing(m, *args)
-    puts &quot;Sorry, I (#{self}) don't know about any #{m} method.&quot;
+    puts "Sorry, I (#{self}) don't know about any #{m} method."
   end
 end
 {% endhighlight %}
@@ -94,9 +94,9 @@ end
 
 <pre>
 Testing started at 8:07 PM ...
-Sorry, I (#&lt;ForestPage:0x102675338&gt;) don't know about any elves_are_not_there method.
-Sorry, I (#&lt;ForestPage:0x102675338&gt;) don't know about any elves_line_up method.
-Sorry, I (#&lt;ForestPage:0x102675338&gt;) don't know about any order_of_elves method.
+Sorry, I (#<ForestPage:0x102675338>) don't know about any elves_are_not_there method.
+Sorry, I (#<ForestPage:0x102675338>) don't know about any elves_line_up method.
+Sorry, I (#<ForestPage:0x102675338>) don't know about any order_of_elves method.
 
 NoMethodError: undefined method `[]' for nil:NilClass
 ./features/step_definitions/elf_steps.rb:12:in `/^they line up in the following order:$/'
@@ -140,23 +140,23 @@ class ForestPage
 
   def self.open(browser)
     page = ForestPage.new(browser)
-    browser.goto &quot;file:///Users/sns/elf/src/main/resources/org/example/elf/pages/Forest.html&quot;
+    browser.goto "file:///Users/sns/elf/src/main/resources/org/example/elf/pages/Forest.html"
     return page
   end
 
   def method_missing(m, *args)
-    puts &quot;Sorry, I (#{self}) don't know about any #{m} method.&quot;
+    puts "Sorry, I (#{self}) don't know about any #{m} method."
   end
 
   def elves_are_not_there
-    @browser.link(:id, &quot;startOver&quot;).click
+    @browser.link(:id, "startOver").click
   end
 
   def elves_line_up(elves)
     elves.each do |elf|
-      @browser.text_field(:id, &quot;elfName&quot;).set(elf['elf'])
-      @browser.text_field(:id, &quot;elfHeight&quot;).set(elf['height'])
-      @browser.button(:id, &quot;submit&quot;).click
+      @browser.text_field(:id, "elfName").set(elf['elf'])
+      @browser.text_field(:id, "elfHeight").set(elf['height'])
+      @browser.button(:id, "submit").click
     end
   end
 
@@ -165,12 +165,12 @@ class ForestPage
 
     begin
       elf_number = 0
-      elf = @browser.div(:id =&gt; &quot;elf&quot;, :index =&gt; elf_number)
+      elf = @browser.div(:id => "elf", :index => elf_number)
       while !elf.nil?
         elves.push [elf.text]
 
         elf_number = elf_number + 1
-        elf = @browser.div(:id =&gt; &quot;elf&quot;, :index =&gt; elf_number)
+        elf = @browser.div(:id => "elf", :index => elf_number)
       end
 
     rescue
@@ -184,30 +184,30 @@ end
 We also create the Forest.html as our first step to produce something visual:
 
 {% highlight html %}
-&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot;
-        &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;
-&lt;html&gt;
-&lt;head&gt;
-    &lt;title&gt;Forest Page&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Forest Page</title>
+</head>
+<body>
 
-&lt;form&gt;
-	&lt;input type=&quot;text&quot; id=&quot;elfName&quot;/&gt;
-	&lt;input type=&quot;text&quot; id=&quot;elfHeight&quot;/&gt;
-	&lt;input type=&quot;submit&quot; id=&quot;submit&quot;/&gt;
-&lt;/form&gt;
+<form>
+	<input type="text" id="elfName"/>
+	<input type="text" id="elfHeight"/>
+	<input type="submit" id="submit"/>
+</form>
 
-&lt;div id=&quot;elfLineup&quot;&gt;
-	&lt;div id=&quot;elf&quot;&gt;
+<div id="elfLineup">
+	<div id="elf">
 		Elf's name
-	&lt;/div&gt;
-&lt;/div&gt;
+	</div>
+</div>
 
-&lt;a href=&quot;#&quot; id=&quot;startOver&quot;&gt;Start over&lt;/a&gt;
+<a href="#" id="startOver">Start over</a>
 
-&lt;/body&gt;
-&lt;/html&gt;
+</body>
+</html>
 {% endhighlight %}
 
 With that in place we can run our feature again and as before we get
