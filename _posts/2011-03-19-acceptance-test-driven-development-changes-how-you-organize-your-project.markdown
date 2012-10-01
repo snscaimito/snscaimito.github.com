@@ -53,7 +53,7 @@ Whenever you start a software project the first question should be:
 
 In my example that leads to a generic Given/When/Then like this:
 
-{% highlight Gherkin %}
+{% highlight Gherkin linenos %}
 Scenario: Our ultimate goal for the project
 	Given an application with a well designed user interface
 	When the end user enters all the data needed by the backend system

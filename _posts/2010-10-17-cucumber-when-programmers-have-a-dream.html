@@ -26,7 +26,7 @@ meta:
 
 <p>Cucumber is a testing tool that allows to describe behavior of an application in natural language and in a way that business people, testers and programmers can understand. Features can be described in plain English and many other languages spoken by people around the world. A typical feature description looks like this:</p>
 
-{% highlight Gherkin %}
+{% highlight Gherkin linenos %}
 Feature: As photographer I want to take a picture of the elves lined up and
   ordered by height
 
@@ -51,7 +51,7 @@ Feature: As photographer I want to take a picture of the elves lined up and
 
 <p>After we are done talking to the photographer we take the requirements captured in feature files back to the office and sit down with one of our testers to write Cucumber step definitions. Here is what we come up with:</p>
 
-{% highlight ruby %}
+{% highlight ruby linenos %}
 Given /^I am in the forest$/ do
   @current_page = ForestPage::open @browser
 end
@@ -71,7 +71,7 @@ end
 
 <p>Remember that our goal is to write the tests before we actually start writing production code or create web pages. So we have to make up a few things just to get us going. Just as in classic TDD we can run our code now and - obviously - we will be reminded that we don't have a ForestPage object neither the other methods we are calling. Let's create as much as needed to get a bit further:</p>
 
-{% highlight ruby %}
+{% highlight ruby linenos %}
 class ForestPage
 
   def initialize(browser_to_be_used)
@@ -108,7 +108,7 @@ NoMethodError: undefined method `[]' for nil:NilClass
 
 <p>Great! But not so fast ... Our steps pass because we are accepting all messages being sent to the ForestPage class. We need to fix that later but for now this allows us to focus on last step which is:</p>
 
-{% highlight ruby %}
+{% highlight ruby linenos %}
 Then /^they line up in the following order:$/ do |order_of_elves|
   order_of_elves.diff!(@current_page.order_of_elves)
 end
@@ -118,7 +118,7 @@ end
 
 <p>We have a table with all the elves ordered by height as input and we compare that table to what we read from the page using <code>@current_page.order_of_elves</code>. Let's create this method:</p>
 
-{% highlight ruby %}
+{% highlight ruby linenos %}
   def order_of_elves
     elves = []
     elves.push ['Sara']
@@ -131,7 +131,7 @@ end
 
 <p>We still fail at the same place but this time we fail because the two tables are not identical. So our step is working in general and we know what to return from the method <code>@current_page.order_of_elves</code>. Now write the rest of the ForestPage class:</p>
 
-{% highlight ruby %}
+{% highlight ruby linenos %}
 class ForestPage
 
   def initialize(browser_to_be_used)
@@ -183,7 +183,7 @@ end
 
 <p>We also create the Forest.html as our first step to produce something visual:</p>
 
-{% highlight html %}
+{% highlight html linenos %}
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
         "http://www.w3.org/TR/html4/loose.dtd">
 <html>
