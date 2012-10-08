@@ -2,11 +2,6 @@
 layout: main
 title: Stephan Schwab
 ---
-<h1 class="blog-title">Stephan Schwab's Personal Blog</h1>
-<ul class="categories horizontal">
-	{% include categories-list.html %}
-</ul>
-
 {% for post in site.posts limit:10 %}
 	<div class="post">
 		<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>

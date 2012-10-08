@@ -29,13 +29,18 @@ H1.blog-title {
 
 .post P {
 	font-family: Georgia, Palatino, Palatino Linotype, FreeSerif, serif ;
-	font-size: 17px;
+	font-size: 15px;
 	line-height: 24px;
 	text-align: justify ;
 }
 
 .post H2 {
 	font-size: 18px;
+	margin-bottom: -3px;
+}
+
+.post H3 {
+	font-size: 16px;
 	margin-bottom: -3px;
 }
 
@@ -89,4 +94,8 @@ BLOCKQUOTE.resume P.quote-source {
 DL.resume DT {
 	color: #AB1413;
 	border-bottom: 1px dotted black ;
+}
+
+UL.special-content {
+	list-style-type: square;
 }

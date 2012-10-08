@@ -7,6 +7,17 @@
 			{% include main-sidebar.html %}
 		</div>
 		<div class="span9">
+			<div class="row">
+				<div class="span6">
+					<h1 class="blog-title">Stephan Schwab's Personal Blog</h1>
+					<ul class="categories horizontal">
+						{% include categories-list.html %}
+					</ul>
+				</div>
+				<div class="span3">
+					{% include special-content.html %}
+				</div>
+			</div>
 			{{ content }}
 		</div>
 	</div>
