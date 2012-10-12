@@ -14,18 +14,18 @@ meta:
   reddit: a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1306805785";}
   _wpas_done_twitter: '1'
 ---
-This is the second part of a mini-series about the <a href="http://blog.stephan-schwab.com/2011/05/23/use-of-a-walking-skeleton-in-acceptance-test-driven-development/">use of a walking skeleton in Acceptance Test Driven Development</a>. In this installment I want to show how a team can get started with the walking skeleton and what to expect.
+This is the second part of a mini-series about the <a href="/2011/05/23/use-of-a-walking-skeleton-in-acceptance-test-driven-development.html">use of a walking skeleton in Acceptance Test Driven Development</a>. In this installment I want to show how a team can get started with the walking skeleton and what to expect.
 
 The first order of business is to write at least one Cucumber scenario that describes one business action from end to end. It could be something like this or multiple scenarios depending on the application the team wants to build:
 
-[sourcecode language="text"]
+{% highlight Gherkin linenos %}
 Scenario:
 	Given I am a visitor to the pet clinic website
 	And my pet &quot;Charley&quot; needs rabies shots
 	When I make an appointment
 	Then I receive a confirmation email
 	And the appointment is known to the office of the pet clinic
-[/sourcecode]
+{% endhighlight %}
 
 With that the team can get started. The primary objective is to make this scenario pass and it does not matter how pretty the application will look nor should we think too much about any details just yet.
 
