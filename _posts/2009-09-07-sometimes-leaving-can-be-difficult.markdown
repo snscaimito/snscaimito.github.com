@@ -2,6 +2,7 @@
 layout: post
 title: Sometimes leaving can be difficult
 tags:
+- en
 - Farm-Life
 status: publish
 type: post

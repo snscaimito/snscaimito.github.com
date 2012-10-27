@@ -2,6 +2,7 @@
 layout: post
 title: Building a walking skeleton with the help of Cucumber scenarios
 tags:
+- en
 - Software-Development
 - atdd
 - quality

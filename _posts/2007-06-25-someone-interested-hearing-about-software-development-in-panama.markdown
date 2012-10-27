@@ -2,6 +2,7 @@
 layout: post
 title: Someone interested hearing about software development in Panama?
 tags:
+- en
 - Software-Development
 - Panama
 status: publish

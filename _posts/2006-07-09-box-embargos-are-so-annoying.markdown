@@ -2,6 +2,7 @@
 layout: post
 title: Box embargos are so annoying
 tags:
+- en
 - Travel
 status: publish
 type: post

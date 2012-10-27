@@ -2,6 +2,7 @@
 layout: post
 title: Didimo's old and new home
 tags:
+- en
 - Farm-Life
 status: publish
 type: post

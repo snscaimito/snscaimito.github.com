@@ -2,6 +2,7 @@
 layout: post
 title: A path on top
 tags:
+- en
 - Farm-Life
 status: publish
 type: post

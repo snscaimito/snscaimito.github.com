@@ -2,6 +2,7 @@
 layout: post
 title: Potential good news for snowbirds and investors in Panama
 tags:
+- en
 - Panama
 status: publish
 type: post

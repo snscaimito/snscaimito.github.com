@@ -2,6 +2,7 @@
 layout: post
 title: Silicon Valley is looking to do business in Latin America
 tags:
+- en
 - Commentary
 status: publish
 type: post

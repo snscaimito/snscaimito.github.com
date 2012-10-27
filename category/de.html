@@ -1,0 +1,8 @@
+---
+layout: main
+title: Stephan Schwab - Deutschspachige Artikel
+---
+<h1 class="blog-title"><a href="/">Stephan Schwab</a> - Deutschspachige Artikel</h1>
+{% for post in site.tags.de limit %}
+	<p><a href="{{ post.url }}">{{ post.title }}</a>, {{ post.date | date: "%d %b %Y" }}</p>
+{% endfor %}

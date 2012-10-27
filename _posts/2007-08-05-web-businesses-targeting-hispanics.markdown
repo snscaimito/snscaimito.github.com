@@ -2,6 +2,7 @@
 layout: post
 title: Web businesses targeting Hispanics
 tags:
+- en
 - Commentary
 status: publish
 type: post

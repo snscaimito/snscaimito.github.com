@@ -2,6 +2,7 @@
 layout: post
 title: Agreements are not always honored by all parties
 tags:
+- en
 - Farm-Life
 status: publish
 type: post

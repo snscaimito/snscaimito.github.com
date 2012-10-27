@@ -2,6 +2,7 @@
 layout: post
 title: Relocated to Germany
 tags:
+- en
 - Miscellaneous
 status: publish
 type: post

@@ -2,6 +2,7 @@
 layout: post
 title: The final 2 km are on horseback
 tags:
+- en
 - Farm-Life
 status: publish
 type: post

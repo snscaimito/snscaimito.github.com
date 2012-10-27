@@ -2,6 +2,7 @@
 layout: post
 title: Difference Between a Mindset and a Process
 tags:
+- en
 - Coaching
 - Thoughts
 status: publish

@@ -2,6 +2,7 @@
 layout: post
 title: How to deal with sending email in Acceptance Test Driven Development with Cucumber
 tags:
+- en
 - Software-Development
 - atdd
 - quality

@@ -2,6 +2,7 @@
 layout: post
 title: ! 'Java and Mac OS X: it''s all about priorities'
 tags:
+- en
 - Commentary
 status: publish
 type: post

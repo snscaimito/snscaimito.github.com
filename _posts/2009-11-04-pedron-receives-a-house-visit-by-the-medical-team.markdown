@@ -2,6 +2,7 @@
 layout: post
 title: Pedron receives a house visit by the medical team
 tags:
+- en
 - Farm-Life
 status: publish
 type: post

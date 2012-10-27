@@ -2,6 +2,7 @@
 layout: post
 title: Embrace complexity - Don't try to architect it
 tags:
+- en
 - Software-Development
 - Management
 status: publish

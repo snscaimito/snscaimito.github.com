@@ -2,6 +2,7 @@
 layout: post
 title: Land survey in the jungle
 tags:
+- en
 - Farm-Life
 status: publish
 type: post

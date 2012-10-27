@@ -2,6 +2,7 @@
 layout: post
 title: Pedron's hoof is getting better
 tags:
+- en
 - Farm-Life
 status: publish
 type: post

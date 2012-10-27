@@ -2,6 +2,7 @@
 layout: post
 title: PDF for my talk "Agile Development in Panama"
 tags:
+- en
 - Panama
 - Software-Development
 - Speaking

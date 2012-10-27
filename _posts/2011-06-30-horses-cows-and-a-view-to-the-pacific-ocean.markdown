@@ -2,6 +2,7 @@
 layout: post
 title: Horses, cows and a view to the Pacific Ocean
 tags:
+- en
 - Panama
 status: publish
 type: post

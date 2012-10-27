@@ -2,6 +2,7 @@
 layout: post
 title: Evaluating technologies for new product development
 tags:
+- en
 - Software-Development
 status: publish
 type: post

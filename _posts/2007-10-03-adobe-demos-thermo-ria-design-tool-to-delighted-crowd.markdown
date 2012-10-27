@@ -2,6 +2,7 @@
 layout: post
 title: Adobe Demos "Thermo" RIA Design Tool to Delighted Crowd
 tags:
+- en
 - Commentary
 status: publish
 type: post

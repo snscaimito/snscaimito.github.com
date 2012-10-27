@@ -2,6 +2,7 @@
 layout: post
 title: How to do a land survey
 tags:
+- en
 - Farm-Life
 status: publish
 type: post

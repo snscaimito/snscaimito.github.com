@@ -2,6 +2,7 @@
 layout: post
 title: Buying a washer or how to loose a customer
 tags:
+- en
 - Panama
 status: publish
 type: post

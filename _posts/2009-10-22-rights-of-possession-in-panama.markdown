@@ -2,6 +2,7 @@
 layout: post
 title: Rights of Possession in Panama
 tags:
+- en
 - Farm-Life
 status: publish
 type: post

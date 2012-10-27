@@ -2,6 +2,7 @@
 layout: post
 title: Going all the way to the end of the road (2/2)
 tags:
+- en
 - Farm-Life
 status: publish
 type: post

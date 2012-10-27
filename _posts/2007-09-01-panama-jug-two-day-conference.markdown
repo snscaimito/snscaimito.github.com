@@ -2,6 +2,7 @@
 layout: post
 title: ! 'Panama JUG: Two Day Conference'
 tags:
+- en
 - Panama
 - Software-Development
 status: publish

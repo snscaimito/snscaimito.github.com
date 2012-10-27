@@ -2,6 +2,7 @@
 layout: post
 title: ! 'Re: Is the SCM system an agile developers'' enemy?'
 tags:
+- en
 - Software-Development
 status: publish
 type: post

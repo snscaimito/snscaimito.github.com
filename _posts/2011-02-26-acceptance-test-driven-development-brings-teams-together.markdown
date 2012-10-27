@@ -2,6 +2,7 @@
 layout: post
 title: Acceptance Test Driven Development brings teams together
 tags:
+- en
 - Software-Development
 - atdd
 - quality

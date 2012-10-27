@@ -2,6 +2,7 @@
 layout: post
 title: How to get to the farm
 tags:
+- en
 - Farm-Life
 status: publish
 type: post

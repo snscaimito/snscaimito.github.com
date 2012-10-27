@@ -2,6 +2,7 @@
 layout: post
 title: Telling real stories in Acceptance Test Driven Development
 tags:
+- en
 - Software-Development
 - atdd
 - quality

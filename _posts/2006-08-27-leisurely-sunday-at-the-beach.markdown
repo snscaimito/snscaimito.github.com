@@ -2,6 +2,7 @@
 layout: post
 title: Leisurely Sunday at the beach
 tags:
+- en
 - Panama
 status: publish
 type: post

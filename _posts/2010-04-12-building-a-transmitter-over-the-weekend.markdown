@@ -2,6 +2,7 @@
 layout: post
 title: Building a transmitter over the weekend
 tags:
+- en
 - Panama
 status: publish
 type: post

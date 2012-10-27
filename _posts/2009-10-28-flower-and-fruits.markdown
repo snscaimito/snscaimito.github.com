@@ -2,6 +2,7 @@
 layout: post
 title: Flower and fruits
 tags:
+- en
 - Farm-Life
 status: publish
 type: post

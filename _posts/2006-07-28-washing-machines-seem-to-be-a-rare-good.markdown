@@ -2,6 +2,7 @@
 layout: post
 title: Washing machines seem to be a rare good
 tags:
+- en
 - Panama
 status: publish
 type: post

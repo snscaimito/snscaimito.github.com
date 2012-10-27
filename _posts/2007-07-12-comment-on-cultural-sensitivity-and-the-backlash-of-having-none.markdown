@@ -2,6 +2,7 @@
 layout: post
 title: Comment on Cultural Sensitivity and the backlash of having none
 tags:
+- en
 - Panama
 status: publish
 type: post

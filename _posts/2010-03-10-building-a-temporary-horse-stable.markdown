@@ -2,6 +2,7 @@
 layout: post
 title: Building a temporary horse stable
 tags:
+- en
 - Farm-Life
 status: publish
 type: post

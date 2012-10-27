@@ -2,6 +2,7 @@
 layout: post
 title: Developing countries and immigration laws
 tags:
+- en
 - Panama
 status: publish
 type: post

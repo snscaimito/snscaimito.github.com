@@ -2,6 +2,7 @@
 layout: post
 title: Fixing up and cleaning the rancho
 tags:
+- en
 - Farm-Life
 status: publish
 type: post

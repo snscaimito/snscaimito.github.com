@@ -2,6 +2,7 @@
 layout: post
 title: A Real Pickup Truck
 tags:
+- en
 - Farm-Life
 status: publish
 type: post

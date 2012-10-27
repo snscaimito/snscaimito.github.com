@@ -2,6 +2,7 @@
 layout: post
 title: Meeting with the district administrator to complete the road
 tags:
+- en
 - Farm-Life
 status: publish
 type: post

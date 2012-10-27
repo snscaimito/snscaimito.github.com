@@ -2,6 +2,7 @@
 layout: post
 title: We're finally relocating to Panama
 tags:
+- en
 - Panama
 status: publish
 type: post

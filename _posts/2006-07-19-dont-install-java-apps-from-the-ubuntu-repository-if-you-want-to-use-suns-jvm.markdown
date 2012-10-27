@@ -3,6 +3,7 @@ layout: post
 title: Don't install Java apps from the Ubuntu repository, if you want to use Sun's
   JVM
 tags:
+- en
 - Software-Development
 status: publish
 type: post

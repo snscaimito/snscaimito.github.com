@@ -2,6 +2,7 @@
 layout: post
 title: Exploring the farm
 tags:
+- en
 - Farm-Life
 status: publish
 type: post

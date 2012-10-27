@@ -2,6 +2,7 @@
 layout: post
 title: Using EasyMock to unit test Tapestry components and pages
 tags:
+- en
 - Software-Development
 status: publish
 type: post

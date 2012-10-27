@@ -2,6 +2,7 @@
 layout: post
 title: Another perspective on Command and Control
 tags:
+- en
 - Software-Development
 - Commentary
 - Management

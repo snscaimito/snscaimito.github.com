@@ -2,6 +2,7 @@
 layout: post
 title: How to make wooden marker poles
 tags:
+- en
 - Farm-Life
 status: publish
 type: post

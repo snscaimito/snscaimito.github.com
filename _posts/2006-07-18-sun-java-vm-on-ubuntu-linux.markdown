@@ -2,6 +2,7 @@
 layout: post
 title: Sun Java VM on Ubuntu Linux
 tags:
+- en
 - Software-Development
 status: publish
 type: post

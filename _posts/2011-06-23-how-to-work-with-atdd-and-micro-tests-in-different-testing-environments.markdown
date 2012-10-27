@@ -2,6 +2,7 @@
 layout: post
 title: How to work with ATDD and micro-tests in different testing environments
 tags:
+- en
 - Software-Development
 - atdd
 - quality

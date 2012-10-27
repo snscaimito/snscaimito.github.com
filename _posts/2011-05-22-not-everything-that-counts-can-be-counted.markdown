@@ -2,6 +2,7 @@
 layout: post
 title: Not Everything That Counts Can be Counted
 tags:
+- en
 - Commentary
 - Management
 status: publish

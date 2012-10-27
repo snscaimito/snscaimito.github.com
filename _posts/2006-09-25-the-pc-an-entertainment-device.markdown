@@ -2,6 +2,7 @@
 layout: post
 title: The PC - An entertainment device
 tags:
+- en
 - Commentary
 status: publish
 type: post

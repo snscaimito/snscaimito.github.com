@@ -2,6 +2,7 @@
 layout: post
 title: Registering our brand
 tags:
+- en
 - Farm-Life
 status: publish
 type: post

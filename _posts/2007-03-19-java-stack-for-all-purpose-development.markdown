@@ -2,6 +2,7 @@
 layout: post
 title: Java stack for all purpose development
 tags:
+- en
 - Software-Development
 status: publish
 type: post

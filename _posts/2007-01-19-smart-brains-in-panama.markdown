@@ -2,6 +2,7 @@
 layout: post
 title: Smart brains in Panama
 tags:
+- en
 - Panama
 status: publish
 type: post

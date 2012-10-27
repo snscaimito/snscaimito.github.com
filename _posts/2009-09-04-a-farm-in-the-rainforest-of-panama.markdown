@@ -2,6 +2,7 @@
 layout: post
 title: A farm in the rainforest of Panama
 tags:
+- en
 - Farm-Life
 status: publish
 type: post

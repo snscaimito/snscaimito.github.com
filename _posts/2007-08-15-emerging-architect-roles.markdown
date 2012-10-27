@@ -2,6 +2,7 @@
 layout: post
 title: Emerging Architect Roles
 tags:
+- en
 - Software-Development
 status: publish
 type: post

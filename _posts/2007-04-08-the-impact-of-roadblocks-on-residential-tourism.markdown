@@ -2,6 +2,7 @@
 layout: post
 title: The impact of roadblocks on residential tourism
 tags:
+- en
 - Panama
 status: publish
 type: post

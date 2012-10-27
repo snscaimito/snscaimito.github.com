@@ -2,6 +2,7 @@
 layout: post
 title: Thoughts on the ideal project team
 tags:
+- en
 - Software-Development
 - Management
 status: publish

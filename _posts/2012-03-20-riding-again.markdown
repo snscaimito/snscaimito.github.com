@@ -2,6 +2,7 @@
 layout: post
 title: Riding Again
 tags:
+- en
 - Farm-Life
 status: publish
 type: post

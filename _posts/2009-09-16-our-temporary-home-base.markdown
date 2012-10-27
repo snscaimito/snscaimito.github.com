@@ -2,6 +2,7 @@
 layout: post
 title: Our temporary home base
 tags:
+- en
 - Farm-Life
 status: publish
 type: post

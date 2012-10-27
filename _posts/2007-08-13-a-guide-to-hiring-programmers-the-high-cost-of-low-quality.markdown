@@ -2,6 +2,7 @@
 layout: post
 title: ! 'A Guide to Hiring Programmers: The High Cost of Low Quality'
 tags:
+- en
 - Software-Development
 - Commentary
 status: publish

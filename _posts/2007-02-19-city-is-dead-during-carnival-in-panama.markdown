@@ -2,6 +2,7 @@
 layout: post
 title: City is dead during Carnival in Panama
 tags:
+- en
 - Panama
 status: publish
 type: post

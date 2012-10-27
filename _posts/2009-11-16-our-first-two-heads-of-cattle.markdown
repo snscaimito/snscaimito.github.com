@@ -2,6 +2,7 @@
 layout: post
 title: Our first two heads of cattle
 tags:
+- en
 - Farm-Life
 status: publish
 type: post

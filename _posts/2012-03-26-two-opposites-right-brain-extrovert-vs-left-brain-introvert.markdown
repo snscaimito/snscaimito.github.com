@@ -2,6 +2,7 @@
 layout: post
 title: ! 'Two Opposites: Right-Brain Extrovert vs Left-Brain Introvert'
 tags:
+- en
 - Farm-Life
 status: publish
 type: post

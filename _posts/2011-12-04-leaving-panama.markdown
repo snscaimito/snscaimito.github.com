@@ -2,6 +2,7 @@
 layout: post
 title: Leaving Panama
 tags:
+- en
 - Panama
 status: publish
 type: post

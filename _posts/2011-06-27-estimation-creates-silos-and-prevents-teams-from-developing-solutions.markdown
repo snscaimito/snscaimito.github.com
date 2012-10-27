@@ -2,6 +2,7 @@
 layout: post
 title: Estimation creates silos and prevents teams from developing solutions
 tags:
+- en
 - Software-Development
 - Management
 status: publish

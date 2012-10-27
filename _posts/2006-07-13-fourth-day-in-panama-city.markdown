@@ -2,6 +2,7 @@
 layout: post
 title: Fourth day in Panama City
 tags:
+- en
 - Panama
 status: publish
 type: post

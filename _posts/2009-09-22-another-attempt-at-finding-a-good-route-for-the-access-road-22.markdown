@@ -2,6 +2,7 @@
 layout: post
 title: Another attempt at finding a good route for the access road (2/2)
 tags:
+- en
 - Farm-Life
 status: publish
 type: post

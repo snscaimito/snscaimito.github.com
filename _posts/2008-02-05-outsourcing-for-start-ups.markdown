@@ -2,6 +2,7 @@
 layout: post
 title: Outsourcing for start-ups?
 tags:
+- en
 - Software-Development
 status: publish
 type: post

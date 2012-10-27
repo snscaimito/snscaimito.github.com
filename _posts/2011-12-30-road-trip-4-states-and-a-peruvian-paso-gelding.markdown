@@ -2,6 +2,7 @@
 layout: post
 title: ! 'Road trip: 4 states and a Peruvian Paso gelding'
 tags:
+- en
 - Farm-Life
 - Travel
 status: publish

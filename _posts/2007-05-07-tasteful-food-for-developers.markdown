@@ -2,6 +2,7 @@
 layout: post
 title: Tasteful food for developers
 tags:
+- en
 - Software-Development
 status: publish
 type: post

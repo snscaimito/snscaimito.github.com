@@ -2,6 +2,7 @@
 layout: post
 title: It's past 8 pm and there is some live accordion music from down the street
 tags:
+- en
 - Panama
 status: publish
 type: post

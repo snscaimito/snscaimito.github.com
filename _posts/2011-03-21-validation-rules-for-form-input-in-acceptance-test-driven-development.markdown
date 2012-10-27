@@ -2,6 +2,7 @@
 layout: post
 title: Validation rules for form input in Acceptance Test Driven Development
 tags:
+- en
 - Software-Development
 - atdd
 - quality

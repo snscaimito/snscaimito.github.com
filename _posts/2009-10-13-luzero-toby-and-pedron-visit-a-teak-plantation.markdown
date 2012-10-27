@@ -2,6 +2,7 @@
 layout: post
 title: Luzero, Toby and Pedron visit a teak plantation
 tags:
+- en
 - Farm-Life
 status: publish
 type: post

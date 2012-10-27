@@ -2,6 +2,7 @@
 layout: post
 title: ! 'Client-Server Computing: The Future Web?'
 tags:
+- en
 - Software-Development
 - Commentary
 status: publish

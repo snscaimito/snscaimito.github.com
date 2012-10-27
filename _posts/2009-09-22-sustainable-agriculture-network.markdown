@@ -2,6 +2,7 @@
 layout: post
 title: Sustainable Agriculture Network
 tags:
+- en
 - Farm-Life
 status: publish
 type: post

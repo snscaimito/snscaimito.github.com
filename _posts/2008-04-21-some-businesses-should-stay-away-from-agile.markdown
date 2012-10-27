@@ -2,6 +2,7 @@
 layout: post
 title: Some businesses should stay away from Agile
 tags:
+- en
 - Software-Development
 - Management
 status: publish

@@ -2,6 +2,7 @@
 layout: post
 title: PanamaJUG Conference
 tags:
+- en
 - Panama
 - Speaking
 status: publish

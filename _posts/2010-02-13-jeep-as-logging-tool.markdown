@@ -2,6 +2,7 @@
 layout: post
 title: Jeep as Logging Tool
 tags:
+- en
 - Farm-Life
 status: publish
 type: post

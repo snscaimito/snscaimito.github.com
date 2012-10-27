@@ -2,6 +2,7 @@
 layout: post
 title: Finding horses
 tags:
+- en
 - Farm-Life
 status: publish
 type: post

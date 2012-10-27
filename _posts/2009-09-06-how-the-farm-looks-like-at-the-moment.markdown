@@ -2,6 +2,7 @@
 layout: post
 title: How the farm looks like at the moment
 tags:
+- en
 - Farm-Life
 status: publish
 type: post

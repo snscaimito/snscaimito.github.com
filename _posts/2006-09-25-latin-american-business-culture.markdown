@@ -2,6 +2,7 @@
 layout: post
 title: Latin American business culture
 tags:
+- en
 - Panama
 status: publish
 type: post

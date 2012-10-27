@@ -2,6 +2,7 @@
 layout: post
 title: Left the city behind and went 4x4
 tags:
+- en
 - Farm-Life
 status: publish
 type: post

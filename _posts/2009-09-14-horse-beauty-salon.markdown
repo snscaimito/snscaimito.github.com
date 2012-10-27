@@ -2,6 +2,7 @@
 layout: post
 title: Horse Beauty Salon
 tags:
+- en
 - Farm-Life
 status: publish
 type: post

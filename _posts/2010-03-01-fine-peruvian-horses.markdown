@@ -2,6 +2,7 @@
 layout: post
 title: Fine Peruvian Horses
 tags:
+- en
 - Farm-Life
 status: publish
 type: post

@@ -2,6 +2,7 @@
 layout: post
 title: Fiber Optics for Internet Access
 tags:
+- en
 - Panama
 status: publish
 type: post

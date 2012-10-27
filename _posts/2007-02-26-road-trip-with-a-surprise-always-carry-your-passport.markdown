@@ -2,6 +2,7 @@
 layout: post
 title: Road trip with a surprise - Always carry your passport
 tags:
+- en
 - Panama
 status: publish
 type: post

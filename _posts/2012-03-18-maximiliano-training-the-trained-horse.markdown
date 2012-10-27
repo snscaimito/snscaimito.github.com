@@ -2,6 +2,7 @@
 layout: post
 title: Maximiliano - Training the trained horse
 tags:
+- en
 - Farm-Life
 status: publish
 type: post

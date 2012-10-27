@@ -2,6 +2,7 @@
 layout: post
 title: ! '[TSE] System Integration Testing with Spring'
 tags:
+- en
 - Miscellaneous
 status: publish
 type: post

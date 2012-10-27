@@ -2,6 +2,7 @@
 layout: post
 title: Peruvian Paso Maximiliano arrives and meets Max
 tags:
+- en
 - Farm-Life
 status: publish
 type: post

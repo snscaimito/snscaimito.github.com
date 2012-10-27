@@ -2,6 +2,7 @@
 layout: post
 title: Cram the team into a small space or let them think
 tags:
+- en
 - Software-Development
 status: publish
 type: post

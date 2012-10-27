@@ -2,6 +2,7 @@
 layout: post
 title: Wood Rickshaw
 tags:
+- en
 - Farm-Life
 status: publish
 type: post

@@ -2,6 +2,7 @@
 layout: post
 title: Leading a mixed language development team
 tags:
+- en
 - Software-Development
 - Panama
 status: publish

@@ -2,6 +2,7 @@
 layout: post
 title: Turning the guayacan log into slabs
 tags:
+- en
 - Farm-Life
 status: publish
 type: post

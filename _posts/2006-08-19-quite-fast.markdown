@@ -2,6 +2,7 @@
 layout: post
 title: Quite fast
 tags:
+- en
 - Panama
 status: publish
 type: post

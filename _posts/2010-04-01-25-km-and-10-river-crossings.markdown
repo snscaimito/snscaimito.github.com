@@ -2,6 +2,7 @@
 layout: post
 title: 25 km and 10 river crossings
 tags:
+- en
 - Farm-Life
 status: publish
 type: post
