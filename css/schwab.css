@@ -78,6 +78,13 @@ UL.horizontal LI {
 	padding-right: 5px;
 }
 
+.post BLOCKQUOTE P, .post BLOCKQUOTE UL LI {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	text-align: left;
+	line-height: 20px;
+}
+
 BLOCKQUOTE.resume {
 	width: 80%;
 }
