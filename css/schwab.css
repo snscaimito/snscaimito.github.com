@@ -2,6 +2,13 @@ H1.blog-title {
 	font-size: 18px;
 }
 
+P.blog-title {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	margin-top: 24px;
+	font-size: 18px;
+}
+
 .sidebar {
 }
 
@@ -27,11 +34,15 @@ H1.blog-title {
 	margin-bottom: 2em;
 }
 
-.post P {
+.post P, .article P, .article TD, .article TH, .article UL {
 	font-family: Georgia, Palatino, Palatino Linotype, FreeSerif, serif ;
 	font-size: 15px;
 	line-height: 24px;
 	text-align: justify ;
+}
+
+.article UL {
+	text-align: left ;
 }
 
 .post H2 {
@@ -105,4 +116,41 @@ DL.resume DT {
 
 UL.special-content {
 	list-style-type: square;
+}
+
+DIV.article H1, DIV.article H2, DIV.article H3 {
+	color: #AB1413;
+}
+
+DIV.article H1 {
+	text-transform: uppercase;
+	font-size: 18px;
+	border-bottom: 1px dotted black ;
+}
+
+DIV.article H2 {
+	text-transform: uppercase;
+	font-size: 16px;
+	margin-bottom: 0px;
+	line-height: 22px;
+}
+
+DIV.article H3 {
+	font-size: 15px;
+	margin-bottom: 0px;
+	line-height: 21px;
+}
+
+DIV.article H4 {
+	font-size: 15px;
+	margin-bottom: 0px;
+	line-height: 21px;
+}
+
+.article TH {
+	text-align: left ;
+}
+
+.article TH, .article TD {
+	padding-right: 10px ;
 }
