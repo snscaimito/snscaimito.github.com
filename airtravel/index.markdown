@@ -20,6 +20,9 @@ What follows is an unordered list of articles with thoughts and discoveries as I
 * [The risk of traveling in a light aircraft](risk-light-aircraft.html)
 * [Flying during winter time](winter.html)
 * [VFR vs. IFR flying](vfr-ifr.html)
+* [Choosing the right altitude](optimum-altitude.html)
+* [Operating hours of airfield and airports](airport-operating-hours.html)
+* [Airport fees](airport-fees.html)
 
 ## Others have made similar research or tell about their experiences
 

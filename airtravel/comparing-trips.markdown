@@ -1,6 +1,6 @@
 ---
 layout: special-md
-date: 2012-12-15
+date: 2012-12-16
 title: Comparing driving, general aviation, and commercial service
 ---
 # Comparing driving, general aviation, and commercial service
@@ -8,7 +8,7 @@ Let's look at a few travels to compare the time it takes to drive versus the tim
 
 ## Driving vs. general aviation
 
-### Case 1: Travel between Mannheim and Nürnberg
+### Case 1: Travel between Mannheim and Nürnberg 
 By car the distance between the city centers of Mannheim and Nürnberg is 242km and according to Google's route planner it would take approximately 2 hours and 18 minutes to drive.
 
 <iframe style="margin-bottom: 5px; margin-left: auto; margin-right: auto; display: block; width: 500px; height: 350px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Mannheim,+Deutschland&amp;daddr=N%C3%BCrnberg,+Deutschland&amp;hl=de&amp;geocode=FWMe8wIddy6BAClFP45RJMyXRzGH5gakev7ksQ%3BFf6T8gIdjgSpACnTHLa1rlefRzG3IYypha9d3Q&amp;aq=0&amp;oq=n%C3%BCrnberg&amp;sll=49.32171,9.798385&amp;sspn=4.078365,4.103394&amp;mra=prev&amp;ie=UTF8&amp;t=m&amp;ll=49.32171,9.798385&amp;spn=4.078365,4.103394&amp;output=embed"></iframe>
@@ -42,6 +42,8 @@ Driving would take about 8 hours. Our light aircraft going at 175kt would take u
 Driving 8 hours does require some rest and additional time to eat. So driving isn't really an option, as it would become a two day trip anyway. Let's forget that.
 
 Before I look into alternatives like using commercial air service allow me to have a second look at the 3 hours 15 minutes travel time using a light aircraft. That doesn't look too bad. But to be at the destination by 09:00 we would leave by 05:45 and that isn't easy on the body. If we leave London city center by 17:00, we can we back by 20:15. However, we would not start our trip at 05:45. There is additional time required to get up, do our morning routine, have breakfast, etc. So this feels like an unhealthy thing to do in just one day and piloting ourselves with not enough sleep will be entirely dangerous. In that case we probably would do it as a two day trip going to London the evening before.
+
+__Update__: London City airport is [not available to single engine aircraft](http://www.nats-uk.ead-it.com/public/index.php%3Foption=com_content&task=blogcategory&id=92&Itemid=141.html) and in general requires prior permission to land there. The alternative seems to be Biggin Hill (EGKB) south of London. From there one can get to the city center with a combination of taxi and train. A [pilot report](http://www.you-fly.com/airport/egkb/Biggin_Hill) mentions it may take up to 45 minutes to get to downtown. So our total trip time increases by 20 minutes to 3 hours 35 minutes.
 
 ## What about using a commercial airline?
 Between major cities using a commerical airline is always an option. However, between regional centers such as Mannheim that option does not exist right away. We would have to drive from Mannheim to the nearest airport with commercial service. That would be Frankfurt.
