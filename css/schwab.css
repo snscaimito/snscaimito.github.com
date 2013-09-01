@@ -41,6 +41,22 @@ P.blog-title {
 	text-align: justify ;
 }
 
+TD {
+	font-family: Georgia, Palatino, Palatino Linotype, FreeSerif, serif ;
+	font-size: 15px;
+	line-height: 24px;
+}
+
+TABLE {
+	margin-bottom: 1em;
+}
+
+.post P IMG {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .article UL {
 	text-align: left ;
 }

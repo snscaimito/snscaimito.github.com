@@ -4,6 +4,7 @@ title: Business travel with light aircraft
 tags:
 - en
 - Travel
+- aviation
 ---
 The good news is: I've become a pilot again.
 
