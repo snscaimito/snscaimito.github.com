@@ -71,3 +71,8 @@ __Flight data__
 | Airport fees                        | landing was free coming from a Schengen country |
 
 That makes it 207.17 EUR for the fuel.
+
+__Related__
+
+* [First leg Egelsbach, Germany, to Ostrava, Czech Republic](/2013/09/01/ALE2013-Ostrava.html)
+* [Third leg Szeged, Hungary, to Bucharest, Romania](/2013-09-03-ALE2013-Szeged-Bucharest.html)
