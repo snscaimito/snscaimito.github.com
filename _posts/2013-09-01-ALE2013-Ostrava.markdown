@@ -53,7 +53,7 @@ While taxing to the parking position I called for fuel and we were greated by a 
 __Flight data__
 
 | Flight duration                     | 3 hrs 1 min |
-| Refueled AVGAS 100LL                | 112 liters @ 75,45 CZK incl. VAT |
-| Airport fees with overnight parking | 2.202,20 CZK incl. VAT |
+| Refueled AVGAS 100LL                | 112 liters @ 75.45 CZK incl. VAT |
+| Airport fees with overnight parking | 2,202.20 CZK incl. VAT |
 
 That makes it 85.55 EUR for the airport and 328.25 EUR for the fuel.
