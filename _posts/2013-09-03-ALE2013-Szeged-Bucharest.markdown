@@ -30,6 +30,8 @@ And the corresponding vertical profile:
 
 Shortly after crossing over into Romania Budapest ATC handed me off to Arad Approach which controls a good part of the area around Arad and Timisora.
 
+To my surprise Arad Approach asked for a radio check every ten minutes. There was nobody else on the frequency. After ten minutes I called in "G-NI radio check" and the controller responded "I read you five".
+
 <a target="_blank" href="/img/posts/aviation-2013-08/LHUD-LRBS-5.jpg"><img src="/img/posts/aviation-2013-08/LHUD-LRBS-small-5.jpg"/></a>
 
 The clouds looked ok with enough holes to see the ground and potentially descend.
