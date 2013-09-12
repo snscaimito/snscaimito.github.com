@@ -36,15 +36,17 @@ P.blog-title {
 
 .post P, .article P, .article TD, .article TH, .article UL {
 	font-family: Georgia, Palatino, Palatino Linotype, FreeSerif, serif ;
-	font-size: 15px;
-	line-height: 24px;
+}
+
+.post P, .article P, .article TD, .article TH, .article UL {
+	font-size: 12pt;
+	line-height: 18pt;
 	text-align: justify ;
 }
 
 TD {
-	font-family: Georgia, Palatino, Palatino Linotype, FreeSerif, serif ;
-	font-size: 15px;
-	line-height: 24px;
+	font-size: 12pt;
+	line-height: 18pt;
 }
 
 TABLE {
@@ -62,12 +64,12 @@ TABLE {
 }
 
 .post H2 {
-	font-size: 18px;
+	font-size: 18pt;
 	margin-bottom: -3px;
 }
 
 .post H3 {
-	font-size: 16px;
+	font-size: 16pt;
 	margin-bottom: -3px;
 }
 
@@ -77,7 +79,7 @@ TABLE {
 P.postfooter {
 	border-top: thin dotted black;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 12px;
+	font-size: 10pt;
 }
 
 A {
@@ -107,9 +109,9 @@ UL.horizontal LI {
 
 .post BLOCKQUOTE P, .post BLOCKQUOTE UL LI {
 	font-family: Tahoma, Geneva, sans-serif;
-	font-size: 14px;
+	font-size: 12pt;
 	text-align: left;
-	line-height: 20px;
+	line-height: 18pt;
 }
 
 BLOCKQUOTE.resume {
@@ -117,8 +119,8 @@ BLOCKQUOTE.resume {
 }
 
 BLOCKQUOTE.resume P {
-	font-size: 14px;
-	line-height: 18px;
+	font-size: 12pt;
+	line-height: 18pt;
 }
 
 BLOCKQUOTE.resume P.quote-source {
@@ -134,33 +136,33 @@ UL.special-content {
 	list-style-type: square;
 }
 
-DIV.article H1, DIV.article H2, DIV.article H3 {
+DIV.article H1, DIV.article H2, DIV.article H3, DIV.post H1, DIV.post H2, DIV.post H3 {
 	color: #AB1413;
 }
 
-DIV.article H1 {
+DIV.article H1, DIV.post H1 {
 	text-transform: uppercase;
-	font-size: 18px;
+	font-size: 16pt;
 	border-bottom: 1px dotted black ;
 }
 
-DIV.article H2 {
+DIV.article H2, DIV.post H2 {
 	text-transform: uppercase;
-	font-size: 16px;
+	font-size: 12pt;
 	margin-bottom: 0px;
-	line-height: 22px;
+	line-height: 20pt;
 }
 
-DIV.article H3 {
-	font-size: 15px;
+DIV.article H3, DIV.post H3 {
+	font-size: 12pt;
 	margin-bottom: 0px;
-	line-height: 21px;
+	line-height: 18pt;
 }
 
-DIV.article H4 {
-	font-size: 15px;
+DIV.article H4, DIV.post H4 {
+	font-size: 12pt;
 	margin-bottom: 0px;
-	line-height: 21px;
+	line-height: 18pt;
 }
 
 .article TH {
