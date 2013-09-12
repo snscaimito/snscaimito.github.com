@@ -1,0 +1,13 @@
+.sidebar {
+	display: none;
+}
+
+.post, .blog-title {
+	margin-left: 3em;
+	margin-right: 11em;
+}
+
+.post P, .article P, .article TD, .article TH, .article UL {
+	font-family: serif;
+	font-size: 10pt;
+}
