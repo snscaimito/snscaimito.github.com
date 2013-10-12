@@ -4,7 +4,7 @@ title: ALE2013 - Second leg Ostrava, Czech Republic, to Szeged, Hungary
 tags:
 - en
 - Travel
-- aviation
+- Aviation
 ---
 
 

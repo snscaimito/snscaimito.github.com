@@ -4,7 +4,7 @@ title: ALE2013 - Third leg Szeged, Hungary, to Bucharest, Romania
 tags:
 - en
 - Travel
-- aviation
+- Aviation
 ---
 On Monday the weather over Romania looked pretty bad:
 

@@ -3,6 +3,6 @@ layout: main
 title: Stephan Schwab - Aviation
 ---
 <h1 class="blog-title"><a href="/">Stephan Schwab</a> - Aviation</h1>
-{% for post in site.tags.aviation limit %}
+{% for post in site.tags.Aviation limit %}
 	<p><a href="{{ post.url }}">{{ post.title }}</a>, {{ post.date | date: "%d %b %Y" }}</p>
 {% endfor %}

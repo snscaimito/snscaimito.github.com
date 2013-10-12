@@ -4,7 +4,7 @@ title: On The Development Of Capabilities
 tags:
 - en
 - Management
-- aviation
+- Aviation
 ---
 This week my schedule calls for some full day activities at a client in Berlin on Tuesday and some activities at another client near Remscheid on Wednesday and Thursday. I am based near Frankfurt. Berlin is to the far East from me and Remscheid to the far West of my position.
 
