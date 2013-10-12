@@ -1,6 +1,6 @@
 ---
 layout: post
-title: IFR Training
+title: Commencing IFR Training
 tags:
 - en
 - Aviation
@@ -15,11 +15,11 @@ Earlier this week my instructor and I went for a short flight from our home base
 
 We filed our flight plan using the proposed routing from the EDFE website. As Egelsbach is VFR only we had to file what is called a Z flight plan. That's one that starts out VFR and then you join the IFR system once ATC picks you up.
 
-The proposed routing was
+The proposed routing was RID Y163 ANEKI MANEM Z818 ZWN shown as the magenta line in the following map.
 
-> RID Y163 ANEKI MANEM Z818 ZWN
+![RID Y163 ANEKI MANEM Z818 ZWN](/img/posts/2013-10-12-edfe-edrz.png)
 
-After we took off from runway 09 at Egelsbach and turned towards the visual reporting point KILO we called Langen RADAR to request IFR pickup. We were greeted and got "direct ZWN climb 3000 IFR starts when passing 2500". So .... That was it??
+After we took off from runway 09 at Egelsbach and turned towards the visual reporting point KILO we called Langen RADAR to request IFR pickup. We were greeted and got "direct ZWN climb 3000 IFR starts when passing 2500". So .... That was it?? The route actually flown is the blue line in the map above.
 
 My instructor had told me that in real life controllers almost always give you a shortcut and you hardly ever have to fly the filed route which gets validated and has to be accepted by the EUROCONTROL computer system in Brussels. But skipping over 90% of the route for that flight was still a bit of a surprise. 
 
