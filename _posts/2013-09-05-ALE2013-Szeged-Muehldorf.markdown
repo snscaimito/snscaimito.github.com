@@ -3,6 +3,7 @@ layout: post
 title: ALE2013 - Forth leg Szeged, Hungary, to Mühldorf, Germany
 tags:
 - en
+categories:
 - Travel
 - Aviation
 ---

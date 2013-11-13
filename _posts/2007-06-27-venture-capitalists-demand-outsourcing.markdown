@@ -3,7 +3,8 @@ layout: post
 title: Venture Capitalists demand outsourcing
 tags:
 - en
-- Commentary
+categories:
+- commentary
 status: publish
 type: post
 published: true

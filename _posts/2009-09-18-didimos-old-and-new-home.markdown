@@ -3,6 +3,7 @@ layout: post
 title: Didimo's old and new home
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

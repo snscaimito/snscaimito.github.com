@@ -3,6 +3,7 @@ layout: post
 title: Doors for the offroad trailer
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

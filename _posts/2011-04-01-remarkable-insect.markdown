@@ -3,6 +3,7 @@ layout: post
 title: Remarkable insect
 tags:
 - en
+categories:
 - Farm-Life
 - Panama
 status: publish

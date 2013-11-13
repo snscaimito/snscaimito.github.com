@@ -3,6 +3,7 @@ layout: post
 title: 30 km and different food can have a dramatic effect on a horse's health
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

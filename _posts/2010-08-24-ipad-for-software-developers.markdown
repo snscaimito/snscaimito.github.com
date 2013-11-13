@@ -3,6 +3,7 @@ layout: post
 title: IPad for software developers
 tags:
 - en
+categories:
 - Software-Development
 status: publish
 type: post

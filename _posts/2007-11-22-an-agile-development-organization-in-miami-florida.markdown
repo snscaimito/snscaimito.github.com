@@ -3,8 +3,9 @@ layout: post
 title: An Agile Development Organization in Miami, Florida
 tags:
 - en
-- Software-Development
-- Speaking
+categories:
+- software-development
+- speaking
 status: publish
 type: post
 published: true

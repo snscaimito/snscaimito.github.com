@@ -3,7 +3,8 @@ layout: post
 title: ! '[TSE] Domain Driven Design'
 tags:
 - en
-- Miscellaneous
+categories:
+- miscellaneous
 status: publish
 type: post
 published: true

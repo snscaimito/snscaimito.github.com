@@ -3,6 +3,7 @@ layout: post
 title: Business travel with light aircraft
 tags:
 - en
+categories:
 - Travel
 - Aviation
 ---

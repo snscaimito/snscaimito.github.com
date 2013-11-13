@@ -3,6 +3,7 @@ layout: post
 title: Sustainable Agriculture Network
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

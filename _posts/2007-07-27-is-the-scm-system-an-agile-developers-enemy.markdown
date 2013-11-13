@@ -3,7 +3,8 @@ layout: post
 title: Is the SCM system an agile developers' enemy?
 tags:
 - en
-- Software-Development
+categories:
+- software-development
 status: publish
 type: post
 published: true

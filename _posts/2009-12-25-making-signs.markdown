@@ -3,6 +3,7 @@ layout: post
 title: Making signs
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

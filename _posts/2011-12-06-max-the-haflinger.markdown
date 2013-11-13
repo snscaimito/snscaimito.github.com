@@ -3,6 +3,7 @@ layout: post
 title: Max the Haflinger
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

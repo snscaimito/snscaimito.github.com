@@ -3,7 +3,8 @@ layout: post
 title: Box embargos are so annoying
 tags:
 - en
-- Travel
+categories:
+- travel
 status: publish
 type: post
 published: true

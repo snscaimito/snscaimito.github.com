@@ -3,6 +3,7 @@ layout: post
 title: Building a temporary horse stable
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

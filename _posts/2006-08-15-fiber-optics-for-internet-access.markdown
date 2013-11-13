@@ -3,7 +3,8 @@ layout: post
 title: Fiber Optics for Internet Access
 tags:
 - en
-- Panama
+categories:
+- panama
 status: publish
 type: post
 published: true

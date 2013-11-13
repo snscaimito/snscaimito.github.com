@@ -3,6 +3,7 @@ layout: post
 title: Snow Leopard update
 tags:
 - en
+categories:
 - Software Development
 status: publish
 type: post

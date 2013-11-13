@@ -3,6 +3,7 @@ layout: post
 title: Farming in the rainforest of Panama
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

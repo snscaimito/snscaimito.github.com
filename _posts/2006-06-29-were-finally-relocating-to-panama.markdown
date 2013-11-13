@@ -3,7 +3,8 @@ layout: post
 title: We're finally relocating to Panama
 tags:
 - en
-- Panama
+categories:
+- panama
 status: publish
 type: post
 published: true

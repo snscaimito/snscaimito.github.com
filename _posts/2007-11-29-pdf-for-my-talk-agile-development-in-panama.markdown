@@ -3,9 +3,10 @@ layout: post
 title: PDF for my talk "Agile Development in Panama"
 tags:
 - en
-- Panama
-- Software-Development
-- Speaking
+categories:
+- panama
+- software-development
+- speaking
 status: publish
 type: post
 published: true

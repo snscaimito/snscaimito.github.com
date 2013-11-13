@@ -3,6 +3,7 @@ layout: post
 title: We are building a dirt road in the jungle
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

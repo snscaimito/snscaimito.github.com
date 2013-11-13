@@ -3,6 +3,7 @@ layout: post
 title: A farm in the rainforest - but with great cellphone coverage
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

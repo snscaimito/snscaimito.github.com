@@ -3,7 +3,8 @@ layout: post
 title: Road trip with a surprise - Always carry your passport
 tags:
 - en
-- Panama
+categories:
+- panama
 status: publish
 type: post
 published: true

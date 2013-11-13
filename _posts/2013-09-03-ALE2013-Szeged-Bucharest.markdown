@@ -3,6 +3,7 @@ layout: post
 title: ALE2013 - Third leg Szeged, Hungary, to Bucharest, Romania
 tags:
 - en
+categories:
 - Travel
 - Aviation
 ---

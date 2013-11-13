@@ -3,7 +3,8 @@ layout: post
 title: ! '[TSE] The Art of Domain Modeling'
 tags:
 - en
-- Miscellaneous
+categories:
+- miscellaneous
 status: publish
 type: post
 published: true

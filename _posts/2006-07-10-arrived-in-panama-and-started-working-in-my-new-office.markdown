@@ -3,7 +3,8 @@ layout: post
 title: Arrived in Panama and started working in my new office
 tags:
 - en
-- Panama
+categories:
+- panama
 status: publish
 type: post
 published: true

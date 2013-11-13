@@ -3,6 +3,7 @@ layout: post
 title: Unwilling, stubborn or simply scared
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

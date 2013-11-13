@@ -3,7 +3,8 @@ layout: post
 title: It's the Software, Stupid!
 tags:
 - en
-- Software-Development
+categories:
+- software-development
 status: publish
 type: post
 published: true

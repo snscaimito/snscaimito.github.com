@@ -3,7 +3,8 @@ layout: post
 title: ! 'Re: Silicon Valley is looking to do business in Latin America'
 tags:
 - en
-- Commentary
+categories:
+- commentary
 status: publish
 type: post
 published: true

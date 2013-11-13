@@ -3,7 +3,8 @@ layout: post
 title: Additional article about reduction of tourist visa term to 30 days
 tags:
 - en
-- Panama
+categories:
+- panama
 status: publish
 type: post
 published: true

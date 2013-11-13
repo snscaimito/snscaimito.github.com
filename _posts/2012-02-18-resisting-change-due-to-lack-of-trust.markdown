@@ -3,6 +3,7 @@ layout: post
 title: Resisting change due to lack of trust
 tags:
 - en
+categories:
 - Thoughts
 status: publish
 type: post

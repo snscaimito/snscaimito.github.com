@@ -3,6 +3,7 @@ layout: post
 title: Relocated to Germany
 tags:
 - en
+categories:
 - Miscellaneous
 status: publish
 type: post

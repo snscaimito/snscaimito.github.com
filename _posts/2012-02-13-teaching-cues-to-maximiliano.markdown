@@ -3,6 +3,7 @@ layout: post
 title: Teaching cues to Maximiliano
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

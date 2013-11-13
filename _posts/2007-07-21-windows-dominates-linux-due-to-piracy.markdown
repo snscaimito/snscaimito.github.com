@@ -3,7 +3,8 @@ layout: post
 title: Windows dominates Linux due to piracy
 tags:
 - en
-- Commentary
+categories:
+- commentary
 status: publish
 type: post
 published: true

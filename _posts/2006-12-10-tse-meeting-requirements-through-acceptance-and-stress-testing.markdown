@@ -3,7 +3,8 @@ layout: post
 title: ! '[TSE] Meeting Requirements through Acceptance and Stress Testing'
 tags:
 - en
-- Miscellaneous
+categories:
+- miscellaneous
 status: publish
 type: post
 published: true

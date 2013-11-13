@@ -3,6 +3,7 @@ layout: post
 title: When your organization is a software company
 tags:
 - en
+categories:
 - Thoughts
 status: publish
 type: post

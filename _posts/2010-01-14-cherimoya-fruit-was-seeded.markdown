@@ -3,6 +3,7 @@ layout: post
 title: Cherimoya fruit was seeded
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

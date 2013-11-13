@@ -3,6 +3,7 @@ layout: post
 title: Exploring a true jungle
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

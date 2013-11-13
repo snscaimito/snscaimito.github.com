@@ -3,6 +3,7 @@ layout: post
 title: Saddles, Machetes, Lasso, etc.
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

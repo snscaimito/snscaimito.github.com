@@ -3,6 +3,7 @@ layout: post
 title: Exploring the farm
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

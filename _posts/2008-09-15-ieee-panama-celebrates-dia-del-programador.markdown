@@ -3,6 +3,7 @@ layout: post
 title: IEEE Panama celebrates Dia del Programador
 tags:
 - en
+categories:
 - Panama
 - Software-Development
 - Speaking

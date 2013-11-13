@@ -3,6 +3,7 @@ layout: post
 title: Sometimes leaving can be difficult
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

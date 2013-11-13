@@ -3,7 +3,8 @@ layout: post
 title: Ohio for a few days
 tags:
 - en
-- Travel
+categories:
+- travel
 status: publish
 type: post
 published: true

@@ -3,7 +3,8 @@ layout: post
 title: Indian CIOs have to offshore work
 tags:
 - en
-- Commentary
+categories:
+- commentary
 status: publish
 type: post
 published: true

@@ -3,7 +3,8 @@ layout: post
 title: iSCSI support in Linux
 tags:
 - en
-- Miscellaneous
+categories:
+- miscellaneous
 status: publish
 type: post
 published: true

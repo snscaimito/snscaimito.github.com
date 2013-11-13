@@ -3,6 +3,7 @@ layout: post
 title: Riding Again
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

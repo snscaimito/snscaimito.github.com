@@ -3,7 +3,8 @@ layout: post
 title: Walks around Panama City
 tags:
 - en
-- Panama
+categories:
+- panama
 status: publish
 type: post
 published: true

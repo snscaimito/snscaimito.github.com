@@ -3,6 +3,6 @@ layout: main
 title: Stephan Schwab - Panama
 ---
 <h1 class="blog-title"><a href="/">Stephan Schwab</a> - Panama</h1>
-{% for post in site.tags.Panama limit %}
+{% for post in site.categories.panama limit %}
 	<p><a href="{{ post.url }}">{{ post.title }}</a>, {{ post.date | date: "%d %b %Y" }}</p>
 {% endfor %}

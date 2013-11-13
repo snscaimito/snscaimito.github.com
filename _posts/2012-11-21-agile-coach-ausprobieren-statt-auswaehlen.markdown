@@ -3,6 +3,7 @@ layout: post
 title: Agile Coach ausprobieren statt durch ein Bewerbungsverfahren auswählen
 tags:
 - de
+categories:
 - Thoughts
 ---
 

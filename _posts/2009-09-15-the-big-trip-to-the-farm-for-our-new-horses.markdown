@@ -3,6 +3,7 @@ layout: post
 title: The big trip to the farm for our new horses
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

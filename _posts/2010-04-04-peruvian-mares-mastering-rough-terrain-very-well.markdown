@@ -3,6 +3,7 @@ layout: post
 title: Peruvian mares mastering rough terrain very well
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

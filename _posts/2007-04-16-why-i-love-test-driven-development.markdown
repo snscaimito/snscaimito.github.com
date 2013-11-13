@@ -3,7 +3,8 @@ layout: post
 title: Why I love test-driven development
 tags:
 - en
-- Software-Development
+categories:
+- software-development
 status: publish
 type: post
 published: true

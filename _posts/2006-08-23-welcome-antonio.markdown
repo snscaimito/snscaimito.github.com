@@ -3,7 +3,8 @@ layout: post
 title: Welcome Antonio
 tags:
 - en
-- Panama
+categories:
+- panama
 status: publish
 type: post
 published: true

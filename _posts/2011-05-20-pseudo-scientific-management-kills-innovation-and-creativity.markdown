@@ -3,6 +3,7 @@ layout: post
 title: Pseudo Scientific Management Kills Innovation And Creativity
 tags:
 - en
+categories:
 - Software-Development
 - Management
 status: publish

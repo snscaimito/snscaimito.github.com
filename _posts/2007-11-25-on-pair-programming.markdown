@@ -3,7 +3,8 @@ layout: post
 title: On pair programming
 tags:
 - en
-- Software-Development
+categories:
+- software-development
 status: publish
 type: post
 published: true

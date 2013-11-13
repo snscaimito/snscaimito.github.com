@@ -3,6 +3,7 @@ layout: post
 title: Analysis of legal problems with Right of Possession
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

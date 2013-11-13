@@ -3,7 +3,8 @@ layout: post
 title: Why so many open source projects end up at Apache
 tags:
 - en
-- Software Development
+categories:
+- software-development
 status: publish
 type: post
 published: true

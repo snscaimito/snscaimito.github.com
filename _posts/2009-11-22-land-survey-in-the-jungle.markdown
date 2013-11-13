@@ -3,6 +3,7 @@ layout: post
 title: Land survey in the jungle
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

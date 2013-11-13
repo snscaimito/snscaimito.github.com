@@ -3,8 +3,9 @@ layout: post
 title: It doesn't matter whether it works
 tags:
 - en
-- Software-Development
-- Management
+categories:
+- software-development
+- management
 status: publish
 type: post
 published: true

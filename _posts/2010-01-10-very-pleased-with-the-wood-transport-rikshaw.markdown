@@ -3,6 +3,7 @@ layout: post
 title: Very pleased with the wood transport rikshaw
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

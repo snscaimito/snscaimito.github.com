@@ -3,7 +3,8 @@ layout: post
 title: Comment on Cultural Sensitivity and the backlash of having none
 tags:
 - en
-- Panama
+categories:
+- panama
 status: publish
 type: post
 published: true

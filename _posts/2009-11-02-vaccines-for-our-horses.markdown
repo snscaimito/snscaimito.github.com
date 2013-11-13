@@ -3,6 +3,7 @@ layout: post
 title: Vaccines for our horses
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

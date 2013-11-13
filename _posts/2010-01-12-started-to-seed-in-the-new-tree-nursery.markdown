@@ -3,6 +3,7 @@ layout: post
 title: Started to seed in the new tree nursery
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

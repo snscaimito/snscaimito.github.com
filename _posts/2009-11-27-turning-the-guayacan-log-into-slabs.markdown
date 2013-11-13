@@ -3,6 +3,7 @@ layout: post
 title: Turning the guayacan log into slabs
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

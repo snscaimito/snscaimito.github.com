@@ -3,7 +3,8 @@ layout: post
 title: Stale Java for the Mac Faithful
 tags:
 - en
-- Commentary
+categories:
+- commentary
 status: publish
 type: post
 published: true

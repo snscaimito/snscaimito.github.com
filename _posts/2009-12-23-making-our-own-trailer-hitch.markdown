@@ -3,6 +3,7 @@ layout: post
 title: Making our own trailer hitch
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

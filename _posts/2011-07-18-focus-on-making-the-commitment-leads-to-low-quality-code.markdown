@@ -3,6 +3,7 @@ layout: post
 title: Focus on making the commitment leads to low quality code
 tags:
 - en
+categories:
 - Coaching
 - quality
 status: publish

@@ -3,6 +3,7 @@ layout: post
 title: ! 'Think like a cow: pasture'
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

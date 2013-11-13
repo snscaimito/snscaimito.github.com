@@ -3,7 +3,8 @@ layout: post
 title: Cerro Azul - Vacation Homes Between the Clouds
 tags:
 - en
-- Panama
+categories:
+- panama
 status: publish
 type: post
 published: true

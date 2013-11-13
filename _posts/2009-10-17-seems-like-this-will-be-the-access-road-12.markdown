@@ -3,6 +3,7 @@ layout: post
 title: Seems like this will be the access road (1/2)
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

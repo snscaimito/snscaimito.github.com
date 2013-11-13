@@ -3,7 +3,8 @@ layout: post
 title: Leisurely Sunday at the beach
 tags:
 - en
-- Panama
+categories:
+- panama
 status: publish
 type: post
 published: true

@@ -3,7 +3,8 @@ layout: post
 title: Starting to love EJB3 Hibernate Annotations
 tags:
 - en
-- Software-Development
+categories:
+- software-development
 status: publish
 type: post
 published: true

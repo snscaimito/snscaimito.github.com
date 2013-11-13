@@ -3,7 +3,8 @@ layout: post
 title: Preparing for The Spring Experience
 tags:
 - en
-- Miscellaneous
+categories:
+- miscellaneous
 status: publish
 type: post
 published: true

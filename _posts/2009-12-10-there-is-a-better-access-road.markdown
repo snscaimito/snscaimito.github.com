@@ -3,6 +3,7 @@ layout: post
 title: There is a better access road
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

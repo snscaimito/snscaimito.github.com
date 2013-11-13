@@ -3,6 +3,7 @@ layout: post
 title: Telling real stories in Acceptance Test Driven Development
 tags:
 - en
+categories:
 - Software-Development
 - atdd
 - quality

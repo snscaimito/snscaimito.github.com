@@ -3,8 +3,9 @@ layout: post
 title: ! 'Client-Server Computing: The Future Web?'
 tags:
 - en
-- Software-Development
-- Commentary
+categories:
+- software-development
+- commentary
 status: publish
 type: post
 published: true

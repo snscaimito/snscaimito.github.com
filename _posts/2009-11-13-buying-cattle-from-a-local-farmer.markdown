@@ -3,6 +3,7 @@ layout: post
 title: Buying cattle from a local farmer
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

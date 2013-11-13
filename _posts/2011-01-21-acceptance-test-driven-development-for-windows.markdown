@@ -3,6 +3,7 @@ layout: post
 title: Acceptance Test Driven Development for Windows
 tags:
 - en
+categories:
 - Software-Development
 - atdd
 status: publish

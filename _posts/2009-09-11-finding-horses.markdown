@@ -3,6 +3,7 @@ layout: post
 title: Finding horses
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

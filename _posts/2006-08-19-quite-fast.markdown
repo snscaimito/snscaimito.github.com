@@ -3,7 +3,8 @@ layout: post
 title: Quite fast
 tags:
 - en
-- Panama
+categories:
+- panama
 status: publish
 type: post
 published: true

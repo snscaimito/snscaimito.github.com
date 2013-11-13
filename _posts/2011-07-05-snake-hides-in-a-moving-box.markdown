@@ -3,6 +3,7 @@ layout: post
 title: Snake hides in a moving box
 tags:
 - en
+categories:
 - Panama
 status: publish
 type: post

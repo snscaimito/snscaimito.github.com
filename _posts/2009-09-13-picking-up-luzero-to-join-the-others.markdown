@@ -3,6 +3,7 @@ layout: post
 title: Picking up Luzero to join the others
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

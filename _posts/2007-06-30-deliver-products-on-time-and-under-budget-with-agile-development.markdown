@@ -3,7 +3,8 @@ layout: post
 title: Deliver products on time and under budget with agile development
 tags:
 - en
-- Software-Development
+categories:
+- software-development
 status: publish
 type: post
 published: true

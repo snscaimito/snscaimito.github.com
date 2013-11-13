@@ -3,7 +3,8 @@ layout: post
 title: ! 'Agile Development ranks #18 on CNN'
 tags:
 - en
-- Commentary
+categories:
+- commentary
 status: publish
 type: post
 published: true

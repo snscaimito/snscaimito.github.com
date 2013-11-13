@@ -3,6 +3,7 @@ layout: post
 title: Test-driven introduction to Spring Framework
 tags:
 - en
+categories:
 - Software-Development
 status: publish
 type: post

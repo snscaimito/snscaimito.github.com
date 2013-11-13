@@ -3,6 +3,7 @@ layout: post
 title: The end of methodology
 tags:
 - en
+categories:
 - Commentary
 status: publish
 type: post

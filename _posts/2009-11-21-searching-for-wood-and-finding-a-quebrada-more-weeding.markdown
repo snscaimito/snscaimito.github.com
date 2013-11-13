@@ -3,6 +3,7 @@ layout: post
 title: Searching for wood and finding a "quebrada"; More weeding
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

@@ -3,6 +3,7 @@ layout: post
 title: Flower and fruits
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

@@ -3,6 +3,7 @@ layout: post
 title: Commencing IFR Training
 tags:
 - en
+categories:
 - Aviation
 ---
 Only a few weeks ago I started to enroll in a training class for the instrument rating. My goal is to extend my flying skills so that I am a bit less dependent on the weather. I don't intent to fly in really bad weather. I can always wait an hour or two for the worse to move away.

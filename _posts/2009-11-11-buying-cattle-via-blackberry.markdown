@@ -3,6 +3,7 @@ layout: post
 title: Buying cattle via Blackberry
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

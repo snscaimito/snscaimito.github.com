@@ -3,6 +3,7 @@ layout: post
 title: Checkpoints everywhere during Carnival
 tags:
 - en
+categories:
 - Panama
 status: publish
 type: post

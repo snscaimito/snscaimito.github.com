@@ -3,6 +3,7 @@ layout: post
 title: Why does it always have to be a step by step process?
 tags:
 - en
+categories:
 - Software-Development
 status: publish
 type: post

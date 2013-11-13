@@ -3,6 +3,7 @@ layout: post
 title: A path on top
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

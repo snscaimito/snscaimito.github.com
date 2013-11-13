@@ -3,6 +3,7 @@ layout: post
 title: Crossing the "Brazo de Chuluganti" river
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

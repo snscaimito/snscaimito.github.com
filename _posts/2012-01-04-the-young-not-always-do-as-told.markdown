@@ -3,6 +3,7 @@ layout: post
 title: The young not always do as told
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

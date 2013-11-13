@@ -3,7 +3,8 @@ layout: post
 title: Tasteful food for developers
 tags:
 - en
-- Software-Development
+categories:
+- software-development
 status: publish
 type: post
 published: true

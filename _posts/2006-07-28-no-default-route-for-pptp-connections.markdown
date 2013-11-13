@@ -3,7 +3,8 @@ layout: post
 title: No default route for PPTP connections
 tags:
 - en
-- Miscellaneous
+categories:
+- miscellaneous
 status: publish
 type: post
 published: true

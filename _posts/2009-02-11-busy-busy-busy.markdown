@@ -3,6 +3,7 @@ layout: post
 title: Busy, busy, busy
 tags:
 - en
+categories:
 - Software-Development
 - Miscellaneous
 status: publish

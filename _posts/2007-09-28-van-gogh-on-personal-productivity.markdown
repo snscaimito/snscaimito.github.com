@@ -3,7 +3,8 @@ layout: post
 title: Van Gogh on personal productivity
 tags:
 - en
-- Commentary
+categories:
+- commentary
 status: publish
 type: post
 published: true

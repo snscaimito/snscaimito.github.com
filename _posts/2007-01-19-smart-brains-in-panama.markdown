@@ -3,7 +3,8 @@ layout: post
 title: Smart brains in Panama
 tags:
 - en
-- Panama
+categories:
+- panama
 status: publish
 type: post
 published: true

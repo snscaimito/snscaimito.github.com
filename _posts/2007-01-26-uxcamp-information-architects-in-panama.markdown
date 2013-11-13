@@ -3,8 +3,9 @@ layout: post
 title: ! 'UXcamp: Information Architects in Panama'
 tags:
 - en
-- Panama
-- Software-Development
+categories:
+- panama
+- software-development
 status: publish
 type: post
 published: true

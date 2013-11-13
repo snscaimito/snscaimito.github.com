@@ -3,8 +3,9 @@ layout: post
 title: Does Sustainable Pace mean a 40 hour week?
 tags:
 - en
-- Software-Development
-- Management
+categories:
+- software-development
+- management
 status: publish
 type: post
 published: true

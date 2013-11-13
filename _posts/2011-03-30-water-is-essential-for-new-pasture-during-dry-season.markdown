@@ -3,6 +3,7 @@ layout: post
 title: Water is essential for new pasture during dry season
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

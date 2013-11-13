@@ -3,7 +3,8 @@ layout: post
 title: Evaluating technologies for new product development
 tags:
 - en
-- Software-Development
+categories:
+- software-development
 status: publish
 type: post
 published: true

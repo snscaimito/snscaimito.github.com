@@ -3,7 +3,8 @@ layout: post
 title: Quality control in software development
 tags:
 - en
-- Software-Development
+categories:
+- software-development
 - quality
 status: publish
 type: post

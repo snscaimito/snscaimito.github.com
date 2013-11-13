@@ -3,6 +3,7 @@ layout: post
 title: Wo liegen die Grenzen für einen Scrum Master?
 tags:
 - de
+categories:
 - Thoughts
 ---
 

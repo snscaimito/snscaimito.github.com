@@ -3,6 +3,7 @@ layout: post
 title: Clamp slabs together to saw poles
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

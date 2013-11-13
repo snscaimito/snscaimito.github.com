@@ -3,6 +3,7 @@ layout: post
 title: Fixing up and cleaning the rancho
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

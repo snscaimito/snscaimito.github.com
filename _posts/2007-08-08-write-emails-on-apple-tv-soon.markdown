@@ -3,7 +3,8 @@ layout: post
 title: Write emails on Apple TV soon?
 tags:
 - en
-- Commentary
+categories:
+- commentary
 status: publish
 type: post
 published: true

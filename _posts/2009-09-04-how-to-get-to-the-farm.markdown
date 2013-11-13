@@ -3,6 +3,7 @@ layout: post
 title: How to get to the farm
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

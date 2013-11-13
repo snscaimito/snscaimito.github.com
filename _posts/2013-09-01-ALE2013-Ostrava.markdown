@@ -3,6 +3,7 @@ layout: post
 title: ALE2013 - First leg Egelsbach, Germany, to Ostrava, Czech Republic
 tags:
 - en
+categories:
 - Travel
 - Aviation
 ---

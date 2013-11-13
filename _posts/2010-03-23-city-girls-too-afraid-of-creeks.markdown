@@ -3,6 +3,7 @@ layout: post
 title: City girls - too afraid of creeks
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

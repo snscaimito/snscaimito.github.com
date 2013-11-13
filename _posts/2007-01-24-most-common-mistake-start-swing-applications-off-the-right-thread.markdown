@@ -3,7 +3,8 @@ layout: post
 title: ! 'Most common mistake: start Swing applications off the right thread'
 tags:
 - en
-- Software-Development
+categories:
+- software-development
 status: publish
 type: post
 published: true

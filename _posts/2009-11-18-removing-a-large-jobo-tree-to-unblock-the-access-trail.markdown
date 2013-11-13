@@ -3,6 +3,7 @@ layout: post
 title: Removing a large jobo tree to unblock the access trail
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

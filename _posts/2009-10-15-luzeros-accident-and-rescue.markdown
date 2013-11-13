@@ -3,6 +3,7 @@ layout: post
 title: Luzero's accident and rescue
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

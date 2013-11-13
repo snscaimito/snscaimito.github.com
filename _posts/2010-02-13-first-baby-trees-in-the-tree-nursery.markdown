@@ -3,6 +3,7 @@ layout: post
 title: First baby trees in the tree nursery
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

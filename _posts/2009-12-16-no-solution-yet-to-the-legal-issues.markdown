@@ -3,6 +3,7 @@ layout: post
 title: No solution yet to the legal issues
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

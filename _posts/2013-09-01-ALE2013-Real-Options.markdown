@@ -3,6 +3,7 @@ layout: post
 title: ALE2013 - Use of Real Options When Flying VFR
 tags:
 - en
+categories:
 - Management
 - Aviation
 ---

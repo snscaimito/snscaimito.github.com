@@ -3,6 +3,7 @@ layout: post
 title: Why Developers Don't Want to Write Tests First
 tags:
 - en
+categories:
 - Coaching
 - Thoughts
 status: publish

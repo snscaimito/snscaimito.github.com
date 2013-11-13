@@ -3,7 +3,8 @@ layout: post
 title: The Browser is No Place for Multitasking
 tags:
 - en
-- Software-Development
+categories:
+- software-development
 status: publish
 type: post
 published: true

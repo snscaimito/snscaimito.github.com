@@ -3,6 +3,7 @@ layout: post
 title: Authentication for Apache httpd against Unix accounts
 tags:
 - en
+categories:
 - Software-Development
 status: publish
 type: post

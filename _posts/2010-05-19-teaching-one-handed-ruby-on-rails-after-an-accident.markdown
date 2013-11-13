@@ -3,6 +3,7 @@ layout: post
 title: Teaching one handed Ruby on Rails after an accident
 tags:
 - en
+categories:
 - Panama
 status: publish
 type: post

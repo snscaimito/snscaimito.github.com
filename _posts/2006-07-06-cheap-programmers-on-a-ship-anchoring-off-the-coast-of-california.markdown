@@ -3,7 +3,8 @@ layout: post
 title: Cheap programmers on a ship anchoring off the coast of California
 tags:
 - en
-- Software-Development
+categories:
+- software-development
 status: publish
 type: post
 published: true

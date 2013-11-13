@@ -3,6 +3,7 @@ layout: post
 title: ! 'My first book: Smarter Software with Activity-Centered Design'
 tags:
 - en
+categories:
 - Software-Development
 status: publish
 type: post

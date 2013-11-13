@@ -3,6 +3,7 @@ layout: post
 title: Smells in Cucumber features
 tags:
 - en
+categories:
 - Software-Development
 - atdd
 - quality

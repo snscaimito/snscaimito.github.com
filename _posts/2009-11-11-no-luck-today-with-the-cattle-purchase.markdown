@@ -3,6 +3,7 @@ layout: post
 title: No luck today with the cattle purchase
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

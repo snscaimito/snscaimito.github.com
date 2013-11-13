@@ -3,6 +3,7 @@ layout: post
 title: Leaving Panama
 tags:
 - en
+categories:
 - Panama
 status: publish
 type: post

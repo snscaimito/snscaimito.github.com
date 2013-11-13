@@ -3,6 +3,7 @@ layout: post
 title: Where the rainforest is
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

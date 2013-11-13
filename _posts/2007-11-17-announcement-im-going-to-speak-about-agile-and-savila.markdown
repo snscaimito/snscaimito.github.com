@@ -3,8 +3,9 @@ layout: post
 title: ! 'Announcement: I''m going to speak about Agile and Savila'
 tags:
 - en
-- Software-Development
-- Speaking
+categories:
+- software-development
+- speaking
 status: publish
 type: post
 published: true

@@ -3,6 +3,7 @@ layout: post
 title: Horse Beauty Salon
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

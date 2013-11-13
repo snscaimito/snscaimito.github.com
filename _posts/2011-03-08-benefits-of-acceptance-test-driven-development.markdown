@@ -3,6 +3,7 @@ layout: post
 title: Benefits of Acceptance Test Driven Development
 tags:
 - en
+categories:
 - Software-Development
 - atdd
 - quality

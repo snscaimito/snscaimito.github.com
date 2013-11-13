@@ -3,9 +3,10 @@ layout: post
 title: Another perspective on Command and Control
 tags:
 - en
-- Software-Development
-- Commentary
-- Management
+categories:
+- software-development
+- commentary
+- management
 status: publish
 type: post
 published: true

@@ -3,6 +3,7 @@ layout: post
 title: Source code as final design document in hardware development
 tags:
 - en
+categories:
 - Software-Development
 status: publish
 type: post

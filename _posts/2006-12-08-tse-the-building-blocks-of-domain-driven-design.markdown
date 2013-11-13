@@ -3,7 +3,8 @@ layout: post
 title: ! '[TSE] The Building Blocks of Domain Driven Design'
 tags:
 - en
-- Miscellaneous
+categories:
+- miscellaneous
 status: publish
 type: post
 published: true

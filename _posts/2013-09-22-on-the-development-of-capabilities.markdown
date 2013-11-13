@@ -3,6 +3,7 @@ layout: post
 title: On The Development Of Capabilities
 tags:
 - en
+categories:
 - Management
 - Aviation
 ---

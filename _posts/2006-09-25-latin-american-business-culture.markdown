@@ -3,7 +3,9 @@ layout: post
 title: Latin American business culture
 tags:
 - en
-- Panama
+categories:
+- panama
+- management
 status: publish
 type: post
 published: true

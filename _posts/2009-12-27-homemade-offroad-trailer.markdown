@@ -3,6 +3,7 @@ layout: post
 title: Homemade offroad trailer
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

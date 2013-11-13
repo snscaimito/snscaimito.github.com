@@ -3,7 +3,8 @@ layout: post
 title: The webtop - back in time?
 tags:
 - en
-- Commentary
+categories:
+- commentary
 status: publish
 type: post
 published: true

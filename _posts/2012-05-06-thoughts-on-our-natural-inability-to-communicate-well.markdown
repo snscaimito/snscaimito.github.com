@@ -3,6 +3,7 @@ layout: post
 title: Thoughts On Our Natural Inability to Communicate Well
 tags:
 - en
+categories:
 - Thoughts
 status: publish
 type: post

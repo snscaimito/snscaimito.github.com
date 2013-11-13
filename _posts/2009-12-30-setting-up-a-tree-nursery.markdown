@@ -3,6 +3,7 @@ layout: post
 title: Setting up a tree nursery
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post

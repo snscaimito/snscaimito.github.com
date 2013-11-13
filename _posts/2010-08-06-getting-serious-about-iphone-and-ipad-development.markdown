@@ -3,6 +3,7 @@ layout: post
 title: Getting serious about iPhone and iPad development
 tags:
 - en
+categories:
 - Software-Development
 status: publish
 type: post

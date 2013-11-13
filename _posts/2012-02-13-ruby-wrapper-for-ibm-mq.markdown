@@ -3,6 +3,7 @@ layout: post
 title: Ruby Wrapper for IBM MQ
 tags:
 - en
+categories:
 - Software-Development
 status: publish
 type: post

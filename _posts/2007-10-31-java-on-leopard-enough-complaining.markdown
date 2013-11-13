@@ -3,7 +3,8 @@ layout: post
 title: Java on Leopard - enough complaining
 tags:
 - en
-- Commentary
+categories:
+- commentary
 status: publish
 type: post
 published: true

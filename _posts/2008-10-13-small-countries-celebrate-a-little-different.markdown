@@ -3,6 +3,7 @@ layout: post
 title: Small countries celebrate a little different
 tags:
 - en
+categories:
 - Panama
 status: publish
 type: post

@@ -3,7 +3,8 @@ layout: post
 title: Scrum highlights poor software architecture
 tags:
 - en
-- Software-Development
+categories:
+- software-development
 status: publish
 type: post
 published: true

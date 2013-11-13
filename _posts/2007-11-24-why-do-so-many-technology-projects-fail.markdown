@@ -3,7 +3,8 @@ layout: post
 title: Why do so many technology projects fail?
 tags:
 - en
-- Software-Development
+categories:
+- software-development
 status: publish
 type: post
 published: true

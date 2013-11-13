@@ -3,7 +3,8 @@ layout: post
 title: ! 'Tapestry: first experiences'
 tags:
 - en
-- Software-Development
+categories:
+- software-development
 status: publish
 type: post
 published: true

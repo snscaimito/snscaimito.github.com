@@ -3,7 +3,8 @@ layout: post
 title: Sun Java VM on Ubuntu Linux
 tags:
 - en
-- Software-Development
+categories:
+- software-development
 status: publish
 type: post
 published: true

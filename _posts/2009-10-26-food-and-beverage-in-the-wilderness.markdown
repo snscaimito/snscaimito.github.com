@@ -3,6 +3,7 @@ layout: post
 title: Food and beverage in the wilderness
 tags:
 - en
+categories:
 - Farm-Life
 status: publish
 type: post
