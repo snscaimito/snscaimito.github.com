@@ -30,7 +30,7 @@ Here is a nice picture of the Cirrus SR-20 G-OUNI parked on the ramp in front of
 
 The clouds in the background do look quite nasty and in fact there were a number of thunderstorms in the area.
 
-After lunch and the meeting my contact dropped me off at the airport at about 6 pm in the afternoon. Minutes later I was in the cockpit to get the latest weather update and do some last minute preparations for the flight to Berlin.
+After lunch and the meeting my contact dropped me off at the airport at about 4 pm in the afternoon. Minutes later I was in the cockpit to get the latest weather update and do some last minute preparations for the flight to Berlin.
 
 I had plotted a course north of any higher terrain en-route to Berlin and stayed low in order to not become stuck on top of the clouds and then get into the night. There were a few rain showers to circumnavigate. The picture shows a very small one.
 
