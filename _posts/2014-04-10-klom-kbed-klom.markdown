@@ -23,3 +23,5 @@ Outside view: straight ahead is the JFK airport. ATC was quite busy.
 That's how we simulate flight in IMC on a bright sunny day:
 
 ![](/img/posts/boston-jfk/boston-jfk-4.jpg)
+
+And now the highlight of the trip: Me on N194TD talking to the Kennedy Approach controller in between all those airliners going into and out of the John F. Kennedy airport in New York: [LiveATC recording of N194TD talking to Kennedy Approach](/img/posts/boston-jfk/N194TD-NY.mp3). The recording has been stripped down to a few minutes. We were probably with that controller for about 45 minutes.
