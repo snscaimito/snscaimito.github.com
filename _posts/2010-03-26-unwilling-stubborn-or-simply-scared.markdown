@@ -4,7 +4,7 @@ title: Unwilling, stubborn or simply scared
 tags:
 - en
 categories:
-- Farm-Life
+- Horses
 status: publish
 type: post
 published: true

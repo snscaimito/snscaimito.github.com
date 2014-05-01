@@ -4,7 +4,7 @@ title: Maximiliano - Training the trained horse
 tags:
 - en
 categories:
-- Farm-Life
+- Horses
 status: publish
 type: post
 published: true

@@ -4,7 +4,7 @@ title: ! 'Road trip: 4 states and a Peruvian Paso gelding'
 tags:
 - en
 categories:
-- Farm-Life
+- Horses
 - Travel
 status: publish
 type: post

@@ -4,7 +4,7 @@ title: 25 km and 10 river crossings
 tags:
 - en
 categories:
-- Farm-Life
+- Horses
 status: publish
 type: post
 published: true

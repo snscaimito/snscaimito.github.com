@@ -4,7 +4,7 @@ title: The young not always do as told
 tags:
 - en
 categories:
-- Farm-Life
+- Horses
 status: publish
 type: post
 published: true

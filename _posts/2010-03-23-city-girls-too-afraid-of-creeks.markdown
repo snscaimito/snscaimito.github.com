@@ -4,7 +4,7 @@ title: City girls - too afraid of creeks
 tags:
 - en
 categories:
-- Farm-Life
+- Horses
 status: publish
 type: post
 published: true

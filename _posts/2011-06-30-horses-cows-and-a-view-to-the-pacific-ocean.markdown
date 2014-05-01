@@ -5,6 +5,7 @@ tags:
 - en
 categories:
 - Panama
+- Horses
 status: publish
 type: post
 published: true

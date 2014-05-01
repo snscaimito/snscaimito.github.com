@@ -25,11 +25,31 @@ The Eurocontrol flight plan would have me fly through the Leipzip class C airspa
 
 At the time of departure (1730LT) the weather in the Frankfurt area had been clearing up. There were blue patches, some towering cumulus clouds and some more benign clouds. I did a regular VFR departure out of EDFC following the prescribed traffic pattern for noise abatement. Then I left the field towards the North inbound my first waypoint KERAX. The FISO (informational radio service at non-towered airfields) had called ATC on the phone to obtain the first frequency and the transponder code to allow me to check in with ATC after airborne.
 
-I said Goodbye to Aschaffenburg and made my initial call to ATC "Langen RADAR N747TG airborne Aschaffenburg". I was greeted and told "maintain VMC stand by". So I staid below the class C airspace around Frankfurt and out of the clouds. A minute later I got a different frequency and upon calling them I was "Radar identified. Climb and maintain 3000." followed by "IFR starts now" and several other climb clearances up to my planned cruising altitude of FL70.
+I said Goodbye to Aschaffenburg and made my initial call to ATC:
+
+_Langen RADAR N747TG airborne Aschaffenburg._
+
+I was greeted and told:
+
+_Maintain VMC stand by._
+
+So I staid below the class C airspace around Frankfurt and out of the clouds. A minute later I got a different frequency and upon calling then I was:
+
+_Radar identified. Climb and maintain 3000._
+
+This instruction was followed by:
+
+_IFR starts now._
+
+Over the next two minutes I was given several other climb clearances up to my planned cruising altitude of FL70.
 
 ![Climbing towards the clouds](/img/posts/2014-04-edfc-edaz/edfc-edaz-1.jpg)
 
-In between I was also given a slight change to my routing "proceed direct ERSIL". That removed the waypoint ERSET between KERAX and ERSET and shortened the flight a little bit. I modified the flight plan on the FMS page of the Avidyne R9, selected the new waypoint and hit the Direct key. Everything else was supposed to stay the same. Here I am level at FL70 in the clouds with no outside visibility:
+In between I was also given a slight change to my routing:
+
+_Proceed direct ERSIL._
+
+That removed the waypoint ERSET between KERAX and ERSET and shortened the flight a little bit. I modified the flight plan on the FMS page of the Avidyne R9, selected the new waypoint and hit the Direct key. Everything else was supposed to stay the same. Here I am level at FL70 in the clouds with no outside visibility:
 
 ![Level at FL70 in the clouds](/img/posts/2014-04-edfc-edaz/edfc-edaz-2.jpg)
 
@@ -37,7 +57,11 @@ After coming up on the airway N858 at ERSIL the clouds started to disappear and,
 
 ![](/img/posts/2014-04-edfc-edaz/edfc-edaz-3.jpg)
 
-After MAXOT, a waypoint on airway N858, Munich RADAR said "proceed direct destination when able" and I gladly accepted that major shortcut. The controller was me and herself a favor. The new routing kept me out of Leipzip class C airspace and shortened my travel time to just 1:25 hours (takeoff to touchdown).
+After MAXOT, a waypoint on airway N858, Munich RADAR said:
+
+_Proceed direct destination when able._
+
+I gladly accepted that major shortcut. The controller was doing me and herself a favor. The new routing kept me out of Leipzip class C airspace and shortened my travel time to just 1:25 hours (takeoff to touchdown).
 
 Here I am in the sunshine flying towards EDAZ:
 
@@ -53,8 +77,26 @@ I was speeding at 165kt - 175kt ground speed towards Schönhagen just below the 
 
 ![](/img/posts/2014-04-edfc-edaz/edfc-edaz-7.jpg)
 
-About 10 minutes before the destination Bremen RADAR said "advice when ready to begin descend". After my response "NTG ready to descend" I received "descend and maintain 4000" followed a bit later by "descend 3600 report when ready to cancel". 
+About 10 minutes before the destination Bremen RADAR said:
 
-Upon reaching 3600ft I was about 15NM from the destination and called "NTG cancel IFR". After switching to the Schönhagen frequency I was informed that runway 07 were in use - I already guessed that based on the wind vector on the PFD - and proceeded to perform a visual landing.
+_Advice when ready to begin descend._
+
+After my response:
+
+_NTG ready to descend._
+
+I received:
+
+_Descend and maintain 4000._
+
+This was followed a bit later by:
+
+_Descend 3600 report when ready to cancel._
+
+Upon reaching 3600ft I was about 15NM from the destination and called in:
+
+_NTG cancel IFR._
+
+After switching to the Schönhagen frequency I was informed that runway 07 were in use - I already guessed that based on the wind vector on the PFD - and proceeded to perform a visual landing.
 
 The SR22 is a bit more heavy than the lesser powered SR20. Due to the power and weight one can really fly it by the numbers. With 100kt in the downwind and base legs of the visual approach it came in like on rails. On short final I slowed it down to 77kt and touched down smoothly. The IFR flight plan was closed by the FISO and I parked for the night.
