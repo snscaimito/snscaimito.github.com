@@ -38,7 +38,7 @@ During the late 1980s I learnt to fly a glider aircraft, like the [ASK-21](http:
 Learning to fly and operate an aircraft safely is not for everyone but it isn't any more difficult than to drive a powerful car. In both cases some understanding of what it entails is required. Staying calm and being able to perform controlled action is another important factor to avoid an accident.
 
 ## Why I stopped flying
-Before 1997 I was renting a [Piper PA-28](http://en.wikipedia.org/wiki/Piper_PA-28) at very favorable terms that fit within my budget as a student. It has been a hobby - albeit slightly expensive - but I had to need to travel a lot. I relocated to a different city and access to the inexpensive PA-28 became difficult. As a consequence the expensive hobby became just that and without much need for travel, I eventually dropped it.
+Before 1997 I was renting a [Piper PA-28](http://en.wikipedia.org/wiki/Piper_PA-28) at very favorable terms that fit within my budget as a student. It has been a hobby - albeit slightly expensive - and I had no need to travel a lot. I relocated to a different city and access to the inexpensive PA-28 became difficult. As a consequence the expensive hobby became just that and without much need for travel, I eventually dropped it.
 
 ## Thanks
 A very valuable source of information and insight have been the pilots participating in the conversations at the forum of [Pilot und Flugzeug](http://www.pilotundflugzeug.de) as well at the pan-european forum [EuroGA](http://www.euroga.org). In case you might wonder: "GA" stands usually for General Aviation, which is every type of aviation outside the airlines and the military.
@@ -58,3 +58,5 @@ The attempt of getting to Bucharest failed due to weather. It was clear from the
 
 ## Being Instrument Rated Is Necessary
 There really is no doubt that being an instrument rated (IR) pilot is necessary when using an aircraft for business travel. I have started my IR training and if all goes well will be able to perform IFR flights in a few months. However, even with an instrument rating and a good IFR capable aircraft the weather still can set limits and cause you to cancel a flight. Even commercial airlines are subject to that.
+
+[As of April 2014 I am now an instrument rated pilot.](/aviation/2014/04/13/instrument-rated-pilot.html) The new skill has proven very helpful immediately as can be seen in a [number of trip reports](/category/aviation.html) of IFR flights after earning the qualification.
