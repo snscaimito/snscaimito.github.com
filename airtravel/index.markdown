@@ -14,6 +14,8 @@ There are so many airports within Germany and all across Europe that you will fi
 
 That seems plenty enough.
 
+A subset are those [airports that have Instrument Procedures](https://mapsengine.google.com/map/edit?mid=z7fp82oPj2QU.kt0UifmGgaXI) and allow a safe landing in less than perfect weather.
+
 What follows is an unordered list of articles with thoughts and discoveries as I research this topic.
 
 ### Operational considerations
