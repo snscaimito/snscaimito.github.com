@@ -4,5 +4,5 @@ title: Stephan Schwab - Artículos en Español
 ---
 <h1 class="blog-title"><a href="/">Stephan Schwab</a> - Artículos en Español</h1>
 {% for post in site.tags.es limit %}
-	<p><a href="{{ post.url }}">{{ post.title }}</a>, {{ post.date | date: "%d %b %Y" }}</p>
+	<p>{{ post.date | date: "%d %b %Y" }} <a href="{{ post.url }}">{{ post.title }}</a></p>
 {% endfor %}
