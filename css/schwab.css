@@ -1,3 +1,10 @@
+body {
+ -webkit-hyphens: auto;
+ -moz-hyphens: auto;
+ -ms-hyphens: auto;
+ hyphens: auto;
+}
+
 H1.blog-title {
 	font-size: 18px;
 }
