@@ -13,11 +13,11 @@ Als typischen Fall möchte ich eine zweitägige Reise von Dieburg nach Berlin un
 
 ## Von Dieburg nach Berlin-Mitte
 
-Der Montag begann mit dem Frühstück um acht Uhr. Kurz danach war ich mit dem Auto auf dem Weg zum Flugplatz Aschaffenburg. Die Entfernung beträgt knapp 25 km. Nachdem ich N747TG aus der Halle geholt hatte, war es notwendig zur Tankstelle zu rollen und aufzutanken. Das Rollen begann um 09:29 und der Start war dann um 09:37.
+Der Montag begann mit dem Frühstück um acht Uhr. Kurz danach war ich mit dem Auto auf dem Weg zum Flugplatz Aschaffenburg. Die Entfernung beträgt knapp 25 km. Nachdem ich N747TG aus der Halle geholt hatte, war es notwendig zur Tankstelle zu rollen und aufzutanken. Das Rollen zur Tankstelle begann um 09:05 und der Start war dann um 09:15.
 
 Vom Frühstück bis zum tatsächlichen Beginn der Reise vergingen also inklusive aller Vorbereitungen und der Fahrt zum Flugplatz gut eineinhalb Stunden.
 
-Um 10:11 landete ich in Schönhagen und stellte um 10:13 den Motor an der Parkposition ab. Es folgte das Sichern des Flugzeuges und Ausladen meines Koffers. Die Übernahme eines Autos dauerte nur wenige Minuten und dann war ich auf dem Weg nach Berlin-Mitte - meinem eigentlichen Ziel. Diese Fahrt dauert typischerweise zwischen 45 und 60 Minuten. Leider habe ich keine ganz genauen Aufzeichnungen, aber ich bin bisher immer nicht später als 11:30 dort angekommen. Für den Aufenthalt nutze ich ein Hotel in der Invalidenstraße, welches in Laufweite meines Kunden liegt. Von Schönhagen kommend stelle ich zuerst das Auto in der Tiefgarage des Hotels ab und laufe dann in drei Minuten zum Büro des Kunden.
+Um 10:33 landete ich in Schönhagen und stellte um 10:37 den Motor an der Parkposition ab. Es folgte das Sichern des Flugzeuges und Ausladen meines Koffers. Die Übernahme eines Autos dauerte nur wenige Minuten und dann war ich auf dem Weg nach Berlin-Mitte - meinem eigentlichen Ziel. Diese Fahrt dauert typischerweise zwischen 45 und 60 Minuten. Leider habe ich keine ganz genauen Aufzeichnungen, aber ich bin bisher immer nicht später als 11:30 dort angekommen. Für den Aufenthalt nutze ich ein Hotel in der Invalidenstraße, welches in Laufweite meines Kunden liegt. Von Schönhagen kommend stelle ich zuerst das Auto in der Tiefgarage des Hotels ab und laufe dann in drei Minuten zum Büro des Kunden.
 
 Die gesamte Reisezeit, __von Frühstück bis Eintreffen im Büro des Kunden__, beträgt in diesem Fall von __8:00 Uhr bis maximal 11:30 Uhr__ - also __3:30 Stunden__.
 
