@@ -2,7 +2,7 @@
 layout: post
 title: Angenehmer Reisen durch selber fliegen
 tags:
-- en
+- de
 categories:
 - Aviation
 - Thoughts
