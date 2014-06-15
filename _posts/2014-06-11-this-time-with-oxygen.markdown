@@ -10,7 +10,7 @@ Yesterday I had another opportunity to fly to Berlin for work again. This time I
 
 Pilots need to use oxygen when flying above 12,000ft for more than 30 minutes. But some people do experience headaches when flying at just 10,000 for a while. Hypoxia is an evil thing that creeps on to you slowly. And when it hits you, you won't notice because you are actually feeling great - until you pass out.
 
-As some people say that using oxygen even at FL100 (about 3,000 meters), I wanted to try that. And yes, I can report that I arrived quite relaxed. Although there was yet no need to use it, it does have a positive effect and makes airtravel even a little bit more enjoyable. 
+As some people say that using oxygen even at FL100 (about 3,000 meters) helps to arrive more relaxed, I wanted to try that. And yes, I can report that I arrived quite relaxed. Although there was yet no need to use it, it does have a positive effect and makes airtravel even a little bit more enjoyable. 
 
 I believe in commercial airliners the cabin is held at 2,500 meters. It makes you sleepy after a while.
 
