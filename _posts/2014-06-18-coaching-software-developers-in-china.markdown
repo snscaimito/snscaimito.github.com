@@ -5,6 +5,7 @@ tags:
 - en
 categories:
 - Travel
+- China
 - Coaching
 - Quality
 - Software-Development
