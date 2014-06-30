@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Day 7 - Impressions of Chinese street life
+title: Impressions of Chinese street life
 tags:
 - en
 categories:

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Day 1 - Transfer from Hong Kong to Shenzhen
+title: Transfer from Hong Kong to Shenzhen
 tags:
 - en
 categories:

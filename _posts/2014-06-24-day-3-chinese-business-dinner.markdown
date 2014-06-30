@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Day 3 - Chinese business dinner
+title: Chinese business dinner
 tags:
 - en
 categories:

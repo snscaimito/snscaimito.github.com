@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Day 4 - Some Beijing impressions
+title: Some Beijing impressions
 tags:
 - en
 categories:

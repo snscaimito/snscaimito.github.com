@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Day 9 - Do you take a nap after lunch?
+title: Do you take a nap after lunch?
 tags:
 - en
 categories:

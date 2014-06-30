@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Day 4 - Lunch
+title: Chinese Lunch
 tags:
 - en
 categories:
