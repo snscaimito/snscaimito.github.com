@@ -13,6 +13,16 @@ In order to fly VFR _Visual Meteorological Conditions_ (VMC) have to be maintain
 
 Many countries also allow __VFR flights at night__ but some European countries like Spain do not. In Germany VFR night is permitted.
 
+### Some write-ups about my own VFR flights
+<div>
+	<ul style="list-style-type: none">
+{% for post in site.categories.vfr limit %}
+	<li>{{ post.date | date: "%d %b %Y" }} <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+	</ul>
+</div>
+
+
 ### Go from origin to destination in a straight line
 Flying under VFR allows the pilot to choose any flight path as he likes. That may very well be a simple straight line between origin and destination. In fact the [comparisons of travel time](comparing-trips.html) I did are based on going direct.
 
@@ -26,5 +36,15 @@ Unlike VFR flights IFR happens usually within controlled airspace and requires f
 
 In Europe all IFR flight plans have to go through the [Central Flow Management Unit (CFMU)](https://www.public.cfmu.eurocontrol.int) by Eurocontrol. There are many tales available on several websites that talk about how inefficient routings sometimes get. On the other hand in trip reports IFR pilots report frequently that ATC all across Europe works hard to offer "directs" as much as possible thus allowing the pilot to shorten the distance to be flown. The bad thing is that ahead of the time the flight takes place these shortcuts cannot be known and therefore all other calculations, including the amount of fuel required, need to be made based on the routing as accepted by CFMU.
 
-# To make the trip or cancel it
+### Some write-ups about my own IFR flights
+<div>
+	<ul style="list-style-type: none">
+{% for post in site.categories.ifr limit %}
+	<li>{{ post.date | date: "%d %b %Y" }} <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+	</ul>
+</div>
+
+
+## To make the trip or cancel it
 Weather is the primary factor that causes a flight to be canceled at the last minute. If at the origin or the destination the weather conditions are not good enough to perform a safe flight, the pilot will decide to not go.

@@ -6,6 +6,7 @@ tags:
 categories:
 - Travel
 - Aviation
+- VFR
 ---
 The forecast for Saturday and Sunday for the Eastern Alps and further on to Frankfurt looked not great. So we decided to head back home on Friday. The route was planned towards SASAL to cross over into Austria and then overfly the mountains via Mariazell, stay south of Linz and enter Germany shortly after for a landing at Mühldorf. There we wanted to have lunch and continue in the afternoon to Frankfurt.
 

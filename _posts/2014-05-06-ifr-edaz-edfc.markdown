@@ -5,6 +5,7 @@ tags:
 - en
 categories:
 - Aviation
+- IFR
 ---
 This is another account of an IFR flight from Berlin-Schönhagen (EDAZ) to Aschaffenburg (EDFC). The flight took 1:35 hours from takeoff to touchdown.
 

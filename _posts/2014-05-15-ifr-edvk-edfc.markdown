@@ -5,6 +5,7 @@ tags:
 - en
 categories:
 - Aviation
+- IFR
 ---
 Everything today was working well. No stress or trouble of any kind. Eventually I was riding a taxi to the airport of Kassel-Calden. While I was being taken to the airport I filed IFR for 19:50 local time for the flight back to Aschaffenburg (EDFC):
 

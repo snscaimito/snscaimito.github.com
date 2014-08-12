@@ -6,6 +6,7 @@ tags:
 categories:
 - Travel
 - Aviation
+- VFR
 ---
 
 

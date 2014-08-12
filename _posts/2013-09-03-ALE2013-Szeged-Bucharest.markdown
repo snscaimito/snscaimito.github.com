@@ -6,6 +6,7 @@ tags:
 categories:
 - Travel
 - Aviation
+- VFR
 ---
 On Monday the weather over Romania looked pretty bad:
 
