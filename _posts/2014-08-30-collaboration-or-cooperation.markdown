@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Collaboration or Cooperation
+title: From competition it is a big leap to cooperation
 tags:
 - en
 categories:
@@ -21,7 +21,6 @@ Cooperation is presented as:
 
 But then I have seen motivational posters where 合作 was shown next to the English word collaboration together with an image of two people climbing a mountain. One was offering the other his hand to help him up.
 
-## From competition it is a big leap to cooperation
 As I've been told Chinese life is very competetive. Pupils in school compete with each other. Only the best grades will allow a student to enter one of the good Universities. And only with good grades at the University will it be possible to find a good job.
 
 I've done a few interviews and people tell me that collaboration or cooperation at University were not a smart idea. Why help the competition.
