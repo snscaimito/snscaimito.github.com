@@ -42,12 +42,9 @@ P.blog-title {
 }
 
 .post P, .article P, .article TD, .article TH, .article UL {
-	font-family: Georgia, Palatino, Palatino Linotype, FreeSerif, serif ;
-}
-
-.post P, .article P, .article TD, .article TH, .article UL {
+	font-family: "museo-sans", sans-serif ;
 	font-size: 12pt;
-	line-height: 18pt;
+	line-height: 16pt;
 	text-align: justify ;
 }
 
@@ -115,10 +112,10 @@ UL.horizontal LI {
 }
 
 .post BLOCKQUOTE P, .post BLOCKQUOTE UL LI {
-	font-family: Tahoma, Geneva, sans-serif;
+	font-family: "droid-sans", sans-serif;
 	font-size: 12pt;
 	text-align: left;
-	line-height: 18pt;
+	line-height: 16pt;
 }
 
 BLOCKQUOTE.resume {
