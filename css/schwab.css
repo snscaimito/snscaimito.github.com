@@ -38,11 +38,15 @@ P.blog-title {
 }
 
 .post {
+	font-family: "museo-sans", sans-serif ;
 	margin-bottom: 2em;
 }
 
+.post H1 {
+	font-size: 18pt;
+}
+
 .post P, .article P, .article TD, .article TH, .article UL {
-	font-family: "museo-sans", sans-serif ;
 	font-size: 12pt;
 	line-height: 16pt;
 	text-align: justify ;
