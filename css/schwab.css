@@ -180,3 +180,18 @@ DIV.article H4, DIV.post H4 {
 .article TH, .article TD {
 	padding-right: 10px ;
 }
+
+pre {
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	overflow: auto;
+	word-wrap: normal;
+	white-space: pre;
+}
+
+DIV.ale_news_post_header {
+	background: #FFFEC9 ;
+	padding: 5px;
+}

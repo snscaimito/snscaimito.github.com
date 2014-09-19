@@ -8,17 +8,11 @@
 			{% include main-sidebar.html %}
 		</div>
 		<div class="span9">
-			<div class="row">
-				<div class="span6">
-					<p class="blog-title">Stephan Schwab's Personal Blog</p>
-					<ul class="categories horizontal">
-						{% include categories-list.html %}
-					</ul>
-				</div>
-				<div class="span3">
-					{% include special-content.html %}
-				</div>
-			</div>
+			<p class="blog-title">Stephan Schwab's Personal Blog</p>
+			<ul class="categories horizontal">
+				{% include categories-list.html %}
+			</ul>
+			<hr/>
 			{{ content }}
 		</div>
 	</div>
