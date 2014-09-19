@@ -7,7 +7,7 @@ categories:
 - China
 - Aviation
 ---
-On a recent domestic flight as passenger inside China I got to see this spectacular view. The iPhoto picture does not really do it justic but still I want to share it.
+On a recent domestic flight as passenger inside China I got to see this spectacular view. The iPhone picture does not really do it justice but still I want to share it.
 
 What I like is how the lights of the city illuminate the clouds from below.
 
