@@ -193,5 +193,13 @@ pre {
 
 DIV.ale_news_post_header {
 	background: #FFFEC9 ;
-	padding: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-bottom: 10px;
+}
+
+DIV.ale_news_post_header P {
+	margin-bottom: 0px;
 }
