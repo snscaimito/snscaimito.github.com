@@ -109,9 +109,4 @@ Unlike other approaches, I want to focus on the behavior of the service and not 
 
 After all, software product development is a journey and you never know what you will discover.
 
-## More in this series
-<ul>
-{% for post in site.categories.ale-news-service limit %}
-	 <li>{{ post.date | date: "%d %b %Y" }} <a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-</ul>
+{% include ale-news-post-footer.html %}
