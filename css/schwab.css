@@ -16,7 +16,10 @@ P.blog-title {
 	font-size: 18px;
 }
 
-.sidebar {
+@media (max-width: 767px) {
+	.sidebar {
+	    display: none !important;
+	}
 }
 
 .sidebar P {
