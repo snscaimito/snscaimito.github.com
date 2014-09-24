@@ -110,6 +110,10 @@ articleApp.controller('ArticleListCtrl', ['$scope', '$http',
   }]);
 ```
 
+## Where did the data come from?
+As the article service has only a fake data storage, a simple static instance variable, a GET request to obtain a list of articles will return an empty array. I used the [CocoaRestClient](http://mmattozzi.github.io/cocoa-rest-client/) to submit data to it via the POST method. That way I was able to use the service from the prototype web client.
+
+
 So far I have experimented a little bit in order to learn more about how to use AngularJS. There was no point yet in writing a specification for the web client. That will follow next.
 
 {% include ale-news-post-footer.html %}
