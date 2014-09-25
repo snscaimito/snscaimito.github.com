@@ -8,7 +8,7 @@ categories:
 - Software-Development
 - ale-news-service
 ---
-{% include ale-news-post-header.html %}
+This blog post is part of a series about the development of ALE News using an approach to software development called Acceptance Test-Driven Development. <a href="/ale-news.html">For an overview please see the introductory article</a>.
 
 ## Strict separation between client and server
 Unlike in the past I wanted to use a modern web application architecture. The server should not be concerned with any presentation duties. That means: no HTML will be created on the server. Instead there will be a server application exposing RESTful web services and the actual website will be rendered in the browser - being a pure client consuming the services from the server.
