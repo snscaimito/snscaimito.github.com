@@ -11,10 +11,13 @@ published: true
 meta:
   _edit_last: '6384953'
 ---
-<p>After seeing enough of this <em>fantastic</em> view out of our city apartment (left picture) we decided to move to a nicer place. Less noise, no pollution, no traffic jams - only the sounds of birds, grasshoppers and other animals. So now I have the view in the right picture. Panama, as all the other countries in Central America, is a mountainous place. It's always up and down once you leave the beach areas and the Interamerican Highway running East to West through the Istmus.</p>
+<p>After seeing enough of this <em>fantastic</em> view out of our city apartment (left picture) we decided to move to a nicer place.</p> 
 
-<p align="center"><a href="http://www.flickr.com/photos/34665899@N00/3136707605" title="View 'November rain in Panama City' on Flickr.com"><img src="http://farm4.static.flickr.com/3114/3136707605_4bde1904f6_t.jpg" alt="November rain in Panama City" border="0" width="100"></a>
-<a href="http://www.flickr.com/photos/34665899@N00/3143258732" title="View 'New office view' on Flickr.com"><img src="http://farm4.static.flickr.com/3110/3143258732_31574fc869_t.jpg" alt="New office view" border="0" width="100" height="75" /></a></p>
+![](/img/posts/2008-12-28/3136707605_4bde1904f6_z.jpg)
+
+<p>Less noise, no pollution, no traffic jams - only the sounds of birds, grasshoppers and other animals. So now I have the view in the first picture. Panama, as all the other countries in Central America, is a mountainous place. It's always up and down once you leave the beach areas and the Interamerican Highway running East to West through the Istmus.</p>
+
+![](/img/posts/2008-12-28/3143258732_31574fc869_z.jpg)
 
 <p>The city is not bad per se. On a sunny day there are many nice places where you can sit, have a drink and enjoy people watching. But it's always some kind of commercial activity you are taking part in. Those places are businesses and you are a paying customer. Nature doesn't charge you for enjoying the view and fresh air.</p>
 
@@ -22,7 +25,10 @@ meta:
 
 <p>But anyway ... I got it out of customs before the holidays, we could relocate and I even had some time to explore our immediate surroundings off the regular roads.</p>
 
-<p align="center"><a href="http://www.flickr.com/photos/34665899@N00/3137506260" title="View '' on Flickr.com"><img src="http://static.flickr.com/3042/3137506260_4d0b2be126_t.jpg" alt="" border="0" width="" height="" /></a>
-<a href="http://www.flickr.com/photos/34665899@N00/3136683183" title="View '' on Flickr.com"><img src="http://static.flickr.com/3114/3136683183_c37535bbf5_t.jpg" alt="" border="0" width="" height="" /></a>
-<a href="http://www.flickr.com/photos/34665899@N00/3136683887" title="View '' on Flickr.com"><img src="http://static.flickr.com/3222/3136683887_03301d6eed_t.jpg" alt="" border="0" width="" height="" /></a>
-<a href="http://www.flickr.com/photos/34665899@N00/3137500996" title="View '' on Flickr.com"><img src="http://farm4.static.flickr.com/3207/3137500996_c3ca3b0c1a_t.jpg" alt="" border="0" width="100" height="75" /></a></p>
+![](/img/posts/2008-12-28/3136683183_c37535bbf5_z.jpg)
+
+![](/img/posts/2008-12-28/3136683887_03301d6eed_z.jpg)
+
+![](/img/posts/2008-12-28/3137500996_c3ca3b0c1a_z.jpg)
+
+![](/img/posts/2008-12-28/3137506260_4d0b2be126_z.jpg)
