@@ -3,7 +3,7 @@ layout: special
 date: 2013-09-10
 title: Using a light aircraft for business travel within Europe
 ---
-After living several years in Panama and traveling back and forth between Panama and many cities in the United States - at some point even on a weekly basis - I've become quite used to air travel. Now that we have relocated back to Europe I'm trying to pick up an old thing and figure out whether I can make use of it to serve clients all across Europe instead of limiting my business to a certain area.
+After living several years in [Panama](category/panama.html) and traveling back and forth between [Panama](category/panama.html) and many cities in the United States - at some point even on a weekly basis - I've become quite used to air travel. Now that we have relocated back to Europe I have picked up piloting light aircraft again. I believe I can make use of it to serve clients all across Europe instead of limiting my business to a certain area.
 
 In the 1990s I had a few opportunities to use a light aircraft for business travel. It was a pleasant experience, saved time and wasn't that expensive given the alternatives.
 
@@ -43,20 +43,9 @@ Before 1997 I was renting a [Piper PA-28](http://en.wikipedia.org/wiki/Piper_PA-
 ## Thanks
 A very valuable source of information and insight have been the pilots participating in the conversations at the forum of [Pilot und Flugzeug](http://www.pilotundflugzeug.de) as well at the pan-european forum [EuroGA](http://www.euroga.org). In case you might wonder: "GA" stands usually for General Aviation, which is every type of aviation outside the airlines and the military.
 
-## Reports From Actually Doing It
-Since reactivating my license to pilot an aircraft in April 2013 I have performed a number of VFR flights for business purposes within Germany. During summer that was relatively easy. I have learned a number of things but not yet found the time to condense them into an article.
-
-In late August 2013 an opportunity for a much greater undertaking showed up: [Visiting the ALE2013 conference in Bucharest, Romania](/travel/aviation/vfr/2013/09/01/ALE2013-Ostrava.html):
-
-* [First leg Egelsbach, Germany, to Ostrava, Czech Republic](/travel/aviation/vfr/2013/09/01/ALE2013-Ostrava.html)
-* [Second leg Ostrava, Czech Republic, to Szeged, Hungary](/travel/aviation/vfr/2013/09/02/ALE2013-Ostrava-Szeged.html)
-* [Third leg Szeged, Hungary, to Bucharest, Romania](/travel/aviation/vfr/2013/09/03/ALE2013-Szeged-Bucharest.html)
-* [Forth leg Szeged, Hungary, to Mühldorf, Germany](/travel/aviation/vfr/2013/09/05/ALE2013-Szeged-Muehldorf.html)
-* Fifth leg Mühldorf, Germany, back to Egelsbach, Germany
-
-The attempt of getting to Bucharest failed due to weather. It was clear from the beginning that being a VFR pilot is quite limiting but it was worth a try nonetheless.
-
 ## Being Instrument Rated Is Necessary
-There really is no doubt that being an instrument rated (IR) pilot is necessary when using an aircraft for business travel. I have started my IR training and if all goes well will be able to perform IFR flights in a few months. However, even with an instrument rating and a good IFR capable aircraft the weather still can set limits and cause you to cancel a flight. Even commercial airlines are subject to that.
+Since reactivating my license to pilot an aircraft in April 2013 I have performed a number of VFR flights for business purposes within Germany. In late August 2013 an opportunity for a much greater undertaking showed up: [Visiting the ALE2013 conference in Bucharest, Romania](/travel/aviation/vfr/ale2013-vfr/2013/09/01/ALE2013-Ostrava.html). The attempt of getting to Bucharest failed due to weather. It was clear from the beginning that being a VFR pilot is quite limiting but it was worth a try nonetheless.
+
+There really is no doubt that being an instrument rated (IR) pilot is necessary when using an aircraft for business travel. However, even with an instrument rating and a good IFR capable aircraft the weather still can set limits and cause you to cancel a flight. Even commercial airlines are subject to that.
 
 [As of April 2014 I am now an instrument rated pilot.](/aviation/2014/04/13/instrument-rated-pilot.html) The new skill has proven very helpful immediately as can be seen in a [number of trip reports](/category/aviation.html) of IFR flights after earning the qualification.

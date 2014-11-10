@@ -283,7 +283,7 @@ pre {
 	white-space: pre;
 }
 
-DIV.ale_news_post_header, DIV.ale_news_post_footer {
+DIV.ale_news_post_header, DIV.ale_news_post_footer, DIV.related_articles {
 	background: #FFFEC9 ;
 	padding-top: 5px;
 	padding-bottom: 5px;
@@ -300,7 +300,7 @@ DIV.ale_news_post_header {
 	margin-left: 20px
 }
 
-DIV.ale_news_post_header, DIV.ale_news_post_footer P {
+DIV.ale_news_post_header, DIV.ale_news_post_footer, DIV.related_articles P {
 	margin-bottom: 0px;
 }
 

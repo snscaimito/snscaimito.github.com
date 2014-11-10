@@ -7,6 +7,7 @@ categories:
 - Travel
 - Aviation
 - VFR
+- ale2013-vfr
 ---
 The forecast for Saturday and Sunday for the Eastern Alps and further on to Frankfurt looked not great. So we decided to head back home on Friday. The route was planned towards SASAL to cross over into Austria and then overfly the mountains via Mariazell, stay south of Linz and enter Germany shortly after for a landing at Mühldorf. There we wanted to have lunch and continue in the afternoon to Frankfurt.
 
@@ -92,3 +93,6 @@ And the vertical profile:
 
 <iframe width="700" height="330" src="/img/posts/aviation-2013-08/LHUD-EDMY-vertical-profile.png"></iframe>
 
+Later we had an uneventful and slightly boring flight back to Egelsbach from where we started this journey.
+
+{% include ale2013-vfr-flight-footer.html %}

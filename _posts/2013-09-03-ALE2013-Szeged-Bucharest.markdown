@@ -7,6 +7,7 @@ categories:
 - Travel
 - Aviation
 - VFR
+- ale2013-vfr
 ---
 On Monday the weather over Romania looked pretty bad:
 
@@ -80,8 +81,4 @@ An interesting bit of this episode is that when I was handed off to Budapest fro
 
 We had a flight plan from LHUD (Szeged) to LRBS (Bucharest Baneasa) and that was in the system. We were probably in touch with Budapest ATC before the message from the Romanians about us turning back arrived.
 
-
-__Related__
-
-* [First leg Egelsbach, Germany, to Ostrava, Czech Republic](/2013/09/01/ALE2013-Ostrava.html)
-* [Second leg Ostrava, Czech Republic, to Szeged, Hungary](/2013/09/02/ALE2013-Ostrava-Szeged.html)
+{% include ale2013-vfr-flight-footer.html %}

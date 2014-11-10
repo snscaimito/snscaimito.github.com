@@ -7,6 +7,7 @@ categories:
 - Travel
 - Aviation
 - VFR
+- ale2013-vfr
 ---
 
 
@@ -74,7 +75,4 @@ __Flight data__
 
 That makes it 207.17 EUR for the fuel.
 
-__Related__
-
-* [First leg Egelsbach, Germany, to Ostrava, Czech Republic](/2013/09/01/ALE2013-Ostrava.html)
-* [Third leg Szeged, Hungary, to Bucharest, Romania](/2013/09/03/ALE2013-Szeged-Bucharest.html)
+{% include ale2013-vfr-flight-footer.html %}
