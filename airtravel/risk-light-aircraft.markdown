@@ -1,9 +1,8 @@
 ---
-layout: special-md
+layout: special
 date: 2012-12-15
 title: The risk of traveling in a light aircraft
 ---
-# The risk of traveling in a light aircraft
 Everything that moves can pose a hazard. To those outside the moving thing and to those inside of it. Cars get off the road, hit another car or hit a static object. And so do airplanes. An aircraft doesn't get off the road but it may get out of control and eventually crash unless the pilot is not able to recover to a stable flight attitude.
 
 Unlike many car accidents crashes in aviation are usually fatal. Cars are built to withstand some major forces while airplanes have to be relatively light and every weight that can be spared does count. On the other hand it's not very common to touch another object - or the ground - with an aircraft while for cars that happens quite frequently. A saying is that the most dangerous part of flying is the drive to the airport.

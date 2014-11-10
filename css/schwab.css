@@ -190,6 +190,7 @@ A:hover {
 }
 
 .categories {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .vertical {
@@ -239,7 +240,7 @@ DIV.article H1, DIV.article H2, DIV.article H3, DIV.post H1, DIV.post H2, DIV.po
 	color: #AB1413;
 }
 
-DIV.article H1, DIV.post H1 {
+DIV.article H1, DIV.post H1, H1.overview-headline {
 	text-transform: uppercase;
 	font-size: 16pt;
 	border-bottom: 1px dotted black ;
@@ -301,4 +302,30 @@ DIV.ale_news_post_header {
 
 DIV.ale_news_post_header, DIV.ale_news_post_footer P {
 	margin-bottom: 0px;
+}
+
+TABLE.article-overview {
+	margin-bottom: 0;
+}
+
+TABLE.article-overview TR {
+	vertical-align: top;
+}
+
+TABLE.article-overview TD {
+	font-size: 10pt;
+	line-height: 10pt;
+	padding-bottom: 4px;
+}
+
+P.featured-category {
+	margin-top: 0;
+}
+
+.footer {
+	background-color: #F2F2F2;
+}
+
+.header H1 {
+	text-align: center;
 }

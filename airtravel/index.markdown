@@ -1,9 +1,8 @@
 ---
-layout: special-md
+layout: special
 date: 2013-09-10
 title: Using a light aircraft for business travel within Europe
 ---
-# Using a light aircraft for business travel within Europe
 After living several years in Panama and traveling back and forth between Panama and many cities in the United States - at some point even on a weekly basis - I've become quite used to air travel. Now that we have relocated back to Europe I'm trying to pick up an old thing and figure out whether I can make use of it to serve clients all across Europe instead of limiting my business to a certain area.
 
 In the 1990s I had a few opportunities to use a light aircraft for business travel. It was a pleasant experience, saved time and wasn't that expensive given the alternatives.
@@ -28,7 +27,6 @@ What follows is an unordered list of articles with thoughts and discoveries as I
 * [Flying during winter time](winter.html)
 * [VFR vs. IFR flying](vfr-ifr.html)
 * [Choosing the right altitude](optimum-altitude.html)
-* [Weather information during flight](inflight-weather-information.html)
 
 ## Others have made similar research or tell about their experiences
 
@@ -50,10 +48,10 @@ Since reactivating my license to pilot an aircraft in April 2013 I have performe
 
 In late August 2013 an opportunity for a much greater undertaking showed up: [Visiting the ALE2013 conference in Bucharest, Romania](/2013/09/01/ALE2013-Ostrava.html):
 
-* [First leg Egelsbach, Germany, to Ostrava, Czech Republic](/travel/aviation/2013/09/01/ALE2013-Ostrava.html)
-* [Second leg Ostrava, Czech Republic, to Szeged, Hungary](/travel/aviation/2013/09/02/ALE2013-Ostrava-Szeged.html)
-* [Third leg Szeged, Hungary, to Bucharest, Romania](/travel/aviation/2013/09/03/ALE2013-Szeged-Bucharest.html)
-* [Forth leg Szeged, Hungary, to Mühldorf, Germany](/travel/aviation/2013/09/05/ALE2013-Szeged-Muehldorf.html)
+* [First leg Egelsbach, Germany, to Ostrava, Czech Republic](/travel/aviation/vfr/2013/09/01/ALE2013-Ostrava.html)
+* [Second leg Ostrava, Czech Republic, to Szeged, Hungary](/travel/aviation/vfr/2013/09/02/ALE2013-Ostrava-Szeged.html)
+* [Third leg Szeged, Hungary, to Bucharest, Romania](/travel/aviation/vfr/2013/09/03/ALE2013-Szeged-Bucharest.html)
+* [Forth leg Szeged, Hungary, to Mühldorf, Germany](/travel/aviation/vfr/2013/09/05/ALE2013-Szeged-Muehldorf.html)
 * Fifth leg Mühldorf, Germany, back to Egelsbach, Germany
 
 The attempt of getting to Bucharest failed due to weather. It was clear from the beginning that being a VFR pilot is quite limiting but it was worth a try nonetheless.

@@ -1,8 +1,12 @@
 ---
 layout: main
-title: Stephan Schwab - Miscellaneous
+title: Miscellaneous
 ---
-<h1 class="blog-title"><a href="/">Stephan Schwab</a> - Miscellaneous</h1>
-{% for post in site.categories.miscellaneous limit %}
-	<p>{{ post.date | date: "%d %b %Y" }} <a href="{{ post.url }}">{{ post.title }}</a></p>
+<table>
+{% for post in site.categories.miscellaneous %}
+<tr>
+	<td>{{ post.date | date: "%d %b %Y" }}</td>
+	<td><a href="{{ post.url }}">{{ post.title }}</a></td>
+</tr>
 {% endfor %}
+</table>

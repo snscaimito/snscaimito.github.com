@@ -1,9 +1,12 @@
 ---
 layout: main
-title: All Posts On Stephan Schwab
+title: All Posts On Stephan Schwab's Blog
 ---
-<h1 class="blog-title"><a href="/">Stephan Schwab</a> - All Posts</h1>
-
+<table>
 {% for post in site.posts %}
-	<p><a href="{{ post.url }}">{{ post.title }}</a>, {{ post.date | date: "%d %b %Y" }}</p>
+<tr>
+	<td>{{ post.date | date: "%d %b %Y" }}</td>
+	<td><a href="{{ post.url }}">{{ post.title }}</a></td>
+</tr>
 {% endfor %}
+</table>

@@ -2,12 +2,18 @@
 {% include head.html %}
 
 <body>
-	<div class="row">
-		<div class="span3">
-			{% include main-sidebar.html %}
-		</div>
-		<div class="span9">
-			{{ content }}
+	{% include navbar.html %}
+	<div class="container">
+		{% include introduction.html %}
+		<div class="row">
+			<div class="span9">
+				<div class="post">
+					{{ content }}
+				</div>
+			</div>
+			<div class="span3">
+				{% include main-sidebar.html %}
+			</div>
 		</div>
 	</div>
 </body>

@@ -1,9 +1,8 @@
 ---
-layout: special-md
+layout: special
 date: 2012-12-16
 title: Operating hours of airfields and airports
 ---
-# Operating hours of airfields and airports
 A car can be parked somewhere in the street on in your own driveway at any hour of the day. Although you can fly your own aircraft also at any hour of the day not every airfield or airport is open for your business. In Germany many airports are closed over night. Some pilots joke that the operator puts the runway away over night.
 
 Following I'm trying to gather information about operating hours for airports and airfields and figure out a pattern, if possible. That should indicate how likely it is that I will be able to leave early or return late. I list what I find ordered by country. The selection is based on which countries are of interest to me as of the moment.

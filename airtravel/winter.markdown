@@ -1,9 +1,8 @@
 ---
-layout: special-md
+layout: special
 date: 2012-12-15
 title: Flying during winter time
 ---
-# Flying during winter time
 Any flight can be severely affected by ice building up on the aircraft surfaces. Ice buildup on the wings not only increases aircraft weight but much than that reduces lift due to a change in the wing's profile. Ice can also block control surfaces. All kinds of bad things can happen with ice sticking onto an airplane. So it is best avoided or removed.
 
 ## Flying single engine during snowfall

@@ -1,9 +1,8 @@
 ---
-layout: special-md
+layout: special
 date: 2012-12-15
 title: VFR vs. IFR flying
 ---
-# VFR vs. IFR flying
 There are two sets of rules for flying any aircraft: VFR and IFR. VFR stands for _Visual Flight Rules_ and IFR means _Instrument Flight Rules_. Depending on the weather conditions a pilot may opt for one set of rules or the other. There are a number of other factors that influence the decision but for simplicity's sake it's the weather that make you fly VFR or IFR.
 
 ## VFR - See and avoid

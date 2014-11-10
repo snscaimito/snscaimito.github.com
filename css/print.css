@@ -1,13 +1,8 @@
-.sidebar {
+.footer, .featured-categories, .no-print-sidebar {
 	display: none;
 }
 
-.post, .blog-title {
-	margin-left: 3em;
-	margin-right: 11em;
-}
-
 .post P, .article P, .article TD, .article TH, .article UL {
-	font-family: serif;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 10pt;
 }

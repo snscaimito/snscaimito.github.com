@@ -1,9 +1,8 @@
 ---
-layout: special-md
+layout: special
 date: 2012-12-16
 title: Airport Fees
 ---
-# Airport Fees
 Besides the cost for the flight itself, which depends on whether you own or rent the aircraft and the price for fuel, there are additional expenses to be considered.
 
 ## Fees for trip Mannheim - Nürnberg
