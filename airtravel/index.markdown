@@ -46,7 +46,7 @@ A very valuable source of information and insight have been the pilots participa
 ## Reports From Actually Doing It
 Since reactivating my license to pilot an aircraft in April 2013 I have performed a number of VFR flights for business purposes within Germany. During summer that was relatively easy. I have learned a number of things but not yet found the time to condense them into an article.
 
-In late August 2013 an opportunity for a much greater undertaking showed up: [Visiting the ALE2013 conference in Bucharest, Romania](/2013/09/01/ALE2013-Ostrava.html):
+In late August 2013 an opportunity for a much greater undertaking showed up: [Visiting the ALE2013 conference in Bucharest, Romania](/travel/aviation/vfr/2013/09/01/ALE2013-Ostrava.html):
 
 * [First leg Egelsbach, Germany, to Ostrava, Czech Republic](/travel/aviation/vfr/2013/09/01/ALE2013-Ostrava.html)
 * [Second leg Ostrava, Czech Republic, to Szeged, Hungary](/travel/aviation/vfr/2013/09/02/ALE2013-Ostrava-Szeged.html)
