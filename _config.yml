@@ -1,14 +1,14 @@
 highlighter: pygments
-permalink: date
+permalink: /:year/:month/:day/:title.html
 markdown: redcarpet
 redcarpet:
     extensions: [
-        'no_intra_emphasis',
-        'fenced_code_blocks',
-        'autolink',
-        'strikethrough',
-        'superscript',
-        'with_toc_data',
-        'tables',
-        'hardwrap'
+        no_intra_emphasis,
+        fenced_code_blocks,
+        autolink,
+        strikethrough,
+        superscript,
+        with_toc_data,
+        tables,
+        hardwrap
     ]  
