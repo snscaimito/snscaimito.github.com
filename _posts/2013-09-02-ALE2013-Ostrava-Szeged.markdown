@@ -69,6 +69,8 @@ They had all kinds of interesting airplanes and helicopters around. This one lat
 
 __Flight data__
 
+|  |  |
+| ----------------------------------- | -------------------------------- |
 | Flight duration                     | 1 hr 56 min |
 | Refueled AVGAS 100LL                | 89.96 liters @ 690,74 HUF incl. VAT |
 | Airport fees                        | landing was free coming from a Schengen country |
