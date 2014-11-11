@@ -236,6 +236,10 @@ UL.special-content {
 	list-style-type: square;
 }
 
+UL.special-content LI {
+	font-size: smaller;
+}
+
 DIV.article H1, DIV.article H2, DIV.article H3, DIV.post H1, DIV.post H2, DIV.post H3 {
 	color: #AB1413;
 }
