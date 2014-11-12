@@ -333,3 +333,7 @@ P.featured-category {
 .header H1 {
 	text-align: center;
 }
+
+.post UL LI {
+	font-size: 12pt;
+}
