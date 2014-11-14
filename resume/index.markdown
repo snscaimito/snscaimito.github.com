@@ -21,7 +21,7 @@ I like to help **technical teams**, those who implement, create, make a product,
 Learn more about selected <a href="engagements.html">client engagements</a> and about the <a href="speaking.html">public speaking</a> I did so far.
 
 ## Facets
-As a [T-shaped person](http://en.wikipedia.org/wiki/T-shaped_skills) I don't identify with a single activity. So what I do during my wake hours of any given day can best be described as facets. Some facets are:
+As a [T-shaped person](http://en.wikipedia.org/wiki/T-shaped_skills) I don't identify myself with a single activity. So what I do during my wake hours of any given day can best be described as facets. Some facets are:
 
 <dl class="resume">
 	<dt>Author</dt>

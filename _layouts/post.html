@@ -9,6 +9,11 @@
 			<div class="span9">
 				<div class="post">
 					<h1>{{ page.title }}</h1>
+					<p>{{ page.date | date: "%d %b %Y" }} in
+						{% for category in page.categories %}
+							<a class="categoryLink" href="/category/{{ category }}.html">{{ category }}</a>
+						{% endfor %}
+					</p>
 					{{ content }}
 					<p class="postfooter">{{ page.date | date: "%d %b %Y" }}</p>
 

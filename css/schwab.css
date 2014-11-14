@@ -337,3 +337,8 @@ P.featured-category {
 .post UL LI {
 	font-size: 12pt;
 }
+
+A.categoryLink {
+	text-transform: uppercase;
+	color: #AB1413;
+}
