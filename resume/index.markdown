@@ -7,11 +7,21 @@ title: Stephan Schwab
 	<li><a href="engagements.html">Engagements</a></li>
 	<li><a href="speaking.html">Speaking</a></li>
 </ul>
-<h1>My professional experience - Overview</h1>
 
-<p>I am a person with a wide range of <a target="_blank" href="http://en.wikipedia.org/wiki/T-shaped_skills">T-shaped</a> skills and experiences in many different domains.</p>
-<p>Learn more about selected <a href="engagements.html">client engagements</a> and about the <a href="speaking.html">public speaking</a> I did so far.</p>
+# My professional experience - Overview
+My main specialty is to help others learn, explore and grow in a safe and effective way to improve how they contribute to the success of the organization they serve. I can sit with a programmer and help coding and I can also help managers with project management or the work flow in the groups they are responsible for.
 
+**Note to recruiters:** Despite all my technical experience you will find in my profile here and elsewhere, I am not available for any fulltime positions. I provide professional services through my company [Caimito Technologies](http://www.caimito.net).
+
+## Professional interests
+Collaboration between technical people and those in close contact with the actual market and customers is becoming more important as the world becomes more complex and customers have increasingly more choices.
+
+I like to help **technical teams**, those who implement, create, make a product, to **collaborate better with discovery teams**, those who figure out what a customer might want and define requirements for the implementors.
+
+Learn more about selected <a href="engagements.html">client engagements</a> and about the <a href="speaking.html">public speaking</a> I did so far.
+
+## Facets
+As a [T-shaped person](http://en.wikipedia.org/wiki/T-shaped_skills) I don't identify with a single activity. So what I do during my wake hours of any given day can best be described as facets. Some facets are:
 
 <dl class="resume">
 	<dt>Author</dt>
