@@ -1,71 +1,65 @@
 <div class="row featured-categories">
-	<div class="span4">
-		<p class="section featured-category">ATDD</p>
-		<table class="article-overview">
-		{% for post in site.categories.atdd limit:3 %}
-		<tr>
-			<td nowrap>{{ post.date | date: "%d %b %Y" }}</td>
-			<td><a href="{{ post.url }}">{{ post.title }}</a></td>
-		</tr>
-		{% endfor %}
-		</table>
-	</div>
-	<div class="span4">
-		<p class="section featured-category">Coaching</p>
-		<table class="article-overview">
-		{% for post in site.categories.coaching limit:3 %}
-		<tr>
-			<td nowrap>{{ post.date | date: "%d %b %Y" }}</td>
-			<td><a href="{{ post.url }}">{{ post.title }}</a></td>
-		</tr>
-		{% endfor %}
-		</table>
-	</div>
-	<div class="span4">
-		<p class="section featured-category">Management</p>
-		<table class="article-overview">
-		{% for post in site.categories.management limit:3 %}
-		<tr>
-			<td nowrap>{{ post.date | date: "%d %b %Y" }}</td>
-			<td><a href="{{ post.url }}">{{ post.title }}</a></td>
-		</tr>
-		{% endfor %}
-		</table>
-	</div>
+		<div class="span8">
+			<div class="row">
+				<div class="span4">
+					<p class="section featured-category">Software Development</p>
+					<table class="article-overview">
+					{% for post in site.categories.software-development limit:3 %}
+					<tr>
+						<td><a href="{{ post.url }}">{{ post.title }}</a></td>
+					</tr>
+					{% endfor %}
+					</table>
+				</div>
+				<div class="span4">
+					<p class="section featured-category">Coaching</p>
+					<table class="article-overview">
+					{% for post in site.categories.coaching limit:3 %}
+					<tr>
+						<td><a href="{{ post.url }}">{{ post.title }}</a></td>
+					</tr>
+					{% endfor %}
+					</table>
+				</div>
+			</div>
+			<div class="row">
+				<div class="span4">
+					<p class="section featured-category">Management</p>
+					<table class="article-overview">
+					{% for post in site.categories.management limit:3 %}
+					<tr>
+						<td><a href="{{ post.url }}">{{ post.title }}</a></td>
+					</tr>
+					{% endfor %}
+					</table>
+				</div>
+				<div class="span4">
+					<p class="section featured-category">Aviation</p>
+					<table class="article-overview">
+					{% for post in site.categories.aviation limit:3 %}
+					<tr>
+						<td><a href="{{ post.url }}">{{ post.title }}</a></td>
+					</tr>
+					{% endfor %}
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="span4">
+			<p class="section featured-category">Newest articles</p>
+			<table class="article-overview">
+			{% for post in site.posts limit:8 %}
+			<tr>
+				<td nowrap>{{ post.date | date: "%d.%m." }}</td>
+				<td><a href="{{ post.url }}">{{ post.title }}</a></td>
+			</tr>
+			{% endfor %}
+			</table>
+		</div>
 </div>
 
-<div class="row featured-categories">
-	<div class="span4">
-		<p class="section featured-category">China</p>
-		<table class="article-overview">
-		{% for post in site.categories.china limit:3 %}
-		<tr>
-			<td nowrap>{{ post.date | date: "%d %b %Y" }}</td>
-			<td><a href="{{ post.url }}">{{ post.title }}</a></td>
-		</tr>
-		{% endfor %}
-		</table>
-	</div>
-	<div class="span4">
-		<p class="section featured-category">Aviation</p>
-		<table class="article-overview">
-		{% for post in site.categories.aviation limit:3 %}
-		<tr>
-			<td nowrap>{{ post.date | date: "%d %b %Y" }}</td>
-			<td><a href="{{ post.url }}">{{ post.title }}</a></td>
-		</tr>
-		{% endfor %}
-		</table>
-	</div>
-	<div class="span4">
-		<p class="section featured-category">Quality</p>
-		<table class="article-overview">
-		{% for post in site.categories.quality limit:3 %}
-		<tr>
-			<td nowrap>{{ post.date | date: "%d %b %Y" }}</td>
-			<td><a href="{{ post.url }}">{{ post.title }}</a></td>
-		</tr>
-		{% endfor %}
-		</table>
-	</div>
+<div style="margin-left: auto; margin-right: auto">
+	<ul class="categories horizontal" style="margin-top: 5px">
+		{% include categories-list.html %}
+	</ul>
 </div>

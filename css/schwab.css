@@ -197,6 +197,8 @@ A:hover {
 }
 
 UL.horizontal {
+	text-align: center;
+	font-size: small;
 	list-style-type: none;
 	padding: 0;
 	margin: 0;

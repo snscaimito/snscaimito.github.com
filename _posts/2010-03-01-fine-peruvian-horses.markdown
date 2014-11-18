@@ -6,6 +6,7 @@ tags:
 categories:
 - Farm-Life
 - Horses
+- Panama
 status: publish
 type: post
 published: true

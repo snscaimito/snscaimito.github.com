@@ -5,6 +5,7 @@ tags:
 - en
 categories:
 - Farm-Life
+- USA
 status: publish
 type: post
 published: true

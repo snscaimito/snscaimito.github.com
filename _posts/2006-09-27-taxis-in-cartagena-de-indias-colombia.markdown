@@ -5,6 +5,7 @@ tags:
 - en
 categories:
 - travel
+- Colombia
 status: publish
 type: post
 published: true

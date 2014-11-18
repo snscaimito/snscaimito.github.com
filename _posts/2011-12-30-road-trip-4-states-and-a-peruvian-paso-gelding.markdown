@@ -5,6 +5,7 @@ tags:
 - en
 categories:
 - Horses
+- USA
 - Travel
 status: publish
 type: post

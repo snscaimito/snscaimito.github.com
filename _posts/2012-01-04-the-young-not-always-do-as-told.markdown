@@ -5,6 +5,7 @@ tags:
 - en
 categories:
 - Horses
+- USA
 status: publish
 type: post
 published: true

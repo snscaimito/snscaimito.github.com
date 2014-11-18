@@ -35,10 +35,10 @@ As a [T-shaped person](http://en.wikipedia.org/wiki/T-shaped_skills) I don't ide
 		<p>I <a href="http://www.caimito.net">coach</a> software development teams and their management on the development of organisational and technical capabilities.</p>
 		<p>So far I have coached people in <strong>German</strong>, <strong>English</strong>, and <strong>Spanish</strong> in the following locations around the world:</p>
 		<ul>
-			<li>China</li>
+			<li><a href ="/china.html">China</a></li>
 			<li>Germany</li>
-			<li>Panama</li>
-			<li>United States of America
+			<li><a href="/panama.html">Panama</a></li>
+			<li><a href="/usa.html">United States of America</a>
 				<ul>
 					<li>Arizona</li>
 					<li>California</li>

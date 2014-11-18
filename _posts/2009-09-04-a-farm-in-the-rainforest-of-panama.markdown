@@ -5,6 +5,7 @@ tags:
 - en
 categories:
 - Farm-Life
+- Panama
 status: publish
 type: post
 published: true
@@ -13,6 +14,8 @@ meta:
   reddit: s:55:"a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1253122121";}";
   _edit_last: '6384953'
 ---
+*This was originally imported from another blog.*
+
 <p>Welcome to the first post on this blog. This blog has just been created so it hasn't any content yet - except this first post. It will however tell the story of our quest to establish a farm in and close to the rainforest in the Republic of Panama.</p>
 
 <p>You may wonder "so who is 'we'?" and why a farm in the middle of the jungle. The "we" part is easily explained. My name is Stephan Schwab and I am not a farmer by trade neither Panamanian. I am a <a href="http://www.stephan-schwab.com">software development consultant</a> and I was born in Germany. My family and I haved traveled extensively in Europe and elsewhere and finally moved to Panama after spending some time in Florida, USA, Colombia and the Dominican Republic. We were looking for a nice place to live in Central America close to the U.S.. In the end we chose Panama over Costa Rica due to the better availability of telecommunications services. In Costa Rica one may have to wait about 4 years for a simple phone line and for good Internet service it may be worse. I don't know how it is today in Costa Rica but by the time of our field research there, which is now about 6 years ago, it was difficult. So we ended up in Panama and are feeling well in our new host country.</p>
