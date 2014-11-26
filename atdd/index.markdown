@@ -6,14 +6,15 @@ Acceptance Test-Driven Development (ATDD) is a software development method that 
 
 ATDD was first mentioned in 1957 by D. D. McCracken who wrote in his book *Digital Computer Programming* about how the customer should prepare acceptance check cases before programming begins.
 
-ATDD is also closely related to BDD and Specification by Example and many popular tools like Cucumber, SpecFlow, Behave, JBehave and others can be used to improve customer - programmer/tester collaboration.
+ATDD is also closely related to BDD and Specification by Example and many popular tools like [Cucumber](http://cukes.info), [SpecFlow](http://www.specflow.org), [Behave](http://pythonhosted.org/behave/index.html) and others can be used to improve customer - programmer/tester collaboration.
 
-ATDD and the techniques, methods and tools mentioned before work best in combination with modern product management and discovery techniques and, in general, when an agile and lean mindset is present.
+ATDD works best in combination with modern product management and discovery techniques and, in general, when an agile and lean mindset is present.
 
 This page is supposed to provide an overview and provide pointers to more material about ATDD.
 
 * [References to ATDD](atdd-references.html)
 * [My own articles](/category/atdd.html)
+* [ATDD overview by Elisabeth Hendrickson](http://testobsessed.com/2008/12/acceptance-test-driven-development-atdd-an-overview/)
 
 ## How to learn ATDD
 Anyone can learn ATDD on their own.
