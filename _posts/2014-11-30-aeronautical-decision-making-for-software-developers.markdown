@@ -3,6 +3,7 @@ layout: post
 title: Aeronautical Decision Making (ADM) as a model for software developers
 tags:
 - en
+- SDDM
 categories:
 - Management
 ---
