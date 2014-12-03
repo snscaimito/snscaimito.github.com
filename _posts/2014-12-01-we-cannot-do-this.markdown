@@ -45,6 +45,6 @@ Since I started in 2004 to live on planet Earth (five countries on four continen
 
 One that I want to mention is a workshop at XP Days Benelux in 2012 where two coaches gave an introduction to the work of Geert Hofstede and where the participants were able to role-play using a number of artificial cultures.
 
-Another effort I like to highlight is the Culture Fitness Training offered by Olaf Lewitz.
+Another effort I like to highlight is the [Culture Fitness Training](http://trustartist.com/service-portfolio/culture-fitness-training/) offered by Olaf Lewitz.
 
 I'm thinking that at the beginning of a team coaching engagement there should be such a culture awareness training for team members and the people around the team. The time allowed for this might be very limited. Maybe just two hours. That should still be enough to explain the basics of culture mechanics and to do two rounds of role-play using Hofstede's artificial cultures so that people can feel the effects of culture in their own flesh and blood. Then everbody may be more open to suggestions about actively changing their own behavior.
