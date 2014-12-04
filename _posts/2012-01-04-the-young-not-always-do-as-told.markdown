@@ -3,8 +3,9 @@ layout: post
 title: The young not always do as told
 tags:
 - en
-categories:
 - Horses
+categories:
+- Farm-Life
 - USA
 status: publish
 type: post

@@ -3,8 +3,9 @@ layout: post
 title: Maximiliano - Training the trained horse
 tags:
 - en
-categories:
 - Horses
+categories:
+- Farm-Life
 - USA
 status: publish
 type: post

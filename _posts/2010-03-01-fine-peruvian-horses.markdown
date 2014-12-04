@@ -3,9 +3,9 @@ layout: post
 title: Fine Peruvian Horses
 tags:
 - en
+- Horses
 categories:
 - Farm-Life
-- Horses
 - Panama
 status: publish
 type: post

@@ -3,8 +3,9 @@ layout: post
 title: 25 km and 10 river crossings
 tags:
 - en
-categories:
 - Horses
+categories:
+- Farm-Life
 - Panama
 status: publish
 type: post

@@ -3,9 +3,9 @@ layout: post
 title: Saddles, Machetes, Lasso, etc.
 tags:
 - en
+- Horses
 categories:
 - Farm-Life
-- Horses
 - Panama
 status: publish
 type: post

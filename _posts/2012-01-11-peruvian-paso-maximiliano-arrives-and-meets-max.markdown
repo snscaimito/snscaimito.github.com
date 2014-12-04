@@ -3,8 +3,9 @@ layout: post
 title: Peruvian Paso Maximiliano arrives and meets Max
 tags:
 - en
-categories:
 - Horses
+categories:
+- Farm-Life
 - USA
 status: publish
 type: post

@@ -3,8 +3,9 @@ layout: post
 title: ! 'Two Opposites: Right-Brain Extrovert vs Left-Brain Introvert'
 tags:
 - en
-categories:
 - Horses
+categories:
+- Farm-Life
 - USA
 status: publish
 type: post

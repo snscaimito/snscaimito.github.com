@@ -3,8 +3,9 @@ layout: post
 title: Max the Haflinger
 tags:
 - en
-categories:
 - Horses
+categories:
+- Farm-Life
 - USA
 status: publish
 type: post

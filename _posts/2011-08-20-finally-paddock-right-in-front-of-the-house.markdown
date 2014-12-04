@@ -3,9 +3,9 @@ layout: post
 title: Finally - Paddock right in front of the house
 tags:
 - en
+- Horses
 categories:
 - Farm-Life
-- Horses
 - Panama
 status: publish
 type: post

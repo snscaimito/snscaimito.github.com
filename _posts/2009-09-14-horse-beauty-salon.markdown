@@ -3,9 +3,9 @@ layout: post
 title: Horse Beauty Salon
 tags:
 - en
+- Horses
 categories:
 - Farm-Life
-- Horses
 - Panama
 status: publish
 type: post

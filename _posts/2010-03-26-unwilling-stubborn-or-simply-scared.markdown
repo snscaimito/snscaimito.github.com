@@ -3,8 +3,8 @@ layout: post
 title: Unwilling, stubborn or simply scared
 tags:
 - en
-categories:
 - Horses
+categories:
 - Panama
 status: publish
 type: post

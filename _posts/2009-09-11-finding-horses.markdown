@@ -3,9 +3,9 @@ layout: post
 title: Finding horses
 tags:
 - en
+- Horses
 categories:
 - Farm-Life
-- Horses
 - Panama
 status: publish
 type: post

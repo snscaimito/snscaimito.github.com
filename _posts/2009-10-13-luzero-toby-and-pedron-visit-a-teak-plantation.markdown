@@ -3,9 +3,9 @@ layout: post
 title: Luzero, Toby and Pedron visit a teak plantation
 tags:
 - en
+- Horses
 categories:
 - Farm-Life
-- Horses
 - Panama
 status: publish
 type: post

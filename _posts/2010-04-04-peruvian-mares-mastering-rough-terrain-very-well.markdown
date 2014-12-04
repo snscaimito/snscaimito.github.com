@@ -3,8 +3,8 @@ layout: post
 title: Peruvian mares mastering rough terrain very well
 tags:
 - en
-categories:
 - Horses
+categories:
 - Panama
 status: publish
 type: post

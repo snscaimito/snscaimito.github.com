@@ -3,9 +3,9 @@ layout: post
 title: The big trip to the farm for our new horses
 tags:
 - en
+- Horses
 categories:
 - Farm-Life
-- Horses
 - Panama
 status: publish
 type: post

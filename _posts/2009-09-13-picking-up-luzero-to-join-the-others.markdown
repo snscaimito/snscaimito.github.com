@@ -3,9 +3,9 @@ layout: post
 title: Picking up Luzero to join the others
 tags:
 - en
+- Horses
 categories:
 - Farm-Life
-- Horses
 - Panama
 status: publish
 type: post

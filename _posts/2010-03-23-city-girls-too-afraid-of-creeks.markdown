@@ -3,8 +3,8 @@ layout: post
 title: City girls - too afraid of creeks
 tags:
 - en
-categories:
 - Horses
+categories:
 - Panama
 status: publish
 type: post

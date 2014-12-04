@@ -3,9 +3,9 @@ layout: post
 title: Building a temporary horse stable
 tags:
 - en
+- Horses
 categories:
 - Farm-Life
-- Horses
 - Panama
 status: publish
 type: post

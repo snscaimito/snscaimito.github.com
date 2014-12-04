@@ -3,8 +3,9 @@ layout: post
 title: Teaching cues to Maximiliano
 tags:
 - en
-categories:
 - Horses
+categories:
+- Farm-Life
 - USA
 status: publish
 type: post

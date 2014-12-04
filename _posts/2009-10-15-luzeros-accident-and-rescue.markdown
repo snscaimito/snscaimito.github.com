@@ -3,9 +3,9 @@ layout: post
 title: Luzero's accident and rescue
 tags:
 - en
+- Horses
 categories:
 - Farm-Life
-- Horses
 - Panama
 status: publish
 type: post
