@@ -15,6 +15,7 @@ CARE is a method to understand hazards when performing a flight and can be used 
 * External Factors
 
 
+
 ## Consequences
 
 ## Alternatives
