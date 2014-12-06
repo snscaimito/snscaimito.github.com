@@ -14,7 +14,7 @@ meta:
   reddit: s:55:"a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1258598085";}";
   delicious: s:78:"a:3:{s:5:"count";s:1:"0";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1258598084";}";
 ---
-This is the second part of <a href="http://rainforestfinca.wordpress.com/2009/10/17/seems-like-this-will-be-the-access-road-12/">the story</a> about the access we are going to build. We've made <a href="http://rainforestfinca.wordpress.com/2009/09/07/figuring-out-where-to-build-an-access-road/">several attempts</a> at <a href="http://rainforestfinca.wordpress.com/2009/09/19/another-attempt-at-finding-a-good-route-for-the-access-road-12/">finding the best path</a>. Now we've settled down on this one:
+This is the second part of <a href="/2009/10/17/seems-like-this-will-be-the-access-road-12.html">the story</a> about the access we are going to build. We've made <a href="/2009/09/07/figuring-out-where-to-build-an-access-road.html">several attempts</a> at <a href="/2009/09/19/another-attempt-at-finding-a-good-route-for-the-access-road-12.html">finding the best path</a>. Now we've settled down on this one:
 
 <a href="http://www.flickr.com/photos/34665899@N00/4015421632" title="View '' on Flickr.com"><div style="text-align:center;"><img src="http://farm3.static.flickr.com/2662/4015421632_717e4037bf.jpg" alt="" border="0" width="500" height="332" /></div></a>
 

@@ -15,7 +15,7 @@ meta:
   delicious: s:78:"a:3:{s:5:"count";s:1:"0";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1258416704";}";
   reddit: s:55:"a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1258416706";}";
 ---
-<a href="http://rainforestfinca.wordpress.com/2009/10/13/luzero-toby-and-pedron-visit-a-teak-plantation/">Luzero, Toby and Pedron were visiting a teak plantation</a> with us for a friend.  Unfortunately Luzero trusted the ground ahead a bit too much and sank in.
+<a href="/2009/10/13/luzero-toby-and-pedron-visit-a-teak-plantation.html">Luzero, Toby and Pedron were visiting a teak plantation</a> with us for a friend.  Unfortunately Luzero trusted the ground ahead a bit too much and sank in.
 
 <a href="http://www.flickr.com/photos/34665899@N00/4008256857" title="View '' on Flickr.com"><div style="text-align:center;"><img src="http://farm3.static.flickr.com/2601/4008256857_1593586213.jpg" alt="" border="0" width="500" height="332" /></div></a>
 

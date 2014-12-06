@@ -15,7 +15,7 @@ meta:
   delicious: s:78:"a:3:{s:5:"count";s:1:"0";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1259067322";}";
   _edit_last: '6384953'
 ---
-This Saturday we picked up our first two heads of cattle, <a href="http://rainforestfinca.wordpress.com/2009/11/13/buying-cattle-from-a-local-farmer/">which we bought Friday</a>, and brought them on the back of a pickup truck to the farm. It took quite a while to get them loaded onto the truck. They didn't want to leave their herd and they were angry. But finally their journey to the farm started. In the picture you can see them during a short lunch break for the driver and helper of the pickup truck.
+This Saturday we picked up our first two heads of cattle, <a href="/2009/11/13/buying-cattle-from-a-local-farmer.html">which we bought Friday</a>, and brought them on the back of a pickup truck to the farm. It took quite a while to get them loaded onto the truck. They didn't want to leave their herd and they were angry. But finally their journey to the farm started. In the picture you can see them during a short lunch break for the driver and helper of the pickup truck.
 
 <a href="http://www.flickr.com/photos/34665899@N00/4109903818" title="View '' on Flickr.com"><div style="text-align:center;"><img src="http://farm3.static.flickr.com/2538/4109903818_07902dbb97.jpg" alt="" border="0" width="500" height="332" /></div></a>
 

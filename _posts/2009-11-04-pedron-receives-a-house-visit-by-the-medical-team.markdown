@@ -16,7 +16,7 @@ meta:
   _wpas_mess: ! 'Pedron receives a house visit by the medical team: http://wp.me/ppKYC-2Q'
   _wpas_done_twitter: '1'
 ---
-The <a href="http://rainforestfinca.wordpress.com/2009/11/02/vaccines-for-our-horses/">last time we went to Canitas</a> we were able to treat the horses Toby and Luzero but not Pedron. We handed Didimo the package of the vaccines and other medicine to treat Pedron's issue. Four days later we had another opportunity to go there in person. Currently it's a day trip to the farm from where we live because the distance is 300 km. I hope to be able to change that in the near future after other issues have been resolved.
+The <a href="/2009/11/02/vaccines-for-our-horses.html">last time we went to Canitas</a> we were able to treat the horses Toby and Luzero but not Pedron. We handed Didimo the package of the vaccines and other medicine to treat Pedron's issue. Four days later we had another opportunity to go there in person. Currently it's a day trip to the farm from where we live because the distance is 300 km. I hope to be able to change that in the near future after other issues have been resolved.
 
 So what's Pedron's problem. Have a look at the picture. You can see the left hoof is swollen and looks quite different than the other.
 

@@ -15,11 +15,11 @@ meta:
   _wpas_done_twitter: '1'
   reddit: s:55:"a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1260459518";}";
 ---
-Last month I was telling the stories of the land survey we did. In one of the posts I told you <a href="http://rainforestfinca.wordpress.com/2009/10/31/where-the-rainforest-is/">where the rainforest is</a>. In another article I described how we were <a href="http://rainforestfinca.wordpress.com/2009/10/02/exploring-a-true-jungle/">exploring a true jungle</a> that is located in the second part of the farm. So you already have a good idea of that.
+Last month I was telling the stories of the land survey we did. In one of the posts I told you <a href="/2009/10/31/where-the-rainforest-is.html">where the rainforest is</a>. In another article I described how we were <a href="/2009/10/02/exploring-a-true-jungle.html">exploring a true jungle</a> that is located in the second part of the farm. So you already have a good idea of that.
 
 During the survey we had to climb uphill following a quebrada which was used to simply determine the limits between the two segments. I got to shoot a few interesting pictures and here they are:
 
-This is "grillo" - the land surveyer. He is talking on his cell phone, which is kind of a nice detail given the location and surroundings. <a href="http://rainforestfinca.wordpress.com/2009/11/19/a-farm-in-the-rainforest-but-with-great-cellphone-coverage/">The farm has great cell phone coverage</a> despite its remote location.
+This is "grillo" - the land surveyer. He is talking on his cell phone, which is kind of a nice detail given the location and surroundings. <a href="/2009/11/19/a-farm-in-the-rainforest-but-with-great-cellphone-coverage.html">The farm has great cell phone coverage</a> despite its remote location.
 
 <a href="http://www.flickr.com/photos/34665899@N00/4027172908" title="View '' on Flickr.com"><div style="text-align:center;"><img src="http://farm3.static.flickr.com/2559/4027172908_06973d809e.jpg" alt="" border="0" width="500" height="332" /></div></a>
 

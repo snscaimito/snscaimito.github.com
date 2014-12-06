@@ -14,7 +14,7 @@ meta:
   reddit: s:55:"a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1256826124";}";
   _edit_last: '6384953'
 ---
-If this is not your first visit, then you remember that we were trying to <a href="http://rainforestfinca.wordpress.com/2009/09/07/figuring-out-where-to-build-an-access-road/">figure out where to build an access road</a> to the farm. Our first attempt was unsuccessful. In July we tried again to find a suitable path through the jungle.
+If this is not your first visit, then you remember that we were trying to <a href="/2009/09/07/figuring-out-where-to-build-an-access-road.html">figure out where to build an access road</a> to the farm. Our first attempt was unsuccessful. In July we tried again to find a suitable path through the jungle.
 
 This where the "road" ends. Our neighbor Didimo had tried it himself. He took advantage of a bulldozer that was doing some work close by and bought a few hours from the operator. We used this way before but on horses. So this time we drove the Jeep up the point where the road ends and geared up.
 

@@ -14,7 +14,7 @@ meta:
   reddit: s:55:"a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1258174595";}";
   delicious: s:78:"a:3:{s:5:"count";s:1:"0";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1258174593";}";
 ---
-Access to the farm isn't easy. As mentioned earlier there are <a href="http://rainforestfinca.wordpress.com/2009/09/04/how-to-get-to-the-farm/">two rivers to cross</a> and <a href="http://rainforestfinca.wordpress.com/2009/09/07/sometimes-leaving-can-be-difficult/">leaving the area can be difficult when it rains</a>. On a dry day we took the time to document a bit further what the challenges are that we are facing. The following picture is from the dirt road leaving the village of Buenos Aires. The road winds down a hill with some beautiful views of the Bayano lake.
+Access to the farm isn't easy. As mentioned earlier there are <a href="/2009/09/04/how-to-get-to-the-farm.html">two rivers to cross</a> and <a href="/2009/09/07/sometimes-leaving-can-be-difficult.html">leaving the area can be difficult when it rains</a>. On a dry day we took the time to document a bit further what the challenges are that we are facing. The following picture is from the dirt road leaving the village of Buenos Aires. The road winds down a hill with some beautiful views of the Bayano lake.
 
 <a href="http://www.flickr.com/photos/34665899@N00/3975694092" title="View '' on Flickr.com"><div style="text-align:center;"><img src="http://farm4.static.flickr.com/3454/3975694092_a6d57fa263.jpg" alt="" border="0" width="500" height="375" /></div></a>
 

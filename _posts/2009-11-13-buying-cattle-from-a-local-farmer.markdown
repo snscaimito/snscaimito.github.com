@@ -15,7 +15,7 @@ meta:
   reddit: s:55:"a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1259067327";}";
   _edit_last: '6384953'
 ---
-As we had <a href="http://rainforestfinca.wordpress.com/2009/11/11/no-luck-today-with-the-cattle-purchase/">no luck yesterday in buying calves at the auction</a> in Capira, we decided to try it again at a local farmer. Originally we wanted to avoid buying directly from a local farmer because there is always that issue of "gringo pricing" plus prices tend to be higher in general.
+As we had <a href="/2009/11/11/no-luck-today-with-the-cattle-purchase.html">no luck yesterday in buying calves at the auction</a> in Capira, we decided to try it again at a local farmer. Originally we wanted to avoid buying directly from a local farmer because there is always that issue of "gringo pricing" plus prices tend to be higher in general.
 
 To circumvent the "gringo pricing" a bit Luis can simply act as if he were buying for himself. We brought two more friends and introduced me as a visitor. With the camera in hand and observing from the background that usually works. Still it is annoying.
 

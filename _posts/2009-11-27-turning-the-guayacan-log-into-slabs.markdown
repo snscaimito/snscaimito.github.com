@@ -15,7 +15,7 @@ meta:
   _wpas_done_twitter: '1'
   reddit: s:55:"a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1260459516";}";
 ---
-In the <a href="http://rainforestfinca.wordpress.com/2009/11/23/how-to-make-wooden-marker-poles/">previous post I described how we found the guayacan tree and how it got prepared</a>. This time you can see how it gets cut into slabs. From those slabs we make poles in another step.
+In the <a href="/2009/11/23/how-to-make-wooden-marker-poles.html">previous post I described how we found the guayacan tree and how it got prepared</a>. This time you can see how it gets cut into slabs. From those slabs we make poles in another step.
 
 But first a thick branch on the main trunk has to go. I like this picture because it shows very well how the sawdust flies around the operator. This is really hard work and Moises does a good job.
 

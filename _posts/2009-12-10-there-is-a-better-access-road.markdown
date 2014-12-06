@@ -19,7 +19,7 @@ It pays off to go slow at some times.
 
 We explored several paths for the access road to the farm and we talked to our neighbords to hear their opinion. Our immediate neighbor Didimo recommended to use a path over his property and his neighbor Chano recommended the same route. The path is well traveled but is narrow and hence heavy equipment (bulldozer, backhoe/loader, etc.) would be required to move dirt and rocks. That can easily get quite expensive. The other issue is that Didimo would like to receive a one-time payment for the right to travel over his property. In the end we would pay for the right to pass and build him the access road to his property on our expense. Not a very good deal ;-)
 
-Not only because of the <a href="http://rainforestfinca.wordpress.com/2009/12/07/agreements-are-not-always-honored-by-all-parties/">other legal issues</a> did we hold off on all of this but also because we remembered that we were told there were another path through the jungle and the mountains on the other side of the river that is our property limit.
+Not only because of the <a href="/2009/12/07/agreements-are-not-always-honored-by-all-parties.html">other legal issues</a> did we hold off on all of this but also because we remembered that we were told there were another path through the jungle and the mountains on the other side of the river that is our property limit.
 
 But guess what ... Nobody recommended that path and nobody was eager to show it to us.
 

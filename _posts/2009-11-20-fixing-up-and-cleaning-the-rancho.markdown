@@ -15,7 +15,7 @@ meta:
   _wpas_done_twitter: '1'
   reddit: s:55:"a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1259067310";}";
 ---
-Last Sunday was a busy day. Not only did we <a href="http://rainforestfinca.wordpress.com/2009/11/16/our-first-two-heads-of-cattle/">bring our first two heads of cattle</a> to the farm and <a href="http://rainforestfinca.wordpress.com/2009/11/18/removing-a-large-jobo-tree-to-unblock-the-access-trail/">removed a big "jobo" tree from the trail</a>. We did also fix the rancho a bit and cleared the area around it cutting down the weed with machetes.
+Last Sunday was a busy day. Not only did we <a href="/2009/11/16/our-first-two-heads-of-cattle.html">bring our first two heads of cattle</a> to the farm and <a href="/2009/11/18/removing-a-large-jobo-tree-to-unblock-the-access-trail.html">removed a big "jobo" tree from the trail</a>. We did also fix the rancho a bit and cleared the area around it cutting down the weed with machetes.
 
 <a href="http://www.flickr.com/photos/34665899@N00/4110858697" title="View '' on Flickr.com"><div style="text-align:center;"><img src="http://farm3.static.flickr.com/2764/4110858697_dec1d93c51.jpg" alt="" border="0" width="500" height="332" /></div></a>
 

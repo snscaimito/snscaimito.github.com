@@ -14,7 +14,7 @@ meta:
   _edit_last: '6384953'
   delicious: s:78:"a:3:{s:5:"count";s:1:"0";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1258894330";}";
 ---
-This is another part of <a href="http://rainforestfinca.wordpress.com/category/infrastructure/survey/">the series</a> about the land survey we did on the farm before purchasing it.
+This is another part of the series about the land survey we did on the farm before purchasing it.
 
 A land survey is a physical activity. The surveyer has to walk the limits of the land, mark points on the ground and get their coordinates. With that information he can then create a property map. In Panama these property maps have to show GPS coordinates for all points using the UTM coordinate system.
 

@@ -22,7 +22,7 @@ If you look closer you will spot some structure, a house. Here is a zoomed pictu
 
 <a href="http://www.flickr.com/photos/34665899@N00/3896372145" title="View '' on Flickr.com"><div style="text-align:center;"><img src="http://farm4.static.flickr.com/3536/3896372145_617d4381fe.jpg" alt="" border="0" width="500" height="332" /></div></a>
 
-So somebody lives there. That's worth a visit. So we should drive a bit further on the dirt road and maybe have a change to talk to the people who live there. Maybe it's <a href="http://rainforestfinca.wordpress.com/2009/09/07/sometimes-leaving-can-be-difficult/">the family we saw during our first visit to the farm</a>. Let's see what else is there. A bit to the right we could spot grazing cattle. Here is another zoomed picture:
+So somebody lives there. That's worth a visit. So we should drive a bit further on the dirt road and maybe have a change to talk to the people who live there. Maybe it's <a href="/2009/09/07/sometimes-leaving-can-be-difficult.html">the family we saw during our first visit to the farm</a>. Let's see what else is there. A bit to the right we could spot grazing cattle. Here is another zoomed picture:
 
 <a href="http://www.flickr.com/photos/34665899@N00/3897149192" title="View '' on Flickr.com"><div style="text-align:center;"><img src="http://farm3.static.flickr.com/2662/3897149192_04e10732fd.jpg" alt="" border="0" width="500" height="332" /></div></a>
 

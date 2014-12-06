@@ -15,7 +15,7 @@ meta:
   reddit: s:55:"a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1260459517";}";
   _edit_last: '6384953'
 ---
-Now that I am officially a <a href="http://rainforestfinca.wordpress.com/2009/11/16/our-first-two-heads-of-cattle/">cattleman</a> it is time to look at the world with the eyes of a cow.
+Now that I am officially a <a href="/2009/11/16/our-first-two-heads-of-cattle.html">cattleman</a> it is time to look at the world with the eyes of a cow.
 
 So what's a cow to think about the world? Food... Pasture... Fruits... and water of course.
 

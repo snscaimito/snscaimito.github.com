@@ -14,7 +14,7 @@ meta:
   delicious: s:78:"a:3:{s:5:"count";s:1:"0";s:9:"post_tags";s:0:"";s:4:"time";s:10:"1254407764";}";
   reddit: s:55:"a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1254407758";}";
 ---
-Back in June we started to explore options for building an access road. As I <a href="http://rainforestfinca.wordpress.com/2009/09/06/29/">mentioned earlier</a> access to the farm is by horse only. This is because the trail that leads there is too narrow for any vehicle including ATVs. We thought about widening that trail driven a bulldozer through but that's a larger investment and would kill a few tall trees. So we started to explore other options to avoid that.
+Back in June we started to explore options for building an access road. As I <a href="/2009/09/06/29-the-final-2-km-are-on-horseback.html">mentioned earlier</a> access to the farm is by horse only. This is because the trail that leads there is too narrow for any vehicle including ATVs. We thought about widening that trail driven a bulldozer through but that's a larger investment and would kill a few tall trees. So we started to explore other options to avoid that.
 
 This is the view from the place where we had to leave the car and get on horses. You can see how it winds up the hill. On the other side is the farm of one of our neighbors. We thought that we might be able to do something similar as they did with the dirt road you see. Maybe not drive a bulldozer through initially but instead simply get through with the Jeep.
 
