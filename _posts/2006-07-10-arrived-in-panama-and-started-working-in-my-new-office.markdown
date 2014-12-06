@@ -11,7 +11,7 @@ published: true
 meta:
   _wpas_done_twitter: '1'
 ---
-<p>Last Sunday I've arrived well in Panama and today began working in my new office in downtown Panama City. Although I had some trouble with a <a href="http://blog.stephan-schwab.com/2006/07/09/box-embargos-are-so-annoying/">box embargo</a> American Airlines puts into effect between June and August I got my PowerMac and Cinema display with me on the airplane. At the moment I'm sitting at my temporary desk reading email and writing this blog post.</p>
+<p>Last Sunday I've arrived well in Panama and today began working in my new office in downtown Panama City. Although I had some trouble with a <a href="/2006/07/09/box-embargos-are-so-annoying.html">box embargo</a> American Airlines puts into effect between June and August I got my PowerMac and Cinema display with me on the airplane. At the moment I'm sitting at my temporary desk reading email and writing this blog post.</p>
 
 <p>The furniture and other office equipment is still sailing somewhere on the Caribbean Sea and will hopefully arrive safely sometimes next week. Right now the office looks quite big as it is completely empty, but I expect it to be well filled with all that stuff from the 40' container. At least half of the load is destined for the office. We'll see how everything will fit in here. I want to have space for 5 or 6 persons.</p>
 

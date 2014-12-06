@@ -39,4 +39,4 @@ In the end we got the slabs we wanted. They get put aside after each run through
 
 <a href="http://www.flickr.com/photos/34665899@N00/4134926282" title="View '' on Flickr.com"><div style="text-align:center;"><img src="http://farm3.static.flickr.com/2618/4134926282_9d0c990d10.jpg" alt="" border="0" width="500" height="332" /></div></a>
 
-<a href="http://blog.stephan-schwab.com/2009/11/28/clamp-slabs-together-to-saw-poles/">Next</a>
+<a href="/2009/11/28/clamp-slabs-together-to-saw-poles.html">Next</a>

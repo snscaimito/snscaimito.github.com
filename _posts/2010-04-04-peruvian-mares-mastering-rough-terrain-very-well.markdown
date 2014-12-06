@@ -19,7 +19,7 @@ This afternoon Diadema and Topacio earned themselves a gold medal in walking rou
 
 First we had to cross the river with many round rocks of different sizes. They had to step on and between the rocks. Feel them and find a good step under the water. They both mastered this very well. The river crossing went as if they were doing this since they were born. On the hand they climbed up a steep slope filled with rocks with a lot of power from their hindquarters. It shows that they are both building up strong muscles.
 
-Btw this particular river crossing is the very same spot where Topacio was confused and didn't want to make a single step anymore only <a href="http://blog.stephan-schwab.com/2010/03/23/city-girls-too-afraid-of-creeks/">two weeks ago</a>.
+Btw this particular river crossing is the very same spot where Topacio was confused and didn't want to make a single step anymore only <a href="/2010/03/23/city-girls-too-afraid-of-creeks.html">two weeks ago</a>.
 
 <div style="text-align:center;"><a href="http://www.flickr.com/photos/34665899@N00/4488384111" title="View 'DSC_0009' on Flickr.com"><img border="0" width="500" alt="DSC_0009" src="http://farm5.static.flickr.com/4030/4488384111_5930363d1f.jpg"></a></div>
 

@@ -59,4 +59,4 @@ Here Moises is cutting slices to find where the trunk doesn't have this beehole 
 
 <a href="http://www.flickr.com/photos/34665899@N00/4129082831" title="View '' on Flickr.com"><div style="text-align:center;"><img src="http://farm3.static.flickr.com/2685/4129082831_14205d96d0.jpg" alt="" border="0" width="500" height="332" /></div></a>
 
-<a href="http://blog.stephan-schwab.com/2009/11/27/turning-the-guayacan-log-into-slabs/">Next</a>
+<a href="/2009/11/27/turning-the-guayacan-log-into-slabs.html">Next</a>

@@ -17,7 +17,7 @@ meta:
 ---
 Before I start let's make this perfectly clear. I am not a lawyer and everything I'm going to say in the following sentences is in no way meant as legal advice and expresses purely my very own personal point of view and opinion based on personal experience. Take it for what it's worth but if you intent to do a land deal in Panama use your own legal advisor.
 
-This is a follow-up on an earlier blog post titled <a href="http://blog.stephan-schwab.com/2010/01/30/analysis-of-legal-problems-with-right-of-possession/">Analysis of legal problems with Right of Possession</a> in which I explained the background of the problem we ran into with the seller of a farm in rural Panama.
+This is a follow-up on an earlier blog post titled <a href="/2010/01/30/analysis-of-legal-problems-with-right-of-possession.html">Analysis of legal problems with Right of Possession</a> in which I explained the background of the problem we ran into with the seller of a farm in rural Panama.
 
 It turned out that we did not only ran into a problem with the seller but also with the very authorities that are supposed to govern land use in rural Panama.
 

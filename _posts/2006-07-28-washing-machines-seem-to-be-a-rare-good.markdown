@@ -12,7 +12,7 @@ meta:
   _wpas_done_twitter: '1'
   _edit_last: '6384953'
 ---
-<p>When I last told the story about <a href="http://blog.stephan-schwab.com/2006/07/20/buying-a-washer-or-how-to-loose-a-customer/">buying a washer or how to loose a customer</a> I believed that this were a problem of that particular store. It's almost unbelievable, but apparently it is not.</p>
+<p>When I last told the story about <a href="/2006/07/20/buying-a-washer-or-how-to-loose-a-customer.html">buying a washer or how to loose a customer</a> I believed that this were a problem of that particular store. It's almost unbelievable, but apparently it is not.</p>
 
 <p>Last Friday we bought a washer at another store called <a href="http://www.novey.com.pa/">Novey</a> with several outlets throughout Panama City. They promised to deliver it on Saturday or at least Monday, but they would call us in advance. As on Monday nobody delivered nor called, we called them just to find out that they didn't delivered, because the price of the machine changed since we paid for it. <strong>What?</strong> You pay for something, they change the price and want you to pay extra before they deliver it? My wife talked furiously to the store manager and eventually got the washer delivered the next morning.</p>
 

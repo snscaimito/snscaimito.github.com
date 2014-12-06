@@ -21,7 +21,7 @@ Still, despite all the efforts of programmers to write correct code, defects are
 
 Another problem is that TDD alone does not ensure that the team is building the right solution. The requirements may miss important information and it is no surprise that these gaps are discovered once the customer sees the software in action for the first time.
 
-Acceptance Test-Driven Development is a technique related to Behavior-Driven Development that can be very helpful in solving this problem. In this post I don't want to elaborate deeper on what ATDD is. I have written about this <a href="http://blog.stephan-schwab.com/2010/10/17/cucumber-when-programmers-have-a-dream/">myself lately</a> after I had great success with it on a client project and Cheezy also has a very good description of how <a href="http://www.cheezyworld.com/2010/12/26/a-day-of-acceptance-testing/">a day in the life of an acceptance tester</a> looks like.
+Acceptance Test-Driven Development is a technique related to Behavior-Driven Development that can be very helpful in solving this problem. In this post I don't want to elaborate deeper on what ATDD is. I have written about this <a href="/2010/10/17/cucumber-when-programmers-have-a-dream.html">myself lately</a> after I had great success with it on a client project and Cheezy also has a very good description of how <a href="http://www.cheezyworld.com/2010/12/26/a-day-of-acceptance-testing/">a day in the life of an acceptance tester</a> looks like.
 
 Instead I want to talk about a tool that programmers and testers can use for doing ATDD to develop Windows desktop applications.
 

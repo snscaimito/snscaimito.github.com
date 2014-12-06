@@ -19,7 +19,7 @@ Before I start let's make this perfectly clear. I am not a lawyer and everything
 
 I'm writing about our experiences in multiple blog posts so that others can learn from it. This is part one.
 
-<a href="http://blog.stephan-schwab.com/2009/10/22/rights-of-possession-in-panama/">Right of Possession in Panama</a> is different from titled land as it only grants you a right to use the land for some purpose. You are not the owner of the land unless you title it which includes buying the land from the government. If you buy land that is under Rights of Possession you are not buying the land - be careful, if you see the wording "buy land under Rights of Possession" - but instead the right to use it. It's a permission and nothing more.
+<a href="/2009/10/22/rights-of-possession-in-panama.html">Right of Possession in Panama</a> is different from titled land as it only grants you a right to use the land for some purpose. You are not the owner of the land unless you title it which includes buying the land from the government. If you buy land that is under Rights of Possession you are not buying the land - be careful, if you see the wording "buy land under Rights of Possession" - but instead the right to use it. It's a permission and nothing more.
 
 At least that is what the law - the <em>Codigo Agrario</em> - says. In many rural parts of Panama people unfortunately understand this whole legal construct quite differently. You may think that a few hundred kilometers away from Panama City you are in fact in a different country with different laws.
 

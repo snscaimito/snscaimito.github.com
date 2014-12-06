@@ -15,11 +15,11 @@ meta:
   reddit: a:2:{s:5:"count";s:1:"0";s:4:"time";s:10:"1265158918";}
   _edit_last: '6384953'
 ---
-A quile back we <a href="http://blog.stephan-schwab.com/2009/11/23/how-to-make-wooden-marker-poles/">made marker poles with the chainsaw mill</a>. That was before we had the offroad trailer. By that time I decided that we should leave those poles there at the place on our friend Carlos' farm and wait for the trailer to be ready. We would have had to contract someone with a pickup truck and then we all would have to carry all the wood on our shoulders or drag it out with a horse.
+A quile back we <a href="/2009/11/23/how-to-make-wooden-marker-poles.html">made marker poles with the chainsaw mill</a>. That was before we had the offroad trailer. By that time I decided that we should leave those poles there at the place on our friend Carlos' farm and wait for the trailer to be ready. We would have had to contract someone with a pickup truck and then we all would have to carry all the wood on our shoulders or drag it out with a horse.
 
 <div style="text-align:center;"><a href="http://www.flickr.com/photos/34665899@N00/4242386728" title="View '' on Flickr.com"><img border="0" width="500" alt="" src="http://farm3.static.flickr.com/2448/4242386728_dbe78d063c.jpg"></a></div>
 
-Now that the trailer is ready and <a href="http://blog.stephan-schwab.com/2009/12/27/homemade-offroad-trailer/">has been used on the road</a> we set up to pick up the wood on Carlos' farm. In the picture above we just entered the area and were going uphill. This isn't actually Carlos' land where we are but his neighbors. It is common and totally accepted that you can cross over your neighbors land to get to some spot on yours. The area is pasture that has overgrown and it has no significant obstacles so we chose to go up there because it is easier for the first test.
+Now that the trailer is ready and <a href="/2009/12/27/homemade-offroad-trailer.html">has been used on the road</a> we set up to pick up the wood on Carlos' farm. In the picture above we just entered the area and were going uphill. This isn't actually Carlos' land where we are but his neighbors. It is common and totally accepted that you can cross over your neighbors land to get to some spot on yours. The area is pasture that has overgrown and it has no significant obstacles so we chose to go up there because it is easier for the first test.
 
 <div style="text-align:center;"><a href="http://www.flickr.com/photos/34665899@N00/4242382360" title="View '' on Flickr.com"><img border="0" width="500" alt="" src="http://farm5.static.flickr.com/4042/4242382360_dee5764b2c.jpg"></a></div>
 

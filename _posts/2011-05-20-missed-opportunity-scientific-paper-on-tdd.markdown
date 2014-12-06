@@ -44,7 +44,7 @@ Our model assumes an experienced TDD team. The additional cost for training whic
 Finally, our model strengthens the need for actual empirical figures (or ranges) for the quality advantage and the loss of productivity of TDD, in order to get a comprehensive evaluation of the cost and benefit of TDD.
 </blockquote>
 
-This is precisely the very same bad idea as trying to introduce scientific management to software development. See <a href="http://blog.stephan-schwab.com/2011/05/20/pseudo-scientific-management-kills-innovation-and-creativity/">my own article</a> and the one from <a href="http://alistair.cockburn.us/Taylorism+strikes+software+development">Alistair Cockburn</a>.
+This is precisely the very same bad idea as trying to introduce scientific management to software development. See <a href="/2011/05/20/pseudo-scientific-management-kills-innovation-and-creativity.html">my own article</a> and the one from <a href="http://alistair.cockburn.us/Taylorism+strikes+software+development">Alistair Cockburn</a>.
 
 The benefit of doing TDD is in better and cleaner code that is testable. It is a misconception that simply by doing TDD a team can create code faster. Speed is not the concern here.
 

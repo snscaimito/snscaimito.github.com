@@ -10,7 +10,7 @@ type: post
 published: true
 meta: {}
 ---
-<p>Since Friday the new <a href="http://blog.stephan-schwab.com/2006/08/15/fiber-optics-for-internet-access/">2 mbps dedicated Internet access</a> is working now and the first experience is quite a pleasant one. It's fast, ping times from Panama to the US or to Europe are much shorter than over cable modem as before.</p>
+<p>Since Friday the new <a href="/2006/08/15/fiber-optics-for-internet-access.html">2 mbps dedicated Internet access</a> is working now and the first experience is quite a pleasant one. It's fast, ping times from Panama to the US or to Europe are much shorter than over cable modem as before.</p>
 
 <p>Here a traceroute to Tampa, Florida in the US:</p>
 

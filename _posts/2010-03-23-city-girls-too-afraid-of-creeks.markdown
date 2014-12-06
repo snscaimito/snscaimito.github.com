@@ -19,7 +19,7 @@ It looks that our new Peruvian mares Diadema and Topacio are real city girls. Th
 
 The same issue is with rough terrain. As "city horses" they have been used only to those types of ground found at horse events. They were born on a farm without much obstacles and probably never seen in their whole life a real river or a mountain creek. Much less places with lots of stones.
 
-Our other horses, <a href="http://blog.stephan-schwab.com/2009/09/15/the-big-trip-to-the-farm-for-our-new-horses/">Pedron, Toby, Luzero</a>, are from a poor neighborhood - so to say - and there is hardly anything that can surprise them. They have been wading through fast flowing water up to their bellies and without being able to see the ground, climb over rocks and go up and down steep slopes. They don't go fast but are very secure.
+Our other horses, <a href="/2009/09/15/the-big-trip-to-the-farm-for-our-new-horses.html">Pedron, Toby, Luzero</a>, are from a poor neighborhood - so to say - and there is hardly anything that can surprise them. They have been wading through fast flowing water up to their bellies and without being able to see the ground, climb over rocks and go up and down steep slopes. They don't go fast but are very secure.
 
 For the city girls Diadema and Topacio this is all new. We need to expose them step by step to these things so that they can overcome their fears and learn that they can manage these situations. Our friend Carlos and his 6 years old horse Baby is helping us to achieve that goal.
 

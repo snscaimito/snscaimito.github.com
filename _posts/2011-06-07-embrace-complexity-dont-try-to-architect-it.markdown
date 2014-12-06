@@ -15,7 +15,7 @@ meta:
   _edit_last: '6384953'
   _wpas_skip_twitter: '1'
 ---
-My article about <a href="http://blog.stephan-schwab.com/software-design/">Software Design</a> has sparked some mixed feedback amongst the people who have read it early on. Part of the feedback was about what I said about the role of the software architect. I was saying that there is no need for a special software architect but instead it needs a team of enough senior developers who can come up with good design for the software.
+My article about <a href="/software-design.html">Software Design</a> has sparked some mixed feedback amongst the people who have read it early on. Part of the feedback was about what I said about the role of the software architect. I was saying that there is no need for a special software architect but instead it needs a team of enough senior developers who can come up with good design for the software.
 
 Note that I may have changed the article about <a href="">Software Design</a> since writing this blog post.
 

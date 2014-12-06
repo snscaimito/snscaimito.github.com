@@ -13,7 +13,7 @@ meta:
   _wpas_done_twitter: '1'
   _edit_last: '6384953'
 ---
-<p>Now that Ubuntu Dapper supports <a href="http://blog.stephan-schwab.com/2006/07/18/sun-java-vm-on-ubuntu-linux/">Sun's JVM directly</a>, it would be nice to install things like Tomcat the same way. So let's try this:</p>
+<p>Now that Ubuntu Dapper supports <a href="/2006/07/18/sun-java-vm-on-ubuntu-linux.html">Sun's JVM directly</a>, it would be nice to install things like Tomcat the same way. So let's try this:</p>
 
 <pre class="codeSample">sns@testbed:/opt$ sudo apt-get install tomcat5
 Reading package lists... Done
