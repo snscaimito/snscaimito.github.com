@@ -15,7 +15,13 @@
 						{% endfor %}
 					</p>
 					{{ content }}
-					<p class="postfooter">{{ page.date | date: "%d %b %Y" }}</p>
+					<table class="postfooter" style="width: 100%">
+					<tr>
+						<td style="text-align: left; width: 33%"><a href="{{ page.previous.url }}">Previous</a></td>
+						<td style="text-align: center; width: 33%">{{ page.date | date: "%d %b %Y" }}</td>
+						<td style="text-align: right; width: 33%"><a href="{{ page.next.url }}">Next</a></td>
+					</tr>
+					</table>
 					<p>
 						<a href="https://twitter.com/share" class="twitter-share-button" data-via="snscaimito">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 						

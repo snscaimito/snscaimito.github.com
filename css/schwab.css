@@ -175,8 +175,11 @@ TABLE {
 .align-right { float:right; margin: 0 0 15px 15px; }
 .align-left { float:left; margin: 0 15px 15px 0; }
 
-P.postfooter {
+TABLE.postfooter {
 	border-top: thin dotted black;
+}
+
+TABLE.postfooter TD {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 10pt;
 }

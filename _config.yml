@@ -1,3 +1,4 @@
+paginate: 1
 highlighter: pygments
 permalink: /:year/:month/:day/:title.html
 markdown: redcarpet
