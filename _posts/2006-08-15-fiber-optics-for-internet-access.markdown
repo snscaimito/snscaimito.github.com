@@ -16,4 +16,4 @@ meta: {}
 
 <p>The picture shows the breakout box where the fiber optics cable is terminated.</p>
 
-<div style="text-align:center;"><a href="http://www.flickr.com/photos/34665899@N00/4213093053" title="View '' on Flickr.com"><img border="0" width="333" alt="" src="http://farm3.static.flickr.com/2509/4213093053_2c5341fb6b.jpg"></a></div>
+![Fiber Optics Breakout Box](/img/posts/Fiber-Optics-Breakout-Box.jpg)

@@ -35,6 +35,6 @@ meta: {}
 
 <p>An interesting detail is this:</p>
 
-<div style="text-align:center;"><a href="http://www.flickr.com/photos/34665899@N00/4213097835" title="View '' on Flickr.com"><img border="0" width="" alt="" src="http://static.flickr.com/2611/4213097835_d844de164d.jpg"></a></div>
+![OptynexSwitch](/img/posts/OptynexSwitch.jpg)
 
 <p><a href="http://www.optynex.com/">Optynex</a> has deployed a fiber optics network based on Ethernet throughout Panama City, Panama, and connects customers with a simple TX-FX converter and a managed switch on the customer premises. If you look closely at the picture, you will see that the 100 mbps LED on the switch is illuminated. So we actually have a 100 mbps connection to the other side and only get shaped down to 2 mbps. There is some room to grow ;-)</p>

@@ -1,0 +1,9 @@
+---
+layout: special
+title: Highlights of 2008
+tags:
+- highlight_of_the_year
+---
+
+**January**
+
