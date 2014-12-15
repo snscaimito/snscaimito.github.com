@@ -1,0 +1,19 @@
+---
+layout: special
+title: Highlights of 2006
+tags:
+- highlight_of_the_year
+---
+
+
+In late **June** our [relocation to Panama started](/2006/06/29/were-finally-relocating-to-panama.html) and in **July** I started to work [from my new office in Panama City](/2006/07/10/arrived-in-panama-and-started-working-in-my-new-office.html). By the end of the month the 40' container with all our belongings arrived and we were able to [move into the new apartment for real](/2006/07/23/moving-in.html). 
+
+In **August** the office got a [high speed connection](/2006/08/15/fiber-optics-for-internet-access.html) to the Internet and I also [hired my first employee](/2006/08/23/welcome-antonio.html) in Panama.
+
+When one is in a new place there are many new things and keeping your eyes open is important. Based on observations in **September** I wrote an article about [Latin American business culture](/2006/09/25/latin-american-business-culture.html)
+
+In **November** the American owner of a startup in Ciudad del Saber (City of Knowledge), which is some sort of a technology park in Panama City, asked me to [lead his development team](/2006/11/19/leading-a-mixed-language-development-team.html).
+
+In **December** I got [ready](/2006/12/01/preparing-for-the-spring-experience.html) to fly to Miami to attend the Spring Experience conference. I had also started to work on a book on Acegi Security for Sourcebeat.
+
+{% include highlightOfTheYear.html %}

@@ -41,6 +41,13 @@
 			<li><a href="/reading-list.html">My reading list</a></li>
 		</ul>
 
+		<p class="section">Highlights of the Year</p>
+		<ul class="special-content">
+			{% for post in site.tags.highlight_of_the_year limit %}
+				 <li><a href="{{ post.url }}">{{ post.date | date: "%Y" }}</a></li>
+			{% endfor %}
+		</ul>
+
 		<p class="section">Living on planet Earth</p>
 		<ul class="special-content">
 			<li><a href="/dominican-republic.html">Dominican Republic</a></li>

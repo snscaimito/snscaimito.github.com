@@ -1,0 +1,27 @@
+---
+layout: special
+title: Highlights of 2007
+tags:
+- highlight_of_the_year
+---
+**January** started with an opportunity to perform [technical coaching in Spanish language](/2007/01/19/smart-brains-in-panama.html) and I was also started to write a book about the framework Acegi Security, which is an extension of the popular Spring Framework for Java. At the City of Knowledge in Panama City I met with a bunch of Panamian Information Architects at the [UXcamp](/2007/01/26/uxcamp-information-architects-in-panama.html) and later I got to meet a huge number of technical geeks at [Geek Fest Panama](/2007/02/01/presented-at-4th-geek-fest-panama.html).
+
+During a field trip to a small village in the mountains in Western Panama in **February** I got [ID checked](/2007/02/26/road-trip-with-a-surprise-always-carry-your-passport.html) and learned about how to deal with police in Panama.
+
+On the technical side I [learned to use the Tapestry web framework](/2007/03/04/tapestry-first-experiences.html) and [Hibernate annotations](/2007/03/09/starting-to-love-ejb3-hibernate-annotations.html) in **March**, which then led to an effort to [evaluate technologies for new product development](/2007/03/11/evaluating-technologies-for-new-product-development.html) to [lay out a Java framework stack](/2007/03/19/java-stack-for-all-purpose-development.html) for rapid software development.
+
+I wrote my first [blog article in Spanish](/2007/04/14/java-o-php-para-desarrollar-una-aplicacion-web.html) and [declared my love for TDD](/2007/04/16/why-i-love-test-driven-development.html) in **April**.
+
+In **Mai** we started to [eat our own dogfood](/2007/05/07/tasteful-food-for-developers.html) and [use it for ourselves](/2007/05/08/it-does-make-a-difference-whether-you-are-just-developing-or-using-it.html) at my company Caimito Development when we were working on our product codenamed Savila.
+
+**June** saw me commenting about [immigration laws](/2007/06/08/developing-countries-and-immigration-laws.html) in developing countries from the perspective of me being an immigrant to Panama.
+
+Later in **July** I wrote about [cultural sensitivity and the backslash of having none](/2007/07/12/comment-on-cultural-sensitivity-and-the-backlash-of-having-none.html). During a visit to a client in California I attended a meeting in Palo Alto about [Silicon Valley is looking to do business in Latin America](/2007/07/25/silicon-valley-is-looking-to-do-business-in-latin-america.html) and got an interesting [comment](/2007/08/14/re-silicon-valley-is-looking-to-do-business-in-latin-america.html) to my blog post by an American trying to do business in Latin America. We later met face to face for more conversation.
+
+The technology scene in Panama is quite small and in **September** I got involved with the organizers of the upcoming [PanamaJUG](/2007/09/01/panama-jug-two-day-conference.html) conference.
+
+By the end of **November** spoke about an Agile Development Organization in [Miami](/2007/11/22/an-agile-development-organization-in-miami-florida.html) and [Tampa](/2007/11/22/an-agile-development-organization-in-tampa-florida.html) and also expressed how I [dislike crammed team rooms](/2007/11/24/cram-the-team-into-a-small-space-or-let-them-think.html).
+
+Eventually in **December** the first [PanamaJUG](/2007/12/15/panamajug-conference.html) conference happened in the remote town of Chitre in the western part of Panama - a place where one would not be looking for a gathering of software developers amidst cattle farming and other agricultural activities.
+
+{% include highlightOfTheYear.html %}
