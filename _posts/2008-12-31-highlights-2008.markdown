@@ -5,5 +5,14 @@ tags:
 - highlight_of_the_year
 ---
 
-**January**
+In **February** I reposted an article from my company blog about [outsourcing for start-ups](/2008/02/05/outsourcing-for-start-ups.html). [Thoughts on the ideal project team](/2008/02/05/thoughts-on-the-ideal-project-team.html) was written as part of the thought process around forming and operating a software development company. I continued with an article about [quality control in software development](/2008/02/24/quality-control-in-software-development.html).
 
+Inspired by working with a client in the US I wrote in **April** about [what is wrong with software development in large corporations](/2008/04/03/whats-wrong-with-software-development-in-large-corporations.html) and found a connection between [accounting and software development](2008/04/05/the-connection-between-accounting-and-sub-standard-tools-for-developers.html). Being a bit desparate I even asked whether a [psychological evaluation for Agile](/2008/04/20/psychological-evaluation-for-agile.html) might be useful.
+
+In **May** my impression of large scale IT was that [it really doesn't matter if the product works](/2008/05/20/it-doesnt-matter-whether-it-works.html).
+
+In **August**, as I was thinking about offering nearshore development services from Panama I wrote about [risk factors for offshore-outsourced development projects](/2008/08/30/risk-factors-for-offshore-outsourced-development-projects.html).
+
+**September** saw the launch of my company's first product: [Caimito One Team 1.0](/2008/09/06/launched.html). I also got invited to [speak at IEEE Panama](/2008/09/09/got-invited-to-speak-at-ieee-panama.html) on the [day of the software developer](/2008/09/15/ieee-panama-celebrates-dia-del-programador.html).
+
+After our arrival in Panama two years ago we had lived in the modern city and in two different apartments. In  **December** we decided to [move out to the country side](/2008/12/28/left-the-city-behind-and-went-4x4.html) where regular cars are of limited use. Good that we had bought a Jeep Wrangler Rubicon as part of the preparations for the relocation.
