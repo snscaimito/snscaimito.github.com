@@ -7,3 +7,4 @@ title: Photo Galleries
 
 [Festival de Naranja in Cacoa](Festival-de-Naranja-in-Cacao/) is about the celebration of the orange production in the small village of Cacoa in Western Panama.
 
+[Transmitter Altos Del Maria](TransmitterAltosDelMaria/) shows the construction of a solar and wind powered transmission tower for Internet access at a small settlement in Western Panama.
