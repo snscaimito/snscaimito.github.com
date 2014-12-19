@@ -3,4 +3,4 @@ layout: special
 title: Galleries
 ---
 
-[Panama City Impressions](img/posts/PanamaCityImpressions/)
+[Panama City Impressions](/galleries/PanamaCityImpressions/)

@@ -335,8 +335,12 @@ P.featured-category {
 	background-color: #F2F2F2;
 }
 
-.header H1 {
+.header H1, H2 {
 	text-align: center;
+}
+
+.header H2 {
+	font-size: 16pt;
 }
 
 .post UL LI {
@@ -346,4 +350,29 @@ P.featured-category {
 A.categoryLink {
 	text-transform: uppercase;
 	color: #AB1413;
+}
+
+TABLE#page {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+UL#nav {
+	text-align: right;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+UL#nav LI {
+	display: inline;
+	padding-right: 5px;
+}
+
+DIV#navrow {
+	margin-bottom: 15px;
+}
+
+UL#photoInfo {
+	margin-top: 15px;
 }
