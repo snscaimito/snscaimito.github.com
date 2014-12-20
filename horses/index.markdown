@@ -4,6 +4,49 @@ title: Horses
 ---
 While I was living in the country side in [Panama](/panama.html) and [USA](/usa.html) I had a few horses and learnt quite a lot from these interesting creatures.
 
+**Luzero**, the Criollo gelding:
+
+![Luzero](Luzero.jpg)
+
+
+**Pedron**, the Criollo gelding:
+
+![Pedron](Pedron.jpg)
+
+![Pedron (1)](Pedron%20(1).jpg)
+
+
+**Toby**, the Criollo gelding:
+
+![Toby (1)](Toby%20(1).jpg)
+
+![Toby](Toby.jpg)
+
+
+**Topacio**, the Peruvian Paso mare:
+
+![Topacio](Topacio.jpg)
+
+![Topacio (1)](Topacio%20(1).jpg)
+
+
+**Diadema**, the Peruvian Paso mare:
+
+![Diadema](Diadema.jpg)
+
+![Diadema (1)](Diadema%20(1).jpg)
+
+
+**Max**, the Haflinger:
+
+![Max Haflinger](max_Haflinger.jpg)
+
+
+**Maximiliano**, the Peruvian Paso:
+
+![Maximiliano PeruvianPaso](maximiliano_PeruvianPaso.jpg)
+
+
 The following articles tell the stories.
 
 <table>
