@@ -135,6 +135,18 @@ P.blog-title {
 
 .post H1 {
 	font-size: 18pt;
+	text-align: center;
+}
+
+.post H2 {
+	font-size: 18pt;
+	margin-bottom: -3px;
+	text-align: center;
+}
+
+.post H3 {
+	font-size: 16pt;
+	margin-bottom: -3px;
 }
 
 .post P, .article P, .article TD, .article TH, .article UL {
@@ -160,16 +172,6 @@ TABLE {
 
 .article UL {
 	text-align: left ;
-}
-
-.post H2 {
-	font-size: 18pt;
-	margin-bottom: -3px;
-}
-
-.post H3 {
-	font-size: 16pt;
-	margin-bottom: -3px;
 }
 
 .align-right { float:right; margin: 0 0 15px 15px; }
@@ -335,7 +337,7 @@ P.featured-category {
 	background-color: #F2F2F2;
 }
 
-.header H1, H2 {
+.header H1, .header H2 {
 	text-align: center;
 }
 
