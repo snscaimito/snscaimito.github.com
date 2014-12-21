@@ -11,6 +11,8 @@ title: Photo Galleries
 
 2007, [Isla Grande](IslaGrande/) is a little island very close to the shore of Northern Panama.
 
+2007, In the mountains of Veraguas we visited a [coffee factory](PanamaCoffee/).
+
 2009, [Festival de Naranja in Cacoa](Festival-de-Naranja-in-Cacao/) is about the celebration of the orange production in the small village of Cacoa in Western Panama.
 
 2010, [Transmitter Altos Del Maria](TransmitterAltosDelMaria/) shows the construction of a solar and wind powered transmission tower for Internet access at a small settlement in Western Panama.
