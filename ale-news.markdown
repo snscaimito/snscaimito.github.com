@@ -14,7 +14,7 @@ The new version of [ALE News](http://www.ale-news.com) should not so much be a p
 The source code for this project is available at [GitHub](https://github.com/snscaimito/ale-news-atdd).
 
 <ul>
-{% for post in site.categories.ale-news-service limit %}
+{% for post in site.tags.ale-news-service limit %}
 	 <li>{{ post.date | date: "%d %b %Y" }} <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>

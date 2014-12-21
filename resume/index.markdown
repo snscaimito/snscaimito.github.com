@@ -62,7 +62,7 @@ As a [T-shaped person](http://en.wikipedia.org/wiki/T-shaped_skills) I don't ide
 	<dt>Designer</dt>
 	<dd>
 		<p>I do my own web design for this site and also my <a href="http://www.caimito.net">company's website</a>.</p>
-		<p>In the domain of physical things I have designed my own <a href="/farm-life/2010/01/07/nice-doors-and-final-paint-job-for-the-offroad-trailer.html">custom-built offroad trailer</a> and also a <a href="/farm-life/2010/03/10/building-a-temporary-horse-stable.html">temporary horse stable</a>.</p>
+		<p>In the domain of physical things I have designed my own <a href="/2010/01/07/nice-doors-and-final-paint-job-for-the-offroad-trailer.html">custom-built offroad trailer</a> and also a <a href="/2010/03/10/building-a-temporary-horse-stable.html">temporary horse stable</a>.</p>
 	</dd>
 
 	<dt>Developer</dt>
@@ -80,7 +80,7 @@ As a [T-shaped person](http://en.wikipedia.org/wiki/T-shaped_skills) I don't ide
 	<dt>Pilot</dt>
 	<dd>
 		<p>In 1989 I earned my Private Pilot License (PPL) for single engine piston aircraft. After not using it for about 17 years I reactivated it in 2013 for doing <a href="/airtravel">business trips</a>, and sometimes for leisure, throughout Europe in a light aircraft.</p>
-		<p>In April 2014 I <a href="/aviation/2014/04/13/instrument-rated-pilot.html">added an instrument rating</a> to my license. That allows me to improve my dispatch rate and to <a href="/aviation/2014/04/29/ifr-edfc-edaz.html">perform flights in less than perfect weather</a>. It is also a much safer form of air travel.</p>
+		<p>In April 2014 I <a href="/2014/04/13/instrument-rated-pilot.html">added an instrument rating</a> to my license. That allows me to improve my dispatch rate and to <a href="/2014/04/29/ifr-edfc-edaz.html">perform flights in less than perfect weather</a>. It is also a much safer form of air travel.</p>
 	</dd>
 
 	<dt>Speaker</dt>

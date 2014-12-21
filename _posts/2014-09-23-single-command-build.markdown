@@ -3,10 +3,10 @@ layout: post
 title: Build with a single command
 tags:
 - en
+- ale-news-service
 categories:
 - ATDD
 - Software-Development
-- ale-news-service
 ---
 {% include ale-news-post-header.html %}
 

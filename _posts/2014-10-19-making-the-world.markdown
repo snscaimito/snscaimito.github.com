@@ -3,10 +3,10 @@ layout: post
 title: Making the world
 tags:
 - en
+- ale-news-service
 categories:
 - ATDD
 - Software-Development
-- ale-news-service
 ---
 So far I've managed to create a simple skeleton of an IOS share extension using a template that ships with Xcode. I'm still learning how that all works and I'm pretty much a complete novice at the topic.
 

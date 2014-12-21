@@ -3,10 +3,10 @@ layout: post
 title: Adding the web client module
 tags:
 - en
+- ale-news-service
 categories:
 - ATDD
 - Software-Development
-- ale-news-service
 ---
 {% include ale-news-post-header.html %}
 

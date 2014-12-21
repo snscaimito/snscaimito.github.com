@@ -3,10 +3,10 @@ layout: post
 title: Selecting tools for testing the web client
 tags:
 - en
+- ale-news-service
 categories:
 - ATDD
 - Software-Development
-- ale-news-service
 ---
 After learning a bit about [AngularJS](http://angularjs.org) to create some simple web client I want to continue on the ATDD path and write a specification before diving deeper into coding the web client.
 

@@ -3,10 +3,10 @@ layout: post
 title: Learning AngularJS to create the ALE News web client
 tags:
 - en
+- ale-news-service
 categories:
 - ATDD
 - Software-Development
-- ale-news-service
 ---
 {% include ale-news-post-header.html %}
 

@@ -3,10 +3,10 @@ layout: post
 title: How to verify things
 tags:
 - en
+- ale-news-service
 categories:
 - ATDD
 - Software-Development
-- ale-news-service
 ---
 ATDD stands for Acceptance Test-Driven Development. If you will, it is some sort of outside-in TDD, which is test-driven development on the inside of software. With TDD we want to describe the behavior of the inner building blocks of software. Those building blocks in an object-oriented language would be the classes. With ATDD we want to describe the behavior of the software as a whole. It is about describing, in terms of observable behavior, what the software will do in reaction to eg. external events.
 

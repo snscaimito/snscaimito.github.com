@@ -3,10 +3,10 @@ layout: post
 title: Scenarios that depend on each other are bad
 tags:
 - en
+- ale-news-service
 categories:
 - ATDD
 - Software-Development
-- ale-news-service
 ---
 For the web client I originally created this specification for the *Interact with article metadata archive* feature:
 
