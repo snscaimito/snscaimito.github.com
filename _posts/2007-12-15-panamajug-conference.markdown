@@ -19,7 +19,7 @@ meta: {}
 
 <p>My presentation was about An Agile Organization and Scrum similar to the talks I gave earlier in <a href="/2007/11/22/an-agile-development-organization-in-tampa-florida.html">Tampa</a> and <a href="/2007/11/22/an-agile-development-organization-in-miami-florida.html">Miami</a> but with slides translated into Spanish.</p>
 
-<p>I just finished uploading some of my own <a href="http://www.flickr.com/photos/stephan-schwab/sets/72157603466202965/">pictures at Flickr</a>. A few more pictures can be found at <a href="http://blogs.sun.com/janicec">Janice Campbell</a>'s blog who is Globalization Program Manager at Sun Microsystems. Follow these links:</p>
+<p>I just finished uploading some of my own <a href="/galleries/PanamaJUGConference">pictures</a>. A few more pictures can be found at <a href="http://blogs.sun.com/janicec">Janice Campbell</a>'s blog who is Globalization Program Manager at Sun Microsystems. Follow these links:</p>
 
 <ul>
 <li><a href="http://blogs.sun.com/janicec/entry/first_panamajug_congress">First PanamaJUG Congress</a></li>

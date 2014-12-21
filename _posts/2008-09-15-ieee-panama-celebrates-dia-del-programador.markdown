@@ -23,3 +23,5 @@ meta:
 <li><a href="http://avbravo.blogspot.com/2008/09/dia-del-programador-en-ciudad-de-panam.html">Aristides Villareal</a></li>
 <li><a href="http://www.donderis.net/dia-del-programador/">Carlos Donderis</a></li>
 </ul>
+
+![DSC 2148](/img/posts/2008-09-15/DSC_2148.jpg)
