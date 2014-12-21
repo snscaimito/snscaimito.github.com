@@ -3,9 +3,9 @@ layout: post
 title: Travel to a meeting followed by two full days of work with no hassle
 tags:
 - en
+- VFR
 categories:
 - Aviation
-- VFR
 ---
 This week I had several good reasons to use the light aircraft for a business trip to Dortmund and Berlin. Dortmund lies in the far West of Germany, Berlin to  the far East while I live slightly south of its geographic center.
 

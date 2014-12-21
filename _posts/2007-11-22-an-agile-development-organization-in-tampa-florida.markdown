@@ -3,9 +3,9 @@ layout: post
 title: An Agile Development Organization in Tampa, Florida
 tags:
 - en
+- speaking
 categories:
 - software-development
-- speaking
 status: publish
 type: post
 published: true

@@ -3,11 +3,11 @@ layout: post
 title: ALE2013 - Second leg Ostrava, Czech Republic, to Szeged, Hungary
 tags:
 - en
+- VFR
+- ale2013-vfr
 categories:
 - Travel
 - Aviation
-- VFR
-- ale2013-vfr
 ---
 
 

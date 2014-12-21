@@ -1,7 +1,7 @@
 <div class="related_articles">
 	<h2>More in this series</h2>
 	<ul>
-	{% for post in site.categories.ale2013-vfr limit %}
+	{% for post in site.tags.ale2013-vfr limit %}
 		 <li>{{ post.date | date: "%d %b %Y" }} <a href="{{ post.url }}">{{ post.title }}</a></li>
 	{% endfor %}
 	</ul>

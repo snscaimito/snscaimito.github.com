@@ -3,9 +3,9 @@ layout: post
 title: This time with oxygen
 tags:
 - en
+- IFR
 categories:
 - Aviation
-- IFR
 ---
 Yesterday I had another opportunity to fly to Berlin for work again. This time I wanted to try using oxygen from the bottle.
 

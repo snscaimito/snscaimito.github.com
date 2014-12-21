@@ -15,7 +15,7 @@ Many countries also allow __VFR flights at night__ but some European countries l
 ### Some write-ups about my own VFR flights
 <div>
 	<ul style="list-style-type: none">
-{% for post in site.categories.vfr limit %}
+{% for post in site.tags.vfr limit %}
 	<li>{{ post.date | date: "%d %b %Y" }} <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 	</ul>
@@ -38,7 +38,7 @@ In Europe all IFR flight plans have to go through the [Central Flow Management U
 ### Some write-ups about my own IFR flights
 <div>
 	<ul style="list-style-type: none">
-{% for post in site.categories.ifr limit %}
+{% for post in site.tags.ifr limit %}
 	<li>{{ post.date | date: "%d %b %Y" }} <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 	</ul>

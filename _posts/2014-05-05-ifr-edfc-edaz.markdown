@@ -3,9 +3,9 @@ layout: post
 title: IFR Flight Aschaffenburg (EDFC) to Berlin-Schönhagen (EDAZ)
 tags:
 - en
+- IFR
 categories:
 - Aviation
-- IFR
 ---
 This morning I took off from Aschaffenburg for two days of work in Berlin. I reused the flight plan from before:
 
@@ -28,7 +28,7 @@ _N747TG proceeded direct SWALM_
 
 and within a minute asked to change the frequency. The next controller then had me fly towards FULNO and climb up to my final altitude of FL70.
 
-FULNO, as well as SWALM, is an entry point to the airway N858 before ERSET, which has been part of my flight plan. I never saw FULNO and neither ERSET, as ATC instructed me to go direct to ERSIL instead. ERSIL is also on N858 - just a bit further to the East. As during my [first flight to Schönhagen](/aviation/2014/04/29/ifr-edfc-edaz.html) ATC then had me fly:
+FULNO, as well as SWALM, is an entry point to the airway N858 before ERSET, which has been part of my flight plan. I never saw FULNO and neither ERSET, as ATC instructed me to go direct to ERSIL instead. ERSIL is also on N858 - just a bit further to the East. As during my [first flight to Schönhagen](/2014/04/29/ifr-edfc-edaz.html) ATC then had me fly:
 
 _NTG proceed direct destination._
 

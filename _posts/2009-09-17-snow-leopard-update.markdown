@@ -4,7 +4,7 @@ title: Snow Leopard update
 tags:
 - en
 categories:
-- Software Development
+- Software-Development
 status: publish
 type: post
 published: true

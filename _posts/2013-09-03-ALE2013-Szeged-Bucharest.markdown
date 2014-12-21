@@ -3,11 +3,11 @@ layout: post
 title: ALE2013 - Third leg Szeged, Hungary, to Bucharest, Romania
 tags:
 - en
+- VFR
+- ale2013-vfr
 categories:
 - Travel
 - Aviation
-- VFR
-- ale2013-vfr
 ---
 On Monday the weather over Romania looked pretty bad:
 

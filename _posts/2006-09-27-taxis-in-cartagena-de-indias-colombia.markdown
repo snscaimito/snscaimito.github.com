@@ -3,9 +3,9 @@ layout: post
 title: Taxis in Cartagena de Indias, Colombia
 tags:
 - en
+- Colombia
 categories:
 - travel
-- Colombia
 status: publish
 type: post
 published: true

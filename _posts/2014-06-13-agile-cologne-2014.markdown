@@ -3,9 +3,9 @@ layout: post
 title: Agile Cologne 2014
 tags:
 - en
+- IFR
 categories:
 - Aviation
-- IFR
 ---
 This morning I went to Cologne for the open space conference [Agile Cologne](http://agilecologne.de). I took off from Aschaffenburg (EDFC) a few minutes before 09:00LT and arrived 50 minutes later at Cologne airport (EDDK).
 

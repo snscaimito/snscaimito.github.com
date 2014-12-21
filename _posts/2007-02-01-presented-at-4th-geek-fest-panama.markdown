@@ -3,10 +3,10 @@ layout: post
 title: Presented at 4th Geek Fest Panama
 tags:
 - en
+- speaking
 categories:
 - panama
 - software-development
-- speaking
 status: publish
 type: post
 published: true

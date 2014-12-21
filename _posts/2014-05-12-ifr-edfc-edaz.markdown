@@ -3,9 +3,9 @@ layout: post
 title: This time above the clouds in the sunshine (EDFC - EDAZ)
 tags:
 - en
+- IFR
 categories:
 - Aviation
-- IFR
 ---
 As before I departed this morning from Aschaffenburg to Berlin. This time the flight was in the sunshine above the clouds instead of in or under the clouds in the rain. The flight plan was:
 

@@ -3,10 +3,10 @@ layout: post
 title: Got invited to speak at IEEE Panama
 tags:
 - en
+- speaking
 categories:
 - panama
 - software-development
-- speaking
 status: publish
 type: post
 published: true

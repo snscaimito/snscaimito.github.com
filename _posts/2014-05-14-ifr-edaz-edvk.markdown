@@ -3,9 +3,9 @@ layout: post
 title: Flight into the night (EDAZ - EDVK)
 tags:
 - en
+- IFR
 categories:
 - Aviation
-- IFR
 ---
 This time my destination was an IFR airport: EDVK. IFR airport means that there is an instrument approach procedure and the flight can be performed all the way to landing under IFR. That is unlike the other times where I had to cancel IFR somewhere in the vicinity of the destination airfield as soon as practical and while being in visual meterological condititions (VMC).
 

@@ -3,7 +3,7 @@ layout: special
 date: 2013-09-10
 title: Using a light aircraft for business travel within Europe
 ---
-After living several years in [Panama](category/panama.html) and traveling back and forth between [Panama](category/panama.html) and many cities in the United States - at some point even on a weekly basis - I've become quite used to air travel. Now that we have relocated back to Europe I have picked up piloting light aircraft again. I believe I can make use of it to serve clients all across Europe instead of limiting my business to a certain area.
+After living several years in [Panama](/panama.html) and traveling back and forth between [Panama](/panama.html) and many cities in the United States - at some point even on a weekly basis - I've become quite used to air travel. Now that we have relocated back to Europe I have picked up piloting light aircraft again. I believe I can make use of it to serve clients all across Europe instead of limiting my business to a certain area.
 
 In the 1990s I had a few opportunities to use a light aircraft for business travel. It was a pleasant experience, saved time and wasn't that expensive given the alternatives.
 

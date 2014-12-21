@@ -5,7 +5,6 @@ tags:
 - en
 categories:
 - Panama
-- Construction
 status: publish
 type: post
 published: true

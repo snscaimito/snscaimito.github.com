@@ -9,7 +9,7 @@ categories:
 - Management
 - Thoughts
 ---
-Collaboration and cooperation are two totally different concepts. My translators tell me that, unfortunately, in the Chinese language they basically mean the same. I've written about that [before](/china/management/culture/2014/07/13/words-matter-speaking-in-images.html).
+Collaboration and cooperation are two totally different concepts. My translators tell me that, unfortunately, in the Chinese language they basically mean the same. I've written about that [before](/2014/07/13/words-matter-speaking-in-images.html).
 
 With the help of several translators the slides that I use for my work contain these two symbols to represent collaboration:
 

@@ -3,9 +3,9 @@ layout: post
 title: PanamaJUG Conference
 tags:
 - en
+- speaking
 categories:
 - panama
-- speaking
 status: publish
 type: post
 published: true

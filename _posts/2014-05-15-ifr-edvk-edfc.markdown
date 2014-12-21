@@ -3,9 +3,9 @@ layout: post
 title: Dealing with delays and last minute landing (EDVK - EDFC)
 tags:
 - en
+- IFR
 categories:
 - Aviation
-- IFR
 ---
 Everything today was working well. No stress or trouble of any kind. Eventually I was riding a taxi to the airport of Kassel-Calden. While I was being taken to the airport I filed IFR for 19:50 local time for the flight back to Aschaffenburg (EDFC):
 
@@ -17,7 +17,7 @@ Everything today was working well. No stress or trouble of any kind. Eventually 
 	-EDFC0040 EDFM
 	-PBN/B2C2D2S1 NAV/SBAS DOF/140515 RMK/CI312485 IFPSRA)
 
-The clouds were pretty much the same as the [day before](/aviation/2014/05/14/ifr-edaz-edvk.html) and as FL90 had been working well, I picked that altitude again.
+The clouds were pretty much the same as the [day before](/2014/05/14/ifr-edaz-edvk.html) and as FL90 had been working well, I picked that altitude again.
 
 ## Delay getting and paying for fuel
 
