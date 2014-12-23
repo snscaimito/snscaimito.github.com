@@ -17,6 +17,8 @@ title: Photo Galleries
 
 2009, [Festival de Naranja in Cacoa](Festival-de-Naranja-in-Cacao/) is about the celebration of the orange production in the small village of Cacoa in Western Panama.
 
+2009, I was invited to witness a [private cow slaugther](PrivateCowSlaugtherInPanama/) near the village of Sora in Western Panama.
+
 2010, [Transmitter Altos Del Maria](TransmitterAltosDelMaria/) shows the construction of a solar and wind powered transmission tower for Internet access at a small settlement in Western Panama.
 
 2010 - 2011, [Horses in Panama](HorsesInPanama/) is about the horses I had while living in Panama.
