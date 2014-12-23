@@ -19,6 +19,12 @@ title: Photo Galleries
 
 2009, I was invited to witness a [private cow slaugther](PrivateCowSlaugtherInPanama/) near the village of Sora in Western Panama.
 
+2009, Exploring to find a nice piece of land around [Teria Nacimiento](TeriaNacimiento/)
+
+2009, [First time horseback riding](FirstTimeHorsebackRiding/)
+
+2009, Near where we lived people had a [dancing event](BaileTipicoSora/).
+
 2010, [Transmitter Altos Del Maria](TransmitterAltosDelMaria/) shows the construction of a solar and wind powered transmission tower for Internet access at a small settlement in Western Panama.
 
 2010 - 2011, [Horses in Panama](HorsesInPanama/) is about the horses I had while living in Panama.
