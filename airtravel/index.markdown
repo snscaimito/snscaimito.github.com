@@ -28,7 +28,7 @@ What follows is an unordered list of articles with thoughts and discoveries as I
 * [VFR vs. IFR flying](vfr-ifr.html)
 * [Choosing the right altitude](optimum-altitude.html)
 
-## Others have made similar research or tell about their experiences
+### Others have made similar research or tell about their experiences
 
 * [Peter writes extensively about flying IFR throughout Europe in a Socata TB-20](http://www.peter2000.co.uk/aviation/index.html)
 
