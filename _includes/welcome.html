@@ -8,12 +8,7 @@
 	<div class="span9">
 		{% for post in site.posts limit:1 %}
 			<div class="post">
-				<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-				<p>{{ post.date | date: "%d %b %Y" }} in
-					{% for category in post.categories %}
-						<a class="categoryLink" href="/category/{{ category }}.html">{{ category }}</a>
-					{% endfor %}
-				</p>
+				<h1>{{ post.title }}</h1>
 				{{ post.content }}
 				<p class="postfooter">{{ post.date | date: "%d %b %Y" }}, <a href="{{ post.url }}#disqus_thread">0 Comments</a></p>
 			</div>

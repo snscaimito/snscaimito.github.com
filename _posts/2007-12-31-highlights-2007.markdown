@@ -1,5 +1,5 @@
 ---
-layout: special
+layout: post
 title: Highlights of 2007
 tags:
 - highlight_of_the_year
@@ -23,5 +23,10 @@ The technology scene in Panama is quite small and in **September** I got involve
 By the end of **November** spoke about an Agile Development Organization in [Miami](/2007/11/22/an-agile-development-organization-in-miami-florida.html) and [Tampa](/2007/11/22/an-agile-development-organization-in-tampa-florida.html) and also expressed how I [dislike crammed team rooms](/2007/11/24/cram-the-team-into-a-small-space-or-let-them-think.html).
 
 Eventually in **December** the first [PanamaJUG](/2007/12/15/panamajug-conference.html) conference happened in the remote town of Chitre in the western part of Panama - a place where one would not be looking for a gathering of software developers amidst cattle farming and other agricultural activities.
+
+## Photo Galleries
+To explore the country we started to live in a bit we went to [Isla Grande](/galleries/IslaGrande/) and to the mountains of Veraguas where we visited a [coffee factory](/galleries/PanamaCoffee/).
+
+Besides the [article about it](/2007/12/15/panamajug-conference.html) there is also a photo gallery with impressions from the [first Panama JUG Conference](/galleries/PanamaJUGConference/) held in the country side of Chitre.
 
 {% include highlightOfTheYear.html %}
