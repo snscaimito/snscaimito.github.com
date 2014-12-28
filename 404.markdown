@@ -1,0 +1,11 @@
+---
+layout: special
+title: Oups! Not what you were looking for
+---
+I'm sorry!
+
+You have navigated to a page that doesn't exist.
+
+To the right you can try a local search using Google or simply use the navigation elements around this page.
+
+If you came here from a link within my website, I'd appreciate a <a href="mailto:sns@caimito.net">short note</a> about it. I may have missed that one and would like to fix it.
