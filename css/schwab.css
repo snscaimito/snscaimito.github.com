@@ -378,3 +378,8 @@ DIV#navrow {
 UL#photoInfo {
 	margin-top: 15px;
 }
+
+FIGCAPTION {
+	margin-top: 10px;
+	text-align: center;
+}

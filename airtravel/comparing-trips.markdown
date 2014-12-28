@@ -1,7 +1,7 @@
 ---
 layout: special
 date: 2012-12-16
-title: Comparing driving, general aviation, and commercial service
+title: Hypothesis - Comparing driving, general aviation, and commercial service
 ---
 Let's look at a few travels to compare the time it takes to drive versus the time it takes to fly in a light aircraft. For the purpose of further discussion of the topic let's assume we need to travel from the city center of Mannheim, a regional center, to other places near and far.
 
