@@ -3,9 +3,17 @@ layout: special
 date: 2014-12-27
 title: Using a light aircraft for business travel within Europe
 ---
-In the 1990s I had a few opportunities to use a light aircraft for business travel. It was a pleasant experience, saved time and wasn't that expensive given the alternatives.
+My work with clients is completely performed on-site and so I travel 100% when I go to work. After living and working in the Americas, in 2012 I have defined my market as being within the boundaries of the European Union and the Schengen Zone. I also intend to see two clients every week and therefore want to travel to the first client at the beginning of the week and then continue on to the next client later.
 
-There are so [many airports within Germany](https://maps.google.com/?q=http:%2F%2Fwww.earth-dots.de%2Fstore%2Fg_files%2FFlugplaetze_Google_DULV_503.kml&amp;ie=UTF8&amp;t=m&amp;z=6&amp;output=embed) and all across Europe that you will find one every few kilometers. A subset are those [airports that have Instrument Procedures](https://mapsengine.google.com/map/edit?mid=z7fp82oPj2QU.kt0UifmGgaXI) and allow a safe landing in less than perfect weather.
+My engagements are usually stretched out over several months and as I help people to improve what they do, it is not me who has to deliver something on a set date. I don't have extreme time pressure. It's not like traveling to an important business meeting. If I arrive in the afternoon instead of the morning, there is no harm done. In an extreme case I might even postpone my arrival for a full day or not be there at all in a particular week.
+
+## It leaves when I'm ready
+Unlike with airlines or trains flying yourself has a huge advantage: flexibility. Scheduled commercial transportation services leave at a certain time and if you are not there, then you will stay behind.
+
+Being the pilot of the airplane means that it will leave when I'm ready. I don't have to rush anything and when my business requires me to stay a bit longer or allows me to leave earlier I can do so without penalties, rebooking costs and hassle or other considerations.
+
+## Being searched multiple times per week
+Due to a widespread fear of someone performing a malicious act mass public transport suffers from a lot of security measures that are more or less effective. That makes frequent travel - I'm talking about eg. boarding an airplane about two or four times every week - quite unpleasant. Plus, if one travels with a lot of electronic equipment going through security checks isn't very quick either.
 
 ## Dealing with complexity
 When traveling with commercial carriers that offer individual or mass transportation services one is a passenger and has nothing else to do than to enjoy the ride. All considerations regarding the vehicle, operating it, services at origin and destination, etc. are taken care of by the carrier offering the service. When you use individual transport, such as your car or your aircraft, then all those considerations have to be taken care of by yourself.
