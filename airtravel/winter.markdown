@@ -5,6 +5,16 @@ title: Flying during winter time
 ---
 Any flight can be severely affected by ice building up on the aircraft surfaces. Ice buildup on the wings not only increases aircraft weight but much than that reduces lift due to a change in the wing's profile. Ice can also block control surfaces. All kinds of bad things can happen with ice sticking onto an airplane. So it is best avoided or removed.
 
+## Icing
+Clouds are made up of water and it is water at temperatures below zero that can create ice on the surfaces of an aircraft. There are special weather forecasting services that predict icing conditions. In the following picture icing is depicted for the green colored area. One can also see that the clouds are very close to the surface.
+
+<figure>
+  <a href="winter-gramet.png" target="_blank"><img src="winter-gramet.png"></a>
+  <figcaption>Click the image to enlarge</figcaption>
+</figure>
+
+This forecast is for December 29, 2014 08:00 local time for a flight from Kassel (EDVK) to Augsburg (EDMA). Given these conditions I would not attempt to perform this flight in most single engine aircraft unlike they are at least FIKI (certified for flight into known icing conditions).
+
 ## Flying single engine during snowfall
 As I write this it is winter in Germany. I have asked the active pilots in the [Pilot und Flugzeug](http://www.pilotundflugzeug.de) forum about flying in a single engine aircraft during snowfall. The [Cirrus SR22](http://en.wikipedia.org/wiki/Cirrus_SR22) is available with an anti-ice system certified for flight into known ice (FIKI). I wanted to know how snow affects a flight and whether a FIKI system helps in such a situation.
 
