@@ -3,6 +3,7 @@ layout: post
 title: A path on top
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

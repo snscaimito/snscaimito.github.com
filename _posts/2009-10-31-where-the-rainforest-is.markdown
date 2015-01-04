@@ -3,6 +3,7 @@ layout: post
 title: Where the rainforest is
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

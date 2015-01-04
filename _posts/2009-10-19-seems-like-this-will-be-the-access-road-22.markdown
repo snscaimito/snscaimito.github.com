@@ -3,6 +3,7 @@ layout: post
 title: Seems like this will be the access road (2/2)
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

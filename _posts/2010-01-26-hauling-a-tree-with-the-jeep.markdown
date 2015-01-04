@@ -3,6 +3,7 @@ layout: post
 title: Hauling a tree with the Jeep
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

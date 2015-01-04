@@ -1,0 +1,29 @@
+---
+layout: post
+title: Highlights of 2009
+tags:
+- highlight_of_the_year
+---
+Until **February** I was too busy to write anything so I create a [sum-it-all-up post](/2009/02/11/busy-busy-busy.html). As I participated until June as a remote team member in the development of Serials Solutions' new product Summon - a unified discovery service for libraries providing a Google-like search experience to researchers - there wasn't much to write about publicly.
+
+That changed in **September** when the idea of [setting up a farm in the rainforest of Panama](/panama-farm.html) was conceived. I bought [horses](/horses/) and had a lot of fun [driving off-road with the Jeep including driving through a river](/2009/09/04/how-to-get-to-the-farm.html).
+
+In **October** I had an opportunity to [explore the real jungle](/2009/10/02/exploring-a-true-jungle.html) - just like the early explorers did. There was also a [field trip to a teak plantation](/2009/10/13/luzero-toby-and-pedron-visit-a-teak-plantation.html). A lot of effort was put into [finding a good access road](/2009/10/17/seems-like-this-will-be-the-access-road-12.html) to the farm, as the access was by foot or on horseback only.
+
+Having a farm one wants to develop some activity and so in **November** I [bought two heads of cattle](/2009/11/16/our-first-two-heads-of-cattle.html) [from a local farmer](/2009/11/13/buying-cattle-from-a-local-farmer.html) to get started. At the end of the month my guys and I started to [prepare the rancho](/2009/11/20/fixing-up-and-cleaning-the-rancho.html) on the farm as a temporary place to stay and brought the cows to the land.
+
+However, in **December** I learned that [legal agreements are not always honored by all parties](/2009/12/07/agreements-are-not-always-honored-by-all-parties.html) and had to retain a lawyer to resolve issues with the seller of the right to possess the land. With hope that the issues can be resolved I continued the search for a good access road and [we found a better one](/2009/12/10/there-is-a-better-access-road.html). As there wasn't much that we could do on the farm itself for the moment I dedicated time and resources to other preparatory work like building a [homemade offroad trailer](/2009/12/27/homemade-offroad-trailer.html) and helping someone with a little job of [making wooden signs](/2009/12/25/making-signs.html).
+
+## Photo Galleries
+
+[Festival de Naranja in Cacoa](Festival-de-Naranja-in-Cacao/) is about the celebration of the orange production in the small village of Cacoa in Western Panama.
+
+I was invited to witness a [private cow slaugther](PrivateCowSlaugtherInPanama/) near the village of Sora in Western Panama.
+
+Before finding the 130 hectares in Eastern Panama in September I explored the vicinity of our new home west of Panama City and came to visit [Teria Nacimiento](TeriaNacimiento/).
+
+Due to a visit of a teak plantation near Colon I got into [horseback riding](FirstTimeHorsebackRiding/).
+
+Near where we lived people had a [dancing event](BaileTipicoSora/).
+
+{% include highlightOfTheYear.html %}

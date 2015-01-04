@@ -3,6 +3,7 @@ layout: post
 title: Removing a large jobo tree to unblock the access trail
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

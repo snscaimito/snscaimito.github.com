@@ -3,6 +3,7 @@ layout: post
 title: The final 2 km are on horseback
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

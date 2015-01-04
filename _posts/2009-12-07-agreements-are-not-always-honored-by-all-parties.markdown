@@ -3,6 +3,7 @@ layout: post
 title: Agreements are not always honored by all parties
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

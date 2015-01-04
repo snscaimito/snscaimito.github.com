@@ -3,6 +3,7 @@ layout: post
 title: Right of Possession and local authorities that fear to act
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

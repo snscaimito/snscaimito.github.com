@@ -3,6 +3,7 @@ layout: post
 title: Didimo's old and new home
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

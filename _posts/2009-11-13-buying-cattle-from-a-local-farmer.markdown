@@ -3,6 +3,7 @@ layout: post
 title: Buying cattle from a local farmer
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

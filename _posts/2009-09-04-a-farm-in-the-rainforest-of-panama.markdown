@@ -3,6 +3,7 @@ layout: post
 title: A farm in the rainforest of Panama
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

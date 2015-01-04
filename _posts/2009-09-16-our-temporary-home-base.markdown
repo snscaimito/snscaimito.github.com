@@ -3,6 +3,7 @@ layout: post
 title: Our temporary home base
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

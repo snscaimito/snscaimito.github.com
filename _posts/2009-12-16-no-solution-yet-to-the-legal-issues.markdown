@@ -3,6 +3,7 @@ layout: post
 title: No solution yet to the legal issues
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

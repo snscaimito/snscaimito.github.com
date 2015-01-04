@@ -4,6 +4,7 @@ title: Saddles, Machetes, Lasso, etc.
 tags:
 - en
 - Horses
+- panama-farm
 categories:
 - Farm-Life
 - Panama

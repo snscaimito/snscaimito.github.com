@@ -3,6 +3,7 @@ layout: post
 title: How the farm looks like at the moment
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

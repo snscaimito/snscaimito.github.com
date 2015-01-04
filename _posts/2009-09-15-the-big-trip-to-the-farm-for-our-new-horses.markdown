@@ -4,6 +4,7 @@ title: The big trip to the farm for our new horses
 tags:
 - en
 - Horses
+- panama-farm
 categories:
 - Farm-Life
 - Panama

@@ -3,6 +3,7 @@ layout: post
 title: Exploring the farm
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

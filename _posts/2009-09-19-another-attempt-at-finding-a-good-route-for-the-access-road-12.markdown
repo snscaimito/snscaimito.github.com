@@ -3,6 +3,7 @@ layout: post
 title: Another attempt at finding a good route for the access road (1/2)
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

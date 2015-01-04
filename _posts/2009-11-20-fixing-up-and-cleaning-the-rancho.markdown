@@ -3,6 +3,7 @@ layout: post
 title: Fixing up and cleaning the rancho
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

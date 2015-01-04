@@ -3,6 +3,7 @@ layout: post
 title: Analysis of legal problems with Right of Possession
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

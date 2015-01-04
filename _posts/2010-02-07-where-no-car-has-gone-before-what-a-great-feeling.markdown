@@ -3,6 +3,7 @@ layout: post
 title: ! 'Where no car has gone before: what a great feeling'
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

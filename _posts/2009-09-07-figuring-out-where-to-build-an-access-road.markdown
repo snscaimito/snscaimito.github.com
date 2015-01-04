@@ -3,6 +3,7 @@ layout: post
 title: Figuring out where to build an access road
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

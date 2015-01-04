@@ -3,6 +3,7 @@ layout: post
 title: Jeep as Logging Tool
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

@@ -3,6 +3,7 @@ layout: post
 title: Vaccines for our horses
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

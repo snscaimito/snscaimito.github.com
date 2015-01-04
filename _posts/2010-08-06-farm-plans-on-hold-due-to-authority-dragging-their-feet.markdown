@@ -3,6 +3,7 @@ layout: post
 title: Farm plans on hold due to authority dragging their feet
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

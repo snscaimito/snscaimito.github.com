@@ -4,6 +4,7 @@ title: Finding horses
 tags:
 - en
 - Horses
+- panama-farm
 categories:
 - Farm-Life
 - Panama
