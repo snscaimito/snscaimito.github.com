@@ -15,7 +15,7 @@ As we have lived in places like North and South America where people usually hav
 
 In **June** I explored flying a bit higher and [how to use the onboard oxygen system](/2014/06/11/this-time-with-oxygen.html). I also had a wonderful opportunity to [fly to the Agile Cologne](/2014/06/13/agile-cologne-2014.html) open space conference. This was also the last flight for this year, as I was preparing to embark on a [6 months long coaching engagement in China](/china.html).
 
-That engagement itself is a highlight so I just refer to my page about [living and working in China](/china.html) for the details.
+That engagement itself is a highlight so I just refer to my page about [living and working in China](/china.html) for the details of what happened between **July** and **December**.
 
 Close to the end of our stay in China I started to shift my thoughts a bit back to Aviation and found some interesting inspiration in [Aeronautical Decision Making](/2014/11/30/aeronautical-decision-making-for-software-developers.html) and am since trying to transfer some of the learning from Aviation to Software Development.
 
