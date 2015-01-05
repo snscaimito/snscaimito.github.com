@@ -3,6 +3,7 @@ layout: post
 title: Going all the way to the end of the road (2/2)
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

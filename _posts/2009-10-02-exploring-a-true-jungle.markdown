@@ -3,6 +3,7 @@ layout: post
 title: Exploring a true jungle
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

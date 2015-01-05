@@ -3,6 +3,7 @@ layout: post
 title: Rights of Possession in Panama
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

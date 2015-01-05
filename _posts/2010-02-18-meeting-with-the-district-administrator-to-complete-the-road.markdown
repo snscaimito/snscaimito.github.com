@@ -3,6 +3,7 @@ layout: post
 title: Meeting with the district administrator to complete the road
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

@@ -3,6 +3,7 @@ layout: post
 title: Sometimes leaving can be difficult
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

@@ -3,6 +3,7 @@ layout: post
 title: Crossing the "Brazo de Chuluganti" river
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

@@ -4,6 +4,7 @@ title: Horse Beauty Salon
 tags:
 - en
 - Horses
+- panama-farm
 categories:
 - Farm-Life
 - Panama

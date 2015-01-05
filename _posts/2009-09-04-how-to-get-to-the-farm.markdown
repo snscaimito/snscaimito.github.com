@@ -3,6 +3,7 @@ layout: post
 title: How to get to the farm
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

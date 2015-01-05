@@ -3,6 +3,7 @@ layout: post
 title: The last 300 meters
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

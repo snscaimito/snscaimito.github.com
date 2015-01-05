@@ -3,6 +3,7 @@ layout: post
 title: Food and beverage in the wilderness
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

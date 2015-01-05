@@ -4,6 +4,7 @@ title: Picking up Luzero to join the others
 tags:
 - en
 - Horses
+- panama-farm
 categories:
 - Farm-Life
 - Panama

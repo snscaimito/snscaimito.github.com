@@ -3,6 +3,7 @@ layout: post
 title: There is a better access road
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

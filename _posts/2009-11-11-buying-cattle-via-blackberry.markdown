@@ -3,6 +3,7 @@ layout: post
 title: Buying cattle via Blackberry
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

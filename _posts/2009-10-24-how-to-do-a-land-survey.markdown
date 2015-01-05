@@ -3,6 +3,7 @@ layout: post
 title: How to do a land survey
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

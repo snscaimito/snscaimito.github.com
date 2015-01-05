@@ -3,6 +3,7 @@ layout: post
 title: Some more offroad fun
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

@@ -3,6 +3,7 @@ layout: post
 title: Flower and fruits
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

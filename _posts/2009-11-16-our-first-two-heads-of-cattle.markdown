@@ -3,6 +3,7 @@ layout: post
 title: Our first two heads of cattle
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

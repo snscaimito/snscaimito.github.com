@@ -25,7 +25,7 @@ title: Photo Galleries
 
 2009, Near where we lived people had a [dancing event](BaileTipicoSora/).
 
-2019, We went to see a Panamanian all female rodeo called [Nacionales de Amazonas](AmazonasPanama/)
+2009, We went to see a Panamanian all female rodeo called [Nacionales de Amazonas](AmazonasPanama/)
 
 2010, [Transmitter Altos Del Maria](TransmitterAltosDelMaria/) shows the construction of a solar and wind powered transmission tower for Internet access at a small settlement in Western Panama.
 

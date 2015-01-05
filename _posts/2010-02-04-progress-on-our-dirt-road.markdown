@@ -3,6 +3,7 @@ layout: post
 title: Progress on our dirt road
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

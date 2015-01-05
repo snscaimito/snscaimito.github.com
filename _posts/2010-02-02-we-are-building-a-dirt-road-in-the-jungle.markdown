@@ -3,6 +3,7 @@ layout: post
 title: We are building a dirt road in the jungle
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama

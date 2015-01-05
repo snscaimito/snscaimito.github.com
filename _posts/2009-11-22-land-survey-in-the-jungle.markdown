@@ -3,6 +3,7 @@ layout: post
 title: Land survey in the jungle
 tags:
 - en
+- panama-farm
 categories:
 - Farm-Life
 - Panama
