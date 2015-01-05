@@ -16,3 +16,14 @@ As part of my work with Huawei I got to travel frequently from Shenzhen to Beiji
 </tr>
 {% endfor %}
 </table>
+
+## Smog in Beijing
+During a stay over two weeks in the Chinese capital Beijing we also witnessed the smog.
+
+![DSC 2578](img/posts/2014-12-29/DSC_2578.jpg)
+
+![DSC 2582](img/posts/2014-12-29/DSC_2582.jpg)
+
+When it clears it does look like this:
+
+![DSC 2583](img/posts/2014-12-29/DSC_2583.jpg)
