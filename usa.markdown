@@ -13,7 +13,7 @@ In late 2011 we returned to the U.S. to live and work in Columbus, Ohio and also
 Due to some circumstances we left the U.S. after only a few months for Europe in late 2012.
 
 <table>
-{% for post in site.categories.usa %}
+{% for post in site.categories.usa reversed %}
 <tr>
 	<td>{{ post.date | date: "%d %b %Y" }}</td>
 	<td><a href="{{ post.url }}">{{ post.title }}</a></td>

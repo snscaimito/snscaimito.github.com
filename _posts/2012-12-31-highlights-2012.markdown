@@ -1,0 +1,27 @@
+---
+layout: post
+title: Highlights of 2012
+tags:
+- highlight_of_the_year
+---
+After our relocation to Ohio in **January** I had a few days before the start of my new engagement and continued to use them to learn training horses with the help of a human trainer for myself and [Max, the Haflinger](/2012/01/04/the-young-not-always-do-as-told.html). Eventually the [Peruvian Paso gelding Maximiliano arrived](/2012/01/11/peruvian-paso-maximiliano-arrives-and-meets-max.html) at the rural home we were renting in Ohio. We also got a [brand new Ford F150 pickup truck](/2012/01/22/a-real-pickup-truck.html). The idea was to start right from the start the American life in cowboy style. It did feel quite nice and we got some positive comments from the people around us.
+
+As part of my engagement in **February** I created a [Ruby Wrapper for IBM MQ](/2012/02/13/ruby-wrapper-for-ibm-mq.html) to help the team do ATDD with Cucumber and [began teaching cues to Maximiliano](/2012/02/13/teaching-cues-to-maximiliano.html). The idea was to establish a communication patters with him so that by slight movement of my body he knows what I like him to do. At work I noticed that [people resist change due to lack of trust](/2012/02/18/resisting-change-due-to-lack-of-trust.html) and also [what happens when an organization believes it is not a software company](/2012/02/24/when-your-organization-is-a-software-company.html).
+
+At the beginning of **March** I was able to announce [my first book called Smarter Software with Activity-Centered Design](/2012/03/13/my-first-book-smarter-software-with-activity-centered-design.html). As we were still going back and forth using the F150 between Buffalo, New York, and Columbus, Ohio, to see the horses I continued to [train the trained horse Maximiliano](/2012/03/18/maximiliano-training-the-trained-horse.html) and eventually got [back into the saddle riding him for real the first time](/2012/03/20/riding-again.html). I also found out that my two horses had [two totally oppositive horsealities](/2012/03/26/two-opposites-right-brain-extrovert-vs-left-brain-introvert.html).
+
+It was then time to relocate the horses to Buffalo, New York, using a special trailer hitched to the F150 pickup:
+
+![F150 HorseTrailer](/img/posts/f150-horseTrailer.jpg)
+
+At my client in **April** I came up with some explanation as to [why some developers don't want to write tests first](/2012/04/02/why-developers-dont-want-to-write-tests-first.html) and also wrote about the [difference between a mindset and a process](/2012/04/07/difference-between-a-mindset-and-a-process.html), which often is confused.
+
+In **May** I had some [thoughts on our natural inability to communicate well](/2012/05/06/thoughts-on-our-natural-inability-to-communicate-well.html).
+
+Due to different expectations my relationship with [LeanDog](http://www.leandog.com) didn't work out and my family and I decided to [relocate to Germany](/2012/09/11/relocated-to-germany.html) in **September**. 
+
+Being without an engagement for a while in **October** I had some opportunities to prepare my [company website](http://www.caimito.net) and write in German about [agile development being perceived as something without leadership](/2012/10/13/agile-entwicklung-als-fuehrungskraefte-freie-zone.html), [coaching](/2012/10/27/coaching-von-software-teams-ohne-vom-fach-zu-sein.html) and the [boundaries for a Scrum Master](/2012/10/29/wo-liegen-die-grenzen-fuer-einen-scrum-master.html).
+
+In **November** I wrote another piece in German about [trying out an Agile Coach instead of selecting the person through interviews](/2012/11/21/agile-coach-ausprobieren-statt-auswaehlen.html).
+
+{% include highlightOfTheYear.html %}

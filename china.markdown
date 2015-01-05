@@ -9,7 +9,7 @@ By the end of June our little family was on a Lufthansa flight from Frankfurt to
 As part of my work with Huawei I got to travel frequently from Shenzhen to Beijing, Shanghai, and Xian. A few times those trips were two weeks long and I was able to take my wife and daughter with me. During a short holiday we also went to Kunming in the Yunnan province and also visited the tropical Hainan island.
 
 <table>
-{% for post in site.categories.china %}
+{% for post in site.categories.china reversed %}
 <tr>
 	<td>{{ post.date | date: "%d %b %Y" }}</td>
 	<td><a href="{{ post.url }}">{{ post.title }}</a></td>
