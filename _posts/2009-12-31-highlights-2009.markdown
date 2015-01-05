@@ -16,14 +16,14 @@ However, in **December** I learned that [legal agreements are not always honored
 
 ## Photo Galleries
 
-[Festival de Naranja in Cacoa](Festival-de-Naranja-in-Cacao/) is about the celebration of the orange production in the small village of Cacoa in Western Panama.
+[Festival de Naranja in Cacoa](/galleries/Festival-de-Naranja-in-Cacao/) is about the celebration of the orange production in the small village of Cacoa in Western Panama.
 
-I was invited to witness a [private cow slaugther](PrivateCowSlaugtherInPanama/) near the village of Sora in Western Panama.
+I was invited to witness a [private cow slaugther](/galleries/PrivateCowSlaugtherInPanama/) near the village of Sora in Western Panama.
 
-Before finding the 130 hectares in Eastern Panama in September I explored the vicinity of our new home west of Panama City and came to visit [Teria Nacimiento](TeriaNacimiento/).
+Before finding the 130 hectares in Eastern Panama in September I explored the vicinity of our new home west of Panama City and came to visit [Teria Nacimiento](/galleries/TeriaNacimiento/).
 
-Due to a visit of a teak plantation near Colon I got into [horseback riding](FirstTimeHorsebackRiding/).
+Due to a visit of a teak plantation near Colon I got into [horseback riding](/galleries/FirstTimeHorsebackRiding/).
 
-Near where we lived people had a [dancing event](BaileTipicoSora/).
+Near where we lived people had a [dancing event](/galleries/BaileTipicoSora/).
 
 {% include highlightOfTheYear.html %}

@@ -21,6 +21,6 @@ I also got involved into a new project at a new client in Columbus, Ohio, and in
 
 ## Photo Galleries
 
-[Transmitter Altos Del Maria](TransmitterAltosDelMaria/) shows the construction of a solar and wind powered transmission tower for Internet access at a small settlement in Western Panama.
+[Transmitter Altos Del Maria](/galleries/TransmitterAltosDelMaria/) shows the construction of a solar and wind powered transmission tower for Internet access at a small settlement in Western Panama.
 
 {% include highlightOfTheYear.html %}
