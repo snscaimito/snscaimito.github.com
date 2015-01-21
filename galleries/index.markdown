@@ -27,6 +27,8 @@ title: Photo Galleries
 
 2009, We went to see a Panamanian all female rodeo called [Nacionales de Amazonas](AmazonasPanama/)
 
+2009, While working with Lean Dog I had an opportunity to observe the [Cleveland Air Show](ClevelandAirShow2009/) from their boat where their office is located.
+
 2010, [Transmitter Altos Del Maria](TransmitterAltosDelMaria/) shows the construction of a solar and wind powered transmission tower for Internet access at a small settlement in Western Panama.
 
 2010 - 2011, [Horses in Panama](HorsesInPanama/) is about the horses I had while living in Panama.
