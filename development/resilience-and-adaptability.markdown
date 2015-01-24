@@ -1,6 +1,6 @@
 ---
 layout: post
-title: On resilience and adaptability
+title: Are you changing with your customers?
 tags:
 - en
 categories:

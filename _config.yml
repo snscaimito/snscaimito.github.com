@@ -1,3 +1,7 @@
+name: Stephan Schwab
+description: As International Software Development Coach and Trainer I offer to CEOs and Department Leaders, who are not satisfied with the performance of their software development teams, technical and organizational team coaching as a professional service to improve the value creation chain within their organization and to improve the quality of the product they are making.
+url: http://www.stephan-schwab.com
+
 highlighter: pygments
 permalink: /:year/:month/:day/:title.html
 markdown: redcarpet
