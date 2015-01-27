@@ -1,6 +1,6 @@
 ---
 layout: special
-title: Software Design
+title: What is Software Design
 ---
 Unlike the work done by engineers when building a bridge, a large skyscraper or some machine software development is almost <strong>entirely a design activity</strong>. Why is that?
 
