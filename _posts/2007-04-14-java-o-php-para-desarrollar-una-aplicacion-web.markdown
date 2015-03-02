@@ -2,7 +2,7 @@
 layout: post
 title: Java o PHP para desarrollar una aplicación web
 tags:
-- en
+- es
 categories:
 - software-development
 status: publish
