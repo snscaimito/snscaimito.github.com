@@ -140,6 +140,7 @@ P.blog-title {
 
 .post H2 {
 	font-size: 18pt;
+	margin-top: 12pt;
 	margin-bottom: -3px;
 	text-align: center;
 }
@@ -168,6 +169,8 @@ TABLE {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 .article UL {
