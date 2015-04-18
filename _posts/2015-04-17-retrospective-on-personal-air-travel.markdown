@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Looking at some numbers for air travel
+title: Retrospective on personal air travel
 tags:
 - en
 categories:
