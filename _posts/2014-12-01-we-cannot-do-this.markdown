@@ -3,6 +3,7 @@ layout: post
 title: We cannot do this
 tags:
 - en
+- agile
 categories:
 - Coaching
 ---

@@ -3,6 +3,7 @@ layout: post
 title: Bedroht das Digitale die deutsche Wirtschaft oder besteht die Bedrohung aus etwas anderem?
 tags:
 - de
+- agile
 categories:
 - Management
 - Thoughts
