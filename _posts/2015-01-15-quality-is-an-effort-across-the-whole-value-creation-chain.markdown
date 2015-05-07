@@ -3,6 +3,7 @@ layout: post
 title: Quality is an effort across the whole value creation chain
 tags:
 - en
+- agile
 categories:
 - Management
 - Software-Development

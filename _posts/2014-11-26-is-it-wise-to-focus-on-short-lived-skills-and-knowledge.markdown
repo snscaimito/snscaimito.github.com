@@ -3,6 +3,7 @@ layout: post
 title: Is it wise to focus on short-lived skills and knowledge?
 tags:
 - en
+- agile
 categories:
 - Management
 - Thoughts

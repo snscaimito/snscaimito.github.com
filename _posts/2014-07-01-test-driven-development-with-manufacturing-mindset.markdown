@@ -3,6 +3,7 @@ layout: post
 title: Can you do test-driven development with a manufacturing mindset?
 tags:
 - en
+- agile
 categories:
 - Software-Development
 - Management

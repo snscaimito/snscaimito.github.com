@@ -3,6 +3,7 @@ layout: post
 title: Is uncovering issues an issue?
 tags:
 - en
+- agile
 categories:
 - China
 - Culture
