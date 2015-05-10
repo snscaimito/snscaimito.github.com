@@ -6,6 +6,7 @@
 		<title>{{ site.name | xml_escape }}</title>
 		<description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>		
 		<link>{{ site.url }}</link>
+		<language>en-us</language>
 		<atom:link href="{{ site.url }}/agile-en.xml" rel="self" type="application/rss+xml" />
 		{% for post in site.tags.agile %}
 			{% if post.tags contains 'en' %}
@@ -22,6 +23,7 @@
 					<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 					<link>{{ site.url }}{{ post.url }}</link>
 					<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+					<author>sns@caimito.net</author>
 				</item>
 			{% endif %}
 		{% endfor %}
