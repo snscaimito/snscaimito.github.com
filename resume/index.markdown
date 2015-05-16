@@ -20,18 +20,6 @@ I like to help **technical teams**, those who implement, create, make a product,
 
 Learn more about selected <a href="engagements.html">client engagements</a> and about the <a href="speaking.html">public speaking</a> I did so far.
 
-## International
-<p style="text-align: center">
-	<a href="/category/en.html"><img style="display: inline" src="/img/language-flags/32x32/flag_rotate-02.png"></a>
-	<a href="/category/de.html"><img style="display: inline" src="/img/language-flags/32x32/flag_rotate-03.png"></a>
-	<a href="/category/es.html"><img style="display: inline" src="/img/language-flags/32x32/flag_rotate-12.png"></a>
-</p>
-
-<iframe style="display: block; margin: 0 auto; margin-bottom: 15px; margin-top: 15px" src="https://mapsengine.google.com/map/embed?mid=z7fp82oPj2QU.kic4BS3nuxas" width="640" height="480"></iframe>
-
-I have worked, lived and visited a good portion of planet Earth and am able to provide my service in English, German, and Spanish.
-
-
 ## Facets
 As a [T-shaped person](http://en.wikipedia.org/wiki/T-shaped_skills) I don't identify myself with a single activity. So what I do during my wake hours of any given day can best be described as facets. Some facets are:
 
@@ -105,3 +93,14 @@ As a [T-shaped person](http://en.wikipedia.org/wiki/T-shaped_skills) I don't ide
 		<p>Frequently I teach on topics in software development at the level of advanced and higher as part of my <a href="/resume/engagements.html">coaching engagements</a>.</p>
 	</dd>
 </dl>
+
+## International
+<p style="text-align: center">
+	<a href="/category/en.html"><img style="display: inline" src="/img/language-flags/32x32/flag_rotate-02.png"></a>
+	<a href="/category/de.html"><img style="display: inline" src="/img/language-flags/32x32/flag_rotate-03.png"></a>
+	<a href="/category/es.html"><img style="display: inline" src="/img/language-flags/32x32/flag_rotate-12.png"></a>
+</p>
+
+<iframe style="display: block; margin: 0 auto; margin-bottom: 15px; margin-top: 15px" src="https://mapsengine.google.com/map/embed?mid=z7fp82oPj2QU.kic4BS3nuxas" width="640" height="480"></iframe>
+
+I have worked, lived and visited a good portion of planet Earth and am able to provide my service in English, German, and Spanish.

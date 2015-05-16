@@ -1,0 +1,37 @@
+<html>
+{% include head.html %}
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="span9">
+				<div class="post">
+					<h1>{{ page.title }}</h1>
+					{{ content }}
+				</div>
+			</div>
+			<div class="span3">
+				<div class="sidebar">
+					<p class="section">Professional Services</p>
+					<p>You can hire me through my company:</p>
+					<p align="center"><a href="http://www.caimito.net"><img src="/img/logo_caimito.png"/></a></p>
+					<p>I can provide my service in any of these languages:</p>
+					<p align="center">
+						<img src="/img/language-flags/32x32/flag_rotate-02.png">
+						<img src="/img/language-flags/32x32/flag_rotate-03.png">
+						<img src="/img/language-flags/32x32/flag_rotate-12.png">
+					</p>
+					<p align="center">
+						<small>
+						English
+						German
+						Spanish
+						</small>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	{% include scripts.html %}	
+</body>
+</html>
