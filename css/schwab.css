@@ -242,6 +242,19 @@ DL.resume DT {
 	border-bottom: 1px dotted black ;
 }
 
+DL.resume-inner DT {
+	color: #000000;
+	font-weight: bold;
+	border-bottom: none ;
+	font-size: 11pt;
+	margin-bottom: 5px;
+}
+
+DL.resume-inner DD P {
+	font-size: 11pt;
+}
+
+
 UL.special-content {
 	list-style-type: square;
 }

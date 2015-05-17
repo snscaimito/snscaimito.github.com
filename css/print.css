@@ -1,4 +1,4 @@
-.footer, .featured-categories, .no-print-sidebar {
+.footer, .featured-categories, .no-print-sidebar, .no-print {
 	display: none;
 }
 

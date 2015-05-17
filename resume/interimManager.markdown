@@ -10,6 +10,7 @@ This profile highlights my experience in **leading and founding commercial ventu
 <dl class="resume">
 		<dt>Founder Caimito Development S.A.</dt>
 		<dd><p>2006 - 2009, Panama</p>
+			<p>Outsourcing projects for customers in USA.</p>
 			<p>Development of the agile lifecycle management tool Caimito One Team from idea to market introduction.</p>
 			<p>Led a multi-national and multi-lingual team of programmers, testers, and content specialists.</p>
 		</dd>

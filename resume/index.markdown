@@ -2,105 +2,128 @@
 layout: resume
 title: Stephan Schwab
 ---
-<ul class="categories horizontal">
-	<li>Overview</li>
-	<li><a href="engagements.html">Engagements</a></li>
-	<li><a href="speaking.html">Speaking</a></li>
-</ul>
+My focus is on value creation from the customer's point of view. At the very end it's the customer who pays everybody's salary.
 
-# My professional experience - Overview
-My main specialty is to help others learn, explore and grow in a safe and effective way to improve how they contribute to the success of the organization they serve. I can sit with a programmer and help coding and I can also help managers with project management or the work flow in the groups they are responsible for.
+I help others to learn, explore and grow in a safe and effective way to improve how they contribute to the success of the organization they serve. I can sit with a programmer and help coding and I can also help managers with project management or the work flow in the groups they are responsible for. I can also be that manager for a while.
 
-**Note to recruiters:** Despite all my technical experience you will find in my profile here and elsewhere, I am not available for any fulltime positions. I provide professional services through my company [Caimito Technologies](http://www.caimito.net).
+**Phone +49 151 6162 3277**
 
-## Professional interests
-Collaboration between technical people and those in close contact with the actual market and customers is becoming more important as the world becomes more complex and customers have increasingly more choices.
-
-I like to help **technical teams**, those who implement, create, make a product, to **collaborate better with discovery teams**, those who figure out what a customer might want and define requirements for the implementors.
-
-Learn more about selected <a href="engagements.html">client engagements</a> and about the <a href="speaking.html">public speaking</a> I did so far.
+**email sns@caimito.net**
 
 ## Facets
-As a [T-shaped person](http://en.wikipedia.org/wiki/T-shaped_skills) I don't identify myself with a single activity. So what I do during my wake hours of any given day can best be described as facets. Some facets are:
+As a [T-shaped person](http://en.wikipedia.org/wiki/T-shaped_skills) I don't identify myself with a single activity or career position. So what I do during my wake hours of any given day can best be described as facets.
 
 <dl class="resume">
-	<dt>Author</dt>
+	<dt>Specialty: Coaching on value creation and customer delight</dt>
 	<dd>
-		<p>My book <em>Smarter Software with Activity-Centered Design</em> teaches readers how to discover what users want to do <strong>through</strong> and thus helps them to create a solution for the right problem.</p>
-		<p>I write many blog posts on my personal blog here in English, German, and sometimes in Spanish. On my company's website I provide all the content in English and German. Further, I also maintain a blog about Activity-Centered Design.</p>
-	</dd>
+		<dl class="resume-inner">
+			<dt>Quality-oriented, customer-centric and flow-based work for six teams at Huawei,</br>
+				June 2014 - December 2014, China</dt>
+			<dd>
+				<p>Created training material for the internal consulting organization and traveled to Beijing, Shanghai, Shenzhen and Xian to engage in training/coaching and meetings with various levels of management.</p>
+				<p>Introduced and coached implementation teams on ATDD and Specification by Example. These teams work on Android based mobile phones, softswitch systems for telecom carriers, embedded traffic shaping and monitoring systems. Depending on the language used by the testers on the team Cucumber C++ or Behave for Python together with Appium was used to create an executable specification.</p>
+				<p>Introduced and coached implementation teams on flow-based development and the use of a coaching map to improve their own value creation. Introduced the use of controlled experiments to base decisions on facts and avoid premature commitment.</p>
+				<p>Everything was done in English through professional translators, provided by the client, to communicate with Mandarin speaking team members and managers. This special situation required a lot of "reading between the lines" and observation of body language and behavior.</p>
+			</dd>
 
-	<dt>Coach</dt>
-	<dd>
-		<p>I <a href="http://www.caimito.net">coach</a> software development teams and their management on the development of organisational and technical capabilities.</p>
-		<p>So far I have coached people in <strong>German</strong>, <strong>English</strong>, and <strong>Spanish</strong> in the following locations around the world:</p>
-		<ul>
-			<li><a href ="/china.html">China</a></li>
-			<li>Germany</li>
-			<li><a href="/panama.html">Panama</a></li>
-			<li><a href="/usa.html">United States of America</a>
-				<ul>
-					<li>Arizona</li>
-					<li>California</li>
-					<li>Florida</li>
-					<li>Michigan</li>
-					<li>New Mexico</li>
-					<li>New York</li>
-					<li>Ohio</li>
-					<li>Texas</li>
-					<li>Washington</li>
-				</ul>
-			</li>
-		</ul>
-	</dd>
+			<dt>Cross-functional collaboration for testers and programmers at Webtrekk,</br>
+				September 2013 - June 2014, Germany</dt>
+			<dd>
+				<p>Coached testers, Product Owners on Acceptance Test-Driven Development and Continuous Integration in order to develop the capability to do Continuous Deployment for their main product.</p>
+				<p>Trained testers on the use of Cucumber and Ruby to automate Given/When/Then scenarios to describe behavior of web application and web services.</p>
+				<p>Influenced management and internal consulting organization on how to best interface with a team using ATDD.</p>
 
-	<dt>Consultant</dt>
-	<dd>
-		<p>For clients I've provided advice in the domains of network security, network design, <a href="http://www.caimito.net">software development and quality management</a>.</p>
-	</dd>
 
-	<dt>Designer</dt>
-	<dd>
-		<p>I do my own web design for this site and also my <a href="http://www.caimito.net">company's website</a>.</p>
-		<p>In the domain of physical things I have designed my own <a href="/2010/01/07/nice-doors-and-final-paint-job-for-the-offroad-trailer.html">custom-built offroad trailer</a> and also a <a href="/2010/03/10/building-a-temporary-horse-stable.html">temporary horse stable</a>.</p>
-	</dd>
+			<dt>Intra-departamental collaboration at OBI Smart Technologies, </br>
+				January 2013 - February 2014, Germany</dt>
+			<dd>
+				<p>Originally I was hired as an interim Scrum Master (5 days/week) for a development team working on an internal master data management system written in Visual Basic 6. As the team was comprised of programmers only, I began working to convey to management the need for cross-functional collaboration. Based on my recommendation the company added dedicated testers to the development effort and I helped to select suitable candidates.</p>
+				<p>I recreated my role to become more a Value Stream Improvement Coach across departments in order to bring people along the value chain together and thus improve it. As part of that I also reduced my physical presence to 2 days/week in order to permit my coachees to develop independence.</p>
+				<p>For several projects I coached business analysts on how to conduct workshops with business units to discover requirements and use Story Mapping and Specification by Example to convey details to the programming team.</p>
+			</dd>
 
-	<dt>Developer</dt>
-	<dd>
-		<p>Over time I've used about 20 different programming languages (functional, procedural, object-oriented, dynamic) on multiple platforms. I've worked deep down in the system close to the hardware and created end-user software with various high-level frameworks.</p>
-		<p>When there is an opportunity I also do contribute to <a href="/open-source.html">open source projects</a>.</p>
+			<dt>Testing in a SOA environment at Independent Health, </br>
+				January 2012 - May 2012, Buffalo, NY, USA</dt>
+			<dd>
+				<p>Coached SOA development teams on testing IBM MQ message flows via Cucumber. Teached product owners and business analysts about the benefits of a test-first approach and introduced an outcome oriented development approach to the whole organization (<a href="http://www.caimito.net/atdd.html">ATDD</a>). Built an open source Ruby wrapper for the IBM MQ C API (<a href="https://github.com/snscaimito/rmq">rmq</a> on github.com) and custom models for SOA services as a Ruby gem.</p>
+			</dd>
+		</dl>
 	</dd>
+	<dt>Specialty: Consulting on quality and value creation</dt>
+	<dd>
+		<dl class="resume-inner">
+		<dt>Organizational and Human Factors for High Quality in Software at Huawei,</br>
+			January 2015 - May 2015, Germany</dt>
+		<dd>
+			<p>As a member of a small consulting team comprised of external experts in various industries I worked on a report for senior management to recommend helpful practices to improve product development and manufacturing. My focus was on organizational and human aspects related to software development.</p>
+		</dd>
 
-	<dt>Entrepreneur</dt>
-	<dd>
-		<p>I founded and managed companies in software development and telecommunication in Germany, USA, and Panama.</p>
-		<p>While <a href="/category/panama.html">living in Panama</a> I ventured out into <a href="/category/farm-life.html">forestry services, farming, land development, and even a bit residential construction</a>.</p>
+		<dt>Acceptance Test-Driven Development and Specification by Example at Huawei,</br>
+			Between June 2014 - December 2014, China</dt>
+		<dd>
+			<p>Spoke as foreign expert about Acceptance Test-Driven Development (ATDD) and Specification by Example at internal conferences in Beijing and Xian.</p>
+		</dd>
+		</dl>
 	</dd>
-
-	<dt>Pilot</dt>
-	<dd>
-		<p>In 1989 I earned my Private Pilot License (PPL) for single engine piston aircraft. After not using it for about 17 years I reactivated it in 2013 for doing <a href="/airtravel">business trips</a>, and sometimes for leisure, throughout Europe in a light aircraft.</p>
-		<p>In April 2014 I <a href="/2014/04/13/instrument-rated-pilot.html">added an instrument rating</a> to my license. That allows me to improve my dispatch rate and to <a href="/2014/04/29/ifr-edfc-edaz.html">perform flights in less than perfect weather</a>. It is also a much safer form of air travel.</p>
+	<dt>Specialty: Management</dt>
+	<dd><dl class="resume-inner">
+		<dt>Leading a multi-national and multi-lingual team at Caimito Development S.A.,</br> 
+			2003 - 2009, Panama</dt>
+		<dd>
+			<p>Outsourcing projects for customers in USA.</p>
+			<p>Development of the agile lifecycle management tool Caimito One Team from idea to market introduction.</p>
+			<p>Led a multi-national and multi-lingual team of programmers, testers, and content specialists.</p>
+		</dd>
+		</dl>
 	</dd>
-
-	<dt>Speaker</dt>
+	<dt>Specialty: Product Management</dt>
 	<dd>
-		<p>So far I have <a href="/resume/speaking.html">presented and spoken</a> in English and Spanish for audiences at public and private events. My topics have been from the domains of Software Development and Management.</p>
-	</dd>
-	
-	<dt>Trainer</dt>
-	<dd>
-		<p>Frequently I teach on topics in software development at the level of advanced and higher as part of my <a href="/resume/engagements.html">coaching engagements</a>.</p>
+		<dl class="resume-inner">
+			<dt>Savila - Agile Project Management and Collaboration tool - at Caimito Development S.A.,</br> 
+				2008 - 2009, Panama</dt>
+			<dd><p>Savila was an Agile Project Management and Collaboration tool for colocated and	geographically distributed teams.</p>
+				<p>Savila has been released as <a href="http://www.caimito.net/en/caimitoOneTeam.html">Caimito One Team</a> 1.0 in September 2008.</p>
+			</dd>
+		</dl>
 	</dd>
 </dl>
 
-## International
-<p style="text-align: center">
-	<a href="/category/en.html"><img style="display: inline" src="/img/language-flags/32x32/flag_rotate-02.png"></a>
-	<a href="/category/de.html"><img style="display: inline" src="/img/language-flags/32x32/flag_rotate-03.png"></a>
-	<a href="/category/es.html"><img style="display: inline" src="/img/language-flags/32x32/flag_rotate-12.png"></a>
-</p>
+## Founder and CEO of various ventures
+<dl class="resume">
+		<dt>Founder Caimito Development S.A.</dt>
+		<dd><p>2006 - 2009, Panama</p>
+			<p>Outsourcing projects for customers in USA.</p>
+			<p>Development of the agile lifecycle management tool Caimito One Team from idea to market introduction.</p>
+		</dd>
 
-<iframe style="display: block; margin: 0 auto; margin-bottom: 15px; margin-top: 15px" src="https://mapsengine.google.com/map/embed?mid=z7fp82oPj2QU.kic4BS3nuxas" width="640" height="480"></iframe>
+		<dt>Founder Caimito Technologies LLC</dt>
+		<dd><p>2003 - 2006, Florida, USA</p>
+			<p>Professional services in the areas systems operation, networking, software development.</p>
+		</dd>
+	
+		<dt>Founder, CEO at DINX GmbH</dt>
+		<dd><p>1999 - 2003, Germany</p>
+			<p>Hosting of Application Servers</p>
+			<p>Operations of IP Backbone and access concentrators</p>
+			<p>Web development</p>
+		</dd>
 
-I have worked, lived and visited a good portion of planet Earth and am able to provide my service in English, German, and Spanish.
+		<dt>Co-Founder, CEO at Farside Communications</dt>
+		<dd><p>1997 - 2001, Germany</p>
+			<p>Regional Internet Access Provider for the region Rhein-Neckar in the southern part of Germany.</p>
+			<p>IP backbone network with of 4 intra-city distribution hubs for DSLAMs and several BGP connections to other carriers.</p>
+			<p>Security systems including firewalls, intrusion detection systems, virtual private networks on a national and international scale.</p>
+			<p></p>
+		</dd>
+
+		<dt>Co-Founder, CEO at VentureNET</dt>
+		<dd><p>1995 - 1996, Germany</p>
+			<p>Co-Founded VentureNET GmbH in Heidelberg, Germany, together with Heidelberg based consulting company OSS Consulting GmbH and two partners. Served as member of the board and was responsible for the company's Internet division.</p>
+		</dd>
+
+		<dt>Co-Owner, Software Architect at SoftStream Development</dt>
+		<dd><p>1989 - 1996, Germany</p>
+			<p>Convince, an illustration and presentation graphics program was developed from 1989-1990 and marketed in Germany. It was written in Modula-2 for the GEM/3 environment on DR-DOS and MS-DOS.</p>
+			<p>DEO - Documents of Embedded Objects - was a software technology in C/C++ on Windows 3.0 that is a little bit comparable to OLE 2 from Microsoft. The product knew a container application with software components running inside. Available software components were a spreadsheet, illustration graphics, presentation graphics and a word-processing component from a third party.</p>
+		</dd>
+</dl>
