@@ -238,6 +238,8 @@ BLOCKQUOTE.resume P.quote-source {
 }
 
 DL.resume DT {
+	font-weight: bold;
+	font-size: 12pt;
 	color: #AB1413;
 	border-bottom: 1px dotted black ;
 }

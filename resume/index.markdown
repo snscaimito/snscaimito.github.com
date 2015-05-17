@@ -10,9 +10,6 @@ I help others to learn, explore and grow in a safe and effective way to improve 
 
 **email sns@caimito.net**
 
-## Facets
-As a [T-shaped person](http://en.wikipedia.org/wiki/T-shaped_skills) I don't identify myself with a single activity or career position. So what I do during my wake hours of any given day can best be described as facets.
-
 <dl class="resume">
 	<dt>Specialty: Coaching on value creation and customer delight</dt>
 	<dd>
