@@ -9,7 +9,7 @@
 		<language>de-de</language>
 		<atom:link href="{{ site.url }}/agile-de.xml" rel="self" type="application/rss+xml" />
 		{% for post in site.tags.agile %}
-			{% if post.tags contains 'en' %}
+			{% if post.tags contains 'de' %}
 				<item>
 					<title>{{ post.title | xml_escape }}</title>
 					{% if post.author.name %}
