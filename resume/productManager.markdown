@@ -8,7 +8,7 @@ This profile highlights my experience as **Product Manager**.
 
 <dl class="resume">
 	<dt>Savila - Agile Project Management and Collaboration tool - at Caimito Development</dt>
-	<dd><p>2003 - July 2008, Panama</p>
+	<dd><p>2007 - July 2008, Panama</p>
 		<p>Savila was an Agile Project Management and Collaboration tool for colocated and	geographically distributed teams.</p>
 		<p>Savila has been released as <a href="http://www.caimito.net/en/caimitoOneTeam.html">Caimito One Team</a> 1.0 in September 2008.</p>
 	</dd>
