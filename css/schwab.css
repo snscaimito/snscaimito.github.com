@@ -240,8 +240,12 @@ BLOCKQUOTE.resume P.quote-source {
 DL.resume DT {
 	font-weight: bold;
 	font-size: 12pt;
-	color: #AB1413;
+	color: #0E6A01;
 	border-bottom: 1px dotted black ;
+}
+
+DL.resume DD P.client {
+	font-weight: bold;
 }
 
 DL.resume-inner DT {
@@ -400,4 +404,8 @@ UL#photoInfo {
 FIGCAPTION {
 	margin-top: 10px;
 	text-align: center;
+}
+
+.resume TABLE TH {
+	white-space: nowrap ;
 }
