@@ -4,8 +4,8 @@ title: Miscellaneous
 ---
 <table>
 {% for post in site.categories.miscellaneous %}
-<tr>
-	<td>{{ post.date | date: "%d %b %Y" }}</td>
+<tr style="vertical-align: top">
+	<td nowrap>{{ post.date | date: "%d %b %Y" }}</td>
 	<td><a href="{{ post.url }}">{{ post.title }}</a></td>
 </tr>
 {% endfor %}

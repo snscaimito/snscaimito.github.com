@@ -14,8 +14,8 @@ In software development we don't mass produce objects. Therefore it is more like
 
 <table>
 {% for post in site.categories.quality %}
-<tr>
-	<td>{{ post.date | date: "%d %b %Y" }}</td>
+<tr style="vertical-align: top">
+	<td nowrap>{{ post.date | date: "%d %b %Y" }}</td>
 	<td><a href="{{ post.url }}">{{ post.title }}</a></td>
 </tr>
 {% endfor %}
