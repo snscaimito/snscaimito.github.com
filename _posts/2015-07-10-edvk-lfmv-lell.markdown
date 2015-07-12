@@ -96,7 +96,7 @@ But that is not how the Spanish do it.
 
 Instead I was sent into a holding at SLL, which is the Sabadell VOR. There I was thinking about what to do next. The weather was CAVOK and I as saw the airfield, I reported "field in sight". ATC responded with a hint to cancel IFR. So I canceled and got back the Tower frequency for Sabadell.
 
-To Sabadell Tower I explained that I'm overhead and will continue to the E reporting point. Apparently they have a RADAR screen and gave a few more instructions about my own position and other aircraft. After I was lower I was asked to perform one more orbit and eventually invited to the base runway 17. Others got a message that a fast Cirrus was approaching. I was flying at the usual 100kts. Most other aircraft at Sabadell are Cessna 150 or Diamond DA-20 Katana.
+To Sabadell Tower I explained that I'm overhead and will continue to the E reporting point. Apparently they have a RADAR screen and gave a few more instructions about my own position and other aircraft. After I was lower I was asked to perform one more orbit and eventually invited to the base runway 31. Others got a message that a fast Cirrus was approaching. I was flying at the usual 100kts. Most other aircraft at Sabadell are Cessna 150 or Diamond DA-20 Katana.
 
 ![LELL Holding](/img/posts/2015-07-EDVK-LFMV-LELL/LELL-Holding.png)
 
