@@ -1,0 +1,113 @@
+---
+layout: post
+title: Back to Kassel with a safety landing
+tags:
+- de
+categories:
+- Aviation
+---
+For the return flight from Sabadell back to Kassel the main information from the briefing pack looked like this:
+
+	DEP LELL SABADELL 4131N00206E
+	DEST EDVK KASSEL-CALDEN 5125N00924E
+	EOBT 2015-07-08 13:50Z
+	ACFT N521CD Cirrus S22T 2007
+	ROUTE N0170F120 KANIG/N0170F120 IFR A27 MOU G21 RLP R11 EPL G21 GIVOR V36 AKELU N852
+	LIMGO Z110 BITBU Z555 ROPUV DCT UMUPU DCT KUMIK DCT ERNEP/N0160F060 DCT
+	XAROL
+	DIST 714.2NM (GC 666.4NM)
+	ALT F120
+	FLTTIME 04:10
+	TRIPFUEL 65.5usg
+	ENDURANCE 05:51
+	ALTN EDLP PADERBORN/LIPPSTADT 5137N00837E
+
+The wind was a bit from behind, also mostly blowing quite strong from the left. That made the total flight time come closer to 4 hours and thus the plan was to travel in one go.
+
+Landing fuel on board are calculated to be 92 GAL - 65.5 GAL = 26.5 GAL. Based on a rather high fuel flow of 17 GAL/hour that would be 1 hour and 30 minutes reserve fuel.
+
+In the very end what really counts is the actual numbers observed during flight. As this is not an over water flight and there are suitable airports every few nautical miles, there wasn't much too worry. It was the first time I set off for a rather long flight with N521CD so it was a good opportunity to learn what is comfortably possible. Especially in terms of pilot and passenger comfort.
+
+The planned and actual track can be found at [autorouter.eu](https://www.autorouter.eu/track/2366eJph):
+
+![Path](/img/posts/2015-07-LELL-EDVK/path.png)
+
+Shortly after takeoff we had crossed the [Pyrenees](https://en.wikipedia.org/wiki/Pyrenees) passing across Perpignon again.
+
+![LELL EDVK 1](/img/posts/2015-07-LELL-EDVK/LELL-EDVK-1.jpg)
+
+Halfway through the flight we were overflying the [Auvergne region](https://en.wikipedia.org/wiki/Auvergne_(region)) close to Clermont-Ferrand. 
+
+![LELL EDVK 2](/img/posts/2015-07-LELL-EDVK/LELL-EDVK-2.jpg)
+
+![LELL EDVK 3](/img/posts/2015-07-LELL-EDVK/LELL-EDVK-3.jpg)
+
+![LELL EDVK 4](/img/posts/2015-07-LELL-EDVK/LELL-EDVK-4.jpg)
+
+We were inbound GIVOR getting closer to the French-German border when I started to pay a bit more attention to the actual weather ahead. The weather radar image showed some lightning and precipitation west of our destination. I was a bit hoping that French and German ATC will offer a path further to the South of the originally planned route. It would also have meant a shorter router to save more fuel.
+
+![LELL EDVK 5](/img/posts/2015-07-LELL-EDVK/LELL-EDVK-5.jpg)
+
+In the beginning of the flight the landing fuel on board was shown as something like 19 GAL. Through further leaning at 12,000ft I managed to get this up to 23 GAL.
+
+The bad weather somewhere over the western part of Germany can not really be seen from the distance but there are some hints about it on the horizon.
+
+![LELL EDVK 6](/img/posts/2015-07-LELL-EDVK/LELL-EDVK-6.jpg)
+
+During the flight the well-known EGNOS problem with Avidyne R9, my integrated avionics package, had shown up twice so far. The problem is caused by the number of GPS satellites that can be seen from Europe. When the software for R9 was developed, tested and certified apprently nobody thought about the EGNOS and GLONASS programs to put up a larger number of additional satellites. Once more satellites become visible over the horizon the GPS receivers stop working. It's probably a table overrun. There is a fix available since probably a year but as the cerfification process takes time the fix cannot be made available. This is a pretty nice example how the certification process creates the problems it was created to solve. In this case a safety problem.
+
+When the issue occurs the pilot gets warning message "Dual GPS failure". That means that both GPS receivers are not working anymore and thus the onboard computers don't know the actual position of the aircraft. After about a minute the system will then enter dead-reckoning mode and a bit later will completely stop providing position information.
+
+As a consequence all other navigation and fuel monitoring functions will stop working. What is left is basic radio navigation using ground stations. However, in today's air traffic situation everything is now based on so-called area navigation and the VOR ground stations and airways between them are not used anymore. ATC sends pilots from one GPS-based waypoint to the next.
+
+When this issue shows up I have to power-cycle the two independent IFD units (IFD stands for Integrated Flight Deck). In some cases the problem goes away but in some other cases there is still too many satellites visible and the problem comes back quickly.
+
+## Safety landing due to dual GPS failure and low fuel
+At about 3:51 hours into the flight the third time I got the "Dual GPS failure" and power-cycled the units.
+
+However, this time I also lost the data from the fuel totalizer.
+
+When the systems rebooted the fuel totalizer was telling me I had 8 GAL of fuel left and there was immediately a red alert about running out of fuel.
+
+The last calculated landing fuel on board for Kassel (EDVK) was 23 GAL. We were about 35 minutes away from landing. The 23 GAL at the current burn rate of 14.5 GAL/hour are equal to 1:30 hours flight time at 170 TAS until the engine will stop. It will actually stop a bit earlier depending on flight attitude due to a small amount of unusable fuel in the tanks.
+
+We were overflying a lot of suitable airports and there really wasn't need to press on. Around the destination and the planned alternate there was bad weather. I had lost my onboard navigation abilities for the third time.
+
+So I looked at the iPad, which I use to track my flights on a VFR chart for situational awareness. It showed that we were pretty close to an IFR airport. It was already close to 8 pm and many airports in Germany close around that time. Those with instrument approaches tend to be open for a bit longer. My idea was to land, refuel and then see what the GPS situation is going to be.
+
+One might wonder why I was mentally getting into emergency mode. The reason is that the fuel gauges in aircraft are notoriously unreliable and one cannot really go by their readings. It is much safer to have actual data about fuel consumption by measuring the amount of fuel that has gone to the engine.
+
+Unfortunately I just lost the measurement device.
+
+There were bad weather showing for the destination and I didn't want to end up being low on fuel and needing to wait for a thunderstorm to pass through or fly to the alternate. And all that with GPS trouble due to too many satellites (GPS and EGNOS) being visible.
+
+*Langen RADAR N521CD request*
+
+*NCD go ahead*
+
+*NCD has a dual GPS failure. Request vectors for landing at Siegerland.*
+
+*NCD turn right 180 descend FL080.*
+
+*Right 180 descending FL080 NCD*
+
+And into the clouds we went. It got dark, the backlit panel illuminated and I was navigating with the help of what was left from the high-tech equipment and the iPad as second source.
+
+Langen RADAR then issues a few more instructions and put us right onto the extended centerline for EDGS (Siegerland).
+
+![EDGS SafetyLanding](/img/posts/2015-07-LELL-EDVK/EDGS-SafetyLanding.png)
+
+At about 3500ft we came out of the clouds. That was 500ft above the traffic circuit altitude. I had opted for a visual approach after Langen gave me the METAR. Once I switched to Siegerland Tower I was advised that the other airport Breitscheid still was active and, as apparently Siegerland has a RADAR feed, Tower confirmed my track. I navigated using the iPad and shortly after I had the runway in sight.
+
+During the approach the wind was blowing strong and there were some light turbulence. It was raining a bit and it was cold (18C instead of 38C we had in Barcelona).
+
+The approach into Siegerland (EDGS) took about 10 minutes. Total recorded flight time was 4:01 hours.
+
+After refueling and restarting the engine the GPS trouble was no more. We quickly filed IFR to make a short 30 minutes flight to our final destination. The thunderstorms didn't came to Kassel. We only had clouds and remnants in a few layers. Due to the safety landing we arrived an hour later than expected - safely.
+
+## ATC as additional resource
+Just as I was told during the training for the Instrument Rating, ATC can and should be used as an additional resource to keep the workload low during special situations. I did like how ATC immediately provided the turn and descent instructions.
+
+
+In retrospect the fuel calculations were all right and there would have been no problem to reach the destination with enough reserve fuel. However, it is wise to not run out of options. By landing and refueling I regained all my options for the price of a 1 hour delay. That's a very small price to pay.
+
