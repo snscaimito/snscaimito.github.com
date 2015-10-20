@@ -28,7 +28,7 @@ My work, on an international level, gets me in touch with many different nationa
 	
 	<dt>Agile Coach <em>in cooperation with other Agile Coaches</em></dt>
 	<dd>
-		<p class="client">2015, Open Bank, Moscow, Russia</p>
+		<p class="client">2015, Bank Otkritie, Moscow, Russia</p>
 		<p>Performed initial workshops about team formation, team coaching with management. Did organizational anamnesis and proposed potential solutions to populate first version of Coaching Map as a guiding tool going forward.</p>
 	</dd>
 	
