@@ -8,11 +8,16 @@ title: Stephan Schwab
 
 **Software Development Coach & Consultant**
 
-**Project Manager, Project Leader, Interim Manager**
+**Interim Manager**
+
+I help CEOs and Department Leaders to improve value creation and cohesion within their organization. The outcome will be higher quality, customer delight and more revenue. 
 
 Agility and self-organization require technical competence. Scrum, Kanban and other frameworks and concepts do not work without technical abilities. I help everybody involved to acquire or grow these abilities.
 
 My contributions help the organization to become more adaptable and more resilient so that it can prevail in global dynamic markets that are constantly changing.
+
+My work, on an international level, gets me in touch with many different national and corporate cultures. That allows me to see the bigger picture, provides me a large arsenal of tools and therefore makes me able to solve difficult situations in a way that is new to the particular client I’m working with.
+
 
 **Phone +49 151 6162 3277**
 
@@ -20,6 +25,25 @@ My contributions help the organization to become more adaptable and more resilie
 
 ## Project Overview
 <dl class="resume">
+	
+	<dt>Agile Coach <em>in cooperation with other Agile Coaches</em></dt>
+	<dd>
+		<p class="client">2015, Open Bank, Moscow, Russia</p>
+		<p>Performed initial workshops about team formation, team coaching with management. Did organizational anamnesis and proposed potential solutions to populate first version of Coaching Map as a guiding tool going forward.</p>
+	</dd>
+	
+	<dt>Agile Coach <em>in cooperation with resident Scrum Master</em></dt>
+	<dd>
+		<p class="client">2015, AXA Groupsolutions, Cologne, Germany</p>
+		<p>Performed introductory workshops about Acceptance Test-Driven Development for project leaders and team members.</p>
+	</dd>
+	
+	<dt>Consultant / Trainer <em>with resident Scrum Master</em></dt>
+	<dd>
+		<p class="client">2015, Virtual Solution, Munich, Germany</p>
+		<p>Performed workshops, in the form of code retreats, with two teams on test automation, clean code and architecture, intra-team collaboration and Specification by Example for IOS and Android platforms.</p>
+	</dd>
+	
 	<dt>Consultant <em>working with Department Leader</em></dt>
 	<dd>
 		<p class="client">2015, Huawei Technologies, Munich, Germany</p>
