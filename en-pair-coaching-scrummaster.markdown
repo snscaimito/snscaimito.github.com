@@ -29,11 +29,11 @@ Captain Marquet **invested into technical education** for the people under his c
 ## Let's help people to grow technical competence
 One of the five features of a [Learning Organization](http://en.wikipedia.org/wiki/Learning_organization) is **Personal Mastery**. To gain mastery in a craft one needs to have an **opportunity to learn from others outside the own shop**. Learning from people outside the own shop helps to get to know new perspectives, discover new techniques and approaches to solving a problem, allows to see where the bar in the field is currently set at, and many other positive inspirations can come from it.
 
-In [my own work](/resume/engagements.html) I'm like a little butterfly picking up techniques and methods [all over the world](/resume/index.html). That allows me to apply and hone my technical skills in many different environments. 
+In [my own work](/resume/) I'm like a little butterfly picking up techniques and methods [all over the world](/resume/). That allows me to apply and hone my technical skills in many different environments. 
 
 ## We can help your team together
 **You are the master of Scrum** and **I can help your team on their technical challenges.** For example, I can sit with individual members of the team and pair program teaching test-driven development in difficult situations. I can help the testers come up with automation to free time for more meaningful tasks. I can be their technical sparrings partner to let them bounce technical ideas off of me. I can help them evaluate a new framework or other new technology or share my experience with a framework that I made elsewhere. There are many things in the technical area where I can **support your work** as Scrum Master.
 
 As I have no interest in working myself as Scrum Master - my business is different - you can use me as a **trusted partner** to bring in for special occasions. Due to my long-term international experience we may even talk about your own challenges with the organization outside your Scrum team and I may be able to provide you some insights.
 
-Please drop me a note at sns@caimito.net
+Are interested in working with me? Please drop me a note at sns@caimito.net to discuss how to get started.
