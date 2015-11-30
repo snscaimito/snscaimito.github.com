@@ -2,7 +2,7 @@
 layout: post
 title: Kassel - Avignon - Sabadell
 tags:
-- de
+- en
 categories:
 - Aviation
 ---

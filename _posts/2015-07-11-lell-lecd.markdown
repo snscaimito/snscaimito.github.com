@@ -2,7 +2,7 @@
 layout: post
 title: Mountain trip from Sabadell to La Cerdanya
 tags:
-- de
+- en
 categories:
 - Aviation
 ---
