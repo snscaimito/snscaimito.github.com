@@ -409,3 +409,8 @@ FIGCAPTION {
 .resume TABLE TH {
 	white-space: nowrap ;
 }
+
+#gallery {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}

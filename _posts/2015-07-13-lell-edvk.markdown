@@ -38,11 +38,18 @@ Shortly after takeoff we had crossed the [Pyrenees](https://en.wikipedia.org/wik
 
 Halfway through the flight we were overflying the [Auvergne region](https://en.wikipedia.org/wiki/Auvergne_(region)) close to Clermont-Ferrand. 
 
-![LELL EDVK 2](/img/posts/2015-07-LELL-EDVK/LELL-EDVK-2.jpg)
+<div id="gallery" style="display:none;">
+		
+	<img alt="Image 1 Title" src="/img/posts/2015-07-LELL-EDVK/tn-LELL-EDVK-2.jpg"
+				data-image="/img/posts/2015-07-LELL-EDVK/LELL-EDVK-2.jpg">
+			
+	<img alt="Image 2 Title" src="/img/posts/2015-07-LELL-EDVK/tn-LELL-EDVK-3.jpg"
+				data-image="/img/posts/2015-07-LELL-EDVK/LELL-EDVK-3.jpg">
 
-![LELL EDVK 3](/img/posts/2015-07-LELL-EDVK/LELL-EDVK-3.jpg)
-
-![LELL EDVK 4](/img/posts/2015-07-LELL-EDVK/LELL-EDVK-4.jpg)
+	<img alt="Image 2 Title" src="/img/posts/2015-07-LELL-EDVK/LELL-EDVK-4.jpg"
+				data-image="/img/posts/2015-07-LELL-EDVK/LELL-EDVK-4.jpg">
+		
+</div>
 
 We were inbound GIVOR getting closer to the French-German border when I started to pay a bit more attention to the actual weather ahead. The weather radar image showed some lightning and precipitation west of our destination. I was a bit hoping that French and German ATC will offer a path further to the South of the originally planned route. It would also have meant a shorter router to save more fuel.
 

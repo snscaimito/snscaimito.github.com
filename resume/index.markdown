@@ -23,8 +23,32 @@ My work, on an international level, gets me in touch with many different nationa
 
 **sns@caimito.net**
 
-## Project Overview
+## Engagement Overview
 <dl class="resume">
+
+	<dt>Agile Coach</dt>
+	<dd>
+		<p class="client">2016, Thales, Stuttgart, Germany</p>
+		<p>Within the axle counter group of Thales Transportation Systems I coached project manager and solution architect on their new roles of Scrum Master and Product Owner. Introduced technical team members to Test-Driven Development in C using the tool <a href="http://www.qa-systems.com/tools/cantata/" target="_blank">Cantata</a>.</p>
+	</dd>
+
+	<dt>Agile Coach</dt>
+	<dd>
+		<p class="client">2016, Versandhaus Walz, Bad Waldsee, Germany</p>
+		<p>The engagement started as a group of three coaches for their main office and an external development partner. Initially I trained and coached on technical matters in a Java J2EE environment with IBM Websphere Commerce. Over time I became the main coach for the main office and worked with a larger group developing the new eCommerce shop for Walz. Coaching topics included product development vs service delivery, information visualization, integration of non-developers, restructuring a traditional retailer to become an eCommerce company, new roles and skills. For 2017 Walz wants to bring all shop development inhouse and I started in 2016 to train newly hired developers on microservices architecture and the DevOps model.</p>
+	</dd>
+
+	<dt>Agile Coach <em>in cooperation with other Agile Coaches</em></dt>
+	<dd>
+		<p class="client">2016, Alfa Bank, Moscow, Russia</p>
+		<p>Did anamesis with a number of several development groups over the course of a whole week and created a proposal about creating a DevOps culture within a division for management. Received approval to proceed in 2017.</p>
+	</dd>
+
+	<dt>Agile Coach</dt>
+	<dd>
+		<p class="client">2016, Deutsche Bank, Frankfurt, Germany</p>
+		<p>Tought Product Owners and team members from different vendors the basics of Scrum. Introduced User Story Mapping. Performed a three day learning week to introduce kanban elements and the concept of 3 Amigos via paper prototypes amongst others. Consulted on team size and shape and what Scrum can do for the organization.</p>
+	</dd>
 	
 	<dt>Agile Coach <em>in cooperation with other Agile Coaches</em></dt>
 	<dd>
