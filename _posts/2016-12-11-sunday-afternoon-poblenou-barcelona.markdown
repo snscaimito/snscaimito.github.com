@@ -1,5 +1,5 @@
 ---
-layout: post-gallery
+layout: post
 title: Sunday afternoon in the neighborhood of Poblenou in Barcelona
 tags:
 - en
