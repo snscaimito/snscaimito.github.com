@@ -2,8 +2,21 @@
 layout: main
 title: Farm Life
 ---
+{% assign posts = "" | split: "" %}
+{% for post in site.posts %}
+    {% if post.categories contains 'Farm-Life' %}
+		{% assign posts = posts | push: post %}
+    {% endif %}
+    {% if post.categories contains 'Farm-life' %}
+		{% assign posts = posts | push: post %}
+    {% endif %}
+    {% if post.categories contains 'farm-life' %}
+		{% assign posts = posts | push: post %}
+    {% endif %}
+{% endfor %}
+
 <table>
-{% for post in site.categories.farm-life %}
+{% for post in posts %}
 <tr style="vertical-align: top">
 	<td nowrap>{{ post.date | date: "%d %b %Y" }}</td>
 	<td><a href="{{ post.url }}">{{ post.title }}</a></td>
