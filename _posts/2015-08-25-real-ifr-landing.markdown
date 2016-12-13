@@ -3,6 +3,7 @@ layout: post
 title: Real IFR landing
 tags:
 - en
+- IFR
 categories:
 - Aviation
 ---

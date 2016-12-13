@@ -8,11 +8,4 @@ The general population in Panama speaks Spanish. That's the same language we mos
 
 In Panama an international couple turned into a small family with another international member: our daughter was born in Panama City and is growing up in a multi-cultural and multi-lingual environment.
 
-<table>
-{% for post in site.categories.panama reversed %}
-<tr>
-	<td>{{ post.date | date: "%d %b %Y" }}</td>
-	<td><a href="{{ post.url }}">{{ post.title }}</a></td>
-</tr>
-{% endfor %}
-</table>
+{% include category-panama.html %}

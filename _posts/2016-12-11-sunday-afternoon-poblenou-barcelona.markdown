@@ -5,6 +5,7 @@ tags:
 - en
 categories:
 - Travel
+- Spain
 ---
 With some time to spare I did a short stroll around the neighborhood of Poblenou in Barcelona. This is what I came back with.
 

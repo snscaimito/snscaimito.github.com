@@ -3,6 +3,7 @@ layout: post
 title: Back to Kassel with a safety landing
 tags:
 - en
+- IFR
 categories:
 - Aviation
 ---

@@ -3,6 +3,7 @@ layout: post
 title: Mountain trip from Sabadell to La Cerdanya
 tags:
 - en
+- VFR
 categories:
 - Aviation
 ---

@@ -3,6 +3,7 @@ layout: post
 title: Kassel - Avignon - Sabadell
 tags:
 - en
+- IFR
 categories:
 - Aviation
 ---
