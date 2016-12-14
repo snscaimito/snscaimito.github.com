@@ -1,0 +1,31 @@
+---
+layout: post
+title: Highlights of 2015
+tags:
+- highlight_of_the_year
+---
+After we returned from [China](/china.html) we decided to relocate to my old hometown Kassel in the geographic center of Germany. Several years ago Kassel had gotten a great airport with good facilities for General Aviation and ILS approach down to 200ft. Still the airport has very little traffic. The expectation was to live close to that airport and enjoy the fact that almost everything in Europe is of equal distance to Kassel. 
+
+Between **January** and **March** I traveled to a client in Munich from Kassel by high-speed train, which is a more or less pleasant journey of about 5 hours door to door. The downside is that one has to wait for a while on a pretty cold outdoor ramp. The wait can be a longer while when there are issues with the train service which I experienced a few times.
+
+Things took a turn for the better in early **April** when I [took delivery of a 2007 Cirrus SR22 G3 turbo-normalized](/2015/04/05/taking-delivery-N521CD.html). With that the means for [easy business travel](/airtravel) by personal aircraft had arrived.
+
+During the engagement with the Munich client I was able to try it for real on several flights. The flight itself between Kassel and Augsburg, which happens to be the nearest IFR airport for General Aviation for Munich, takes about an hour and a half. Plus, instead of the cold ramp one enjoys a sunny view above the clouds from a warm and cozy cockpit:
+
+![2015 04 14 EDVK EDMA DxO](/img/posts/2015-04-14%20EDVK-EDMA_DxO.jpg)
+
+The downside of Augsburg is that one lands 45 minutes by car away from the center of Munich. However, that is equal time and distance as for those traveling on airlines to the commercial airport.
+
+In **Juli** that improved as I started to use the VFR-only airport of Schleissheim which is on the outskirts of Munich and a historic site. Unfortunately, the Schleissheima airfield, more than 100 years old, continues to be under constant threat by people against airports and has to adhere to a [severe restriction on the amount of movements](http://www.flugplatz-schleissheim.de/piloteninfo-pilots-info/english/). As the picture shows I was not the only business person to use the historic airport while it is possible.
+
+![2015 07 19 Schleissheim DxO](/img/posts/2015-07-19-Schleissheim_DxO.jpg)
+
+Shortly after moving to Kassel we discovered that a Montessori school isn't necessary what one might expect. It can be Montessori by label but once inside things can look different. It dawned on us that we may be unable to find a suitable school for our trilingual daughter in Kassel. So we looked around Europe and found two potential candidates in Spain. Now that meant to loose the advantage of living in the geographic center of Europe which raised some concerns regarding the much higher travel times and cost. Spain is almost on the western edge of Europe.
+
+In **Juli** [we took N521CD to check out Barcelona](/2015/07/10/edvk-lfmv-lell.html) with a stop in Avignon, France. While we were there a friend, [Saket Bivalkar](http://saketbivalkar.com), suggested to visit the nearby [mountain airport of La Cerdanya](/2015/07/11/lell-lecd.html) and we went there together. La Cerdanya sits at about 3,600 ft (1.029 m) and on hot days the density altitude can be quite high. That creates performance issues for normally-aspirated aircraft. N521CD is turbo-charged and I'm happy to report that our takeoff roll was as short as always even we were pretty heavy. On the way back to Kassel we had to perform a [safety landing due to a dual GPS fault](/2015/07/13/lell-edvk.html).
+
+A little while later I had to travel to Cologne and obviously I wanted to take the airplane for a short 45 minutes flight instead of driving more than 3 hours by car. However, the airport of Cologne is known for frequent fog in the morning and on the day I needed to go there I made sure to have anough spare time to get there by car. At 7 AM I decided to take the car as the ceiling reported for Cologne EDDK was something like 500 ft. I didn't feel up to it although I've practiced going down to the 200 ft minimum on the ILS during my training. However, one thing is to fly in marginal weather with an instructor and another is to do it for real alone in actual weather. Another driver for my no-go decision was that I was expected at a certain time and didn't want to risk to divert to another airport and the issues that would have arisen. Later in **August** I had an opportunity to try it without the time constraint. I did my first [real IFR landing](/2015/08/25/real-ifr-landing.html) with a ceiling of 300 ft in light rain. That was a huge boost in confidence.
+
+After it became clear that there isn't a school in Kassel for our daughter, although we looked at several and participated in three trial days, we decided to relocate to Barcelona for the beginning of the school year in **September**.
+
+With that we relocated two times within the same year. Even for us that was special :-)
