@@ -1,0 +1,37 @@
+---
+layout: post
+title: Highlights of 2016
+tags:
+- highlight_of_the_year
+---
+This year I didn't write any blog post at all. In retrospect I believe I've been far too busy with other things and for aviation related content I used the [EuroGA forum](http://www.euroga.org) instead for the benefit of a good conversation. In order to keep the tradition I will summarize the year on this page.
+
+In **January** I was contacted by someone from Hays. The person told me about a need for a Scrum Master for a team working on something new and special. I was reluctant and pointed out that I were not interested in any temporary employment to fill out a role or position neither would I do any employment interview. While I was visiting another client in Cologne, Germany, they called again and were practically begging me to have a conversation with their customer. It happened to be a large bank in Frankfurt, Germany. I reluctantly agreed after they promised me that the conversation would not be a job interview. Well it was. So I discarded the whole thing after I got home on Friday.
+
+Much to my surprise they called quite early on Monday to tell me their customer really wanted to work with me. So in **February** I started my engagement with the bank in Frankfurt. It started well in some areas. We did story mapping and had several days in a row with workshops. However, after a while the all so common expectation of "Scrum Master as a different flavor of team leader, little project manager or some other job title" became visible. There was no willingness to really change the "world of work" as the Scrum Alliance claims. There was never a chance to really help with technical practices such as Test-Driven Development despite the interest of the people. Efficiency was the true goal and nobody was really interested in reorganizing for effectiveness or to deal with complexity.
+
+In **March** I flew with two colleagues to visit a potential new client in southern Germany. That was my first landing with N521CD on a gras strip. We landed on an airfield that is used primarily for gliders and ultralight aircraft. They do have some [nice pictures on their website](http://fliegerwaldsee.de). We were welcomed there by the local priest who happens to man the tower. 
+
+We got the contract and so I got myself the proof for the high utility value of General Aviation. Subsequently I was flying between several cities and towns to see mostly two clients within the same week.
+
+As I was now flying weekly between Spain and Germany I gained a lot more experience but also new questions came up. One was about the correct
+[interpretation of satellite weather radar](http://www.euroga.org/forums/flying/5878-help-me-interpret-this-a-bit-better) depicting thunderstorms and heavy precipitation which got answered on the great EuroGA forum by other pilots.
+
+
+In **May** I was flying from Barcelona to Frankfurt-Egelsbach and discovered somewhere over France that the weather at the destination, a VFR-only airfield, had deteriorated. I was contemplating to land at nearby Mannheim, an IFR rated airport, facing a 1 hour train ride into Frankfurt when I received a message that I can go to my client in Cologne instead and go to Frankfurt a few days later.
+
+Every piece of machinery needs good maintenance and the first step is to have good monitoring. My SR22 shows to the pilot the health of the engine on a large display and I was wondering [why the temperature of two cylinders were lagging behind](http://www.euroga.org/forums/maintenance-avionics/6146-two-cylinders-lagging-behind-need-to-run-on-hotter-tit-to-keep-engine-smooth) the others.
+
+
+In the beginning of **June** I took off from Frankfurt-Egelsbach to fly home when I discovered rising oil temperature at 20,000 ft after leveling off at my cruising altitude. I performed a [precautionary landing](http://www.euroga.org/forums/flying/6210-precautionary-landing-after-high-cht-and-oil-temperature) Stuttgart airport. I got to take the airline back to Barcelona on that day. What caused the problem is documented in the EuroGA thread.
+
+As I learned earlier how to correctly interpret the images from the satellite weather radar I was now happily flying [over the bad weather](http://www.euroga.org/forums/flying/6272-over-and-between-the-weather-from-sabadell-lell-to-friedrichshafen-edny) to arrive at a quite airport at my destination.
+
+**Juli** saw me sharing some special moment when I saw [some interesting cloud formations that reminded me of science fiction movies](http://www.euroga.org/forums/flying/6409-clouds-from-a-different-world-and-a-236-nm-direct). I also discovered that when flying from Switzerland to Barcelona one can easily ask for a direct routing of 236 nautical miles which makes the whole flight pretty relaxed. But then I had also made a different experience with clouds that made me ask for opinions from other pilots about what to [expect inside clouds](http://www.euroga.org/forums/flying/6446-inside-clouds-and-what-to-expect-next). Clouds continued a topic of interest when I flew along a line of thunderstorms over Switzerland and made good use of [the magic word "unable"](http://www.euroga.org/forums/flying/6485-the-magic-word-unable). I then concluded that [the Cirrus SR22 is a great traveling machine](http://www.euroga.org/forums/flying/6511-that-great-traveling-machine-sr22-turbo-normalized).
+
+In **August** I got to spend a whole week with several teams at a large bank in Moscow, Russia. That was fun and the participants of the workshops got some interesting insights.
+
+I was also doing more [night flights](http://www.euroga.org/forums/flying/6601-lell-edds-this-time-at-night-and-only-ts-next-to-the-route) in order to enjoy more time at home and complaint a bit about the ever [increasing security getting in the way of general aviation](http://www.euroga.org/forums/flying/6640-ever-increasing-security-at-some-airports).
+
+The weather in Barcelona is pretty nice most of the year. Somewhere I read we have more than 300 days of sunshine here. However, in fall we can have a few odd days with rain and low cloud and so by late **November** I was unable to take off for a flight to Stuttgart from the Sabadell airfield due to a few of those clouds that got in the way. I was asking [for special VFR for my departure but the request got denied](http://www.euroga.org/forums/flying/7055-no-special-vfr-for-departures-at-sabadell-lell). The topic got discussed on EuroGA and my fellow pilots were quite interested about my whereabouts. I was reading their comments in flight and responded with a few pictures when I got a bit of LTE connectivity while in the air and after landing.
+
