@@ -26,6 +26,12 @@ My work, on an international level, gets me in touch with many different nationa
 ## Engagement Overview
 <dl class="resume">
 
+	<dt>Agile Coach <em>in cooperation with other Agile Coaches</em></dt>
+	<dd>
+		<p class="client">2017, Alfa Bank, Moscow, Russia</p>
+		<p>Continuation of the 2016 engagement. Objective is to create a DevOps culture inside the bank and restructure the whole organization accordingly.</p>
+	</dd>
+
 	<dt>Agile Coach</dt>
 	<dd>
 		<p class="client">2016, Thales, Stuttgart, Germany</p>
