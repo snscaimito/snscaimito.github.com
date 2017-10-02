@@ -2,6 +2,7 @@
 layout: post
 title: Highlights of 2016
 tags:
+- en
 - highlight_of_the_year
 ---
 This year I didn't write any blog post at all. In retrospect I believe I've been far too busy with other things and for aviation related content I used the [EuroGA forum](http://www.euroga.org) instead for the benefit of a good conversation. In order to keep the tradition I will summarize the year on this page.
