@@ -18,6 +18,8 @@ What probably applies most is what is shown in the book [The Lean Farm](https://
 
 Another take on the same topic is [The Market Gardener](https://www.amazon.com/Market-Gardener-Successful-Handbook-Small-scale/dp/0865717656) which shows how a small farm can turn a pretty decent profit while still allowing the owners to enjoy quite a bit of leisure time off the farm. It is important not to build oneself a prison which you cannot leave.
 
+To improve the soil through grazing animals and other insights we refer to [Holistic Management](https://www.amazon.com/Holistic-Management-Third-Commonsense-Environment/dp/161091743X) which is also a book about restoring the environment. The farm and the land around is clearly depleded and we hope to make a difference through our work.
+
 Ridgedale Permaculture in Sweden is another good example how a small farming business looks like and works.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nr5bKpc0x2Q" frameborder="0" allowfullscreen></iframe>
