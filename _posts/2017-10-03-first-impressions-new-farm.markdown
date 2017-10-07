@@ -5,6 +5,7 @@ tags:
 - en
 categories:
 - farm-life
+- spain
 ---
 After crossing the creek we enter through a gate into the farm. The property is completely fenced to keep farm animals in. The fence posts in this area are all made of granite - like the rocks in the picture. It is also the favorite building material used on the exterior of the houses in this area.
 

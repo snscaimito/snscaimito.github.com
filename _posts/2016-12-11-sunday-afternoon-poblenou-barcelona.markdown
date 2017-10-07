@@ -4,8 +4,8 @@ title: Sunday afternoon in the neighborhood of Poblenou in Barcelona
 tags:
 - en
 categories:
-- Travel
-- Spain
+- travel
+- spain
 ---
 With some time to spare I did a short stroll around the neighborhood of Poblenou in Barcelona. This is what I came back with.
 

@@ -5,6 +5,7 @@ tags:
 - en
 categories:
 - farm-life
+- spain
 ---
 After a [failed attempt to aquire a piece of land in Panama](/2011/12/04/leaving-panama.html) a few years back we have since relocated to a number of different places and now found and purchased another farm in southern Spain. The farm is about 45 hectares in size, is located in the Cordoba province of Andalucia and is full of oak trees which produce acorns that feed the black Iberian pig.
 

@@ -6,6 +6,7 @@ tags:
 - planning
 categories:
 - farm-life
+- spain
 ---
 The farm land we purchased is not only a piece of land. There are also a few older and newer structures that the previous users of the land had constructured. In the below picture those structures can be seen in the lower left corner.
 

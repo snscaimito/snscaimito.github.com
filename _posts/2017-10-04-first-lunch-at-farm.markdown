@@ -5,6 +5,7 @@ tags:
 - en
 categories:
 - farm-life
+- spain
 ---
 There is something emotional about having your first meal at a new place you call *my place*. The farm is not in any shape to allow humans to live there at the moment. It's not like buying a house or apartment. But we wanted to make that positive experience.
 
