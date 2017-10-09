@@ -4,7 +4,7 @@ title: I am now officially an instrument rated pilot
 tags:
 - en
 categories:
-- Aviation
+- aviation
 ---
 Two days ago I passed my instrument checkride out of Wings Field Philadelphia (KLOM). After the oral exam and the practical test in the air I was awarded a temporary FAA IR certificate on paper - the plastic card will show up in a little while in the mail.
 

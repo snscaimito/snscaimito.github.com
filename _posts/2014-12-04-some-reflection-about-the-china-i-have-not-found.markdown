@@ -4,9 +4,9 @@ title: Some reflection about the China I have not found
 tags:
 - en
 categories:
-- China
-- Culture
-- Thoughts
+- china
+- culture
+- thoughts
 ---
 My journey as a Software Development Coach in China is coming to an end and I feel it is time to reflect a bit on what I have seen and learned. I have been to a number of large cities and I tried to use a week long vacation to see a bit of the rural part of China in the Yunnan province.
 

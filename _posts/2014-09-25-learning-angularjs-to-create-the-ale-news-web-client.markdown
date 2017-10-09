@@ -5,8 +5,8 @@ tags:
 - en
 - ale-news-service
 categories:
-- ATDD
-- Software-Development
+- atdd
+- software-development
 ---
 {% include ale-news-post-header.html %}
 

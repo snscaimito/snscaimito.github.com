@@ -4,7 +4,7 @@ title: Smells in Cucumber features
 tags:
 - en
 categories:
-- Software-Development
+- software-development
 - atdd
 - quality
 status: publish

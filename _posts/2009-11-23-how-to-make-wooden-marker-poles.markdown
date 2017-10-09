@@ -4,7 +4,7 @@ title: How to make wooden marker poles
 tags:
 - en
 categories:
-- Farm-Life
+- farm-life
 - Panama
 status: publish
 type: post

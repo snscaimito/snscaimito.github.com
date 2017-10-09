@@ -4,7 +4,7 @@ title: Why does it always have to be a step by step process?
 tags:
 - en
 categories:
-- Software-Development
+- software-development
 status: publish
 type: post
 published: true

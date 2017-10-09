@@ -4,7 +4,7 @@ title: Agile Entwicklung als führungskräftefreie Zone
 tags:
 - de
 categories:
-- Commentary
+- commentary
 ---
 In verschiedenen XING-Gruppen, wie z.B. [1x1 für Führungskräfte](https://www.xing.com/net/pri7d74c1x/1x1fk) und [Personalmanagement & Führung](https://www.xing.com/net/pri7d74c1x/personalmanagement) drücken einige Teilnehmer ihr Unbehagen bzgl. agiler Entwicklung aus. Jene begreifen agile Entwicklung als so eine Art Rebellion und nutzen den Begriff "führungskräftefreie Zone".
 

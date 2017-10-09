@@ -5,9 +5,9 @@ tags:
 - de
 - agile
 categories:
-- Management
-- Thoughts
-- Commentary
+- management
+- thoughts
+- commentary
 ---
 **In verschiedenen Zeitungen und Magazinen wird derzeit von der digitalen Bedrohung der deutschen Wirtschaft gesprochen. Mir scheint, daß es da überhaupt nicht um eine digitale Bedrohung geht. Einige Unternehmen haben einfach früher und besser als andere gelernt mit Komplexität umzugehen. Es sind Technologieunternehmen, die digitale Produkte entwickeln und deswegen früher als andere eine Notwendigkeit zum Lernen hatten.**
 

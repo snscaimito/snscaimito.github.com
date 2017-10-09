@@ -4,8 +4,8 @@ title: General Aviation in China
 tags:
 - en
 categories:
-- China
-- Aviation
+- china
+- aviation
 ---
 On one of my domestic flights within China I was surprised by a few articles about General Aviation in the inflight magazine.
 

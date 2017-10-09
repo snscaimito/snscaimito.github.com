@@ -5,7 +5,7 @@ tags:
 - en
 - IFR
 categories:
-- Aviation
+- aviation
 ---
 For the return flight from Sabadell back to Kassel the main information from the briefing pack looked like this:
 

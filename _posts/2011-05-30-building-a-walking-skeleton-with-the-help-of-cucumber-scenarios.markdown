@@ -4,7 +4,7 @@ title: Building a walking skeleton with the help of Cucumber scenarios
 tags:
 - en
 categories:
-- Software-Development
+- software-development
 - atdd
 - quality
 status: publish

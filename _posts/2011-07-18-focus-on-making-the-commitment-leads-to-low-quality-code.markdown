@@ -4,7 +4,7 @@ title: Focus on making the commitment leads to low quality code
 tags:
 - en
 categories:
-- Coaching
+- coaching
 - quality
 status: publish
 type: post

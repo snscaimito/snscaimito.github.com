@@ -4,8 +4,8 @@ title: Estimation creates silos and prevents teams from developing solutions
 tags:
 - en
 categories:
-- Software-Development
-- Management
+- software-development
+- management
 status: publish
 type: post
 published: true

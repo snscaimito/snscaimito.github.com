@@ -4,7 +4,7 @@ title: Farming in the rainforest of Panama
 tags:
 - en
 categories:
-- Farm-Life
+- farm-life
 - Panama
 status: publish
 type: post

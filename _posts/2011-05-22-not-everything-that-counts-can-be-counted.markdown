@@ -4,8 +4,8 @@ title: Not Everything That Counts Can be Counted
 tags:
 - en
 categories:
-- Commentary
-- Management
+- commentary
+- management
 status: publish
 type: post
 published: true

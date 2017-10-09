@@ -4,7 +4,7 @@ title: A Real Pickup Truck
 tags:
 - en
 categories:
-- Farm-Life
+- farm-life
 - USA
 status: publish
 type: post

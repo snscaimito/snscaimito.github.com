@@ -5,8 +5,8 @@ tags:
 - en
 - ale-news-service
 categories:
-- ATDD
-- Software-Development
+- atdd
+- software-development
 ---
 My development process or method is ATDD, which stands for Acceptance Test-Driven Development. As the actual development should be driven by a test, it does mean that I write the test before I write the production code of the application.
 

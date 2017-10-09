@@ -4,8 +4,8 @@ title: Angenehmer Reisen durch selber fliegen
 tags:
 - de
 categories:
-- Aviation
-- Thoughts
+- aviation
+- thoughts
 ---
 In meiner beruflichen Tätigkeit ist Reisen jede Woche ein fester Bestandteil. Meine Arbeit findet vor Ort statt und mein Kunde ist in der Regel niemals in der Nähe meines Wohnortes. Daher ist es schon wichtig eine möglichst optimale Art und Weise des Reisens zu finden.
 

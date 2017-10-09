@@ -4,7 +4,7 @@ title: Water is essential for new pasture during dry season
 tags:
 - en
 categories:
-- Farm-Life
+- farm-life
 - Panama
 status: publish
 type: post

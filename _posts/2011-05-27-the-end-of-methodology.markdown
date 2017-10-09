@@ -4,7 +4,7 @@ title: The end of methodology
 tags:
 - en
 categories:
-- Commentary
+- commentary
 status: publish
 type: post
 published: true

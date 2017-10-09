@@ -4,8 +4,8 @@ title: Do you take a nap after lunch?
 tags:
 - en
 categories:
-- China
-- Culture
+- china
+- culture
 ---
 As I write this it is lunch time here in China. I'm at the offices of my client in a very large office park with many buildings. Probably about 20,000 people are working here.
 

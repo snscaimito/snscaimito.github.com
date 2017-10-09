@@ -4,7 +4,7 @@ title: Wo liegen die Grenzen für einen Scrum Master?
 tags:
 - de
 categories:
-- Thoughts
+- thoughts
 ---
 
 Im Scrum Guide (2011) wird die Aufgabe des Scrum Master als Hüter des Scrum-Prozesses beschrieben:

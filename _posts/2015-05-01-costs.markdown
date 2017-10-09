@@ -4,8 +4,8 @@ title: On the cost of capabilities
 tags:
 - en
 categories:
-- Management
-- Aviation
+- management
+- aviation
 ---
 A little while ago I was saying that [acquiring a capability is a long and winding road](/2013/09/22/on-the-development-of-capabilities.html) and therefore it is never cheap. 
 

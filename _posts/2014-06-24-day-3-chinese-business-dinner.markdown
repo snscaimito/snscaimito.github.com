@@ -4,8 +4,8 @@ title: Chinese business dinner
 tags:
 - en
 categories:
-- Travel
-- China
+- travel
+- china
 ---
 After I had given a talk about ATDD at my client's internal developers conference at their offices in Beijing I was invited to participate in a business dinner. I was not really well prepared for the experience. It was quite special.
 

@@ -4,7 +4,7 @@ title: Acceptance Test Driven Development brings teams together
 tags:
 - en
 categories:
-- Software-Development
+- software-development
 - atdd
 - quality
 status: publish

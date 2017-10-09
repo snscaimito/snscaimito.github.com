@@ -4,7 +4,7 @@ title: Retrospective on personal air travel
 tags:
 - en
 categories:
-- Aviation
+- aviation
 ---
 This article is a bit of a retrospective on my use of [personal air travel](/airtravel). I have been writing before [on the development of capabilities](/2013/09/22/on-the-development-of-capabilities.html). Now I want to see what the new capability delivers to my business.
 

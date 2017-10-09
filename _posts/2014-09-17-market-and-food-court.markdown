@@ -4,7 +4,7 @@ title: Xi'an indoor food court and market
 tags:
 - en
 categories:
-- China
+- china
 ---
 At the end of July and the beginning of August I had an opportunity to stroll around a bit at night in the center of Xi'an. In the basement of a department store and supermarket I discovered an indoor food court and some additional stores. Here are some impressions:
 

@@ -5,7 +5,7 @@ tags:
 - en
 - Horses
 categories:
-- Farm-Life
+- farm-life
 - Panama
 status: publish
 type: post

@@ -5,7 +5,7 @@ tags:
 - en
 - agile
 categories:
-- Coaching
+- coaching
 ---
 Since I started helping other software developers to improve their work I get told frequently "We cannot do this" when I propose a new technique and my response is always "Have you tried it?" In the reply they present all kinds of reasons why "the company", "the management", "the boss" or some other functional unit within the company will not allow it.
 

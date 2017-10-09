@@ -5,7 +5,7 @@ tags:
 - en
 - IFR
 categories:
-- Aviation
+- aviation
 ---
 Today I did my first solo IFR flight in Germany. The aircraft is a 310 HP Cirrus SR22 (G1 built in 2003) with Avidyne Release 9 integrated flight deck. The flight was planned from Aschaffenburg (EDFC) to Schönhagen (EDAZ) with my final destination downtown Berlin.
 

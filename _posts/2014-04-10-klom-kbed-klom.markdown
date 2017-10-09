@@ -4,7 +4,7 @@ title: Philadelphia (KLOM) to Boston (KBED)
 tags:
 - en
 categories:
-- Aviation
+- aviation
 ---
 This is just a stub of an article about an IFR training flight from Wings Field, Philadelphia, to Hanscom Airport, Boston. More information will follow shortly.
 

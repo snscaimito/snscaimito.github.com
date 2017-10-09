@@ -4,8 +4,8 @@ title: Chinese developers work in silence
 tags:
 - en
 categories:
-- China
-- Culture
+- china
+- culture
 ---
 So far I have visited offices in Shenzhen, Xi'an, Shanghai and Beijing where thousands of software developers work.
 

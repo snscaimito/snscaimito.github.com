@@ -4,7 +4,7 @@ title: Telling real stories in Acceptance Test Driven Development
 tags:
 - en
 categories:
-- Software-Development
+- software-development
 - atdd
 - quality
 status: publish

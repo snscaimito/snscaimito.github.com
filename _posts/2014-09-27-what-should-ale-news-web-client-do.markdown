@@ -5,8 +5,8 @@ tags:
 - en
 - ale-news-service
 categories:
-- ATDD
-- Software-Development
+- atdd
+- software-development
 ---
 Now that I have decided on my toolset for the acceptance tests I am thinking about **what** the web client should really do. The purpose of [ALE News](http://www.ale-news.com) is to share articles people find. Where do people find interesting articles related to Agile and Lean? There is probably a huge number of sources and ways to find articles. It definitely is not only browsing the *World Wide Web*.
 

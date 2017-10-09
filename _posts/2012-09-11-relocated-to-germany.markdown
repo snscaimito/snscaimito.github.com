@@ -4,7 +4,7 @@ title: Relocated to Germany
 tags:
 - en
 categories:
-- Miscellaneous
+- miscellaneous
 status: publish
 type: post
 published: true

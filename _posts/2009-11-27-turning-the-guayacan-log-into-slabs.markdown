@@ -4,7 +4,7 @@ title: Turning the guayacan log into slabs
 tags:
 - en
 categories:
-- Farm-Life
+- farm-life
 - Panama
 status: publish
 type: post

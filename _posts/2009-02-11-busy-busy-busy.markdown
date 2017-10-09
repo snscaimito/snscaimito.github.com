@@ -4,8 +4,8 @@ title: Busy, busy, busy
 tags:
 - en
 categories:
-- Software-Development
-- Miscellaneous
+- software-development
+- miscellaneous
 status: publish
 type: post
 published: true

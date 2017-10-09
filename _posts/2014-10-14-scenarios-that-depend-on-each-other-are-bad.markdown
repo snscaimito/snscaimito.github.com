@@ -5,8 +5,8 @@ tags:
 - en
 - ale-news-service
 categories:
-- ATDD
-- Software-Development
+- atdd
+- software-development
 ---
 For the web client I originally created this specification for the *Interact with article metadata archive* feature:
 

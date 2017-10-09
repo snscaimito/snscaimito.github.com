@@ -4,7 +4,7 @@ title: IPad for software developers
 tags:
 - en
 categories:
-- Software-Development
+- software-development
 status: publish
 type: post
 published: true

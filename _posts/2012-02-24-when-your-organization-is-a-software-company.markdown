@@ -4,7 +4,7 @@ title: When your organization is a software company
 tags:
 - en
 categories:
-- Thoughts
+- thoughts
 status: publish
 type: post
 published: true

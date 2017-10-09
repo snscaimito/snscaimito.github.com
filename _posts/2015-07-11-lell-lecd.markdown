@@ -5,7 +5,7 @@ tags:
 - en
 - VFR
 categories:
-- Aviation
+- aviation
 ---
 As I was visiting [Saket Bivalkar](http://saketbivalkar.com) in Barcelona he suggested to make a short trip to the mountain retreat [La Cerdanya](https://en.wikipedia.org/wiki/Cerdanya). The place is famous amongst [glider pilots](http://www.aerodromlacerdanya.cat/flypyrenees/lacerdanya-activities.html) and all kinds of other outdoor activities during summer and winter time.
 

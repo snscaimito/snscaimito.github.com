@@ -4,7 +4,7 @@ title: The eight rules of ATDD
 tags:
 - en
 categories:
-- ATDD
+- atdd
 - software-development
 ---
 Recently someone at my current client was asking me about what they should do when "doing" ATDD. As the request was about a simple answer, I came up with a number of _shoulds_ and one _should not_. After I wrote these eight rules down we had a good group conversation to clarify and understand what each rule means and calls for.

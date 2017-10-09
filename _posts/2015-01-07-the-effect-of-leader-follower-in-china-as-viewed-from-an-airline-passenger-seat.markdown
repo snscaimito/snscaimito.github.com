@@ -4,9 +4,9 @@ title: The effect of Leader-Follower in China as viewed from an airline passenge
 tags:
 - en
 categories:
-- Management
-- China
-- Culture
+- management
+- china
+- culture
 ---
 Recently I read [Turn the Ship Around!](http://www.amazon.com/Turn-Ship-Around-Turning-Followers-ebook/dp/B00AFPVP0Y) and I'm seeing quite a lot of leader-follower management all around. And I've seen a lot more of it while I was in [China](/china.html).
 

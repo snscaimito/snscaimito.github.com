@@ -5,8 +5,8 @@ tags:
 - en
 - agile
 categories:
-- Management
-- Thoughts
+- management
+- thoughts
 ---
 Once in a while I get emails from recruiters that read like this example:
 

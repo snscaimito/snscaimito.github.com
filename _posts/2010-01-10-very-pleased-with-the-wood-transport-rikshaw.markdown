@@ -4,7 +4,7 @@ title: Very pleased with the wood transport rikshaw
 tags:
 - en
 categories:
-- Farm-Life
+- farm-life
 - Panama
 status: publish
 type: post

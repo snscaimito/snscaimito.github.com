@@ -4,7 +4,7 @@ title: Pedron's hoof is getting better
 tags:
 - en
 categories:
-- Farm-Life
+- farm-life
 - Panama
 status: publish
 type: post

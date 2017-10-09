@@ -4,7 +4,7 @@ title: First baby trees in the tree nursery
 tags:
 - en
 categories:
-- Farm-Life
+- farm-life
 - Panama
 status: publish
 type: post

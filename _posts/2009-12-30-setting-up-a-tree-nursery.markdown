@@ -4,7 +4,7 @@ title: Setting up a tree nursery
 tags:
 - en
 categories:
-- Farm-Life
+- farm-life
 - Panama
 status: publish
 type: post

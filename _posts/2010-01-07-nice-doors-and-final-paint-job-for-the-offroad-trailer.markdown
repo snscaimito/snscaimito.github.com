@@ -4,7 +4,7 @@ title: Nice doors and final paint job for the offroad trailer
 tags:
 - en
 categories:
-- Farm-Life
+- farm-life
 - Panama
 status: publish
 type: post

@@ -4,9 +4,9 @@ title: Aber man muß doch um Erlaubnis bitten
 tags:
 - de
 categories:
-- Aviation
-- Culture
-- Thoughts
+- aviation
+- culture
+- thoughts
 ---
 Seit ich Mitte 2012 nach Deutschland zurückgekehrt bin, nehme ich unsere hiesige Kultur aus einem etwas anderen Blickwinkel als zuvor wahr. Ich habe noch immer den Blick von draußen nach drinnen und manche hiesige Denkweise verwundert mich sehr.
 

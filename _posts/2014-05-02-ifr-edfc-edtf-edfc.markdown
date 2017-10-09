@@ -5,7 +5,7 @@ tags:
 - en
 - IFR
 categories:
-- Aviation
+- aviation
 ---
 This is a short account of a trip from Aschaffenburg (EDFC) to Freiburg (EDTF). The airfield Aschaffenburg is located about 30 minutes from home and the final destination is a 10 minutes taxi ride from the airfield in Freiburg. 
 

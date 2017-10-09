@@ -4,9 +4,9 @@ title: Next. Coaching software developers in China
 tags:
 - en
 categories:
-- Travel
-- China
-- Coaching
+- travel
+- china
+- coaching
 ---
 
 <a href="https://www.flickr.com/photos/-nach-/4378709936" title="Lampions by Frederic Chanal, on Flickr"><img src="https://farm5.staticflickr.com/4064/4378709936_2a67780e9b_m.jpg" width="162" height="240" alt="Lampions" align="left" style="margin-right: 15px"></a> Having the opportunity to combine travel and work is wonderful. It is the best and most intense way of getting to know other cultures. One gets to know upclose the good and pleasant things but also the ugly parts of the culture one lives temporarily in. 

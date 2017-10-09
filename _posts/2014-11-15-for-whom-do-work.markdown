@@ -4,8 +4,8 @@ title: Whom do you work for?
 tags:
 - en
 categories:
-- Culture
-- Thoughts
+- culture
+- thoughts
 ---
 A fellow consultant told me that he likes to ask team members a simple question:
 

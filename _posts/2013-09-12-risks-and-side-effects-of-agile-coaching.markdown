@@ -4,7 +4,7 @@ title: Risks And Side Effects Of Agile Coaching
 tags:
 - en
 categories:
-- Coaching
+- coaching
 ---
 _Agile Coaching is a powerful medicine for an organization and can cause serious side effects. The risks of applying it should be clearly understood._
 

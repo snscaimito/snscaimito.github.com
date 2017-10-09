@@ -5,7 +5,7 @@ tags:
 - en
 - IFR
 categories:
-- Aviation
+- aviation
 ---
 A few days ago I set out to visit a business friend in Barcelona. A direct routing from Kassel (EDVK) to Sabadell (LELL), the general aviation airport for Barcelona, would have resulted in a very long flight of more than 4 hours. That seemed to be a little bit too much. So the plan was to first go to Avignon, spend the night there and then complete the trip to Barcelona the next morning.
 

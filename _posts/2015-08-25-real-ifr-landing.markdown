@@ -5,7 +5,7 @@ tags:
 - en
 - IFR
 categories:
-- Aviation
+- aviation
 ---
 Earlier last week I wanted to fly in the morning to Cologne (EDDK) and ended up using the car for three hours drive instead of a one hour flight.
 

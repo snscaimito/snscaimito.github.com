@@ -4,7 +4,7 @@ title: Clamp slabs together to saw poles
 tags:
 - en
 categories:
-- Farm-Life
+- farm-life
 - Panama
 status: publish
 type: post

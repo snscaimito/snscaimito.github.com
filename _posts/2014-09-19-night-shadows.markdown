@@ -4,8 +4,8 @@ title: Night Shadows
 tags:
 - en
 categories:
-- China
-- Aviation
+- china
+- aviation
 ---
 On a recent domestic flight as passenger inside China I got to see this spectacular view. The iPhone picture does not really do it justice but still I want to share it.
 

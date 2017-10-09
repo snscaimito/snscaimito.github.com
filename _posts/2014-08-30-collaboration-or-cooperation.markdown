@@ -4,10 +4,10 @@ title: From competition it is a big leap to cooperation
 tags:
 - en
 categories:
-- China
-- Culture
-- Management
-- Thoughts
+- china
+- culture
+- management
+- thoughts
 ---
 Collaboration and cooperation are two totally different concepts. My translators tell me that, unfortunately, in the Chinese language they basically mean the same. I've written about that [before](/2014/07/13/words-matter-speaking-in-images.html).
 

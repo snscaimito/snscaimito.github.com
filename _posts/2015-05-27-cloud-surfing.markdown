@@ -4,6 +4,6 @@ title: Cloud surfing
 tags:
 - en
 categories:
-- Aviation
+- aviation
 ---
 ![Cloud surfing](/img/posts/IMG_0422.JPG)

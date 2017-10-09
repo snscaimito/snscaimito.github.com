@@ -4,7 +4,7 @@ title: Left the city behind and went 4x4
 tags:
 - en
 categories:
-- Farm-Life
+- farm-life
 - Panama
 status: publish
 type: post

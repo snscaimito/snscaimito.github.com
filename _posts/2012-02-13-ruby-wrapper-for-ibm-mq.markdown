@@ -4,7 +4,7 @@ title: Ruby Wrapper for IBM MQ
 tags:
 - en
 categories:
-- Software-Development
+- software-development
 status: publish
 type: post
 published: true

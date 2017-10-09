@@ -4,7 +4,7 @@ title: The importance of craftsmanship
 tags:
 - en
 categories:
-- Software-Development
+- software-development
 - quality
 status: publish
 type: post

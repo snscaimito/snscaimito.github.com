@@ -4,8 +4,8 @@ title: 干杯 - Bottoms up
 tags:
 - en
 categories:
-- China
-- Culture
+- china
+- culture
 ---
 <img src="/img/posts/gambei.jpg" align="left" style="margin-right: 15px; margin-bottom: 15px">
 

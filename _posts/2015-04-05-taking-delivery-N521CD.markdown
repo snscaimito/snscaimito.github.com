@@ -4,7 +4,7 @@ title: Taking delivery of N521CD
 tags:
 - en
 categories:
-- Aviation
+- aviation
 ---
 On Friday April 3 2015 I took delivery of a very nice Cirrus SR22 Turbo-Normalized aircraft. It is equipped with a TKS anti-icing system and the Avidyne R9 integrated flight deck. The engine delivers 310hp and its service ceiling is 25,000 ft.
 

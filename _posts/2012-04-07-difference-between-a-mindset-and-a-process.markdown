@@ -4,8 +4,8 @@ title: Difference Between a Mindset and a Process
 tags:
 - en
 categories:
-- Coaching
-- Thoughts
+- coaching
+- thoughts
 status: publish
 type: post
 published: true

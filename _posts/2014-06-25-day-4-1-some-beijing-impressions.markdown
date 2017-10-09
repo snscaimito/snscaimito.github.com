@@ -4,8 +4,8 @@ title: Some Beijing impressions
 tags:
 - en
 categories:
-- Travel
-- China
+- travel
+- china
 ---
 On the way from the hotel to the offices I was able to snap a few pictures of China morning life on the street. We were walking and that provided some good opportunities.
 

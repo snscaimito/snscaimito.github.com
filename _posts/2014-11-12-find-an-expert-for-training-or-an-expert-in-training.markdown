@@ -4,8 +4,8 @@ title: Find an expert for training or an expert in training?
 tags:
 - en
 categories:
-- Coaching
-- Thoughts
+- coaching
+- thoughts
 ---
 Recently I received an inquiry from a recruiting company. On behalf of their client they were looking for a coach and trainer to help a team learn a number of modern web technologies. The list contained about 25 entries and it was a mix of frontend and backend languages, tools, libraries and also database products.
 

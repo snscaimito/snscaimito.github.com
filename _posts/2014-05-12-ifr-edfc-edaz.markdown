@@ -5,7 +5,7 @@ tags:
 - en
 - IFR
 categories:
-- Aviation
+- aviation
 ---
 As before I departed this morning from Aschaffenburg to Berlin. This time the flight was in the sunshine above the clouds instead of in or under the clouds in the rain. The flight plan was:
 

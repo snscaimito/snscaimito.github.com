@@ -5,11 +5,11 @@ tags:
 - en
 - agile
 categories:
-- Management
-- Software-Development
-- ATDD
-- Thoughts
-- Quality
+- management
+- software-development
+- atdd
+- thoughts
+- quality
 ---
 **Quality should be everybody's concern. Ideally there is no need for quality assurance people, for testers or similar roles. Instead a whole team comprised of professionals ensures a quality product is made.**
 

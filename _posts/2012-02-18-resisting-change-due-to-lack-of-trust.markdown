@@ -4,7 +4,7 @@ title: Resisting change due to lack of trust
 tags:
 - en
 categories:
-- Thoughts
+- thoughts
 status: publish
 type: post
 published: true

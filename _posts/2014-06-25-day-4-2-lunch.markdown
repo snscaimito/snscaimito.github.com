@@ -4,8 +4,8 @@ title: Chinese Lunch
 tags:
 - en
 categories:
-- Travel
-- China
+- travel
+- china
 ---
 My client is a large enterprise. So far I've seen two corporate campuses and they are very nice. Very detailed landscaping that gets maintained quite well. And these campuses have a size that easily compares to something like a University campus. In fact, it has a certain feel of it as well - especially during lunch time when hundreds of young people walk from their offices to the cafeteria(s). I learned that they even use a slot system to be able to serve food to that many people. So for every building there is a time slot that is to be used as lunch break, if people want to eat in the cafeteria.
 

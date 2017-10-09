@@ -6,8 +6,8 @@ tags:
 - VFR
 - ale2013-vfr
 categories:
-- Travel
-- Aviation
+- travel
+- aviation
 ---
 For the third time the ALE network organized its yearly conference. Last year it took place in Barcelona, Spain. This time a location in Eastern Europe was chosen: Bucharest, Romania.
 

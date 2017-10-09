@@ -4,8 +4,8 @@ title: Impressions of Chinese street life
 tags:
 - en
 categories:
-- Travel
-- China
+- travel
+- china
 ---
 Over the weekend I had an opportunity to stroll around and take some pictures of the life on the street. It was after dark and quite a bit cooler than during the day. So there is lots of people out on the streets. People sit in open air restaurants for dinner, shop or just meet with friends.
 

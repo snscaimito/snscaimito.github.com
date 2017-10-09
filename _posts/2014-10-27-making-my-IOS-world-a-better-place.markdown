@@ -5,8 +5,8 @@ tags:
 - en
 - ale-news-service
 categories:
-- ATDD
-- Software-Development
+- atdd
+- software-development
 ---
 My little IOS world just became a slightly better place. I figured out a problem that was bugging me for a while and had stopped my attempts of moving forward with ALE News.
 

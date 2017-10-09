@@ -5,7 +5,7 @@ tags:
 - en
 categories:
 - panama
-- Culture
+- culture
 status: publish
 type: post
 published: true

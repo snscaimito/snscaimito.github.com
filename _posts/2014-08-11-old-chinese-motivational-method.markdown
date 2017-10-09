@@ -4,7 +4,7 @@ title: Old Chinese motivational method
 tags:
 - en
 categories:
-- China
+- china
 ---
 My current client has offices in the old Chinese capital city of [Xi'an](http://en.wikipedia.org/wiki/Xian) in central China, which has over 3,100 years of history. Over the last two weeks I had an opportunity to visit, see the city, the [terracotta army](http://en.wikipedia.org/wiki/Terracotta_Army) and also work with two groups on the concepts behind Acceptance Test Driven Development (ATDD).
 

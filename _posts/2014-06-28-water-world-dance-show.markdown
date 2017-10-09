@@ -4,8 +4,8 @@ title: Dance Show at Shenzhen Waterworld
 tags:
 - en
 categories:
-- Travel
-- China
+- travel
+- china
 ---
 My family and I went together with a Spanish speaking Chinese friend to Shenzhen Waterworld.
 

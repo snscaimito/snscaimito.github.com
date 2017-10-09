@@ -4,7 +4,7 @@ title: How to deal with sending email in Acceptance Test Driven Development with
 tags:
 - en
 categories:
-- Software-Development
+- software-development
 - atdd
 - quality
 status: publish

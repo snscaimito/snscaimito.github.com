@@ -4,8 +4,8 @@ title: Safety instructions in the cafeteria
 tags:
 - en
 categories:
-- Culture
-- China
+- culture
+- china
 ---
 This week I made a little discovery in the cafeteria of my Chinese client. We finished our lunch a bit late and while we were still talking cooks and other kitchen personnel gathered.
 

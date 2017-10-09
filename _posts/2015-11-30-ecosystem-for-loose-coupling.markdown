@@ -4,8 +4,8 @@ title: Ecosystem for loose coupling to avoid critical path project management
 tags:
 - en
 categories:
-- Management
-- Software-Development
+- management
+- software-development
 ---
 A lot of effort goes into large-scale software development. I believe too many non-software people try to solve the challenge on the wrong level. 
 

@@ -6,8 +6,8 @@ tags:
 - VFR
 - ale2013-vfr
 categories:
-- Travel
-- Aviation
+- travel
+- aviation
 ---
 On Monday the weather over Romania looked pretty bad:
 

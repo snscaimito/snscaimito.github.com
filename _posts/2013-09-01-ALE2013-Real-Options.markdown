@@ -4,8 +4,8 @@ title: ALE2013 - Use of Real Options When Flying VFR
 tags:
 - en
 categories:
-- Management
-- Aviation
+- management
+- aviation
 ---
 This August I wanted to travel from Egelsbach, Germany, to [ALE2013](http://ale2013.alenetwork.eu) taking place in Bucharest, Romania, in a light aircraft. The aircraft has a safe range of about 4 hrs plus a 30 minute reserve. A quick look at the map shows that the total flight time will be more than that and so a point somewhere in the middle of the overall distance was choosen.
 

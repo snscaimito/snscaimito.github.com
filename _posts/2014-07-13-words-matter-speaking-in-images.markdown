@@ -4,9 +4,9 @@ title: Words matter a lot - Speaking in images
 tags:
 - en
 categories:
-- China
-- Management
-- Culture
+- china
+- management
+- culture
 ---
 Chinese is quite an interesting language. I'm now in China since end of June to coach several teams on Acceptance Test-Driven Development. So far I've not worked directly with a product team but instead have been working with a group of people tasked to provide tools and advanced concepts to product teams. We do spend quite a lot of time to make ATDD tools and teaching material suitable for Chinese developers. And it turns out that that in itself can be a challenge.
 

@@ -4,8 +4,8 @@ title: Alle Eier in einem Korb
 tags:
 - de
 categories:
-- Aviation
-- Travel
+- aviation
+- travel
 ---
 An diesem Morgen sollte es um 10:50 Uhr mit Air Berlin von Frankfurt nach Berlin gehen. N747TG ist anderweitig unterwegs. Daher mußte ich auf den Linienflug umsteigen.
 

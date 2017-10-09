@@ -4,7 +4,7 @@ title: Deep Involvement
 tags:
 - en
 categories:
-- Coaching
+- coaching
 ---
 Personally I like how a coach in sports works. There is deep involvement. When the team wins, the coach wins and celebrates with the team. When the team looses, the coach suffers along with every member of the team. Sports coaches share their experience with the team and every single member. They get their hands dirty, show how to use new techniques and keep up practicing until the players or athletes really are good at the new thing.
 

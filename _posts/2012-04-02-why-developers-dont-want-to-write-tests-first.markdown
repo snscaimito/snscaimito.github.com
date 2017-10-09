@@ -4,8 +4,8 @@ title: Why Developers Don't Want to Write Tests First
 tags:
 - en
 categories:
-- Coaching
-- Thoughts
+- coaching
+- thoughts
 status: publish
 type: post
 published: true

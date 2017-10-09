@@ -5,7 +5,7 @@ tags:
 - en
 - IFR
 categories:
-- Aviation
+- aviation
 ---
 Yesterday I had another opportunity to fly to Berlin for work again. This time I wanted to try using oxygen from the bottle.
 

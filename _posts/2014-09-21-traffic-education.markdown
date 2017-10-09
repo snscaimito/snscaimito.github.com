@@ -4,7 +4,7 @@ title: Safe driving education
 tags:
 - en
 categories:
-- China
+- china
 ---
 Here in China we are living - for the few months of the [coaching engagement](/2014/06/18/coaching-software-developers-in-china.html) - in a garden-like compound with many small apartments. A few days back the police was conducting traffic education to encourage safe driving practices.
 

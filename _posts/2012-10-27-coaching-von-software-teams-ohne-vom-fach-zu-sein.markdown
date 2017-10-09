@@ -4,7 +4,7 @@ title: Coaching von Software-Teams ohne vom Fach zu sein?
 tags:
 - de
 categories:
-- Thoughts
+- thoughts
 ---
 Kann man Teams in der Softwareentwicklung sinnvoll und nachhaltig zur Verbesserung ihrer technischen und organisatorischen Fähigkeiten coachen ohne selbst langjährige Erfahrung in der Entwicklung von Software-Produkten zu haben? Das ist die Frage, die mir schon seit einiger Zeit durch den Kopf geht. 
 

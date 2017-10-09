@@ -5,9 +5,9 @@ tags:
 - en
 - agile
 categories:
-- China
-- Culture
-- Management
+- china
+- culture
+- management
 ---
 Improvement requires that there is something that needs to be improved. If everything is just perfect or at least well enough so that everybody is happy, then there is no need to change a thing.
 

@@ -4,7 +4,7 @@ title: It can get hot in China
 tags:
 - en
 categories:
-- China
+- china
 ---
 These guys were sitting in a restaurant waiting for their food.
 

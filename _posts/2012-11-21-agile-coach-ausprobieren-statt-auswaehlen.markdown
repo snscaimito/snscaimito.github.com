@@ -4,7 +4,7 @@ title: Agile Coach ausprobieren statt durch ein Bewerbungsverfahren auswählen
 tags:
 - de
 categories:
-- Thoughts
+- thoughts
 ---
 
 Es ist gängige Praxis in vielen Unternehmen neue Mitarbeiter durch einen mehrstufigen Prozeß auszuwählen. Da werden Lebensläufe angeschaut und bewertet und so eine Vorauswahl getroffen. Dann werden aussichtsreiche Kandidaten telefonisch befragt und nach einer weiteren Auswahl Termine für persönliche Vorstellungsgespräche ausgemacht.

@@ -4,7 +4,7 @@ title: Acceptance Test Driven Development changes how you organize your project
 tags:
 - en
 categories:
-- Software-Development
+- software-development
 - atdd
 - quality
 status: publish

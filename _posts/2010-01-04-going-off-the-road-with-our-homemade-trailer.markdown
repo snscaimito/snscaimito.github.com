@@ -4,7 +4,7 @@ title: Going off the road with our homemade trailer
 tags:
 - en
 categories:
-- Farm-Life
+- farm-life
 - Panama
 status: publish
 type: post

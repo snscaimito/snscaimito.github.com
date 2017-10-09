@@ -4,7 +4,7 @@ title: Don't tie Cucumber features 1:1 to stories
 tags:
 - en
 categories:
-- Software-Development
+- software-development
 - atdd
 - quality
 status: publish

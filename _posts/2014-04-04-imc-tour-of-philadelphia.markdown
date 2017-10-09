@@ -4,7 +4,7 @@ title: Touring Philadelphia in IMC and circle to land at minimums
 tags:
 - en
 categories:
-- Aviation
+- aviation
 ---
 For the last part of my IFR training I'm at FlyAdvanced at Wings Field just outside of Philadelphia. I didn't want to go to popular places like Florida or Arizona but instead go somewhere with real IMC ([instrument meterological conditions](http://en.wikipedia.org/wiki/Instrument_Meteorological_Conditions)) with just the right amount of bad enough weather. In my opinion it doesn't make sense to do IFR training in perfect sunshine and then when you are on your own start venturing out into bad weather. It is better to experience difficult weather during the training with an instructor on board so you can build on that experience.
 

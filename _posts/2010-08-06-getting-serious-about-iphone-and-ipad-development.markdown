@@ -4,7 +4,7 @@ title: Getting serious about iPhone and iPad development
 tags:
 - en
 categories:
-- Software-Development
+- software-development
 status: publish
 type: post
 published: true

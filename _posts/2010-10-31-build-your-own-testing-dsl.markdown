@@ -4,7 +4,7 @@ title: Build your own testing DSL
 tags:
 - en
 categories:
-- Software-Development
+- software-development
 status: publish
 type: post
 published: true

@@ -5,7 +5,7 @@ tags:
 - de
 - IFR
 categories:
-- Aviation
+- aviation
 ---
 Auch wenn dies für mich völlig untypisch ist, so hatte ich gestern eine logistische Herausforderung zu meistern. Diese bestand darin am Vormittag einen längeren Termin in Heinsberg wahrzunehmen und am Nachmittag einen weiteren Termin in Meimbressen. Die Lage schaute so aus wie auf der nachfolgenden Karte dargestellt. Ausgangs- und Endpunkt war Dieburg in der Nähe von Darmstadt. Heinsberg liegt westlich von Mönchengladbach und Meimbressen in der Nähe von Kassel.
 

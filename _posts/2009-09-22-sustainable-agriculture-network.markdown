@@ -4,7 +4,7 @@ title: Sustainable Agriculture Network
 tags:
 - en
 categories:
-- Farm-Life
+- farm-life
 status: publish
 type: post
 published: true

@@ -5,9 +5,9 @@ tags:
 - en
 - Horses
 categories:
-- Farm-Life
+- farm-life
 - USA
-- Travel
+- travel
 status: publish
 type: post
 published: true

@@ -4,9 +4,9 @@ title: Coaching through a translator
 tags:
 - en
 categories:
-- China
-- Coaching
-- Culture
+- china
+- coaching
+- culture
 ---
 Since the beginning of my engagement in China I've been working with translators. Most employees of my client do not understand/speak English well or what they can say themselves is very limited. But even, if they only know a few words, they pronounce them in perfect American English. That, of course, doesn't help much to convey anything meaningful.
 

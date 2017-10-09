@@ -5,7 +5,7 @@ tags:
 - en
 - IFR
 categories:
-- Aviation
+- aviation
 ---
 This morning I took off from Aschaffenburg for two days of work in Berlin. I reused the flight plan from before:
 
