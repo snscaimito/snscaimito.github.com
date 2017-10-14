@@ -381,6 +381,11 @@ TABLE {
 	margin-right: auto;
 }
 
+TABLE.article-overview {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 UL#nav {
 	text-align: right;
 	list-style-type: none;
