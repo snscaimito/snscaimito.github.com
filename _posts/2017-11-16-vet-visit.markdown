@@ -1,0 +1,21 @@
+---
+layout: post
+title: Veterinarian checks cows and vaccinates pigs
+tags:
+- en
+categories:
+- farm-life
+---
+This morning the vet came to see the cows and pigs. These animals are not ours. They belong to the former owner of the land and will be gone soon. Then we start fresh.
+
+First were the cows. The vet checked each one for signs of [tuberculosis](https://en.wikipedia.org/wiki/Tuberculosis) and [brucellosis](https://en.wikipedia.org/wiki/Brucellosis). The results were negative and so he could enter that in a form provided by the [Junta de Andalucia](http://juntadeandalucia.es) which is the local government.
+
+![Finca 2017 11 16 09 24 06]({{ "/img/posts/2017-11-16/Finca-2017-11-16-09-24-06.jpg" | relative_url }})
+
+Next were the pigs. For the treatment they get moved into a narrow channel that leads to an apparatus that allows a handler to fixate the pig. It is similar to the one used for cows but a bit smaller. As the animals don't know what happens to them, they will try to escape, make the treatment impossible and potentially harm themselves in the process.
+
+![Finca 2017 11 16 09 56 29]({{ "/img/posts/2017-11-16/Finca-2017-11-16-09-56-29.jpg" | relative_url }})
+
+The pig is fixated, then the vet uses a tool that has a syringe on one end and on the other the vaccine bottle. He explained that this is much safer for his own hands. After the shot has been given he draws some blood from each animal for analysis. Setting the vaccine shot didn't disturb the pigs too much but drawing blood made every single one squeak very loud. The needle for drawing blood is much bigger and certainly is more painful than the other one.
+
+![Finca 2017 11 16 09 58 21]({{ "/img/posts/2017-11-16/Finca-2017-11-16-09-58-21.jpg" | relative_url }})
