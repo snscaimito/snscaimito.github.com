@@ -26,6 +26,12 @@ My work, on an international level, gets me in touch with many different nationa
 ## Engagement Overview
 <dl class="resume">
 
+	<dt>Agile Coach</dt>
+	<dd>
+		<p class="client">2017, Alfa Insurance, Moscow, Russia</p>
+		<p>Performed an audit of the software development and operations groups in preparation of a larger engagement to uplift skills and create a DevOps structure. Did some initial coaching on two teams to lay the foundation for future coaching work with these two teams and additional groups to follow.</p>
+	</dd>
+
 	<dt>Agile Coach <em>in cooperation with other Agile Coaches</em></dt>
 	<dd>
 		<p class="client">2017, Alfa Bank, Moscow, Russia</p>
