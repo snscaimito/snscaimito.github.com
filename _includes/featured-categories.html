@@ -36,14 +36,11 @@
 			</div>
 			<div class="row">
 				<div class="span4">
-					<p class="section featured-category">Management</p>
+					<p class="section featured-category">Farm Life</p>
 					{% assign posts = "" | split: "" %}
 					{% for post in site.posts %}
-					    {% if post.categories contains 'Management' %}
-							{% assign posts = posts | push: post %}
-					    {% endif %}
-					    {% if post.categories contains 'management' %}
-							{% assign posts = posts | push: post %}
+					    {% if post.categories contains 'farm-life' %}
+							{%   assign posts = posts | push: post %}
 					    {% endif %}
 					{% endfor %}
 						
