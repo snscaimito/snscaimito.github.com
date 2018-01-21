@@ -2,18 +2,11 @@
 {% include head.html %}
 
 <body>
-	{% include navbar.html %}
 	<div class="container">
-		{% include introduction.html %}
 		<div class="row">
 			<div class="span9">
 				<div class="post">
 					<h1>{{ page.title }}</h1>
-					<p>{{ page.date | date: "%d %b %Y" }} in
-						{% for category in page.categories %}
-							<a class="categoryLink" href="/category/{{ category }}.html">{{ category }}</a>
-						{% endfor %}
-					</p>
 					{{ content }}
 					<table class="postfooter" style="width: 100%">
 					<tr>
@@ -49,6 +42,15 @@
 				</div>
 			</div>
 			<div class="span3">
+        <div class="sidebar">
+        	<p class="section">About this article</p>
+					<p>This article was posted in:
+						{% for category in page.categories %}
+							<a class="categoryLink" href="/category/{{ category }}.html">{{ category }}</a>
+						{% endfor %}
+					</p>
+          
+        </div>
 				{% include main-sidebar.html %}
 			</div>
 		</div>

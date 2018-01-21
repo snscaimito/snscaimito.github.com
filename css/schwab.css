@@ -110,11 +110,6 @@ P.blog-title {
     }
 }
 
-.sidebar P {
-	margin-left: 10px;
-	margin-right: 10px;
-}
-
 .sidebar FORM {
 	margin-left: 10px;
 	margin-right: 10px;
@@ -134,7 +129,7 @@ P.blog-title {
 }
 
 .post H1 {
-	font-size: 18pt;
+	font-size: 20pt;
 	text-align: center;
 }
 
@@ -361,6 +356,38 @@ P.featured-category {
 
 .footer {
 	background-color: #F2F2F2;
+}
+
+.header {
+  background-image: url("/img/header.jpg");
+  background-repeat: no-repeat;
+  height: 163px;
+  padding-bottom: 15px;
+}
+
+.header .name {
+  color: black;
+  font-size: 26pt;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 18px;
+}
+
+.header .claim {
+  color: black;
+  font-size: 18pt;  
+  font-weight: bold;
+  text-align: center;
+  padding-top: 5px;
+  opacity: 1;
+}
+
+.header .claim-box {
+  position: relative;
+  top: 85px;
+  opacity: 0.6;
+  background-color: white;
+  height: 31px;
 }
 
 .header H1, .header H2 {
