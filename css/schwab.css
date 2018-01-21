@@ -178,7 +178,11 @@ TABLE {
 }
 
 .align-right { float:right; margin: 0 0 15px 15px; }
-.align-left { float:left; margin: 0 15px 15px 0; }
+.align-left { 
+  float:left; 
+  margin: 0 0 0 0;
+  padding-right: 15px;
+}
 
 TABLE.postfooter {
 	border-top: thin dotted black;
