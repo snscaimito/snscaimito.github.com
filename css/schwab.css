@@ -16,7 +16,17 @@ P.blog-title {
 	font-size: 18px;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 479px) {
+  .header .claim-box {
+    display: none;
+  }
+  
+  .sidebar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1023px) {
   .header .claim-box {
     display: none;
   }
