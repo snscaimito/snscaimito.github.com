@@ -29,3 +29,5 @@ They are coming down to the water once per day where they have a wide area to ga
 The white fence looks also pretty nice in the Andalusian sunshine. :-)
 
 We are using the tape instead of a regular string. It's meant to be used for horses and we will use it for horses later on.
+
+![Finca]({{ "/img/posts/2018-02-04/finca.jpg" | relative_url }})
