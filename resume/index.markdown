@@ -1,5 +1,5 @@
 ---
-layout: resume
+layout: special
 title: Stephan Schwab
 ---
 **Agile Coach / Scrum Coach**
