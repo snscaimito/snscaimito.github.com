@@ -1,8 +1,9 @@
 body {
- -webkit-hyphens: auto;
- -moz-hyphens: auto;
- -ms-hyphens: auto;
- hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  font-family: 'Special Elite', cursive, lucida grande, sans-serif;
 }
 
 H1.blog-title {
@@ -10,7 +11,6 @@ H1.blog-title {
 }
 
 P.blog-title {
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: bold;
 	margin-top: 24px;
 	font-size: 18px;
@@ -46,7 +46,6 @@ P.blog-title {
 }
 
 .post {
-	font-family: "museo-sans", sans-serif ;
 	margin-bottom: 2em;
 }
 
@@ -106,7 +105,6 @@ TABLE.postfooter {
 }
 
 TABLE.postfooter TD {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 10pt;
 }
 
@@ -119,7 +117,6 @@ A:hover {
 }
 
 .categories {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .vertical {
@@ -139,7 +136,6 @@ UL.horizontal LI {
 }
 
 .post BLOCKQUOTE P, .post BLOCKQUOTE UL LI {
-	font-family: "droid-sans", sans-serif;
 	font-size: 12pt;
 	text-align: left;
 	line-height: 16pt;
