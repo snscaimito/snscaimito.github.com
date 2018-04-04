@@ -1,0 +1,11 @@
+{% capture seriesTag %}{{ include.seriesTag }}{% endcapture %}
+<div class="ale_news_post_footer">
+	<h2>Articles in this series</h2>
+	<ul>
+	{% for post in site.posts limit %}
+     {% if post.tags contains seriesTag %}
+       <li>{{ post.date | date: "%d %b %Y" }} <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+	{% endfor %}
+	</ul>
+</div>

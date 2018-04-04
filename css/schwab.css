@@ -3,7 +3,7 @@ body {
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  font-family: 'Special Elite', cursive, lucida grande, sans-serif;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
 }
 
 H1.blog-title {
@@ -47,11 +47,14 @@ P.blog-title {
 
 .post {
 	margin-bottom: 2em;
+	font-size: 14pt;
+  font-family: 'Zilla Slab', serif;
 }
 
 .post H1 {
 	font-size: 28pt;
 	text-align: center;
+  font-family: 'Sansita', sans-serif;
 }
 
 .post H2 {
@@ -59,16 +62,17 @@ P.blog-title {
 	margin-top: 12pt;
 	margin-bottom: -3px;
 	text-align: center;
+  font-family: 'Sansita', sans-serif;
 }
 
 .post H3 {
 	font-size: 16pt;
 	margin-bottom: -3px;
+  font-family: 'Sansita', sans-serif;
 }
 
 .post P, .article P, .article TD, .article TH, .article UL {
-	font-size: 12pt;
-	line-height: 16pt;
+	line-height: 18pt;
 	text-align: justify ;
 }
 
@@ -314,10 +318,6 @@ P.featured-category {
 
 .header H2 {
 	font-size: 16pt;
-}
-
-.post UL LI {
-	font-size: 12pt;
 }
 
 A.categoryLink {
