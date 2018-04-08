@@ -258,6 +258,10 @@ DIV.ale_news_post_header, DIV.ale_news_post_footer, DIV.related_articles P {
 	margin-bottom: 0px;
 }
 
+DIV.ale_news_post_footer H2 {
+  margin-top: 0;
+}
+
 TABLE.article-overview {
 	margin-bottom: 0;
 }
