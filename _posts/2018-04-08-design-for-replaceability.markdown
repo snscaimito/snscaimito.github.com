@@ -59,4 +59,29 @@ The solution above is to expect failure and be prepared to offer a replacement f
 
 At the moment I've kept it very simple in order to focus on other things. Later on I intent to have a replacement that allows the user to do essential operations.
 
+When I want to replace one of the applications during development I simple run <code>mvn install</code> and later use the <code>localrun.sh</code> script:
+
+    22:08 sns ~/dev/farm/farm_meal-planner  (master)$ ./localrun.sh replace recipes
+    Building recipes
+    Step 1/5 : FROM openjdk:jdk-alpine
+     ---> 3642e636096d
+    Step 2/5 : MAINTAINER sns@caimito.net
+     ---> Using cache
+     ---> d2d0bcb7f3bc
+    Step 3/5 : COPY target/recipes-*.jar /opt/app.jar
+     ---> 69efffa29717
+    Step 4/5 : EXPOSE 8080
+     ---> Running in d512abce4ceb
+    Removing intermediate container d512abce4ceb
+     ---> 28f68d399f0c
+    Step 5/5 : ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/opt/app.jar"]
+     ---> Running in a3bf89ffc388
+    Removing intermediate container a3bf89ffc388
+     ---> 85bfeeba927d
+    Successfully built 85bfeeba927d
+    Successfully tagged farmmealplanner_recipes:latest
+    Recreating farmmealplanner_recipes_1 ... done
+
+The result is that the running container gets replaced with the freshly build one.
+
 {% include series-footer.html seriesTag = "farm-it" %}
