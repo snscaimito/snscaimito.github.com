@@ -59,6 +59,7 @@ The solution above is to expect failure and be prepared to offer a replacement f
 
 At the moment I've kept it very simple in order to focus on other things. Later on I intent to have a replacement that allows the user to do essential operations.
 
+## Replace running container
 When I want to replace one of the applications during development I simple run <code>mvn install</code> and later use the <code>localrun.sh</code> script:
 
     22:08 sns ~/dev/farm/farm_meal-planner  (master)$ ./localrun.sh replace recipes
