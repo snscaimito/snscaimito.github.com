@@ -120,7 +120,7 @@ Here is a simple presentation of how a higher level of security could be achieve
 
 Instead of connecting the network with the sensitive data and vulnerable systems to another network we make use of an air gap. To bridge it we can use a one-time medium like a DVD or an USB stick. In case of USB sticks I would purchase them randomly from different sources that are not likely to be linked to my organization as a regular supplier. That adds another layer of protection against someone trying to provide me with USB sticks that are prepared with some malware. I would further use any medium only once and in only on direction of data transfer.
 
-Obviously the use of an air gap is not suitable for any kind of online application. But then if the data is no sensible it probably does not belong there anyway or at least not in raw form.
+Obviously the use of an air gap is not suitable for any kind of online application. But then if the data is very sensible it probably does not belong there anyway or at least not in raw form.
 
 Another reason for using an air gap might be to protect data from being altered by unauthorized people. Maybe it's a system of record that should be protected from malware that an attacker can use to alter data.
 
