@@ -5,3 +5,4 @@ url: http://www.stephan-schwab.com
 highlighter: rouge
 permalink: /:year/:month/:day/:title.html
 markdown: kramdown
+encoding: UTF-8
