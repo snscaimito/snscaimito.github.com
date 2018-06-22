@@ -3,6 +3,7 @@ layout: post
 title: Progress on the house build
 tags:
 - en
+- house
 categories:
 - farm-life
 ---

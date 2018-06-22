@@ -3,6 +3,7 @@ layout: post
 title: First time framing walls
 tags:
 - en
+- house
 categories:
 - farm-life
 ---

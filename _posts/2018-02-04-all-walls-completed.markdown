@@ -3,6 +3,7 @@ layout: post
 title: All walls have been completed
 tags:
 - en
+- house
 categories:
 - farm-life
 ---

@@ -3,6 +3,7 @@ layout: post
 title: Decking for the subfloor
 tags:
 - en
+- house
 categories:
 - farm-life
 ---

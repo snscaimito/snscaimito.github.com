@@ -3,6 +3,7 @@ layout: post
 title: Building the subfloor for the temporary housing at the farm
 tags:
 - en
+- house
 categories:
 - farm-life
 ---
