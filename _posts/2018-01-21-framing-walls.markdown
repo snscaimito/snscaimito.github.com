@@ -6,6 +6,7 @@ tags:
 - house
 categories:
 - farm-life
+- spain
 ---
 Never ever in my life so far I've been building anything bigger than a few shelfs in my room as a kid. I'm not a professional carpenter but I do admire what carpenters do. Wood is such a wonderful material and working outdoors on a sunny day in nice surroundings, like the one on the farm, provides a lot of stress relief despite the fact that it is hard work. It's kind of going to a gym to exercice and sweat but a bit more productive :-)
 

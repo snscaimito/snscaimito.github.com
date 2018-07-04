@@ -6,6 +6,7 @@ tags:
 - house
 categories:
 - farm-life
+- spain
 ---
 Since we received the first batch of [construction material and began working over Christmas]({{ "/2017/12/31/building-subfloor.html" | relative_url }}) our subfloor has grown quite a bit and we have advanced to the decking. That will allow us to begin working on the walls soon.
 

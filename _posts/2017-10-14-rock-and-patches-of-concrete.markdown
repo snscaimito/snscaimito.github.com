@@ -5,6 +5,7 @@ tags:
 - en
 categories:
 - farm-life
+- spain
 ---
 Well... After today's short working session on cleaning up the patio it is now confirmed: there is quite a bit of rock and patches of old concrete that has not been reinforced and is not even level either.
 

@@ -5,6 +5,7 @@ tags:
 - en
 categories:
 - farm-life
+- spain
 ---
 As we currently don't have animals on the farm and are using the neighbor's tractor for several construction jobs, we are trading access to the stream for access to the tractor. That saves the neighbor the expense to truck in water and we dont' have to acquire a tractor just yet.
 

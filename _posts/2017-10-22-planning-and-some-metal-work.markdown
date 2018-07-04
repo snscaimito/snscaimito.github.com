@@ -5,6 +5,7 @@ tags:
 - en
 categories:
 - farm-life
+- spain
 ---
 We are still in the very early stages of the farm and tied up with a number of other things. Time is a bit limited but even a tiny bit here and there does move a project forward.
 

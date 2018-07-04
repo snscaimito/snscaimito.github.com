@@ -6,6 +6,7 @@ tags:
 - house
 categories:
 - farm-life
+- spain
 ---
 We've been wanting to [put another building]({{ "/2017/10/22/planning-and-some-metal-work.html" | relative_url }}) close to the existing farm house. Our main challenge is that we have a long drive to get to the farm and that takes away quite a bit of time and energy for working on the farm. Being there the whole day with no need to drive anywhere at the end of it would make things so much easier.
 

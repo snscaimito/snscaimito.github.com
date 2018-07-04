@@ -5,6 +5,7 @@ tags:
 - en
 categories:
 - farm-life
+- spain
 ---
 Earlier this week we got a call from the shipping company that our Mongolian yurt was ready for delivery to the farm. The yurt is from [tipis.es](http://www.tipis.es) and an import from Mongolia.
 

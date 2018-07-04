@@ -5,6 +5,7 @@ tags:
 - en
 categories:
 - farm-life
+- spain
 ---
 When I came to the farm around noon I spotted the cows resting in the sun. In autumn mornings start chilly, currently around 10C but we had colder mornings already as well, and then the sun warms everything up to reach a high of 22C in the shade. Directly in the sun you want to get rid of all the additional layers of your clothing quickly :-)
 

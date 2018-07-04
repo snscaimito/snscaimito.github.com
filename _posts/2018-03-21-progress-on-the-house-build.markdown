@@ -6,6 +6,7 @@ tags:
 - house
 categories:
 - farm-life
+- spain
 ---
 It's been a while that I last wrote about the building progress. There wasn't much opportunity for building due to other obligations. And then when there was time, it was raining so the build had to wait. As I write this we are getting much closer to closing up the roof so that we can move on to the interior and the more interesting work that is about all the systems like water and electricity.
 

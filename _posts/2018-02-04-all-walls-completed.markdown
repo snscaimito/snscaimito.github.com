@@ -6,6 +6,7 @@ tags:
 - house
 categories:
 - farm-life
+- spain
 ---
 The construction project got in a bit of a problem when an unlucky encounter with a door led to a hand injury. As a consequence I was unable to lift heavy pieces or use power tools. Thankfully, I was able to find some help and the second man on the job made it possible to compensate for the time loss this week.
 

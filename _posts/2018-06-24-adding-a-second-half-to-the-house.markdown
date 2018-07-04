@@ -6,6 +6,7 @@ tags:
 - house
 categories:
 - farm-life
+- spain
 ---
 The end of March saw us adding more walls to the building. Our [attempt of using a Mongolian Yurt](/2018/06/23/adding-the-mongolian-yurt-to-the-building.html) in the back of the little house failed earlier and we decided to enlarge the house in a more conventional way. That meant to expand the floor. Originally we had planned to make a deck with wooden planks in the area outside the yurt. Now that part will have to be covered as a floor with a proper substructure.
 

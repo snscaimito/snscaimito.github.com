@@ -6,6 +6,7 @@ tags:
 - house
 categories:
 - farm-life
+- spain
 ---
 By the end of March we began to unpack the Mongolian Yurt. This round building is supposed to become our sleeping quarters in the back of the little house. We've visited yurts before and the feeling inside is cosy and somehow a bit cave-like. It does appeal and feels natural. It really is a place to retreat to.
 

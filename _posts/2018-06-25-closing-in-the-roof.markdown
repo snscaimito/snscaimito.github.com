@@ -6,6 +6,7 @@ tags:
 - house
 categories:
 - farm-life
+- spain
 ---
 Now that we have [added a second half to the house](/2018/06/24/adding-a-second-half-to-the-house.html) we can begin to close in the roof. There are many different ways how to build a roof. We decided on a version that gives us a surface to walk on and thus used 9 mm thick plywood as a first cover.
 

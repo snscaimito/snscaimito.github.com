@@ -7,6 +7,7 @@ tags:
 - sheep
 categories:
 - farm-life
+- spain
 ---
 Triggered by the abundance of gras that suddenly showed up in May, we went to one of our neighbors and bought four sheep. They are Merino and native to Spain. We were hoping to acquire adult animals but ended up with four lams.
 

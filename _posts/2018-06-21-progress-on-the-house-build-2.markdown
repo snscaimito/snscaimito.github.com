@@ -6,6 +6,7 @@ tags:
 - house
 categories:
 - farm-life
+- spain
 ---
 By the [end of March](/2018/03/21/progress-on-the-house-build.html) we had the first half of the house's walls completed and put on the rafters for the roof. We are hoping to use a Mongolian Yurt in the back to sleep in and thus save us the trouble to build a complete more traditional style house. After all the ideas to get something up to be at the place for further developing it. It was not the intention to actually build a *full house*.
 
