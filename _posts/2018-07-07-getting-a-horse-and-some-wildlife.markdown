@@ -3,6 +3,7 @@ layout: post
 title: Getting a horse and some wildlife
 tags:
 - en
+- Horses
 categories:
 - farm-life
 - spain
