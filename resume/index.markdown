@@ -28,6 +28,12 @@ My work, on an international level, gets me in touch with many different nationa
 
 	<dt>Agile Coach</dt>
 	<dd>
+		<p class="client">2018, Alfa Insurance, Moscow, Russia</p>
+		<p>Continued the work from 2017. Worked with several teams and senior management on improving engineering practices. Advised on network security and information security practices. Introduced a former coachee to the teams to support XP style testing practices at the team level. Consulted on <a href="/2018/04/07/draft-of-a-roca-and-scs-style-application.html">Self-Contained Systems (SCS)</a> based on Docker containers to improve application architecture.</p>
+	</dd>
+
+	<dt>Agile Coach</dt>
+	<dd>
 		<p class="client">2017, Alfa Insurance, Moscow, Russia</p>
 		<p>Performed an audit of the software development and operations groups in preparation of a larger engagement to uplift skills and create a DevOps structure. Did some initial coaching on two teams to lay the foundation for future coaching work with these two teams and additional groups to follow.</p>
 	</dd>
