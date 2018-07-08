@@ -12,7 +12,7 @@ With the [roof watertight](/2018/06/27/water-proofing-the-roof.html) by the end 
 
 {% include image.html name="waterpipe-1.jpg" %}
 
-The wholes in the studs are drilled with a 26 mm drill bit to make room for the 20 mm pipe.
+The holes in the studs are drilled with a 26 mm drill bit to make room for the 20 mm pipe.
 
 {% include image.html name="waterpipe-2.jpg" %}
 
