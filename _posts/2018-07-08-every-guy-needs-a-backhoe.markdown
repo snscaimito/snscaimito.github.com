@@ -3,6 +3,7 @@ layout: post
 title: Every guy needs a backhoe
 tags:
 - en
+- house
 categories:
 - farm-life
 - spain
