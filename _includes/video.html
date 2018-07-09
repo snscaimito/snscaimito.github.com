@@ -1,0 +1,7 @@
+{% capture imagePath %}{{ page.date | date: "%Y-%m-%d" }}-{{ page.title | slugify }}/{{ include.name }}{% endcapture %}
+<center>
+<video controls style="margin-top: 15px; margin-bottom: 15px">
+  <source src="/img/posts/{{ imagePath }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+</center>

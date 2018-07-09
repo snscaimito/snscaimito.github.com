@@ -18,4 +18,4 @@ Besides that... Isn't it that boys always like toys and the toys grows but not t
 
 Here is even a little video of me driving it onto the property:
 
-{% include image.html name="backhoe-3.mp4" %}
+{% include video.html name="backhoe-3.mp4" %}
