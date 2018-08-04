@@ -45,10 +45,11 @@ P.blog-title {
 	border-bottom: 1px dotted black ;
 }
 
-.post {
+.post, TD.post {
 	margin-bottom: 2em;
 	font-size: 14pt;
   font-family: 'Zilla Slab', serif;
+	line-height: 18pt;
 }
 
 .post H1 {
@@ -76,13 +77,12 @@ P.blog-title {
 	text-align: justify ;
 }
 
-TD {
-	font-size: 11pt;
-	line-height: 18pt;
-}
-
 TABLE {
 	margin-bottom: 1em;
+}
+
+TD {
+  padding: 2px;
 }
 
 .post P IMG {
@@ -291,6 +291,27 @@ P.featured-category {
   padding-bottom: 15px;
 }
 
+.header A {
+  color: black;
+}
+
+.header A:hover {
+  color: red;
+}
+
+.menu {
+  display: grid; 
+  grid-auto-columns: auto; 
+  grid-auto-flow: column ; 
+  grid-column-gap: 20px
+  color: black;
+  font-size: 18pt;  
+  font-weight: bold;
+  text-align: left;  
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
 .header .name {
   color: black;
   font-size: 26pt;
@@ -310,7 +331,7 @@ P.featured-category {
 
 .header .claim-box {
   position: relative;
-  top: 85px;
+  top: 107px;
   opacity: 0.6;
   background-color: white;
   height: 31px;

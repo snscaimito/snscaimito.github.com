@@ -3,11 +3,12 @@
 
 <body>
 	<div class="container">
+		{% include header.html %}
 		<div class="row">
 			<div class="span9">
 				<div class="post">
 					<h1>{{ page.title }}</h1>
-					{{ content }}
+          {{ content }}
 					<table class="postfooter" style="width: 100%">
 					<tr>
 						<td style="text-align: left; width: 33%"><a href="{{ page.previous.url }}">Previous</a></td>
@@ -51,7 +52,8 @@
 			<div class="span3">
         <div class="sidebar">
         	<p class="section">About this article</p>
-					<p>This article was posted in:
+          <p>Published: {{ page.date | date: '%B %d, %Y' }}</p>
+					<p>Posted in:
 						{% for category in page.categories %}
 							<a class="categoryLink" href="/category/{{ category }}.html">{{ category }}</a>
 						{% endfor %}
