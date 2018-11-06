@@ -62,4 +62,4 @@ Now during fall we are getting quite a bit of rain every few days followed by da
 
 The sheep are enjoying it.
 
-<iframe width="870" height="489" src="https://www.youtube.com/embed/e9TnVQwtn-M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="700" height="393" src="https://www.youtube.com/embed/e9TnVQwtn-M?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

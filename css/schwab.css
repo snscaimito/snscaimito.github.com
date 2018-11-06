@@ -26,7 +26,7 @@ P.blog-title {
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 979px) {
   .header .claim-box {
     display: none;
   }
@@ -47,9 +47,9 @@ P.blog-title {
 
 .post, TD.post {
 	margin-bottom: 2em;
-	font-size: 14pt;
+	font-size: 12pt;
   font-family: 'Zilla Slab', serif;
-	line-height: 18pt;
+	line-height: 16pt;
 }
 
 .post H1 {
@@ -73,7 +73,7 @@ P.blog-title {
 }
 
 .post P, .article P, .article TD, .article TH, .article UL {
-	line-height: 18pt;
+	line-height: 16pt;
 	text-align: justify ;
 }
 
