@@ -25,6 +25,11 @@ My work, on an international level, gets me in touch with many different nationa
 
 ## Engagement Overview
 <dl class="resume">
+	<dt>Consultant</dt>
+	<dd>
+		<p class="client">2019, Raiffeisen Bank, Belgrade, Serbia</p>
+		<p>Performed an IT process and system assessment for the executive board.</p>
+	</dd>
 
 	<dt>Agile Coach</dt>
 	<dd>
