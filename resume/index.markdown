@@ -25,6 +25,17 @@ My work, on an international level, gets me in touch with many different nationa
 
 ## Engagement Overview
 <dl class="resume">
+	<dt>Developer</dt>
+	<dd>
+		<p class="client">2020, undisclosed client, Japan, USA, Europe</p>
+		<p>Working on a NodeJS based API to orchestrate a number of external services.
+      Functional programming style and use of Promise and lodash/fp.
+      Unit testing with JEST, acceptance and smoke testing with Cucumber.js and Chai.
+    </p>
+    <p>Geographically distributed team with team members working from individual locations in Europe, Japan, and USA.
+    </p>
+	</dd>
+
 	<dt>Consultant</dt>
 	<dd>
 		<p class="client">2019, Raiffeisen Bank, Pristina, Kosovo</p>
