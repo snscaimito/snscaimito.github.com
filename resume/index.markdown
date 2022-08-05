@@ -27,7 +27,18 @@ My work, on an international level, gets me in touch with many different nationa
 <dl class="resume">
 	<dt>Developer</dt>
 	<dd>
-		<p class="client">2020, undisclosed client, Japan, USA, Europe</p>
+		<p class="client">2021 - ongoing, Mercedes-Benz, Germany</p>
+		<p>Worked 100% remote with an international DevOps style group on an internal application to manage SonarQube in combination with GitHub Enterprise.</p>
+		<p>Backend work with Java, Quarkus, Hibernate, Maven</p>
+		<p>Frontend work with VueJS, Vuex Store, Typescript, Vuetify, Cypress automated testing</p>
+		<p>Development environment was Docker, GitHub Actions. Production deployment to Azure Kubernetes cluster. Worked on Quarkus Native Executable as Docker container. Did minor changes to Helm charts and within Microsoft Azure.</p>
+		<p>Worked on a demo setup for a different group to enable them to use Microsoft .NET on Kubernetes. Development with .NET on Mac OS and deployment to selfhosted Ubuntu MicroK8s.</p>
+		<p>Did some limited coaching on Object-Oriented Programming and Test-Driven Development for the colleagues with a SysAdmin background.</p>
+	</dd>
+
+	<dt>Developer</dt>
+	<dd>
+		<p class="client">2020, PH7, Japan, USA, Europe</p>
 		<p>Working on a NodeJS based API to orchestrate a number of external services.
       Functional programming style and use of Promise and lodash/fp.
       Unit testing with JEST, acceptance and smoke testing with Cucumber.js and Chai.
