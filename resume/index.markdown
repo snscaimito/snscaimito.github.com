@@ -32,6 +32,7 @@ My work, on an international level, gets me in touch with many different nationa
 		<p>Backend work with Java, Quarkus, Hibernate, Maven</p>
 		<p>Frontend work with VueJS, Vuex Store, Typescript, Vuetify, Cypress automated testing</p>
 		<p>Development environment was Docker, GitHub Actions. Production deployment to Azure Kubernetes cluster. Worked on Quarkus Native Executable as Docker container. Did minor changes to Helm charts and within Microsoft Azure.</p>
+		<p>The application uses Keycloak for authentication and I also got to do some work with its API and manage local deployment for testing purposes.</p>
 		<p>Worked on a demo setup for a different group to enable them to use Microsoft .NET on Kubernetes. Development with .NET on Mac OS and deployment to selfhosted Ubuntu MicroK8s.</p>
 		<p>Did some limited coaching on Object-Oriented Programming and Test-Driven Development for the colleagues with a SysAdmin background.</p>
 	</dd>
