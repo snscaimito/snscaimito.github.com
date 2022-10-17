@@ -27,7 +27,7 @@ My work, on an international level, gets me in touch with many different nationa
 <dl class="resume">
 	<dt>Developer</dt>
 	<dd>
-		<p class="client">2021 - ongoing, Mercedes-Benz, Germany</p>
+		<p class="client">2021 - 2022, Mercedes-Benz, Germany</p>
 		<p>Worked 100% remote with an international DevOps style group on an internal application to manage SonarQube in combination with GitHub Enterprise.</p>
 		<p>Backend work with Java, Quarkus, Hibernate, Maven</p>
 		<p>Frontend work with VueJS, Vuex Store, Typescript, Vuetify, Cypress automated testing</p>
