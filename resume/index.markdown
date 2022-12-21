@@ -1,14 +1,12 @@
 ---
 layout: special
-title: Stephan Schwab
+title: Professional experience of Stephan Schwab
 ---
-**Agile Coach / Scrum Coach**
+Based on my first lines of code written in the early 1980s and first publication in <a href="https://de.wikipedia.org/wiki/Computer_Persönlich">Computer Persönlich</a> I've been honing my skills in software development and business since then.
 
-**Scrum Master**
+My passion is software development in multiple programming languages and thanks to my demanding clients I keep up with current technologies being languages, frameworks and also networking, operating systems or operations topics.
 
-**Software Development Coach & Consultant**
-
-**Interim Manager**
+Unlike some of my peers in Agile Coaching I have never stopped programming personally and so I can do for real what I talk about. In every engagement that ability earns me quickly respect and people like to take my advice as it comes from the trenches and not from books or lectures.
 
 I help CEOs and Department Leaders to improve value creation and cohesion within their organization. The outcome will be higher quality, customer delight and more revenue. 
 
@@ -18,6 +16,11 @@ My contributions help the organization to become more adaptable and more resilie
 
 My work, on an international level, gets me in touch with many different national and corporate cultures. That allows me to see the bigger picture, provides me a large arsenal of tools and therefore makes me able to solve difficult situations in a way that is new to the particular client I’m working with.
 
+A good example illustrating some of my more special experiences is this story:
+
+<blockquote>
+I taught a young developer in China at Huawei Behavior-Driven Development in Python using the framework <a href="https://github.com/behave/behave">Behave</a>. She did not speak a lot of English and we were communicating through a translator who was sitting between us. As I was able to show in code what I was explaining in English - the translator turning my words into Mandarin - my coachee quickly understood the concepts and we were able to deliver a valuable service to her team.
+</blockquote>
 
 **Phone +49 151 6162 3277**
 
