@@ -28,6 +28,31 @@ I taught a young developer in China at Huawei Behavior-Driven Development in Pyt
 
 ## Engagement Overview
 <dl class="resume">
+	<dt>Product Designer and Developer</dt>
+	<dd>
+		<p class="client">2022 - 2023, Caimito Agile Life, Spain</p>
+		<img src="../img/granjaEU-menu.jpg" style="width: 8em; float: right; margin-left: 2em"/>
+		<p>This is a solo project with no other people involved.</p>
+		<p><a target="_blank" href="https://www.caimito.eu">CaimitoEU</a> is a frontend application to promote an ecosystem restoration project in Andalusia, Spain. The application contains a shop for packaged products and also an innovative butcher shop to facilitate the sale of fresh Iberico meat.</p>
+		<p>It is written in JavaScript with VueJS (version 3), HTML5 and CSS3 for styling. After a bad experience with TailwindCSS the styling was redone in pure CSS3. It is deployed as a Docker container with an NGINX reverse proxy in the front and for handling SSL encryption. CaimitoEU consumes an API provided by GranjaEU and does not have local data storage.</p>
+		<p>Secured via Keycloak, CaimitoEU calls the backend API REST endpoints authenticating itself as a service account.</p>
+		<p>To process payments PayPal is integrated. CaimitoEU displays information in English, German, Spanish languages via vue-i18n and some Vue Router tricks to redirect to language specific pages for larger content.</p>
+		<p>Build and deploy happen via GitHub Actions to a staging and production environment. The multi-stage build includes Cypress UI tests and also Cypress smoke tests before a candidate container is marked as ready for deployment.</p>
+		<p>More complex features that take longer in development are controlled via feature flags in order to make them visible in the staging but not in the production environment.</p>
+
+		<p><a target="_blank" href="https://www.granja.eu">GranjaEU</a> is the backend API for CaimitoEU and also a small-scale ERP system for running a farm which is being used daily by the workers of Granja Caimito.</p>
+		<p>The backend API is coded in Java with Spring Boot. It exposes REST endpoints to the GranjaEU webapp and also a secured public API, via Keycloak, for CaimitoEU (in the future, other farm applications as well).</p>
+		<p>User management is done within Keycloak. Data is stored either structured in PostgreSQL or as documents in MongoDB.</p>
+		<p>The user interface is made with Vuetify and supports English and Spanish languages via vue-i18n.</p>
+		<p>GranjaEU also sends emails via JavaMail and the Google SMTP server to customers in response to shop actions and to notify customers about state changes for their orders.</p>
+
+		<p>Test-driven development and rapid prototyping are two of the methods used. Actual farm workers use the application at a very early stage and provide feedback. Deployment to production - in the sense of trunk-based development - for both applications happens multiple times per day in small chunks.</p>
+
+		<p>As with CaimitoEU build and deploy happen via GitHub Actions as a multi-stage build pipeline. Maven is building and running a large number of JUnit unit and integration tests. Cypress is used to test the GranjaEU web UI and also runs smoke tests of the deployed application for selected critical functionality. The output is several Docker containers which are stored at GitHub's container registry and deployed via SSH to a Docker Compose to staging and production environments.</p>
+
+		<p>Technologies: VueJS, Vuetify, Cypress, Keycloak (OAuth2), Docker (compose), MongoDB, PostgreSQL, NGINX, Spring Boot (REST, Data, Mail, Thymeleaf, Security), Flyway, JUnit, Maven</p>
+	</dd>
+
 	<dt>Developer</dt>
 	<dd>
 		<p class="client">2021 - 2022, Mercedes-Benz, Germany</p>
