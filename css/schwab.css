@@ -1,9 +1,9 @@
 body {
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
-  font-family: 'IBM Plex Sans Condensed', sans-serif;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+	font-family: 'IBM Plex Sans Condensed', sans-serif;
 }
 
 H1.blog-title {
@@ -17,19 +17,19 @@ P.blog-title {
 }
 
 @media screen and (max-width: 479px) {
-  .header .claim-box {
-    display: none;
-  }
-  
-  .sidebar {
-    display: none;
-  }
+	.header .claim-box {
+		display: none;
+	}
+
+	.sidebar {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 979px) {
-  .header .claim-box {
-    display: none;
-  }
+	.header .claim-box {
+		display: none;
+	}
 }
 
 .sidebar FORM {
@@ -42,20 +42,21 @@ P.blog-title {
 	font-size: 14px;
 	text-transform: uppercase;
 	color: #AB1413;
-	border-bottom: 1px dotted black ;
+	border-bottom: 1px dotted black;
 }
 
-.post, TD.post {
+.post,
+TD.post {
 	margin-bottom: 2em;
 	font-size: 14pt;
-  font-family: 'Zilla Slab', serif;
+	font-family: 'Zilla Slab', serif;
 	line-height: 16pt;
 }
 
 .post H1 {
 	font-size: 28pt;
 	text-align: center;
-  font-family: 'Sansita', sans-serif;
+	font-family: 'Sansita', sans-serif;
 }
 
 .post H2 {
@@ -63,18 +64,22 @@ P.blog-title {
 	margin-top: 12pt;
 	margin-bottom: -3px;
 	text-align: center;
-  font-family: 'Sansita', sans-serif;
+	font-family: 'Sansita', sans-serif;
 }
 
 .post H3 {
 	font-size: 16pt;
 	margin-bottom: -3px;
-  font-family: 'Sansita', sans-serif;
+	font-family: 'Sansita', sans-serif;
 }
 
-.post P, .article P, .article TD, .article TH, .article UL {
+.post P,
+.article P,
+.article TD,
+.article TH,
+.article UL {
 	line-height: 18pt;
-	text-align: justify ;
+	text-align: justify;
 }
 
 TABLE {
@@ -82,7 +87,7 @@ TABLE {
 }
 
 TD {
-  padding: 2px;
+	padding: 2px;
 }
 
 .post P IMG {
@@ -94,14 +99,18 @@ TD {
 }
 
 .article UL {
-	text-align: left ;
+	text-align: left;
 }
 
-.align-right { float:right; margin: 0 0 15px 15px; }
-.align-left { 
-  float:left; 
-  margin: 0 0 0 0;
-  padding-right: 15px;
+.align-right {
+	float: right;
+	margin: 0 0 15px 15px;
+}
+
+.align-left {
+	float: left;
+	margin: 0 0 0 0;
+	padding-right: 15px;
 }
 
 TABLE.postfooter {
@@ -120,11 +129,9 @@ A:hover {
 	text-decoration: underline;
 }
 
-.categories {
-}
+.categories {}
 
-.vertical {
-}
+.vertical {}
 
 UL.horizontal {
 	text-align: center;
@@ -139,7 +146,8 @@ UL.horizontal LI {
 	padding-right: 5px;
 }
 
-.post BLOCKQUOTE P, .post BLOCKQUOTE UL LI {
+.post BLOCKQUOTE P,
+.post BLOCKQUOTE UL LI {
 	font-size: 12pt;
 	text-align: left;
 	line-height: 16pt;
@@ -162,7 +170,7 @@ DL.resume DT {
 	font-weight: bold;
 	font-size: 12pt;
 	color: #0E6A01;
-	border-bottom: 1px dotted black ;
+	border-bottom: 1px dotted black;
 }
 
 DL.resume DD P.client {
@@ -172,7 +180,7 @@ DL.resume DD P.client {
 DL.resume-inner DT {
 	color: #000000;
 	font-weight: bold;
-	border-bottom: none ;
+	border-bottom: none;
 	font-size: 11pt;
 	margin-bottom: 5px;
 }
@@ -190,41 +198,52 @@ UL.special-content LI {
 	font-size: smaller;
 }
 
-DIV.article H1, DIV.article H2, DIV.article H3, DIV.post H1, DIV.post H2, DIV.post H3 {
+DIV.article H1,
+DIV.article H2,
+DIV.article H3,
+DIV.post H1,
+DIV.post H2,
+DIV.post H3 {
 	color: #AB1413;
 }
 
-DIV.article H1, DIV.post H1, H1.overview-headline {
+DIV.article H1,
+DIV.post H1,
+H1.overview-headline {
 	text-transform: uppercase;
 	font-size: 22pt;
 }
 
-DIV.article H2, DIV.post H2 {
+DIV.article H2,
+DIV.post H2 {
 	text-transform: uppercase;
 	font-size: 14pt;
 	margin-bottom: 6pt;
 	line-height: 20pt;
-  margin-top: 12pt;
+	margin-top: 12pt;
 }
 
-DIV.article H3, DIV.post H3 {
+DIV.article H3,
+DIV.post H3 {
 	font-size: 12pt;
 	margin-bottom: 0px;
 	line-height: 18pt;
 }
 
-DIV.article H4, DIV.post H4 {
+DIV.article H4,
+DIV.post H4 {
 	font-size: 12pt;
 	margin-bottom: 0px;
 	line-height: 18pt;
 }
 
 .article TH {
-	text-align: left ;
+	text-align: left;
 }
 
-.article TH, .article TD {
-	padding-right: 10px ;
+.article TH,
+.article TD {
+	padding-right: 10px;
 }
 
 pre {
@@ -237,8 +256,10 @@ pre {
 	white-space: pre;
 }
 
-DIV.ale_news_post_header, DIV.ale_news_post_footer, DIV.related_articles {
-	background: #FFFEC9 ;
+DIV.ale_news_post_header,
+DIV.ale_news_post_footer,
+DIV.related_articles {
+	background: #FFFEC9;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	padding-left: 5px;
@@ -254,12 +275,14 @@ DIV.ale_news_post_header {
 	margin-left: 20px
 }
 
-DIV.ale_news_post_header, DIV.ale_news_post_footer, DIV.related_articles P {
+DIV.ale_news_post_header,
+DIV.ale_news_post_footer,
+DIV.related_articles P {
 	margin-bottom: 0px;
 }
 
 DIV.ale_news_post_footer H2 {
-  margin-top: 0;
+	margin-top: 0;
 }
 
 TABLE.article-overview {
@@ -285,59 +308,65 @@ P.featured-category {
 }
 
 .header {
-  background-image: url("/img/header.jpg");
-  background-repeat: no-repeat;
-  height: 163px;
-  padding-bottom: 15px;
+	background-image: url("/img/header.jpg");
+	background-repeat: no-repeat;
+	height: 163px;
+	padding-bottom: 15px;
 }
 
 .header A {
-  color: black;
+	color: black;
 }
 
 .header A:hover {
-  color: red;
+	color: red;
 }
 
 .menu {
-  display: grid; 
-  grid-auto-columns: auto; 
-  grid-auto-flow: column ; 
-  grid-column-gap: 20px
-  color: black;
-  font-size: 18pt;  
-  font-weight: bold;
-  text-align: left;  
-  padding-left: 15px;
-  padding-top: 5px;
+	display: grid;
+	grid-auto-columns: auto;
+	grid-auto-flow: column;
+	grid-column-gap: 20px color: black;
+	font-size: 18pt;
+	font-weight: bold;
+	text-align: left;
+	padding-left: 15px;
+	padding-top: 5px;
+}
+
+@media screen and (max-width: 479px) {
+	.menu {
+		font-size: 12pt;
+	}
 }
 
 .header .name {
-  color: black;
-  font-size: 26pt;
-  font-weight: bold;
-  text-align: center;
-  padding-top: 18px;
+	color: black;
+	font-size: 26pt;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 18px;
 }
 
 .header .claim {
-  color: black;
-  font-size: 18pt;  
-  font-weight: bold;
-  text-align: center;
-  padding-top: 5px;
-  opacity: 1;
+	color: black;
+	font-size: 18pt;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 5px;
+	opacity: 1;
 }
 
 .header .claim-box {
-  position: relative;
-  top: 107px;
-  opacity: 0.6;
-  background-color: white;
-  height: 31px;
+	position: relative;
+	top: 107px;
+	opacity: 0.6;
+	background-color: white;
+	height: 31px;
 }
 
-.header H1, .header H2 {
+.header H1,
+.header H2 {
 	text-align: center;
 }
 
@@ -356,8 +385,8 @@ TABLE {
 }
 
 TABLE.article-overview {
-    margin-left: 0;
-    margin-right: 0;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 UL#nav {
@@ -386,7 +415,7 @@ FIGCAPTION {
 }
 
 .resume TABLE TH {
-	white-space: nowrap ;
+	white-space: nowrap;
 }
 
 #gallery {
@@ -394,3 +423,12 @@ FIGCAPTION {
 	margin-bottom: 20px;
 }
 
+DIV.link-tree {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1em;
+}
+
+DIV.link-tree IMG {
+	width: 300px;
+}

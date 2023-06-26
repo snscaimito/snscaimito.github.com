@@ -50,6 +50,8 @@ I taught a young developer in China at Huawei Behavior-Driven Development in Pyt
 
 		<p>As with CaimitoEU build and deploy happen via GitHub Actions as a multi-stage build pipeline. Maven is building and running a large number of JUnit unit and integration tests. Cypress is used to test the GranjaEU web UI and also runs smoke tests of the deployed application for selected critical functionality. The output is several Docker containers which are stored at GitHub's container registry and deployed via SSH to a Docker Compose to staging and production environments.</p>
 
+		<p>All servers running Docker Engine based on Debian Linux are maintained by myself.</p>
+
 		<p>Technologies: VueJS, Vuetify, Cypress, Keycloak (OAuth2), Docker (compose), MongoDB, PostgreSQL, NGINX, Spring Boot (REST, Data, Mail, Thymeleaf, Security), Flyway, JUnit, Maven</p>
 	</dd>
 
