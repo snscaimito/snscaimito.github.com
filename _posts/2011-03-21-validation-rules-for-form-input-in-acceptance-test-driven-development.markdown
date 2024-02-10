@@ -4,7 +4,7 @@ title: Validation rules for form input in Acceptance Test Driven Development
 tags:
 - en
 categories:
-- software-development
+- software_development
 - atdd
 - quality
 status: publish

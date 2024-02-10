@@ -4,7 +4,7 @@ title: Leading a mixed language development team
 tags:
 - en
 categories:
-- software-development
+- software_development
 - panama
 status: publish
 type: post

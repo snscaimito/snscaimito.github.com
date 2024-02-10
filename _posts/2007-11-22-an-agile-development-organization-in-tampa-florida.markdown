@@ -5,7 +5,7 @@ tags:
 - en
 - speaking
 categories:
-- software-development
+- software_development
 status: publish
 type: post
 published: true

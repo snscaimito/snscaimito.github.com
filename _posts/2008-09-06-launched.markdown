@@ -4,7 +4,7 @@ title: Launched
 tags:
 - en
 categories:
-- software-development
+- software_development
 - panama
 status: publish
 type: post

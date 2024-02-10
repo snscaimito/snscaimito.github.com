@@ -4,7 +4,7 @@ title: Psychological evaluation for Agile?
 tags:
 - en
 categories:
-- software-development
+- software_development
 - management
 status: publish
 type: post

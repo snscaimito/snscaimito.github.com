@@ -4,7 +4,7 @@ title: Using EasyMock to unit test Tapestry components and pages
 tags:
 - en
 categories:
-- software-development
+- software_development
 status: publish
 type: post
 published: true

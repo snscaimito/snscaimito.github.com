@@ -4,7 +4,7 @@ title: ! 'Re: Is the SCM system an agile developers'' enemy?'
 tags:
 - en
 categories:
-- software-development
+- software_development
 status: publish
 type: post
 published: true

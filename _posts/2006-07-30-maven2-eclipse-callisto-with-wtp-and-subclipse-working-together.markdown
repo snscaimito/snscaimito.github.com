@@ -4,7 +4,7 @@ title: Maven2, Eclipse Callisto with WTP and Subclipse working together
 tags:
 - en
 categories:
-- software-development
+- software_development
 status: publish
 type: post
 published: true

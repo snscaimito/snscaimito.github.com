@@ -4,7 +4,7 @@ title: Tasteful food for developers
 tags:
 - en
 categories:
-- software-development
+- software_development
 status: publish
 type: post
 published: true

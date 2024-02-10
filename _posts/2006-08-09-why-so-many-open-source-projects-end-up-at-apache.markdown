@@ -4,7 +4,7 @@ title: Why so many open source projects end up at Apache
 tags:
 - en
 categories:
-- software-development
+- software_development
 status: publish
 type: post
 published: true

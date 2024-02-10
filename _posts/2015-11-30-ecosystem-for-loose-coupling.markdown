@@ -5,7 +5,7 @@ tags:
 - en
 categories:
 - management
-- software-development
+- software_development
 ---
 A lot of effort goes into large-scale software development. I believe too many non-software people try to solve the challenge on the wrong level. 
 

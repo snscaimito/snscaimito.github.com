@@ -6,7 +6,7 @@ tags:
 - ale-news-service
 categories:
 - atdd
-- software-development
+- software_development
 ---
 This blog post is part of a series about the development of ALE News using an approach to software development called Acceptance Test-Driven Development. <a href="/ale-news.html">For an overview please see the introductory article</a>.
 

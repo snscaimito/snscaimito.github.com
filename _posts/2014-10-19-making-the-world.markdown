@@ -6,7 +6,7 @@ tags:
 - ale-news-service
 categories:
 - atdd
-- software-development
+- software_development
 ---
 So far I've managed to create a simple skeleton of an IOS share extension using a template that ships with Xcode. I'm still learning how that all works and I'm pretty much a complete novice at the topic.
 

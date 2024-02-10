@@ -4,7 +4,7 @@ title: Some businesses should stay away from Agile
 tags:
 - en
 categories:
-- software-development
+- software_development
 - management
 status: publish
 type: post

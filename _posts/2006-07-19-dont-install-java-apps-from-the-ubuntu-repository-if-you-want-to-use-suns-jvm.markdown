@@ -5,7 +5,7 @@ title: Don't install Java apps from the Ubuntu repository, if you want to use Su
 tags:
 - en
 categories:
-- software-development
+- software_development
 status: publish
 type: post
 published: true

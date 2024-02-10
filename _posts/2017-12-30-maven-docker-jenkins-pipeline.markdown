@@ -4,7 +4,7 @@ title: A build and deployment pipeline with Maven, Docker and Jenkins
 tags:
 - en
 categories:
-- software-development
+- software_development
 ---
 This is a little story about setting up a build and deployment pipeline for a small service. The service is written in Java, compiled and packaged with Maven and deployed in the form of a Docker container. The pipeline is implemented on Jenkins.
 

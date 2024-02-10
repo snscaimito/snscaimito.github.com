@@ -4,7 +4,7 @@ title: Cram the team into a small space or let them think
 tags:
 - en
 categories:
-- software-development
+- software_development
 status: publish
 type: post
 published: true

@@ -5,7 +5,7 @@ tags:
 - en
 - farm-it
 categories:
-- software-development
+- software_development
 ---
 {% include series-header.html introURL = "/2018/04/02/considerations-for-a-farm-following-the-principles-of-lean-startup.html" %}
 

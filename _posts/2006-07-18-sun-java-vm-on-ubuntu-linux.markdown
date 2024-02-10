@@ -4,7 +4,7 @@ title: Sun Java VM on Ubuntu Linux
 tags:
 - en
 categories:
-- software-development
+- software_development
 status: publish
 type: post
 published: true

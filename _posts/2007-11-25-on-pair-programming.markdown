@@ -4,7 +4,7 @@ title: On pair programming
 tags:
 - en
 categories:
-- software-development
+- software_development
 status: publish
 type: post
 published: true

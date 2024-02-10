@@ -4,7 +4,7 @@ title: ! 'Client-Server Computing: The Future Web?'
 tags:
 - en
 categories: 
-- software-development
+- software_development
 - commentary
 status: publish
 type: post

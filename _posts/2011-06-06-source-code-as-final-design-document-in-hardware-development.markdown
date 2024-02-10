@@ -4,7 +4,7 @@ title: Source code as final design document in hardware development
 tags:
 - en
 categories:
-- software-development
+- software_development
 status: publish
 type: post
 published: true

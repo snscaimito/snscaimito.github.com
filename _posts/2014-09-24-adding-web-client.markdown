@@ -6,7 +6,7 @@ tags:
 - ale-news-service
 categories:
 - atdd
-- software-development
+- software_development
 ---
 {% include ale-news-post-header.html %}
 

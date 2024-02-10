@@ -4,7 +4,7 @@ title: It does make a difference whether you are just developing or using it
 tags:
 - en
 categories:
-- software-development
+- software_development
 status: publish
 type: post
 published: true

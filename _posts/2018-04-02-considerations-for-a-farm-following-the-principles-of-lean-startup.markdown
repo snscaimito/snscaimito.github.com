@@ -5,7 +5,7 @@ tags:
 - en
 - farm-it
 categories:
-- software-development
+- software_development
 ---
 Now that I've aquired a farm in rural Spain I'm thinking about how to create a business around it. At the moment the farm is not producing anything. The former owner used to raise a few pigs and some cattle but it was mostly a huge place for the animals to roam around. That means I have no market, I have no customers, and no idea who might be interested in buying anything from the farm. I basically have a nice piece of land with a lot of potential but nothing else.
 

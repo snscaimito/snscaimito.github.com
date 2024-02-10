@@ -4,12 +4,12 @@ title: Automated posting from blog to social networks
 tags:
 - en
 categories:
-- software-development
+- software_development
 hashtags:
 - social
 - networks
 - blogging
-- software-development
+- software_development
 ---
 Now that the landscape of social networks has widened I've thought a bit about how I can keep my content on my website and still reach people on the different networks. The result is a small JavaScript program that allows me to publish content from my blog, which was established in 2006, to X/Twitter, Mastodon and soon other networks.
 

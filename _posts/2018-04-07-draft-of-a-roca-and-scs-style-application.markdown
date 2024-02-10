@@ -5,7 +5,7 @@ tags:
 - en
 - farm-it
 categories:
-- software-development
+- software_development
 ---
 I had been working on and off on what I call the Meal Planner application before I discovered the idea of Self-Contained Systems (SCS). The concept made a lot of sense to me and as I was already planning on using containers I quikly set out to make a few changes.
 

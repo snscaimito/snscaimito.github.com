@@ -5,7 +5,7 @@ tags:
 - en
 categories:
 - panama
-- software-development
+- software_development
 status: publish
 type: post
 published: true

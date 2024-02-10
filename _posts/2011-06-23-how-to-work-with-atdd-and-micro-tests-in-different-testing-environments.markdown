@@ -4,7 +4,7 @@ title: How to work with ATDD and micro-tests in different testing environments
 tags:
 - en
 categories:
-- software-development
+- software_development
 - atdd
 - quality
 status: publish

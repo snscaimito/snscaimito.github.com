@@ -4,7 +4,7 @@ title: Testing with Selenium Docker Container
 tags:
 - en
 categories:
-- software-development
+- software_development
 ---
 To run acceptance tests for a web application you want to use a real web browser just the same way a regular human user would do. With tools like Cucumber it is common to use Selenium WebDriver to remotely control a web browser like Chrome, Firefox, Internet Explorer or Safari.
 

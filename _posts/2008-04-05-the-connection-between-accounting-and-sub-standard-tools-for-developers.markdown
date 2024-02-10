@@ -4,7 +4,7 @@ title: The connection between accounting and sub-standard tools for developers
 tags:
 - en
 categories:
-- software-development
+- software_development
 - management
 status: publish
 type: post

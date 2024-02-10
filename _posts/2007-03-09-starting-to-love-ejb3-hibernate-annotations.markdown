@@ -4,7 +4,7 @@ title: Starting to love EJB3 Hibernate Annotations
 tags:
 - en
 categories:
-- software-development
+- software_development
 status: publish
 type: post
 published: true

@@ -4,7 +4,7 @@ title: ! 'My first book: Smarter Software with Activity-Centered Design'
 tags:
 - en
 categories:
-- software-development
+- software_development
 status: publish
 type: post
 published: true

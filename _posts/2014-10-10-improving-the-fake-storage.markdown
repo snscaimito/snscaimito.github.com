@@ -6,7 +6,7 @@ tags:
 - ale-news-service
 categories:
 - atdd
-- software-development
+- software_development
 ---
 So far I've been using a simple static variable as a fake storage to hold article metadata. That was enough to move forward, to explore the API for the service and how to use it from a client.
 

@@ -6,7 +6,7 @@ tags:
 - Speaking
 categories:
 - Panama
-- software-development
+- software_development
 status: publish
 type: post
 published: true

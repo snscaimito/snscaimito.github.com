@@ -4,7 +4,7 @@ title: Authentication for Apache httpd against Unix accounts
 tags:
 - en
 categories:
-- software-development
+- software_development
 status: publish
 type: post
 published: true

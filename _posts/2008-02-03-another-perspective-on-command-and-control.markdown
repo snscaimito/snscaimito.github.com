@@ -4,7 +4,7 @@ title: Another perspective on Command and Control
 tags:
 - en
 categories:
-- software-development
+- software_development
 - commentary
 - management
 status: publish

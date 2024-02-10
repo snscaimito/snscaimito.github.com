@@ -4,7 +4,7 @@ title: ! 'A Guide to Hiring Programmers: The High Cost of Low Quality'
 tags:
 - en
 categories:
-- software-development
+- software_development
 - commentary
 status: publish
 type: post

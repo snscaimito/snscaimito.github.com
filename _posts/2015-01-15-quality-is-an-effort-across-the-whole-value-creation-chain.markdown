@@ -6,7 +6,7 @@ tags:
 - agile
 categories:
 - management
-- software-development
+- software_development
 - atdd
 - thoughts
 - quality

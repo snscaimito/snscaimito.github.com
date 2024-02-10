@@ -4,7 +4,7 @@ title: Acceptance Test Driven Development for Windows
 tags:
 - en
 categories:
-- software-development
+- software_development
 - atdd
 status: publish
 type: post

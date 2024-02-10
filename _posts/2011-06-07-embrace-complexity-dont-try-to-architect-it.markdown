@@ -4,7 +4,7 @@ title: Embrace complexity - Don't try to architect it
 tags:
 - en
 categories:
-- software-development
+- software_development
 - management
 status: publish
 type: post

@@ -4,7 +4,7 @@ title: Java o PHP para desarrollar una aplicación web
 tags:
 - es
 categories:
-- software-development
+- software_development
 status: publish
 type: post
 published: true

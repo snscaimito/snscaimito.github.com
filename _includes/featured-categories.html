@@ -5,10 +5,10 @@
 					<p class="section featured-category">Software Development</p>
 					{% assign posts = "" | split: "" %}
 					{% for post in site.posts %}
-					    {% if post.categories contains 'Software-Development' %}
+					    {% if post.categories contains 'software_development' %}
 							{% assign posts = posts | push: post %}
 					    {% endif %}
-					    {% if post.categories contains 'software-development' %}
+					    {% if post.categories contains 'software_development' %}
 							{% assign posts = posts | push: post %}
 					    {% endif %}
 					{% endfor %}
