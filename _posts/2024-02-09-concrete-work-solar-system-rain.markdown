@@ -6,6 +6,11 @@ tags:
 categories:
 - farm-life
 - spain
+hashtags:
+- spain
+- homesteading
+- solarpower
+- concrete
 ---
 Another video about our project at Granja Caimito. This time we did some concrete work and enjoy the benefits of our enlarged solar system for more power for free - after the installation that is. We are also expecting some good rain.
 
