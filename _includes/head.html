@@ -20,4 +20,12 @@
 		
 	<link rel='stylesheet' href='/unitegallery/css/unite-gallery.css' type='text/css' /> 
 	<script type='text/javascript' src='/unitegallery/themes/tiles/ug-theme-tiles.js'></script> 
+
+	<meta property="og:title" content="{{ page.title | escape }}">
+	<meta property="og:description" content="{{ page.description | escape }}">
+	<meta property="og:type" content="article">
+	<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+	{% if page.image %}
+    <meta property="og:image" content="{{ site.url }}/img/posts/{{ page.image }}">
+	{% endif %}
 </head>
