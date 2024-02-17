@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  jekyll:
+    image: jekyll/jekyll
+    command: jekyll serve --watch --drafts
+    volumes:
+      - .:/srv/jekyll
+    ports:
+      - "4000:4000"
+    environment:
+      JEKYLL_ENV: development
+    links:
+      - social-blogging
+  social-blogging:
+    image: ghcr.io/snscaimito/social-blogging:candidate
+  # TODO add NGINX as ingress
