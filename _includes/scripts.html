@@ -24,7 +24,7 @@
 		$(document).ready(function() {
 			$('.social-blogging').each(function() {
 				const service = $(this).attr('service');
-				const url = `/api/social-blogging/${service}?article=${window.location.pathname}`;
+				const url = `/api/posted-on/${service}?article=${window.location.pathname}`;
 
 				fetch(url)
 					.then(response => response.json())
