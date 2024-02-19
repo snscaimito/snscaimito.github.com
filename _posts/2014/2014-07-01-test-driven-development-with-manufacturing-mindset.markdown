@@ -7,6 +7,7 @@ tags:
 categories:
 - software_development
 - management
+- business
 ---
 ATDD is a communication technology to [bring teams together](/2011/02/26/acceptance-test-driven-development-brings-teams-together.html). As software development is foremost a social activity performed by thinking human beings ATDD may challenge your organization because it may [alter how you organize projects](/2011/03/19/acceptance-test-driven-development-changes-how-you-organize-your-project.html) or even the organization itself.
 

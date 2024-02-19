@@ -6,6 +6,7 @@ tags:
 - speaking
 categories:
 - panama
+- business
 status: publish
 type: post
 published: true

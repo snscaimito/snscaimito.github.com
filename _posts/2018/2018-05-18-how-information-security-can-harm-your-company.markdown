@@ -5,6 +5,7 @@ tags:
 - en
 categories:
 - management
+- business
 ---
 In my coaching practice I encounter a recurring pattern. Employees in large companies have no access to the Internet at all or limited access. Some ten years ago the reasoning behind restricting Internet access for employees used to be mostly driven by mistrust as management wanted to prevent people from doing personal business on company time. Today the reasoning has shifted and it is now driven by fear of leaking confidential information, being attacked over the Internet or to protect customer data. What seems to have stayed is the opinion that employees don't need all the things available on the Internet to perform their jobs and thus restricting access is a good idea.
 

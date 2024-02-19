@@ -6,6 +6,7 @@ tags:
 categories:
 - farm-life
 - spain
+- business
 hashtags:
 - farming
 - andalusia

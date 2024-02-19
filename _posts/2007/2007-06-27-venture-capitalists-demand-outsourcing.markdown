@@ -5,6 +5,7 @@ tags:
 - en
 categories:
 - commentary
+- business
 status: publish
 type: post
 published: true

@@ -6,6 +6,7 @@ tags:
 categories:
 - commentary
 - management
+- business
 status: publish
 type: post
 published: true

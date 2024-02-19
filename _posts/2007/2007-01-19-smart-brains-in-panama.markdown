@@ -5,6 +5,7 @@ tags:
 - en
 categories:
 - panama
+- business
 status: publish
 type: post
 published: true

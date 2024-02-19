@@ -6,6 +6,7 @@ tags:
 - SDDM
 categories:
 - management
+- business
 ---
 In aviation decisions can make the difference between life and death. A single wrong decision can lead to the death of 300 people traveling on an aircraft and potentially impact many more on the ground. And even when it is not about big airliners but small personal aircraft the importance of correct decision making is not less important.
 

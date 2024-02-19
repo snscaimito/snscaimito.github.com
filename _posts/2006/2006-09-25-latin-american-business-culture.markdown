@@ -6,6 +6,7 @@ tags:
 categories:
 - panama
 - management
+- business
 status: publish
 type: post
 published: true

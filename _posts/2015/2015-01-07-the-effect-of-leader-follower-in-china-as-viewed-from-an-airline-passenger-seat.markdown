@@ -5,6 +5,7 @@ tags:
 - en
 categories:
 - management
+- business
 - china
 - culture
 ---

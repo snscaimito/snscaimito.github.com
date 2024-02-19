@@ -6,6 +6,7 @@ tags:
 categories:
 - culture
 - management
+- business
 - thoughts
 ---
 In den letzten zwei Tagen wurde in Hannover auf der Veranstaltung [Freiraum Camp 2015](http://freiraum.camp) unter anderem davon gesprochen, daß Freiraum auch wehtun kann. In einem der Beiträge war dies das zentrale Thema. Es wurde berichtet, daß es schwierig ist den Freiraum mit etwas Sinnvollem zu füllen und ohne die passende Füllung - hier eine gemeinsame Vision - das Gefühl des einfach so dahintreibens entsteht.

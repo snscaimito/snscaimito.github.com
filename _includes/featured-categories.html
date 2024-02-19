@@ -15,13 +15,13 @@
 					{% endfor %}
 				</div>
 				<div class="span4">
-					<p class="section featured-category">Coaching</p>
+					<p class="section featured-category">Business</p>
 					{% assign posts = "" | split: "" %}
 					{% for post in site.posts %}
-					    {% if post.categories contains 'Coaching' %}
+					    {% if post.categories contains 'Business' %}
 							{% assign posts = posts | push: post %}
 					    {% endif %}
-					    {% if post.categories contains 'coaching' %}
+					    {% if post.categories contains 'business' %}
 							{% assign posts = posts | push: post %}
 					    {% endif %}
 					{% endfor %}

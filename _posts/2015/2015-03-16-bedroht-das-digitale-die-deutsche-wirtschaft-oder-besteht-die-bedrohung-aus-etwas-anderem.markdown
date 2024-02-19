@@ -6,6 +6,7 @@ tags:
 - agile
 categories:
 - management
+- business
 - thoughts
 - commentary
 ---

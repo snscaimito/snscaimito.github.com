@@ -5,6 +5,7 @@ tags:
 - en
 categories:
 - management
+- business
 - coaching
 ---
 It's been countless times that I observe managers rush things and panic when the desired results don't show up. It does not matter whether those managers are senior or junior but common seem to be that they share the view that faster is always better. When asked, most of them respond "the market requires us to become faster" and some others say "upper management expects us to become faster". They are also driven to Agile or agile techniques based on the perception that the more agile their organization becomes, the faster everything can be achieved.

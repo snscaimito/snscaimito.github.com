@@ -6,6 +6,7 @@ tags:
 categories:
 - software_development
 - management
+- business
 status: publish
 type: post
 published: true

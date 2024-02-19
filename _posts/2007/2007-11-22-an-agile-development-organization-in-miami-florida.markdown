@@ -6,6 +6,7 @@ tags:
 - speaking
 categories:
 - software_development
+- business
 status: publish
 type: post
 published: true

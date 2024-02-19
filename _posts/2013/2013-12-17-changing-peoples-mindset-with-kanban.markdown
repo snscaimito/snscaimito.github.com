@@ -5,6 +5,7 @@ tags:
 - en
 categories:
 - management
+- business
 - coaching
 ---
 A mindset is tough to change. It was formed over a significant length of time by being part of the surrounding culture, formal education and personal experience, interests, reading, etc. Over time experiences made are likely to more and more reinforce things thus creating a very clear and sense-making mindset - everything fits together for the person having it.

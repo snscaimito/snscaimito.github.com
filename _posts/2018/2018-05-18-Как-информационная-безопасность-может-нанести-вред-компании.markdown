@@ -5,6 +5,7 @@ tags:
 - ru
 categories:
 - management
+- business
 ---
 
 <div class="ale_news_post_footer">

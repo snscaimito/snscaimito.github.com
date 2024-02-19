@@ -7,6 +7,7 @@ categories:
 - software_development
 - commentary
 - management
+- business
 status: publish
 type: post
 published: true

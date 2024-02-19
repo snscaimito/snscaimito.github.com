@@ -6,6 +6,7 @@ tags:
 - agile
 categories:
 - management
+- business
 - thoughts
 ---
 Once in a while I get emails from recruiters that read like this example:
