@@ -22,10 +22,15 @@
 	<script type='text/javascript' src='/unitegallery/themes/tiles/ug-theme-tiles.js'></script> 
 
 	<meta property="og:title" content="{{ page.title | escape }}">
+	<meta property="twitter:title" content="{{ page.title | escape }}">
 	<meta property="og:description" content="{{ page.description | escape }}">
+	<meta property="twitter:description" content="{{ page.description | escape }}">
 	<meta property="og:type" content="article">
 	<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:site" content="@snscaimito">
 	{% if page.image %}
     <meta property="og:image" content="{{ site.url }}/img/posts/{{ page.image }}">
+		<meta property="twitter:image" content="{{ site.url }}/img/posts/{{ page.image }}">
 	{% endif %}
 </head>
