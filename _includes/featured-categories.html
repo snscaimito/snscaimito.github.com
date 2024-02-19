@@ -8,9 +8,6 @@
 					    {% if post.categories contains 'software_development' %}
 							{% assign posts = posts | push: post %}
 					    {% endif %}
-					    {% if post.categories contains 'software_development' %}
-							{% assign posts = posts | push: post %}
-					    {% endif %}
 					{% endfor %}
 						
 					{% for post in posts limit:3 %}
