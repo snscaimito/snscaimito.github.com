@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>Stephan Schwab</title>
+		<description>As International Software Development Coach and Trainer I offer to CEOs and Department Leaders technical and organizational team coaching as a professional service to improve the value creation chain within their organization and to improve the quality of the product they are making.</description>		
+		<link>http://0.0.0.0:4000</link>
+		<language>en-us</language>
+		<atom:link href="http://0.0.0.0:4000/agile-en.xml" rel="self" type="application/rss+xml" />
+		
+			
+		
+			
+				<item>
+					<title>Quality is an effort across the whole value creation chain</title>
+					        
+					
+						<description>Quality should be everybody’s concern. Ideally there is no need for quality assurance people, for testers or similar roles. Instead a whole team comprised of professionals ensures a quality product is made.
+
+</description>
+					
+					<pubDate>Thu, 15 Jan 2015 00:00:00 -0600</pubDate>
+					<link>http://0.0.0.0:4000/2015/01/15/quality-is-an-effort-across-the-whole-value-creation-chain.html</link>
+					<guid isPermaLink="true">http://0.0.0.0:4000/2015/01/15/quality-is-an-effort-across-the-whole-value-creation-chain.html</guid>
+					<author>sns@caimito.net</author>
+				</item>
+			
+		
+			
+				<item>
+					<title>We cannot do this</title>
+					        
+					
+						<description>Since I started helping other software developers to improve their work I get told frequently “We cannot do this” when I propose a new technique and my response is always “Have you tried it?” In the reply they present all kinds of reasons why “the company”, “the management”, “the boss” or some other functional unit within the company will not allow it.
+
+</description>
+					
+					<pubDate>Mon, 01 Dec 2014 00:00:00 -0600</pubDate>
+					<link>http://0.0.0.0:4000/2014/12/01/we-cannot-do-this.html</link>
+					<guid isPermaLink="true">http://0.0.0.0:4000/2014/12/01/we-cannot-do-this.html</guid>
+					<author>sns@caimito.net</author>
+				</item>
+			
+		
+			
+				<item>
+					<title>Is it wise to focus on short-lived skills and knowledge?</title>
+					        
+					
+						<description>Once in a while I get emails from recruiters that read like this example:
+
+</description>
+					
+					<pubDate>Wed, 26 Nov 2014 00:00:00 -0600</pubDate>
+					<link>http://0.0.0.0:4000/2014/11/26/is-it-wise-to-focus-on-short-lived-skills-and-knowledge.html</link>
+					<guid isPermaLink="true">http://0.0.0.0:4000/2014/11/26/is-it-wise-to-focus-on-short-lived-skills-and-knowledge.html</guid>
+					<author>sns@caimito.net</author>
+				</item>
+			
+		
+			
+				<item>
+					<title>Is uncovering issues an issue?</title>
+					        
+					
+						<description>Improvement requires that there is something that needs to be improved. If everything is just perfect or at least well enough so that everybody is happy, then there is no need to change a thing.
+
+</description>
+					
+					<pubDate>Thu, 18 Sep 2014 00:00:00 -0500</pubDate>
+					<link>http://0.0.0.0:4000/2014/09/18/is-uncovering-issues-an-issue.html</link>
+					<guid isPermaLink="true">http://0.0.0.0:4000/2014/09/18/is-uncovering-issues-an-issue.html</guid>
+					<author>sns@caimito.net</author>
+				</item>
+			
+		
+			
+				<item>
+					<title>Can you do test-driven development with a manufacturing mindset?</title>
+					        
+					
+						<description>ATDD is a communication technology to bring teams together. As software development is foremost a social activity performed by thinking human beings ATDD may challenge your organization because it may alter how you organize projects or even the organization itself.
+
+</description>
+					
+					<pubDate>Tue, 01 Jul 2014 00:00:00 -0500</pubDate>
+					<link>http://0.0.0.0:4000/2014/07/01/test-driven-development-with-manufacturing-mindset.html</link>
+					<guid isPermaLink="true">http://0.0.0.0:4000/2014/07/01/test-driven-development-with-manufacturing-mindset.html</guid>
+					<author>sns@caimito.net</author>
+				</item>
+			
+		
+	</channel>
+</rss>

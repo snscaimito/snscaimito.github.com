@@ -1,0 +1,289 @@
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Java stack for all purpose development</title>
+	
+	<link rel="canonical" href="http://0.0.0.0:4000/2007/03/19/java-stack-for-all-purpose-development.html"/>
+	
+	<link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css" />
+	<link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+	<link rel="stylesheet" href="/css/schwab.css" type="text/css" />
+	<link rel="stylesheet" href="/css/print.css" media="print" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed|Sansita:700|Zilla+Slab" rel="stylesheet">
+	
+	<link rel="alternate" type="application/rss+xml" title="Stephan Schwab" href="/rss.xml"/>
+
+	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+	<script type='text/javascript' src='/unitegallery/js/unitegallery.min.js'></script> 
+		
+	<link rel='stylesheet' href='/unitegallery/css/unite-gallery.css' type='text/css' /> 
+	<script type='text/javascript' src='/unitegallery/themes/tiles/ug-theme-tiles.js'></script> 
+
+	<meta property="og:title" content="Java stack for all purpose development">
+	<meta property="twitter:title" content="Java stack for all purpose development">
+	<meta property="og:description" content="">
+	<meta property="twitter:description" content="">
+	<meta property="og:type" content="article">
+	<meta property="og:url" content="http://0.0.0.0:4000/2007/03/19/java-stack-for-all-purpose-development.html">
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:site" content="@snscaimito">
+	
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="header no-print">
+  <div class="menu">
+    <a href="/">Home</a>
+    <a href="/category/software_development.html">Software</a>
+    <a href="/category/farm-life.html">Farm Life</a>
+    <a href="/category/Business.html">Business</a>
+    <a href="/category/aviation.html">Aviation</a>
+  </div>
+  <div class="claim-box">
+    <p class="claim">Tales about Aviation, Coaching, Farming, Software Development</p>
+  </div>
+</div>
+		<div class="row">
+			<div class="span9">
+				<div class="post">
+					<h1>Java stack for all purpose development</h1>
+          <p>You can't know everything and have experience with any and all technologies that might be used to solve a given problem. Instead it is a good idea to limit yourself to a certain set and become in an expert in those. The deep knowledge you will gain will allow you to solve problems quickly and at reasonable cost, because instead of struggling with technologies that are new to you, you will be working on the problem itself. Seldom clients pay for research, but expect a product in short time.</p>
+
+<p>For the needs of Caimito we've defined a stack of Java technologies for three tier applications on the web (thin client) or on the desktop (thick client).</p>
+
+<p align="center"><img src="images/3TierArchitecture.png" border="0" height="447" width="482" alt="3TierArchitecture.png" /></p>
+
+<p><strong>Presentation Layer</strong></p>
+
+<p>For thick client applications the choice is relatively easy. Java comes with <a href="http://java.sun.com/javase/6/docs/technotes/guides/swing/index.html"><strong>Swing</strong></a>, although there is RCP (rich client platform) from the Eclipse Foundation. RCP might provide technical advantages through the use of platform-specific native libraries for UI elements, but I believe it will always be easier to maintain Swing code as there will probably be more people with Swing knowledge than those who know <a href="http://wiki.eclipse.org/index.php/Rich_Client_Platform">Eclipse RCP</a>.</p>
+
+<p>For thin clients on the web a large number of technologies is available and almost every other month something changes or is added to the list. At some point you may think that building web frameworks is the favorite hobby of the Java community. Our stack contains three web frameworks and two different rendering technologies for the request-based frameworks Spring MVC and Struts.</p>
+
+<p><a href="http://struts.apache.org/"><strong>Struts</strong></a> is the oldest and probably the most well-known web framework for Java. It is request-based and is action driven. Recently another web framework called WebWork has been renamed to Struts 2 after the original Struts team and the folks from WebWork decided to join forces. Now there is the old Struts with a large number of applications built with it and the new <a href="http://struts.apache.org/2.x/">Struts 2</a>, which is essentially WebWorks at the moment.</p>
+
+<p><a href="http://static.springframework.org/spring/docs/2.0.x/reference/mvc.html"><strong>Spring MVC</strong></a> is part of the Spring Framework and request-based as well. It's prominent feature is good data binding capability. Form data gets bounds to a domain model object that is passed into a controller class where the data can be processed. Spring MVC is very light weight and can as well be used for remoting purposes to process data POSTed from non-browser clients.</p>
+
+<p><a href="http://java.sun.com/products/jsp/">JSP</a> and <a href="http://velocity.apache.org/">Velocity</a> are two rendering technologies that can be used to create web pages enriched with data from your domain objects. JSP requires the Java compiler to be present on the web server, as this Sun technology uses template files (HTML with additional markup) that are pre-compiled to Java classes. Velocity is a template engine available from the Apache Foundation. With Velocity not only can be used to enrich HTML pages with domain model data, but as well to create emails and any other kind of file as it doesn't care about the file's content but its own tags.</p>
+
+<p><a href="http://tapestry.apache.org/"><strong>Tapestry</strong></a> is a completely different animal. Tapestry is a component-based framework - and to be honest - is way ahead of any request-based framework. Instead of carefully matching the content of HTML pages to your Java code, you use Java components to create HTML pages. Those components contain HTML fragments. Layout and appearance are added via layout templates and CSS stylesheets. You can have a web designer take care of that part and let Java developers create the application without running the risk that they are stepping on eachothers toes. Tapestry doesn't need any rendering technology due to its component-based approach and direct rendering of HTML. The latest version, <a href="http://tapestry.apache.org/tapestry5/">Tapestry 5</a>, allows to develop with a speed usually known from scripting environments due to its unique dynamic class loading feature.</p>
+
+<p><strong>Business Layer</strong></p>
+
+<p>In the business layer we make sure to have no dependencies on any presentation or infrastructure technology at all. The business layer is comprised of pure POJO classes that are small, do one thing well and can easily be unit-tested with <strong>JUnit</strong>.</p>
+
+<p>As past experiences have shown techniques such as TDD (test driven development) and DDD (domain driven development) help in the design of a good domain model, which is well suited for the purpose of the application without getting bloated or hard to maintain. Instead of trying to come up with a great design upfront and then implement it (that would be waterfall), writing unit-tests to solve problems at a high abstraction level is really a good idea and very agile.</p>
+
+<p><strong>Infrastructure Layer</strong></p>
+
+<p>Our infrastructure layer is hidden behind the <a href="http://www.springframework.org/"><strong>Spring Framework</strong></a> to reduce the amount of intimate knowledge of all the different and constantly emerging J<em>whatever</em> technologies. Spring Framework provides a unified and simplified way of accessing important middleware technologies via its templates. For a lot of third-party libraries documentation is available how to wire them up with Spring. A developer with good knowledge about how to use the Spring Framework doesn't need to become an expert in a large number of infrastructure APIs. Instead he can concentrate on the upper two layers (business and presentation) that appear to be more important to the client. The implementors of the Spring Framework have done most of the work beneath the hood.</p>
+
+<p>Similar as the Spring Framework the <a href="http://www.hibernate.org/"><strong>Hibernate</strong></a> project has created a wonderful ORM (object-relational mapping) tool, which can be used through Spring templates. As our stack is Java 5 based we use <a href="http://java.sun.com/javaee/technologies/persistence.jsp">EJB3 Java Persistence</a> annotations to configure entity classes that get mapped by Hibernate to the database. That way are don't depend on the Hibernate implementation of EJB3 directly and could exchange it for something else. At the same time we don't depend on any particular database implementation thanks to Hibernate's support for various SQL dialects. So whether MySQL is enough or it need to be Microsoft SQL Server or Oracle, we are prepared and our client can benefit from a wise choice of technology.</p>
+
+					<table class="postfooter" style="width: 100%">
+					<tr>
+						<td style="text-align: left; width: 33%"><a href="/2007/03/11/evaluating-technologies-for-new-product-development.html">Previous</a></td>
+						<td style="text-align: center; width: 33%">19 Mar 2007</td>
+						<td style="text-align: right; width: 33%"><a href="/2007/04/08/the-impact-of-roadblocks-on-residential-tourism.html">Next</a></td>
+					</tr>
+					</table>
+					<p>This article has been posted to social media sites. There might be comments. Just follow the links:</p>
+					<div>
+						<a class="social-blogging" service="twitter" href="https://twitter.com/snscaimito"><img src="/img/Furry-Cushion-Twitter_48.png" /></a>
+						<a class="social-blogging" service="activityPub" rel="me" href="https://techhub.social/@snscaimito"><img src="/img/mastodon.svg" width="48" /></a>
+					</div>
+				</div>
+			</div>
+			<div class="span3">
+        <div class="sidebar">
+        	<p class="section">About this article</p>
+          <p>Published: March 19, 2007</p>
+					<p>Posted in:
+						
+							<a class="categoryLink" href="/category/software_development.html">software_development</a>
+						
+					</p>
+          
+        </div>
+				<div class="sidebar">
+	<p class="section">About me</p>
+	<p>Hello! My name is <a href="/">Stephan Schwab</a>.</p>
+			<a href="/"><img src="http://www.gravatar.com/avatar/663d11426b0a187ddac59f8c17ce61b4?s=90" class="align-left"/></a>
+		<p>As International Software Development Coach and Consultant I help CEOs and Department Leaders to <strong>improve</strong> <strong>value creation</strong> and <strong>cohesion</strong> within their organization. The outcome will be higher <strong>quality</strong>, <strong>customer delight</strong> and <strong>more revenue</strong>.</p> 
+		
+		<p>Learn about <a href="/resume/">my professional experience</a> since 1986.</p>
+    <span style="clear:both; float:none"/>
+
+	<p class="section">Professional Services</p>
+	<p>I'm fluent in these languages:</p>
+	<p align="center">
+		<a href="/category/en.html"><img src="/img/language-flags/32x32/flag_rotate-02.png"></a>
+		<a href="/category/de.html"><img src="/img/language-flags/32x32/flag_rotate-03.png"></a>
+		<a href="/category/es.html"><img src="/img/language-flags/32x32/flag_rotate-12.png"></a>
+	</p>
+	<p align="center">
+		<small>
+			<a href="/category/en.html">English</a>
+			<a href="/category/de.html">German</a>
+			<a href="/category/es.html">Spanish</a>
+		</small>
+	</p>
+	<div class="no-print-sidebar">
+		<p>Scrum Pair-Coaching to develop technical competence:</p>
+		<p align="center">Details in <a href="/en-pair-coaching-scrummaster.html">English</a>, <a
+				href="/de-pair-coaching-scrummaster.html">Deutsch</a></p>
+
+		<p><strong>Resources for new clients</strong>:</p>
+		<p align="center"><a href="/resources/de-new-client.html">Deutsch</a></p>
+	</div>
+
+	<div class="no-print-sidebar">
+		<p class="section noprint">Search</p>
+		<form method="get" action="http://www.google.com/search">
+			<p align="center"><input type="text" name="q" maxlength="255" value="" style="width: 180px" /></br>
+				<input type="submit" value="Google Search" class="btn btn-primary btn-mini" />
+			</p>
+			<input type="hidden" name="sitesearch" value="http://www.stephan-schwab.com" />
+		</form>
+
+		<p class="section">Special&nbsp;Content</p>
+		<ul class="special-content">
+			<li><a href="/atdd/">Acceptance Test-Driven Development</a></li>
+			<li><a href="/software-design/">Software Design</a></li>
+			<li><a href="/sddm.html">Software Development Decision Making</a></li>
+		</ul>
+		<ul class="special-content">
+			<li><a href="/coaching-future-masters.html">Coaching future masters</a></li>
+		</ul>
+		<ul class="special-content">
+			<li><a href="/farmstead.html">Developing a farmstead in Andalucia, Spain</a></li>
+			<li><a href="/house/">Building a house, Spain</a></li>
+			<li><a href="/airtravel/">Business travel with light aircraft</a></li>
+			<li><a href="/horses/">Horses</a></li>
+			<li><a href="/panama-farm.html">Rainforest Farm, Panama</a></li>
+			<li><a href="/galleries/">Photo Galleries</a></li>
+		</ul>
+		<ul class="special-content">
+			<li><a href="/reading-list.html">My reading list</a></li>
+		</ul>
+
+		<p class="section">Highlights of the Year</p>
+		<ul class="special-content">
+			
+			<li><a href="/2016/12/27/highlights-of-2016.html">2016</a></li>
+			
+			<li><a href="/2015/12/31/highlights-2015.html">2015</a></li>
+			
+			<li><a href="/2014/12/31/highlights-2014.html">2014</a></li>
+			
+			<li><a href="/2013/12/31/hightlights-2013.html">2013</a></li>
+			
+			<li><a href="/2012/12/31/highlights-2012.html">2012</a></li>
+			
+			<li><a href="/2011/12/31/highlights-2011.html">2011</a></li>
+			
+			<li><a href="/2010/12/31/highlights-2010.html">2010</a></li>
+			
+			<li><a href="/2009/12/31/highlights-2009.html">2009</a></li>
+			
+			<li><a href="/2008/12/31/highlights-2008.html">2008</a></li>
+			
+			<li><a href="/2007/12/31/highlights-2007.html">2007</a></li>
+			
+			<li><a href="/2006/12/31/highlights-2006.html">2006</a></li>
+			
+		</ul>
+
+		<p class="section">Living on planet Earth</p>
+		<ul class="special-content">
+			<li><a href="/dominican-republic.html">Dominican Republic</a></li>
+			<li><a href="/china.html">China</a></li>
+			<li><a href="/germany.html">Germany</a></li>
+			<li><a href="/panama.html">Panama</a></li>
+			<li><a href="/spain.html">Spain</a></li>
+			<li><a href="/usa.html">USA</a></li>
+		</ul>
+
+		<p class="section">Open Source Projects</p>
+		<ul class="special-content">
+			<li><a href="/ale-news.html">Development of ALE News</a></li>
+			<li><a href="https://github.com/snscaimito/RAutomation">RAutomation</a></li>
+			<li><a href="/open-source.html">Other contributions to Open Source</a></li>
+		</ul>
+
+		<p class="section">Stay in touch</p>
+		<p align="center">
+			<a href="/rss.xml"><img src="/img/Furry-Cushion-RSS_48.png" /></a>
+			<a href="https://twitter.com/snscaimito"><img src="/img/Furry-Cushion-Twitter_48.png" /></a>
+			<a href="http://www.linkedin.com/in/stephanschwab"><img src="/img/Furry-Cushion-LinkedIn_48.png" /></a>
+		</p>
+		<p align="center">
+			<a rel="me" href="https://techhub.social/@snscaimito"><img src="/img/mastodon.svg" width="48" /></a>
+			<a href="https://bsky.app/profile/snscaimito.bsky.social"><img src="/img/Bluesky_butterfly-logo.svg"
+					width="65" /></a>
+			<a href="https://www.tiktok.com/@snscaimito"><img src="/img/tiktok-icon-white-1-logo-svgrepo-com.svg"
+					width="48" /></a>
+		</p>
+		<p align="center">
+			<a href="mailto:sns@caimito.net?subject=From%20stephan-schwab.com">sns@caimito.net</a>
+		</p>
+
+		<p class=" section">My Books
+		</p>
+		<p align="center"><a href="https://leanpub.com/activitycentereddesign"><img
+					src="/img/smarter-software-with-activity-centered-design.jpg" /></a></p>
+		<p align="center"><a href="https://leanpub.com/essays-on-software-development-2012"><img
+					src="/img/essays-on-software-development-2012.png" /></a></p>
+
+		<p class="section">Everything</p>
+		<p>See a listing of <a href="/all-posts.html">all posts</a> on this site.</p>
+	</div>
+</div>
+			</div>
+		</div>
+	</div>
+		<script src="//use.typekit.net/npx1yoc.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
+	
+	<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-35257032-1', 'auto');
+	  ga('require', 'displayfeatures');
+	  ga('send', 'pageview');
+
+	</script>
+	<script type="text/javascript"> 
+		jQuery(document).ready(function(){ 
+			jQuery("#gallery").unitegallery(); 
+		}); 
+	</script>
+	
+	<script>
+		$(document).ready(function() {
+			$('.social-blogging').each(function() {
+				const service = $(this).attr('service');
+				const url = `/api/posted-on/${service}?article=${window.location.pathname}`;
+
+				fetch(url)
+					.then(response => response.json())
+					.then(data => {
+						console.log(data)
+						$(this).attr('href', data.postUrl)
+					})
+					.catch(error => console.error('Error:', error));
+			})
+		})
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,310 @@
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Use of a Walking Skeleton in Acceptance Test Driven Development</title>
+	
+	<link rel="canonical" href="http://0.0.0.0:4000/2011/05/23/use-of-a-walking-skeleton-in-acceptance-test-driven-development.html"/>
+	
+	<link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css" />
+	<link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+	<link rel="stylesheet" href="/css/schwab.css" type="text/css" />
+	<link rel="stylesheet" href="/css/print.css" media="print" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed|Sansita:700|Zilla+Slab" rel="stylesheet">
+	
+	<link rel="alternate" type="application/rss+xml" title="Stephan Schwab" href="/rss.xml"/>
+
+	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+	<script type='text/javascript' src='/unitegallery/js/unitegallery.min.js'></script> 
+		
+	<link rel='stylesheet' href='/unitegallery/css/unite-gallery.css' type='text/css' /> 
+	<script type='text/javascript' src='/unitegallery/themes/tiles/ug-theme-tiles.js'></script> 
+
+	<meta property="og:title" content="Use of a Walking Skeleton in Acceptance Test Driven Development">
+	<meta property="twitter:title" content="Use of a Walking Skeleton in Acceptance Test Driven Development">
+	<meta property="og:description" content="">
+	<meta property="twitter:description" content="">
+	<meta property="og:type" content="article">
+	<meta property="og:url" content="http://0.0.0.0:4000/2011/05/23/use-of-a-walking-skeleton-in-acceptance-test-driven-development.html">
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:site" content="@snscaimito">
+	
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="header no-print">
+  <div class="menu">
+    <a href="/">Home</a>
+    <a href="/category/software_development.html">Software</a>
+    <a href="/category/farm-life.html">Farm Life</a>
+    <a href="/category/Business.html">Business</a>
+    <a href="/category/aviation.html">Aviation</a>
+  </div>
+  <div class="claim-box">
+    <p class="claim">Tales about Aviation, Coaching, Farming, Software Development</p>
+  </div>
+</div>
+		<div class="row">
+			<div class="span9">
+				<div class="post">
+					<h1>Use of a Walking Skeleton in Acceptance Test Driven Development</h1>
+          <p>One of the main benefits of Acceptance Test Driven Development is that you have your customer involved and can share executable specifications written in human language with all team members including the customer. That’s a major point in favor of ATDD.</p>
+
+<p>Still these creations are just written words. Yes, you can run them against the application once you have built it and it will you that everything is ok. Which is another main benefit. People tend to need some kind of visual to fully feel comfortable with abstract things. Some use wireframes to describe the user interface and then do a walk-through on paper using these drawings. That works but only if the application has a regular user interface where a human user can type and click on UI widgets.</p>
+
+<p>A good while back software developers came up with the idea of a walking skeleton. This has been described in the Crystal Clear book by Alistair Cockburn and in a <a href="http://alistair.cockburn.us/Walking+skeleton">blog post</a>. Alistair says he found this pattern or strategy around 1994 so it is really not a new idea - but as I find a very good one.</p>
+
+<p>Not only when doing ATDD but in every situation of software development I would like to receive early and quick feedback (in no particular order) on:</p>
+
+<ul>
+<li>An end to end scenario of some important business action</li>
+<li>The quality of then development team</li>
+<li>Choices for the initial architecture and tools</li>
+<li>Customer's reaction to a very early version of the product</li>
+</ul>
+
+<p><strong>An end to end scenario of some important business action</strong></p>
+
+<p>Every software program has a number of flows that either a human user or another system interacting with the program under development will use. I’d like to call that a <em>business action</em> because it is an activity to perform some kind of business with a clear goal in mind. The actual implementation of a single business action undoubtedly has a lot of value and may be just enough to deploy the application to production and start using it for real.</p>
+
+<p>When doing ATDD I like to use Cucumber to run scenarios written in Given/When/Then form. After I have identified a valuable business action which appears to be simple enough to be a good candidate for a walking skeleton, I will then look at the expected result. Looking at the result is important. After all that’s why the application is being developed in the first place. So once I know what the outcome should be I write a Cucumber “Then” step.</p>
+
+<p>With the expected result in mind I then figure out what is needed in order to produce said result. This will lead to maybe a number of “When” steps, a few preconditions as “Given” steps and likely I will learn that I need to describe the whole business action in multiple Cucumber scenarios.</p>
+
+<p>Important is to develop these scenarios in collaboration with the customer.</p>
+
+<p><strong>The quality of the development team</strong></p>
+
+<p>Throughout the project the quality of the development team will have a strong impact on the ability to deliver well written software in a reasonable timeframe. The sooner it is known how good the team is, the less disruptive it will be to make changes.</p>
+
+<p>The only way to find out about the actual quality of the team is to do some real work with a clearly defined goal. Building a walking skeleton as an implementation of the business action expressed in Cucumber scenarios is that goal.</p>
+
+<p><strong>Choices for the initial architecture and tools</strong></p>
+
+<p>Whatever my choices are for the (initial) architecture for the application it is a fact that I will never know whether these choices are good or bad until I actually write the code. The goal of producing a walking skeleton puts all my assumptions and decisions to a test. The sooner I find out that I made bad choices the less disruptive it will be to correct them.</p>
+
+<p>I may also find that my choices are ok but I’ve gone overboard with the architecture and thought about implementing a lot of things that I don’t need (a violation of <a href="http://c2.com/xp/YouArentGonnaNeedIt.html">YAGNI</a> - You Ain’t Gonna Need It). Again by putting it to a test I have an early opportunity to find something simpler (simpler - not less capable) that requires less effort.</p>
+
+<p>Speaking about effort… Sometimes tools can be a problem too. Tools may be libraries, frameworks or the programs used to write, compile, package and deploy the code. Trying to produce a walking skeleton in short timeframe and bring it in front of the eyes of the customer will quickly show whether the tools are supportive or hindering the team’s progress.</p>
+
+<p><strong>Customer’s reaction to a very early version of the product</strong></p>
+
+<p>Finally once I have achieved my goal of producing the walking skeleton and my customer can use it for the first time we all will know whether we are on the right track or need to make major changes to our initial assumptions.</p>
+
+<p>Not every customer is the same. Some customers are more willing to collaborate than others. A good opportunity to get an indication of the customer’s willingness to work with the team is by simply watching their reaction to a bare-bones walking skeleton. Do they recognize the business action that was described in the Cucumber scenarios? Can they see the value of the achievement for the project? Are they forthcoming with details to now add flesh the skeleton or are they disappointed?</p>
+
+<p>The sooner I know how the customer really “ticks”, the sooner I can either try to educate and help the customer to better collaborate with the team or - for example as a vendor - decide to abandon the project before getting too deep into an unhealthy relationship.</p>
+
+<p>As this is getting fairly long the next piece will talk about how to actually create a walking skeleton together with Cucumber scenarios.</p>
+
+					<table class="postfooter" style="width: 100%">
+					<tr>
+						<td style="text-align: left; width: 33%"><a href="/2011/05/22/why-does-it-always-have-to-be-a-step-by-step-process.html">Previous</a></td>
+						<td style="text-align: center; width: 33%">23 May 2011</td>
+						<td style="text-align: right; width: 33%"><a href="/2011/05/27/the-end-of-methodology.html">Next</a></td>
+					</tr>
+					</table>
+					<p>This article has been posted to social media sites. There might be comments. Just follow the links:</p>
+					<div>
+						<a class="social-blogging" service="twitter" href="https://twitter.com/snscaimito"><img src="/img/Furry-Cushion-Twitter_48.png" /></a>
+						<a class="social-blogging" service="activityPub" rel="me" href="https://techhub.social/@snscaimito"><img src="/img/mastodon.svg" width="48" /></a>
+					</div>
+				</div>
+			</div>
+			<div class="span3">
+        <div class="sidebar">
+        	<p class="section">About this article</p>
+          <p>Published: May 23, 2011</p>
+					<p>Posted in:
+						
+							<a class="categoryLink" href="/category/software_development.html">software_development</a>
+						
+							<a class="categoryLink" href="/category/atdd.html">atdd</a>
+						
+							<a class="categoryLink" href="/category/quality.html">quality</a>
+						
+					</p>
+          
+        </div>
+				<div class="sidebar">
+	<p class="section">About me</p>
+	<p>Hello! My name is <a href="/">Stephan Schwab</a>.</p>
+			<a href="/"><img src="http://www.gravatar.com/avatar/663d11426b0a187ddac59f8c17ce61b4?s=90" class="align-left"/></a>
+		<p>As International Software Development Coach and Consultant I help CEOs and Department Leaders to <strong>improve</strong> <strong>value creation</strong> and <strong>cohesion</strong> within their organization. The outcome will be higher <strong>quality</strong>, <strong>customer delight</strong> and <strong>more revenue</strong>.</p> 
+		
+		<p>Learn about <a href="/resume/">my professional experience</a> since 1986.</p>
+    <span style="clear:both; float:none"/>
+
+	<p class="section">Professional Services</p>
+	<p>I'm fluent in these languages:</p>
+	<p align="center">
+		<a href="/category/en.html"><img src="/img/language-flags/32x32/flag_rotate-02.png"></a>
+		<a href="/category/de.html"><img src="/img/language-flags/32x32/flag_rotate-03.png"></a>
+		<a href="/category/es.html"><img src="/img/language-flags/32x32/flag_rotate-12.png"></a>
+	</p>
+	<p align="center">
+		<small>
+			<a href="/category/en.html">English</a>
+			<a href="/category/de.html">German</a>
+			<a href="/category/es.html">Spanish</a>
+		</small>
+	</p>
+	<div class="no-print-sidebar">
+		<p>Scrum Pair-Coaching to develop technical competence:</p>
+		<p align="center">Details in <a href="/en-pair-coaching-scrummaster.html">English</a>, <a
+				href="/de-pair-coaching-scrummaster.html">Deutsch</a></p>
+
+		<p><strong>Resources for new clients</strong>:</p>
+		<p align="center"><a href="/resources/de-new-client.html">Deutsch</a></p>
+	</div>
+
+	<div class="no-print-sidebar">
+		<p class="section noprint">Search</p>
+		<form method="get" action="http://www.google.com/search">
+			<p align="center"><input type="text" name="q" maxlength="255" value="" style="width: 180px" /></br>
+				<input type="submit" value="Google Search" class="btn btn-primary btn-mini" />
+			</p>
+			<input type="hidden" name="sitesearch" value="http://www.stephan-schwab.com" />
+		</form>
+
+		<p class="section">Special&nbsp;Content</p>
+		<ul class="special-content">
+			<li><a href="/atdd/">Acceptance Test-Driven Development</a></li>
+			<li><a href="/software-design/">Software Design</a></li>
+			<li><a href="/sddm.html">Software Development Decision Making</a></li>
+		</ul>
+		<ul class="special-content">
+			<li><a href="/coaching-future-masters.html">Coaching future masters</a></li>
+		</ul>
+		<ul class="special-content">
+			<li><a href="/farmstead.html">Developing a farmstead in Andalucia, Spain</a></li>
+			<li><a href="/house/">Building a house, Spain</a></li>
+			<li><a href="/airtravel/">Business travel with light aircraft</a></li>
+			<li><a href="/horses/">Horses</a></li>
+			<li><a href="/panama-farm.html">Rainforest Farm, Panama</a></li>
+			<li><a href="/galleries/">Photo Galleries</a></li>
+		</ul>
+		<ul class="special-content">
+			<li><a href="/reading-list.html">My reading list</a></li>
+		</ul>
+
+		<p class="section">Highlights of the Year</p>
+		<ul class="special-content">
+			
+			<li><a href="/2016/12/27/highlights-of-2016.html">2016</a></li>
+			
+			<li><a href="/2015/12/31/highlights-2015.html">2015</a></li>
+			
+			<li><a href="/2014/12/31/highlights-2014.html">2014</a></li>
+			
+			<li><a href="/2013/12/31/hightlights-2013.html">2013</a></li>
+			
+			<li><a href="/2012/12/31/highlights-2012.html">2012</a></li>
+			
+			<li><a href="/2011/12/31/highlights-2011.html">2011</a></li>
+			
+			<li><a href="/2010/12/31/highlights-2010.html">2010</a></li>
+			
+			<li><a href="/2009/12/31/highlights-2009.html">2009</a></li>
+			
+			<li><a href="/2008/12/31/highlights-2008.html">2008</a></li>
+			
+			<li><a href="/2007/12/31/highlights-2007.html">2007</a></li>
+			
+			<li><a href="/2006/12/31/highlights-2006.html">2006</a></li>
+			
+		</ul>
+
+		<p class="section">Living on planet Earth</p>
+		<ul class="special-content">
+			<li><a href="/dominican-republic.html">Dominican Republic</a></li>
+			<li><a href="/china.html">China</a></li>
+			<li><a href="/germany.html">Germany</a></li>
+			<li><a href="/panama.html">Panama</a></li>
+			<li><a href="/spain.html">Spain</a></li>
+			<li><a href="/usa.html">USA</a></li>
+		</ul>
+
+		<p class="section">Open Source Projects</p>
+		<ul class="special-content">
+			<li><a href="/ale-news.html">Development of ALE News</a></li>
+			<li><a href="https://github.com/snscaimito/RAutomation">RAutomation</a></li>
+			<li><a href="/open-source.html">Other contributions to Open Source</a></li>
+		</ul>
+
+		<p class="section">Stay in touch</p>
+		<p align="center">
+			<a href="/rss.xml"><img src="/img/Furry-Cushion-RSS_48.png" /></a>
+			<a href="https://twitter.com/snscaimito"><img src="/img/Furry-Cushion-Twitter_48.png" /></a>
+			<a href="http://www.linkedin.com/in/stephanschwab"><img src="/img/Furry-Cushion-LinkedIn_48.png" /></a>
+		</p>
+		<p align="center">
+			<a rel="me" href="https://techhub.social/@snscaimito"><img src="/img/mastodon.svg" width="48" /></a>
+			<a href="https://bsky.app/profile/snscaimito.bsky.social"><img src="/img/Bluesky_butterfly-logo.svg"
+					width="65" /></a>
+			<a href="https://www.tiktok.com/@snscaimito"><img src="/img/tiktok-icon-white-1-logo-svgrepo-com.svg"
+					width="48" /></a>
+		</p>
+		<p align="center">
+			<a href="mailto:sns@caimito.net?subject=From%20stephan-schwab.com">sns@caimito.net</a>
+		</p>
+
+		<p class=" section">My Books
+		</p>
+		<p align="center"><a href="https://leanpub.com/activitycentereddesign"><img
+					src="/img/smarter-software-with-activity-centered-design.jpg" /></a></p>
+		<p align="center"><a href="https://leanpub.com/essays-on-software-development-2012"><img
+					src="/img/essays-on-software-development-2012.png" /></a></p>
+
+		<p class="section">Everything</p>
+		<p>See a listing of <a href="/all-posts.html">all posts</a> on this site.</p>
+	</div>
+</div>
+			</div>
+		</div>
+	</div>
+		<script src="//use.typekit.net/npx1yoc.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
+	
+	<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-35257032-1', 'auto');
+	  ga('require', 'displayfeatures');
+	  ga('send', 'pageview');
+
+	</script>
+	<script type="text/javascript"> 
+		jQuery(document).ready(function(){ 
+			jQuery("#gallery").unitegallery(); 
+		}); 
+	</script>
+	
+	<script>
+		$(document).ready(function() {
+			$('.social-blogging').each(function() {
+				const service = $(this).attr('service');
+				const url = `/api/posted-on/${service}?article=${window.location.pathname}`;
+
+				fetch(url)
+					.then(response => response.json())
+					.then(data => {
+						console.log(data)
+						$(this).attr('href', data.postUrl)
+					})
+					.catch(error => console.error('Error:', error));
+			})
+		})
+	</script>
+
+</body>
+</html>

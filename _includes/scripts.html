@@ -1,0 +1,38 @@
+	<script src="//use.typekit.net/npx1yoc.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
+	
+	<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-35257032-1', 'auto');
+	  ga('require', 'displayfeatures');
+	  ga('send', 'pageview');
+
+	</script>
+	<script type="text/javascript"> 
+		jQuery(document).ready(function(){ 
+			jQuery("#gallery").unitegallery(); 
+		}); 
+	</script>
+	
+	<script>
+		$(document).ready(function() {
+			$('.social-blogging').each(function() {
+				const service = $(this).attr('service');
+				const url = `/api/posted-on/${service}?article=${window.location.pathname}`;
+
+				fetch(url)
+					.then(response => response.json())
+					.then(data => {
+						console.log(data)
+						$(this).attr('href', data.postUrl)
+					})
+					.catch(error => console.error('Error:', error));
+			})
+		})
+	</script>

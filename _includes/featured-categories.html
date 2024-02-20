@@ -1,0 +1,83 @@
+<div class="row featured-categories">
+		<div class="span8">
+			<div class="row">
+				<div class="span4">
+					<p class="section featured-category">Software Development</p>
+					{% assign posts = "" | split: "" %}
+					{% for post in site.posts %}
+					    {% if post.categories contains 'software_development' %}
+							{% assign posts = posts | push: post %}
+					    {% endif %}
+					{% endfor %}
+						
+					{% for post in posts limit:3 %}
+					{% include featured-category-list.html %}
+					{% endfor %}
+				</div>
+				<div class="span4">
+					<p class="section featured-category">Business</p>
+					{% assign posts = "" | split: "" %}
+					{% for post in site.posts %}
+					    {% if post.categories contains 'Business' %}
+							{% assign posts = posts | push: post %}
+					    {% endif %}
+					    {% if post.categories contains 'business' %}
+							{% assign posts = posts | push: post %}
+					    {% endif %}
+					{% endfor %}
+						
+					{% for post in posts limit:3 %}
+					{% include featured-category-list.html %}
+					{% endfor %}
+				</div>
+			</div>
+			<div class="row">
+				<div class="span4">
+					<p class="section featured-category">Farm Life</p>
+					{% assign posts = "" | split: "" %}
+					{% for post in site.posts %}
+					    {% if post.categories contains 'farm-life' %}
+							{%   assign posts = posts | push: post %}
+					    {% endif %}
+					{% endfor %}
+						
+					{% for post in posts limit:3 %}
+					{% include featured-category-list.html %}
+					{% endfor %}
+				</div>
+				<div class="span4">
+					<p class="section featured-category">Aviation</p>
+					{% assign posts = "" | split: "" %}
+					{% for post in site.posts %}
+					    {% if post.categories contains 'Aviation' %}
+							{% assign posts = posts | push: post %}
+					    {% endif %}
+					    {% if post.categories contains 'aviation' %}
+							{% assign posts = posts | push: post %}
+					    {% endif %}
+					{% endfor %}
+						
+					{% for post in posts limit:3 %}
+					{% include featured-category-list.html %}
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+		<div class="span4">
+			<p class="section featured-category">Newest articles</p>
+			<table class="article-overview">
+			{% for post in site.posts limit:8 %}
+			<tr>
+				<td nowrap>{{ post.date | date: "%d.%m." }}</td>
+				<td><a href="{{ post.url }}">{{ post.title }}</a></td>
+			</tr>
+			{% endfor %}
+			</table>
+		</div>
+</div>
+
+<div style="margin-left: auto; margin-right: auto">
+	<ul class="categories horizontal" style="margin-top: 10px">
+		{% include categories-list.html %}
+	</ul>
+</div>

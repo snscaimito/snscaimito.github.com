@@ -1,0 +1,20 @@
+---
+layout: post
+title: Team room
+tags:
+- en
+categories:
+- software_development
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '6384953'
+---
+<p>A while back when I <a href="http://www.stephan-schwab.com/2007/11/24/1195930292349.html">expressed by concerns about a particular team room</a> I got some negative reactions including from one of the persons who working that particular room. My assertion was that I wouldn't be able to concentrate in such a crammed room.</p>
+
+<p>Now I've come across a few more pictures and I'd like to share the location of pictures of a team space that I really like: it's on <a href="http://www.stephan-schwab.com/2007/11/24/1195930292349.html">Brad Wilson's blog</a>.</p>
+
+<p>Now that our Savila team has grown to 3 fulltime members plus myself I think I should post a few pictures myself as well. So watch out for them ;-)</p>
+
+<p>I almost forgot. Have a look at entry <a href="http://xp123.com/xplor/room-gallery/index.shtml">#11 (Cadenza)</a>. I guess the plants not only give the room a special atmosphere but also help to dampen noise.</p>

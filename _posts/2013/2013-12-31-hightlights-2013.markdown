@@ -1,0 +1,17 @@
+---
+layout: post
+title: Highlights of 2013
+tags:
+- highlight_of_the_year
+---
+I started my new work life in Germany in **January** by taking on a role as Scrum Master at a retail company. I recreated my role to become more a Value Stream Improvement Coach across departments in order to bring people along the value chain together and thus improve it. As part of that I also reduced my physical presence to 2 days/week in order to permit my coachees to develop independence.
+
+That freed up some time to pursue becoming a pilot again which I achieved on **April** 1st when I passed the practical test. In **June** I started to think about how I could put this regained ability to good use to develop my business and wrote about [business travel with light aircraft](/2013/06/30/business-travel-with-light-aircraft.html) and also started a [separate set of special pages about the topic](/airtravel/).
+
+**September** provided an opportunity to try that out. With my family I tried to [travel in a rented Cirrus SR20 from Egelsbach, Germany, to Bukarest, Romania](/2013/09/01/ALE2013-Ostrava.html) to the ALE2013 conference. Our journey took us from Germany to the [Czech Republic, over Slovakia to Hungary](/2013/09/02/ALE2013-Ostrava-Szeged.html) and then [into Romania](/2013/09/03/ALE2013-Szeged-Bucharest.html). We never arrived there because of bad weather, there was a thunderstorm blocking our way, but I could tell [how real options can be used in real life](/2013/09/01/ALE2013-Real-Options.html). On the way back to went [through Austria to see a portion of the Alps](/2013/09/05/ALE2013-Szeged-Muehldorf.html). Although I didn't made it to the conference I could still reflect a bit on the [risks and side effects of agile coaching](/2013/09/12/risks-and-side-effects-of-agile-coaching.html). Plus, I wrote about the [development of capabilities](/2013/09/22/on-the-development-of-capabilities.html) using my quest of creating a unique advantage for my business as an example.
+
+As being limited to flying only in good weather [VFR](/airtravel/vfr-ifr.html) isn't really creating an advantage for my business I began in **October** [training for the instrument rating](/2013/10/12/commencing-ifr-training.html).
+
+In **December** I shared my thoughts about [changing people's mindset with kanban](/2013/12/17/changing-peoples-mindset-with-kanban.html).
+
+{% include highlightOfTheYear.html %}

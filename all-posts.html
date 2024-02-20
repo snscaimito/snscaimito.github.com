@@ -1,0 +1,12 @@
+---
+layout: special
+title: All Posts On Stephan Schwab's Blog
+---
+<table>
+{% for post in site.posts %}
+<tr>
+	<td nowrap>{{ post.date | date: "%d %b %Y" }}</td>
+	<td><a href="{{ post.url }}">{{ post.title }}</a></td>
+</tr>
+{% endfor %}
+</table>

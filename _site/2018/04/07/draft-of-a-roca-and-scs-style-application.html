@@ -1,0 +1,1161 @@
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Draft of a ROCA- and SCS-style application</title>
+	
+	<link rel="canonical" href="http://0.0.0.0:4000/2018/04/07/draft-of-a-roca-and-scs-style-application.html"/>
+	
+	<link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css" />
+	<link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+	<link rel="stylesheet" href="/css/schwab.css" type="text/css" />
+	<link rel="stylesheet" href="/css/print.css" media="print" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed|Sansita:700|Zilla+Slab" rel="stylesheet">
+	
+	<link rel="alternate" type="application/rss+xml" title="Stephan Schwab" href="/rss.xml"/>
+
+	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+	<script type='text/javascript' src='/unitegallery/js/unitegallery.min.js'></script> 
+		
+	<link rel='stylesheet' href='/unitegallery/css/unite-gallery.css' type='text/css' /> 
+	<script type='text/javascript' src='/unitegallery/themes/tiles/ug-theme-tiles.js'></script> 
+
+	<meta property="og:title" content="Draft of a ROCA- and SCS-style application">
+	<meta property="twitter:title" content="Draft of a ROCA- and SCS-style application">
+	<meta property="og:description" content="">
+	<meta property="twitter:description" content="">
+	<meta property="og:type" content="article">
+	<meta property="og:url" content="http://0.0.0.0:4000/2018/04/07/draft-of-a-roca-and-scs-style-application.html">
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:site" content="@snscaimito">
+	
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="header no-print">
+  <div class="menu">
+    <a href="/">Home</a>
+    <a href="/category/software_development.html">Software</a>
+    <a href="/category/farm-life.html">Farm Life</a>
+    <a href="/category/Business.html">Business</a>
+    <a href="/category/aviation.html">Aviation</a>
+  </div>
+  <div class="claim-box">
+    <p class="claim">Tales about Aviation, Coaching, Farming, Software Development</p>
+  </div>
+</div>
+		<div class="row">
+			<div class="span9">
+				<div class="post">
+					<h1>Draft of a ROCA- and SCS-style application</h1>
+          <p>I had been working on and off on what I call the Meal Planner application before I discovered the idea of Self-Contained Systems (SCS). The concept made a lot of sense to me and as I was already planning on using containers I quikly set out to make a few changes.</p>
+
+<p>The code for it is in the open at <a href="https://github.com/snscaimito/farm_meal-planner">GitHub</a></p>
+
+<h2 id="continuous-integration-for-a-single-developer">Continuous Integration for a single developer</h2>
+<p>I have to make a confession. I don’t use a CI server regularly :-)</p>
+
+<p>As I am working alone and am not part of a team a tool like Jenkins doesn’t really help me. Frequently I am physically somewhere and only have my laptop. If I were using a Jenkins installation it would have to be accessible over the open Internet, which would require a server somewhere in a datacenter and a VPN connection to reach it or I would be running it exposed to the world. There is really no benefit for me as I’m the only contributor to the codebase.</p>
+
+<p>Instead I build everything around my own command line and that means I focus on shell scripts and a local production like environment.</p>
+
+<p>If at some point I happen to have a team, all of that could be easily put into Jenkins as long a I treat the CI server as some sort of a glorified scheduler.</p>
+
+<h2 id="target-runtime-environment">Target runtime environment</h2>
+<p>As of now my target runtime environment is a Linux host (Debian/Ubuntu) with nothing else installed but the <a href="https://www.docker.com">Docker Engine</a>. I’m trying to keep everything isolated in containers and so the host itself can be quite dumb.</p>
+
+<h2 id="development-workflow-project-structure-tooling">Development workflow, project structure, tooling</h2>
+<p>Here are a few considerations regarding my development workflow:</p>
+
+<ul>
+  <li>run a multi-piece application locally in a production-like environment</li>
+  <li>build and test containers, then store into a repository</li>
+  <li>deploy tested containers as a single unit from a repository into production</li>
+</ul>
+
+<p>Unlike in the past I don’t want to deploy a WAR or JAR file to any type of application server. Instead the smallest unit for deployment is a Docker container. The container is also the unit that undergoes testing. If it is found to be good, it gets stored under a version number to a repository and the very same container images is deployed to a Docker engine on production host(s) where the container can be run several times for scaling.</p>
+
+<p>In order to satisfy my first point I use a custom shell script with the following options:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>12:52 sns ~/dev/farm/farm_meal-planner  (master)$ ./localrun.sh
+Usage:
+--help    displays help
+up        run without rebuilding
+down      put all containers down
+rebuild   rebuild and run
+</code></pre></div></div>
+
+<p>As of today my directory structure looks like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>-rw-r--r--@  1 sns  staff   330 Feb 23 10:17 Dockerfile-cucumber
+-rw-r--r--@  1 sns  staff   183 Mar  3 21:57 Gemfile
+drwxr-xr-x   8 sns  staff   256 Mar 12 12:56 common
+drwxr-xr-x   9 sns  staff   288 Mar 12 23:03 cookbooks
+-rw-r--r--@  1 sns  staff   512 Mar 18 02:00 docker-compose-dev.yml
+drwxr-xr-x  13 sns  staff   416 Mar 15 22:35 features
+drwxr-xr-x   3 sns  staff    96 Mar 14 15:56 frontend
+-rwxr-xr-x@  1 sns  staff  1442 Apr  6 12:52 localrun.sh
+-rwxr-xr-x@  1 sns  staff   679 Mar 11 14:59 localtest.sh
+drwxr-xr-x   9 sns  staff   288 Mar 14 15:58 main
+drwxr-xr-x   9 sns  staff   288 Mar  8 20:14 navigation
+drwxr-xr-x  10 sns  staff   320 Mar 11 20:19 recipes
+drwxr-xr-x   8 sns  staff   256 Mar 11 13:02 styles
+</code></pre></div></div>
+
+<p>The directories <code>common</code>, <code>cookbooks</code>, <code>main</code>, <code>navigation</code>, <code>recipes</code>, <code>styles</code> contain independent Maven projects.</p>
+
+<p><code>localrun rebuild</code> performs <code>mvn package</code> for each of these projects and creates an artifact (JAR file). Then Docker containers are build for each application and eventually started by <code>docker-compose</code>.</p>
+
+<p>In the end I have a production like environment (via Docker engine) on my laptop can I can access the application(s) through <code>http://localhost</code> and see something like this:</p>
+
+<p><img src="/img/posts/2018-04-07-draft-of-a-roca-and-scs-style-application/main_screen.png" /></p>
+
+<p>To specify what my application(s) are supposed to be doing and for automated testing I use Cucumber. I created another shell script <code>localtest.sh</code> which I can either use to test a specific application or the whole:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>00:51 sns ~/dev/farm/farm_meal-planner  (master)$ ./localtest.sh --help
+Usage:
+all         Test the whole application on port 80
+recipes     Test only recipes on port 8080
+</code></pre></div></div>
+
+<p>It sets a few environment variables and then runs Cucumber in the context of a Bundler bundle. As I run it on my laptop I can visually supervise how a real Google Chrome browser or any other is being used to access the application(s).</p>
+
+<p>I’ve done some experiments to run it unattended on Jenkins in the way described in <a href="/2018/01/07/testing-selenium-docker-container.html"><em>Testing with Selenium Docker container</em></a> but at the time being I’m not interested in using Jenkins for the reasons stated earlier. That will likely change in the future when running all my acceptance tests takes longer than 5 minutes and I want to offload that task to a machine.</p>
+
+<div class="ale_news_post_footer">
+	<h2>Articles in this series</h2>
+	<ul>
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+       <li>08 Apr 2018 <a href="/2018/04/08/design-for-replaceability.html">Design for replaceability</a></li>
+    
+	
+     
+       <li>07 Apr 2018 <a href="/2018/04/07/draft-of-a-roca-and-scs-style-application.html">Draft of a ROCA- and SCS-style application</a></li>
+    
+	
+     
+       <li>02 Apr 2018 <a href="/2018/04/02/considerations-for-a-farm-following-the-principles-of-lean-startup.html">Considerations for a farm following the principles of Lean Startup</a></li>
+    
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+     
+	
+	</ul>
+</div>
+
+
+					<table class="postfooter" style="width: 100%">
+					<tr>
+						<td style="text-align: left; width: 33%"><a href="/2018/04/02/considerations-for-a-farm-following-the-principles-of-lean-startup.html">Previous</a></td>
+						<td style="text-align: center; width: 33%">07 Apr 2018</td>
+						<td style="text-align: right; width: 33%"><a href="/2018/04/08/design-for-replaceability.html">Next</a></td>
+					</tr>
+					</table>
+					<p>This article has been posted to social media sites. There might be comments. Just follow the links:</p>
+					<div>
+						<a class="social-blogging" service="twitter" href="https://twitter.com/snscaimito"><img src="/img/Furry-Cushion-Twitter_48.png" /></a>
+						<a class="social-blogging" service="activityPub" rel="me" href="https://techhub.social/@snscaimito"><img src="/img/mastodon.svg" width="48" /></a>
+					</div>
+				</div>
+			</div>
+			<div class="span3">
+        <div class="sidebar">
+        	<p class="section">About this article</p>
+          <p>Published: April 07, 2018</p>
+					<p>Posted in:
+						
+							<a class="categoryLink" href="/category/software_development.html">software_development</a>
+						
+					</p>
+          
+        </div>
+				<div class="sidebar">
+	<p class="section">About me</p>
+	<p>Hello! My name is <a href="/">Stephan Schwab</a>.</p>
+			<a href="/"><img src="http://www.gravatar.com/avatar/663d11426b0a187ddac59f8c17ce61b4?s=90" class="align-left"/></a>
+		<p>As International Software Development Coach and Consultant I help CEOs and Department Leaders to <strong>improve</strong> <strong>value creation</strong> and <strong>cohesion</strong> within their organization. The outcome will be higher <strong>quality</strong>, <strong>customer delight</strong> and <strong>more revenue</strong>.</p> 
+		
+		<p>Learn about <a href="/resume/">my professional experience</a> since 1986.</p>
+    <span style="clear:both; float:none"/>
+
+	<p class="section">Professional Services</p>
+	<p>I'm fluent in these languages:</p>
+	<p align="center">
+		<a href="/category/en.html"><img src="/img/language-flags/32x32/flag_rotate-02.png"></a>
+		<a href="/category/de.html"><img src="/img/language-flags/32x32/flag_rotate-03.png"></a>
+		<a href="/category/es.html"><img src="/img/language-flags/32x32/flag_rotate-12.png"></a>
+	</p>
+	<p align="center">
+		<small>
+			<a href="/category/en.html">English</a>
+			<a href="/category/de.html">German</a>
+			<a href="/category/es.html">Spanish</a>
+		</small>
+	</p>
+	<div class="no-print-sidebar">
+		<p>Scrum Pair-Coaching to develop technical competence:</p>
+		<p align="center">Details in <a href="/en-pair-coaching-scrummaster.html">English</a>, <a
+				href="/de-pair-coaching-scrummaster.html">Deutsch</a></p>
+
+		<p><strong>Resources for new clients</strong>:</p>
+		<p align="center"><a href="/resources/de-new-client.html">Deutsch</a></p>
+	</div>
+
+	<div class="no-print-sidebar">
+		<p class="section noprint">Search</p>
+		<form method="get" action="http://www.google.com/search">
+			<p align="center"><input type="text" name="q" maxlength="255" value="" style="width: 180px" /></br>
+				<input type="submit" value="Google Search" class="btn btn-primary btn-mini" />
+			</p>
+			<input type="hidden" name="sitesearch" value="http://www.stephan-schwab.com" />
+		</form>
+
+		<p class="section">Special&nbsp;Content</p>
+		<ul class="special-content">
+			<li><a href="/atdd/">Acceptance Test-Driven Development</a></li>
+			<li><a href="/software-design/">Software Design</a></li>
+			<li><a href="/sddm.html">Software Development Decision Making</a></li>
+		</ul>
+		<ul class="special-content">
+			<li><a href="/coaching-future-masters.html">Coaching future masters</a></li>
+		</ul>
+		<ul class="special-content">
+			<li><a href="/farmstead.html">Developing a farmstead in Andalucia, Spain</a></li>
+			<li><a href="/house/">Building a house, Spain</a></li>
+			<li><a href="/airtravel/">Business travel with light aircraft</a></li>
+			<li><a href="/horses/">Horses</a></li>
+			<li><a href="/panama-farm.html">Rainforest Farm, Panama</a></li>
+			<li><a href="/galleries/">Photo Galleries</a></li>
+		</ul>
+		<ul class="special-content">
+			<li><a href="/reading-list.html">My reading list</a></li>
+		</ul>
+
+		<p class="section">Highlights of the Year</p>
+		<ul class="special-content">
+			
+			<li><a href="/2016/12/27/highlights-of-2016.html">2016</a></li>
+			
+			<li><a href="/2015/12/31/highlights-2015.html">2015</a></li>
+			
+			<li><a href="/2014/12/31/highlights-2014.html">2014</a></li>
+			
+			<li><a href="/2013/12/31/hightlights-2013.html">2013</a></li>
+			
+			<li><a href="/2012/12/31/highlights-2012.html">2012</a></li>
+			
+			<li><a href="/2011/12/31/highlights-2011.html">2011</a></li>
+			
+			<li><a href="/2010/12/31/highlights-2010.html">2010</a></li>
+			
+			<li><a href="/2009/12/31/highlights-2009.html">2009</a></li>
+			
+			<li><a href="/2008/12/31/highlights-2008.html">2008</a></li>
+			
+			<li><a href="/2007/12/31/highlights-2007.html">2007</a></li>
+			
+			<li><a href="/2006/12/31/highlights-2006.html">2006</a></li>
+			
+		</ul>
+
+		<p class="section">Living on planet Earth</p>
+		<ul class="special-content">
+			<li><a href="/dominican-republic.html">Dominican Republic</a></li>
+			<li><a href="/china.html">China</a></li>
+			<li><a href="/germany.html">Germany</a></li>
+			<li><a href="/panama.html">Panama</a></li>
+			<li><a href="/spain.html">Spain</a></li>
+			<li><a href="/usa.html">USA</a></li>
+		</ul>
+
+		<p class="section">Open Source Projects</p>
+		<ul class="special-content">
+			<li><a href="/ale-news.html">Development of ALE News</a></li>
+			<li><a href="https://github.com/snscaimito/RAutomation">RAutomation</a></li>
+			<li><a href="/open-source.html">Other contributions to Open Source</a></li>
+		</ul>
+
+		<p class="section">Stay in touch</p>
+		<p align="center">
+			<a href="/rss.xml"><img src="/img/Furry-Cushion-RSS_48.png" /></a>
+			<a href="https://twitter.com/snscaimito"><img src="/img/Furry-Cushion-Twitter_48.png" /></a>
+			<a href="http://www.linkedin.com/in/stephanschwab"><img src="/img/Furry-Cushion-LinkedIn_48.png" /></a>
+		</p>
+		<p align="center">
+			<a rel="me" href="https://techhub.social/@snscaimito"><img src="/img/mastodon.svg" width="48" /></a>
+			<a href="https://bsky.app/profile/snscaimito.bsky.social"><img src="/img/Bluesky_butterfly-logo.svg"
+					width="65" /></a>
+			<a href="https://www.tiktok.com/@snscaimito"><img src="/img/tiktok-icon-white-1-logo-svgrepo-com.svg"
+					width="48" /></a>
+		</p>
+		<p align="center">
+			<a href="mailto:sns@caimito.net?subject=From%20stephan-schwab.com">sns@caimito.net</a>
+		</p>
+
+		<p class=" section">My Books
+		</p>
+		<p align="center"><a href="https://leanpub.com/activitycentereddesign"><img
+					src="/img/smarter-software-with-activity-centered-design.jpg" /></a></p>
+		<p align="center"><a href="https://leanpub.com/essays-on-software-development-2012"><img
+					src="/img/essays-on-software-development-2012.png" /></a></p>
+
+		<p class="section">Everything</p>
+		<p>See a listing of <a href="/all-posts.html">all posts</a> on this site.</p>
+	</div>
+</div>
+			</div>
+		</div>
+	</div>
+		<script src="//use.typekit.net/npx1yoc.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
+	
+	<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-35257032-1', 'auto');
+	  ga('require', 'displayfeatures');
+	  ga('send', 'pageview');
+
+	</script>
+	<script type="text/javascript"> 
+		jQuery(document).ready(function(){ 
+			jQuery("#gallery").unitegallery(); 
+		}); 
+	</script>
+	
+	<script>
+		$(document).ready(function() {
+			$('.social-blogging').each(function() {
+				const service = $(this).attr('service');
+				const url = `/api/posted-on/${service}?article=${window.location.pathname}`;
+
+				fetch(url)
+					.then(response => response.json())
+					.then(data => {
+						console.log(data)
+						$(this).attr('href', data.postUrl)
+					})
+					.catch(error => console.error('Error:', error));
+			})
+		})
+	</script>
+
+</body>
+</html>

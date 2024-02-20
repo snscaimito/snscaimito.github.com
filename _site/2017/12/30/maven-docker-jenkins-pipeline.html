@@ -1,0 +1,519 @@
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>A build and deployment pipeline with Maven, Docker and Jenkins</title>
+	
+	<link rel="canonical" href="http://0.0.0.0:4000/2017/12/30/maven-docker-jenkins-pipeline.html"/>
+	
+	<link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css" />
+	<link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+	<link rel="stylesheet" href="/css/schwab.css" type="text/css" />
+	<link rel="stylesheet" href="/css/print.css" media="print" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed|Sansita:700|Zilla+Slab" rel="stylesheet">
+	
+	<link rel="alternate" type="application/rss+xml" title="Stephan Schwab" href="/rss.xml"/>
+
+	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+	<script type='text/javascript' src='/unitegallery/js/unitegallery.min.js'></script> 
+		
+	<link rel='stylesheet' href='/unitegallery/css/unite-gallery.css' type='text/css' /> 
+	<script type='text/javascript' src='/unitegallery/themes/tiles/ug-theme-tiles.js'></script> 
+
+	<meta property="og:title" content="A build and deployment pipeline with Maven, Docker and Jenkins">
+	<meta property="twitter:title" content="A build and deployment pipeline with Maven, Docker and Jenkins">
+	<meta property="og:description" content="">
+	<meta property="twitter:description" content="">
+	<meta property="og:type" content="article">
+	<meta property="og:url" content="http://0.0.0.0:4000/2017/12/30/maven-docker-jenkins-pipeline.html">
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:site" content="@snscaimito">
+	
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="header no-print">
+  <div class="menu">
+    <a href="/">Home</a>
+    <a href="/category/software_development.html">Software</a>
+    <a href="/category/farm-life.html">Farm Life</a>
+    <a href="/category/Business.html">Business</a>
+    <a href="/category/aviation.html">Aviation</a>
+  </div>
+  <div class="claim-box">
+    <p class="claim">Tales about Aviation, Coaching, Farming, Software Development</p>
+  </div>
+</div>
+		<div class="row">
+			<div class="span9">
+				<div class="post">
+					<h1>A build and deployment pipeline with Maven, Docker and Jenkins</h1>
+          <p>This is a little story about setting up a build and deployment pipeline for a small service. The service is written in Java, compiled and packaged with Maven and deployed in the form of a Docker container. The pipeline is implemented on Jenkins.</p>
+
+<p>Unlike in a more traditional way I don’t want to treat the Maven produced JAR file of the service as the potentially shippable artifact. It may or may not work depending on the environment it is deployed to. Instead I want to create a Docker container and ship that as a self-contained unit. All that is left then is to connect it to other units around it but no actual installation of software or configuration.</p>
+
+<p>By “connect” I mean enabling it to do a DNS lookup for eg. the SQL server it requires. That should be a fairly simple and safe operation which is not likely to fail without a clear error message and an easy fix.</p>
+
+<h2 id="maven-build-to-create-the-service-jar">Maven build to create the service JAR</h2>
+<p>My service requires a database. During development and when building the JAR file I use a MariaDB container that is started and shut down from Maven. Here is the relevant <code>build</code> section from my pom.xml.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;build&gt;
+&lt;plugins&gt;
+  &lt;plugin&gt;
+    &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+    &lt;artifactId&gt;spring-boot-maven-plugin&lt;/artifactId&gt;
+  &lt;/plugin&gt;
+  &lt;plugin&gt;
+    &lt;groupId&gt;io.fabric8&lt;/groupId&gt;
+    &lt;artifactId&gt;docker-maven-plugin&lt;/artifactId&gt;
+    &lt;version&gt;0.23.0&lt;/version&gt;
+    &lt;configuration&gt;
+      &lt;images&gt;
+        &lt;image&gt;
+          &lt;alias&gt;db&lt;/alias&gt;
+          &lt;name&gt;it_ledger_database&lt;/name&gt;
+          &lt;build&gt;
+            &lt;from&gt;mariadb:latest&lt;/from&gt;
+          &lt;/build&gt;
+          &lt;run&gt;
+            &lt;ports&gt;
+              &lt;port&gt;3306:3306&lt;/port&gt;
+            &lt;/ports&gt;
+            &lt;env&gt;
+              &lt;MYSQL_ROOT_PASSWORD&gt;xxxx&lt;/MYSQL_ROOT_PASSWORD&gt;
+              &lt;MYSQL_DATABASE&gt;ledger&lt;/MYSQL_DATABASE&gt;
+            &lt;/env&gt;
+            &lt;log&gt;
+              &lt;date&gt;default&lt;/date&gt;
+              &lt;color&gt;MAGENTA&lt;/color&gt;
+            &lt;/log&gt;
+            &lt;wait&gt;
+              &lt;log&gt;.*mysqld: ready for connections.*&lt;/log&gt;
+              &lt;time&gt;100000&lt;/time&gt;
+            &lt;/wait&gt;
+          &lt;/run&gt;
+        &lt;/image&gt;
+      &lt;/images&gt;
+    &lt;/configuration&gt;
+    &lt;executions&gt;
+      &lt;execution&gt;
+        &lt;id&gt;start&lt;/id&gt;
+        &lt;phase&gt;pre-integration-test&lt;/phase&gt;
+        &lt;goals&gt;
+          &lt;goal&gt;build&lt;/goal&gt;
+          &lt;goal&gt;start&lt;/goal&gt;
+        &lt;/goals&gt;
+      &lt;/execution&gt;
+      &lt;execution&gt;
+        &lt;id&gt;stop&lt;/id&gt;
+        &lt;phase&gt;post-integration-test&lt;/phase&gt;
+        &lt;goals&gt;
+          &lt;goal&gt;stop&lt;/goal&gt;
+        &lt;/goals&gt;
+      &lt;/execution&gt;
+    &lt;/executions&gt;
+  &lt;/plugin&gt;
+  &lt;plugin&gt;
+    &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;
+    &lt;artifactId&gt;maven-failsafe-plugin&lt;/artifactId&gt;
+    &lt;executions&gt;
+      &lt;execution&gt;
+        &lt;goals&gt;
+          &lt;goal&gt;integration-test&lt;/goal&gt;
+          &lt;goal&gt;verify&lt;/goal&gt;
+        &lt;/goals&gt;
+      &lt;/execution&gt;
+    &lt;/executions&gt;
+  &lt;/plugin&gt;
+  &lt;plugin&gt;
+    &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;
+    &lt;artifactId&gt;maven-surefire-plugin&lt;/artifactId&gt;
+    &lt;configuration&gt;
+      &lt;excludes&gt;
+        &lt;exclude&gt;**/IT*.java&lt;/exclude&gt;
+      &lt;/excludes&gt;
+    &lt;/configuration&gt;
+  &lt;/plugin&gt;
+&lt;/plugins&gt;
+&lt;/build&gt;
+</code></pre></div></div>
+
+<h2 id="build-pipeline">Build Pipeline</h2>
+<p>My project contains a Jenkinsfile that builds the artifact, then creates a Docker container and uses another Docker container to perform acceptance tests using Cucumber. If the Cucumber tests turn out good, the container with the deployment canditate gets uploaded to a container repository with tag <em>latest</em>.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pipeline {
+  agent any
+
+  tools {
+    maven 'mvn-3.5.2'
+  }
+
+  stages {
+    stage('Build') {
+      steps {
+        sh 'mvn package'
+      }
+    }
+    
+    stage('Make Container') {
+      steps {
+      sh "docker build -t snscaimito/ledger-service:${env.BUILD_ID} ."
+      sh "docker tag snscaimito/ledger-service:${env.BUILD_ID} snscaimito/ledger-service:latest"
+      }
+    }
+    
+    stage('Check Specification') {
+      steps {
+        sh "chmod o+w *"
+        sh "docker-compose up --exit-code-from cucumber --build"
+      }
+    }
+  }
+
+  post {
+    always {
+      archive 'target/**/*.jar'
+      junit 'target/**/*.xml'
+      cucumber '**/*.json'
+    }
+    success {
+      withCredentials([usernamePassword(credentialsId: 'docker-credentials', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) {
+        sh "docker login -u ${USERNAME} -p ${PASSWORD}"
+        sh "docker push snscaimito/ledger-service:${env.BUILD_ID}"
+        sh "docker push snscaimito/ledger-service:latest"
+      }
+    }
+  }
+}
+</code></pre></div></div>
+
+<p>My acceptance test or <em>executable specification</em> are implemented in Ruby Cucumber. The service exposes a RESTful API and with the rest-client gem it is easy to talk to it from the Cucumber step definitions.</p>
+
+<p>In the post pipeline stage I archive the JAR file generated by the Maven build and save the JUnit and Cucumber reports so that I can look at them from the corresponding Jenkins build report.</p>
+
+<p>The Cucumber test container is created with a Dockerfile containing:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>FROM ruby
+
+# Install Chrome, Xvfb and utility packages (libav for video capture), clean up
+RUN set -ex \
+    &amp;&amp; wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - \
+    &amp;&amp; sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" \
+        &gt;&gt; /etc/apt/sources.list.d/google.list' \
+    &amp;&amp; apt-get update \
+    &amp;&amp; apt-get install -y google-chrome-stable unzip \
+    &amp;&amp; rm -rf /var/lib/apt/lists/*
+
+# Install Chromedriver
+RUN set -ex \
+    &amp;&amp; cd /tmp \
+    &amp;&amp; wget -Nv http://chromedriver.storage.googleapis.com/2.34/chromedriver_linux64.zip \
+    &amp;&amp; unzip chromedriver_linux64.zip \
+    &amp;&amp; chmod -v +x chromedriver \
+    &amp;&amp; mv -v chromedriver /usr/local/bin/ \
+    &amp;&amp; rm -v chromedriver_linux64.zip
+
+RUN groupadd -r cucumber &amp;&amp; useradd -r -g cucumber -G audio,video cucumber \
+    &amp;&amp; mkdir -p /home/cucumber &amp;&amp; chown -R cucumber:cucumber /home/cucumber
+
+USER cucumber
+
+COPY Gemfile /home/cucumber/Gemfile
+
+WORKDIR /home/cucumber
+RUN gem install bundler &amp;&amp; bundle install
+
+CMD ["cucumber"]
+</code></pre></div></div>
+
+<p>The acceptance test is done by using docker-compose with this docker-compose.yml file:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>version: '3'
+services:
+  ledger-service:
+    image: snscaimito/ledger-service:latest
+    ports:
+     - "9080:8080"
+    environment:
+    - SPRING_PROFILES_ACTIVE=production
+    links:
+    - ledger_db
+  ledger_db:
+    image: mariadb:latest
+    environment:
+    - MYSQL_ROOT_PASSWORD=xxxxx
+    - MYSQL_DATABASE=ledger
+  cucumber:
+    environment:
+    - HOST=ledger-service
+    - PORT=8080
+    - MYSQL=ledger_db
+    links:
+    - ledger-service
+    volumes:
+    - ./:/home/cucumber
+    build:
+      context: ./
+      dockerfile: Dockerfile-cucumber
+</code></pre></div></div>
+
+<p>Running docker-compose with the option <em>–exit-code-from</em> lets Jenkins know about the outcome of the tests. A non-zero exit code means failure.</p>
+
+<h2 id="deployment-pipeline">Deployment Pipeline</h2>
+<p>I created a project at GitHub which contains this Jenkinsfile:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pipeline {
+  agent any
+  
+  stages {
+    stage("Pull") {
+      steps {
+        withCredentials([usernamePassword(credentialsId: 'docker-credentials', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) {
+          sh "ssh production.local docker login -u ${USERNAME} -p ${PASSWORD}"
+          sh "ssh production.local docker pull snscaimito/ledger-service:latest"
+        }
+      }
+    }
+    stage("Run") {
+      steps {
+          sh "scp docker-compose.yml production.local:docker-compose.yml"
+          sh "ssh production.local docker-compose up -d"
+        }
+    }
+  }
+}
+</code></pre></div></div>
+
+<p>There is also the docker-compose.yml which gets copied over to the production.local virtual machine:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>version: '3'
+services:
+  ledger-service:
+    image: snscaimito/ledger-service:latest
+    ports:
+     - "9080:8080"
+    environment:
+    - SPRING_PROFILES_ACTIVE=production
+    links:
+    - ledger_db
+  ledger_db:
+    image: mariadb:latest
+    environment:
+    - MYSQL_ROOT_PASSWORD=xxxx
+    - MYSQL_DATABASE=ledger
+</code></pre></div></div>
+
+<h2 id="how-do-i-use-it">How do I use it</h2>
+<p>As I travel around a lot and don’t like to maintain a continuously running server somewhere on the Internet I have two virtual machines on my laptop. One is called <code>build.local</code> and the other is <code>production.local</code>. The first one runs Jenkins and the other one is my production system. This is mainly an experiment so it doesn’t matter that “production” is just a local virtual machine. I can host it somewhere later and the setup still will be the same. So that is fine for now.</p>
+
+<p>On my laptop I run Eclipse to edit my source files, then push to GitHub and trigger the Jenkins pipeline manually with the click of a button.</p>
+
+<p>Once I want to update my production system I push another button and the deployment pipeline performs the work.</p>
+
+					<table class="postfooter" style="width: 100%">
+					<tr>
+						<td style="text-align: left; width: 33%"><a href="/2017/11/17/fixing-fence-temporarily.html">Previous</a></td>
+						<td style="text-align: center; width: 33%">30 Dec 2017</td>
+						<td style="text-align: right; width: 33%"><a href="/2017/12/31/building-subfloor.html">Next</a></td>
+					</tr>
+					</table>
+					<p>This article has been posted to social media sites. There might be comments. Just follow the links:</p>
+					<div>
+						<a class="social-blogging" service="twitter" href="https://twitter.com/snscaimito"><img src="/img/Furry-Cushion-Twitter_48.png" /></a>
+						<a class="social-blogging" service="activityPub" rel="me" href="https://techhub.social/@snscaimito"><img src="/img/mastodon.svg" width="48" /></a>
+					</div>
+				</div>
+			</div>
+			<div class="span3">
+        <div class="sidebar">
+        	<p class="section">About this article</p>
+          <p>Published: December 30, 2017</p>
+					<p>Posted in:
+						
+							<a class="categoryLink" href="/category/software_development.html">software_development</a>
+						
+					</p>
+          
+        </div>
+				<div class="sidebar">
+	<p class="section">About me</p>
+	<p>Hello! My name is <a href="/">Stephan Schwab</a>.</p>
+			<a href="/"><img src="http://www.gravatar.com/avatar/663d11426b0a187ddac59f8c17ce61b4?s=90" class="align-left"/></a>
+		<p>As International Software Development Coach and Consultant I help CEOs and Department Leaders to <strong>improve</strong> <strong>value creation</strong> and <strong>cohesion</strong> within their organization. The outcome will be higher <strong>quality</strong>, <strong>customer delight</strong> and <strong>more revenue</strong>.</p> 
+		
+		<p>Learn about <a href="/resume/">my professional experience</a> since 1986.</p>
+    <span style="clear:both; float:none"/>
+
+	<p class="section">Professional Services</p>
+	<p>I'm fluent in these languages:</p>
+	<p align="center">
+		<a href="/category/en.html"><img src="/img/language-flags/32x32/flag_rotate-02.png"></a>
+		<a href="/category/de.html"><img src="/img/language-flags/32x32/flag_rotate-03.png"></a>
+		<a href="/category/es.html"><img src="/img/language-flags/32x32/flag_rotate-12.png"></a>
+	</p>
+	<p align="center">
+		<small>
+			<a href="/category/en.html">English</a>
+			<a href="/category/de.html">German</a>
+			<a href="/category/es.html">Spanish</a>
+		</small>
+	</p>
+	<div class="no-print-sidebar">
+		<p>Scrum Pair-Coaching to develop technical competence:</p>
+		<p align="center">Details in <a href="/en-pair-coaching-scrummaster.html">English</a>, <a
+				href="/de-pair-coaching-scrummaster.html">Deutsch</a></p>
+
+		<p><strong>Resources for new clients</strong>:</p>
+		<p align="center"><a href="/resources/de-new-client.html">Deutsch</a></p>
+	</div>
+
+	<div class="no-print-sidebar">
+		<p class="section noprint">Search</p>
+		<form method="get" action="http://www.google.com/search">
+			<p align="center"><input type="text" name="q" maxlength="255" value="" style="width: 180px" /></br>
+				<input type="submit" value="Google Search" class="btn btn-primary btn-mini" />
+			</p>
+			<input type="hidden" name="sitesearch" value="http://www.stephan-schwab.com" />
+		</form>
+
+		<p class="section">Special&nbsp;Content</p>
+		<ul class="special-content">
+			<li><a href="/atdd/">Acceptance Test-Driven Development</a></li>
+			<li><a href="/software-design/">Software Design</a></li>
+			<li><a href="/sddm.html">Software Development Decision Making</a></li>
+		</ul>
+		<ul class="special-content">
+			<li><a href="/coaching-future-masters.html">Coaching future masters</a></li>
+		</ul>
+		<ul class="special-content">
+			<li><a href="/farmstead.html">Developing a farmstead in Andalucia, Spain</a></li>
+			<li><a href="/house/">Building a house, Spain</a></li>
+			<li><a href="/airtravel/">Business travel with light aircraft</a></li>
+			<li><a href="/horses/">Horses</a></li>
+			<li><a href="/panama-farm.html">Rainforest Farm, Panama</a></li>
+			<li><a href="/galleries/">Photo Galleries</a></li>
+		</ul>
+		<ul class="special-content">
+			<li><a href="/reading-list.html">My reading list</a></li>
+		</ul>
+
+		<p class="section">Highlights of the Year</p>
+		<ul class="special-content">
+			
+			<li><a href="/2016/12/27/highlights-of-2016.html">2016</a></li>
+			
+			<li><a href="/2015/12/31/highlights-2015.html">2015</a></li>
+			
+			<li><a href="/2014/12/31/highlights-2014.html">2014</a></li>
+			
+			<li><a href="/2013/12/31/hightlights-2013.html">2013</a></li>
+			
+			<li><a href="/2012/12/31/highlights-2012.html">2012</a></li>
+			
+			<li><a href="/2011/12/31/highlights-2011.html">2011</a></li>
+			
+			<li><a href="/2010/12/31/highlights-2010.html">2010</a></li>
+			
+			<li><a href="/2009/12/31/highlights-2009.html">2009</a></li>
+			
+			<li><a href="/2008/12/31/highlights-2008.html">2008</a></li>
+			
+			<li><a href="/2007/12/31/highlights-2007.html">2007</a></li>
+			
+			<li><a href="/2006/12/31/highlights-2006.html">2006</a></li>
+			
+		</ul>
+
+		<p class="section">Living on planet Earth</p>
+		<ul class="special-content">
+			<li><a href="/dominican-republic.html">Dominican Republic</a></li>
+			<li><a href="/china.html">China</a></li>
+			<li><a href="/germany.html">Germany</a></li>
+			<li><a href="/panama.html">Panama</a></li>
+			<li><a href="/spain.html">Spain</a></li>
+			<li><a href="/usa.html">USA</a></li>
+		</ul>
+
+		<p class="section">Open Source Projects</p>
+		<ul class="special-content">
+			<li><a href="/ale-news.html">Development of ALE News</a></li>
+			<li><a href="https://github.com/snscaimito/RAutomation">RAutomation</a></li>
+			<li><a href="/open-source.html">Other contributions to Open Source</a></li>
+		</ul>
+
+		<p class="section">Stay in touch</p>
+		<p align="center">
+			<a href="/rss.xml"><img src="/img/Furry-Cushion-RSS_48.png" /></a>
+			<a href="https://twitter.com/snscaimito"><img src="/img/Furry-Cushion-Twitter_48.png" /></a>
+			<a href="http://www.linkedin.com/in/stephanschwab"><img src="/img/Furry-Cushion-LinkedIn_48.png" /></a>
+		</p>
+		<p align="center">
+			<a rel="me" href="https://techhub.social/@snscaimito"><img src="/img/mastodon.svg" width="48" /></a>
+			<a href="https://bsky.app/profile/snscaimito.bsky.social"><img src="/img/Bluesky_butterfly-logo.svg"
+					width="65" /></a>
+			<a href="https://www.tiktok.com/@snscaimito"><img src="/img/tiktok-icon-white-1-logo-svgrepo-com.svg"
+					width="48" /></a>
+		</p>
+		<p align="center">
+			<a href="mailto:sns@caimito.net?subject=From%20stephan-schwab.com">sns@caimito.net</a>
+		</p>
+
+		<p class=" section">My Books
+		</p>
+		<p align="center"><a href="https://leanpub.com/activitycentereddesign"><img
+					src="/img/smarter-software-with-activity-centered-design.jpg" /></a></p>
+		<p align="center"><a href="https://leanpub.com/essays-on-software-development-2012"><img
+					src="/img/essays-on-software-development-2012.png" /></a></p>
+
+		<p class="section">Everything</p>
+		<p>See a listing of <a href="/all-posts.html">all posts</a> on this site.</p>
+	</div>
+</div>
+			</div>
+		</div>
+	</div>
+		<script src="//use.typekit.net/npx1yoc.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
+	
+	<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-35257032-1', 'auto');
+	  ga('require', 'displayfeatures');
+	  ga('send', 'pageview');
+
+	</script>
+	<script type="text/javascript"> 
+		jQuery(document).ready(function(){ 
+			jQuery("#gallery").unitegallery(); 
+		}); 
+	</script>
+	
+	<script>
+		$(document).ready(function() {
+			$('.social-blogging').each(function() {
+				const service = $(this).attr('service');
+				const url = `/api/posted-on/${service}?article=${window.location.pathname}`;
+
+				fetch(url)
+					.then(response => response.json())
+					.then(data => {
+						console.log(data)
+						$(this).attr('href', data.postUrl)
+					})
+					.catch(error => console.error('Error:', error));
+			})
+		})
+	</script>
+
+</body>
+</html>

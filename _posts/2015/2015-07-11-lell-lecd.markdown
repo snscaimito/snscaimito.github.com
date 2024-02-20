@@ -1,0 +1,83 @@
+---
+layout: post
+title: Mountain trip from Sabadell to La Cerdanya
+tags:
+- en
+- VFR
+categories:
+- aviation
+---
+As I was visiting [Saket Bivalkar](http://saketbivalkar.com) in Barcelona he suggested to make a short trip to the mountain retreat [La Cerdanya](https://en.wikipedia.org/wiki/Cerdanya). The place is famous amongst [glider pilots](http://www.aerodromlacerdanya.cat/flypyrenees/lacerdanya-activities.html) and all kinds of other outdoor activities during summer and winter time.
+
+The idea was to go there, have lunch and see the surrounding mountains from above. Saket has been there before with his aviation instructor in a Cessna 150. The flight is a bit special because one has to cross a mountain ridge. Given the ambient temperature and the high elevation that is usually a challenge for small aircraft.
+
+## Sabadell (LELL) to La Cerdanya (LECD)
+This time the flight was planned and performed VFR. That meant to stay below the Barcelona TMA class D airspace, be high enough above the terrain and avoid restricted areas.
+
+![IMG 0031](/img/posts/2015-07-LELL-LECD/IMG_0031.PNG)
+
+On the inbound flight to La Cerdanya I didn't want to become distracted by taking pictures. Better to focus well on my first VFR flight since getting my Instrument Rating and on my second flight in Spain ...
+
+La Cerdanya is a beautiful place and the weather was just splendid.
+
+![LELL LECD 1](/img/posts/2015-07-LELL-LECD/LELL-LECD-1.jpg)
+
+Some glider pilots were preparing their airplanes.
+
+![LELL LECD 2](/img/posts/2015-07-LELL-LECD/LELL-LECD-2.jpg)
+
+The nearby village is called Alp and can easily be mistaken for a place somewhere in Switzerland or the French Alps.
+
+![LELL LECD 3](/img/posts/2015-07-LELL-LECD/LELL-LECD-3.jpg)
+
+Saket, despite being from India, does speak fluent Spanish and [Catalan](https://en.wikipedia.org/wiki/Catalan_language), which is the language the people in the region around Barcelona prefer. Catalan sounds like a mix between Spanish and French. Most street signs in the region and the city of Barcelona are written in Catalan and not in Spanish. That makes the whole region bilingual. And many well educated people who live there speak at least three languages with English as the most common foreign language. I expect that in the parts close to French they might even speak four languages just so.
+
+It definitely is an interesting part of Europe :-)
+
+
+## La Cerdanya (LECD) to Sabadell (LELL)
+On the way back I wanted to try something different. Inbound we came over the mountain and lost altitude with a wide turn to the West before returning to the airfield. This time the idea was to follow the valley after takeoff.
+
+The turbo-normalized engine performed very well. The situation was "hot and high" and we were heavy too. Takeoff roll felt normal and during climbing out the usual climb rate of 1,000+ feet per minute felt quite good. And that with 120 kts IAS. Field elevation was about 3,600ft.
+
+I found a video of a takeoff in a Tecnam P92. At about the 5 minute position in the video you can see a hill in runway direction. With the SR22TN we passed that hill within seconds after takeoff and at a comfortable distance to the ground.
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/r75T5ZiRiOc" frameborder="0" allowfullscreen></iframe>
+</center>
+
+![IMG 0032](/img/posts/2015-07-LELL-LECD/IMG_0032.PNG)
+
+But before takeoff one has to do some administrative things. At La Cerdanya that is easy. In the picture you can see Saket filling out a form and putting the landing fee (less than 5 €) into an envelope that goes into a slot in the desk. When we arrived and departed there was nobody there. The airport is mostly unattended and pilots coordinate their movements amongst themselves on the airport frequency.
+
+![LELL LECD 4](/img/posts/2015-07-LELL-LECD/LELL-LECD-4.jpg)
+
+However, I did screw up a bit :-)
+
+Although my aircraft has the turbo-normalized system, which basically keeps the engine on mean-sea-level (MSL) I believed - probably based on earlier training and theory classes stuck in my head - I was supposed to lean properly for the high-altitude takeoff. I paid for that mistake with very high cylinder heat temperatures (CHT) that were in the yellow and prompted a warning. Once I returned the mixture lever to full rich and with increasing airspeed the CHTs came down to the usual levels.
+
+The performance was not affected by that mistake. Eight minutes after takeoff we had this view from 7500ft:
+
+![LELL LECD 5](/img/posts/2015-07-LELL-LECD/LELL-LECD-5.jpg)
+
+We were then crossing over the ridge turning left towards Sabadell. To the right one can see ski slopes near the top of the mountain.
+
+![LELL LECD 6](/img/posts/2015-07-LELL-LECD/LELL-LECD-6.jpg)
+
+The good thing about not flying alone is that once in a while people manage to take a good picture of myself. This one turned out quite good as you can see the inside of the aircraft including the instruments quite well. In this case the outside scenery is clearly visible at the same time.
+
+![LELL LECD 7](/img/posts/2015-07-LELL-LECD/LELL-LECD-7.jpg)
+
+Here are the ski slopes again. This place is pretty close to Barcelona. I have no idea at the moment but based on a one time visit in October Barcelona still had a very pleasant temperature for putting the feet into the water at the beach and walk outside in just a T-Shirt. For skiing to work the temperature has to be consistently below 0C. The mountains around La Cerdanya are pretty high, close to 10,000ft (3,000m) and there were still a few remnants of snow up there.
+
+![LELL LECD 8](/img/posts/2015-07-LELL-LECD/LELL-LECD-8.jpg)
+
+Minutes later we passed by this artificial lake.
+
+![LELL LECD 9](/img/posts/2015-07-LELL-LECD/LELL-LECD-9.jpg)
+
+Unfortunately the iPad shut itself down after 2/3 of the flight due to heat. Usually I put the ventilation with pointed towards it but the right-hand seat passenger also wanted some air. The outside temperature on the ground was above 35C and in the air it wasn't much cooler. At that point we were already down to 4,000ft. We were able to see the airport of Sabadell, passed the N reporting point and came in on a long final for landing.
+
+On the inbound flight to La Cerdanya we had a block time of 43 minutes. Out of which the actual flight time was just 37 minutes.
+
+Back to Sabadell it was 39 minutes block time and the flight was 36 minutes. At La Cerdanya there was no need to wait for other traffic.

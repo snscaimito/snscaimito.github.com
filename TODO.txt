@@ -1,0 +1,12 @@
+Bilder finden:
+http://localhost:4000/2007/03/19/java-stack-for-all-purpose-development.html
+http://localhost:4000/2007/11/24/cram-the-team-into-a-small-space-or-let-them-think.html
+http://localhost:4000/2008/02/05/thoughts-on-the-ideal-project-team.html
+
+
+
+Slides findedn:
+http://localhost:4000/2007/11/22/an-agile-development-organization-in-miami-florida.html
+http://localhost:4000/2007/11/22/an-agile-development-organization-in-tampa-florida.html
+
+

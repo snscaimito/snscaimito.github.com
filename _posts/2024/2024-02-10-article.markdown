@@ -1,0 +1,30 @@
+---
+layout: post
+title: Automated posting from blog to social networks
+tags:
+- en
+categories:
+- software_development
+hashtags:
+- social
+- networks
+- blogging
+- software_development
+---
+Now that the landscape of social networks has widened I've thought a bit about how I can keep my content on my website and still reach people on the different networks. The result is a small JavaScript program that allows me to publish content from my blog, which was established in 2006, to X/Twitter, Mastodon and soon other networks.
+
+My blog exposes an RSS feed. RSS is a way to syndicate content from different sources and is based on XML. The social networks all have an API that allows automated posting.
+
+So I signed up for the developer program at X/Twitter and registered an application there in order to obtain access credentials. I did the same at the Mastodon instance I have an account at.
+
+My little program now loops through the items in my own RSS feed and creates a post for each network. It has to shorten the text to the character limit each network imposes and it also adds some hashtags if present in my blog article. Then it adds a link to the full article and posts it.
+
+Before I had to make a choice that I never liked. I started to use the most promising social network to participate and stopped writing blog articles. There is more reach and more interaction on a social network with millions of users than one could ever achieve on a humble blog that only a few people know about. The downside is that now one's own content is now being given away to the social network and who knows what will happen to it over time.
+
+Some social networks would like to convince people to create on their platform and so they offer a financial incentive and pay creators for their time and content. That's probably why Twitter - now X - increased the character limit so that people can publish actual full-length articles on their platform. I am not after the money but instead my motivation is to share and reap a non-monetary benefit.
+
+With my new script I can now write an article like this one, keep it on my own platform - my blog - and notify all my followers on all the social networks I like to participate in. If I use hashtags I might even reach more people beyond my followers. They get to see a teaser of the article and if interested they will click through to this website where they can read the whole article and maybe also discover more content of my own.
+
+There are commercial services to achieve a similar thing and I have used some of them before. But nothing beats the comfort and ease of use I have now. I just write my article, do a `git push` and I'm done. It's all automated and leaves me more time for other things.
+
+Obviously I want and need to participate in the social networks I post to. That way I can answer to replies or comments and also see what's being talked about. It's not a one-way street.

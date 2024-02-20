@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>Stephan Schwab</title>
+		<description>As International Software Development Coach and Trainer I offer to CEOs and Department Leaders technical and organizational team coaching as a professional service to improve the value creation chain within their organization and to improve the quality of the product they are making.</description>		
+		<link>http://0.0.0.0:4000</link>
+		<language>de-de</language>
+		<atom:link href="http://0.0.0.0:4000/agile-de.xml" rel="self" type="application/rss+xml" />
+		
+			
+				<item>
+					<title>Bedroht das Digitale die deutsche Wirtschaft oder besteht die Bedrohung aus etwas anderem?</title>
+					        
+					
+						<description>In verschiedenen Zeitungen und Magazinen wird derzeit von der digitalen Bedrohung der deutschen Wirtschaft gesprochen. Mir scheint, daß es da überhaupt nicht um eine digitale Bedrohung geht. Einige Unternehmen haben einfach früher und besser als andere gelernt mit Komplexität umzugehen. Es sind Technologieunternehmen, die digitale Produkte entwickeln und deswegen früher als andere eine Notwendigkeit zum Lernen hatten.
+
+</description>
+					
+					<pubDate>Mon, 16 Mar 2015 00:00:00 -0500</pubDate>
+					<link>http://0.0.0.0:4000/2015/03/16/bedroht-das-digitale-die-deutsche-wirtschaft-oder-besteht-die-bedrohung-aus-etwas-anderem.html</link>
+					<guid isPermaLink="true">http://0.0.0.0:4000/2015/03/16/bedroht-das-digitale-die-deutsche-wirtschaft-oder-besteht-die-bedrohung-aus-etwas-anderem.html</guid>
+					<author>sns@caimito.net</author>
+				</item>
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+	</channel>
+</rss>

@@ -1,0 +1,22 @@
+---
+layout: post
+title: Highlights of 2014
+tags:
+- highlight_of_the_year
+---
+
+Inspired by the stories about pilots chasing the demon in the sky when trying to break the sound barrier I wrote in **March** about [how to keep the demon of management at bay](/2014/03/27/how-to-keep-the-demon-of-management-at-bay.html). Instead of chasing a demon I, once again, tried to combine the utilitarian with the beautiful and used [a rented Cirrus SR20 to go to a meeting in Dortmund and then work two days in Berlin](/2014/03/29/trip-edlw-edaz.html) without the fatigue other forms of transportation would have led to.
+
+In **April** I went to Philadelphia for the practical part of the training to obtain my instrument rating. On one training flight I was given the [grand tour of the city flying the whole time inside clouds](/2014/04/04/imc-tour-of-philadelphia.html). Pretty impressive! Another highlight was a flight from Philadelphia to [Boston crossing overhead New Yorks John F. Kennedy airport](/2014/04/10/klom-kbed-klom.html). There I was inside of the busiest airspaces of the world. Thanks to Live ATC I was also able to find a recording of my own radio transmissions and put it at the end of the [blog post](/2014/04/10/klom-kbed-klom.html). The training culminated with the practical exam the day before my return flight to Germany and since then I am an [instrument rated pilot](/2014/04/13/instrument-rated-pilot.html). Right after I returned to Germany I started to put my new skill to good use and began to do [business travel](/2014/04/29/ifr-edfc-edaz.html) in a rented Cirrus SR22.
+
+At the beginning of **May** my family and I had to see something 255 km south of where we live. By car that trip would have been long but we were able to fly IFR to Freiburg. My new ability made this an [afternoon trip](/2014/05/02/ifr-edfc-edtf-edfc.html) instead of a very long day on the Autobahn. Because there is so much to learn from flying IFR outside the training environment I [documented every of my weekly flights](/category/aviation.html) in May. One highlight was a [night landing at Kassel airport](/2014/05/14/ifr-edaz-edvk.html) and another a very short trip to the [Agile Cologne](/2014/06/13/agile-cologne-2014.html) conference.
+
+As we have lived in places like North and South America where people usually have a *just do it* attitude I'm still trying to adjust a bit to German culture and behavior. Now that I'm a pilot again and with an instrument rating that allows me to get more utility out of flying, I wrote a piece in German about [asking for permission](/2014/05/18/um-erlaubnis-fragen.html) when flying. I had a few conversations with people in Germany who were under the impression that one cannot simply go flying from one city to another. It is good that it is untrue, as on another occasion we were able to do a [three location trip in just one day](/2014/05/21/gar-nicht-anders-moeglich.html) (in German).
+
+In **June** I explored flying a bit higher and [how to use the onboard oxygen system](/2014/06/11/this-time-with-oxygen.html). I also had a wonderful opportunity to [fly to the Agile Cologne](/2014/06/13/agile-cologne-2014.html) open space conference. This was also the last flight for this year, as I was preparing to embark on a [6 months long coaching engagement in China](/china.html).
+
+That engagement itself is a highlight so I just refer to my page about [living and working in China](/china.html) for the details of what happened between **July** and **December**.
+
+Close to the end of our stay in China I started to shift my thoughts a bit back to Aviation and found some interesting inspiration in [Aeronautical Decision Making](/2014/11/30/aeronautical-decision-making-for-software-developers.html) and am since trying to transfer some of the learning from Aviation to Software Development.
+
+{% include highlightOfTheYear.html %}

@@ -1,0 +1,66 @@
+---
+layout: post
+title: ALE2013 - First leg Egelsbach, Germany, to Ostrava, Czech Republic
+tags:
+- en
+- VFR
+- ale2013-vfr
+categories:
+- travel
+- aviation
+---
+For the third time the ALE network organized its yearly conference. Last year it took place in Barcelona, Spain. This time a location in Eastern Europe was chosen: Bucharest, Romania.
+
+After I regained my pilot license earlier this year and were already able to use it for perfoming smaller business trips within Germany I wanted to try something bigger. The idea was to travel to [ALE2013](http://ale2013.alenetwork.eu) in Bucharest. From a pure time and distance perspective that is a trip of less than 6 hours flight time. The route would cross Austria, call for a landing in Hungary to refuel and eat something and then continue on to Romania with the final landing in Bucharest.
+
+As the concept of ALE conferences is to also bring your family along so they can participate in the kids & spouse program the idea was to keep it slow. Originally we had planned to travel from Egelsbach, Germany, to Sarmellek, Hungary. There we would spend the night and continue the next day to Bukarest. That would have been two flights of less than 3 hours each and a night to rest between them.
+
+Unfortunately, the weather called for a change of plans. The forecast for Monday showed low level clouds over eastern Austria. That would have made it difficult to reach Sarmellek for a pilot without an instrument rating. So we decided to maybe start earlier and accept a detour towards the easter part of the Czech Republic. This is how the forecast for Saturday looked.
+
+![Weather forecast Czech Republic](/img/posts/aviation-2013-08/LKMT-forecast-2013-08-24 09.39.26.png)
+
+We would be coming in via Pilsen (PLZ) and then make it to Brno (BRN). The sky would be mostly blue without clouds with some scattered cumuli around noon. However, when looking for accomodation for the night it turned out that there was a motorcycle event in Brno and all hotels were fully booked.
+
+So we decided to fly to [Ostrava](http://en.wikipedia.org/wiki/Ostrava) instead. You can see the full route flown below. Just scroll West to East. The little circle north of the Tabor airport was to get us down from FL95 (9,500ft MSL) below the  clouds for the approach into Ostrava.
+
+<iframe width="700" height="390" src="/img/posts/aviation-2013-08/EDFE-LKMT-route.png"></iframe>
+
+Coming from Frankfurt-Egelsbach we crossed into the Czech Republic at FL75 over the waypoint VEMUT. Enlarge the image by clicking on it. You can see the the VEMUT waypoint in white letters on the aircraft's map display below the little airplane symbol.
+
+<a target="_blank" href="/img/posts/aviation-2013-08/EDFE-LKMT-4.jpg"><img src="/img/posts/aviation-2013-08/EDFE-LKMT-small-4.jpg"></a>
+
+In case you are wondering... The aircraft is equipped with two GPS receivers and has two ways to display a map. In addition to that I use an iPad application called [SkyDemon](http://www.skydemon.aero) for flight planning purposes. It does have a flight mode and then acts as a moving map display. That adds to my situational awareness and it also takes care of logging flight time. Another feature is to put breadcrumbs onto the map. The result is the map with the flown route shown above.
+
+After a while the clouds were a bit too high to stay at FL75 so we had to climb to FL95. I prefer to fly above the clouds, if possible. There is less turbulence up there, which is better for passengers, and of course the view is great. However, flying VFR without an instrument rating above the clouds comes with a slight risk. If at some point the clouds form a solid layer, then one would be trapped up there. So it is a good idea to watch them closely to make sure that there is enough space between them to descend below the clouse base without touching them or getting to close.
+
+<a target="_blank" href="/img/posts/aviation-2013-08/EDFE-LKMT-2.jpg"><img src="/img/posts/aviation-2013-08/EDFE-LKMT-small-2.jpg"></a>
+
+From about 2900m we were able to spot this lake with boating activity going on.
+
+<a target="_blank" href="/img/posts/aviation-2013-08/EDFE-LKMT-3.jpg"><img src="/img/posts/aviation-2013-08/EDFE-LKMT-small-3.jpg"></a>
+
+The [Ostrava airport](https://www.you-fly.com/airport/lkmt/Ostrava) is a former military base now being used for some scheduled flights. When we arrived there was no traffic in the area. Here is a close-up of the approach part of the flight log:
+
+![Ostrava Approach](/img/posts/aviation-2013-08/LKMT-approach.png)
+
+The airport is surrounded by [class D airspace](http://en.wikipedia.org/wiki/Airspace_class). The outer section of it starts at 4000 ft MSL and goes all the way up to FL125. The inner section begins at 1000 ft AGL. Inside of that is the regular CTR (control zone), which is also class D airspace and starts at ground level up to 5000 ft MSL. To enter class D airspace the pilot requires ATC clearance. The outer airspace is owned by Ostrava Approach while the inner CTR is owned by Mosnov Tower. Mosnov is the actual name of the airport.
+
+Flying VFR means you are not really inside the ATC system. A VFR flight is uncontrolled and you can basically do whatever you want while staying clear of restricted areas and controlled airspace. There is an information service available to VFR pilots to get weather information or to request the status of a restricted area. You get in touch with real ATC when you request to cross controlled airspace or to land at a controlled airport.
+
+So in the case of the approach into Ostrava I did expect to call Ostrava Approach and had planned the route to the BAXEV waypoint (a little red triangle with the name next to it). En route I was in contact with the information service Praha Information. When we were near BAXEV Praha told me to contact Ostrava Approach - so that worked out very well. Ostrava then issued an ATC clearance "direct OTA". OTA is the identifier for the VOR beacon located at the airport. Nobody wanted me to report any of the visual reporting points shown on the map. When I was getting closer to the CTR I was told to contact Mosnov Tower and then it was simply "report final runway 04" followed by "cleared to land". The 3500m long runway looked great with the width of 63m making it even more impressive. Our little Cirrus SR20 did not require a lot of room to slow down and we left the runway at the first taxiway.
+
+![G-OUNI parked at Ostrava apron](/img/posts/aviation-2013-08/EDFE-LKMT-1.jpg)
+
+While taxing to the parking position I called for fuel and we were greated by a follow-me car, the crew bus and the fuel truck. It was a very pleasant arrival.
+
+__Flight data__
+
+|  |  |
+| ----------------------------------- | -------------------------------- |
+| Flight duration                     | 3 hrs 1 min |
+| Refueled AVGAS 100LL                | 112 liters @ 75.45 CZK incl. VAT |
+| Airport fees with overnight parking | 2,202.20 CZK incl. VAT |
+
+That makes it 85.55 EUR for the airport and 328.25 EUR for the fuel.
+
+{% include ale2013-vfr-flight-footer.html %}

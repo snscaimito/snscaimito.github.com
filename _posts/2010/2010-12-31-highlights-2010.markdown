@@ -1,0 +1,26 @@
+---
+layout: post
+title: Highlights of 2010
+tags:
+- highlight_of_the_year
+---
+**January** started with a [test drive of the new offroad trailer](/2010/01/04/going-off-the-road-with-our-homemade-trailer.html), [putting doors on it](/2010/01/05/doors-for-the-offroad-trailer.html) and we also gave it a [nice paint job](/2010/01/07/nice-doors-and-final-paint-job-for-the-offroad-trailer.html) to match the colors of the Jeep that hauls it. Another project was the [construction of a wood rickshaw](/2010/01/09/wood-rickshaw.html) to be used in a job at a teak plantation. The offroad trailer was used to [move the rickshaw to the site and then the rickshaw was used to harvest teak](/2010/01/10/very-pleased-with-the-wood-transport-rikshaw.html). During more exploration to find an access road we had to use the [Jeep to haul away a tree](/2010/01/26/hauling-a-tree-with-the-jeep.html). We then made another [attempt on horseback to find a better way](/2010/01/27/a-path-on-top.html) and also find a good river crossing when we looked at the [last 300m of the trail to the farm](/2010/01/28/the-last-300-meters.html). Despite the successes there was also the [analysis of the legal problems with Right of Possession](/2010/01/30/analysis-of-legal-problems-with-right-of-possession.html).
+
+Nonetheless in **February** I decided to go ahead and [start building a dirt road in the jungle](/2010/02/02/we-are-building-a-dirt-road-in-the-jungle.html) so that we can drive to the land instead of walking or have someone bring us the horses to the village. The village is where the existing dirt road ends. [Progress was good](/2010/02/04/progress-on-our-dirt-road.html) and eventually we could go [where no car has gone before](/2010/02/07/where-no-car-has-gone-before-what-a-great-feeling.html). Later there was another big tree to remove and again the [Jeep served as a logging tool](/2010/02/13/jeep-as-logging-tool.html). As part of the attempts to resolve the legal issues we also had a meeting with the district administator from Chepo and went with him to see one more alternate path to the farm [crossing one of the two rivers further upstream](/2010/02/15/crossing-the-brazo-de-chuluganti-river.html) and using a [dirt road he had built](/2010/02/18/meeting-with-the-district-administrator-to-complete-the-road.html). If you own cattle, you need to put your brand on them. So we [registered our brand](/2010/02/17/registering-our-brand.html) with the local authorities in Chepo.
+
+As outdoor activities with horses turned out to be so much fun and I had the opportunity to ride a Peruvian Paso horse before, in **March** I got two of these fine animals named [Topacio and Diadema](/2010/03/01/fine-peruvian-horses.html). They were in great shape and looking good but after relocating them just 30km and providing them a slightly different food, they [developed a health issue](/2010/03/07/30-km-and-different-food-can-have-a-dramatic-effect-on-a-horses-health.html) which had to be treated. We also constructed a [temporary horse stable](/2010/03/10/building-a-temporary-horse-stable.html) to provide them shelter. During one of the tours we made with these horses we discovered they were [city girls](/2010/03/23/city-girls-too-afraid-of-creeks.html) and had to get trained to get used to rough terrain. In another attempt to resolve the legal issues [I took the regional administrator of the authority *reforma agraria* over the new dirt road to the farm](/2010/03/17/right-of-possession-and-local-authorities-that-fear-to-act.html) but he was too afraid to act and the case went on to the national director.
+
+By **April** the two Peruvia Paso mares were [mastering rough terrain very well](/2010/04/04/peruvian-mares-mastering-rough-terrain-very-well.html). I was still working remotely as a team member on a software project from our home at Altos del Maria in the mountains of Western Panama. To improve my Internet connection I set out to [built a transmitter](/2010/04/12/building-a-transmitter-over-the-weekend.html) to bring a connection with much higher quality and speed to the place. 
+
+Unfortunately by the end of April I had a horse accident and resumed blogging in **May** when I was [teaching remotely Ruby on Rails with just one useable hand](/2010/05/19/teaching-one-handed-ruby-on-rails-after-an-accident.html).
+
+In **August** the [plans to set up a farm in the rainforest of Panama were put on hold](/2010/08/06/farm-plans-on-hold-due-to-authority-dragging-their-feet.html). It turned out to be impossible to resolve the legal issues.
+
+I also got involved into a new project at a new client in Columbus, Ohio, and in **October** wrote about [programmers having a dream](/2010/10/17/cucumber-when-programmers-have-a-dream.html). While waiting on my flight at Columbus airport I [jokingly created my own testing DSL in Java](/2010/10/31/build-your-own-testing-dsl.html).
+
+
+## Photo Galleries
+
+[Transmitter Altos Del Maria](/galleries/TransmitterAltosDelMaria/) shows the construction of a solar and wind powered transmission tower for Internet access at a small settlement in Western Panama.
+
+{% include highlightOfTheYear.html %}

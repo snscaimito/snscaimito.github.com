@@ -1,0 +1,32 @@
+---
+layout: post
+title: Highlights of 2011
+tags:
+- highlight_of_the_year
+---
+As part of my new engagement at Nationwide Insurance in Columbus, Ohio, in **January** I contributed a major portion of code to [RAutomation](https://github.com/jarmo/RAutomation) and wrote about [Acceptance Test Driven Development for Windows](/2011/01/21/acceptance-test-driven-development-for-windows.html).
+
+Working with my new client provided a lot of opportunities to develop my new role as Software Development Coach and I wrote in **Feburary** about how [Acceptance Test Driven Development brings teams together](/2011/02/26/acceptance-test-driven-development-brings-teams-together.html) and how you can [tell real stories with it](/2011/02/18/telling-real-stories-in-acceptance-test-driven-development.html).
+
+**March** started with more activity about Acceptance Test Driven Development writing about the [benefits](/2011/03/08/benefits-of-acceptance-test-driven-development.html), what [smells can exist in Cucumber features](/2011/03/09/smells-in-cucumber-features-2.html) and what [other mistakes](/2011/03/11/dont-tie-cucumber-features-11-to-stories.html) one can make. I also discovered that using [ATDD will change how you organize your project](/2011/03/19/acceptance-test-driven-development-changes-how-you-organize-your-project.html). And at home in Panama I was renting a piece of land for the Peruvian Paso horses and i[mproved the water supply](/2011/03/30/water-is-essential-for-new-pasture-during-dry-season.html) there.
+
+Living in the rainforest allows you to discover a few [remarkable insects like the one](/2011/04/01/remarkable-insect.html) I found in **April**.
+
+**May** had a lot of professional activity. Someone linked on Twitter to a scientific paper that presents some doubt with regards to the value of TDD and [I objected](/2011/05/20/missed-opportunity-scientific-paper-on-tdd.html). In another commentary piece I was wrote about how [pseudo scientific management kills innovation and creativity](/2011/05/20/pseudo-scientific-management-kills-innovation-and-creativity.html). Coaching teams at a large client prompted me to ask ["Why does it always have to be a step by step process?"](/2011/05/22/why-does-it-always-have-to-be-a-step-by-step-process.html) in software development. Then I showed the [use of a walking skeleton in Acceptance Test Driven Development](/2011/05/23/use-of-a-walking-skeleton-in-acceptance-test-driven-development.html) and wrote about the [importance of craftsmanship](/2011/05/27/the-importance-of-craftsmanship.html). 
+
+Some organizations follow the model of the construction industry for their software development efforts and have architects design their software. In **June** I wrote a piece about [embracing complexity instead of architecting it](/2011/06/07/embrace-complexity-dont-try-to-architect-it.html) to show a different point of view. In another article I showed [how to work with ATDD and micro-tests in different testing environments](/2011/06/23/how-to-work-with-atdd-and-micro-tests-in-different-testing-environments.html) and eventually concluded that [estimation creates silos and prevents teams from developing solutions](/2011/06/27/estimation-creates-silos-and-prevents-teams-from-developing-solutions.html). Back in Panama we had just signed the lease on a new house with a [nice view from the front porch onto horses, cows, and the Pacific Ocean](/2011/06/30/horses-cows-and-a-view-to-the-pacific-ocean.html).
+
+In **July** we relocated and the [next morning found a poisenous snake hiding in a moving box](/2011/07/05/snake-hides-in-a-moving-box.html). In Columbus at my client I concluded that [focus on making the committment leads to low quality code](/2011/07/18/focus-on-making-the-commitment-leads-to-low-quality-code.html).
+
+By the end of **August** we had finally achieved, at a small scale, what we aimed for when the farm project started. We had [a paddock right in of the house](/2011/08/20/finally-paddock-right-in-front-of-the-house.html).
+
+By early **December** I decided to take on a new opportunity and we relocated to Ohio in the United States of America. So we [left Panama](/2011/12/04/leaving-panama.html) and sold the Jeep and most of our stuff including all the horses. In Ohio I first [got a little Haflinger](/2011/12/06/max-the-haflinger.html) who was still too young to be ridden but seemed to be a good project horse to learn how to train a horse properly. As I felt the urge to ride and remember how smooth it was to be on a Peruvian Paso, we set out on a [road trip to look at a black Peruvian Paso gelding in Virginia](/2011/12/30/road-trip-4-states-and-a-peruvian-paso-gelding.html).
+
+## Photo Galleries
+
+[Horses in Panama](/galleries/HorsesInPanama/) is about the horses I had while living in Panama.
+
+[Discoveries in Panama](/galleries/DiscoveriesInPanama/) is a mix of pictures that show something that caught my curiosity.
+
+
+{% include highlightOfTheYear.html %}

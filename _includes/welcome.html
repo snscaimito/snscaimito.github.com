@@ -1,0 +1,20 @@
+<div class="row">
+	<div class="span12">
+		{% include featured-categories.html %}
+    <p>&nbsp;</p>
+	</div>
+</div>
+<div class="row">
+	<div class="span9">
+		{% for post in site.posts limit:1 %}
+			<div class="post">
+				<h1>{{ post.title }}</h1>
+				{{ post.content }}
+				<p class="postfooter">{{ post.date | date: "%d %b %Y" }}, <a href="{{ post.url }}#disqus_thread">0 Comments</a></p>
+			</div>
+		{% endfor %}
+	</div>
+	<div class="span3">
+		{% include main-sidebar.html %}
+	</div>
+</div>

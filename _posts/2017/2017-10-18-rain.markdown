@@ -1,0 +1,12 @@
+---
+layout: post
+title: Finally some rain
+tags:
+- en
+categories:
+- farm-life
+- spain
+---
+![Finca 2017 10 18 11 55 32]({{ "/img/posts/2017-10-18/Finca-2017-10-18-11-55-32.jpg" | relative_url }})
+
+After a very long time without rain today the rain came. It rained in the form of showers and dribble for about 24 hours and the temperature dropped to about 16C.

@@ -1,0 +1,580 @@
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Cucumber: When Programmers Have a Dream</title>
+	
+	<link rel="canonical" href="http://0.0.0.0:4000/2010/10/17/cucumber-when-programmers-have-a-dream.html"/>
+	
+	<link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css" />
+	<link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+	<link rel="stylesheet" href="/css/schwab.css" type="text/css" />
+	<link rel="stylesheet" href="/css/print.css" media="print" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed|Sansita:700|Zilla+Slab" rel="stylesheet">
+	
+	<link rel="alternate" type="application/rss+xml" title="Stephan Schwab" href="/rss.xml"/>
+
+	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+	<script type='text/javascript' src='/unitegallery/js/unitegallery.min.js'></script> 
+		
+	<link rel='stylesheet' href='/unitegallery/css/unite-gallery.css' type='text/css' /> 
+	<script type='text/javascript' src='/unitegallery/themes/tiles/ug-theme-tiles.js'></script> 
+
+	<meta property="og:title" content="Cucumber: When Programmers Have a Dream">
+	<meta property="twitter:title" content="Cucumber: When Programmers Have a Dream">
+	<meta property="og:description" content="">
+	<meta property="twitter:description" content="">
+	<meta property="og:type" content="article">
+	<meta property="og:url" content="http://0.0.0.0:4000/2010/10/17/cucumber-when-programmers-have-a-dream.html">
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:site" content="@snscaimito">
+	
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="header no-print">
+  <div class="menu">
+    <a href="/">Home</a>
+    <a href="/category/software_development.html">Software</a>
+    <a href="/category/farm-life.html">Farm Life</a>
+    <a href="/category/Business.html">Business</a>
+    <a href="/category/aviation.html">Aviation</a>
+  </div>
+  <div class="claim-box">
+    <p class="claim">Tales about Aviation, Coaching, Farming, Software Development</p>
+  </div>
+</div>
+		<div class="row">
+			<div class="span9">
+				<div class="post">
+					<h1>Cucumber: When Programmers Have a Dream</h1>
+          <p>Sometimes software developers have a dream. They fantasize about working closely together with the real customer instead of being just one wheel in the big machine that produces custom software. So far this has been difficult to achieve.</p>
+
+<p>Traditionally testing in software development has been an activity that happened after the fact. People do it at the end of a project (very bad), at the end of a project phase (bad), at the end of an iteration (still bad) or at the end of a day spent writing production code which is as bad as any other variation just mentioned. Because the need for good testing is not debated, over time a lot of sophisticated testing tools have been developed and sold for good money to customers who want to improve the quality of their software. Because of the importance of testing we find testers on every larger team in any organization that is serious about software development. And to make testers more effective management buys them these sophisticated tools.</p>
+
+<p>A tester in many organizations is a person who is prevented from writing code.  At times intentionally because some deem it valuable that a tester does not know nor understands the inner workings of the application he is testing. He should explore it instead from the outside and think as an end-user (the customer) would.</p>
+
+<p>Often these skilled individuals are turned into human robots operating the test tool management has chosen for them. There they execute test scripts against software that appears on their computer screens after business analysts figured out precisely what the needs for the business are and programmers have written production code that exactly meets the specifications written in accurate language in a larger number of Word documents - at least one for each feature of the application.</p>
+
+<p>I think that we should not waste the skills of testers. Testers are pretty good at understanding business requirements and as they don't think about how to implement something they can be our constant reminder and guarding of the <em>what</em>. So instead of using their skills at the very end - when it is usually to late - we should use their skills as early as possible. In this post I'd like to show how we can achieve <em>test first</em> using Cucumber for a web application. The technique is not restricted to web applications but can work with any type of application.</p>
+
+<p>Cucumber is a testing tool that allows to describe behavior of an application in natural language and in a way that business people, testers and programmers can understand. Features can be described in plain English and many other languages spoken by people around the world. A typical feature description looks like this:</p>
+
+<figure class="highlight"><pre><code class="language-gherkin" data-lang="gherkin"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+</pre></td><td class="code"><pre><span class="kd">Feature</span><span class="p">:</span> As photographer I want to take a picture of the elves lined up and
+  ordered by height
+
+  <span class="kn">Scenario</span><span class="p">:</span> Elves lined up side by side
+    <span class="nf">Given </span>I am in the forest
+    <span class="nf">And </span>the elves are not lined up
+    <span class="err">When I call the following elves to line up</span><span class="p">:</span>
+    <span class="p">|</span> <span class="nv">elf</span>    <span class="p">|</span> <span class="nv">height</span> <span class="p">|</span>
+    <span class="p">|</span> <span class="n">Kadra</span>  <span class="p">|</span> <span class="n">6'</span> <span class="n">20"</span> <span class="p">|</span>
+    <span class="p">|</span> <span class="n">Kaslin</span> <span class="p">|</span> <span class="n">6'</span> <span class="n">35"</span> <span class="p">|</span>
+    <span class="p">|</span> <span class="n">Savah</span>  <span class="p">|</span> <span class="n">5'</span> <span class="n">15"</span> <span class="p">|</span>
+    <span class="err">Then they line up in the following order</span><span class="p">:</span>
+    <span class="p">|</span> <span class="nv">Kaslin</span> <span class="p">|</span>
+    <span class="p">|</span> <span class="n">Kadra</span>  <span class="p">|</span>
+    <span class="p">|</span> <span class="n">Savah</span>  <span class="p">|</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<p></p>
+<p>Wouldn't it be nice to use this feature description as the starting point for development? There is not yet any application. Any code has been written yet. All there is is a text file - let's call it <em>elf_photograph.feature</em> - and nothing else.</p>
+
+<p>After all we are talking to a photographer in this example and she will not really understand what we as programmers are babbling about, if we were talking about HTML, Java, Ruby, application servers and databases. All our babbling may at the very least be seen as distracting. If worse comes to worst, the business person might even believe we are talking about these things on purpose to hide something and leave with the impression that we don't know how to solve her problem. So we better don't talk like that at all.</p>
+
+<p>After we are done talking to the photographer we take the requirements captured in feature files back to the office and sit down with one of our testers to write Cucumber step definitions. Here is what we come up with:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+</pre></td><td class="code"><pre><span class="no">Given</span> <span class="sr">/^I am in the forest$/</span> <span class="k">do</span>
+  <span class="vi">@current_page</span> <span class="o">=</span> <span class="no">ForestPage</span><span class="o">::</span><span class="nb">open</span> <span class="vi">@browser</span>
+<span class="k">end</span>
+
+<span class="no">When</span> <span class="sr">/^I call the following elves to line up:$/</span> <span class="k">do</span> <span class="o">|</span><span class="n">elves</span><span class="o">|</span>
+  <span class="vi">@current_page</span><span class="p">.</span><span class="nf">elves_line_up</span> <span class="n">elves</span><span class="p">.</span><span class="nf">hashes</span>
+<span class="k">end</span>
+
+<span class="no">Then</span> <span class="sr">/^they line up in the following order:$/</span> <span class="k">do</span> <span class="o">|</span><span class="n">order_of_elves</span><span class="o">|</span>
+  <span class="n">order_of_elves</span><span class="p">.</span><span class="nf">diff!</span><span class="p">(</span><span class="vi">@current_page</span><span class="p">.</span><span class="nf">order_of_elves</span><span class="p">)</span>
+<span class="k">end</span>
+
+<span class="no">When</span> <span class="sr">/^the elves are not lined up$/</span> <span class="k">do</span>
+  <span class="vi">@current_page</span><span class="p">.</span><span class="nf">elves_are_not_there</span>
+<span class="k">end</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<p>Remember that our goal is to write the tests before we actually start writing production code or create web pages. So we have to make up a few things just to get us going. Just as in classic TDD we can run our code now and - obviously - we will be reminded that we don't have a ForestPage object neither the other methods we are calling. Let's create as much as needed to get a bit further:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+</pre></td><td class="code"><pre><span class="k">class</span> <span class="nc">ForestPage</span>
+
+  <span class="k">def</span> <span class="nf">initialize</span><span class="p">(</span><span class="n">browser_to_be_used</span><span class="p">)</span>
+    <span class="vi">@browser</span> <span class="o">=</span> <span class="n">browser_to_be_used</span>
+  <span class="k">end</span>
+
+  <span class="k">def</span> <span class="nc">self</span><span class="o">.</span><span class="nf">open</span><span class="p">(</span><span class="n">browser</span><span class="p">)</span>
+    <span class="n">page</span> <span class="o">=</span> <span class="no">ForestPage</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="n">browser</span><span class="p">)</span>
+<span class="c1">#    browser.goto FOREST_PAGE</span>
+    <span class="k">return</span> <span class="n">page</span>
+  <span class="k">end</span>
+
+  <span class="k">def</span> <span class="nf">method_missing</span><span class="p">(</span><span class="n">m</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">)</span>
+    <span class="nb">puts</span> <span class="s2">"Sorry, I (</span><span class="si">#{</span><span class="nb">self</span><span class="si">}</span><span class="s2">) don't know about any </span><span class="si">#{</span><span class="n">m</span><span class="si">}</span><span class="s2"> method."</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<p>With that in place we can run again and will now see:</p>
+
+<pre>
+Testing started at 8:07 PM ...
+Sorry, I (#<ForestPage:0x102675338>) don't know about any elves_are_not_there method.
+Sorry, I (#<ForestPage:0x102675338>) don't know about any elves_line_up method.
+Sorry, I (#<ForestPage:0x102675338>) don't know about any order_of_elves method.
+
+NoMethodError: undefined method `[]' for nil:NilClass
+./features/step_definitions/elf_steps.rb:12:in `/^they line up in the following order:$/'
+</pre>
+
+<p>The Cucumber test runner in RubyMine shows up that we were able to execute successfully 3 out of 4 steps:</p>
+
+<img src="http://stephanschwab.files.wordpress.com/2010/10/screen-shot-2010-10-17-at-8-10-08-pm.png" alt="Screen shot 2010-10-17 at 8.10.08 PM.png" title="Screen shot 2010-10-17 at 8.10.08 PM.png" border="0" width="452" height="162" />
+
+<p>Great! But not so fast ... Our steps pass because we are accepting all messages being sent to the ForestPage class. We need to fix that later but for now this allows us to focus on last step which is:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="code"><pre><span class="no">Then</span> <span class="sr">/^they line up in the following order:$/</span> <span class="k">do</span> <span class="o">|</span><span class="n">order_of_elves</span><span class="o">|</span>
+  <span class="n">order_of_elves</span><span class="p">.</span><span class="nf">diff!</span><span class="p">(</span><span class="vi">@current_page</span><span class="p">.</span><span class="nf">order_of_elves</span><span class="p">)</span>
+<span class="k">end</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<p>This is the assertion in our test where we figure out whether the application is behaving correctly or not. We should get this step right before we start writing the production code for the application.</p>
+
+<p>We have a table with all the elves ordered by height as input and we compare that table to what we read from the page using <code>@current_page.order_of_elves</code>. Let's create this method:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="code"><pre>  <span class="k">def</span> <span class="nf">order_of_elves</span>
+    <span class="n">elves</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">elves</span><span class="p">.</span><span class="nf">push</span> <span class="p">[</span><span class="s1">'Sara'</span><span class="p">]</span>
+  <span class="k">end</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<p>and run our feature again:</p>
+
+<img style="display:block;margin-left:auto;margin-right:auto;" src="http://stephanschwab.files.wordpress.com/2010/10/screen-shot-2010-10-17-at-8-25-00-pm.png" alt="Screen shot 2010-10-17 at 8.25.00 PM.png" title="Screen shot 2010-10-17 at 8.25.00 PM.png" border="0" width="600" height="106" />
+
+<p>We still fail at the same place but this time we fail because the two tables are not identical. So our step is working in general and we know what to return from the method <code>@current_page.order_of_elves</code>. Now write the rest of the ForestPage class:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+</pre></td><td class="code"><pre><span class="k">class</span> <span class="nc">ForestPage</span>
+
+  <span class="k">def</span> <span class="nf">initialize</span><span class="p">(</span><span class="n">browser_to_be_used</span><span class="p">)</span>
+    <span class="vi">@browser</span> <span class="o">=</span> <span class="n">browser_to_be_used</span>
+  <span class="k">end</span>
+
+  <span class="k">def</span> <span class="nc">self</span><span class="o">.</span><span class="nf">open</span><span class="p">(</span><span class="n">browser</span><span class="p">)</span>
+    <span class="n">page</span> <span class="o">=</span> <span class="no">ForestPage</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="n">browser</span><span class="p">)</span>
+    <span class="n">browser</span><span class="p">.</span><span class="nf">goto</span> <span class="s2">"file:///Users/sns/elf/src/main/resources/org/example/elf/pages/Forest.html"</span>
+    <span class="k">return</span> <span class="n">page</span>
+  <span class="k">end</span>
+
+  <span class="k">def</span> <span class="nf">method_missing</span><span class="p">(</span><span class="n">m</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">)</span>
+    <span class="nb">puts</span> <span class="s2">"Sorry, I (</span><span class="si">#{</span><span class="nb">self</span><span class="si">}</span><span class="s2">) don't know about any </span><span class="si">#{</span><span class="n">m</span><span class="si">}</span><span class="s2"> method."</span>
+  <span class="k">end</span>
+
+  <span class="k">def</span> <span class="nf">elves_are_not_there</span>
+    <span class="vi">@browser</span><span class="p">.</span><span class="nf">link</span><span class="p">(</span><span class="ss">:id</span><span class="p">,</span> <span class="s2">"startOver"</span><span class="p">).</span><span class="nf">click</span>
+  <span class="k">end</span>
+
+  <span class="k">def</span> <span class="nf">elves_line_up</span><span class="p">(</span><span class="n">elves</span><span class="p">)</span>
+    <span class="n">elves</span><span class="p">.</span><span class="nf">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">elf</span><span class="o">|</span>
+      <span class="vi">@browser</span><span class="p">.</span><span class="nf">text_field</span><span class="p">(</span><span class="ss">:id</span><span class="p">,</span> <span class="s2">"elfName"</span><span class="p">).</span><span class="nf">set</span><span class="p">(</span><span class="n">elf</span><span class="p">[</span><span class="s1">'elf'</span><span class="p">])</span>
+      <span class="vi">@browser</span><span class="p">.</span><span class="nf">text_field</span><span class="p">(</span><span class="ss">:id</span><span class="p">,</span> <span class="s2">"elfHeight"</span><span class="p">).</span><span class="nf">set</span><span class="p">(</span><span class="n">elf</span><span class="p">[</span><span class="s1">'height'</span><span class="p">])</span>
+      <span class="vi">@browser</span><span class="p">.</span><span class="nf">button</span><span class="p">(</span><span class="ss">:id</span><span class="p">,</span> <span class="s2">"submit"</span><span class="p">).</span><span class="nf">click</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
+
+  <span class="k">def</span> <span class="nf">order_of_elves</span>
+    <span class="n">elves</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="k">begin</span>
+      <span class="n">elf_number</span> <span class="o">=</span> <span class="mi">0</span>
+      <span class="n">elf</span> <span class="o">=</span> <span class="vi">@browser</span><span class="p">.</span><span class="nf">div</span><span class="p">(</span><span class="ss">:id</span> <span class="o">=&gt;</span> <span class="s2">"elf"</span><span class="p">,</span> <span class="ss">:index</span> <span class="o">=&gt;</span> <span class="n">elf_number</span><span class="p">)</span>
+      <span class="k">while</span> <span class="o">!</span><span class="n">elf</span><span class="p">.</span><span class="nf">nil?</span>
+        <span class="n">elves</span><span class="p">.</span><span class="nf">push</span> <span class="p">[</span><span class="n">elf</span><span class="p">.</span><span class="nf">text</span><span class="p">]</span>
+
+        <span class="n">elf_number</span> <span class="o">=</span> <span class="n">elf_number</span> <span class="o">+</span> <span class="mi">1</span>
+        <span class="n">elf</span> <span class="o">=</span> <span class="vi">@browser</span><span class="p">.</span><span class="nf">div</span><span class="p">(</span><span class="ss">:id</span> <span class="o">=&gt;</span> <span class="s2">"elf"</span><span class="p">,</span> <span class="ss">:index</span> <span class="o">=&gt;</span> <span class="n">elf_number</span><span class="p">)</span>
+      <span class="k">end</span>
+
+    <span class="k">rescue</span>
+      <span class="k">return</span> <span class="n">elves</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
+
+<span class="k">end</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<p>We also create the Forest.html as our first step to produce something visual:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+</pre></td><td class="code"><pre><span class="cp">&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd"&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+<span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;title&gt;</span>Forest Page<span class="nt">&lt;/title&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+
+<span class="nt">&lt;form&gt;</span>
+	<span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">id=</span><span class="s">"elfName"</span><span class="nt">/&gt;</span>
+	<span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">id=</span><span class="s">"elfHeight"</span><span class="nt">/&gt;</span>
+	<span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"submit"</span> <span class="na">id=</span><span class="s">"submit"</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;/form&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"elfLineup"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"elf"</span><span class="nt">&gt;</span>
+		Elf's name
+	<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">id=</span><span class="s">"startOver"</span><span class="nt">&gt;</span>Start over<span class="nt">&lt;/a&gt;</span>
+
+<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<p>With that in place we can run our feature again and as before we get</p>
+
+<p><img src="http://stephanschwab.files.wordpress.com/2010/10/screen-shot-2010-10-17-at-8-10-08-pm.png" alt="Screen shot 2010-10-17 at 8.10.08 PM.png" title="Screen shot 2010-10-17 at 8.10.08 PM.png" border="0" width="452" height="162" /></p>
+
+<p>At this point we have a failing test and can start writing the production code to make it pass. Of course now is the opportunity to show the HTML page and the feature again to our customer to make sure that we are still on the right track.</p>
+
+<p>Update: The code for this is available on my <a href="https://github.com/snscaimito/cucumber-elf">github</a></p>
+
+					<table class="postfooter" style="width: 100%">
+					<tr>
+						<td style="text-align: left; width: 33%"><a href="/2010/08/24/ipad-for-software-developers.html">Previous</a></td>
+						<td style="text-align: center; width: 33%">17 Oct 2010</td>
+						<td style="text-align: right; width: 33%"><a href="/2010/10/31/build-your-own-testing-dsl.html">Next</a></td>
+					</tr>
+					</table>
+					<p>This article has been posted to social media sites. There might be comments. Just follow the links:</p>
+					<div>
+						<a class="social-blogging" service="twitter" href="https://twitter.com/snscaimito"><img src="/img/Furry-Cushion-Twitter_48.png" /></a>
+						<a class="social-blogging" service="activityPub" rel="me" href="https://techhub.social/@snscaimito"><img src="/img/mastodon.svg" width="48" /></a>
+					</div>
+				</div>
+			</div>
+			<div class="span3">
+        <div class="sidebar">
+        	<p class="section">About this article</p>
+          <p>Published: October 17, 2010</p>
+					<p>Posted in:
+						
+							<a class="categoryLink" href="/category/software_development.html">software_development</a>
+						
+							<a class="categoryLink" href="/category/atdd.html">atdd</a>
+						
+					</p>
+          
+        </div>
+				<div class="sidebar">
+	<p class="section">About me</p>
+	<p>Hello! My name is <a href="/">Stephan Schwab</a>.</p>
+			<a href="/"><img src="http://www.gravatar.com/avatar/663d11426b0a187ddac59f8c17ce61b4?s=90" class="align-left"/></a>
+		<p>As International Software Development Coach and Consultant I help CEOs and Department Leaders to <strong>improve</strong> <strong>value creation</strong> and <strong>cohesion</strong> within their organization. The outcome will be higher <strong>quality</strong>, <strong>customer delight</strong> and <strong>more revenue</strong>.</p> 
+		
+		<p>Learn about <a href="/resume/">my professional experience</a> since 1986.</p>
+    <span style="clear:both; float:none"/>
+
+	<p class="section">Professional Services</p>
+	<p>I'm fluent in these languages:</p>
+	<p align="center">
+		<a href="/category/en.html"><img src="/img/language-flags/32x32/flag_rotate-02.png"></a>
+		<a href="/category/de.html"><img src="/img/language-flags/32x32/flag_rotate-03.png"></a>
+		<a href="/category/es.html"><img src="/img/language-flags/32x32/flag_rotate-12.png"></a>
+	</p>
+	<p align="center">
+		<small>
+			<a href="/category/en.html">English</a>
+			<a href="/category/de.html">German</a>
+			<a href="/category/es.html">Spanish</a>
+		</small>
+	</p>
+	<div class="no-print-sidebar">
+		<p>Scrum Pair-Coaching to develop technical competence:</p>
+		<p align="center">Details in <a href="/en-pair-coaching-scrummaster.html">English</a>, <a
+				href="/de-pair-coaching-scrummaster.html">Deutsch</a></p>
+
+		<p><strong>Resources for new clients</strong>:</p>
+		<p align="center"><a href="/resources/de-new-client.html">Deutsch</a></p>
+	</div>
+
+	<div class="no-print-sidebar">
+		<p class="section noprint">Search</p>
+		<form method="get" action="http://www.google.com/search">
+			<p align="center"><input type="text" name="q" maxlength="255" value="" style="width: 180px" /></br>
+				<input type="submit" value="Google Search" class="btn btn-primary btn-mini" />
+			</p>
+			<input type="hidden" name="sitesearch" value="http://www.stephan-schwab.com" />
+		</form>
+
+		<p class="section">Special&nbsp;Content</p>
+		<ul class="special-content">
+			<li><a href="/atdd/">Acceptance Test-Driven Development</a></li>
+			<li><a href="/software-design/">Software Design</a></li>
+			<li><a href="/sddm.html">Software Development Decision Making</a></li>
+		</ul>
+		<ul class="special-content">
+			<li><a href="/coaching-future-masters.html">Coaching future masters</a></li>
+		</ul>
+		<ul class="special-content">
+			<li><a href="/farmstead.html">Developing a farmstead in Andalucia, Spain</a></li>
+			<li><a href="/house/">Building a house, Spain</a></li>
+			<li><a href="/airtravel/">Business travel with light aircraft</a></li>
+			<li><a href="/horses/">Horses</a></li>
+			<li><a href="/panama-farm.html">Rainforest Farm, Panama</a></li>
+			<li><a href="/galleries/">Photo Galleries</a></li>
+		</ul>
+		<ul class="special-content">
+			<li><a href="/reading-list.html">My reading list</a></li>
+		</ul>
+
+		<p class="section">Highlights of the Year</p>
+		<ul class="special-content">
+			
+			<li><a href="/2016/12/27/highlights-of-2016.html">2016</a></li>
+			
+			<li><a href="/2015/12/31/highlights-2015.html">2015</a></li>
+			
+			<li><a href="/2014/12/31/highlights-2014.html">2014</a></li>
+			
+			<li><a href="/2013/12/31/hightlights-2013.html">2013</a></li>
+			
+			<li><a href="/2012/12/31/highlights-2012.html">2012</a></li>
+			
+			<li><a href="/2011/12/31/highlights-2011.html">2011</a></li>
+			
+			<li><a href="/2010/12/31/highlights-2010.html">2010</a></li>
+			
+			<li><a href="/2009/12/31/highlights-2009.html">2009</a></li>
+			
+			<li><a href="/2008/12/31/highlights-2008.html">2008</a></li>
+			
+			<li><a href="/2007/12/31/highlights-2007.html">2007</a></li>
+			
+			<li><a href="/2006/12/31/highlights-2006.html">2006</a></li>
+			
+		</ul>
+
+		<p class="section">Living on planet Earth</p>
+		<ul class="special-content">
+			<li><a href="/dominican-republic.html">Dominican Republic</a></li>
+			<li><a href="/china.html">China</a></li>
+			<li><a href="/germany.html">Germany</a></li>
+			<li><a href="/panama.html">Panama</a></li>
+			<li><a href="/spain.html">Spain</a></li>
+			<li><a href="/usa.html">USA</a></li>
+		</ul>
+
+		<p class="section">Open Source Projects</p>
+		<ul class="special-content">
+			<li><a href="/ale-news.html">Development of ALE News</a></li>
+			<li><a href="https://github.com/snscaimito/RAutomation">RAutomation</a></li>
+			<li><a href="/open-source.html">Other contributions to Open Source</a></li>
+		</ul>
+
+		<p class="section">Stay in touch</p>
+		<p align="center">
+			<a href="/rss.xml"><img src="/img/Furry-Cushion-RSS_48.png" /></a>
+			<a href="https://twitter.com/snscaimito"><img src="/img/Furry-Cushion-Twitter_48.png" /></a>
+			<a href="http://www.linkedin.com/in/stephanschwab"><img src="/img/Furry-Cushion-LinkedIn_48.png" /></a>
+		</p>
+		<p align="center">
+			<a rel="me" href="https://techhub.social/@snscaimito"><img src="/img/mastodon.svg" width="48" /></a>
+			<a href="https://bsky.app/profile/snscaimito.bsky.social"><img src="/img/Bluesky_butterfly-logo.svg"
+					width="65" /></a>
+			<a href="https://www.tiktok.com/@snscaimito"><img src="/img/tiktok-icon-white-1-logo-svgrepo-com.svg"
+					width="48" /></a>
+		</p>
+		<p align="center">
+			<a href="mailto:sns@caimito.net?subject=From%20stephan-schwab.com">sns@caimito.net</a>
+		</p>
+
+		<p class=" section">My Books
+		</p>
+		<p align="center"><a href="https://leanpub.com/activitycentereddesign"><img
+					src="/img/smarter-software-with-activity-centered-design.jpg" /></a></p>
+		<p align="center"><a href="https://leanpub.com/essays-on-software-development-2012"><img
+					src="/img/essays-on-software-development-2012.png" /></a></p>
+
+		<p class="section">Everything</p>
+		<p>See a listing of <a href="/all-posts.html">all posts</a> on this site.</p>
+	</div>
+</div>
+			</div>
+		</div>
+	</div>
+		<script src="//use.typekit.net/npx1yoc.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
+	
+	<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-35257032-1', 'auto');
+	  ga('require', 'displayfeatures');
+	  ga('send', 'pageview');
+
+	</script>
+	<script type="text/javascript"> 
+		jQuery(document).ready(function(){ 
+			jQuery("#gallery").unitegallery(); 
+		}); 
+	</script>
+	
+	<script>
+		$(document).ready(function() {
+			$('.social-blogging').each(function() {
+				const service = $(this).attr('service');
+				const url = `/api/posted-on/${service}?article=${window.location.pathname}`;
+
+				fetch(url)
+					.then(response => response.json())
+					.then(data => {
+						console.log(data)
+						$(this).attr('href', data.postUrl)
+					})
+					.catch(error => console.error('Error:', error));
+			})
+		})
+	</script>
+
+</body>
+</html>

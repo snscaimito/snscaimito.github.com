@@ -1,0 +1,95 @@
+---
+layout: post
+title: On the cost of capabilities
+tags:
+- en
+categories:
+- management
+- business
+- aviation
+---
+A little while ago I was saying that [acquiring a capability is a long and winding road](/2013/09/22/on-the-development-of-capabilities.html) and therefore it is never cheap. 
+
+To my last article [Retrospective on personal air travel](/2015/04/17/retrospective-on-personal-air-travel.html) my coaching friend [Mike Sutton](http://mhsutton.me) replied with the notion that I might have been a little bit too optimistic about the cost. He thought that the high cost of training and the purchase/rental of the aircraft should be somehow included.
+
+This article is meant to be a more elaborate reply to Mike. I'm thankful for the opportunity to also go a bit beyond and provide a broader opinion on the cost of developing a capability.
+
+**If savings are your primary goal, then you should never try to develop any kind of capability.** But then you might be already in a downward spiral and will reach the bottom when you have used up whatever capital or substance you had when you started. The only way to go with savings is down. It's like starving a business to death.
+
+A business person develops a capability because he/she **believes** that having it might be beneficial for the business. Doing the investment that is required means taking a risk. The English word *venture* describes this very nicely. A *venture* is a risky undertaking and usually it is a business enterprise that involves risk.
+
+Why would anyone accept risk? Because there is some reward that is perceived as being more beneficial than the combination of the current benefits plus the benefit from the reward.
+
+## The cost of earning and having capabilities 
+I can see three types of cost that are related to capabilities:
+
+* Cost to acquire a capability
+* Cost to maintain a capability
+* Operational cost
+
+As the topic on this blog is software development and not business in general, I will again attempt to use my venture to develop the capability of flexible air travel for my own business as a general example for something a software development organization might be doing to develop a capability for their own business.
+
+## Acquiring a capability
+That is the part that is most difficult and has the biggest risk associated with it. It is also the part that is **most expensive**. Based on a feeling, a belief, on seeing something somewhere else one begins to figure out what it might take to have a certain capability.
+
+Then a number of experiments begin.
+
+To gain the capability of being able to extend my market to the European Union and the member states of the [Schengen Area](http://en.wikipedia.org/wiki/Schengen_Area) I did some research and calculations in 2012. I participated in pilot forums to re-educate myself on the topic of piloting light aircraft and was trying to gain some operational knowledge. Flying for business is not the same as flying with some friends for pleasure or to do a [$100 hamburger run](http://en.wikipedia.org/wiki/$100_hamburger). Operational knowledge is all about the logistics before and after a flight. Clients rarely reside on airfields.
+
+Then I invested into reactivating my pilot license, which then allowed me to invest into the experiment of [trying to travel to a conference](/2013/09/01/ALE2013-Ostrava.html). Attending a conference is optional and thus the experiment was low on risk but was real enough to learn a lot from it.
+
+"And the cost for all that?" might be asking [Mike Sutton](http://mhsutton.me).
+
+Well... A basic PPL (Private Pilot License) can be had for around 15,000 - 20,000 EUR. Renting a Cirrus SR20 from the flight school in Egelsbach was around 300 EUR per hour including gas and VAT.
+
+But then those numbers are not really meaningful.
+
+When you send a software development team to a classroom course for 5 days to learn a new technique, then the team members *have seen it*. The price of the class may be 2,500 EUR per person, which makes it 20,000 EUR for an eight person team. Do you have a new capability by then?
+
+Probably not!
+
+So after re-gaining my pilot licence I was able to continue learning. I got a certificate in my hand that allowed me to learn on my own. I was at the same point as the guys from the software team in my other example.
+
+To really understand the problem *business travel in light aircraft* I needed to gradually try it out. I got my license in April 2013 and immediately started to fly VFR during good weather days to events and here and there to clients to tip my toes into the water. I learned about the difficulties to organize ground transporation and tried taxis and rental car delivery to the airfield. With enough confidence in my technical ability, flying the aircraft, I then did the big experiment of flying across Eastern Europe with my family aboard.
+
+If I wanted, I can go through my logbook and calculate how much money I invested up to the point of returning from the [trip to the conference in Romania](/2013/09/01/ALE2013-Ostrava.html) but I think the point is moot.
+
+When you experiment to gain knowledge, you just do it for as long you as you can financially and for as long as you think you need to. This is not the moment for counting beans. If you feel that going any further with you quest to gain the capability you are after, then you should stop and go after something else.
+
+## Maintaining a capability
+Once you have acquired a capability you can begin taking advantage of it. That is what I did in 2013 when I started flying solo to clients during good weather days. That is what you do after your teams comes back from the classroom course and begins using the new knowledge or technique in their current project.
+
+When you don't use a capability it will deteriorate. A musician who has not played an instrument for quite some time will not produce the same tunes as when he was playing it daily. I once acquired the capability of piloting aircraft. I was really good at it and even flew *just so* to the international airport of Brussels when small aircraft were still welcome there. After 17 years of not piloting an aircraft the first flight was a challenge. I probably would not have killed myself, had I gone up alone, but I was rusty and a lot of tactile knowledge wasn't there anymore.
+
+The same happens with a software team. You make that 20,000 EUR investment to send them to the classroom course and then they don't use the new knowledge for three months and guess what... It's like they would have never been to the class.
+
+It is necessary to maintain a capability and doing so might involve additional expense. Especially when the capability is still new there will be cost.
+
+In my case with the piloting capability the initial maintenance cost was flying just for flying to hone my skills and become more proficient. I tried to fly for a purpose in order to get something back for the expense. So went to business related events or seized the opportunity of good VFR weather to travel to clients. That was more expensive than driving or taking the train but the cost of maintaining my new capability was lowered by doing so. Plus I gained additional knowledge to help me with further exploring the topic. It provided data for informed decision making.
+
+With the new data I then decided to make another investment and [began training for the instrument rating](/2013/10/12/commencing-ifr-training.html).
+
+The software team might decide to bring in an embedded coach for 2 days per week to help them to apply the knowledge from the classroom course. The information from the class allows them to understand what the coach is trying to show/teach them. The coach helps them to transfer theoretical knowledge into something tangible that has benefit in their day to day work. The investment into being coached helps them to acquire the desired capability for real - by now they know that classroom training was not enough.
+
+So here is a loop. The acquisition of a capability is actually a series of repeating steps:
+
+* acquire a small version of the desired capability
+* use and maintain the capability
+* learn how much of the desired capability you have acquired so far
+* ... enter the loop again
+
+## Operational cost
+That is more or less the boring part of the whole story. It is important to know though and that is why [I reflected on it](/2015/04/17/retrospective-on-personal-air-travel.html).
+
+Knowing the operational cost of my capability as I have acquired it so far provides me with another data point. Past experiences made me decide on the acquisition of my own aircraft. Now that I have it I need to understand the running cost. So far I am not disappointed. Actually what I found was a positive surprise, which encourages me to use it more often than originally anticipated.
+
+## The actual cost of having a capability
+Well... That is something you will only know after you have had the capability for a long time.
+
+In the case of operating an aircraft in order to have the capability of flexible travel in order to be present in a larger market than without that means to look back after several years at all the costs of acquisition, maintenance and operation. Then one may divide that by the number of years and put it into perspective.
+
+* **Did** the capability allow me to operate in a larger market?
+* **Did** I service clients in place where I was not able to serve them without? 
+* **Did** my revenue increase because of the capability?
+
+The attempt of trying to answer these questions in the beginning is similar to tayloristic project management with the iron triangle or budgeting at the beginning of each year. It is not very agile and takes away the ability to adapt and be resilient in changing markets.

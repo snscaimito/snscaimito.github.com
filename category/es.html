@@ -1,0 +1,12 @@
+---
+layout: special
+title: Artículos en Español
+---
+<table>
+{% for post in site.tags.es %}
+<tr style="vertical-align: top">
+	<td nowrap>{{ post.date | date: "%d %b %Y" }}</td>
+	<td><a href="{{ post.url }}">{{ post.title }}</a></td>
+</tr>
+{% endfor %}
+</table>

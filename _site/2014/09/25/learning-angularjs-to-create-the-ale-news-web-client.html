@@ -1,0 +1,401 @@
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Learning AngularJS to create the ALE News web client</title>
+	
+	<link rel="canonical" href="http://0.0.0.0:4000/2014/09/25/learning-angularjs-to-create-the-ale-news-web-client.html"/>
+	
+	<link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css" />
+	<link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+	<link rel="stylesheet" href="/css/schwab.css" type="text/css" />
+	<link rel="stylesheet" href="/css/print.css" media="print" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed|Sansita:700|Zilla+Slab" rel="stylesheet">
+	
+	<link rel="alternate" type="application/rss+xml" title="Stephan Schwab" href="/rss.xml"/>
+
+	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+	<script type='text/javascript' src='/unitegallery/js/unitegallery.min.js'></script> 
+		
+	<link rel='stylesheet' href='/unitegallery/css/unite-gallery.css' type='text/css' /> 
+	<script type='text/javascript' src='/unitegallery/themes/tiles/ug-theme-tiles.js'></script> 
+
+	<meta property="og:title" content="Learning AngularJS to create the ALE News web client">
+	<meta property="twitter:title" content="Learning AngularJS to create the ALE News web client">
+	<meta property="og:description" content="">
+	<meta property="twitter:description" content="">
+	<meta property="og:type" content="article">
+	<meta property="og:url" content="http://0.0.0.0:4000/2014/09/25/learning-angularjs-to-create-the-ale-news-web-client.html">
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:site" content="@snscaimito">
+	
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="header no-print">
+  <div class="menu">
+    <a href="/">Home</a>
+    <a href="/category/software_development.html">Software</a>
+    <a href="/category/farm-life.html">Farm Life</a>
+    <a href="/category/Business.html">Business</a>
+    <a href="/category/aviation.html">Aviation</a>
+  </div>
+  <div class="claim-box">
+    <p class="claim">Tales about Aviation, Coaching, Farming, Software Development</p>
+  </div>
+</div>
+		<div class="row">
+			<div class="span9">
+				<div class="post">
+					<h1>Learning AngularJS to create the ALE News web client</h1>
+          <div class="ale_news_post_header">
+
+	<p>This blog post is part of a series about the development of ALE News using an approach to software development called Acceptance Test-Driven Development. <a href="/ale-news.html">For an overview please see the introductory article</a>.</p>
+	
+</div>
+
+<p>The ALE News web client will be implemented using the <a href="http://angularjs.org">AngularJS</a> web framework as a single page web application in JavaScript. To help me with the layout I’m going to use Twitter Bootstrap. I added <a href="http://nodejs.org">NodeJS</a>, NPM and <a href="http://bower.io">Bower</a> to my system and created a simple first HTML page:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
+<span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;title&gt;</span>ALE News<span class="nt">&lt;/title&gt;</span>
+    <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"bower_components/bootstrap/dist/css/bootstrap.css"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"app/css/main.css"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;body</span> <span class="na">ng-app</span> <span class="na">ng-init=</span><span class="s">"name = 'World'"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;h1&gt;</span>Hello !<span class="nt">&lt;/h1&gt;</span>
+
+    <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"bower_components/jquery/dist/jquery.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+    <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"bower_components/bootstrap/dist/js/bootstrap.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+    <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"bower_components/angular/angular.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h2 id="running-multiple-web-applications-at-the-same-time">Running multiple web applications at the same time</h2>
+<p>As the web client will consume the article service, which comes in the form of another WAR file, I added the following Jetty configuration to my pom.xml. It will deploy both WAR files to separate context paths.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;build&gt;
+    &lt;finalName&gt;web-client&lt;/finalName&gt;
+    &lt;plugins&gt;
+        &lt;plugin&gt;
+            &lt;groupId&gt;org.mortbay.jetty&lt;/groupId&gt;
+            &lt;artifactId&gt;jetty-maven-plugin&lt;/artifactId&gt;
+            &lt;configuration&gt;
+                &lt;webApp&gt;
+                    &lt;contextPath&gt;/web-client&lt;/contextPath&gt;
+                &lt;/webApp&gt;
+                &lt;contextHandlers&gt;
+                    &lt;contextHandler implementation="org.eclipse.jetty.webapp.WebAppContext"&gt;
+                        &lt;war&gt;${project.basedir}/../article-service/target/article-service.war&lt;/war&gt;
+                        &lt;contextPath&gt;/article-service&lt;/contextPath&gt;
+                    &lt;/contextHandler&gt;
+                &lt;/contextHandlers&gt;
+            &lt;/configuration&gt;
+        &lt;/plugin&gt;
+    &lt;/plugins&gt;
+&lt;/build&gt;
+</code></pre></div></div>
+
+<p>With that in place I can do <code>mvn jetty:run</code> inside the web-client module and will get this output on the console:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>2014-09-23 14:47:05.985:INFO:oejs.Server:jetty-8.1.16.v20140903
+2014-09-23 14:47:06.157:INFO:oejpw.PlusConfiguration:No Transaction manager found - if your webapp requires one, please configure one.
+2014-09-23 14:47:06.708:INFO:oejw.WebInfConfiguration:Extract jar:file:/Users/sns/Documents/dev/ale-news-atdd/source/article-service/target/article-service.war!/ to /Users/sns/Documents/dev/ale-news-atdd/source/article-service/target/article-service
+2014-09-23 14:47:08.076:WARN:oejsh.RequestLogHandler:!RequestLog
+2014-09-23 14:47:08.090:INFO:oejs.AbstractConnector:Started SelectChannelConnector@0.0.0.0:8080
+</code></pre></div></div>
+
+<p>A quick test reveals that both applications can be accessed through their URL.</p>
+
+<h2 id="what-is-the-simplest-thing-that-could-possibly-work">What is the simplest thing that could possibly work</h2>
+<p>I don’t have any experience with the AngularJS web framework. With the help of their tutorial and some basic knowledge of JavaScript I was able to create a minimalistic application that consumes the article service and asks for a list of articles in the archive.</p>
+
+<p>Here is the screen output from this simplistic webapp:</p>
+
+<p><img src="/img/posts/ale-news/minimalistic-ale-news.png" alt="Minimalistic Ale News" /></p>
+
+<p>This output is produced by the following HTML in index.html.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">ng-app=</span><span class="s">"articleApp"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;title&gt;</span>ALE News<span class="nt">&lt;/title&gt;</span>
+    <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"bower_components/bootstrap/dist/css/bootstrap.css"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"app/css/main.css"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;body</span> <span class="na">ng-controller=</span><span class="s">"ArticleListCtrl"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;h1&gt;</span>ALE News<span class="nt">&lt;/h1&gt;</span>
+
+    <span class="nt">&lt;ul&gt;</span>
+        <span class="nt">&lt;li</span> <span class="na">ng-repeat=</span><span class="s">"article in articles"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">""</span><span class="nt">&gt;&lt;/a&gt;&lt;br/&gt;</span>
+            By 
+        <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;/ul&gt;</span>
+
+    <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"bower_components/jquery/dist/jquery.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+    <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"bower_components/bootstrap/dist/js/bootstrap.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+    <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"bower_components/angular/angular.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+    <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"app/js/article-service.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<p>The <code>ArticleListCtrl</code> is defined in the article-service.js file:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">articleApp</span> <span class="o">=</span> <span class="nx">angular</span><span class="p">.</span><span class="nx">module</span><span class="p">(</span><span class="dl">'</span><span class="s1">articleApp</span><span class="dl">'</span><span class="p">,</span> <span class="p">[]);</span>
+
+<span class="nx">articleApp</span><span class="p">.</span><span class="nx">controller</span><span class="p">(</span><span class="dl">'</span><span class="s1">ArticleListCtrl</span><span class="dl">'</span><span class="p">,</span> <span class="p">[</span><span class="dl">'</span><span class="s1">$scope</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">$http</span><span class="dl">'</span><span class="p">,</span>
+  <span class="kd">function</span> <span class="p">(</span><span class="nx">$scope</span><span class="p">,</span> <span class="nx">$http</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">$http</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="dl">'</span><span class="s1">http://localhost:8080/article-service/article</span><span class="dl">'</span><span class="p">).</span><span class="nx">success</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
+      <span class="nx">$scope</span><span class="p">.</span><span class="nx">articles</span> <span class="o">=</span> <span class="nx">data</span><span class="p">;</span>
+    <span class="p">});</span>
+  <span class="p">}]);</span>
+</code></pre></div></div>
+
+<h2 id="where-did-the-data-come-from">Where did the data come from?</h2>
+<p>As the article service has only a fake data storage, a simple static instance variable, a GET request to obtain a list of articles will return an empty array. I used the <a href="http://mmattozzi.github.io/cocoa-rest-client/">CocoaRestClient</a> to submit data to it via the POST method. That way I was able to use the service from the prototype web client.</p>
+
+<p>So far I have experimented a little bit in order to learn more about how to use AngularJS. There was no point yet in writing a specification for the web client. That will follow next.</p>
+
+<div class="ale_news_post_footer">
+	<h2>More in this series</h2>
+	<ul>
+	
+		 <li>03 Nov 2014 <a href="/2014/11/03/selecting-a-test-and-automation-tool-for-ios.html">Selecting a test and automation tool for IOS</a></li>
+	
+		 <li>27 Oct 2014 <a href="/2014/10/27/making-my-IOS-world-a-better-place.html">Making my IOS world a better place</a></li>
+	
+		 <li>19 Oct 2014 <a href="/2014/10/19/making-the-world.html">Making the world</a></li>
+	
+		 <li>14 Oct 2014 <a href="/2014/10/14/scenarios-that-depend-on-each-other-are-bad.html">Scenarios that depend on each other are bad</a></li>
+	
+		 <li>10 Oct 2014 <a href="/2014/10/10/improving-the-fake-storage.html">Improving the fake storage</a></li>
+	
+		 <li>29 Sep 2014 <a href="/2014/09/29/how-to-verify-things.html">How to verify things</a></li>
+	
+		 <li>27 Sep 2014 <a href="/2014/09/27/what-should-ale-news-web-client-do.html">What should the ALE News web client do?</a></li>
+	
+		 <li>26 Sep 2014 <a href="/2014/09/26/selecting-tools-for-testing-the-web-client.html">Selecting tools for testing the web client</a></li>
+	
+		 <li>25 Sep 2014 <a href="/2014/09/25/learning-angularjs-to-create-the-ale-news-web-client.html">Learning AngularJS to create the ALE News web client</a></li>
+	
+		 <li>24 Sep 2014 <a href="/2014/09/24/adding-web-client.html">Adding the web client module</a></li>
+	
+		 <li>23 Sep 2014 <a href="/2014/09/23/single-command-build.html">Build with a single command</a></li>
+	
+		 <li>19 Sep 2014 <a href="/2014/09/19/first-draft-of-article-service.html">First draft of the article service</a></li>
+	
+	</ul>
+</div>
+
+
+					<table class="postfooter" style="width: 100%">
+					<tr>
+						<td style="text-align: left; width: 33%"><a href="/2014/09/24/adding-web-client.html">Previous</a></td>
+						<td style="text-align: center; width: 33%">25 Sep 2014</td>
+						<td style="text-align: right; width: 33%"><a href="/2014/09/26/selecting-tools-for-testing-the-web-client.html">Next</a></td>
+					</tr>
+					</table>
+					<p>This article has been posted to social media sites. There might be comments. Just follow the links:</p>
+					<div>
+						<a class="social-blogging" service="twitter" href="https://twitter.com/snscaimito"><img src="/img/Furry-Cushion-Twitter_48.png" /></a>
+						<a class="social-blogging" service="activityPub" rel="me" href="https://techhub.social/@snscaimito"><img src="/img/mastodon.svg" width="48" /></a>
+					</div>
+				</div>
+			</div>
+			<div class="span3">
+        <div class="sidebar">
+        	<p class="section">About this article</p>
+          <p>Published: September 25, 2014</p>
+					<p>Posted in:
+						
+							<a class="categoryLink" href="/category/atdd.html">atdd</a>
+						
+							<a class="categoryLink" href="/category/software_development.html">software_development</a>
+						
+					</p>
+          
+        </div>
+				<div class="sidebar">
+	<p class="section">About me</p>
+	<p>Hello! My name is <a href="/">Stephan Schwab</a>.</p>
+			<a href="/"><img src="http://www.gravatar.com/avatar/663d11426b0a187ddac59f8c17ce61b4?s=90" class="align-left"/></a>
+		<p>As International Software Development Coach and Consultant I help CEOs and Department Leaders to <strong>improve</strong> <strong>value creation</strong> and <strong>cohesion</strong> within their organization. The outcome will be higher <strong>quality</strong>, <strong>customer delight</strong> and <strong>more revenue</strong>.</p> 
+		
+		<p>Learn about <a href="/resume/">my professional experience</a> since 1986.</p>
+    <span style="clear:both; float:none"/>
+
+	<p class="section">Professional Services</p>
+	<p>I'm fluent in these languages:</p>
+	<p align="center">
+		<a href="/category/en.html"><img src="/img/language-flags/32x32/flag_rotate-02.png"></a>
+		<a href="/category/de.html"><img src="/img/language-flags/32x32/flag_rotate-03.png"></a>
+		<a href="/category/es.html"><img src="/img/language-flags/32x32/flag_rotate-12.png"></a>
+	</p>
+	<p align="center">
+		<small>
+			<a href="/category/en.html">English</a>
+			<a href="/category/de.html">German</a>
+			<a href="/category/es.html">Spanish</a>
+		</small>
+	</p>
+	<div class="no-print-sidebar">
+		<p>Scrum Pair-Coaching to develop technical competence:</p>
+		<p align="center">Details in <a href="/en-pair-coaching-scrummaster.html">English</a>, <a
+				href="/de-pair-coaching-scrummaster.html">Deutsch</a></p>
+
+		<p><strong>Resources for new clients</strong>:</p>
+		<p align="center"><a href="/resources/de-new-client.html">Deutsch</a></p>
+	</div>
+
+	<div class="no-print-sidebar">
+		<p class="section noprint">Search</p>
+		<form method="get" action="http://www.google.com/search">
+			<p align="center"><input type="text" name="q" maxlength="255" value="" style="width: 180px" /></br>
+				<input type="submit" value="Google Search" class="btn btn-primary btn-mini" />
+			</p>
+			<input type="hidden" name="sitesearch" value="http://www.stephan-schwab.com" />
+		</form>
+
+		<p class="section">Special&nbsp;Content</p>
+		<ul class="special-content">
+			<li><a href="/atdd/">Acceptance Test-Driven Development</a></li>
+			<li><a href="/software-design/">Software Design</a></li>
+			<li><a href="/sddm.html">Software Development Decision Making</a></li>
+		</ul>
+		<ul class="special-content">
+			<li><a href="/coaching-future-masters.html">Coaching future masters</a></li>
+		</ul>
+		<ul class="special-content">
+			<li><a href="/farmstead.html">Developing a farmstead in Andalucia, Spain</a></li>
+			<li><a href="/house/">Building a house, Spain</a></li>
+			<li><a href="/airtravel/">Business travel with light aircraft</a></li>
+			<li><a href="/horses/">Horses</a></li>
+			<li><a href="/panama-farm.html">Rainforest Farm, Panama</a></li>
+			<li><a href="/galleries/">Photo Galleries</a></li>
+		</ul>
+		<ul class="special-content">
+			<li><a href="/reading-list.html">My reading list</a></li>
+		</ul>
+
+		<p class="section">Highlights of the Year</p>
+		<ul class="special-content">
+			
+			<li><a href="/2016/12/27/highlights-of-2016.html">2016</a></li>
+			
+			<li><a href="/2015/12/31/highlights-2015.html">2015</a></li>
+			
+			<li><a href="/2014/12/31/highlights-2014.html">2014</a></li>
+			
+			<li><a href="/2013/12/31/hightlights-2013.html">2013</a></li>
+			
+			<li><a href="/2012/12/31/highlights-2012.html">2012</a></li>
+			
+			<li><a href="/2011/12/31/highlights-2011.html">2011</a></li>
+			
+			<li><a href="/2010/12/31/highlights-2010.html">2010</a></li>
+			
+			<li><a href="/2009/12/31/highlights-2009.html">2009</a></li>
+			
+			<li><a href="/2008/12/31/highlights-2008.html">2008</a></li>
+			
+			<li><a href="/2007/12/31/highlights-2007.html">2007</a></li>
+			
+			<li><a href="/2006/12/31/highlights-2006.html">2006</a></li>
+			
+		</ul>
+
+		<p class="section">Living on planet Earth</p>
+		<ul class="special-content">
+			<li><a href="/dominican-republic.html">Dominican Republic</a></li>
+			<li><a href="/china.html">China</a></li>
+			<li><a href="/germany.html">Germany</a></li>
+			<li><a href="/panama.html">Panama</a></li>
+			<li><a href="/spain.html">Spain</a></li>
+			<li><a href="/usa.html">USA</a></li>
+		</ul>
+
+		<p class="section">Open Source Projects</p>
+		<ul class="special-content">
+			<li><a href="/ale-news.html">Development of ALE News</a></li>
+			<li><a href="https://github.com/snscaimito/RAutomation">RAutomation</a></li>
+			<li><a href="/open-source.html">Other contributions to Open Source</a></li>
+		</ul>
+
+		<p class="section">Stay in touch</p>
+		<p align="center">
+			<a href="/rss.xml"><img src="/img/Furry-Cushion-RSS_48.png" /></a>
+			<a href="https://twitter.com/snscaimito"><img src="/img/Furry-Cushion-Twitter_48.png" /></a>
+			<a href="http://www.linkedin.com/in/stephanschwab"><img src="/img/Furry-Cushion-LinkedIn_48.png" /></a>
+		</p>
+		<p align="center">
+			<a rel="me" href="https://techhub.social/@snscaimito"><img src="/img/mastodon.svg" width="48" /></a>
+			<a href="https://bsky.app/profile/snscaimito.bsky.social"><img src="/img/Bluesky_butterfly-logo.svg"
+					width="65" /></a>
+			<a href="https://www.tiktok.com/@snscaimito"><img src="/img/tiktok-icon-white-1-logo-svgrepo-com.svg"
+					width="48" /></a>
+		</p>
+		<p align="center">
+			<a href="mailto:sns@caimito.net?subject=From%20stephan-schwab.com">sns@caimito.net</a>
+		</p>
+
+		<p class=" section">My Books
+		</p>
+		<p align="center"><a href="https://leanpub.com/activitycentereddesign"><img
+					src="/img/smarter-software-with-activity-centered-design.jpg" /></a></p>
+		<p align="center"><a href="https://leanpub.com/essays-on-software-development-2012"><img
+					src="/img/essays-on-software-development-2012.png" /></a></p>
+
+		<p class="section">Everything</p>
+		<p>See a listing of <a href="/all-posts.html">all posts</a> on this site.</p>
+	</div>
+</div>
+			</div>
+		</div>
+	</div>
+		<script src="//use.typekit.net/npx1yoc.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
+	
+	<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-35257032-1', 'auto');
+	  ga('require', 'displayfeatures');
+	  ga('send', 'pageview');
+
+	</script>
+	<script type="text/javascript"> 
+		jQuery(document).ready(function(){ 
+			jQuery("#gallery").unitegallery(); 
+		}); 
+	</script>
+	
+	<script>
+		$(document).ready(function() {
+			$('.social-blogging').each(function() {
+				const service = $(this).attr('service');
+				const url = `/api/posted-on/${service}?article=${window.location.pathname}`;
+
+				fetch(url)
+					.then(response => response.json())
+					.then(data => {
+						console.log(data)
+						$(this).attr('href', data.postUrl)
+					})
+					.catch(error => console.error('Error:', error));
+			})
+		})
+	</script>
+
+</body>
+</html>

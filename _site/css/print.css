@@ -1,0 +1,8 @@
+.footer, .featured-categories, .no-print-sidebar, .no-print {
+	display: none;
+}
+
+.post P, .article P, .article TD, .article TH, .article UL {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 10pt;
+}
