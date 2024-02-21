@@ -16,12 +16,6 @@
           - bind9-doc
         state: present
 
-    - name: Configure BIND9 to run as non-root (check if required, as it's usually default)
-      ansible.builtin.lineinfile:
-        path: /etc/default/bind9
-        regexp: '^OPTIONS='
-        line: 'OPTIONS="-u bind -4"' # Example to run as 'bind' user and IPv4 only; adjust as necessary
-
     - name: Ensure BIND9 is running and enabled on boot
       ansible.builtin.service:
         name: bind9
