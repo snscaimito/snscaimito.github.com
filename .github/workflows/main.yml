@@ -14,11 +14,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Set up SSH
-        uses: webfactory/ssh-agent@v0.5.1
-        with:
-          ssh-private-key: ${{ secrets.GHA_PRIVATE_KEY }}
-
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.GHA_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          echo "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+  
       - name: SCP files
         run: |
           ssh gha@social.caimito.eu mkdir -p /home/gha/content
