@@ -1,6 +1,6 @@
 ---
 - name: Make Docker host
-  hosts: docker-hosts
+  hosts: docker
   become: yes
   tasks:
     - name: Install Docker

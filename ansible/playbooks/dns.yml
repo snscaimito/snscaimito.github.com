@@ -1,6 +1,6 @@
 ---
 - name: Install and configure BIND9
-  hosts: dns-hosts
+  hosts: dns
   become: yes
   tasks:
     - name: Update apt cache
@@ -28,14 +28,14 @@
         state: started
         enabled: yes
 
-    - name: Deploy main BIND configuration file
-      ansible.builtin.template:
-        src: /path/to/your/named.conf.template
-        dest: /etc/bind/named.conf
-        owner: root
-        group: bind
-        mode: '0640'
-      notify: restart bind9
+    # - name: Deploy main BIND configuration file
+    #   ansible.builtin.template:
+    #     src: /path/to/your/named.conf.template
+    #     dest: /etc/bind/named.conf
+    #     owner: root
+    #     group: bind
+    #     mode: '0640'
+    #   notify: restart bind9
 
   # - name: Deploy zone file for stephan-schwab.com
   #   ansible.builtin.template:
