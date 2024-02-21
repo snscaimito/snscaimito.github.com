@@ -40,5 +40,5 @@ jobs:
       working-directory: ansible
       run: |
         export ANSIBLE_HOST_KEY_CHECKING=false
-        ansible-playbook -i i main.yml
+        ansible-playbook -i inventory/hosts.ini playbooks/main.yml
         
