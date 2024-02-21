@@ -4,11 +4,8 @@
   become_method: sudo
 
 - name: Update host
-  ansible.builtin.import_playbook:
-    playbook: update-host.yml
+  ansible.builtin.import_playbook: playbooks/update-host.yml
 - name: Install Docker
-  ansible.builtin.import_playbook:
-    playbook: docker.yml
+  ansible.builtin.import_playbook: playbooks/docker.yml
 - name: Install DNS
-  ansible.builtin.import_playbook:
-    playbook: dns.yml
+  ansible.builtin.import_playbook: playbooks/dns.yml
