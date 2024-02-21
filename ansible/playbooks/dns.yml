@@ -1,6 +1,6 @@
 ---
 - name: Install and configure BIND9
-  hosts: dns-servers
+  hosts: dns-hosts
   become: yes
   tasks:
     - name: Update apt cache
