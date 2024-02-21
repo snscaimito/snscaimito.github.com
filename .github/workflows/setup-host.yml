@@ -1,4 +1,4 @@
-name: Run Ansible Playbook
+name: Configure Server
 
 on:
   workflow_dispatch: # Manually run the workflow
