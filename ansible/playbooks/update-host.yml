@@ -1,5 +1,7 @@
 ---
 - name: Update host
+  hosts: all
+  become: yes
   tasks:
     - name: Update apt cache
       ansible.builtin.apt:

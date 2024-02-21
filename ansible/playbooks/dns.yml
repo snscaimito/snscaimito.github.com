@@ -1,5 +1,7 @@
 ---
 - name: Install and configure BIND9
+  hosts: dns-servers
+  become: yes
   tasks:
     - name: Update apt cache
       ansible.builtin.apt:

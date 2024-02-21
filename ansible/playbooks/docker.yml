@@ -1,5 +1,7 @@
 ---
 - name: Make Docker host
+  hosts: docker-hosts
+  become: yes
   tasks:
     - name: Install Docker
       ansible.builtin.apt:
