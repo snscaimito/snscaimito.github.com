@@ -1,39 +1,39 @@
 ---
 - name: Install and configure BIND9
   tasks:
-  - name: Update apt cache
-    ansible.builtin.apt:
-      update_cache: yes
-      cache_valid_time: 3600 # Optional, to avoid updating cache too frequently
+    - name: Update apt cache
+      ansible.builtin.apt:
+        update_cache: yes
+        cache_valid_time: 3600 # Optional, to avoid updating cache too frequently
 
-  - name: Install BIND9 and related packages
-    ansible.builtin.apt:
-      name:
-        - bind9
-        - bind9utils
-        - bind9-doc
-      state: present
+    - name: Install BIND9 and related packages
+      ansible.builtin.apt:
+        name:
+          - bind9
+          - bind9utils
+          - bind9-doc
+        state: present
 
-  - name: Configure BIND9 to run as non-root (check if required, as it's usually default)
-    ansible.builtin.lineinfile:
-      path: /etc/default/bind9
-      regexp: '^OPTIONS='
-      line: 'OPTIONS="-u bind -4"' # Example to run as 'bind' user and IPv4 only; adjust as necessary
+    - name: Configure BIND9 to run as non-root (check if required, as it's usually default)
+      ansible.builtin.lineinfile:
+        path: /etc/default/bind9
+        regexp: '^OPTIONS='
+        line: 'OPTIONS="-u bind -4"' # Example to run as 'bind' user and IPv4 only; adjust as necessary
 
-  - name: Ensure BIND9 is running and enabled on boot
-    ansible.builtin.service:
-      name: bind9
-      state: started
-      enabled: yes
+    - name: Ensure BIND9 is running and enabled on boot
+      ansible.builtin.service:
+        name: bind9
+        state: started
+        enabled: yes
 
-  - name: Deploy main BIND configuration file
-    ansible.builtin.template:
-      src: /path/to/your/named.conf.template
-      dest: /etc/bind/named.conf
-      owner: root
-      group: bind
-      mode: '0640'
-    notify: restart bind9
+    - name: Deploy main BIND configuration file
+      ansible.builtin.template:
+        src: /path/to/your/named.conf.template
+        dest: /etc/bind/named.conf
+        owner: root
+        group: bind
+        mode: '0640'
+      notify: restart bind9
 
   # - name: Deploy zone file for stephan-schwab.com
   #   ansible.builtin.template:
@@ -44,8 +44,8 @@
   #     mode: '0640'
   #   notify: restart bind9
 
-handlers:
-  - name: restart bind9
-    ansible.builtin.service:
-      name: bind9
-      state: restarted
+  handlers:
+    - name: restart bind9
+      ansible.builtin.service:
+        name: bind9
+        state: restarted
