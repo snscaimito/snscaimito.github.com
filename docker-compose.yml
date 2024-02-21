@@ -14,20 +14,20 @@ services:
       - jekyll
     links:
       - jekyll
-      - social-blogging
+      # - social-blogging
   jekyll:
     image: jekyll/jekyll
     command: jekyll serve --watch --drafts
     volumes:
-      - .:/srv/jekyll
+      - content:/srv/jekyll
     environment:
       JEKYLL_ENV: development
-  social-blogging:
-    links:
-      - jekyll
-    build:
-      context: ../social-blogging
-    volumes:
-      - db-data:/var/lib/sqlite
-    environment:
-      - RSS_FEED_URL=http://jekyll:4000/rss.xml
+  # social-blogging:
+  #   links:
+  #     - jekyll
+  #   build:
+  #     context: ../social-blogging
+  #   volumes:
+  #     - db-data:/var/lib/sqlite
+  #   environment:
+  #     - RSS_FEED_URL=http://jekyll:4000/rss.xml

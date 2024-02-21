@@ -19,7 +19,12 @@ jobs:
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
-      - name: Run SSH command
+      - name: SCP files
         run: |
-          ssh user@social.caimito.eu "echo 'Hello, world!'"
+          ssh gha@social.caimito.eu mkdir -p /home/gha/content
+          scp -r content gha@social.caimito.eu:/home/gha/
+
+      - name: Start Docker
+        run: |
+          ssh gha@social.caimito.eu docker-compose up -d
 
