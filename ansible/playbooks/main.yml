@@ -1,11 +1,4 @@
 ---
-- hosts: server
-  become: yes
-  become_method: sudo
-
-- name: Update host
-  ansible.builtin.import_playbook: update-host.yml
-- name: Install Docker
-  ansible.builtin.import_playbook: docker.yml
-- name: Install DNS
-  ansible.builtin.import_playbook: dns.yml
+- import_playbook: update-host.yml
+- import_playbook: docker.yml
+- import_playbook: dns.yml
