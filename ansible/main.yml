@@ -1,0 +1,26 @@
+---
+- hosts: server
+  become: yes
+  become_method: sudo
+  tasks:
+    - name: Install Docker
+      ansible.builtin.apt:
+        name: docker.io
+        state: present
+        update_cache: yes
+
+    - name: Ensure Docker is installed
+      ansible.builtin.package:
+        name: docker
+        state: present
+
+    - name: Ensure Docker service is running
+      ansible.builtin.service:
+        name: docker
+        state: started
+
+    - name: Run a Docker container
+      ansible.builtin.docker_container:
+        name: my_container
+        image: hello-world
+        state: started
