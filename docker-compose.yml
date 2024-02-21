@@ -19,7 +19,7 @@ services:
     image: jekyll/jekyll
     command: jekyll serve --watch --drafts
     volumes:
-      - content:/srv/jekyll
+      - blog/content:/srv/jekyll
     environment:
       JEKYLL_ENV: development
   # social-blogging:

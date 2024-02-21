@@ -22,10 +22,10 @@ jobs:
           echo "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
           ssh-keyscan social.caimito.eu >> ~/.ssh/known_hosts
 
-      - name: SCP files
+      - name: Content
         run: |
-          ssh gha@social.caimito.eu mkdir -p /home/gha/content
-          scp -r content gha@social.caimito.eu:/home/gha/
+          ssh gha@social.caimito.eu mkdir -p /home/gha/blog
+          ssh gha@social.caimito.eu git clone git@github.com:snscaimito/blog.git blog
 
       - name: Start Docker
         run: |
