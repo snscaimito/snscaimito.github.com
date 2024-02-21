@@ -1,9 +1,10 @@
-name: SSH Commands
+name: Blog Deploy
 
 on:
   push:
-    branches:
-      - main
+    paths:
+      - '.github/workflows/main.yml'
+      - 'content/**'
 
 jobs:
   deploy:

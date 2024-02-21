@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - 'ansible/**'
+      - '.github/workflows/setup-host.yml'
 
 jobs:
   build:
