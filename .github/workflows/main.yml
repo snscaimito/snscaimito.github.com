@@ -20,7 +20,8 @@ jobs:
           echo "${{ secrets.GHA_PRIVATE_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           echo "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
-  
+          ssh-keyscan social.caimito.eu >> ~/.ssh/known_hosts
+
       - name: SCP files
         run: |
           ssh gha@social.caimito.eu mkdir -p /home/gha/content
