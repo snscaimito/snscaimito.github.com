@@ -33,7 +33,8 @@ jobs:
         echo "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
   
     - name: Run Ansible Playbook
+      working-directory: ansible
       run: |
         export ANSIBLE_HOST_KEY_CHECKING=false
-        ansible-playbook -i hosts.ini main.yml
+        ansible-playbook -i i main.yml
         
