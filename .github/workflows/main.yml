@@ -5,15 +5,13 @@ on:
     paths:
       - '.github/workflows/main.yml'
       - 'content/**'
+      - 'docker/**'
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
       - name: Setup SSH
         run: |
           mkdir -p ~/.ssh
@@ -25,7 +23,21 @@ jobs:
       - name: Content
         run: |
           ssh gha@social.caimito.eu mkdir -p /home/gha/blog
-          ssh gha@social.caimito.eu git clone git@github.com:snscaimito/blog.git blog
+          ssh gha@social.caimito.eu << EOF
+            mkdir -p /home/gha/blog
+
+            if [ -z "$(ls -A /home/gha/blog)" ]; then
+              git clone git@github.com:snscaimito/blog.git /home/gha/blog
+            else
+              echo "Directory /home/gha/blog is not empty. Skipping clone."
+              # Optional: Add git pull if the directory is a repo and you want to update it
+              if [ -d "/home/gha/blog/.git" ]; then
+                  cd /home/gha/blog && git pull
+              else
+                  echo "/home/gha/blog is not a git repository. Please handle manually."
+              fi
+            fi
+            EOF
 
       - name: Start Docker
         run: |
