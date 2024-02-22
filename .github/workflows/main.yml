@@ -34,14 +34,17 @@ jobs:
                 echo "/home/gha/blog is not a git repository. Please handle manually."
             fi
           fi
+
+          rm -rf /home/gha/_site
+          mkdir -p /home/gha/_site
+          docker run --volume="$PWD/blog/content:/srv/jekyll" --volume="$PWD/_site:/srv/jekyll/_site" -it jekyll/builder jekyll build _site
           EOF
         
 
-      - name: Start Docker
-        run: |
-          ssh gha@social.caimito.eu << 'EOF'
-            chmod -R 777 /home/gha/blog/content
-            cd /home/gha/blog/docker
-            docker compose up -d
-          EOF
+      # - name: Start Docker
+      #   run: |
+      #     ssh gha@social.caimito.eu << 'EOF'
+      #       cd /home/gha/blog/docker
+      #       docker compose up -d
+      #     EOF
 

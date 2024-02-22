@@ -7,21 +7,12 @@ services:
   nginx:
     image: nginx:alpine
     volumes:
+      - /home/gha/_site:/usr/share/nginx/html
       - ./nginx.conf:/etc/nginx/nginx.conf
     ports:
       - "80:80"
-    depends_on:
-      - jekyll
-    links:
-      - jekyll
+    # links:
       # - social-blogging
-  jekyll:
-    image: jekyll/jekyll
-    command: jekyll serve --watch --drafts
-    volumes:
-      - ../content:/srv/jekyll
-    environment:
-      JEKYLL_ENV: development
   # social-blogging:
   #   links:
   #     - jekyll
