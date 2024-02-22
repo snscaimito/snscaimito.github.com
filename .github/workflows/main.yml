@@ -39,5 +39,5 @@ jobs:
 
       - name: Start Docker
         run: |
-          ssh gha@social.caimito.eu docker-compose up -d
+          ssh gha@social.caimito.eu blog/docker/docker-compose up -d
 
