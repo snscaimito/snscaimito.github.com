@@ -37,7 +37,7 @@ jobs:
           fi
 
           echo "Building the site."
-          docker run --volume="$PWD/blog/content:/srv/jekyll" --volume="$PWD/html:/srv/jekyll" jekyll/builder jekyll build _site
+          docker run --volume="$PWD/blog/content:/srv/jekyll" --volume="$PWD/html:/srv/jekyll/_site" jekyll/builder jekyll build _site
           EOF
         
 
