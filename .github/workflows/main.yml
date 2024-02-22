@@ -22,10 +22,7 @@ jobs:
 
       - name: Content
         run: |
-          ssh gha@social.caimito.eu mkdir -p /home/gha/blog
           ssh gha@social.caimito.eu << EOF
-            mkdir -p /home/gha/blog
-
             if [ -z "$(ls -A /home/gha/blog)" ]; then
               git clone git@github.com:snscaimito/blog.git /home/gha/blog
             else
