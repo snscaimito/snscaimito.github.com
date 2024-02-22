@@ -24,7 +24,7 @@ jobs:
         run: |
           ssh gha@social.caimito.eu << 'EOF'
           if [ -d "/home/gha/blog/.git" ]; then
-            cd /home/gha/blog && git pull
+            git -C /home/gha/blog pull
           else
             git clone git@github.com:snscaimito/blog.git /home/gha/blog
           fi
