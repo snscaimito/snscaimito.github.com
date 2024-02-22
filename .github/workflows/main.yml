@@ -41,6 +41,8 @@ jobs:
         run: |
           ssh gha@social.caimito.eu << 'EOF'
             cd /home/gha/blog/docker
+            export UID=$(id -u)
+            export GID=$(id -g)
             docker compose up -d
           EOF
 
