@@ -36,7 +36,6 @@ jobs:
             fi
           fi
 
-          rm -rf /home/gha/_site
           mkdir -p /home/gha/_site
           echo "Prepared to build the site."
           docker run --volume="$PWD/blog/content:/srv/jekyll" --volume="$PWD/_site:/srv/jekyll/_site" jekyll/builder jekyll build _site
