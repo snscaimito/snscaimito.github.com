@@ -32,12 +32,11 @@ jobs:
           echo "Building the site."
           docker run --volume="$PWD/blog/content:/srv/jekyll" --volume="$PWD/html:/srv/jekyll/_site" jekyll/builder jekyll build _site
           EOF
-        
 
-      # - name: Start Docker
-      #   run: |
-      #     ssh gha@social.caimito.eu << 'EOF'
-      #       cd /home/gha/blog/docker
-      #       docker compose up -d
-      #     EOF
+      - name: Start Docker
+        run: |
+          ssh gha@social.caimito.eu << 'EOF'
+            cd /home/gha/blog/docker
+            docker compose up -d
+          EOF
 
