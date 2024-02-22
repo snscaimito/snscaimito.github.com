@@ -23,16 +23,12 @@ jobs:
       - name: Content
         run: |
           ssh gha@social.caimito.eu << 'EOF'
-          if [ -z "\$(ls -A /home/gha/blog)" ]; then
-            git clone git@github.com:snscaimito/blog.git
+          if [ -d "/home/gha/blog/.git" ]; then
+            cd /home/gha/blog && git pull
+            echo "Pulled latest changes."
           else
-            echo "Not empty; pulling latest changes."
-            if [ -d "/home/gha/blog/.git" ]; then
-                cd /home/gha/blog && git pull
-                echo "Pulled latest changes."
-            else
-                echo "/home/gha/blog is not a git repository. Please handle manually."
-            fi
+            echo "Empty; cloning repository."
+            git clone git@github.com:snscaimito/blog.git /home/gha/blog
           fi
 
           echo "Building the site."
