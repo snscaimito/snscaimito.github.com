@@ -22,7 +22,6 @@ services:
       - ../content:/srv/jekyll
     environment:
       JEKYLL_ENV: development
-    user: "${UID}:${GID}"
   # social-blogging:
   #   links:
   #     - jekyll

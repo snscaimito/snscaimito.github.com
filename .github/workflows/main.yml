@@ -40,7 +40,7 @@ jobs:
       - name: Start Docker
         run: |
           ssh gha@social.caimito.eu << 'EOF'
-            chmod -r 777 /home/gha/blog/content
+            chmod -R 777 /home/gha/blog/content
             cd /home/gha/blog/docker
             docker compose up -d
           EOF
