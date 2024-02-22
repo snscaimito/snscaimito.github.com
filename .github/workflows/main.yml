@@ -37,7 +37,7 @@ jobs:
                   echo "/home/gha/blog is not a git repository. Please handle manually."
               fi
             fi
-            EOF
+          EOF
 
       - name: Start Docker
         run: |
