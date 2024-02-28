@@ -48,6 +48,7 @@ services:
       - "8080:8080"
     links:
       - mongo
+      - nginx
     environment:
-      - RSS_FEED=http://host.docker.internal/rss.xml
+      - RSS_FEED=http://nginx/rss.xml
       - LOGGING_LEVEL_SOCIAL_BLOGGING=WARN
