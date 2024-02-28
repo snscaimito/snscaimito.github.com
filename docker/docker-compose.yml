@@ -1,7 +1,7 @@
 version: "3"
       
 volumes:
-  db-data:
+  social-blogging:
 
 services:
   nginx:
@@ -14,14 +14,16 @@ services:
     ports:
       - "80:80"
       - "443:443"
-    # links:
-      # - social-blogging
-  # social-blogging:
-  #   links:
-  #     - jekyll
-  #   build:
-  #     context: ../social-blogging
-  #   volumes:
-  #     - db-data:/var/lib/sqlite
-  #   environment:
-  #     - RSS_FEED_URL=http://jekyll:4000/rss.xml
+  mongo:
+    image: mongo
+    volumes:
+      - social-blogging:/data/db
+  social-blogging:
+    image: ghcr.io/snscaimito/social-blogging:candidate
+    ports:
+      - "8080:8080"
+    links:
+      - mongo
+    environment:
+      - RSS_FEED=https://host.docker.internal/rss.xml
+      - LOGGING_LEVEL_SOCIAL_BLOGGING=WARN
