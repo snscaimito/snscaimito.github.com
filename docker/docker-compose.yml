@@ -51,4 +51,4 @@ services:
       - nginx
     environment:
       - RSS_FEED=http://nginx/rss.xml
-      - LOGGING_LEVEL_SOCIAL_BLOGGING=WARN
+      - LOGGING_LEVEL_SOCIAL_BLOGGING=DEBUG
