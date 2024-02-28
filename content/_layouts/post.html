@@ -43,7 +43,7 @@
 		$(document).ready(function() {
 			$('.social-blogging').each(function() {
 				const service = $(this).attr('service');
-				const url = `/api/posts?articleURL=http://0.0.0.0:4000${window.location.pathname}&service=${service.toUpperCase()}`;
+				const url = `/api/posts?articleURL=${window.location.pathname}&service=${service.toUpperCase()}`;
 
 				fetch(url)
 					.then(response => {
