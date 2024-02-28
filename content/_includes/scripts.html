@@ -20,19 +20,3 @@
 		}); 
 	</script>
 	
-	<script>
-		$(document).ready(function() {
-			$('.social-blogging').each(function() {
-				const service = $(this).attr('service');
-				const url = `/api/posted-on/${service}?article=${window.location.pathname}`;
-
-				fetch(url)
-					.then(response => response.json())
-					.then(data => {
-						console.log(data)
-						$(this).attr('href', data.postUrl)
-					})
-					.catch(error => console.error('Error:', error));
-			})
-		})
-	</script>

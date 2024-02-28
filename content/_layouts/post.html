@@ -19,7 +19,7 @@
 					<p>This article has been posted to social media sites. There might be comments. Just follow the links:</p>
 					<div>
 						<a class="social-blogging" service="twitter" href="https://twitter.com/snscaimito"><img src="/img/Furry-Cushion-Twitter_48.png" /></a>
-						<a class="social-blogging" service="activityPub" rel="me" href="https://techhub.social/@snscaimito"><img src="/img/mastodon.svg" width="48" /></a>
+						<a class="social-blogging" service="activity_Pub" rel="me" href="https://techhub.social/@snscaimito"><img src="/img/mastodon.svg" width="48" /></a>
 					</div>
 				</div>
 			</div>
@@ -39,5 +39,32 @@
 		</div>
 	</div>
 	{% include scripts.html %}
+	<script>
+		$(document).ready(function() {
+			$('.social-blogging').each(function() {
+				const service = $(this).attr('service');
+				const url = `/api/posts?articleURL=http://0.0.0.0:4000${window.location.pathname}&service=${service.toUpperCase()}`;
+
+				fetch(url)
+					.then(response => {
+						if (!response.ok && response.status !== 404) {
+							throw new Error(`HTTP error! status: ${response.status}`);
+						}
+
+						if (response.status === 404) {
+							$(this).hide();
+							return;
+						}
+
+						return response.json();
+					})
+					.then(data => {
+						console.log('received', data)
+						$(this).attr('href', data.socialMediaURL)
+					})
+					.catch(error => console.error('Error:', error));
+			})
+		})
+	</script>
 </body>
 </html>

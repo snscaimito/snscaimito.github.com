@@ -5,6 +5,8 @@ volumes:
 
 services:
   nginx:
+    profiles:
+      - production
     restart: always
     image: nginx:alpine
     volumes:
@@ -14,6 +16,28 @@ services:
     ports:
       - "80:80"
       - "443:443"
+  nginx-dev:
+    profiles:
+      - development
+    restart: always
+    image: nginx:alpine
+    volumes:
+      - ../content/_site:/usr/share/nginx/html
+      - ./nginx.development.conf:/etc/nginx/nginx.conf
+    ports:
+      - "80:80"
+    links:
+      - jekyll
+      - social-blogging
+  jekyll:
+    profiles:
+      - development
+    image: jekyll/jekyll
+    command: jekyll serve --watch --drafts
+    volumes:
+      - ../content:/srv/jekyll
+    ports:
+      - 4000:4000
   mongo:
     image: mongo
     volumes:
@@ -25,5 +49,5 @@ services:
     links:
       - mongo
     environment:
-      - RSS_FEED=https://host.docker.internal/rss.xml
+      - RSS_FEED=http://host.docker.internal/rss.xml
       - LOGGING_LEVEL_SOCIAL_BLOGGING=WARN
