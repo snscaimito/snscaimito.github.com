@@ -37,6 +37,6 @@ jobs:
         run: |
           ssh gha@social.caimito.eu << 'EOF'
             cd /home/gha/blog/docker
-            docker compose up -d
+            docker compose --profile production up -d
           EOF
 
