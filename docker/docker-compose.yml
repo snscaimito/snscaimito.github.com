@@ -52,7 +52,7 @@ services:
     environment:
       - RSS_FEED=http://nginx/rss.xml
       - LOGGING_LEVEL_SOCIAL_BLOGGING=DEBUG
-      - ATPROTO.HANDLE=stephan-schwab.com
-      - ATPROTO.PASSWORD=kypcin-pavgUk-damjo8
-      - ATPROTO.PROFILEURL=https://bsky.app/profile/stephan-schwab.com
-      - ATPROTO.ENABLED=true
+      - ATPROTO_HANDLE=stephan-schwab.com
+      - ATPROTO_PASSWORD=kypcin-pavgUk-damjo8
+      - ATPROTO_PROFILEURL=https://bsky.app/profile/stephan-schwab.com
+      - ATPROTO_ENABLED=true
