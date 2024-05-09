@@ -196,11 +196,27 @@ I taught a young developer in China at Huawei Behavior-Driven Development in Pyt
 		<p class="client">2013 - 2014, OBI Smart Technologies, Wermelskirchen, Germany</p>
 		<p>Led a Scrum team. Added testers to the team. Improved requirements gathering and intra-departmental collaboration. Coached department heads on agile values &amp; principles. </p>
 	</dd>
-	
+
+	<dd>
+		<div class="showcase">
+		<h3>rmq - Ruby Wrapper for MQ Series client API</h3>
+		<p>Similar as with RAutomation at another client there was a need to have a testing tool for IBM MQ Series and I created it.</p>
+		<p><a href="https://github.com/snscaimito/rmq">Code on GitHub</a></p>
+		</div>
+	</dd>
+
 	<dt>Agile Coach / Scrum Coach <em>working with team leaders</em></dt>
 	<dd>
 		<p class="client">2012, Independent Health, Buffalo, New York, USA</p>
 		<p>Coached SOA teams on Acceptance Test-Driven Development and created a technical tool for doing it.</p>
+	</dd>
+
+	<dd>
+		<div class="showcase">
+		<h3>RAutomation - Small and easy to use library for helping out to automate windows and their controls for automated testing</h3>
+		<p>At a client there was a need to automate windows desktop application for Acceptance Test-Driven Development. After some experiments on my own I discovered another developer on GitHub and started to collaborate on the project with the gracious support of my client.</p>
+		<p><a href="https://github.com/snscaimito/RAutomation">Code on GitHub</a></p>
+		</div>
 	</dd>
 	
 	<dt>Agile Coach / Scrum Coach <em>working with Iteration Managers and Application Development Leaders</em></dt>
