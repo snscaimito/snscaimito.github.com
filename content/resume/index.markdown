@@ -28,6 +28,22 @@ I taught a young developer in China at Huawei Behavior-Driven Development in Pyt
 
 ## Engagement Overview
 <dl class="resume">
+	<dt>IoT Developer</dt>
+	<dd>
+		<p class="client">2024, Caimito Agile Life, Spain</p>
+		<p>Evaluated, planned and installed IoT gateway and end nodes to monitor soil humidity, temperature and conductivity to provide automated irrigation to a Miyawaki style forest co-financed by the European Union's LIFE program (via LifeTerra foundation).</p>
+		<p>Created dashboards and automations for power monitoring, to control water pumps and other devices. Did the electrical installation and software. The system is solar powered and off the utility grid.</p>
+		<p>Technologies used: Internet of Things Network, LoRaWAN, NPC, BLE, Home Assistant, Dragino, Milesight, Shelly, and SMA devices</p>
+	</dd>
+
+	<dd>
+		<div class="showcase">
+		<h3>Magic Link Demo</h3>
+		<p>Magic Links are a simple way to allow authorized access to a website without building a full-fledged user management system. This code repository shows how this can be implemented easily:</p>
+		<p><a href="https://github.com/snscaimito/magic-link-demo">Demo code on GitHub</a></p>
+		</div>
+	</dd>
+
 	<dt>Product Designer and Developer</dt>
 	<dd>
 		<p class="client">2022 - 2023, Caimito Agile Life, Spain</p>

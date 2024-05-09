@@ -432,3 +432,18 @@ DIV.link-tree {
 DIV.link-tree IMG {
 	width: 300px;
 }
+
+DIV.showcase {
+	border-radius: 0.5em;
+	border-color: #848383;
+	border-width: thin;
+	border-style: dashed;
+	padding: 0.5em;
+	margin: 1em;
+}
+
+DIV.showcase H3 {
+	text-align: left;
+  color: black;
+	margin-bottom: 0.5em;
+}
