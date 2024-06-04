@@ -28,6 +28,13 @@ I taught a young developer in China at Huawei Behavior-Driven Development in Pyt
 
 ## Engagement Overview
 <dl class="resume">
+	<dt>Developer</dt>
+	<dd>
+		<p class="client">2024, Caimito Services, USA</p>
+		<p>Development of an agroforestry planning and design tool. ChatGPT is used extensively for research about plant species and their properties as well as a means to speed up development tasks. GitHub Copilot in VS Code helps to quickly prototype the application. The development approach is trunk-based development with git commits and pushes directly to the production environment.</p>
+		<p>Technologies used: Spring Boot, Thymeleaf, htmx for HTML5/CSS3 frontend instead of a framework, ChatGPT</p>
+	</dd>
+
 	<dt>IoT Developer</dt>
 	<dd>
 		<p class="client">2024, Caimito Agile Life, Spain</p>
