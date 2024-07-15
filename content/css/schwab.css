@@ -61,7 +61,7 @@ TD.post {
 
 .post H2 {
 	font-size: 18pt;
-	margin-top: 12pt;
+	margin-top: 1.5em;
 	margin-bottom: -3px;
 	text-align: center;
 	font-family: 'Sansita', sans-serif;
@@ -171,6 +171,7 @@ DL.resume DT {
 	font-size: 12pt;
 	color: #0E6A01;
 	border-bottom: 1px dotted black;
+	margin-top: 1.5em;
 }
 
 DL.resume DD P.client {
@@ -188,6 +189,15 @@ DL.resume-inner DT {
 DL.resume-inner DD P {
 	font-size: 11pt;
 }
+
+DL.companies DT {
+	margin-top: 1em;
+}
+
+DL.companies DD {
+	margin-top: 0.5em;
+}
+
 
 
 UL.special-content {
@@ -220,7 +230,7 @@ DIV.post H2 {
 	font-size: 14pt;
 	margin-bottom: 6pt;
 	line-height: 20pt;
-	margin-top: 12pt;
+	margin-top: 1.5em;
 }
 
 DIV.article H3,

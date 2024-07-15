@@ -4,19 +4,11 @@ title: Professional experience of Stephan Schwab
 ---
 Based on my first lines of code written in the early 1980s and first publication in <a href="https://de.wikipedia.org/wiki/Computer_Persönlich">Computer Persönlich</a> I've been honing my skills in software development and business since then.
 
-My passion is software development in multiple programming languages and thanks to my demanding clients I keep up with current technologies being languages, frameworks and also networking, operating systems or operations topics.
+My passion is software development in multiple programming languages and thanks to my demanding clients I keep up with current technologies being it languages, frameworks and also networking, operating systems or operations topics.
 
-Unlike some of my peers in Agile Coaching I have never stopped programming personally and so I can do for real what I talk about. In every engagement that ability earns me quickly respect and people like to take my advice as it comes from the trenches and not from books or lectures.
+My work, on an international level, gets me in touch with many different national and corporate cultures. That allows me to see the bigger picture, provides me with a large arsenal of tools and therefore makes me able to solve difficult situations in a novel way.
 
-I help CEOs and Department Leaders to improve value creation and cohesion within their organization. The outcome will be higher quality, customer delight and more revenue. 
-
-Agility and self-organization require technical competence. Scrum, Kanban and other frameworks and concepts do not work without technical abilities. I help everybody involved to acquire or grow these abilities.
-
-My contributions help the organization to become more adaptable and more resilient so that it can prevail in global dynamic markets that are constantly changing.
-
-My work, on an international level, gets me in touch with many different national and corporate cultures. That allows me to see the bigger picture, provides me a large arsenal of tools and therefore makes me able to solve difficult situations in a way that is new to the particular client I’m working with.
-
-A good example illustrating some of my more special experiences is this story:
+A good example to illustrate some of my more special experiences is this story:
 
 <blockquote>
 I taught a young developer in China at Huawei Behavior-Driven Development in Python using the framework <a href="https://github.com/behave/behave">Behave</a>. She did not speak a lot of English and we were communicating through a translator who was sitting between us. As I was able to show in code what I was explaining in English - the translator turning my words into Mandarin - my coachee quickly understood the concepts and we were able to deliver a valuable service to her team.
@@ -26,7 +18,38 @@ I taught a young developer in China at Huawei Behavior-Driven Development in Pyt
 
 **sns@caimito.net**
 
-## Engagement Overview
+## Availability
+I am available for short and long term engagements for clients anywhere on the planet through one of my legal entities. Remote work is preferred but travel on short notice for a good reason is absolutely possible. I operate out of a well equipped office with high-speed Internet via Starlink and Internet safety measures are also in place.
+
+Both of my legal entities do other business activities and also have employees independently from my own consulting/contracting work. Caimito Agile Life SL runs a farming business in Spain. Details are at [https://www.caimito.eu](https://www.caimito.eu). When I am not personally engaged with client work I contribute to these ventures. That also provides great opportunities for learning new things that my future clients can then benefit from.
+
+<dl class="companies">
+<dt>Caimito Agile Life SL</dt>
+<dd>Caimito Agile Life SL, registered as a limited liability company in Spain, does business within the European Union. Invoices are sent VAT free (reverse charge) and in Euro. The same goes for credit notes from agencies.</dd>
+
+<dt>Caimito Services LLC</dt>
+<dd>Caimito Services LLC is a limited liability company registered in the United States of America and does business in US Dollar for clients outside the European Union. For US clients Caimito Services can offer contract work on IRS 1099 basis.</dd>
+</dl>
+
+## General Knowledge
+Since the 1980s I have used a larger number of programming languages and countless tools and frameworks. I've seen methodologies and ways of management come and go. I have conversations on a daily basis in German, English and Spanish.
+
+I successfully avoided to distance myself from the <em>work in the trenches</em> and always make sure to stay a capable software developer. At the same time I have extensive business experience and knowledge on an international level. To my clients I can be a team member but also an advisor.
+
+In my engagement history I mention technical things that I have personally used and can use any time again. However, it is not difficult for me to pick up something new within a few days or weeks and rise quickly up to the expert level. After all that is what is expected on coaching engagements.
+
+Everything that is mentioned on this page is what I have deep and personal experience with. It's things that I have done and not delegated or have just been part of. Over the years a few technical things have stayed with me: C/C++, Java, JavaScript, HTML/CSS, Thymeleaf, event and messaging architectures, Docker, Linux, MacOS, TCP/IP networks
+
+### Agile Coaching
+Unlike some of my peers in Agile Coaching I have never stopped programming personally and so I can do for real what I talk about. In every engagement that ability earns me quickly respect and people like to take my advice as it comes from the trenches and not from books or lectures.
+
+I help CEOs and Department Leaders to improve value creation and cohesion within their organization. The outcome will be higher quality, customer delight and more revenue.
+
+Agility and self-organization require technical competence. Scrum, Kanban and other frameworks and concepts do not work without technical abilities. I help everybody involved to acquire or grow these abilities.
+
+My contributions help the organization to become more adaptable and more resilient so that it can prevail in global dynamic markets that are constantly changing.
+
+## Engagement History
 <dl class="resume">
 	<dt>Developer</dt>
 	<dd>
@@ -55,7 +78,6 @@ I taught a young developer in China at Huawei Behavior-Driven Development in Pyt
 	<dd>
 		<p class="client">2022 - 2023, Caimito Agile Life, Spain</p>
 		<img src="../img/granjaEU-menu.jpg" style="width: 8em; float: right; margin-left: 2em"/>
-		<p>This is a solo project with no other people involved.</p>
 		<p><a target="_blank" href="https://www.caimito.eu">CaimitoEU</a> is a frontend application to promote an ecosystem restoration project in Andalusia, Spain. The application contains a shop for packaged products and also an innovative butcher shop to facilitate the sale of fresh Iberico meat.</p>
 		<p>It is written in JavaScript with VueJS (version 3), HTML5 and CSS3 for styling. After a bad experience with TailwindCSS the styling was redone in pure CSS3. It is deployed as a Docker container with an NGINX reverse proxy in the front and for handling SSL encryption. CaimitoEU consumes an API provided by GranjaEU and does not have local data storage.</p>
 		<p>Secured via Keycloak, CaimitoEU calls the backend API REST endpoints authenticating itself as a service account.</p>

@@ -1,8 +1,15 @@
-.footer, .featured-categories, .no-print-sidebar, .no-print {
+.footer, .featured-categories, .no-print-sidebar, .no-print, .sidebar {
 	display: none;
 }
 
 .post P, .article P, .article TD, .article TH, .article UL {
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 10pt;
+}
+
+H1 {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+H1, H2, H3, H4, DT {
+	page-break-after: avoid;
 }
