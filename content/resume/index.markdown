@@ -31,7 +31,7 @@ Both of my legal entities do other business activities and also have employees i
 <dd>Caimito Services LLC is a limited liability company registered in the United States of America and does business in US Dollar for clients outside the European Union. For US clients Caimito Services can offer contract work on IRS 1099 basis.</dd>
 </dl>
 
-## General Knowledge
+## Overview
 Since the 1980s I have used a larger number of programming languages and countless tools and frameworks. I've seen methodologies and ways of management come and go. I have conversations on a daily basis in German, English and Spanish.
 
 I successfully avoided to distance myself from the <em>work in the trenches</em> and always make sure to stay a capable software developer. At the same time I have extensive business experience and knowledge on an international level. To my clients I can be a team member but also an advisor.
@@ -39,6 +39,18 @@ I successfully avoided to distance myself from the <em>work in the trenches</em>
 In my engagement history I mention technical things that I have personally used and can use any time again. However, it is not difficult for me to pick up something new within a few days or weeks and rise quickly up to the expert level. After all that is what is expected on coaching engagements.
 
 Everything that is mentioned on this page is what I have deep and personal experience with. It's things that I have done and not delegated or have just been part of. Over the years a few technical things have stayed with me: C/C++, Java, JavaScript, HTML/CSS, Thymeleaf, event and messaging architectures, Docker, Linux, MacOS, TCP/IP networks
+
+## Roles
+Throughout our lives, we all play various roles over time, and no single role is truly superior to others. As humans, we aren't merely cogs in a machine; our ability to adapt is one of our greatest strengths. It's important to move fluidly between different roles and stay connected to the real world.
+
+Software developer / engineer role
+: As software developer / engineer I deliver a technical solution, alone or as a team member, using a wide array of tools, languages, and frameworks.
+
+Management or team coaching role
+: Management is the art of setting boundaries and constraints to allow smart people to find solutions to problems in a self-organizing way. I can translate business problems into terms that highly skilled individuals in the technical domain can understand and act upon. Technical coaching (embedded) of team members is an effective way to achieve this. Approaches like Kanban, Lean, Scrum, and adaptive agile software development rely on such a role.
+
+Advisor or coaching role
+: I make my extensive knowledge available to people in leadership roles and can also interact as coach for management and team members. That includes hands-on demonstrations or prototyping of potential technical solutions.
 
 ### Agile Coaching
 Unlike some of my peers in Agile Coaching I have never stopped programming personally and so I can do for real what I talk about. In every engagement that ability earns me quickly respect and people like to take my advice as it comes from the trenches and not from books or lectures.

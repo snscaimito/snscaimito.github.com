@@ -190,11 +190,11 @@ DL.resume-inner DD P {
 	font-size: 11pt;
 }
 
-DL.companies DT {
+DL DT {
 	margin-top: 1em;
 }
 
-DL.companies DD {
+DL DD {
 	margin-top: 0.5em;
 }
 
