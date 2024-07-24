@@ -14,31 +14,11 @@ title: Professional experience of Stephan Schwab
 			 Hands-on, get things done attitude, able and willing to play different roles</div>
 </div>
 
-Based on my first lines of code written in the early 1980s and first publication in <a href="https://de.wikipedia.org/wiki/Computer_Persönlich">Computer Persönlich</a> I've been honing my skills in software development and business since then.
-
-My passion is software development in multiple programming languages and thanks to my demanding clients I keep up with current technologies being it languages, frameworks and also networking, operating systems or operations topics.
-
-## Availability
-I am available for short and long term engagements for clients anywhere on the planet through one of my legal entities. Remote work is preferred but travel on short notice for a good reason is absolutely possible. I operate out of a well equipped office with high-speed Internet via Starlink and Internet safety measures are also in place.
-
-Both of my legal entities do other business activities and also have employees independently from my own consulting/contracting work. Caimito Agile Life SL runs a farming business in Spain. Details are at [https://www.caimito.eu](https://www.caimito.eu). When I am not personally engaged with client work I contribute to these ventures. That also provides great opportunities for learning new things that my future clients can then benefit from.
-
-<dl class="companies">
-<dt>Caimito Agile Life SL</dt>
-<dd>Caimito Agile Life SL, registered as a limited liability company in Spain, does business within the European Union. Invoices are sent VAT free (reverse charge) and in Euro. The same goes for credit notes from agencies.</dd>
-
-<dt>Caimito Services LLC</dt>
-<dd>Caimito Services LLC is a limited liability company registered in the United States of America and does business in US Dollar for clients outside the European Union. For US clients Caimito Services can offer contract work on IRS 1099 basis.</dd>
-</dl>
-
-## Overview
-Since the 1980s I have used a larger number of programming languages and countless tools and frameworks. I've seen methodologies and ways of management come and go. I have conversations on a daily basis in German, English and Spanish.
+Since the 1980s I have used a large number of programming languages and countless tools and frameworks. I've seen methodologies and ways of management come and go. I have conversations on a daily basis in German, English and Spanish. I have also published in magazines, beginning in the early 1980s in <a href="https://de.wikipedia.org/wiki/Computer_Persönlich">Computer Persönlich</a>, and maintain a blog with technical articles. Public speaking and presenting is also something I enjoy and have done multiple times.
 
 I successfully avoided to distance myself from the <em>work in the trenches</em> and always make sure to stay a capable software developer. At the same time I have extensive business experience and knowledge on an international level. To my clients I can be a team member but also an advisor.
 
-In my engagement history I mention technical things that I have personally used and can use any time again. However, it is not difficult for me to pick up something new within a few days or weeks and rise quickly up to the expert level. After all that is what is expected on coaching engagements.
-
-Everything that is mentioned on this page is what I have deep and personal experience with. It's things that I have done and not delegated or have just been part of. Over the years a few technical things have stayed with me: C/C++, Java, JavaScript, HTML/CSS, Thymeleaf, event and messaging architectures, Docker, Linux, MacOS, TCP/IP networks
+In my engagement history I mention technical things that I have personally used and can use any time again. However, it is not difficult for me to pick up something new within a few days or weeks and rise quickly up to the expert level. After all that is what is expected on technical coaching engagements.
 
 ## Roles
 Throughout our lives, we all play various roles over time, and no single role is truly superior to others. As humans, we aren't merely cogs in a machine; our ability to adapt is one of our greatest strengths. It's important to move fluidly between different roles and stay connected to the real world.
@@ -60,6 +40,19 @@ I help CEOs and Department Leaders to improve value creation and cohesion within
 Agility and self-organization require technical competence. Scrum, Kanban and other frameworks and concepts do not work without technical abilities. I help everybody involved to acquire or grow these abilities.
 
 My contributions help the organization to become more adaptable and more resilient so that it can prevail in global dynamic markets that are constantly changing.
+
+## Availability
+I am available for short and long term engagements for clients anywhere on the planet through one of my legal entities. Remote work is preferred but travel on short notice for a good reason is absolutely possible. I operate out of a well equipped office with high-speed Internet via Starlink and Internet safety measures are also in place.
+
+Both of my legal entities do other business activities and also have employees independently from my own consulting/contracting work. Caimito Agile Life SL runs a farming business in Spain. Details are at [https://www.caimito.eu](https://www.caimito.eu). When I am not personally engaged with client work I contribute to these ventures. That also provides great opportunities for learning new things that my future clients can then benefit from.
+
+<dl class="companies">
+<dt>Caimito Agile Life SL</dt>
+<dd>Caimito Agile Life SL, registered as a limited liability company in Spain, does business within the European Union. Invoices are sent VAT free (reverse charge) and in Euro. The same goes for credit notes from agencies.</dd>
+
+<dt>Caimito Services LLC</dt>
+<dd>Caimito Services LLC is a limited liability company registered in the United States of America and does business in US Dollar for clients outside the European Union. For US clients Caimito Services can offer contract work on IRS 1099 basis.</dd>
+</dl>
 
 ## Engagement History
 <dl class="resume">
