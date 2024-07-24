@@ -198,6 +198,15 @@ DL DD {
 	margin-top: 0.5em;
 }
 
+DIV.overview {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	white-space: wrap;
+	font-weight: bold;
+	gap: 1em;
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
 
 
 UL.special-content {

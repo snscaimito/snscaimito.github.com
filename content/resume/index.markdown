@@ -2,21 +2,21 @@
 layout: special
 title: Professional experience of Stephan Schwab
 ---
+<div class="overview">
+	<div><img src="http://www.gravatar.com/avatar/663d11426b0a187ddac59f8c17ce61b4?s=90" class="align-left"/>
+		   Phone +49 151 6162 3277<br/>
+			 email sns@caimito.net</div>
+	<div>Software Developer<br/>
+			 Coach & Advisor</div>
+	<div>German citizen fluent in English, German, Spanish
+	</div>
+	<div>Available remotely or on-site with flexible rates<br/>
+			 Hands-on, get things done attitude, able and willing to play different roles</div>
+</div>
+
 Based on my first lines of code written in the early 1980s and first publication in <a href="https://de.wikipedia.org/wiki/Computer_Persönlich">Computer Persönlich</a> I've been honing my skills in software development and business since then.
 
 My passion is software development in multiple programming languages and thanks to my demanding clients I keep up with current technologies being it languages, frameworks and also networking, operating systems or operations topics.
-
-My work, on an international level, gets me in touch with many different national and corporate cultures. That allows me to see the bigger picture, provides me with a large arsenal of tools and therefore makes me able to solve difficult situations in a novel way.
-
-A good example to illustrate some of my more special experiences is this story:
-
-<blockquote>
-I taught a young developer in China at Huawei Behavior-Driven Development in Python using the framework <a href="https://github.com/behave/behave">Behave</a>. She did not speak a lot of English and we were communicating through a translator who was sitting between us. As I was able to show in code what I was explaining in English - the translator turning my words into Mandarin - my coachee quickly understood the concepts and we were able to deliver a valuable service to her team.
-</blockquote>
-
-**Phone +49 151 6162 3277**
-
-**sns@caimito.net**
 
 ## Availability
 I am available for short and long term engagements for clients anywhere on the planet through one of my legal entities. Remote work is preferred but travel on short notice for a good reason is absolutely possible. I operate out of a well equipped office with high-speed Internet via Starlink and Internet safety measures are also in place.
