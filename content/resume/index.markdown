@@ -8,10 +8,18 @@ title: Professional experience of Stephan Schwab
 			 email sns@caimito.net</div>
 	<div>Software Developer<br/>
 			 Coach & Advisor</div>
-	<div>German citizen fluent in English, German, Spanish
+	<div>German citizen fluent in English, German, Spanish.<br/><br/>
+	     Experience in international business and culture; lived and worked in six diverse countries.
 	</div>
-	<div>Available remotely or on-site with flexible rates<br/>
-			 Hands-on, get things done attitude, able and willing to play different roles</div>
+	<div>Available remotely or on-site with flexible rates as:
+		<ul>
+			<li>Software developer / engineer</li>
+			<li>Management coach / advisor</li>
+			<li>Technical Agile Coach</li>
+		</ul>
+	</div>
+	<div>Hands-on, get things done attitude, able and willing to play different roles</div>
+	<div>Proficient in Java, JavaScript and JS frameworks. Can do Ruby, C/C++ and Objective-C.</div>
 </div>
 
 When you are looking for a contractor, consultant, advisor, or coach, you want someone experienced. You don’t want a cog in the machine or a one-trick pony; you want someone who can quickly figure out how to best contribute to your business needs without being tied to technologies or limited by personal preferences.
@@ -19,6 +27,48 @@ When you are looking for a contractor, consultant, advisor, or coach, you want s
 Since the 1980s, I have used numerous programming languages and countless tools and frameworks. I’ve seen various methodologies and management styles come and go. I converse daily in German, English, and Spanish. I have also published articles in magazines, beginning in the early 1980s with <a href="https://de.wikipedia.org/wiki/Computer_Persönlich">Computer Persönlich</a>, and I maintain a blog with technical articles. Public speaking and presenting are activities I enjoy and have done multiple times.
 
 I consider myself a capable software developer. I am proficient in Java, JavaScript, and Ruby, but I can also use C/C++ and Objective-C. I can even read COBOL from way back when. Additionally, I have extensive business experience and knowledge on an international level, which is invaluable when working with international teams. Most of my work communication is in English.
+
+<div style="display: flex;">
+	<div style="flex: 1; padding: 10px;">
+		<h4>Germany</h4>
+		<ul>
+			<li>Mercedes-Benz</li>
+			<li>Versandhaus Walz</li>
+			<li>Deutsche Bank</li>
+			<li>AXA Insurance</li>
+			<li>Virtual Solutions</li>
+			<li>Huawei</li>
+			<li>Webtrek</li>
+			<li>OBI Smart Technologies</li>
+		</ul>
+	</div>
+	<div style="flex: 1; padding: 10px;">
+		<h4>USA</h4>
+		<ul>
+			<li>Independent Health</li>
+			<li>Nationwide Insurance</li>
+			<li>Serials Solutions</li>
+			<li>Cloud9 Analytics</li>
+		</ul>
+	</div>
+	<div style="flex: 1; padding: 10px;">
+		<h4>Russia</h4>
+		<ul>
+			<li>Alfa Insurance</li>
+			<li>Alfa Bank</li>
+			<li>Bank Otkritie</li>
+		</ul>
+	</div>
+	<div style="flex: 1; padding: 10px;">
+		<h4>Other countries</h4>
+		<ul>
+			<li>PH7 (Japan)</li>
+			<li>Raiffeisen Bank (Balkans)</li>
+			<li>Huawei (China)</li>
+			<li>RealWorld Systems (Panama)</li>
+		</ul>
+	</div>
+</div>
 
 <div style="display: flex;">
 	<div style="flex: 1; padding: 10px;">
@@ -84,9 +134,21 @@ I consider myself a capable software developer. I am proficient in Java, JavaScr
 		</div>
 	</dd>
 
+	<dt>Developer</dt>
+	<dd>
+		<p class="client">2021 - 2022, Mercedes-Benz, Germany</p>
+		<p>Worked 100% remote with an international DevOps style group on an internal application to manage SonarQube in combination with GitHub Enterprise.</p>
+		<p>Backend work with Java, Quarkus, Hibernate, Maven</p>
+		<p>Frontend work with VueJS, Vuex Store, Typescript, Vuetify, Cypress automated testing</p>
+		<p>Development environment was Docker, GitHub Actions. Production deployment to Azure Kubernetes cluster. Worked on Quarkus Native Executable on GraalVM as Docker container. Did minor changes to Helm charts and within Microsoft Azure.</p>
+		<p>The application uses Keycloak for authentication and I also got to do some work with its API and manage local deployment for testing purposes.</p>
+		<p>Worked on a demo setup for a different group to enable them to use Microsoft .NET on Kubernetes. Development with .NET on Mac OS and deployment to selfhosted Ubuntu MicroK8s.</p>
+		<p>Did some limited coaching on Object-Oriented Programming and Test-Driven Development for the colleagues with a SysAdmin background.</p>
+	</dd>
+
 	<dt>Product Designer and Developer</dt>
 	<dd>
-		<p class="client">2022 - 2023, Caimito Agile Life, Spain</p>
+		<p class="client">2021 - 2023, Caimito Agile Life, Spain</p>
 		<img src="../img/granjaEU-menu.jpg" style="width: 8em; float: right; margin-left: 2em"/>
 		<p><a target="_blank" href="https://www.caimito.eu">CaimitoEU</a> is a frontend application to promote an ecosystem restoration project in Andalusia, Spain. The application contains a shop for packaged products and also an innovative butcher shop to facilitate the sale of fresh Iberico meat.</p>
 		<p>It is written in JavaScript with VueJS (version 3), HTML5 and CSS3 for styling. After a bad experience with TailwindCSS the styling was redone in pure CSS3. It is deployed as a Docker container with an NGINX reverse proxy in the front and for handling SSL encryption. CaimitoEU consumes an API provided by GranjaEU and does not have local data storage.</p>
@@ -110,17 +172,6 @@ I consider myself a capable software developer. I am proficient in Java, JavaScr
 		<p>Technologies: VueJS, Vuetify, Cypress, Keycloak (OAuth2), Docker (compose), MongoDB, PostgreSQL, NGINX, Spring Boot (REST, Data, Mail, Thymeleaf, Security), Flyway, JUnit, Maven</p>
 	</dd>
 
-	<dt>Developer</dt>
-	<dd>
-		<p class="client">2021 - 2022, Mercedes-Benz, Germany</p>
-		<p>Worked 100% remote with an international DevOps style group on an internal application to manage SonarQube in combination with GitHub Enterprise.</p>
-		<p>Backend work with Java, Quarkus, Hibernate, Maven</p>
-		<p>Frontend work with VueJS, Vuex Store, Typescript, Vuetify, Cypress automated testing</p>
-		<p>Development environment was Docker, GitHub Actions. Production deployment to Azure Kubernetes cluster. Worked on Quarkus Native Executable on GraalVM as Docker container. Did minor changes to Helm charts and within Microsoft Azure.</p>
-		<p>The application uses Keycloak for authentication and I also got to do some work with its API and manage local deployment for testing purposes.</p>
-		<p>Worked on a demo setup for a different group to enable them to use Microsoft .NET on Kubernetes. Development with .NET on Mac OS and deployment to selfhosted Ubuntu MicroK8s.</p>
-		<p>Did some limited coaching on Object-Oriented Programming and Test-Driven Development for the colleagues with a SysAdmin background.</p>
-	</dd>
 
 	<dt>Developer</dt>
 	<dd>

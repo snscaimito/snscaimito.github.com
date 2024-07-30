@@ -253,7 +253,7 @@ DIV.post H3 {
 DIV.article H4,
 DIV.post H4 {
 	font-size: 12pt;
-	margin-bottom: 0px;
+	margin-bottom: 1em;
 	line-height: 18pt;
 }
 
