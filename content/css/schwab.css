@@ -77,7 +77,8 @@ TD.post {
 .article P,
 .article TD,
 .article TH,
-.article UL {
+.article UL,
+DD {
 	line-height: 18pt;
 	text-align: justify;
 }

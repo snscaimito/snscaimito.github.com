@@ -14,45 +14,50 @@ title: Professional experience of Stephan Schwab
 			 Hands-on, get things done attitude, able and willing to play different roles</div>
 </div>
 
-Since the 1980s I have used a large number of programming languages and countless tools and frameworks. I've seen methodologies and ways of management come and go. I have conversations on a daily basis in German, English and Spanish. I have also published in magazines, beginning in the early 1980s in <a href="https://de.wikipedia.org/wiki/Computer_Persönlich">Computer Persönlich</a>, and maintain a blog with technical articles. Public speaking and presenting is also something I enjoy and have done multiple times.
+When you are looking for a contractor, consultant, advisor, or coach, you want someone experienced. You don’t want a cog in the machine or a one-trick pony; you want someone who can quickly figure out how to best contribute to your business needs without being tied to technologies or limited by personal preferences.
 
-I successfully avoided to distance myself from the <em>work in the trenches</em> and always make sure to stay a capable software developer. At the same time I have extensive business experience and knowledge on an international level. To my clients I can be a team member but also an advisor.
+Since the 1980s, I have used numerous programming languages and countless tools and frameworks. I’ve seen various methodologies and management styles come and go. I converse daily in German, English, and Spanish. I have also published articles in magazines, beginning in the early 1980s with <a href="https://de.wikipedia.org/wiki/Computer_Persönlich">Computer Persönlich</a>, and I maintain a blog with technical articles. Public speaking and presenting are activities I enjoy and have done multiple times.
 
-In my engagement history I mention technical things that I have personally used and can use any time again. However, it is not difficult for me to pick up something new within a few days or weeks and rise quickly up to the expert level. After all that is what is expected on technical coaching engagements.
+I consider myself a capable software developer. I am proficient in Java, JavaScript, and Ruby, but I can also use C/C++ and Objective-C. I can even read COBOL from way back when. Additionally, I have extensive business experience and knowledge on an international level, which is invaluable when working with international teams. Most of my work communication is in English.
 
-## Roles
-Throughout our lives, we all play various roles over time, and no single role is truly superior to others. As humans, we aren't merely cogs in a machine; our ability to adapt is one of our greatest strengths. It's important to move fluidly between different roles and stay connected to the real world.
+<div style="display: flex;">
+	<div style="flex: 1; padding: 10px;">
+		<h2>Roles</h2>
+		<p>To my clients I offer to contribute in any of the following roles:</p>
 
-Software developer / engineer role
-: As software developer / engineer I deliver a technical solution, alone or as a team member, using a wide array of tools, languages, and frameworks.
+		<dl>
+		<dt>Software developer / engineer role</dt>
+		<dd>As software developer / engineer I deliver a technical solution, alone or as a team member, using a wide array of tools, languages, and frameworks.</dd>
 
-Management or team coaching role
-: Management is the art of setting boundaries and constraints to allow smart people to find solutions to problems in a self-organizing way. I can translate business problems into terms that highly skilled individuals in the technical domain can understand and act upon. Technical coaching (embedded) of team members is an effective way to achieve this. Approaches like Kanban, Lean, Scrum, and adaptive agile software development rely on such a role.
+		<dt>Management or team coaching role</dt>
+		<dd>I can translate business problems into terms that highly skilled individuals in the technical domain can understand and act upon - or vice versa. Technical coaching (embedded) of team members is an effective way to achieve this. Approaches like Kanban, Lean, Scrum, and adaptive agile software development rely on such a role.</dd>
 
-Advisor or coaching role
-: I make my extensive knowledge available to people in leadership roles and can also interact as coach for management and team members. That includes hands-on demonstrations or prototyping of potential technical solutions.
+		<dt>Advisor or coaching role</dt>
+		<dd>I make my extensive knowledge available to people in leadership roles and can also interact as coach for management and team members. That includes hands-on demonstrations or prototyping of potential technical solutions.</dd>
+		</dl>
 
-### Agile Coaching
-Unlike some of my peers in Agile Coaching I have never stopped programming personally and so I can do for real what I talk about. In every engagement that ability earns me quickly respect and people like to take my advice as it comes from the trenches and not from books or lectures.
+		<h3>Agile Coaching</h3>
+		<p>Unlike some of my peers in Agile Coaching I have never stopped programming personally and so I can do for real what I talk about. In every engagement that ability earns me quickly respect and people like to take my advice as it comes from the trenches and not from books or lectures.</p>
 
-I help CEOs and Department Leaders to improve value creation and cohesion within their organization. The outcome will be higher quality, customer delight and more revenue.
+		<p>Agility and self-organization require technical competence. Scrum, Kanban and other frameworks and concepts do not work without technical abilities. I help everybody involved to acquire or grow these abilities.</p>
+	</div>
 
-Agility and self-organization require technical competence. Scrum, Kanban and other frameworks and concepts do not work without technical abilities. I help everybody involved to acquire or grow these abilities.
+	<div style="flex: 1; padding: 10px;">
+		<h2>Availability</h2>
+		<p>I am available for short and long term engagements for clients anywhere on the planet through one of my legal entities. Remote work is preferred but travel on short notice for a good reason is absolutely possible. I operate out of a well equipped office with high-speed Internet via Starlink and Internet safety measures are also in place.</p>
 
-My contributions help the organization to become more adaptable and more resilient so that it can prevail in global dynamic markets that are constantly changing.
+		<dl class="companies">
+		<dt>Caimito Agile Life SL</dt>
+		<dd>Caimito Agile Life SL, registered as a limited liability company in Spain, does business within the unified market of the European Union. Invoices are sent VAT free (reverse charge) and in Euro. The same goes for credit notes from agencies.</dd>
+		<dd>Caimito Agile Life also runs a non-traditional farming business in Spain and has local employees. Details are at <a href="https://www.caimito.eu">https://www.caimito.eu</a>.</dd>
 
-## Availability
-I am available for short and long term engagements for clients anywhere on the planet through one of my legal entities. Remote work is preferred but travel on short notice for a good reason is absolutely possible. I operate out of a well equipped office with high-speed Internet via Starlink and Internet safety measures are also in place.
+		<dt>Caimito Services LLC</dt>
+		<dd>Caimito Services LLC is a limited liability company registered in the United States of America and does business in US Dollar for clients outside the European Union. For US clients Caimito Services can offer contract work on IRS 1099 basis.</dd>
+		</dl>
+	</div>
+</div>
 
-Both of my legal entities do other business activities and also have employees independently from my own consulting/contracting work. Caimito Agile Life SL runs a farming business in Spain. Details are at [https://www.caimito.eu](https://www.caimito.eu). When I am not personally engaged with client work I contribute to these ventures. That also provides great opportunities for learning new things that my future clients can then benefit from.
 
-<dl class="companies">
-<dt>Caimito Agile Life SL</dt>
-<dd>Caimito Agile Life SL, registered as a limited liability company in Spain, does business within the European Union. Invoices are sent VAT free (reverse charge) and in Euro. The same goes for credit notes from agencies.</dd>
-
-<dt>Caimito Services LLC</dt>
-<dd>Caimito Services LLC is a limited liability company registered in the United States of America and does business in US Dollar for clients outside the European Union. For US clients Caimito Services can offer contract work on IRS 1099 basis.</dd>
-</dl>
 
 ## Engagement History
 <dl class="resume">
