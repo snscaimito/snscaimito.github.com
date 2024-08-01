@@ -1,7 +1,9 @@
 ---
 layout: special
-title: Professional experience of Stephan Schwab
+title: Stephan Schwab
 ---
+<button class="print-button" onclick="window.print()">Print this resume (as PDF)</button>
+
 <div class="overview">
 	<div><img src="http://www.gravatar.com/avatar/663d11426b0a187ddac59f8c17ce61b4?s=90" class="align-left"/>
 		   Phone +49 151 6162 3277<br/>
@@ -27,6 +29,9 @@ When you are looking for a contractor, consultant, advisor, or coach, you want s
 Since the 1980s, I have used numerous programming languages and countless tools and frameworks. I’ve seen various methodologies and management styles come and go. I converse daily in German, English, and Spanish. I have also published articles in magazines, beginning in the early 1980s with <a href="https://de.wikipedia.org/wiki/Computer_Persönlich">Computer Persönlich</a>, and I maintain a blog with technical articles. Public speaking and presenting are activities I enjoy and have done multiple times.
 
 I consider myself a capable software developer. I am proficient in Java, JavaScript, and Ruby, but I can also use C/C++ and Objective-C. I can even read COBOL from way back when. Additionally, I have extensive business experience and knowledge on an international level, which is invaluable when working with international teams. Most of my work communication is in English.
+
+## Trusted by these organizations
+I have provided professional services to the following international clients, listed in no particular order:
 
 <div style="display: flex;">
 	<div style="flex: 1; padding: 10px;">
