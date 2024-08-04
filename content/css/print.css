@@ -1,10 +1,10 @@
 body {
-	font-size: 10pt; /* Adjust base font size for print */
-	margin: 0; /* Adjust margins for print */
+	font-size: 10pt;
+	margin: 0;
 }
 
 h1 {
-	font-size: 14pt; /* Adjust heading font sizes for print */
+	font-size: 14pt;
 }
 
 h2 {
@@ -20,10 +20,9 @@ h4 {
 }
 
 p, li {
-	font-size: 10pt; /* Adjust paragraph and list item font sizes for print */
+	font-size: 10pt;
 }
 
-/* Ensure .post p and .post li use the print font size */
 .post p, .post li, .post DD {
 	font-size: 10pt;
 }
@@ -33,7 +32,7 @@ DIV.container {
 	display: block;
 }
 
-.footer, .featured-categories, .no-print-sidebar, .no-print, .sidebar {
+.footer, .featured-categories, .no-print-sidebar, .no-print, .sidebar, .print-button {
 	display: none;
 }
 

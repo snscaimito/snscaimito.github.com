@@ -149,6 +149,7 @@ I have provided professional services to the following international clients, li
 		<p>The application uses Keycloak for authentication and I also got to do some work with its API and manage local deployment for testing purposes.</p>
 		<p>Worked on a demo setup for a different group to enable them to use Microsoft .NET on Kubernetes. Development with .NET on Mac OS and deployment to selfhosted Ubuntu MicroK8s.</p>
 		<p>Did some limited coaching on Object-Oriented Programming and Test-Driven Development for the colleagues with a SysAdmin background.</p>
+		<p>Technologies used: Java, JavaScript, Typescript, C#, Quarkus, Hibernate, Maven, Cucumber.js, VueJS, Vuex Store, Vuetify, Cypress, Docker, GitHub, Microsoft Azure, Microsoft .NET, MacOS, Linux, Ubunto MicroK82, Kubernetes, Terraform, Keycloak</p>
 	</dd>
 
 	<dt>Product Designer and Developer</dt>
@@ -174,7 +175,7 @@ I have provided professional services to the following international clients, li
 
 		<p>All servers running Docker Engine based on Debian Linux are maintained by myself.</p>
 
-		<p>Technologies: VueJS, Vuetify, Cypress, Keycloak (OAuth2), Docker (compose), MongoDB, PostgreSQL, NGINX, Spring Boot (REST, Data, Mail, Thymeleaf, Security), Flyway, JUnit, Maven</p>
+		<p>Technologies: Java, JavaScript, VueJS, Vuetify, Cypress, Keycloak (OAuth2), Docker (compose), MongoDB, PostgreSQL, NGINX, Spring Boot (REST, Data, Mail, Thymeleaf, Security), Flyway, JUnit, Maven</p>
 	</dd>
 
 
@@ -187,6 +188,7 @@ I have provided professional services to the following international clients, li
     </p>
     <p>Geographically distributed team with team members working from individual locations in Europe, Japan, and USA.
     </p>
+		<p>Technologies used: NodeJS, JavaScript, Cucumber.js, Chai, OneSignal, Firebase </p>
 	</dd>
 
 	<dt>Consultant</dt>
@@ -211,12 +213,14 @@ I have provided professional services to the following international clients, li
 	<dd>
 		<p class="client">2018, Alfa Insurance, Moscow, Russia</p>
 		<p>Continued the work from 2017. Worked with several teams and senior management on improving engineering practices. Advised on network security and information security practices. Introduced a former coachee to the teams to support XP style testing practices at the team level. Consulted on <a href="/2018/04/07/draft-of-a-roca-and-scs-style-application.html">Self-Contained Systems (SCS)</a> based on Docker containers to improve application architecture.</p>
+		<p>Technologies used: Java, JavaScript, Docker, Vaadin, SQL</p>
 	</dd>
 
 	<dt>Agile Coach</dt>
 	<dd>
 		<p class="client">2017, Alfa Insurance, Moscow, Russia</p>
 		<p>Performed an audit of the software development and operations groups in preparation of a larger engagement to uplift skills and create a DevOps structure. Did some initial coaching on two teams to lay the foundation for future coaching work with these two teams and additional groups to follow.</p>
+		<p>Technologies used: Java, JavaScript, Docker, Vaadin, SQL</p>
 	</dd>
 
 	<dt>Agile Coach <em>in cooperation with other Agile Coaches</em></dt>
@@ -229,12 +233,14 @@ I have provided professional services to the following international clients, li
 	<dd>
 		<p class="client">2016, Thales, Stuttgart, Germany</p>
 		<p>Within the axle counter group of Thales Transportation Systems I coached project manager and solution architect on their new roles of Scrum Master and Product Owner. Introduced technical team members to Test-Driven Development in C using the tool <a href="http://www.qa-systems.com/tools/cantata/" target="_blank">Cantata</a>.</p>
+		<p>Technologies used: C, Cantata</p>
 	</dd>
 
 	<dt>Agile Coach</dt>
 	<dd>
 		<p class="client">2016, Versandhaus Walz, Bad Waldsee, Germany</p>
 		<p>The engagement started as a group of three coaches for their main office and an external development partner. Initially I trained and coached on technical matters in a Java J2EE environment with IBM Websphere Commerce. Over time I became the main coach for the main office and worked with a larger group developing the new eCommerce shop for Walz. Coaching topics included product development vs service delivery, information visualization, integration of non-developers, restructuring a traditional retailer to become an eCommerce company, new roles and skills. For 2017 Walz wants to bring all shop development inhouse and I started in 2016 to train newly hired developers on microservices architecture and the DevOps model.</p>
+		<p>Technologies used: Java, JavaScript, Docker, IBM Websphere eCommerce, Spring Framework, Spring Boot</p>
 	</dd>
 
 	<dt>Agile Coach <em>in cooperation with other Agile Coaches</em></dt>
@@ -259,12 +265,14 @@ I have provided professional services to the following international clients, li
 	<dd>
 		<p class="client">2015, AXA Groupsolutions, Cologne, Germany</p>
 		<p>Performed introductory workshops about Acceptance Test-Driven Development for project leaders and team members.</p>
+		<p>Technologies used: Cucumber, Ruby</p>
 	</dd>
 	
 	<dt>Consultant / Trainer <em>with resident Scrum Master</em></dt>
 	<dd>
 		<p class="client">2015, Virtual Solution, Munich, Germany</p>
 		<p>Performed workshops, in the form of code retreats, with two teams on test automation, clean code and architecture, intra-team collaboration and Specification by Example for IOS and Android platforms.</p>
+		<p>Technologies used: Java, Objective-C, Android, IOS, Appium, Cucumber</p>
 	</dd>
 	
 	<dt>Consultant <em>working with Department Leader</em></dt>
@@ -277,12 +285,14 @@ I have provided professional services to the following international clients, li
 	<dd>
 		<p class="client">2014, Huawei Technologies, several cities, China</p>
 		<p>Introduced ATDD and situational kanban after client’s failed attempt to do so to several teams and coached middle management on agile principles.</p>
+		<p>Technologies used: Java, Android, Appium, Cucumber, Ruby, Python, Behave</p>
 	</dd>
 	
 	<dt>Agile Coach / Scrum Coach <em>pairing with resident Scrum Masters</em></dt>
 	<dd>
 		<p class="client">2013 - 2014, Webtrekk, Berlin, Germany</p>
 		<p>Coached the CTO on agile principles and testing. Introduced Acceptance Test-Driven Development and coached Scrum Masters.</p>
+		<p>Technologies used: Java, Cucumber, Ruby</p>
 	</dd>
 	
 	<dt>Interim Scrum Master <em>for development group</em></br>
@@ -298,6 +308,7 @@ I have provided professional services to the following international clients, li
 		<p>Similar as with RAutomation at another client there was a need to have a testing tool for IBM MQ Series and I created it.</p>
 		<p><a href="https://github.com/snscaimito/rmq">Code on GitHub</a></p>
 		</div>
+		<p>Technologies used: IBM MQ, Ruby, Cucumber</p>
 	</dd>
 
 	<dt>Agile Coach / Scrum Coach <em>working with team leaders</em></dt>
@@ -318,18 +329,21 @@ I have provided professional services to the following international clients, li
 	<dd>
 		<p class="client">2009 - 2011, Nationwide Insurance, Columbus, Ohio, USA</p>
 		<p>Participated in an agile transformation spanning 23 teams and personally provided technical and organizational coaching to 6+ teams and about 80 individuals.</p>
+		<p>Technologies used: Java, Ruby, Cucumber, Spring Framework, Spring Batch, IBM Websphere, SQL</p>
 	</dd>
 
 	<dt>Software Developer <em>on a self-organizing geographically distributed international team</em></dt>
 	<dd>
 		<p class="client">2008 - 2009, Serials Solutions, Seattle, Washington, USA</p>
 		<p>As part of a 6 person team I co-created the Summon product.</p>
+		<p>Technologies used: Java, Apache Solr, Apache Lucene, XML</p>
 	</dd>
 	
 	<dt>Agile Coach / Scrum Coach <em>working with Software Architects</em></dt>
 	<dd>
 		<p class="client">2008, Nationwide Insurance, Columbus, Ohio, USA</p>
 		<p>Coached software architects and team members on agile development practices including test-driven development and continuous integration.</p>
+		<p>Technologies used: Java, Ruby, Cucumber, Spring Framework, IBM Websphere, SQL</p>
 	</dd>
 
 	<dt>Project Manager, Scrum Master</dt>
@@ -349,6 +363,7 @@ I have provided professional services to the following international clients, li
 	<dd>
 		<p class="client">2006 - 2007, RealWorld Systems, Panama City, Panama</p>
 		<p>Coached team on Scrum and XP practices.</p>
+		<p>Technologies used: C, Java, Ruby, Cucumber, Spring Framework, SQL</p>
 	</dd>
 </dl>
 

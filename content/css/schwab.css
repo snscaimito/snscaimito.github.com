@@ -89,7 +89,6 @@ TD.post {
 .article UL,
 DD {
 	line-height: 1.5em;
-	font-size: 1.1em;
 	text-align: justify;
 }
 
@@ -178,12 +177,14 @@ BLOCKQUOTE.resume P.quote-source {
 	font-weight: bold;
 }
 
-DL.resume DT {
+DT {
 	font-weight: bold;
-	font-size: 12pt;
+	margin-top: 1.5em;
+}
+
+DL.resume DT {
 	color: #0E6A01;
 	border-bottom: 1px dotted black;
-	margin-top: 1.5em;
 }
 
 DL.resume DD P.client {
@@ -194,12 +195,7 @@ DL.resume-inner DT {
 	color: #000000;
 	font-weight: bold;
 	border-bottom: none;
-	font-size: 11pt;
 	margin-bottom: 5px;
-}
-
-DL.resume-inner DD P {
-	font-size: 11pt;
 }
 
 DL DT {
