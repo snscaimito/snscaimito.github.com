@@ -31,7 +31,7 @@ Since the 1980s, I have used numerous programming languages and countless tools 
 I consider myself a capable software developer. I am proficient in Java, JavaScript, and Ruby, but I can also use C/C++ and Objective-C. I can even read COBOL from way back when. Additionally, I have extensive business experience and knowledge on an international level, which is invaluable when working with international teams. Most of my work communication is in English.
 
 ## Trusted by these organizations
-I have provided professional services to the following international clients, listed in no particular order:
+Since 2006 I have provided professional services to the following international clients, listed in no particular order:
 
 <div style="display: flex;">
 	<div style="flex: 1; padding: 10px;">
