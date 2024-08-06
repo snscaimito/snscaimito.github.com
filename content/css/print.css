@@ -32,7 +32,7 @@ DIV.container {
 	display: block;
 }
 
-.footer, .featured-categories, .no-print-sidebar, .no-print, .sidebar, .print-button {
+.footer, .featured-categories, .no-print-sidebar, .no-print, .sidebar, .print-button, .showcase {
 	display: none;
 }
 
