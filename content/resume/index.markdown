@@ -26,7 +26,7 @@ title: Stephan Schwab
 	<div>Working knowledge of Lean (inkl. TPS), Kanban, Scrum (since 2006), and the original Waterfall model by W. Royce</div>
 </div>
 
-When you are looking for a contractor, consultant, advisor, or coach, you want someone experienced. You don’t want a cog in the machine or a one-trick pony; you want someone who can quickly figure out how to best contribute to your business needs without being tied to technologies or limited by personal preferences.
+When you are looking for a contractor, consultant, advisor, or coach, you want someone experienced who can deliver measureable results. You don’t want a cog in the machine or a one-trick pony; you want someone who can quickly figure out how to best contribute to your business needs without being tied to technologies or limited by personal preferences. In a coaching role you want a seasoned practicioner instead of an outsider.
 
 Since the 1980s, I have used numerous programming languages and countless tools and frameworks. I’ve seen various methodologies and management styles come and go. I converse daily in German, English, and Spanish. I have also published articles in magazines, beginning in the early 1980s with <a href="https://de.wikipedia.org/wiki/Computer_Persönlich">Computer Persönlich</a>, and I maintain a blog with technical articles. Public speaking and presenting are activities I enjoy and have done multiple times.
 
@@ -79,24 +79,18 @@ Since 2006 I have provided professional services to the following international 
 
 <div style="display: flex;">
 	<div style="flex: 1; padding: 10px;">
-		<h2>Roles</h2>
-		<p>To my clients I offer to contribute in any of the following roles:</p>
+		<h2>Roles I am good in</h2>
 
-		<dl>
-		<dt>Software developer / engineer role</dt>
-		<dd>As software developer / engineer I deliver a technical solution, alone or as a team member, using a wide array of tools, languages, and frameworks.</dd>
+		<h3>Software developer / engineer role</h3>
+		<p>As software developer / engineer I deliver a technical solution, alone or as a team member, using a wide array of tools, languages, and frameworks.</p>
 
-		<dt>Management or team coaching role</dt>
-		<dd>I can translate business problems into terms that highly skilled individuals in the technical domain can understand and act upon - or vice versa. Technical coaching (embedded) of team members is an effective way to achieve this. Approaches like Kanban, Lean, Scrum, and adaptive agile software development rely on such a role.</dd>
+		<h3>Management advisor/coach or team coaching role</h3>
+		<p>I subscribe to the American interpretation of <em>Coaching</em>. That means I show and teach how to do things instead of asking "powerfull questions" as it is so common in the European way. In every engagement my solid technical skills earn me quickly respect and people like to take my advice as it comes from real-world experience.</p>
 
-		<dt>Advisor or coaching role</dt>
-		<dd>I make my extensive knowledge available to people in leadership roles and can also interact as coach for management and team members. That includes hands-on demonstrations or prototyping of potential technical solutions.</dd>
-		</dl>
+		<p>I can translate business problems into terms that highly skilled individuals in the technical domain can understand and act upon - or vice versa. Technical coaching (embedded) of team members is an effective way to achieve this. Approaches like Kanban, Lean, Scrum, and adaptive agile software development rely on such a role.</p>
 
-		<h3>Agile Coaching</h3>
-		<p>Unlike some of my peers in Agile Coaching I have never stopped programming personally and so I can do for real what I talk about. In every engagement that ability earns me quickly respect and people like to take my advice as it comes from the trenches and not from books or lectures.</p>
-
-		<p>Agility and self-organization require technical competence. Scrum, Kanban and other frameworks and concepts do not work without technical abilities. I help everybody involved to acquire or grow these abilities.</p>
+		<h3>Agile Coach, Scrum Master</h3>
+		<p><em>Agile Coach</em> and <em>Scrum Master</em> are defined as active change agent roles. The person needs to be from the trade and deliver instead of moderating ceremonies or seeking compliance with any framework. The latter is frequently called "Dark Agile" and is rejected by software developers who in turn quit silently and lose their motivation.</p>
 	</div>
 
 	<div style="flex: 1; padding: 10px;">
@@ -195,20 +189,9 @@ Since 2006 I have provided professional services to the following international 
 
 	<dt>Consultant</dt>
 	<dd>
-		<p class="client">2019, Raiffeisen Bank, Pristina, Kosovo</p>
-		<p>Performed an IT process and system assessment for the executive board.</p>
-	</dd>
-
-	<dt>Consultant</dt>
-	<dd>
-		<p class="client">2019, Raiffeisen Bank, Sarajevo, Bosnia-Herzegovina</p>
-		<p>Performed an IT process and system assessment for the executive board.</p>
-	</dd>
-
-	<dt>Consultant</dt>
-	<dd>
-		<p class="client">2019, Raiffeisen Bank, Belgrade, Serbia</p>
-		<p>Performed an IT process and system assessment for the executive board.</p>
+		<p class="client">2019, Raiffeisen Bank on site at subsidiaries in Sarajevo (Bosnia-Herzegovina), Belgrade (Serbia), Pristina (Kosovo)</p>
+		<p>Performed assessments of IT processes and systems for the executive board of each subsidiary.</p>
+		<p>Further on-site engagement was stopped due to the beginning of the COVID pandemic. It was planned to continue as Agile Coaching with the aim of creating a new development center.</p>
 	</dd>
 
 	<dt>Agile Coach</dt>
