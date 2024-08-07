@@ -11,19 +11,21 @@ title: Stephan Schwab
 	<div>Software Developer<br/>
 			 Coach & Advisor</div>
 	<div>German citizen fluent in English, German, Spanish.<br/><br/>
-	     Experience in international business and culture; lived and worked in six diverse countries.
+	     Experience in <span style="color: brown">international business and culture</span>; lived and worked in six diverse countries.
 	</div>
 	<div>Available remotely or on-site with flexible rates as:
 		<ul>
-			<li>Software developer / engineer</li>
-			<li>Management coach / advisor to senior leadership</li>
-			<li>Technical Agile Coach</li>
+			<li style="color: green">Software developer / engineer</li>
+			<li style="color: brown">Management coach / advisor to senior leadership</li>
+			<li style="color: blue">Technical Agile Coach</li>
 		</ul>
 	</div>
 	<div>Hands-on, get things done attitude, able and willing to play different roles. Able to pick up new languages / technologies and rise to expert level quickly.</div>
-	<div>Proficient in Java (Application Server (J2EE, JBoss, WebSphere), Spring Framework family, Spring Boot), JavaScript (browser and NodeJS) and JS frontend frameworks (VueJS and similar). Can do Ruby, C/C++ and Objective-C. Test-Driven Development (TDD, BDD, ATDD with Cucumber, Behave) advocate. Used BASIC, Pascal, Perl, Python, Modula-2, TypeScript, VisualBasic (and developed extensions), x86/68000 Assembler. <em>Can still read COBOL.</em> </div>
+	<div>Proficient in <span style="color: green">Java</span> (J2EE, JBoss, WebSphere, Tomcat, Jetty, Spring Framework family, Spring Boot), <span style="color: green">JavaScript</span> (browser and NodeJS) and JS frontend frameworks (VueJS and similar). Can do <span style="color: green">Ruby, C/C++ and Objective-C</span>. Used BASIC, Pascal, Perl, Python, Modula-2, TypeScript, VisualBasic (and developed extensions), x86/68000 Assembler. <em>Can still read COBOL.</em><br/>
+	<span style="color: blue">Test-Driven Development</span> (TDD, BDD, ATDD with Cucumber, Behave) and <span style="color: blue">CI/CD (trunk based)</span> advocate.
+	 </div>
 	<div>Development on Linux since 1993 (v0.98), Windows since 1989 (v2.11), Windows NT since 1993 (v3.1), MacOS since 2001; Infrastructure as Code (Ansible, Chef, Terraform); Virtualization (Docker, Kubernetes, Linux KVM, Vagrant, VirtualPC, VMware)</div>
-	<div>Working knowledge of Lean (inkl. TPS), Kanban, Scrum (since 2006), DevOps, and the original Waterfall model by W. Royce</div>
+	<div>Working knowledge of <span style="color: brown">Lean (inkl. TPS), Kanban, Scrum (since 2006)</span>, <span style="color: green">DevOps</span>, and the original <span style="color: green">Waterfall model</span> by W. Royce</div>
 </div>
 
 When you are looking for a contractor, consultant, advisor, or coach, you want someone experienced who can deliver measureable results. You don’t want a cog in the machine or a one-trick pony; you want someone who can quickly figure out how to best contribute to your business needs without being tied to technologies or limited by personal preferences. In a coaching role you want a seasoned practicioner instead of an outsider.
