@@ -21,9 +21,9 @@ title: Stephan Schwab
 		</ul>
 	</div>
 	<div>Hands-on, get things done attitude, able and willing to play different roles. Able to pick up new languages / technologies and rise to expert level quickly.</div>
-	<div>Proficient in Java (J2EE, Spring Framework family, Spring Boot), JavaScript (browser and NodeJS) and frontend frameworks (VueJS and similar). Can do Ruby, C/C++ and Objective-C. Test-Driven Development (TDD, BDD, ATDD with Cucumber, Behave) advocate. Used BASIC, Pascal, Perl, Python, Modula-2, TypeScript, VisualBasic (and developed extensions), x86/68000 Assembler. <em>Can still read COBOL.</em> </div>
+	<div>Proficient in Java (Application Server (J2EE, JBoss, WebSphere), Spring Framework family, Spring Boot), JavaScript (browser and NodeJS) and JS frontend frameworks (VueJS and similar). Can do Ruby, C/C++ and Objective-C. Test-Driven Development (TDD, BDD, ATDD with Cucumber, Behave) advocate. Used BASIC, Pascal, Perl, Python, Modula-2, TypeScript, VisualBasic (and developed extensions), x86/68000 Assembler. <em>Can still read COBOL.</em> </div>
 	<div>Development on Linux since 1993 (v0.98), Windows since 1989 (v2.11), Windows NT since 1993 (v3.1), MacOS since 2001; Infrastructure as Code (Ansible, Chef, Terraform); Virtualization (Docker, Kubernetes, Linux KVM, Vagrant, VirtualPC, VMware)</div>
-	<div>Working knowledge of Lean (inkl. TPS), Kanban, Scrum (since 2006), and the original Waterfall model by W. Royce</div>
+	<div>Working knowledge of Lean (inkl. TPS), Kanban, Scrum (since 2006), DevOps, and the original Waterfall model by W. Royce</div>
 </div>
 
 When you are looking for a contractor, consultant, advisor, or coach, you want someone experienced who can deliver measureable results. You don’t want a cog in the machine or a one-trick pony; you want someone who can quickly figure out how to best contribute to your business needs without being tied to technologies or limited by personal preferences. In a coaching role you want a seasoned practicioner instead of an outsider.
@@ -31,6 +31,8 @@ When you are looking for a contractor, consultant, advisor, or coach, you want s
 Since the 1980s, I have used numerous programming languages and countless tools and frameworks. I’ve seen various methodologies and management styles come and go. I converse daily in German, English, and Spanish. I have also published articles in magazines, beginning in the early 1980s with <a href="https://de.wikipedia.org/wiki/Computer_Persönlich">Computer Persönlich</a>, and I maintain a blog with technical articles. Public speaking and presenting are activities I enjoy and have done multiple times.
 
 I consider myself a capable software developer. I am proficient in Java, JavaScript, and Ruby, but I can also use C/C++ and Objective-C. I can even read COBOL from way back when. Additionally, I have extensive business experience and knowledge on an international level, which is invaluable when working with international teams. Most of my work communication is in English but I can work in German (1st language) or Spanish as well. I also have experience in using the services of simultaneous translators effectively.
+
+At [https://www.stephan-schwab.com](https://www.stephan-schwab.com) I maintain a personal website and blog with technical articles that further shows my expertise and serves as a reference for my clients.
 
 ## Trusted by these organizations
 Since 2006 I have provided professional services to the following international clients, listed in no particular order:
