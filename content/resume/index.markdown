@@ -5,22 +5,20 @@ title: Stephan Schwab
 <button class="print-button" onclick="window.print()">Print this resume (as PDF)</button>
 
 <div class="overview">
-	<div><img src="http://www.gravatar.com/avatar/663d11426b0a187ddac59f8c17ce61b4?s=90" class="align-left"/>
+	<div><img src="http://www.gravatar.com/avatar/663d11426b0a187ddac59f8c17ce61b4?s=120" class="align-left"/>
 		   Phone +49 151 6162 3277<br/>
 			 email sns@caimito.net</div>
-	<div>Software Developer<br/>
-			 Coach & Advisor</div>
-	<div>German citizen fluent in English, German, Spanish.<br/><br/>
-	     Experience in <span style="color: brown">international business and culture</span>; lived and worked in six diverse countries.
-	</div>
 	<div>Available remotely or on-site with flexible rates as:
 		<ul>
 			<li style="color: green">Software developer / engineer</li>
 			<li style="color: brown">Management coach / advisor to senior leadership</li>
 			<li style="color: blue">Technical Agile Coach</li>
 		</ul>
+		<p>Hands-on, get things done attitude. Able to pick up new subjects, languages, technologies and rise to expert level quickly.</p>
 	</div>
-	<div>Hands-on, get things done attitude, able and willing to play different roles. Able to pick up new languages / technologies and rise to expert level quickly.</div>
+	<div>German citizen fluent in English, German, Spanish.<br/><br/>
+	     Experience in <span style="color: brown">international business and culture</span>; lived and worked in six diverse countries.
+	</div>
 	<div>Proficient in <span style="color: green">Java</span> (J2EE, JBoss, WebSphere, Tomcat, Jetty, Spring Framework family, Spring Boot), <span style="color: green">JavaScript</span> (browser and NodeJS) and JS frontend frameworks (VueJS and similar). Can do <span style="color: green">Ruby, C/C++ and Objective-C</span>. Used BASIC, Pascal, Perl, Python, Modula-2, TypeScript, VisualBasic (and developed extensions), x86/68000 Assembler. <em>Can still read COBOL.</em><br/>
 	<span style="color: blue">Test-Driven Development</span> (TDD, BDD, ATDD with Cucumber, Behave) and <span style="color: blue">CI/CD (trunk based)</span> advocate.
 	 </div>
