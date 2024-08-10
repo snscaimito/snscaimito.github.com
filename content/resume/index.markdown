@@ -16,14 +16,41 @@ title: Stephan Schwab
 		</ul>
 		<p>Hands-on, get things done attitude. Able to pick up new subjects, languages, technologies and rise to expert level quickly.</p>
 	</div>
-	<div>German citizen fluent in English, German, Spanish.<br/><br/>
-	     Experience in <span style="color: brown">international business and culture</span>; lived and worked in six diverse countries.
+	<div>
+		German citizen fluent in English, German, Spanish.<br/><br/>
+	  Experience in <span style="color: brown">international business and culture</span>; lived and worked in six diverse countries.
 	</div>
-	<div>Proficient in <span style="color: green">Java</span> (J2EE, JBoss, WebSphere, Tomcat, Jetty, Spring Framework family, Spring Boot), <span style="color: green">JavaScript</span> (browser and NodeJS) and JS frontend frameworks (VueJS and similar). Can do <span style="color: green">Ruby, C/C++ and Objective-C</span>. Used BASIC, Pascal, Perl, Python, Modula-2, TypeScript, VisualBasic (and developed extensions), x86/68000 Assembler. <em>Can still read COBOL.</em><br/>
-	<span style="color: blue">Test-Driven Development</span> (TDD, BDD, ATDD with Cucumber, Behave) and <span style="color: blue">CI/CD (trunk based)</span> advocate.
-	 </div>
-	<div>Development on Linux since 1993 (v0.98), Windows since 1989 (v2.11), Windows NT since 1993 (v3.1), MacOS since 2001; Infrastructure as Code (Ansible, Chef, Terraform); Virtualization (Docker, Kubernetes, Linux KVM, Vagrant, VirtualPC, VMware)</div>
-	<div>Working knowledge of <span style="color: brown">Lean (inkl. TPS), Kanban, Scrum (since 2006)</span>, <span style="color: green">DevOps</span>, and the original <span style="color: green">Waterfall model</span> by W. Royce</div>
+	<div>
+		<span style="color: green">Programming languages</span>: proficient in Java (J2EE, JBoss, WebSphere, Tomcat, Jetty, Spring Framework family, Spring Boot), JavaScript (ECMAscript) (browser and NodeJS) and JS frontend frameworks (VueJS, React, Angular and similar). Can do Ruby (Ruby on Rails), C, C++ and Objective-C. Used BASIC, Pascal, Perl, Python, Modula-2, TypeScript, VisualBasic (and developed extensions), x86/68000 Assembler. <em>Can still read COBOL.</em>
+	</div>
+	<div>
+		<span style="color: green">Databases</span>: SQL, stored procedures (MS SQL, MySQL, MariaDB, PostgreSQL, Oracle), NoSQL (MongoDB)<br/>
+		<br/>
+		<span style="color: green">Search engines</span>: Apache Solr, Lucene, full-text search in databases<br/>
+		<br/>
+		<span style="color: green">World Wide Web</span>: Hypertext (HATEOAS), HTML, CSS, able to create a website with no framework
+	</div>
+	<div>
+		<span style="color: green">Concepts</span>: messaging (Pub/Sub, IBM MQ, RabbitMQ, ActiveMQ, MQTT); Event-Based Architecture; Object-Oriented Programming (OOP); Domain-Driven Design (DDD); Clean Code; functional, procedural, structured, declarative programming paradigms. Familiar with UML, state/flow diagrams.
+	</div>
+	<div>
+		Networking: Ethernet, TCP/IP, DNS, application protocols (HTTP/HTTPS, SMTP, NNTP, other RFCs), routing protocols (BGP, OSPF), DHCP, Firewalls, Cisco routers, LoRa, Internet of Things, LoRaWAN, built and ran an ISP (xDSL) and datacenter
+	</div>
+	<div>
+		Industrial and agricultural automation: sensors, solenoid valves, actuators, MQTT, Home Assistant, event/rules engines
+	</div>
+	<div>
+		Working knowledge of <span style="color: brown">Lean (inkl. TPS), Kanban, Scrum (since 2006)</span>, <span style="color: green">DevOps</span>, and the original <span style="color: green">Waterfall model</span> by W. Royce, mob and <span style="color: green">pair programming</span>
+	</div>
+	<div>
+    <span style="color: blue">Test-Driven Development</span> (TDD, BDD, ATDD with Cucumber, Behave) and <span style="color: blue">CI/CD (trunk based)</span> advocate.
+	</div>
+	<div>
+		Development on Linux since 1993 (v0.98), Windows since 1989 (v2.11), Windows NT since 1993 (v3.1), MacOS since 2001; Infrastructure as Code (Ansible, Chef, Terraform); Virtualization (Docker, Kubernetes, Linux KVM, Vagrant, VirtualPC, VMware)
+	</div>
+	<div>
+		Conceptually familiar with machine learning, artificial intelligence, neural networks. Heavy user of GitHub Co-Pilot and ChatGPT as assistants.
+	</div>
 </div>
 
 When you are looking for a contractor, consultant, advisor, or coach, you want someone experienced who can deliver measureable results. You don’t want a cog in the machine or a one-trick pony; you want someone who can quickly figure out how to best contribute to your business needs without being tied to technologies or limited by personal preferences. In a coaching role you want a seasoned practicioner instead of an outsider.
@@ -323,7 +350,7 @@ Since 2006 I have provided professional services to the following international 
 	<dd>
 		<p class="client">2008 - 2009, Serials Solutions, Seattle, Washington, USA</p>
 		<p>As part of a 6 person team I co-created the Summon product.</p>
-		<p>Technologies used: Java, Apache Solr, Apache Lucene, XML</p>
+		<p>Technologies used: Java, Apache Solr, Apache Lucene, XML, Apache Camel, ActiveMQ</p>
 	</dd>
 	
 	<dt>Agile Coach / Scrum Coach <em>working with Software Architects</em></dt>
