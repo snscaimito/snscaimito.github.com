@@ -7,7 +7,10 @@ title: Stephan Schwab
 <div class="overview">
 	<div><img src="http://www.gravatar.com/avatar/663d11426b0a187ddac59f8c17ce61b4?s=120" class="align-left"/>
 		   Phone +49 151 6162 3277<br/>
-			 email sns@caimito.net</div>
+			 email sns@caimito.net<br/>
+			 <br/>
+			 German citizen fluent in English, German, Spanish.
+	</div>
 	<div>Available remotely or on-site with flexible rates as:
 		<ul>
 			<li style="color: green">Software developer / engineer</li>
@@ -16,53 +19,10 @@ title: Stephan Schwab
 		</ul>
 		<p>Hands-on, get things done attitude. Able to pick up new subjects, languages, technologies and rise to expert level quickly.</p>
 	</div>
-	<div>
-		German citizen fluent in English, German, Spanish.<br/><br/>
-	  Experience in <span style="color: brown">international business and culture</span>; lived and worked in six diverse countries.
-	</div>
-	<div>
-		<span style="color: green">Programming languages</span>: proficient in Java (J2EE, JBoss, WebSphere, Tomcat, Jetty, Spring Framework family, Spring Boot), JavaScript (ECMAscript) (browser and NodeJS) and JS frontend frameworks (VueJS, React, Angular and similar). Can do Ruby (Ruby on Rails), C, C++ and Objective-C. Used BASIC, Pascal, Perl, Python, Modula-2, TypeScript, VisualBasic (and developed extensions), x86/68000 Assembler. <em>Can still read COBOL.</em>
-	</div>
-	<div>
-		<span style="color: green">Databases</span>: SQL, stored procedures (MS SQL, MySQL, MariaDB, PostgreSQL, Oracle), NoSQL (MongoDB)<br/>
-		<br/>
-		<span style="color: green">Search engines</span>: Apache Solr, Lucene, full-text search in databases<br/>
-		<br/>
-		<span style="color: green">World Wide Web</span>: Hypertext (HATEOAS), HTML, CSS, able to create a website with no framework
-	</div>
-	<div>
-		<span style="color: green">Concepts</span>: messaging (Pub/Sub, IBM MQ, RabbitMQ, ActiveMQ, MQTT); Event-Based Architecture; Object-Oriented Programming (OOP); Domain-Driven Design (DDD); Clean Code; functional, procedural, structured, declarative programming paradigms. Familiar with UML, state/flow diagrams.
-	</div>
-	<div>
-		Networking: Ethernet, TCP/IP, DNS, application protocols (HTTP/HTTPS, SMTP, NNTP, other RFCs), routing protocols (BGP, OSPF), DHCP, Firewalls, Cisco routers, LoRa, Internet of Things, LoRaWAN, built and ran an ISP (xDSL) and datacenter
-	</div>
-	<div>
-		Industrial and agricultural automation: sensors, solenoid valves, actuators, MQTT, Home Assistant, event/rules engines
-	</div>
-	<div>
-		Working knowledge of <span style="color: brown">Lean (inkl. TPS), Kanban, Scrum (since 2006)</span>, <span style="color: green">DevOps</span>, and the original <span style="color: green">Waterfall model</span> by W. Royce, mob and <span style="color: green">pair programming</span>
-	</div>
-	<div>
-    <span style="color: blue">Test-Driven Development</span> (TDD, BDD, ATDD with Cucumber, Behave) and <span style="color: blue">CI/CD (trunk based)</span> advocate.
-	</div>
-	<div>
-		Development on Linux since 1993 (v0.98), Windows since 1989 (v2.11), Windows NT since 1993 (v3.1), MacOS since 2001; Infrastructure as Code (Ansible, Chef, Terraform); Virtualization (Docker, Kubernetes, Linux KVM, Vagrant, VirtualPC, VMware)
-	</div>
-	<div>
-		Conceptually familiar with machine learning, artificial intelligence, neural networks. Heavy user of GitHub Co-Pilot and ChatGPT as assistants.
-	</div>
 </div>
 
-When you are looking for a contractor, consultant, advisor, or coach, you want someone experienced who can deliver measureable results. You don’t want a cog in the machine or a one-trick pony; you want someone who can quickly figure out how to best contribute to your business needs without being tied to technologies or limited by personal preferences. In a coaching role you want a seasoned practicioner instead of an outsider.
-
-Since the 1980s, I have used numerous programming languages and countless tools and frameworks. I’ve seen various methodologies and management styles come and go. I converse daily in German, English, and Spanish. I have also published articles in magazines, beginning in the early 1980s with <a href="https://de.wikipedia.org/wiki/Computer_Persönlich">Computer Persönlich</a>, and I maintain a blog with technical articles. Public speaking and presenting are activities I enjoy and have done multiple times.
-
-I consider myself a capable software developer. I am proficient in Java, JavaScript, and Ruby, but I can also use C/C++ and Objective-C. I can even read COBOL from way back when. Additionally, I have extensive business experience and knowledge on an international level, which is invaluable when working with international teams. Most of my work communication is in English but I can work in German (1st language) or Spanish as well. I also have experience in using the services of simultaneous translators effectively.
-
-At [https://www.stephan-schwab.com](https://www.stephan-schwab.com) I maintain a personal website and blog with technical articles that further shows my expertise and serves as a reference for my clients.
-
 ## Trusted by these organizations
-Since 2006 I have provided professional services to the following international clients, listed in no particular order:
+Since 2006 I have provided professional services in different roles to the following international clients. See project history for details below.
 
 <div style="display: flex;">
 	<div style="flex: 1; padding: 10px;">
@@ -106,40 +66,52 @@ Since 2006 I have provided professional services to the following international 
 	</div>
 </div>
 
-<div style="display: flex;">
-	<div style="flex: 1; padding: 10px;">
-		<h2>Roles I am good in</h2>
 
-		<h3>Software developer / engineer role</h3>
-		<p>As software developer / engineer I deliver a technical solution, alone or as a team member, using a wide array of tools, languages, and frameworks.</p>
+## Executive Summary
+As a lifelong software developer (since the 1980s), I am proficient in Java, JavaScript, and Ruby, with additional experience in C, C++, and Objective-C. I can even read COBOL from back in the day. I also have contributed to Open Source Software as part of client engagements. My extensive business experience and knowledge at the international level are invaluable when working with global teams. While most of my work communication is in English, I am also fluent in German (my first language) and Spanish.
 
-		<h3>Management advisor/coach or team coaching role</h3>
-		<p>I subscribe to the American interpretation of <em>Coaching</em>. That means I show and teach how to do things instead of asking "powerfull questions" as it is so common in the European way. In every engagement my solid technical skills earn me quickly respect and people like to take my advice as it comes from real-world experience.</p>
+At [https://www.stephan-schwab.com](https://www.stephan-schwab.com) I maintain a personal website and blog with technical articles that further shows my expertise and serves as a reference for my clients.
 
-		<p>I can translate business problems into terms that highly skilled individuals in the technical domain can understand and act upon - or vice versa. Technical coaching (embedded) of team members is an effective way to achieve this. Approaches like Kanban, Lean, Scrum, and adaptive agile software development rely on such a role.</p>
+## Knowledge overview
+When you are looking for a contractor, consultant, advisor, or coach, you want someone experienced who can deliver measureable results. You don’t want a cog in the machine or a one-trick pony; you want someone who can quickly figure out how to best contribute to your business needs without being tied to technologies or limited by personal preferences. In a coaching role you want a seasoned practicioner instead of an outsider.
 
-		<h3>Agile Coach, Scrum Master</h3>
-		<p><em>Agile Coach</em> and <em>Scrum Master</em> are defined as active change agent roles. The person needs to be from the trade and deliver instead of moderating ceremonies or seeking compliance with any framework. The latter is frequently called "Dark Agile" and is rejected by software developers who in turn quit silently and lose their motivation.</p>
+<div class="overview">
+	<div>
+		<span style="color: green">Programming languages</span>: proficient in Java (J2EE, JBoss, WebSphere, Tomcat, Jetty, Spring Framework family, Spring Boot), JavaScript (ECMAscript) (browser and NodeJS) and JS frontend frameworks (VueJS, React, Angular and similar). Can do Ruby (Ruby on Rails), C, C++ and Objective-C. Used BASIC, Pascal, Perl, Python, Modula-2, TypeScript, VisualBasic (and developed extensions), x86/68000 Assembler. <em>Can still read COBOL.</em>
 	</div>
-
-	<div style="flex: 1; padding: 10px;">
-		<h2>Availability</h2>
-		<p>I am available for short and long term engagements for clients anywhere on the planet through one of my legal entities. Remote work is preferred but travel on short notice for a good reason is absolutely possible. I operate out of a well equipped office with high-speed Internet via Starlink and Internet safety measures are also in place.</p>
-
-		<dl class="companies">
-		<dt>Caimito Agile Life SL</dt>
-		<dd>Caimito Agile Life SL, registered as a limited liability company in Spain, does business within the unified market of the European Union. Invoices are sent VAT free (reverse charge) and in Euro. The same goes for credit notes from agencies.</dd>
-		<dd>Caimito Agile Life also runs a non-traditional farming business in Spain and has local employees. Details are at <a href="https://www.caimito.eu">https://www.caimito.eu</a>.</dd>
-
-		<dt>Caimito Services LLC</dt>
-		<dd>Caimito Services LLC is a limited liability company registered in the United States of America and does business in US Dollar for clients outside the European Union. For US clients Caimito Services can offer contract work on IRS 1099 basis.</dd>
-		</dl>
+	<div>
+		<span style="color: green">Databases</span>: SQL, stored procedures (MS SQL, MySQL, MariaDB, PostgreSQL, Oracle), NoSQL (MongoDB)<br/>
+		<br/>
+		<span style="color: green">Search engines</span>: Apache Solr, Lucene, full-text search in databases<br/>
+		<br/>
+		<span style="color: green">World Wide Web</span>: Hypertext (HATEOAS), HTML, CSS, able to create a website with no framework
+	</div>
+	<div>
+		<span style="color: green">Concepts</span>: messaging (Pub/Sub, IBM MQ, RabbitMQ, ActiveMQ, MQTT); Event-Based Architecture; Object-Oriented Programming (OOP); Domain-Driven Design (DDD); Clean Code; functional, procedural, structured, declarative programming paradigms. Familiar with UML, state/flow diagrams.
+	</div>
+	<div>
+		Networking: Ethernet, TCP/IP, DNS, application protocols (HTTP/HTTPS, SMTP, NNTP, other RFCs), routing protocols (BGP, OSPF), DHCP, Firewalls, Cisco routers, LoRa, Internet of Things, LoRaWAN, built and ran an ISP (xDSL) and datacenter
+	</div>
+	<div>
+		Industrial and agricultural automation: sensors, solenoid valves, actuators, MQTT, Home Assistant, event/rules engines
+	</div>
+	<div>
+		Working knowledge of <span style="color: brown">Lean (inkl. TPS), Kanban, Scrum (since 2006)</span>, <span style="color: green">DevOps</span>, and the original <span style="color: green">Waterfall model</span> by W. Royce, mob and <span style="color: green">pair programming</span>
+	</div>
+	<div>
+    <span style="color: blue">Test-Driven Development</span> (TDD, BDD, ATDD with Cucumber, Behave) and <span style="color: blue">CI/CD (trunk based)</span> advocate.
+	</div>
+	<div>
+		Development on Linux since 1993 (v0.98), Windows since 1989 (v2.11), Windows NT since 1993 (v3.1), MacOS since 2001; Infrastructure as Code (Ansible, Chef, Terraform); Virtualization (Docker, Kubernetes, Linux KVM, Vagrant, VirtualPC, VMware)
+	</div>
+	<div>
+		Conceptually familiar with machine learning, artificial intelligence, neural networks. Heavy user of GitHub Co-Pilot and ChatGPT as assistants.
 	</div>
 </div>
 
+## Project History
+Client contacts and further details for the projects listed are available on request.
 
-
-## Engagement History
 <dl class="resume">
 	<dt>Developer</dt>
 	<dd>

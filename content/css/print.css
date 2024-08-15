@@ -41,13 +41,17 @@ H1 {
 	margin-bottom: 3em;
 }
 
+H2 {
+	margin-top: 0.5em;
+}
+
 H1, H2, H3, H4, DT {
 	page-break-after: avoid;
 }
 
-DIV.overview {
+/* DIV.overview {
 	margin-bottom: 5em;
-}
+} */
 
 DIV.overview UL {
 	margin-top: 1em;
