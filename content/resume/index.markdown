@@ -353,27 +353,27 @@ Client contacts and further details for the projects listed are available on req
 	</dd>
 </dl>
 
-## Founder and CEO of various ventures
+## Founder and Managing Director of various ventures
 <dl class="resume">
-		<dt>Founder Caimito Development S.A.</dt>
+		<dt>Founder, Managing Director at Caimito Development S.A.</dt>
 		<dd><p>2006 - 2009, Panama</p>
 			<p>Outsourcing projects for customers in USA.</p>
 			<p>Development of the agile lifecycle management tool Caimito One Team from idea to market introduction.</p>
 		</dd>
 
-		<dt>Founder Caimito Technologies LLC</dt>
+		<dt>Founder, Managing Director at Caimito Technologies LLC</dt>
 		<dd><p>2003 - 2006, Florida, USA</p>
 			<p>Professional services in the areas systems operation, networking, software development.</p>
 		</dd>
 	
-		<dt>Founder, CEO at DINX GmbH</dt>
+		<dt>Founder, Managing Director at DINX GmbH</dt>
 		<dd><p>1999 - 2003, Germany</p>
 			<p>Hosting of Application Servers</p>
 			<p>Operations of IP Backbone and access concentrators</p>
 			<p>Web development</p>
 		</dd>
 
-		<dt>Co-Founder, CEO at Farside Communications</dt>
+		<dt>Co-Founder, Managing Director at Farside Communications</dt>
 		<dd><p>1997 - 2001, Germany</p>
 			<p>Regional Internet Access Provider for the region Rhein-Neckar in the southern part of Germany.</p>
 			<p>IP backbone network with of 4 intra-city distribution hubs for DSLAMs and several BGP connections to other carriers.</p>
@@ -381,7 +381,7 @@ Client contacts and further details for the projects listed are available on req
 			<p></p>
 		</dd>
 
-		<dt>Co-Founder, CEO at VentureNET</dt>
+		<dt>Co-Founder, Managing Director at VentureNET GmbH</dt>
 		<dd><p>1995 - 1996, Germany</p>
 			<p>Co-Founded VentureNET GmbH in Heidelberg, Germany, together with Heidelberg based consulting company OSS Consulting GmbH and two partners. Served as member of the board and was responsible for the company's Internet division.</p>
 		</dd>
