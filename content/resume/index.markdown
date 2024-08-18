@@ -13,7 +13,7 @@ title: Stephan Schwab
 	</div>
 	<div>Available remotely or on-site with flexible rates as:
 		<ul>
-			<li style="color: green">Software developer / engineer</li>
+			<li style="color: green">Software developer / engineer / architect</li>
 			<li style="color: brown">Management coach / advisor to senior leadership</li>
 			<li style="color: blue">Technical Agile Coach</li>
 		</ul>
@@ -66,7 +66,6 @@ Since 2006 I have provided professional services in different roles to the follo
 	</div>
 </div>
 
-
 ## Executive Summary
 As a lifelong software developer (since the 1980s), I am proficient in Java, JavaScript, and Ruby, with additional experience in C, C++, and Objective-C. I can even read COBOL from back in the day. I also have contributed to Open Source Software as part of client engagements. My extensive business experience and knowledge at the international level are invaluable when working with global teams. While most of my work communication is in English, I am also fluent in German (my first language) and Spanish.
 
@@ -108,6 +107,9 @@ When you are looking for a contractor, consultant, advisor, or coach, you want s
 		Conceptually familiar with machine learning, artificial intelligence, neural networks. Heavy user of GitHub Co-Pilot and ChatGPT as assistants.
 	</div>
 </div>
+
+## Job titles in software development
+Job titles in software development are often meaningless. While in other professions, the job title describes what an individual actually does or which exams the person has passed, everyone in software development is a *developer*, an *architect*, a *programmer*, a *designer*, or a *business analyst*, regardless of their specific responsibilities. People in software development should be T-shaped, possessing both broad and deep knowledge and experience. As an independent service provider, I am exposed to many different ways of working, tools, programming languages, and frameworks. This exposure allows me to share from my vast experience with every team I join.
 
 ## Project History
 Client contacts and further details for the projects listed are available on request.
