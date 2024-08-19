@@ -108,8 +108,7 @@ When you are looking for a contractor, consultant, advisor, or coach, you want s
 	</div>
 </div>
 
-## Job titles in software development
-Job titles in software development are often meaningless. While in other professions, the job title describes what an individual actually does or which exams the person has passed, everyone in software development is a *developer*, an *architect*, a *programmer*, a *designer*, or a *business analyst*, regardless of their specific responsibilities. People in software development should be T-shaped, possessing both broad and deep knowledge and experience. As an independent service provider, I am exposed to many different ways of working, tools, programming languages, and frameworks. This exposure allows me to share from my vast experience with every team I join.
+<p style="width: 65%; margin-left: auto; margin-right: auto; color: red; font-weight: bold">Bitte beachten Sie die Hinweise für Projektvermittler im DACH-Raum am Ende.</p>
 
 ## Project History
 Client contacts and further details for the projects listed are available on request.
@@ -394,3 +393,25 @@ Client contacts and further details for the projects listed are available on req
 			<p>DEO - Documents of Embedded Objects - was a software technology in C/C++ on Windows 3.0 that is a little bit comparable to OLE 2 from Microsoft. The product knew a container application with software components running inside. Available software components were a spreadsheet, illustration graphics, presentation graphics and a word-processing component from a third party.</p>
 		</dd>
 </dl>
+
+## Hinweise für Projektvermittler im DACH-Raum
+Es folgen einige Hinweise speziell für Projektvermittler im deutschsprachigen Raum.
+
+### Rollen in der Softwareentwicklung
+Nahezu alle Unternehmen wollen heute agile Software-Entwicklung machen. Oft ist man aber am Rollenverständnis aus der Welt des Wasserfallmodelles gefangen und möchte über eine enge Aufgaben- oder Rollenbeschreibung genau dafür die richtige Person finden statt ganz einfach nach einem weiteren Team-Mitglied mit breitem Wissen zu suchen.
+
+Als Vermittler können Sie Ihrem Kunden hier einen besonderen Dienst erweisen und mit Fachkenntnissen zu agiler Software-Entwicklung glänzen. Fragen Sie den Kunden, ob er nicht lieber einen *generalisierenden Spezialisten* möchte. Es kommt sehr häufig vor, daß ich am Anfang für eine bestimmte Rolle angefordert werde und nach kurzer Zeit werde ich zum technischen Coach für die anderen Team-Mitglieder, um zu zeigen wie agile Software-Entwicklung tatsächlich gemacht wird.
+
+Jobtitel in der Softwareentwicklung sind oft bedeutungslos. Während in anderen Berufen der Jobtitel beschreibt, was eine Person tatsächlich tut oder welche Prüfungen die Person bestanden hat, ist in der Software-Entwicklung jeder ein *developer*, ein *architect*, ein *programmer*, ein *designer* oder ein *business analyst* und natürlich auch ein *tester*. Menschen in der Softwareentwicklung sollten T-förmig sein, d.h. sowohl breites als auch tiefes Wissen und Erfahrung besitzen, und über den Tag verteilt ganz unterschiedliche Aufgaben erledigen.
+
+### Schlüsselbegriffe, Frameworks, Plattformen, etc.
+In der IT und Software-Entwicklung gibt es eigentlich immer mehrere konkurriende Frameworks und Plattformen. Alle lösen dasselbe technische Problem und basieren auf genau denselben Konzepten. Mitarbeiter danach auszusuchen geht an der Sache vorbei. Es wird aber häufig aus Unkenntnis genau so gemacht. Fragen Sie beim Kunden nach was er wirklich sucht. Suchen Sie den Kontakt zur Fachabteilung. Vergleichen Sie nicht Listen von Schlüsselbegriffen.
+
+Der Unterschied zwischen z.B. den JavaScript-Frameworks VueJS und React ist lediglich eine Frage persönlicher Präferenzen und gute Software-Entwickler benötigen auf keinen Fall eine lange Einarbeitungszeit oder gar Schulungen, um von VueJS zu React oder umgekehrt zu wechseln. Wenn Ihr Kunde explizit nach einem React-Entwickler sucht, dann hat er bisher keine wirklich erfahrenen Software-Entwickler kennengelernt.
+
+Ganz ähnlich verhält es sich mit AWS (Amazon Web Services), Microsoft Azure, Google Cloud Platform und den Angeboten vieler weiterer, aber weniger bekannter, Anbieter. Das sog. "cloud computing" reicht von einer auf Docker-Containern basierenden selbst betriebenen Infrastruktur bis hin zum Einkaufen der diversen Leistungen bei den genannten großen Anbietern. Suchen Sie nicht einen "AWS-Spezialisten" für den Kunden, sondern finden Sie jemanden, der "cloud computing" tatsächlich versteht und auch weiß wie man ohne "cloud" (oft weitaus kostengünstiger) arbeiten kann. Jeder der Anbieter bietet Beratungsleistungen an und Ihr Kunde sollte sich eher direkt an die Anbieter wenden statt über Sie einen Projektmitarbeiter zu suchen.
+
+### Bieten Sie dem Kunden zusätzliches Wissen und Erfahrung an
+Als Projektvermittler sind Sie in der Regel gar nicht ausreichend informiert, um einen fachlich geeigneten Spezialisten auswählen zu können. Wenn Ihr Kunde von Ihnen erwartet die Auswahl geeigneter Kandidaten auf lediglich 2-3 Profile zu reduzieren, dann werden Sie mit hoher Wahrscheinlichkeit den so wichtigen und bekehrten *generalisierenden Spezialisten* aussortieren und stattdessen Leute mit schmalem und begrenztem Wissen und Erfahrungen vorstellen. Das ist nicht was der Kunde benötigt. Versuchen Sie mit der Fachabteilung zu sprechen statt nur mit dem Einkauf des Kunden zu reden.
+
+Die meisten Kunden suchen Freiberufler, um zusätzliches Wissen in ein Team zu bringen. Die festangestellten Mitarbeiter können aus naheliegenden Gründen nicht das breite Wissen eines Freiberuflers haben. Stellen Sie Freiberufler vor, die mehr bieten als lediglich ein weiterer Mitarbeiter zu sein.
