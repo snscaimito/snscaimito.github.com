@@ -13,9 +13,18 @@ title: Stephan Schwab
 	</div>
 	<div>Available remotely or on-site with flexible rates as:
 		<ul>
-			<li style="color: green">Software developer / engineer / architect</li>
-			<li style="color: brown">Management coach / advisor to senior leadership</li>
-			<li style="color: blue">Technical Agile Coach</li>
+			<li >
+				<span style="color: green">Software developer / engineer / architect</span><br/>
+				Build software as a member of a development team
+			</li>
+			<li>
+				<span style="color: brown">Technical advisor to senior leadership</span><br/>
+				Provide insight at the C-level or departamental level into technical topics
+			</li>
+			<li>
+				<span style="color: blue">Senior Developer Advocate</span><br/>
+				To uplift technical and organizational skills of all team members reporting to senior leadership
+			</li>
 		</ul>
 		<p>Hands-on, get things done attitude. Able to pick up new subjects, languages, technologies and rise to expert level quickly.</p>
 	</div>
@@ -72,7 +81,7 @@ As a lifelong software developer (since the 1980s), I am proficient in Java, Jav
 At [https://www.stephan-schwab.com](https://www.stephan-schwab.com) I maintain a personal website and blog with technical articles that further shows my expertise and serves as a reference for my clients.
 
 ## Knowledge overview
-When you are looking for a contractor, consultant, advisor, or coach, you want someone experienced who can deliver measureable results. You don’t want a cog in the machine or a one-trick pony; you want someone who can quickly figure out how to best contribute to your business needs without being tied to technologies or limited by personal preferences. In a coaching role you want a seasoned practicioner instead of an outsider.
+When you are looking for a contractor, consultant, advisor, or  developer advocate to introduce better practices, you want someone experienced who can deliver measureable results. You don’t want a cog in the machine or a one-trick pony; you want someone who can quickly figure out how to best contribute to your business needs without being tied to technologies or limited by personal preferences. In a coaching role you want a seasoned practicioner instead of an outsider.
 
 <div class="overview">
 	<div>
@@ -108,13 +117,11 @@ When you are looking for a contractor, consultant, advisor, or coach, you want s
 	</div>
 </div>
 
-<p style="width: 65%; margin-left: auto; margin-right: auto; color: red; font-weight: bold">Bitte beachten Sie die Hinweise für Projektvermittler im DACH-Raum am Ende.</p>
-
 ## Project History
 Client contacts and further details for the projects listed are available on request.
 
 <dl class="resume">
-	<dt>Developer</dt>
+	<dt>Product Designer & Software Developer</dt>
 	<dd>
 		<p class="client">2024, Caimito Services, USA</p>
 		<p>Development of an agroforestry planning and design tool. ChatGPT is used extensively for research about plant species and their properties as well as a means to speed up development tasks. GitHub Copilot in VS Code helps to quickly prototype the application. The development approach is trunk-based development with git commits and pushes directly to the production environment.</p>
@@ -137,7 +144,7 @@ Client contacts and further details for the projects listed are available on req
 		</div>
 	</dd>
 
-	<dt>Developer</dt>
+	<dt>Software Developer & Developer Advocate</dt>
 	<dd>
 		<p class="client">2021 - 2022, Mercedes-Benz, Germany</p>
 		<p>Worked 100% remote with an international DevOps style group on an internal application to manage SonarQube in combination with GitHub Enterprise.</p>
@@ -150,7 +157,7 @@ Client contacts and further details for the projects listed are available on req
 		<p>Technologies used: Java, JavaScript, Typescript, C#, Quarkus, Hibernate, Maven, Cucumber.js, VueJS, Vuex Store, Vuetify, Cypress, Docker, GitHub, Microsoft Azure, Microsoft .NET, MacOS, Linux, Ubunto MicroK82, Kubernetes, Terraform, Keycloak</p>
 	</dd>
 
-	<dt>Product Designer and Developer</dt>
+	<dt>Product Designer and Software Developer</dt>
 	<dd>
 		<p class="client">2021 - 2023, Caimito Agile Life, Spain</p>
 		<img src="../img/granjaEU-menu.jpg" style="width: 8em; float: right; margin-left: 2em"/>
@@ -177,10 +184,10 @@ Client contacts and further details for the projects listed are available on req
 	</dd>
 
 
-	<dt>Developer</dt>
+	<dt>Software Developer &  Developer Advocate</dt>
 	<dd>
 		<p class="client">2020, PH7, Japan, USA, Europe</p>
-		<p>Working on a NodeJS based API to orchestrate a number of external services.
+		<p>Worked on a NodeJS based API to orchestrate a number of external services.
       Functional programming style and use of Promise and lodash/fp.
       Unit testing with JEST, acceptance and smoke testing with Cucumber.js and Chai.
     </p>
@@ -189,93 +196,93 @@ Client contacts and further details for the projects listed are available on req
 		<p>Technologies used: NodeJS, JavaScript, Cucumber.js, Chai, OneSignal, Firebase </p>
 	</dd>
 
-	<dt>Consultant</dt>
+	<dt>Technical Management Advisor</dt>
 	<dd>
 		<p class="client">2019, Raiffeisen Bank on site at subsidiaries in Sarajevo (Bosnia-Herzegovina), Belgrade (Serbia), Pristina (Kosovo)</p>
 		<p>Performed assessments of IT processes and systems for the executive board of each subsidiary.</p>
-		<p>Further on-site engagement was stopped due to the beginning of the COVID pandemic. It was planned to continue as Agile Coaching with the aim of creating a new development center.</p>
+		<p>Further on-site engagement was stopped due to the beginning of the COVID pandemic. It was planned that I take on the role of an embedded Developer Advocate with the aim of creating a new development center.</p>
 	</dd>
 
-	<dt>Agile Coach</dt>
+	<dt> Senior Developer Advocate</dt>
 	<dd>
 		<p class="client">2018, Alfa Insurance, Moscow, Russia</p>
 		<p>Continued the work from 2017. Worked with several teams and senior management on improving engineering practices. Advised on network security and information security practices. Introduced a former coachee to the teams to support XP style testing practices at the team level. Consulted on <a href="/2018/04/07/draft-of-a-roca-and-scs-style-application.html">Self-Contained Systems (SCS)</a> based on Docker containers to improve application architecture.</p>
 		<p>Technologies used: Java, JavaScript, Docker, Vaadin, SQL</p>
 	</dd>
 
-	<dt>Agile Coach</dt>
+	<dt> Senior Developer Advocate</dt>
 	<dd>
 		<p class="client">2017, Alfa Insurance, Moscow, Russia</p>
 		<p>Performed an audit of the software development and operations groups in preparation of a larger engagement to uplift skills and create a DevOps structure. Did some initial coaching on two teams to lay the foundation for future coaching work with these two teams and additional groups to follow.</p>
 		<p>Technologies used: Java, JavaScript, Docker, Vaadin, SQL</p>
 	</dd>
 
-	<dt>Agile Coach <em>in cooperation with other Agile Coaches</em></dt>
+	<dt> Senior Developer Advocate <em>in cooperation with Agile Coaches</em></dt>
 	<dd>
 		<p class="client">2017, Alfa Bank, Moscow, Russia</p>
 		<p>Continuation of the 2016 engagement. Objective is to create a DevOps culture inside the bank and restructure the whole organization accordingly.</p>
 	</dd>
 
-	<dt>Agile Coach</dt>
+	<dt> Senior Developer Advocate</dt>
 	<dd>
 		<p class="client">2016, Thales, Stuttgart, Germany</p>
 		<p>Within the axle counter group of Thales Transportation Systems I coached project manager and solution architect on their new roles of Scrum Master and Product Owner. Introduced technical team members to Test-Driven Development in C using the tool <a href="http://www.qa-systems.com/tools/cantata/" target="_blank">Cantata</a>.</p>
 		<p>Technologies used: C, Cantata</p>
 	</dd>
 
-	<dt>Agile Coach</dt>
+	<dt> Senior Developer Advocate</dt>
 	<dd>
 		<p class="client">2016, Versandhaus Walz, Bad Waldsee, Germany</p>
-		<p>The engagement started as a group of three coaches for their main office and an external development partner. Initially I trained and coached on technical matters in a Java J2EE environment with IBM Websphere Commerce. Over time I became the main coach for the main office and worked with a larger group developing the new eCommerce shop for Walz. Coaching topics included product development vs service delivery, information visualization, integration of non-developers, restructuring a traditional retailer to become an eCommerce company, new roles and skills. For 2017 Walz wants to bring all shop development inhouse and I started in 2016 to train newly hired developers on microservices architecture and the DevOps model.</p>
+		<p>The engagement started as a group of three coaches for their main office and an external development partner. Initially I trained and coached on technical matters in a Java J2EE environment with IBM Websphere Commerce. Over time I became the main advisor and developer advocate for the main office and worked with a larger group developing the new eCommerce shop for Walz. Coaching topics included product development vs service delivery, information visualization, integration of non-developers, restructuring a traditional retailer to become an eCommerce company, new roles and skills. For 2017 Walz wants to bring all shop development inhouse and I started in 2016 to train newly hired developers on microservices architecture and the DevOps model.</p>
 		<p>Technologies used: Java, JavaScript, Docker, IBM Websphere eCommerce, Spring Framework, Spring Boot</p>
 	</dd>
 
-	<dt>Agile Coach <em>in cooperation with other Agile Coaches</em></dt>
+	<dt> Senior Developer Advocate <em>in cooperation with other Agile Coaches</em></dt>
 	<dd>
 		<p class="client">2016, Alfa Bank, Moscow, Russia</p>
 		<p>Did anamesis with a number of several development groups over the course of a whole week and created a proposal about creating a DevOps culture within a division for management. Received approval to proceed in 2017.</p>
 	</dd>
 
-	<dt>Agile Coach</dt>
+	<dt> Senior Developer Advocate</dt>
 	<dd>
 		<p class="client">2016, Deutsche Bank, Frankfurt, Germany</p>
 		<p>Tought Product Owners and team members from different vendors the basics of Scrum. Introduced User Story Mapping. Performed a three day learning week to introduce kanban elements and the concept of 3 Amigos via paper prototypes amongst others. Consulted on team size and shape and what Scrum can do for the organization.</p>
 	</dd>
 	
-	<dt>Agile Coach <em>in cooperation with other Agile Coaches</em></dt>
+	<dt> Senior Developer Advocate <em>in cooperation with Agile Coaches</em></dt>
 	<dd>
 		<p class="client">2015, Bank Otkritie, Moscow, Russia</p>
 		<p>Performed initial workshops about team formation, team coaching with management. Did organizational anamnesis and proposed potential solutions to populate first version of Coaching Map as a guiding tool going forward.</p>
 	</dd>
 	
-	<dt>Agile Coach <em>in cooperation with resident Scrum Master</em></dt>
+	<dt> Senior Developer Advocate <em>in cooperation with resident Scrum Master</em></dt>
 	<dd>
 		<p class="client">2015, AXA Groupsolutions, Cologne, Germany</p>
 		<p>Performed introductory workshops about Acceptance Test-Driven Development for project leaders and team members.</p>
 		<p>Technologies used: Cucumber, Ruby</p>
 	</dd>
 	
-	<dt>Consultant / Trainer <em>with resident Scrum Master</em></dt>
+	<dt>Senior Developer Advocate / Trainer <em>with resident Scrum Master</em></dt>
 	<dd>
 		<p class="client">2015, Virtual Solution, Munich, Germany</p>
 		<p>Performed workshops, in the form of code retreats, with two teams on test automation, clean code and architecture, intra-team collaboration and Specification by Example for IOS and Android platforms.</p>
 		<p>Technologies used: Java, Objective-C, Android, IOS, Appium, Cucumber</p>
 	</dd>
 	
-	<dt>Consultant <em>working with Department Leader</em></dt>
+	<dt>Management Advisor <em>working with Department Leader</em></dt>
 	<dd>
 		<p class="client">2015, Huawei Technologies, Munich, Germany</p>
 		<p>Management report on organizational and human factors for dealing with complexity in software product development.</p>
 	</dd>
 
-	<dt>Agile Coach / Scrum Coach <em>working with Project Managers and Department Leaders</em></dt>
+	<dt> Senior Developer Advocate / Scrum Coach <em>working with Project Managers and Department Leaders</em></dt>
 	<dd>
 		<p class="client">2014, Huawei Technologies, several cities, China</p>
 		<p>Introduced ATDD and situational kanban after client’s failed attempt to do so to several teams and coached middle management on agile principles.</p>
 		<p>Technologies used: Java, Android, Appium, Cucumber, Ruby, Python, Behave</p>
 	</dd>
 	
-	<dt>Agile Coach / Scrum Coach <em>pairing with resident Scrum Masters</em></dt>
+	<dt> Senior Developer Advocate / Scrum Coach <em>pairing with resident Scrum Masters</em></dt>
 	<dd>
 		<p class="client">2013 - 2014, Webtrekk, Berlin, Germany</p>
 		<p>Coached the CTO on agile principles and testing. Introduced Acceptance Test-Driven Development and coached Scrum Masters.</p>
@@ -283,7 +290,7 @@ Client contacts and further details for the projects listed are available on req
 	</dd>
 	
 	<dt>Interim Scrum Master <em>for development group</em></br>
-		Agile Coach / Scrum Coach <em>working with Department Heads</em></dt>
+		Senior Developer Advocate / Scrum Coach <em>working with Department Heads</em></dt>
 	<dd>
 		<p class="client">2013 - 2014, OBI Smart Technologies, Wermelskirchen, Germany</p>
 		<p>Led a Scrum team. Added testers to the team. Improved requirements gathering and intra-departmental collaboration. Coached department heads on agile values &amp; principles. </p>
@@ -298,7 +305,7 @@ Client contacts and further details for the projects listed are available on req
 		<p>Technologies used: IBM MQ, Ruby, Cucumber</p>
 	</dd>
 
-	<dt>Agile Coach / Scrum Coach <em>working with team leaders</em></dt>
+	<dt> Senior Developer Advocate / Scrum Coach <em>working with team leaders</em></dt>
 	<dd>
 		<p class="client">2012, Independent Health, Buffalo, New York, USA</p>
 		<p>Coached SOA teams on Acceptance Test-Driven Development and created a technical tool for doing it.</p>
@@ -312,7 +319,7 @@ Client contacts and further details for the projects listed are available on req
 		</div>
 	</dd>
 	
-	<dt>Agile Coach / Scrum Coach <em>working with Iteration Managers and Application Development Leaders</em></dt>
+	<dt> Senior Developer Advocate / Scrum Coach <em>working with Iteration Managers and Application Development Leaders</em></dt>
 	<dd>
 		<p class="client">2009 - 2011, Nationwide Insurance, Columbus, Ohio, USA</p>
 		<p>Participated in an agile transformation spanning 23 teams and personally provided technical and organizational coaching to 6+ teams and about 80 individuals.</p>
@@ -326,27 +333,27 @@ Client contacts and further details for the projects listed are available on req
 		<p>Technologies used: Java, Apache Solr, Apache Lucene, XML, Apache Camel, ActiveMQ</p>
 	</dd>
 	
-	<dt>Agile Coach / Scrum Coach <em>working with Software Architects</em></dt>
+	<dt> Senior Developer Advocate / Scrum Coach <em>working with Software Architects</em></dt>
 	<dd>
 		<p class="client">2008, Nationwide Insurance, Columbus, Ohio, USA</p>
 		<p>Coached software architects and team members on agile development practices including test-driven development and continuous integration.</p>
 		<p>Technologies used: Java, Ruby, Cucumber, Spring Framework, IBM Websphere, SQL</p>
 	</dd>
 
-	<dt>Project Manager, Scrum Master</dt>
+	<dt>Product Designer & Software Developer</dt>
 	<dd>
 		<p class="client">2007 - 2009, Caimito Development, Panama City, Panama</p>
 		<p>Developed the agile lifecycle management tool Caimito One Team, which was aimed at distributed Scrum teams.</p>
 	</dd>
 	
 	<dt>Software Developer</br>
-		Agile Coach / Scrum Coach <em>working with Project Manager and CEO</em></dt>
+		Senior Developer Advocate / Scrum Coach <em>working with Project Manager and CEO</em></dt>
 	<dd>
 		<p class="client">2007, Cloud9 Analytics, San Mateo, California, USA</p>
 		<p>Built Cloud9's Messenger product (webapp) (from inception to deployment to production) using Scrum as methodology.</p>
 	</dd>
 	
-	<dt>Agile Coach / Scrum Coach <em>working with team members and CEO</em></dt>
+	<dt>Senior Developer Advocate / Scrum Coach <em>working with team members and CEO</em></dt>
 	<dd>
 		<p class="client">2006 - 2007, RealWorld Systems, Panama City, Panama</p>
 		<p>Coached team on Scrum and XP practices.</p>
@@ -390,28 +397,6 @@ Client contacts and further details for the projects listed are available on req
 		<dt>Co-Owner, Software Architect at SoftStream Development</dt>
 		<dd><p>1989 - 1996, Germany</p>
 			<p>Convince, an illustration and presentation graphics program was developed from 1989-1990 and marketed in Germany. It was written in Modula-2 for the GEM/3 environment on DR-DOS and MS-DOS.</p>
-			<p>DEO - Documents of Embedded Objects - was a software technology in C/C++ on Windows 3.0 that is a little bit comparable to OLE 2 from Microsoft. The product knew a container application with software components running inside. Available software components were a spreadsheet, illustration graphics, presentation graphics and a word-processing component from a third party.</p>
+			<p>DEO - Documents of  Objects - was a software technology in C/C++ on Windows 3.0 that is a little bit comparable to OLE 2 from Microsoft. The product knew a container application with software components running inside. Available software components were a spreadsheet, illustration graphics, presentation graphics and a word-processing component from a third party.</p>
 		</dd>
 </dl>
-
-## Hinweise für Projektvermittler im DACH-Raum
-Es folgen einige Hinweise speziell für Projektvermittler im deutschsprachigen Raum.
-
-### Rollen in der Softwareentwicklung
-Nahezu alle Unternehmen wollen heute agile Software-Entwicklung machen. Oft ist man aber am Rollenverständnis aus der Welt des Wasserfallmodelles gefangen und möchte über eine enge Aufgaben- oder Rollenbeschreibung genau dafür die richtige Person finden statt ganz einfach nach einem weiteren Team-Mitglied mit breitem Wissen zu suchen.
-
-Als Vermittler können Sie Ihrem Kunden hier einen besonderen Dienst erweisen und mit Fachkenntnissen zu agiler Software-Entwicklung glänzen. Fragen Sie den Kunden, ob er nicht lieber einen *generalisierenden Spezialisten* möchte. Es kommt sehr häufig vor, daß ich am Anfang für eine bestimmte Rolle angefordert werde und nach kurzer Zeit werde ich zum technischen Coach für die anderen Team-Mitglieder, um zu zeigen wie agile Software-Entwicklung tatsächlich gemacht wird.
-
-Jobtitel in der Softwareentwicklung sind oft bedeutungslos. Während in anderen Berufen der Jobtitel beschreibt, was eine Person tatsächlich tut oder welche Prüfungen die Person bestanden hat, ist in der Software-Entwicklung jeder ein *developer*, ein *architect*, ein *programmer*, ein *designer* oder ein *business analyst* und natürlich auch ein *tester*. Menschen in der Softwareentwicklung sollten T-förmig sein, d.h. sowohl breites als auch tiefes Wissen und Erfahrung besitzen, und über den Tag verteilt ganz unterschiedliche Aufgaben erledigen.
-
-### Schlüsselbegriffe, Frameworks, Plattformen, etc.
-In der IT und Software-Entwicklung gibt es eigentlich immer mehrere konkurriende Frameworks und Plattformen. Alle lösen dasselbe technische Problem und basieren auf genau denselben Konzepten. Mitarbeiter danach auszusuchen geht an der Sache vorbei. Es wird aber häufig aus Unkenntnis genau so gemacht. Fragen Sie beim Kunden nach was er wirklich sucht. Suchen Sie den Kontakt zur Fachabteilung. Vergleichen Sie nicht Listen von Schlüsselbegriffen.
-
-Der Unterschied zwischen z.B. den JavaScript-Frameworks VueJS und React ist lediglich eine Frage persönlicher Präferenzen und gute Software-Entwickler benötigen auf keinen Fall eine lange Einarbeitungszeit oder gar Schulungen, um von VueJS zu React oder umgekehrt zu wechseln. Wenn Ihr Kunde explizit nach einem React-Entwickler sucht, dann hat er bisher keine wirklich erfahrenen Software-Entwickler kennengelernt.
-
-Ganz ähnlich verhält es sich mit AWS (Amazon Web Services), Microsoft Azure, Google Cloud Platform und den Angeboten vieler weiterer, aber weniger bekannter, Anbieter. Das sog. "cloud computing" reicht von einer auf Docker-Containern basierenden selbst betriebenen Infrastruktur bis hin zum Einkaufen der diversen Leistungen bei den genannten großen Anbietern. Suchen Sie nicht einen "AWS-Spezialisten" für den Kunden, sondern finden Sie jemanden, der "cloud computing" tatsächlich versteht und auch weiß wie man ohne "cloud" (oft weitaus kostengünstiger) arbeiten kann. Jeder der Anbieter bietet Beratungsleistungen an und Ihr Kunde sollte sich eher direkt an die Anbieter wenden statt über Sie einen Projektmitarbeiter zu suchen.
-
-### Bieten Sie dem Kunden zusätzliches Wissen und Erfahrung an
-Als Projektvermittler sind Sie in der Regel gar nicht ausreichend informiert, um einen fachlich geeigneten Spezialisten auswählen zu können. Wenn Ihr Kunde von Ihnen erwartet die Auswahl geeigneter Kandidaten auf lediglich 2-3 Profile zu reduzieren, dann werden Sie mit hoher Wahrscheinlichkeit den so wichtigen und bekehrten *generalisierenden Spezialisten* aussortieren und stattdessen Leute mit schmalem und begrenztem Wissen und Erfahrungen vorstellen. Das ist nicht was der Kunde benötigt. Versuchen Sie mit der Fachabteilung zu sprechen statt nur mit dem Einkauf des Kunden zu reden.
-
-Die meisten Kunden suchen Freiberufler, um zusätzliches Wissen in ein Team zu bringen. Die festangestellten Mitarbeiter können aus naheliegenden Gründen nicht das breite Wissen eines Freiberuflers haben. Stellen Sie Freiberufler vor, die mehr bieten als lediglich ein weiterer Mitarbeiter zu sein.
