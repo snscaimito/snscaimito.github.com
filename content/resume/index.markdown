@@ -9,7 +9,8 @@ title: Stephan Schwab
 		   Phone +49 151 6162 3277<br/>
 			 email sns@caimito.net<br/>
 			 <br/>
-			 German citizen fluent in English, German, Spanish.
+			 <p>German citizen fluent in English, German, Spanish.</p>
+   		 <p>Hands-on, get things done attitude. Able to pick up quickly new subjects, languages, technologies and rise to expert level.</p>
 	</div>
 	<div>Available remotely or on-site with flexible rates as:
 		<ul>
@@ -26,7 +27,6 @@ title: Stephan Schwab
 				To uplift technical and organizational skills of all team members reporting to senior leadership
 			</li>
 		</ul>
-		<p>Hands-on, get things done attitude. Able to pick up new subjects, languages, technologies and rise to expert level quickly.</p>
 	</div>
 </div>
 
@@ -76,7 +76,11 @@ Since 2006 I have provided professional services in different roles to the follo
 </div>
 
 ## Executive Summary
-As a lifelong software developer (since the 1980s), I am proficient in Java, JavaScript, and Ruby, with additional experience in C, C++, and Objective-C. I can even read COBOL from back in the day. I also have contributed to Open Source Software as part of client engagements. My extensive business experience and knowledge at the international level are invaluable when working with global teams. While most of my work communication is in English, I am also fluent in German (my first language) and Spanish.
+As a lifelong software developer (since the 1980s), I am proficient in Java, JavaScript, and Ruby, with additional experience in C, C++, and Objective-C. I can even read COBOL from back in the day. I also have contributed to Open Source Software as part of client engagements.
+
+When embedded in a software development team as a Senior Developer Advocate I help to uplift the technical and organizational skills of all team members in collaboration with and reporting to senior management.
+
+My extensive business experience and knowledge at the international level are invaluable when working with global teams and senior leadership. While most of my work communication is in English, I am also fluent in German (my first language) and Spanish.
 
 At [https://www.stephan-schwab.com](https://www.stephan-schwab.com) I maintain a personal website and blog with technical articles that further shows my expertise and serves as a reference for my clients.
 
