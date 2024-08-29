@@ -15,7 +15,7 @@ title: Stephan Schwab
 	<div>Available remotely or on-site with flexible rates as:
 		<ul>
 			<li >
-				<span style="color: green">Software developer / engineer / architect</span><br/>
+				<a style="color: green" href="development.html">Software developer / engineer / architect</a><br/>
 				Build software as a member of a development team
 			</li>
 			<li>
@@ -30,50 +30,7 @@ title: Stephan Schwab
 	</div>
 </div>
 
-## Trusted by these organizations
-Since 2006 I have provided professional services in different roles to the following international clients. See project history for details below.
-
-<div style="display: flex;">
-	<div style="flex: 1; padding: 10px;">
-		<h4>Germany</h4>
-		<ul>
-			<li>Mercedes-Benz</li>
-			<li>Versandhaus Walz</li>
-			<li>Deutsche Bank</li>
-			<li>AXA Insurance</li>
-			<li>Virtual Solutions</li>
-			<li>Huawei</li>
-			<li>Webtrek</li>
-			<li>OBI Smart Technologies</li>
-		</ul>
-	</div>
-	<div style="flex: 1; padding: 10px;">
-		<h4>USA</h4>
-		<ul>
-			<li>Independent Health</li>
-			<li>Nationwide Insurance</li>
-			<li>Serials Solutions</li>
-			<li>Cloud9 Analytics</li>
-		</ul>
-	</div>
-	<div style="flex: 1; padding: 10px;">
-		<h4>Russia</h4>
-		<ul>
-			<li>Alfa Insurance</li>
-			<li>Alfa Bank</li>
-			<li>Bank Otkritie</li>
-		</ul>
-	</div>
-	<div style="flex: 1; padding: 10px;">
-		<h4>Other countries</h4>
-		<ul>
-			<li>PH7 (Japan)</li>
-			<li>Raiffeisen Bank (Balkans)</li>
-			<li>Huawei (China)</li>
-			<li>RealWorld Systems (Panama)</li>
-		</ul>
-	</div>
-</div>
+{% include_relative trustedBy.html %}
 
 ## Executive Summary
 As a lifelong software developer (since the 1980s), I am proficient in Java, JavaScript, and Ruby, with additional experience in C, C++, and Objective-C. I can even read COBOL from back in the day. I also have contributed to Open Source Software as part of client engagements.
