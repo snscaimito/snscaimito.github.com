@@ -41,6 +41,8 @@ title: Stephan Schwab - Software Developer
 {% include_relative trustedBy.html %}
 
 ## Project History
+Software development is typically a "team sport". Highlighting individual contributions and personal performance is actually a negative sign. Therefore I avoid saying "I did X" but prefer to mention what "we did". That does not take away any credit from my own contributions to that team effort. Due to my extensive experience, I happen to be in a leading role for a topic frequently and people like to follow my advise or recommendations.
+
 Client contacts and further details for the projects listed are available on request.
 
 <style>
@@ -71,6 +73,8 @@ DIV.history > DIV > DIV:first-child {
     <div>
       <p>Development of an agroforestry planning and design tool. ChatGPT is used extensively for research about plant species and their properties as well as a means to speed up development tasks.</p>
       <ul>
+        <li>Fully automated build and deployment (CI/CD)</li>
+        <li>Trunk-based development</li>
         <li>Java</li>
         <li>Spring Boot (MVC, REST, Data)</li>
         <li>Thymeleaf</li>
@@ -112,6 +116,8 @@ DIV.history > DIV > DIV:first-child {
         <li>Backend development in Java</li>
         <li>Frontend development in JavaScript with Vuetify</li>
         <li>Maintenance of Terraform scripts and Helm charts for Kubernetes deployment</li>
+        <li>Fully automated build and deployment (CI/CD)</li>
+        <li>Code reviews and use of Pull Requests (PR) via GitHub Enterprise</li>
         <li>Developer support for .NET group</li>
         <li>Coaching of Junior Developers</li>
         <li>Java</li>
@@ -157,7 +163,7 @@ DIV.history > DIV > DIV:first-child {
         <li>Keycloak (OAuth2)</li>
         <li>Docker, Docker Compose</li>
         <li>NGINX</li>      
-        <li>Multiple GitHub Actions workflows</li>
+        <li>Multiple GitHub Actions workflows for automated build and deployment (CI/CD)</li>
         <li>Set up and maintenance of production, staging and test environments via Ansible (Debian based virtual servers)</li>        
       </ul>
       <p>Client: Caimito Agile Life, Spain</p>
@@ -176,7 +182,7 @@ DIV.history > DIV > DIV:first-child {
         <li>Test-Driven Development, Rapid Prototyping</li>
         <li>Trunk-Based Development with multiple daily deployments to production</li>
         <li>Delivery of emails via JavaMail via Google SMTP services</li>
-        <li>Multiple GitHub Actions workflows</li>
+        <li>Multiple GitHub Actions workflows for automated build and deployment (CI/CD)</li>
         <li>Set up and maintenance of production, staging and test environments via Ansible (Debian based virtual servers)</li>
         <li>Java</li>
         <li>Spring Boot (REST, Data, Mail, Thymeleaf, Security)</li>
@@ -349,6 +355,14 @@ DIV.history > DIV > DIV:first-child {
       </ul>
       <p>Client: Cloud9, San Mateo, California, USA</p>
       <p>Industry: eCommerce</p>
+    </div>
+  </div>
+
+  <div>
+    <div>Previous work</div>
+    <div>
+      <p>I develop software since the early 1980s and have used numerous development tools and programming languages on many different operating systems and environments.</p>
+      <p>In the 1990s I created one of Germany's early Internet Service Providers (my own company). Besides being co-founder I developed internal applications for provisioning and billing, deployed and configured routers and other devices to connect customers to our network.</p>
     </div>
   </div>
 </div>
