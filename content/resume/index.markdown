@@ -5,7 +5,9 @@ title: Stephan Schwab
 <button class="print-button" onclick="window.print()">Print this resume (as PDF)</button>
 
 <div class="overview">
-	<div><img src="http://www.gravatar.com/avatar/663d11426b0a187ddac59f8c17ce61b4?s=120" class="align-left"/>
+	<div>
+			<img src="https://gravatar.com/avatar/663d11426b0a187ddac59f8c17ce61b4?s=120&d=robohash&r=x" 
+			class="align-left"/>
 		   Phone +49 151 6162 3277<br/>
 			 email sns@caimito.net<br/>
 			 <br/>
