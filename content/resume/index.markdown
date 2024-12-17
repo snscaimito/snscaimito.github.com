@@ -45,8 +45,3 @@ Stephan Schwab has a rich history of founding and managing various ventures, sho
   - Created DEO - Documents of Objects, a software technology comparable to OLE 2 from Microsoft.
 
 For more details on Stephan Schwab's experience as entrepreneur, please visit his [entrepreneurial portfolio](entrepreneur.html).
-
-## Conclusion
-Stephan Schwab's extensive entrepreneurial and development expertise makes him a valuable asset for any organization looking to innovate and improve their software development practices. His ability to adapt to new technologies and his hands-on approach ensure that he can deliver measurable results and contribute significantly to any project.
-
-
