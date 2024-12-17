@@ -2,7 +2,19 @@
 layout: special
 title: Entrepreneur Stephan Schwab
 ---
-## **Entrepreneurial Case Studies: Building Companies and Solutions**
+
+## **Overview of Companies and Objectives**
+
+1. **Caimito Services LLC** (2024 - present, USA): Develop an agroforestry planning and design tool.
+2. **Caimito Agile Life** (2021 - present, Andalusia, Spain): Promote ecosystem restoration with an e-commerce and ERP solution.
+3. **Caimito Development S.A.** (2006 - 2009, Panama): Establish a software outsourcing company and develop agile tools.
+4. **Caimito Technologies LLC** (2003 - 2006, Florida, USA): Provide professional IT services.
+5. **DINX GmbH** (1999 - 2003, Germany): Provide infrastructure services like application hosting and web development.
+6. **Farside Communications** (1997 - 2001, Germany): Build a regional ISP.
+7. **VentureNET GmbH** (1995 - 1996, Germany): Provide Internet services and consulting solutions.
+8. **SoftStream Development** (1989 - 1996, Germany): Design and develop software solutions for graphics and document management.
+
+# **Entrepreneurial Case Studies: Building Companies and Solutions**
 
 ## **Caimito Services LLC**  
 **Founder & Managing Director**  
@@ -190,4 +202,4 @@ Design and develop innovative **software solutions** for graphics, presentations
 ---
 
 ### **Outcome**:  
-- Successfully delivered software products that pushed the boundaries of object-based application development for early Windows environments.  
+- Successfully delivered software products that pushed the boundaries of object-based application development for early Windows environments.
