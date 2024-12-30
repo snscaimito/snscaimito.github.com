@@ -5,7 +5,7 @@ title: Overview of Stephan Schwab's Expertise
 {% include_relative trustedBy.html %}
 
 ## Development Expertise
-Stephan Schwab is a seasoned software developer with extensive experience in various programming languages, frameworks, and technologies. His development expertise is complemented by his role as a Developer Advocate, where he uplifts technical and organizational skills within teams.
+I am a seasoned software developer with extensive experience in various programming languages, frameworks, and technologies. My development expertise is complemented by my role as a Developer Advocate, where I uplift technical and organizational skills within teams.
 
 ### Key Projects and Roles
 - **Product Designer & Software Developer**: Developed tools and applications using Java, Spring Boot, VueJS, and Docker.
@@ -15,13 +15,19 @@ Stephan Schwab is a seasoned software developer with extensive experience in var
 - **Senior Developer Advocate**: Improved engineering practices, advised on network and information security, and coached on agile practices for various clients including Mercedes-Benz, Alfa Insurance, Thales, Deutsche Bank, and Huawei Technologies.
 - **Open Source Contributor**: Contributed to open source projects such as RAutomation and Rmq as part of client engagements.
 
-For more details on my experience as consultant and contractor, please visit the [client portfolio](portfolio.html).
-
+For more details on my experience as consultant and contractor, please visit my [client portfolio](portfolio.html).
 
 ## Entrepreneurial Expertise
-I have a rich history of founding and managing various ventures, showcasing his entrepreneurial spirit and leadership skills. My ventures span across different countries and industries, reflecting my adaptability and business acumen.
+I have a rich history of founding and managing various ventures, showcasing my entrepreneurial spirit and leadership skills. My ventures span across different countries and industries, reflecting my adaptability and business acumen.
 
 ### Founder and Managing Director of Various Ventures
+- **Caimito Services LLC (2024 - present)**
+  - Consulting and contracting services for US clients
+
+- **Caimito Agile Life S.L. (2017 - present)**
+  - Regenerative farming in Andalusia, Spain
+  - Consulting and contracting services
+
 - **Caimito Development S.A. (2006 - 2009, Panama)**
   - Outsourcing projects for customers in the USA.
   - Development of the agile lifecycle management tool Caimito One Team from idea to market introduction.
@@ -47,4 +53,4 @@ I have a rich history of founding and managing various ventures, showcasing his 
   - Developed Convince, an illustration and presentation graphics program.
   - Created DEO - Documents of Objects, a software technology comparable to OLE 2 from Microsoft.
 
-For more details on Stephan Schwab's experience as entrepreneur, please visit his [entrepreneurial portfolio](entrepreneur.html).
+For more details on my experience as entrepreneur, please visit my [entrepreneurial portfolio](entrepreneur.html).
