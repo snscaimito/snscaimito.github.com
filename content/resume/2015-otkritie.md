@@ -1,3 +1,4 @@
+<a name="otkritie"></a>
 ## **Client**: Bank Otkritie  
 **Location**: Moscow, Russia  
 **Duration**: 2015  

@@ -1,3 +1,4 @@
+<a name="thales"></a>
 ## **Client**: Thales Transportation Systems  
 **Location**: Stuttgart, Germany  
 **Duration**: 2016  
@@ -37,5 +38,5 @@ Coach key team members to successfully adopt **Scrum roles** and introduce **Tes
 ### **Key Contributions**:  
 - Coached team leadership on adopting and excelling in **Scrum roles** (Scrum Master and Product Owner).  
 - Provided hands-on technical training to introduce **TDD** practices using **Cantata**.  
-- Fostered an agile mindset focused on quality and collaboration within the team.  
+- Fostered an agile mindset focused on quality and collaboration within the team.
 

@@ -1,3 +1,4 @@
+<a name="alfa-bank"></a>
 ## **Client**: Alfa Bank  
 **Location**: Moscow, Russia  
 **Duration**: 2016 - 2017  
@@ -40,5 +41,5 @@ Transform the organization by creating a **DevOps culture** within Alfa Bank’s
 - Conducted a comprehensive assessment of development groups and presented an actionable proposal to management.  
 - Led the initial implementation of **DevOps culture** and practices.  
 - Collaborated on the restructuring of teams to align with DevOps workflows.  
-- Established a foundation for sustainable cultural and process improvements.  
+- Established a foundation for sustainable cultural and process improvements.
 

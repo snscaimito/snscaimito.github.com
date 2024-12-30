@@ -2,6 +2,61 @@
 layout: special
 title: Portfolio Stephan Schwab
 ---
+
+## Overview of Client Engagements
+
+### 2024
+- [Caimito Services LLC](#caimito-services-llc): Develop an agroforestry planning and design tool.
+- [Caimito Agile Life](#caimito-agile-life): Promote ecosystem restoration with an e-commerce and ERP solution.
+
+### 2021
+- [Mercedes-Benz](#mercedes-benz): Improve engineering practices and advise on network and information security.
+- [GranjaEU](#granjaeu): Develop an integrated e-commerce and ERP platform for farm management.
+
+### 2020
+- [PH7](#ph7): Provide consulting on agile practices and software development.
+
+### 2019
+- [Raiffeisen](#raiffeisen): Implement a new software development process.
+
+### 2018
+- [Alfa Insurance](#alfa-insurance): Enhance software development practices and security measures.
+
+### 2016
+- [Thales](#thales): Advise on agile practices and software development.
+- [Alfa Bank](#alfa-bank): Improve software development processes and security.
+- [Deutsche Bank](#deutsche-bank): Provide consulting on software development and security.
+- [Walz](#walz): Implement agile practices and improve software development.
+
+### 2015
+- [Otkritie](#otkritie): Enhance software development processes and security.
+- [AXA](#axa): Provide consulting on agile practices and software development.
+- [Virtual Solution](#virtual-solution): Improve software development practices and security.
+
+### 2014
+- [Huawei](#huawei): Advise on agile practices and software development.
+
+### 2013
+- [Webtrekk](#webtrekk): Implement a new software development process.
+- [OBI](#obi): Enhance software development practices and security measures.
+
+### 2012
+- [Independent Health](#independent-health): Provide consulting on agile practices and software development.
+
+### 2009
+- [Nationwide](#nationwide): Improve software development processes and security.
+
+### 2008
+- [Serials Solution](#serials-solution): Implement a new software development process.
+- [Nationwide](#nationwide): Enhance software development practices and security measures.
+
+### 2007
+- [Caimito Development](#caimito-development): Establish a software outsourcing company and develop agile tools.
+- [Cloud9](#cloud9): Provide consulting on agile practices and software development.
+
+### 2006
+- [Real World](#real-world): Improve software development processes and security.
+
 {% include_relative 2024-caimito-services.md %}
 {% include_relative 2024-caimito-agile-life.md %}
 {% include_relative 2021-mercedes.md %}

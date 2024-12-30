@@ -1,3 +1,4 @@
+<a name="independent-health"></a>
 ## **Client**: Independent Health  
 **Location**: Buffalo, New York, USA  
 **Duration**: 2012  

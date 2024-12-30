@@ -2,6 +2,8 @@
 layout: special
 title: Overview of Stephan Schwab's Expertise
 ---
+{% include_relative trustedBy.html %}
+
 ## Development Expertise
 Stephan Schwab is a seasoned software developer with extensive experience in various programming languages, frameworks, and technologies. His development expertise is complemented by his role as a Developer Advocate, where he uplifts technical and organizational skills within teams.
 
@@ -13,10 +15,11 @@ Stephan Schwab is a seasoned software developer with extensive experience in var
 - **Senior Developer Advocate**: Improved engineering practices, advised on network and information security, and coached on agile practices for various clients including Mercedes-Benz, Alfa Insurance, Thales, Deutsche Bank, and Huawei Technologies.
 - **Open Source Contributor**: Contributed to open source projects such as RAutomation and Rmq as part of client engagements.
 
-For more details on Stephan Schwab's experience as consultant, please visit his [client portfolio](portfolio.html).
+For more details on my experience as consultant and contractor, please visit the [client portfolio](portfolio.html).
+
 
 ## Entrepreneurial Expertise
-Stephan Schwab has a rich history of founding and managing various ventures, showcasing his entrepreneurial spirit and leadership skills. His ventures span across different countries and industries, reflecting his adaptability and business acumen.
+I have a rich history of founding and managing various ventures, showcasing his entrepreneurial spirit and leadership skills. My ventures span across different countries and industries, reflecting my adaptability and business acumen.
 
 ### Founder and Managing Director of Various Ventures
 - **Caimito Development S.A. (2006 - 2009, Panama)**

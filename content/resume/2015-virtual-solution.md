@@ -1,3 +1,4 @@
+<a name="virtual-solution"></a>
 ## **Client**: Virtual Solution  
 **Location**: Munich, Germany  
 **Duration**: 2015  
