@@ -10,12 +10,18 @@ I am a seasoned software developer with extensive experience in various programm
 ### Key Projects and Roles
 - **Product Designer & Software Developer**: Developed tools and applications using Java, Spring Boot, VueJS, and Docker.
 - **IoT Developer**: Installed IoT systems for automated irrigation.
-- **Software Developer & Developer Advocate**: Worked on internal applications and APIs using Java, Quarkus, Hibernate, Maven, VueJS, Docker, NodeJS, and functional programming.
+- **Software Developer & Developer Advocate**: Worked on applications and APIs using Java, Spring Framework/Boot, Quarkus, Hibernate, Maven, VueJS, Docker, NodeJS, and functional programming.
 - **Technical Management Advisor**: Performed IT process and system assessments for executive boards.
 - **Senior Developer Advocate**: Improved engineering practices, advised on network and information security, and coached on agile practices for various clients including Mercedes-Benz, Alfa Insurance, Thales, Deutsche Bank, and Huawei Technologies.
 - **Open Source Contributor**: Contributed to open source projects such as RAutomation and Rmq as part of client engagements.
 
 For more details on my experience as consultant and contractor, please visit my [client portfolio](portfolio.html).
+
+
+## Public Speaking and Advocacy
+
+I have extensive experience in public speaking, having presented at numerous conferences and events around the world. My talks cover a wide range of topics including agile development, leadership, and software design. See [Public Speaking Experience](speaking.html) for a list of some of the notable events where I have shared my expertise.
+
 
 ## Entrepreneurial Expertise
 I have a rich history of founding and managing various ventures, showcasing my entrepreneurial spirit and leadership skills. My ventures span across different countries and industries, reflecting my adaptability and business acumen.
