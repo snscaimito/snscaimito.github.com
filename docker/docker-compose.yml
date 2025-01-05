@@ -59,4 +59,4 @@ services:
       - ATPROTO_PROFILEURL=https://bsky.app/profile/stephan-schwab.com
       - ATPROTO_ENABLED=true
   youtube-pubsub:
-    image: ghcr.io/granja-caimito/youtube-pubsub:10
+    image: ghcr.io/granja-caimito/youtube-pubsub:11
