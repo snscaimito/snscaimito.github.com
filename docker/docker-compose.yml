@@ -59,4 +59,7 @@ services:
       - ATPROTO_PROFILEURL=https://bsky.app/profile/stephan-schwab.com
       - ATPROTO_ENABLED=true
   youtube-pubsub:
-    image: ghcr.io/granja-caimito/youtube-pubsub:12
+    image: ghcr.io/granja-caimito/youtube-pubsub:13
+    environment:
+      - FEED_URL=https://www.youtube.com/feeds/videos.xml?channel_id=UCXCyESAIxpoPhYu6VsnC3Wg
+      - SPRING_DATASOURCE_URL=jdbc:h2:file:./youtube-pubsub
