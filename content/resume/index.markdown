@@ -7,12 +7,13 @@ title: Overview of Stephan Schwab's Expertise
 ## Development Expertise
 I am a seasoned software developer with extensive experience in various programming languages, frameworks, and technologies. My development expertise is complemented by my role as a Developer Advocate, where I uplift technical and organizational skills within teams.
 
+As a **Software Product Developer** I also make extensive use of AI as a tool and assistant as well as part of the software products I create. I have working knowledge about what an LLM does, what a RAG is for and how to create AI agents.
+
 ### Key Projects and Roles
-- **Product Designer & Software Developer**: Developed tools and applications using Java, Spring Boot, VueJS, and Docker.
-- **IoT Developer**: Installed IoT systems for automated irrigation.
-- **Software Developer & Developer Advocate**: Worked on applications and APIs using Java, Spring Framework/Boot, Quarkus, Hibernate, Maven, VueJS, Docker, NodeJS, and functional programming.
+- **Product Designer & Software Developer**: Developed tools and applications using multiple programming languages, paradigsm and environments over the span of several decades.
+- **IoT Developer**: Designed and implemented IoT systems.
 - **Technical Management Advisor**: Performed IT process and system assessments for executive boards.
-- **Senior Developer Advocate**: Improved engineering practices, advised on network and information security, and coached on agile practices for various clients including Mercedes-Benz, Alfa Insurance, Thales, Deutsche Bank, and Huawei Technologies.
+- **Senior Developer Advocate**: Improved engineering practices, advised on network and information security, and coached on agile practices for various clients in several countries in English, German, and Spanish.
 - **Open Source Contributor**: Contributed to open source projects such as RAutomation and Rmq as part of client engagements.
 
 For more details on my experience as consultant and contractor, please visit my [client portfolio](portfolio.html).
