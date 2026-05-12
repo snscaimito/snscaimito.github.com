@@ -19,4 +19,87 @@
 			jQuery("#gallery").unitegallery(); 
 		}); 
 	</script>
+	<script>
+		(function () {
+			function ensureLightbox() {
+				var existing = document.getElementById('postLightbox');
+				if (existing) {
+					return existing;
+				}
+
+				var lightbox = document.createElement('div');
+				lightbox.id = 'postLightbox';
+				lightbox.className = 'post-lightbox';
+				lightbox.setAttribute('aria-hidden', 'true');
+
+				var closeButton = document.createElement('button');
+				closeButton.className = 'post-lightbox-close';
+				closeButton.id = 'postLightboxClose';
+				closeButton.setAttribute('aria-label', 'Close image');
+				closeButton.innerHTML = '&times;';
+
+				var image = document.createElement('img');
+				image.className = 'post-lightbox-image';
+				image.id = 'postLightboxImage';
+				image.src = '';
+				image.alt = '';
+
+				lightbox.appendChild(closeButton);
+				lightbox.appendChild(image);
+				document.body.appendChild(lightbox);
+				return lightbox;
+			}
+
+			function initLightbox() {
+				var lightbox = ensureLightbox();
+				var lightboxImage = document.getElementById('postLightboxImage');
+
+				if (!lightbox || !lightboxImage || document.body.dataset.postLightboxReady === 'true') {
+					return;
+				}
+
+				function closeLightbox() {
+					lightbox.classList.remove('active');
+					lightbox.setAttribute('aria-hidden', 'true');
+					lightboxImage.src = '';
+					lightboxImage.alt = '';
+					document.body.style.overflow = '';
+				}
+
+				document.addEventListener('click', function (event) {
+					var trigger = event.target.closest('.post-lightbox-trigger');
+					if (!trigger) {
+						return;
+					}
+
+					event.preventDefault();
+					lightboxImage.src = trigger.getAttribute('data-lightbox-src') || trigger.getAttribute('href');
+					lightboxImage.alt = trigger.getAttribute('data-lightbox-alt') || '';
+					lightbox.classList.add('active');
+					lightbox.setAttribute('aria-hidden', 'false');
+					document.body.style.overflow = 'hidden';
+				});
+
+				lightbox.addEventListener('click', function () {
+					if (lightbox.classList.contains('active')) {
+						closeLightbox();
+					}
+				});
+
+				document.addEventListener('keydown', function (event) {
+					if (event.key === 'Escape' && lightbox.classList.contains('active')) {
+						closeLightbox();
+					}
+				});
+
+				document.body.dataset.postLightboxReady = 'true';
+			}
+
+			if (document.readyState === 'loading') {
+				document.addEventListener('DOMContentLoaded', initLightbox);
+			} else {
+				initLightbox();
+			}
+		})();
+	</script>
 	

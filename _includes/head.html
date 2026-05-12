@@ -4,12 +4,13 @@
 
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title>{{ page.title }}</title>
+	{% assign asset_version = site.time | date: '%s' %}
 
 	<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
-	<link rel="stylesheet" href="/css/syntax.css" />
-	<link rel="stylesheet" href="/css/schwab.css" />
-	<link rel="stylesheet" href="/css/print.css" media="print" />
+	<link rel="stylesheet" href="/css/syntax.css?v={{ asset_version }}" />
+	<link rel="stylesheet" href="/css/schwab.css?v={{ asset_version }}" />
+	<link rel="stylesheet" href="/css/print.css?v={{ asset_version }}" media="print" />
 
 	<link rel="alternate" type="application/rss+xml" title="Stephan Schwab" href="/rss.xml" />
 
