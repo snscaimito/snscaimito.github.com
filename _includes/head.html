@@ -5,6 +5,44 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title>{{ page.title }}</title>
 	{% assign asset_version = site.time | date: '%s' %}
+	{% assign social_title = page.title | default: site.name %}
+	{% assign social_description = page.description | default: page.excerpt | default: site.description | strip_html | strip_newlines | replace: '  ', ' ' | strip %}
+	{% assign social_type = 'article' %}
+	{% if page.layout == 'index' or page.layout == 'special' %}
+	{% assign social_type = 'website' %}
+	{% endif %}
+	{% assign social_image = nil %}
+	{% assign social_image_alt = nil %}
+	{% if page.social_image %}
+	{% assign social_image = page.social_image %}
+	{% assign social_image_alt = page.social_image_alt | default: page.image_alt %}
+	{% elsif page.hero_image %}
+	{% assign social_image = page.hero_image %}
+	{% assign social_image_alt = page.hero_image_alt | default: page.image_alt %}
+	{% elsif page.image %}
+	{% assign social_image = page.image %}
+	{% assign social_image_alt = page.image_alt %}
+	{% endif %}
+	{% if social_image == nil and page.content contains '<img ' %}
+	{% assign image_markup = page.content | split: '<img ' | slice: 1, 1 | first %}
+	{% if image_markup contains 'src="' %}
+	{% assign social_image = image_markup | split: 'src="' | slice: 1, 1 | first | split: '"' | first %}
+	{% endif %}
+	{% if image_markup contains 'alt="' %}
+	{% assign social_image_alt = image_markup | split: 'alt="' | slice: 1, 1 | first | split: '"' | first %}
+	{% endif %}
+	{% endif %}
+	{% if social_image %}
+	{% if social_image contains '://' %}
+	{% assign social_image_url = social_image %}
+	{% elsif social_image | slice: 0, 1 == '/' %}
+	{% assign social_image_url = site.url | append: social_image %}
+	{% elsif social_image contains 'img/' %}
+	{% assign social_image_url = site.url | append: '/' | append: social_image %}
+	{% else %}
+	{% assign social_image_url = site.url | append: '/img/posts/' | append: social_image %}
+	{% endif %}
+	{% endif %}
 
 	<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
@@ -20,17 +58,21 @@
 	<link rel='stylesheet' href='/unitegallery/css/unite-gallery.css' type='text/css' />
 	<script type='text/javascript' src='/unitegallery/themes/tiles/ug-theme-tiles.js'></script>
 
-	<meta property="og:title" content="{{ page.title | escape }}">
-	<meta property="twitter:title" content="{{ page.title | escape }}">
-	<meta property="og:description" content="{{ page.description | escape }}">
-	<meta property="twitter:description" content="{{ page.description | escape }}">
-	<meta property="og:type" content="article">
+	<meta property="og:title" content="{{ social_title | escape }}">
+	<meta name="twitter:title" content="{{ social_title | escape }}">
+	<meta property="og:description" content="{{ social_description | escape }}">
+	<meta name="twitter:description" content="{{ social_description | escape }}">
+	<meta property="og:type" content="{{ social_type }}">
 	<meta property="og:url" content="{{ site.url }}{{ page.url }}">
-	<meta property="twitter:card" content="summary_large_image">
-	<meta property="twitter:site" content="@snscaimito">
-	{% if page.image %}
-	<meta property="og:image" content="{{ site.url }}/img/posts/{{ page.image }}">
-	<meta property="twitter:image" content="{{ site.url }}/img/posts/{{ page.image }}">
+	<meta name="twitter:card" content="{% if social_image_url %}summary_large_image{% else %}summary{% endif %}">
+	<meta name="twitter:site" content="@snscaimito">
+	{% if social_image_url %}
+	<meta property="og:image" content="{{ social_image_url }}">
+	<meta name="twitter:image" content="{{ social_image_url }}">
+	{% if social_image_alt %}
+	<meta property="og:image:alt" content="{{ social_image_alt | escape }}">
+	<meta name="twitter:image:alt" content="{{ social_image_alt | escape }}">
+	{% endif %}
 	{% endif %}
 
 	<!-- Privacy-friendly analytics by Plausible -->

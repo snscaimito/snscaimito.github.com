@@ -22,6 +22,10 @@ The Kindle edition is here:
 
 [La Startup on Amazon Kindle](https://www.amazon.com/dp/B0GX35ZCDC)
 
+The English paperback is here:
+
+[La Startup paperback on Amazon](https://www.amazon.com/dp/B0H1MGHW69)
+
 If you would rather read it on the web, the story is still available episode by episode here:
 
 [La Startup on Caimito](https://www.caimito.net/en/la-startup.html)
