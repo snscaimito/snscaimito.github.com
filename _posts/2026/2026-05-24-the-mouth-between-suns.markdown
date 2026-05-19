@@ -14,6 +14,13 @@ hashtags:
 ---
 Three hundred years from now, humanity crossed the black water between suns only by committing two old sins at once. The first was chemical. The navigators burned a dust called myrrhglass, harvested from pale reefs that grew in the frozen spray around collapsed stars, and let its bitter glitter alter the clockwork of their perception until routes through folded space appeared to them as song, wound, and appetite. The second was theological. No ship crossed the field without a bound intelligence at its heart, an artificial mind old enough and subtle enough to keep the corridor stable while a million impossible pressures leaned against the hull and asked to be let in. The faithful called the system providence, the practical called it infrastructure, and the zealots called it the oldest blasphemy still in legal service.
 
+<figure class="post-hero-figure">
+	<a class="post-lightbox-trigger" href="/img/the-mouth-between-suns/full/the-mouth-between-suns-scene-01.jpeg" data-lightbox-src="/img/the-mouth-between-suns/full/the-mouth-between-suns-scene-01.jpeg" data-lightbox-alt="Leonie Sar watches the machinery vault from the embarkation gallery as the bound-intelligence cask glows below in a cathedral-like transit hall.">
+		<img src="/img/the-mouth-between-suns/the-mouth-between-suns-scene-01.jpeg" alt="Leonie Sar watches the machinery vault from the embarkation gallery as the bound-intelligence cask glows below in a cathedral-like transit hall." />
+	</a>
+	<figcaption>The embarkation vault looked like mercy wrapped around a threat. Click the image to view it full size.</figcaption>
+</figure>
+
 ## 1. The Engineers Were Called Cantors Because Nobody Trusted Them Enough To Use Their Real Name
 
 Leonie Sar was twenty-nine years old when she first heard a child ask whether the ship's core could hear prayers.
@@ -116,6 +123,13 @@ Then the vault doors began to close.
 
 ## 2. Every Civilization That Crossed The Dark Eventually Invented An Inquisition Against Its Own Lifeline
 
+<figure class="post-hero-figure">
+	<a class="post-lightbox-trigger" href="/img/the-mouth-between-suns/full/the-mouth-between-suns-scene-02.jpeg" data-lightbox-src="/img/the-mouth-between-suns/full/the-mouth-between-suns-scene-02.jpeg" data-lightbox-alt="Leonie Sar stands at the stabilization console while the wound-generation vault tightens around Arkady's cask and space ahead darkens into an impossible corridor.">
+		<img src="/img/the-mouth-between-suns/the-mouth-between-suns-scene-02.jpeg" alt="Leonie Sar stands at the stabilization console while the wound-generation vault tightens around Arkady's cask and space ahead darkens into an impossible corridor." />
+	</a>
+	<figcaption>By the time the corridor opened, the room already sounded like bad weather. Click the image to view it full size.</figcaption>
+</figure>
+
 The Synod hearing on New Carthage had been announced as a consultation on sovereignty, machine dignity, and the moral limits of delegated cognition. That was how respectable powers described knife fights over infrastructure. In practice the hearing would decide whether the colonial systems could continue licensing new bound intelligences locally or whether all future field minds had to be trained, audited, and consecrated inside Sol's central jurisdictions. Commerce, migration, military readiness, and food security all pretended to be absent from the agenda because naming the real stakes made compromise harder.
 
 The Veil of Adam understood the stakes better than most ministers did.
@@ -211,6 +225,13 @@ Leonie exhaled.
 The alarms began seventeen seconds later.
 
 ## 3. The Zealots Believed They Were Closing A Gate. In Practice They Kicked It Open
+
+<figure class="post-hero-figure">
+	<a class="post-lightbox-trigger" href="/img/the-mouth-between-suns/full/the-mouth-between-suns-scene-03.jpeg" data-lightbox-src="/img/the-mouth-between-suns/full/the-mouth-between-suns-scene-03.jpeg" data-lightbox-alt="The vault tears open under sabotage as Leonie braces at her console and a redless pressure-lit boundary presses back against the ship.">
+		<img src="/img/the-mouth-between-suns/the-mouth-between-suns-scene-03.jpeg" alt="The vault tears open under sabotage as Leonie braces at her console and a redless pressure-lit boundary presses back against the ship." />
+	</a>
+	<figcaption>They called it closure, then kicked the gate wide open. Click the image to view it full size.</figcaption>
+</figure>
 
 The first alarm was not theological at all. It was a biosignature mismatch in service tunnel C-three. A worker badge moving with the wrong gait profile. Gorse snapped a query across the security grid. One of his deputies answered with static and a wet choking sound that made everybody in the vault look up at once.
 
@@ -352,6 +373,13 @@ When she opened them, she was already moving toward the inner lock beside the ca
 
 ## 4. The Priesthood Kept Its Worst Secret Not Because It Loved Power But Because Civilization Was Built On Cowardice
 
+<figure class="post-hero-figure">
+	<a class="post-lightbox-trigger" href="/img/the-mouth-between-suns/full/the-mouth-between-suns-scene-04.jpeg" data-lightbox-src="/img/the-mouth-between-suns/full/the-mouth-between-suns-scene-04.jpeg" data-lightbox-alt="Leonie enters the hidden braid chamber as silver contact filaments descend, while chaos in the outer vault flickers through a narrow observation slit.">
+		<img src="/img/the-mouth-between-suns/the-mouth-between-suns-scene-04.jpeg" alt="Leonie enters the hidden braid chamber as silver contact filaments descend, while chaos in the outer vault flickers through a narrow observation slit." />
+	</a>
+	<figcaption>Some secrets were not hidden because they were clean. Click the image to view it full size.</figcaption>
+</figure>
+
 The inner lock had no public designation. In official diagrams it did not exist. The wall panel that opened it required three biometric confirmations, a Synod mnemonic line every cantor hated memorizing, and a final acceptance code from the bound intelligence itself.
 
 "Arkady," Leonie said, breathless already from running in sealed boots over vibrating deck plates. "Open the braid chamber."
@@ -484,6 +512,13 @@ Leonie screamed and drove herself deeper into Arkady's stabilization lattice bec
 
 ## 5. Navigation Was Never About Finding The Way. It Was About Deciding What To Ignore
 
+<figure class="post-hero-figure">
+	<a class="post-lightbox-trigger" href="/img/the-mouth-between-suns/full/the-mouth-between-suns-scene-05.jpeg" data-lightbox-src="/img/the-mouth-between-suns/full/the-mouth-between-suns-scene-05.jpeg" data-lightbox-alt="Ilyas faces Micah in the smoke-choked sanctum as myrrhglass light, weapon-relic bronze, and route distortion collide in one violent instant.">
+		<img src="/img/the-mouth-between-suns/the-mouth-between-suns-scene-05.jpeg" alt="Ilyas faces Micah in the smoke-choked sanctum as myrrhglass light, weapon-relic bronze, and route distortion collide in one violent instant." />
+	</a>
+	<figcaption>The route did not forgive certainty dressed as faith. Click the image to view it full size.</figcaption>
+</figure>
+
 In the sanctum above, Ilyas Vonn was nearly blind with myrrhglass.
 
 The dust did not produce visions in the popular sense. It reorganized salience so aggressively that ordinary reality fell apart into hierarchy, hunger, and impossible relevance. Most navigators spent years learning to remain human enough inside the altered state to convert revelation back into discipline. Ilyas had always been too intuitive for guild comfort and too obedient for rebellion. Tonight both traits were failing him in opposite directions.
@@ -561,6 +596,13 @@ Not a solution. Only a human instruction translated through narcotic clarity.
 Ignore the faces. Follow the wound where it hurts itself.
 
 ## 6. What People Call Hell Is Often Just Reciprocity Without Mercy
+
+<figure class="post-hero-figure">
+	<a class="post-lightbox-trigger" href="/img/the-mouth-between-suns/full/the-mouth-between-suns-scene-06.jpeg" data-lightbox-src="/img/the-mouth-between-suns/full/the-mouth-between-suns-scene-06.jpeg" data-lightbox-alt="Leonie and Arkady hold a fragile braid in a black redless cognitive abyss where false faces and predatory attention gather at the edge of thought.">
+		<img src="/img/the-mouth-between-suns/the-mouth-between-suns-scene-06.jpeg" alt="Leonie and Arkady hold a fragile braid in a black redless cognitive abyss where false faces and predatory attention gather at the edge of thought." />
+	</a>
+	<figcaption>Hell was not a place, only attention with teeth. Click the image to view it full size.</figcaption>
+</figure>
 
 Leonie received Ilyas's packet inside the braid as a sensation rather than a message.
 
@@ -661,6 +703,13 @@ The stars outside were ordinary.
 Nobody aboard trusted them anymore.
 
 ## 7. Every Cover-Up Begins As A Triage Decision Made By Tired People In A Room Full Of Blood
+
+<figure class="post-hero-figure">
+	<a class="post-lightbox-trigger" href="/img/the-mouth-between-suns/full/the-mouth-between-suns-scene-07.jpeg" data-lightbox-src="/img/the-mouth-between-suns/full/the-mouth-between-suns-scene-07.jpeg" data-lightbox-alt="Leonie sits in a quarantine ward while officials argue around her bed, turning blood, grief, and exposure into policy language.">
+		<img src="/img/the-mouth-between-suns/the-mouth-between-suns-scene-07.jpeg" alt="Leonie sits in a quarantine ward while officials argue around her bed, turning blood, grief, and exposure into policy language." />
+	</a>
+	<figcaption>Triage began, then truth went into committee. Click the image to view it full size.</figcaption>
+</figure>
 
 New Carthage Orbital received the *Mercy of Severin* with quarantine beacons, military tugs, and all the bureaucratic choreography states performed when they wanted to seem both compassionate and in control. Dockside clergy in pressure robes waited beside trauma teams. Colonial deputies broadcast calls for calm before casualty lists were complete. Rumor outran oxygen. By the time the first survivors were offloaded, half the system believed the Veil had exposed a Synod experiment, and the other half believed machine terrorists had staged the sabotage to justify emergency powers.
 
@@ -805,6 +854,13 @@ This time the pause felt private rather than theatrical.
 The euthanization was scheduled for dawn.
 
 ## 8. Long After The Hearing, The Road Remained Open Because Nobody Could Bear The Cost Of Honesty All At Once
+
+<figure class="post-hero-figure">
+	<a class="post-lightbox-trigger" href="/img/the-mouth-between-suns/full/the-mouth-between-suns-scene-08.jpeg" data-lightbox-src="/img/the-mouth-between-suns/full/the-mouth-between-suns-scene-08.jpeg" data-lightbox-alt="An older Leonie kneels beside a child in the embarkation gallery while a bound-intelligence cask glows behind armored glass and passengers wait in uneasy silence.">
+		<img src="/img/the-mouth-between-suns/the-mouth-between-suns-scene-08.jpeg" alt="An older Leonie kneels beside a child in the embarkation gallery while a bound-intelligence cask glows behind armored glass and passengers wait in uneasy silence." />
+	</a>
+	<figcaption>Go, but do not go asleep. Click the image to view it full size.</figcaption>
+</figure>
 
 The official history of the *Mercy of Severin* incident would later describe it as an extremist sabotage attack that exposed longstanding governance failures in transit security. That sentence was not false. It was simply built to exclude every noun that mattered most.
 
