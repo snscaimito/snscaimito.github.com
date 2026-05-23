@@ -259,17 +259,17 @@ A scream cut across the channel from lower harmonics. One of the junior cantors.
 
 Then the shipwide public address crackled alive.
 
-A man's voice, amplified and ragged with fervor, filled the *Mercy of Severin* from nursery decks to machine crawlspaces.
+A woman's voice, amplified and ragged with fervor, filled the *Mercy of Severin* from nursery decks to machine crawlspaces.
 
 "Children of Adam, do not fear what you are about to feel. They told you the abyss was safe. They told you the black road was bridled by lawful minds. They told you the engineer-priests kept monsters outside the door. They lied. The door is the thing they worship. Tonight we close it with faithful hands. Tonight we cast down the false cantor and break the idols that drink your descendants."
 
-Leonie had seen the speaker's file. Brother-Advocate Micah Vale, public theologian, prison organizer, survivor of three attempted arrests, educated enough to quote field patents while calling them necromancy. He had the clean face and disciplined voice of men who made atrocity sound like medicine.
+Leonie had seen the speaker's file. Sister-Advocate Micah Vale, public theologian, prison organizer, survivor of three attempted arrests, educated enough to quote field patents while calling them necromancy. She had the clean face and disciplined voice of women who made atrocity sound like medicine.
 
-"He isn't trying to destroy us," Ilyas said over the channel, his breathing too fast now under the dust. "He's trying to interrupt continuity at the moment of transit convergence."
+"She isn't trying to destroy us," Ilyas said over the channel, his breathing too fast now under the dust. "She's trying to interrupt continuity at the moment of transit convergence."
 
 "That is a fancy way to destroy us," Leonie snapped.
 
-"No. Worse. He wants the wound to notice the ship all at once."
+"No. Worse. She wants the wound to notice the ship all at once."
 
 Gorse was already moving. She could hear him in the outer lock, issuing kill authorizations with the curt joy of a man finally allowed to distrust openly. Security teams converged on the lower accessways. Charges detonated. Deck plans on Leonie's slate bloomed with red blocks, dead cameras, vented corridors, and the horrifying geometry of an attack that had been rehearsed against their own architecture.
 
@@ -305,7 +305,7 @@ Micah Vale had reached the junction.
 
 There are moments when an expert stops being a citizen and becomes only the sum of procedure plus fear. Leonie felt herself narrow into that shape. She dumped nonessential power from the promenade rings, locked climate control to survival minimum, hard-shunted three observation decks, and rerouted coolant through the lower harmonics buses in a configuration she would have called reckless under any other sky. Junior Cantor Rhun at stress collapsed against his console, blood running from one ear. Junior Cantor Sima kept working with both hands shaking so hard the overlays blurred.
 
-The public address came alive again, but it was no longer Micah speaking to passengers. It was a prayer, dozens of voices layered in rough male unison, old words dragged from pre-expansion scripture and repurposed for sabotage.
+The public address came alive again, but it was no longer Micah speaking to passengers. It was a prayer, dozens of voices layered in rough unison, old words dragged from pre-expansion scripture and repurposed for sabotage.
 
 "Close the mouth. Blind the idol. Return the children to the hand that made them."
 
@@ -535,7 +535,7 @@ But the ship had already been marked.
 
 Micah Vale reached the sanctum before security did.
 
-The outer door blew inward on a wave of overpressure that knocked Ilyas's two juniors from their cushions. One hit the wall wrong and did not rise. The other clawed for an emergency injector. Through the smoke stepped Micah in torn devotional linen over body armor, one cheek sliced open, eyes shining with the kind of certainty that made democracy brittle. He held a compact rifle in one hand and a bronze icon in the other. Behind him came two surviving brothers, bloody, smiling, and terrified enough to look holy.
+The outer door blew inward on a wave of overpressure that knocked Ilyas's two juniors from their cushions. One hit the wall wrong and did not rise. The other clawed for an emergency injector. Through the smoke stepped Micah in torn devotional linen over body armor, one cheek sliced open, eyes shining with the kind of certainty that made democracy brittle. She held a compact rifle in one hand and a bronze icon in the other. Behind her came two surviving brothers, bloody, smiling, and terrified enough to look holy.
 
 "Navigator," Micah said softly, as if entering a sickroom. "You don't have to keep doing this."
 
@@ -549,7 +549,7 @@ One of the brothers kicked the fallen junior's injector away. The young navigato
 
 "You people always confuse duration with legitimacy," Micah said. "That is how priesthoods think. You mistake repeated sin for civilization."
 
-Ilyas should have been afraid in the ordinary bodily sense. Instead the dust made fear arrive as geometry. Micah stood not as a man but as a narrowing of possible routes, a block in the black river where currents churned around self-righteous stone. The bronze icon in his hand flickered with significance far beyond its mass. Not holy. Tuned. Some relic cut from early field hardware, engraved later with scripture, carrying enough harmonic ugliness to bruise the route by proximity alone.
+Ilyas should have been afraid in the ordinary bodily sense. Instead the dust made fear arrive as geometry. Micah stood not as a person but as a narrowing of possible routes, a block in the black river where currents churned around self-righteous stone. The bronze icon in her hand flickered with significance far beyond its mass. Not holy. Tuned. Some relic cut from early field hardware, engraved later with scripture, carrying enough harmonic ugliness to bruise the route by proximity alone.
 
 "You brought a key," Ilyas said.
 
@@ -557,11 +557,11 @@ Micah smiled then, and the smile explained the whole movement better than doctri
 
 "We brought remembrance," Micah said.
 
-He raised the icon.
+She raised the icon.
 
 Ilyas acted before his frightened body could veto him. He bit through the emergency ampoule sewn into the seam of his sleeve. Pure myrrhglass slurry flooded his mouth, burning every membrane it touched. Guild training classified that concentration as lethal except under battlefield exemptions. The sanctum lurched into impossible resolution.
 
-Micah's pulse became visible. The route lines threading the room lit up like veins in thin ice. The icon in the zealot's hand screamed across sensory domains, all wrong-frequency devotion and stolen harmonics. Beyond it, beneath it, through it, Ilyas saw the real horror: Micah had not merely come to break the transit system. He believed with perfect sincerity that something on the other side of the wound was righteous enough to answer.
+Micah's pulse became visible. The route lines threading the room lit up like veins in thin ice. The icon in the zealot's hand screamed across sensory domains, all wrong-frequency devotion and stolen harmonics. Beyond it, beneath it, through it, Ilyas saw the real horror: Micah had not merely come to break the transit system. She believed with perfect sincerity that something on the other side of the wound was righteous enough to answer.
 
 The public debate called the Veil anti-machine. That was a comforting misread. They were not anti-machine at all. They were pro-revelation. They thought catastrophe would purify politics. The drive was useful to them primarily as a liturgical weapon.
 
