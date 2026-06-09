@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Little Oracle
+image: /img/the-little-oracle/the-little-oracle-hero.jpeg
 tags:
 - en
 categories:

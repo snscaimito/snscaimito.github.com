@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Mouth Between Suns
+image: /img/the-mouth-between-suns/the-mouth-between-suns-scene-01.jpeg
 tags:
 - en
 categories:

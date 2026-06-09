@@ -1,0 +1,118 @@
+<section class="home-explore no-print">
+
+	{% assign blog_posts = "" | split: "" %}
+	{% for post in site.posts %}
+	{% unless post.image and post.image != "" %}
+	{% assign blog_posts = blog_posts | push: post %}
+	{% endunless %}
+	{% endfor %}
+
+	<div class="home-explore-inner">
+
+		<div class="explore-col explore-about">
+			<p class="section">About me</p>
+			{% include introduction.html %}
+
+			<p class="section">Work with me</p>
+			<p>I work with software teams as a senior who embeds and makes them ship.</p>
+			<p><a class="explore-cta" href="https://www.caimito.net/en/">caimito.net</a></p>
+		</div>
+
+		<div class="explore-col explore-col-wide">
+			<p class="section">From the blog</p>
+			<ul class="explore-list explore-blog-list">
+				{% for post in blog_posts limit:7 %}
+				<li>
+					<a href="{{ post.url }}">{{ post.title }}</a>
+					<span class="explore-date">{{ post.date | date: "%d %b %Y" }}</span>
+				</li>
+				{% endfor %}
+			</ul>
+
+			<div class="explore-groups">
+				<div class="explore-group">
+					<p class="section">Stories &amp; writing</p>
+					<ul class="explore-list">
+						<li><a href="https://www.caimito.net/en/stories.html">Serialized fiction &amp; novelas</a></li>
+						<li><a href="https://www.caimito.net/en/la-startup.html">La Startup (book)</a></li>
+						<li><a href="/category/fiction.html">Short fiction on this blog</a></li>
+						<li><a href="/reading-list.html">My reading list</a></li>
+					</ul>
+				</div>
+
+				<div class="explore-group">
+					<p class="section">On the craft</p>
+					<ul class="explore-list">
+						<li><a href="/atdd/">Acceptance Test-Driven Development</a></li>
+						<li><a href="/software-design/">Software Design</a></li>
+						<li><a href="/sddm.html">Software Development Decision Making</a></li>
+						<li><a href="/coaching-future-masters.html">Coaching future masters</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="explore-col">
+			<p class="section">Life across several worlds</p>
+			<ul class="explore-list">
+				<li><a href="/farmstead.html">Developing a farmstead in Andaluc&iacute;a, Spain</a></li>
+				<li><a href="/house/">Building a house, Spain</a></li>
+				<li><a href="/horses/">Horses</a></li>
+				<li><a href="/panama-farm.html">Rainforest Farm, Panama</a></li>
+				<li><a href="/galleries/">Photo Galleries</a></li>
+				<li><a href="/airtravel/">Flying light aircraft (a past chapter)</a></li>
+			</ul>
+
+			<p class="section">Places that shaped me</p>
+			<ul class="explore-list">
+				<li><a href="/spain.html">Spain</a></li>
+				<li><a href="/germany.html">Germany</a></li>
+				<li><a href="/dominican-republic.html">Dominican Republic</a></li>
+				<li><a href="/panama.html">Panama</a></li>
+				<li><a href="/china.html">China</a></li>
+				<li><a href="/usa.html">USA</a></li>
+			</ul>
+		</div>
+
+		<div class="explore-col">
+			<p class="section">My books</p>
+			<div class="explore-books">
+				<a class="explore-book" href="https://www.amazon.com/dp/B0H1MGHW69" title="La Startup &mdash; A Fintech Telenovela (paperback on Amazon)">
+					<img src="/img/books/la-startup.jpg" alt="Cover of La Startup, a fintech telenovela" loading="lazy" />
+				</a>
+				<a class="explore-book" href="https://leanpub.com/activitycentereddesign" title="Smarter Software with Activity-Centered Design (Leanpub)">
+					<img src="/img/smarter-software-with-activity-centered-design.jpg" alt="Cover of Smarter Software with Activity-Centered Design" loading="lazy" />
+				</a>
+				<a class="explore-book" href="https://leanpub.com/essays-on-software-development-2012" title="Essays on Software Development (Leanpub)">
+					<img src="/img/essays-on-software-development-2012.png" alt="Cover of Essays on Software Development" loading="lazy" />
+				</a>
+			</div>
+
+			<p class="section">Open Source</p>
+			<ul class="explore-list">
+				<li><a href="/ale-news.html">Development of ALE News</a></li>
+				<li><a href="https://github.com/snscaimito/RAutomation">RAutomation</a></li>
+				<li><a href="/open-source.html">Other contributions</a></li>
+			</ul>
+		</div>
+
+	</div>
+
+	<div class="home-explore-foot">
+		<p class="explore-categories-label">Browse by topic</p>
+		<ul class="explore-tags">
+			{% include categories-list.html %}
+		</ul>
+		<p class="explore-everything"><a href="/all-posts.html">See everything I&rsquo;ve written &rarr;</a></p>
+		<p class="explore-connect-label">Stay in touch</p>
+		<p class="explore-connect">
+			<a href="https://www.linkedin.com/in/stephanschwab">LinkedIn</a>
+			<a rel="me" href="https://techhub.social/@snscaimito">Mastodon</a>
+			<a href="https://bsky.app/profile/snscaimito.bsky.social">Bluesky</a>
+			<a href="https://www.tiktok.com/@snscaimito">TikTok</a>
+			<a href="https://twitter.com/snscaimito">Twitter</a>
+			<a href="/rss.xml">RSS</a>
+			<a href="mailto:sns@caimito.net?subject=From%20stephan-schwab.com">Email</a>
+		</p>
+	</div>
+</section>

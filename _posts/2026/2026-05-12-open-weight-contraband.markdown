@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Open Weight Contraband
+image: /img/open-weight-contraband/open-weight-contraband-hero.jpeg
 tags:
 - en
 categories:

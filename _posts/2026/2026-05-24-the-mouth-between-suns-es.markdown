@@ -1,6 +1,7 @@
 ---
 layout: post
 title: La boca entre soles
+image: /img/the-mouth-between-suns/the-mouth-between-suns-scene-01.jpeg
 tags:
 - es
 categories:

@@ -1,0 +1,41 @@
+<section class="home-latest no-print">
+
+	{% assign with_image = "" | split: "" %}
+	{% for post in site.posts %}
+	{% if post.image and post.image != "" %}
+	{% assign with_image = with_image | push: post %}
+	{% endif %}
+	{% endfor %}
+
+	<div class="home-stories">
+		<p class="section">Latest stories &amp; visual posts</p>
+		<div class="stories-row">
+			{% for post in with_image %}
+			{% assign thumb = post.image %}
+			{% assign thumb_first = thumb | slice: 0, 1 %}
+			{% if thumb contains '://' %}
+			{% assign thumb_url = thumb %}
+			{% elsif thumb_first == '/' %}
+			{% assign thumb_url = thumb %}
+			{% elsif thumb contains 'img/' %}
+			{% assign thumb_url = '/' | append: thumb %}
+			{% else %}
+			{% assign thumb_url = '/img/posts/' | append: thumb %}
+			{% endif %}
+			<a class="story-card" href="{{ post.url }}">
+				<span class="story-card-thumb">
+					<img src="{{ thumb_url }}" alt="{{ post.title | escape }}" loading="lazy" />
+				</span>
+				<span class="story-card-body">
+					<span class="story-card-title">{{ post.title }}</span>
+					<span class="story-card-date">{{ post.date | date: "%d %b %Y" }}</span>
+				</span>
+			</a>
+			{% endfor %}
+		</div>
+		<p class="latest-more">
+			More serialized fiction on
+			<a href="https://www.caimito.net/en/stories.html">caimito.net</a>.
+		</p>
+	</div>
+</section>
