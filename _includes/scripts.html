@@ -105,41 +105,43 @@
 	<script>
 		(function () {
 			function syncHomeStoryPromoStrip() {
-				var strip = document.querySelector('.home-story-promo-strip');
-				if (!strip) {
+				var strips = document.querySelectorAll('.home-story-promo-strip');
+				if (!strips.length) {
 					return;
 				}
 
-				var cards = strip.querySelectorAll('.home-story-promo-card:not(.is-duplicate)');
-				if (!cards.length) {
-					strip.classList.remove('is-animated');
-					return;
-				}
+				strips.forEach(function (strip) {
+					var cards = strip.querySelectorAll('.home-story-promo-card:not(.is-duplicate)');
+					if (!cards.length) {
+						strip.classList.remove('is-animated');
+						return;
+					}
 
-				var track = strip.querySelector('.home-story-promo-track');
-				if (!track) {
-					return;
-				}
+					var track = strip.querySelector('.home-story-promo-track');
+					if (!track) {
+						return;
+					}
 
-				var gap = 0;
-				var trackStyle = window.getComputedStyle(track);
-				if (trackStyle.columnGap && trackStyle.columnGap !== 'normal') {
-					gap = parseFloat(trackStyle.columnGap) || 0;
-				} else if (trackStyle.gap && trackStyle.gap !== 'normal') {
-					gap = parseFloat(trackStyle.gap) || 0;
-				}
+					var gap = 0;
+					var trackStyle = window.getComputedStyle(track);
+					if (trackStyle.columnGap && trackStyle.columnGap !== 'normal') {
+						gap = parseFloat(trackStyle.columnGap) || 0;
+					} else if (trackStyle.gap && trackStyle.gap !== 'normal') {
+						gap = parseFloat(trackStyle.gap) || 0;
+					}
 
-				var contentWidth = 0;
-				for (var i = 0; i < cards.length; i += 1) {
-					contentWidth += cards[i].getBoundingClientRect().width;
-				}
-				contentWidth += gap * Math.max(cards.length - 1, 0);
+					var contentWidth = 0;
+					for (var i = 0; i < cards.length; i += 1) {
+						contentWidth += cards[i].getBoundingClientRect().width;
+					}
+					contentWidth += gap * Math.max(cards.length - 1, 0);
 
-				if (contentWidth > strip.clientWidth + 1) {
-					strip.classList.add('is-animated');
-				} else {
-					strip.classList.remove('is-animated');
-				}
+					if (contentWidth > strip.clientWidth + 1) {
+						strip.classList.add('is-animated');
+					} else {
+						strip.classList.remove('is-animated');
+					}
+				});
 			}
 
 			function initHomeStoryPromoStrip() {
