@@ -8,7 +8,6 @@
 	{% endfor %}
 
 	<div class="home-stories">
-		<p class="section">Latest stories &amp; visual posts</p>
 		<div class="stories-row">
 			{% for post in with_image %}
 			{% assign thumb = post.image %}
@@ -33,9 +32,5 @@
 			</a>
 			{% endfor %}
 		</div>
-		<p class="latest-more">
-			More serialized fiction on
-			<a href="https://www.caimito.net/en/stories.html">caimito.net</a>.
-		</p>
 	</div>
 </section>

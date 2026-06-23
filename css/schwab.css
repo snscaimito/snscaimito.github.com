@@ -513,13 +513,13 @@ P.featured-category {
 		linear-gradient(to bottom, rgba(13, 24, 48, 0) 50%, rgba(13, 24, 48, 0.35) 72%, rgba(13, 24, 48, 0.82) 100%),
 		url("/img/header.jpg");
 	background-repeat: no-repeat;
-	background-position: top center;
+	background-position: center 32%;
 	background-size: cover;
 	background-color: #1d3a24;
-	min-height: clamp(220px, 34vw, 420px);
+	min-height: clamp(150px, 20vw, 250px);
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: flex-end;
 	margin-bottom: 1.5em;
 }
 
@@ -531,36 +531,9 @@ P.featured-category {
 	color: #fff;
 }
 
-.menu {
-	display: flex;
-	flex-wrap: wrap;
-	padding: 1.1rem clamp(1rem, 4vw, 3rem) 0;
-	gap: 0.35rem 0.5rem;
-	justify-content: center;
-}
-
-.menu A {
-	color: #fff;
-	text-decoration: none;
-	font-weight: 600;
-	font-size: clamp(1rem, 1.6vw, 1.3rem);
-	letter-spacing: 0.01em;
-	padding: 0.3em 0.7em;
-	border-radius: 999px;
-	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8), 0 1px 6px rgba(0, 0, 0, 0.55);
-	transition: background-color 0.18s ease, color 0.18s ease;
-}
-
-.menu A:hover,
-.menu A:focus {
-	background-color: rgba(255, 255, 255, 0.92);
-	color: #16213e;
-	text-shadow: none;
-}
-
 .header-overlay {
 	text-align: center;
-	padding: 0 clamp(1rem, 4vw, 3rem) clamp(1.2rem, 3vw, 2.5rem);
+	padding: 0.8rem clamp(1rem, 4vw, 3rem) clamp(1rem, 2.4vw, 1.8rem);
 }
 
 .header-name {
@@ -585,19 +558,6 @@ P.featured-category {
 	font-weight: 400;
 	color: #f2f2f0;
 	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.85), 0 2px 14px rgba(0, 0, 0, 0.7);
-}
-
-@media screen and (max-width: 479px) {
-	.menu {
-		gap: 0.2rem 0.3rem;
-		padding-left: 0.5rem;
-		padding-right: 0.5rem;
-	}
-
-	.menu A {
-		font-size: 0.95rem;
-		padding: 0.25em 0.55em;
-	}
 }
 
 .header H1,
@@ -707,37 +667,176 @@ BUTTON.print-button:active {
 
 /* ---- Home: hero + bodies of work ---- */
 
-.home-hero {
-	margin: 0 0 2.5rem;
+.home-story-promo-strip {
+	margin: 0 0 1.5rem;
+	padding: 0 clamp(1rem, 4vw, 4rem);
+	overflow: hidden;
+}
+
+.home-story-promo-track {
+	display: flex;
+	gap: clamp(0.75rem, 1.4vw, 1.1rem);
+	width: max-content;
+}
+
+.home-story-promo-strip:not(.is-animated) .home-story-promo-track {
+	margin: 0 auto;
+}
+
+.home-story-promo-strip.is-animated .home-story-promo-track {
+	animation: home-story-strip-scroll 34s linear infinite;
+	will-change: transform;
+}
+
+.home-story-promo-strip.is-animated:hover .home-story-promo-track,
+.home-story-promo-strip.is-animated:focus-within .home-story-promo-track {
+	animation-play-state: paused;
+}
+
+.home-story-promo-card {
+	position: relative;
+	display: block;
+	flex: 0 0 clamp(240px, 24vw, 290px);
+	width: clamp(240px, 24vw, 290px);
+	aspect-ratio: 16 / 9;
+	border-radius: 12px;
+	overflow: hidden;
+	background: #13243b;
+	box-shadow: 0 8px 22px rgba(15, 23, 42, 0.12);
+}
+
+.home-story-promo-card img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 0.28s ease;
+}
+
+.home-story-promo-card:hover img,
+.home-story-promo-card:focus img {
+	transform: scale(1.03);
+}
+
+.home-story-promo-card.is-duplicate {
+	display: none;
+}
+
+.home-story-promo-strip.is-animated .home-story-promo-card.is-duplicate {
+	display: block;
+}
+
+@keyframes home-story-strip-scroll {
+	from {
+		transform: translateX(0);
+	}
+
+	to {
+		transform: translateX(calc(-50% - (clamp(0.75rem, 1.4vw, 1.1rem) / 2)));
+	}
+}
+
+.home-intro {
+	margin: 0 0 1.35rem;
 	padding: 0 clamp(1rem, 4vw, 4rem);
 	text-align: center;
 }
 
-.home-hero-eyebrow {
-	margin: 0 0 0.4rem;
-	text-transform: uppercase;
-	letter-spacing: 0.08em;
-	font-size: 0.85rem;
-	color: #AB1413;
-	font-weight: 700;
-}
-
-.home-hero-line {
+.home-intro-line {
 	font-family: Charter, "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
-	font-size: clamp(1.6rem, 3.4vw, 2.6rem);
-	line-height: 1.2;
-	margin: 0 auto 1rem;
-	max-width: 22ch;
+	font-size: clamp(1.4rem, 2.15vw, 2rem);
+	line-height: 1.22;
+	margin: 0 auto;
+	max-width: 30ch;
 	color: #16213e;
 }
 
-.home-hero-lede {
-	font-family: Charter, "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
-	font-size: 1.15rem;
+.home-about {
+	margin: 0 auto 1.5rem;
+	padding: 0 clamp(1rem, 4vw, 4rem);
+	max-width: 62rem;
+}
+
+.home-about-layout {
+	display: grid;
+	grid-template-columns: minmax(0, 1.8fr) minmax(260px, 0.9fr);
+	gap: clamp(1.5rem, 3vw, 3rem);
+	align-items: center;
+}
+
+.home-about-main {
+	min-width: 0;
+}
+
+.home-about-side {
+	min-width: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 0.85rem;
+}
+
+.home-about .section {
+	margin-top: 0;
+	border-bottom: none;
+}
+
+.home-about .section + .home-about-body,
+.home-about .section + p {
+	margin-top: 0.65rem;
+}
+
+.home-about-side .section + p,
+.home-about-side p + p {
+	margin-top: 0;
+}
+
+.home-about-body {
+	font-size: 1.02rem;
 	line-height: 1.6;
-	max-width: 60ch;
-	margin: 0 auto;
 	color: #333;
+	max-width: 46rem;
+	margin: 0 auto;
+}
+
+.home-about-body a.about-avatar {
+	float: left;
+	width: 96px;
+	height: 96px;
+	margin: 0 1rem 0.6rem 0;
+	display: block;
+	overflow: hidden;
+	border-radius: 50%;
+	flex: 0 0 auto;
+}
+
+.home-about-body img.align-left {
+	display: block;
+	width: 100% !important;
+	height: 100% !important;
+	min-width: 0;
+	max-width: none;
+	object-fit: cover;
+	aspect-ratio: 1 / 1;
+	border-radius: 0;
+	clip-path: none;
+}
+
+.home-about p {
+	font-family: Charter, "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+	font-size: 1.02rem;
+	line-height: 1.6;
+	color: #333;
+}
+
+.home-about-side p {
+	max-width: 22rem;
+}
+
+.home-about::after {
+	content: "";
+	display: block;
+	clear: both;
 }
 
 .bodies-of-work {
@@ -803,6 +902,49 @@ BUTTON.print-button:active {
 	margin: 0 0.35rem;
 }
 
+@media screen and (max-width: 479px) {
+	.home-story-promo-strip {
+		padding: 0 1rem;
+	}
+
+	.home-story-promo-card {
+		flex-basis: 170px;
+		width: 170px;
+	}
+
+	.home-about-body a.about-avatar {
+		width: 72px;
+		height: 72px;
+		margin-right: 0.85rem;
+	}
+}
+
+@media screen and (max-width: 860px) {
+	.home-about-layout {
+		grid-template-columns: 1fr;
+		gap: 1.5rem;
+	}
+
+	.home-about-side p {
+		max-width: none;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.home-story-promo-strip {
+		overflow-x: auto;
+		scrollbar-width: thin;
+	}
+
+	.home-story-promo-track {
+		animation: none;
+	}
+
+	.home-story-promo-card.is-duplicate {
+		display: none;
+	}
+}
+
 /* ---- Home: latest writing strip ---- */
 
 .home-latest {
@@ -817,11 +959,7 @@ BUTTON.print-button:active {
 /* Bold thumbnail cards for stories that have images */
 .home-stories {
 	margin-bottom: 2.75rem;
-	padding: 1.5rem clamp(1rem, 4vw, 4rem) 1.75rem;
-	/* Warm, story/fiction-tinted band to set the narrative work apart */
-	background: linear-gradient(180deg, #fbf3ee 0%, #fdf8f4 100%);
-	border-top: 3px solid #AB1413;
-	border-bottom: 1px solid #f0e2da;
+	padding: 0 0 1.75rem;
 }
 
 .home-stories .section {
@@ -836,7 +974,7 @@ BUTTON.print-button:active {
 	flex-wrap: wrap;
 	justify-content: center;
 	gap: clamp(1rem, 2vw, 1.75rem);
-	margin: 1rem 0;
+	margin: 0;
 	/* Clip to exactly one card row (245px card + top padding). Any wrapped cards
 	   sit below this and are hidden, so only whole cards on row one show. */
 	height: 253px;
@@ -966,14 +1104,14 @@ BUTTON.print-button:active {
 }
 
 .home-explore-inner .explore-col {
-	flex: 1 1 220px;
+	flex: 1 1 280px;
 	min-width: 0;
 }
 
 /* The "From the blog" column hosts side-by-side sub-sections, so let it claim
    more of the row and grow wider than the single-list columns. */
 .home-explore-inner .explore-col.explore-col-wide {
-	flex: 2.4 1 420px;
+	flex: 2.2 1 520px;
 }
 
 /* About me is the anchor column: a bit wider and first in the row. */
