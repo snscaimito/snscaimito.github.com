@@ -4,11 +4,13 @@ title: Business
 ---
 {% assign posts = "" | split: "" %}
 {% for post in site.posts %}
+    {% if post.lang == nil or post.lang == 'en' %}
     {% if post.categories contains 'Business' %}
 		{% assign posts = posts | push: post %}
     {% endif %}
     {% if post.categories contains 'business' %}
 		{% assign posts = posts | push: post %}
+    {% endif %}
     {% endif %}
 {% endfor %}
 <table>

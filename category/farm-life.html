@@ -4,6 +4,7 @@ title: Farm Life
 ---
 {% assign posts = "" | split: "" %}
 {% for post in site.posts %}
+    {% if post.lang == nil or post.lang == 'en' %}
     {% if post.categories contains 'Farm-Life' %}
 		{% assign posts = posts | push: post %}
     {% endif %}
@@ -12,6 +13,7 @@ title: Farm Life
     {% endif %}
     {% if post.categories contains 'farm-life' %}
 		{% assign posts = posts | push: post %}
+    {% endif %}
     {% endif %}
 {% endfor %}
 

@@ -1,0 +1,59 @@
+{% assign current_lang = page.lang | default: 'en' %}
+{% assign current_url = page.url %}
+{% assign english_url = current_url | replace: '-de.html', '.html' | replace: '-es.html', '.html' %}
+{% assign german_url = english_url | replace: '.html', '-de.html' %}
+{% assign spanish_url = english_url | replace: '.html', '-es.html' %}
+
+<div class="post-language-switcher" aria-label="Article languages">
+	{% if page.translation_en %}
+		{% if current_lang == 'en' %}
+			<span class="post-language-switcher-button is-active" aria-current="page">
+				<img src="/img/language-flags/32x32/flag_rotate-02.png" alt="English flag" />
+				<span>English</span>
+			</span>
+		{% else %}
+			<a class="post-language-switcher-button" href="{{ english_url }}">
+				<img src="/img/language-flags/32x32/flag_rotate-02.png" alt="English flag" />
+				<span>English</span>
+			</a>
+		{% endif %}
+	{% endif %}
+
+	{% if page.translation_de %}
+		{% if current_lang == 'de' %}
+			<span class="post-language-switcher-button is-active" aria-current="page">
+				<img src="/img/language-flags/32x32/flag_rotate-03.png" alt="German flag" />
+				<span>Deutsch</span>
+			</span>
+		{% else %}
+			<a class="post-language-switcher-button" href="{{ german_url }}">
+				<img src="/img/language-flags/32x32/flag_rotate-03.png" alt="German flag" />
+				<span>Deutsch</span>
+			</a>
+		{% endif %}
+	{% else %}
+		<span class="post-language-switcher-button is-disabled" title="German translation not published yet" aria-disabled="true">
+			<img src="/img/language-flags/32x32/flag_rotate-03.png" alt="German flag" />
+			<span>Deutsch</span>
+		</span>
+	{% endif %}
+
+	{% if page.translation_es %}
+		{% if current_lang == 'es' %}
+			<span class="post-language-switcher-button is-active" aria-current="page">
+				<img src="/img/language-flags/32x32/flag_rotate-12.png" alt="Spanish flag" />
+				<span>Español</span>
+			</span>
+		{% else %}
+			<a class="post-language-switcher-button" href="{{ spanish_url }}">
+				<img src="/img/language-flags/32x32/flag_rotate-12.png" alt="Spanish flag" />
+				<span>Español</span>
+			</a>
+		{% endif %}
+	{% else %}
+		<span class="post-language-switcher-button is-disabled" title="Spanish translation not published yet" aria-disabled="true">
+			<img src="/img/language-flags/32x32/flag_rotate-12.png" alt="Spanish flag" />
+			<span>Español</span>
+		</span>
+	{% endif %}
+</div>

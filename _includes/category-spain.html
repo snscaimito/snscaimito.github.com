@@ -1,10 +1,12 @@
 {% assign posts = "" | split: "" %}
 {% for post in site.posts %}
+    {% if post.lang == nil or post.lang == 'en' %}
     {% if post.categories contains 'Spain' %}
 		{% assign posts = posts | push: post %}
     {% endif %}
     {% if post.categories contains 'spain' %}
 		{% assign posts = posts | push: post %}
+    {% endif %}
     {% endif %}
 {% endfor %}
 

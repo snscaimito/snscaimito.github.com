@@ -14,11 +14,13 @@ In software development we don't mass produce objects. Therefore it is more like
 
 {% assign posts = "" | split: "" %}
 {% for post in site.posts %}
+    {% if post.lang == nil or post.lang == 'en' %}
     {% if post.categories contains 'Quality' %}
 		{% assign posts = posts | push: post %}
     {% endif %}
     {% if post.categories contains 'quality' %}
 		{% assign posts = posts | push: post %}
+    {% endif %}
     {% endif %}
 {% endfor %}
 

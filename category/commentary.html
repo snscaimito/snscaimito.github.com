@@ -4,11 +4,13 @@ title: Commentary
 ---
 {% assign posts = "" | split: "" %}
 {% for post in site.posts %}
+    {% if post.lang == nil or post.lang == 'en' %}
     {% if post.categories contains 'Commentary' %}
 		{% assign posts = posts | push: post %}
     {% endif %}
     {% if post.categories contains 'commentary' %}
 		{% assign posts = posts | push: post %}
+    {% endif %}
     {% endif %}
 {% endfor %}
 

@@ -2,6 +2,11 @@
 layout: post
 title: The Mouth Between Suns
 image: /img/the-mouth-between-suns/the-mouth-between-suns-scene-01.jpeg
+lang: en
+language_switcher: true
+translation_en: true
+translation_de: false
+translation_es: true
 tags:
 - en
 categories:

@@ -2,8 +2,10 @@
 
 	{% assign with_image = "" | split: "" %}
 	{% for post in site.posts %}
+	{% if post.lang == nil or post.lang == 'en' %}
 	{% if post.image and post.image != "" %}
 	{% assign with_image = with_image | push: post %}
+	{% endif %}
 	{% endif %}
 	{% endfor %}
 

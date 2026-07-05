@@ -8,9 +8,15 @@
 		<description>{% if site.description %}{{
 		site.description | xml_escape }}{% endif %}</description>		
 		<link>{{ site.url }}</link>
+		{% assign rss_posts = "" | split: "" %}
+		{% for post in site.posts %}
+		{% if post.lang == nil or post.lang == 'en' %}
+		{% assign rss_posts = rss_posts | push: post %}
+		{% endif %}
+		{% endfor %}
 		<atom:link
 			href="{{ site.url }}/rss.xml" rel="self" type="application/rss+xml" /> {% for post in
-		site.posts limit:10 %} <item>
+		rss_posts limit:10 %} <item>
 			<title>{{ post.title | xml_escape }}</title> {% if post.author.name %} <dc:creator>{{
 		post.author.name | xml_escape }}</dc:creator> {% endif %} <description>{{ post.content |
 		xml_escape }}</description>

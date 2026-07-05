@@ -2,9 +2,11 @@
 
 	{% assign blog_posts = "" | split: "" %}
 	{% for post in site.posts %}
+	{% if post.lang == nil or post.lang == 'en' %}
 	{% unless post.image and post.image != "" %}
 	{% assign blog_posts = blog_posts | push: post %}
 	{% endunless %}
+	{% endif %}
 	{% endfor %}
 
 	<div class="home-explore-inner">
