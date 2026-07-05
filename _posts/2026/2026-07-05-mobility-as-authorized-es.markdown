@@ -1,7 +1,11 @@
 ---
 layout: post
 title: Movilidad, según autorización
-image: /img/the-roads-that-stayed/the-roads-that-stayed-scene-01.jpeg
+image: /img/the-roads-that-stayed/the-roads-that-stayed-hero.jpeg
+hero_image: /img/the-roads-that-stayed/the-roads-that-stayed-hero.jpeg
+hero_image_full: /img/the-roads-that-stayed/full/the-roads-that-stayed-hero.jpeg
+hero_image_alt: Una imagen partida muestra a Vera junto a un pod autónomo elegante bajo una marquesina solar a un lado, y a Tomás de pie en el pueblo de piedra junto al viejo Land Cruiser al otro, enfrentando la movilidad gestionada moderna con el orden más antiguo de los caminos en Las Hurdes.
+hero_image_caption: Dos Españas se miraban antes de que la carretera eligiera entre ellas.
 lang: es
 language_switcher: true
 translation_en: true

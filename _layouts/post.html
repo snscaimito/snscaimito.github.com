@@ -9,6 +9,16 @@
 			{% if page.language_switcher %}
 			{% include post-language-switcher.html %}
 			{% endif %}
+			{% if page.hero_image %}
+			<figure class="post-hero-figure">
+				<a class="post-lightbox-trigger" href="{{ page.hero_image_full | default: page.hero_image }}" data-lightbox-src="{{ page.hero_image_full | default: page.hero_image }}" data-lightbox-alt="{{ page.hero_image_alt }}">
+					<img src="{{ page.hero_image }}" alt="{{ page.hero_image_alt }}" />
+				</a>
+				{% if page.hero_image_caption %}
+				<figcaption>{{ page.hero_image_caption }} Click the image to view it full size.</figcaption>
+				{% endif %}
+			</figure>
+			{% endif %}
 			{{ content }}
 			<table class="postfooter" style="width: 100%">
 				<tr>

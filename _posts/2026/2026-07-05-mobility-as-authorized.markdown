@@ -1,7 +1,11 @@
 ---
 layout: post
 title: Mobility, As Authorized
-image: /img/the-roads-that-stayed/the-roads-that-stayed-scene-01.jpeg
+image: /img/the-roads-that-stayed/the-roads-that-stayed-hero.jpeg
+hero_image: /img/the-roads-that-stayed/the-roads-that-stayed-hero.jpeg
+hero_image_full: /img/the-roads-that-stayed/full/the-roads-that-stayed-hero.jpeg
+hero_image_alt: A split image shows Vera beside a sleek autonomous pod under a solar canopy on one side and Tomás standing in the stone village beside the old Land Cruiser on the other, setting modern managed mobility against the older road-bound order of Las Hurdes.
+hero_image_caption: Two Spains faced each other before the road chose between them.
 lang: en
 language_switcher: true
 translation_en: true

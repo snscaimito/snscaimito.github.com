@@ -1,7 +1,11 @@
 ---
 layout: post
 title: Mobilität, nur nach Genehmigung
-image: /img/the-roads-that-stayed/the-roads-that-stayed-scene-01.jpeg
+image: /img/the-roads-that-stayed/the-roads-that-stayed-hero.jpeg
+hero_image: /img/the-roads-that-stayed/the-roads-that-stayed-hero.jpeg
+hero_image_full: /img/the-roads-that-stayed/full/the-roads-that-stayed-hero.jpeg
+hero_image_alt: Ein geteiltes Bild zeigt Vera neben einem eleganten autonomen Pod unter einem Solardach auf der einen Seite und Tomás im steinernen Dorf neben dem alten Land Cruiser auf der anderen Seite; moderne gesteuerte Mobilität steht der älteren, straßengebundenen Ordnung von Las Hurdes gegenüber.
+hero_image_caption: Zwei Spanien standen einander gegenüber, bevor die Straße zwischen ihnen entschied.
 lang: de
 language_switcher: true
 translation_en: true
