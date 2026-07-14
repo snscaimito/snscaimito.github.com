@@ -29,6 +29,7 @@ hashtags:
 ```
 
 - Keep front matter lists in the same block-list style used by nearby posts.
+- For an unfinished post under `_posts/`, set `published: false` in its front matter. Do not use `draft: true`; Jekyll ignores that custom field and will publish the post.
 - For fiction posts, favor immersive prose over explanation. Do not introduce a full plot when the task asks only for world-building or atmosphere.
 
 ## Post Images
