@@ -152,6 +152,20 @@ TD {
 	text-align: left;
 }
 
+.post-document-figure {
+	float: right;
+	width: min(42%, 20rem);
+	margin: 0.35rem 0 1.25rem 1.5rem;
+}
+
+@media screen and (max-width: 679px) {
+	.post-document-figure {
+		float: none;
+		width: min(100%, 22rem);
+		margin: 1.5rem auto;
+	}
+}
+
 .post-language-switcher {
 	display: flex;
 	flex-wrap: wrap;
