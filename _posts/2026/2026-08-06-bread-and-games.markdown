@@ -1,7 +1,11 @@
 ---
 layout: post
-title: Bread and Games
-published: false
+title: Bread and Games—But What Are We For?
+lang: en
+language_switcher: true
+translation_en: true
+translation_de: true
+translation_es: true
 tags:
 - en
 categories:
@@ -62,7 +66,7 @@ Work passed from hand to hand. Stone blades flashed. Water came up from the rive
 
 At dusk, strips of meat hissed above the coals. Fat fell into the fire and lifted sparks among the trees. Tala sat between her mother and Eri, chewing a roasted root while the hunters performed the day's journey. In their version, the deer had crossed two rivers, climbed a mountain, defeated a bear, and stopped to insult each hunter by name.
 
-When the laughter settled, Eri took a coal-black stick and drew seven marks on a flat stone: one for each person who had gone out, one for each person who had returned.
+When the laughter settled, Eri took a coal-black stick and drew seven marks on a flat stone: one for each person who had gone out and returned.
 
 Tala pointed toward the brightening moon.
 
@@ -620,7 +624,7 @@ Their manager called while Dev was losing at table tennis.
 
 That evening, she took warm flatbread to the Thursday table at Lina's apartment.
 
-The six friends had met there since university. On Thursdays they ate, played games, and complained about people who scheduled Friday morning meetings.
+The six friends had met every Thursday since university. They ate, played games, and complained about people who scheduled Friday morning meetings.
 
 This Thursday, three of them no longer had Friday morning meetings.
 
