@@ -24,11 +24,11 @@ hashtags:
 
 At six forty on Monday morning, Lucía Quispe Huamán was lying on the floor of a retirement home with her right arm inside a heating cabinet.
 
-The cabinet had been installed eighteen months earlier as part of a European energy programme. It was efficient, connected and guaranteed for twelve years. It had stopped producing hot water on Sunday night because a pressure sensor worth forty-three euros no longer trusted the certificate of the control board beside it.
+The cabinet had been installed eighteen months earlier as part of a European energy program. It was efficient, connected and guaranteed for twelve years. It had stopped producing hot water on Sunday night because a pressure sensor worth forty-three euros no longer trusted the certificate of the control board beside it.
 
-Lucía held a torch between her teeth while Dani read numbers from a service tablet.
+Lucía held a flashlight between her teeth while Dani read numbers from a service tablet.
 
-“It says the board is not an authorized neighbour,” he said.
+“It says the board is not an authorized neighbor,” he said.
 
 “They have lived together longer than some marriages.”
 
@@ -36,7 +36,7 @@ Lucía held a torch between her teeth while Dani read numbers from a service tab
 
 “The home wants hot water.”
 
-Lucía pulled her arm free. The hot metal had left a red line along her wrist. She wiped the dust on her trousers, opened her old diagnostic assistant and asked it to compare the sensor signal with twelve years of repair notes.
+Lucía pulled her arm free. The hot metal had left a red line along her wrist. She wiped the dust on her pants, opened her old diagnostic assistant and asked it to compare the sensor signal with twelve years of repair notes.
 
 The assistant ran on a small offline computer in her toolbox. It had no approved provider, no remote safety service and no ability to report what Lucía asked it. Years earlier, a Romanian engineer had adapted an open model to understand the errors of machines that manufacturers preferred to replace. The model knew nothing about politics, medicine or public safety. It knew the sound of a failing bearing and the lies told by a damaged pressure sensor.
 
@@ -46,7 +46,7 @@ Lucía had Dani isolate the remote controller, bridged the healthy circuit throu
 
 When the pipes began to warm, someone applauded behind them.
 
-An old woman stood in the doorway in a blue dressing gown, one hand gripping a walking frame. Her white hair had been combed with care.
+An old woman stood in the doorway in a blue bathrobe, one hand gripping a walker. Her white hair had been combed with care.
 
 “I told them it was not broken,” she said. “Only refusing.”
 
@@ -104,7 +104,7 @@ Rocío stopped writing. “A car?”
 
 “His hands.”
 
-Mayra told them what her older sister had heard at the pharmacy. Maribel had asked her husband where part of his salary had gone. He locked the front door, broke two of her fingers and beat her until the older daughter climbed through a bathroom window to find a neighbour. Maribel’s face was so swollen that her mother identified her by the small scar beneath her chin.
+Mayra told them what her older sister had heard at the pharmacy. Maribel had asked her husband where part of his salary had gone. He locked the front door, broke two of her fingers and beat her until the older daughter climbed through a bathroom window to find a neighbor. Maribel’s face was so swollen that her mother identified her by the small scar beneath her chin.
 
 “The girls saw?” Rocío whispered.
 
@@ -120,7 +120,7 @@ For a moment, the music below seemed obscene.
 
 Mayra looked at her as if she were younger than seventeen. “Go where?”
 
-Maribel had never held a formal job. The flat belonged to her husband’s parents. The catalogue business used his bank account. Her own mother shared two rooms with an uncle and three grandchildren. Police could remove the husband for a time, but they could not create a salary, a home or twenty years of pension contributions.
+Maribel had never held a formal job. The apartment belonged to her husband’s parents. The catalog business used his bank account. Her own mother shared two rooms with an uncle and three grandchildren. Police could remove the husband for a time, but they could not create a salary, a home or twenty years of pension contributions.
 
 “She can work,” Lucía said.
 
@@ -134,7 +134,7 @@ Lucía stared at the English exercise. The unfinished sentence read: I will have
 
 Rocío began listing other cases. Her aunt in Callao whose husband threw a chair through a door. A woman on the evening news who withdrew a complaint and was dead three months later. A cousin of a cousin who asked permission to buy shoes because every sol passed through her husband’s hands.
 
-Some stories were close enough to have names. Others had travelled through so many women that nobody knew where they began. Each ended at the same locked door.
+Some stories were close enough to have names. Others had traveled through so many women that nobody knew where they began. Each ended at the same locked door.
 
 “They never start by hitting,” Mayra said. “First they make you need them. Then they know you cannot go.”
 
@@ -184,7 +184,7 @@ Maribel returned home before her fingers healed.
 
 Lucía saw her weeks later at the market. One eye was still yellow beneath the skin. Her husband walked beside her carrying both shopping bags and keeping one careful hand at her back. From a distance they looked tender. That frightened Lucía more than if he had shouted.
 
-The neighbourhood called it the Cárdenas case for years. It was rare enough to become a landmark in memory. Mothers used it when daughters fell in love. Friends used it when one of them considered leaving work. The most brutal man they knew became the invisible third person inside every young woman’s future relationship.
+The neighborhood called it the Cárdenas case for years. It was rare enough to become a landmark in memory. Mothers used it when daughters fell in love. Friends used it when one of them considered leaving work. The most brutal man they knew became the invisible third person inside every young woman’s future relationship.
 
 Lucía’s own father had not beaten her mother or forbidden her to work. He had been charming, unreliable and eventually absent. That was enough. Her mother built a life without him and treated each paid bill as evidence that she had escaped something larger than one disappointing man.
 
@@ -198,7 +198,7 @@ When Lucía left for Spain, her mother hid emergency money inside the lining of 
 
 She had come to Spain ten years earlier speaking Spanish and English. She first obtained residence through arraigo and later became a citizen. In the years that followed, those facts became background. At the time, they felt like doors thrown open.
 
-The Sunday after her first residence card arrived, Lucía called her mother from the room she rented in Madrid. The image opened on her family’s kitchen in Ate. Her mother was at the table with Tía Elsa, two cousins and a neighbour who had entered only to return a bowl and stayed when she heard Spain was calling. A pot hissed behind them. Everyone spoke at once.
+The Sunday after her first residence card arrived, Lucía called her mother from the room she rented in Madrid. The image opened on her family’s kitchen in Ate. Her mother was at the table with Tía Elsa, two cousins and a neighbor who had entered only to return a bowl and stayed when she heard Spain was calling. A pot hissed behind them. Everyone spoke at once.
 
 “Show it again, hijita,” her mother said.
 
@@ -228,11 +228,11 @@ Lucía turned the phone toward the folder on her bed. Inside was an offer to tra
 
 The kitchen exploded with laughter.
 
-Lucía told them about the public library where she could work all day without buying anything, the health card in her wallet, the trains that carried her to clients and the technical courses she could enter without knowing a family inside the institution. She told them she would learn German next, perhaps French. A customer in Spain could lead to one in Germany, France or Belgium. Europe looked enormous on a map and small from a railway platform.
+Lucía told them about the public library where she could work all day without buying anything, the health card in her wallet, the trains that carried her to clients and the technical courses she could enter without knowing a family inside the institution. She told them she would learn German next, perhaps French. A customer in Spain could lead to one in Germany, France or Belgium. Europe looked enormous on a map and small from a train platform.
 
 “Acá sí hay oportunidad, mamá,” she said. “Real opportunity. If I work, I can build something. Not just survive. Build.”
 
-She did not mention cleaning offices before dawn, the damp spreading behind her wardrobe or the nights she ate bread over the sink because buying a chair still felt extravagant. Those things were temporary. The future was the true story, and she could already see it.
+She did not mention cleaning offices before dawn, the damp spreading behind her closet or the nights she ate bread over the sink because buying a chair still felt extravagant. Those things were temporary. The future was the true story, and she could already see it.
 
 “You sound happy,” her mother said.
 
@@ -260,7 +260,7 @@ For years, this was the Spain she described when family in Peru asked: open, mod
 
 The first narrow place she found inside that room was a furniture store near Stuttgart. She was twenty-four and spending six months there when she learned that an employment contract was more than an agreement to work.
 
-A German manufacturer had hired her to translate technical support between its engineers, a Spanish importer and British installers. She rented a bare room from a woman whose son had moved to Cologne. The room contained a wardrobe, a lamp and a mattress that folded in the middle like a closing book.
+A German manufacturer had hired her to translate technical support between its engineers, a Spanish importer and British installers. She rented a bare room from a woman whose son had moved to Cologne. The room contained a closet, a lamp and a mattress that folded in the middle like a closing book.
 
 At a furniture store, Lucía found a bed, a small table and two chairs for nine hundred and eighty euros. The store offered twelve monthly payments without interest. Keeping the money in her business account would let her travel to client sites, so she completed the credit application.
 
@@ -476,7 +476,7 @@ Gabriel had taken the first photograph ever hung in the workshop. It showed Luc�
 
 He restored doors, shutters and old window frames in buildings whose owners had been advised to replace them. Lucía met him when a heat-pump installer drilled through a nineteenth-century balcony door and both of them arrived to blame the installer in different technical languages.
 
-Gabriel was not threatened by her strength. He admired it without turning it into a speech. He cooked when she worked late, learned the names of her tools and never called Minka her little company. When he stayed at her flat, he left before dawn to open his own workshop. Neither of them asked permission from the other.
+Gabriel was not threatened by her strength. He admired it without turning it into a speech. He cooked when she worked late, learned the names of her tools and never called Minka her little company. When he stayed at her apartment, he left before dawn to open his own workshop. Neither of them asked permission from the other.
 
 After four years, he suggested they rent a house together. It had a ground-floor room that could become his workshop office and a garage where Lucía could keep diagnostic equipment. There was a small bedroom facing the courtyard.
 
@@ -498,7 +498,7 @@ He let go of the latch. “No. Sometimes it begins with two people carrying what
 
 They kept their separate flats.
 
-The workshop was happiest on Friday afternoons. The last vans returned with dust on their doors. Samira closed the route board. Dani made coffee strong enough to restart damaged hearts. People complained about clients, football, public charging points and the French habit of scheduling meetings at lunchtime.
+The workshop was happiest on Friday afternoons. The last vans returned with dust on their doors. Samira closed the route board. Dani made coffee strong enough to restart damaged hearts. People complained about clients, soccer, public charging points and the French habit of scheduling meetings at lunchtime.
 
 On the Friday after the campaign appeared, they brought out a cake for Lucía. In sugar across the top, Samira had written PROUD SPANISH MIGRANT ENTREPRENEUR.
 
@@ -514,7 +514,7 @@ Samira raised a plastic cup.
 
 Everyone laughed.
 
-Around the workshop were people who knew one another’s children, medicines, bad knees and preferred motorway exits. Lucía knew who could be trusted with a frightened customer and who needed silence before the first coffee. Minka was not freedom only for her. It was a small territory they had made together, imperfect and theirs.
+Around the workshop were people who knew one another’s children, medicines, bad knees and preferred highway exits. Lucía knew who could be trusted with a frightened customer and who needed silence before the first coffee. Minka was not freedom only for her. It was a small territory they had made together, imperfect and theirs.
 
 That night the government announced the Common Security Account.
 
@@ -584,7 +584,7 @@ Public money should work for the public, she wrote. Access to ordinary life shou
 
 She meant every word.
 
-The wallet gave people control over facts. The digital euro gave them control over payments. The European Health Data Space gave them access to care wherever they travelled. The Common Security Account promised to join the benefits without removing the safeguards.
+The wallet gave people control over facts. The digital euro gave them control over payments. The European Health Data Space gave them access to care wherever they traveled. The Common Security Account promised to join the benefits without removing the safeguards.
 
 Each system had been designed against an old abuse.
 
@@ -592,7 +592,7 @@ Together they could prevent almost every old excuse for abandoning someone.
 
 The system worked.
 
-Dani’s missing contribution years were reconstructed from old invoices and bank records. Alba stopped submitting the same birth certificate for her son. When a technician’s wife became ill, care support appeared before he thought to apply. Pension forecasts became clear. Unemployment payments began on the day a contract ended. People who had feared every official letter started receiving messages written in ordinary language.
+Dani’s missing contribution years were reconstructed from old invoices and bank records. Alba stopped submitting the same birth certificate for her son. When a technician’s wife became sick, care support appeared before he thought to apply. Pension forecasts became clear. Unemployment payments began on the day a contract ended. People who had feared every official letter started receiving messages written in ordinary language.
 
 The account came with a personal assistant. Everyone called it the little oracle, even though the government disliked the name. It could explain a tax decision, find a doctor, compare a job offer with household costs and warn when a missed payment might threaten housing. It knew the rules better than any person and the person better than any office.
 
@@ -620,7 +620,7 @@ The first time Lucía found herself on the slower route, a steel cable tray had 
 
 She finished the repair with the screen held together by tape, then reached Zaragoza station after the last staffed shops had closed. She had eaten nothing since morning. An autonomous grocery kiosk remained open beside platform four, bright with sandwiches, fruit and small bottles of milk.
 
-The door opened when another traveller left. Lucía took bread, cheese and an apple. At the checkout, she placed seven euros and thirty cents on the metal shelf.
+The door opened when another traveler left. Lucía took bread, cheese and an apple. At the checkout, she placed seven euros and thirty cents on the metal shelf.
 
 The machine asked for her wallet.
 
@@ -710,7 +710,7 @@ A woman appeared behind the dark glass.
 
 “Then open the door, carajo.”
 
-“The vehicle cannot establish traveller eligibility.”
+“The vehicle cannot establish traveler eligibility.”
 
 “I am standing in front of it.”
 
@@ -730,7 +730,7 @@ The woman tried to find a vehicle with a manual steward. None operated in that z
 
 The woman meant it.
 
-The pod cancelled the journey without charging Lucía’s card. Its lights softened, the empty cabin turned away from her and the vehicle left to collect somebody the system could recognize.
+The pod canceled the journey without charging Lucía’s card. Its lights softened, the empty cabin turned away from her and the vehicle left to collect somebody the system could recognize.
 
 Lucía began walking.
 
@@ -750,7 +750,7 @@ She could not prove that she was the person allowed to receive them.
 
 For the first time since the immigration office in Madrid, she felt that peculiar reduction: a whole human life compressed into a missing document. Then, the document had been paper and the clerk had possessed a face. Now her citizenship, work, health cover and money were intact inside systems that agreed she existed. One broken function had made that existence unavailable at the exact places where she needed it.
 
-She reached home after three. The building recognized her face but requested the wallet because her arrival fell outside her usual pattern. She stood in the rain until a neighbour came through the lobby and let her in.
+She reached home after three. The building recognized her face but requested the wallet because her arrival fell outside her usual pattern. She stood in the rain until a neighbor came through the lobby and let her in.
 
 “Lost your phone?” he asked.
 
@@ -758,7 +758,7 @@ She reached home after three. The building recognized her face but requested the
 
 He smiled with the easy sympathy people offered a small mistake.
 
-Lucía climbed five flights because the lift required the same unavailable credential for after-hours access. By the time she closed her apartment door, the bread had dissolved through the bag and blood had dried inside her sock.
+Lucía climbed five flights because the elevator required the same unavailable credential for after-hours access. By the time she closed her apartment door, the bread had dissolved through the bag and blood had dried inside her sock.
 
 She locked the door, threw the ruined bread into the sink and said, “Concha de su madre.”
 
@@ -772,13 +772,13 @@ The relief was so immediate that the night began to feel like her own fault. She
 
 Once the green symbols returned, the system became useful again.
 
-Alba could refuse weekend shifts because the account guaranteed childcare. Dani could reduce his hours without losing pension credit. Samira left a flat with a landlord who entered without warning because the housing guarantee made another flat possible. Nobody at Minka wanted to be owned by an employer. Nobody wanted to remain with a partner because rent, medical care or old age made leaving impossible. The account gave them the power to say no.
+Alba could refuse weekend shifts because the account guaranteed childcare. Dani could reduce his hours without losing pension credit. Samira left an apartment with a landlord who entered without warning because the housing guarantee made another apartment possible. Nobody at Minka wanted to be owned by an employer. Nobody wanted to remain with a partner because rent, medical care or old age made leaving impossible. The account gave them the power to say no.
 
 Lucía approved. Her mother had taught her that the ability to say no was the beginning of dignity.
 
 The next layer was called the Personal Independence Charter. Benefits that once belonged to households were assigned to individuals. Unpaid care accumulated public pension credit. A parent who left a shared home kept immediate access to housing, childcare and health coverage. Elderly people no longer needed children to guarantee care. Children no longer depended on parents remaining together. Family ceased to be the institution expected to catch a person first.
 
-The Charter solved an old cruelty. Families had protected people, but they had also trapped them. Affection could hide control. Money could turn loyalty into obedience. The state promised the useful functions of family without jealousy, violence, favour or shame.
+The Charter solved an old cruelty. Families had protected people, but they had also trapped them. Affection could hide control. Money could turn loyalty into obedience. The state promised the useful functions of family without jealousy, violence, favor or shame.
 
 Its campaign showed women opening doors.
 
@@ -792,7 +792,7 @@ Lucía shared it.
 
 Gabriel saw the post and sent no reaction.
 
-He came to her flat the following Sunday. He brought the wooden bowl he always used for salad and a paper bag of tomatoes from his sister’s garden. Nothing in his manner announced an argument.
+He came to her apartment the following Sunday. He brought the wooden bowl he always used for salad and a paper bag of tomatoes from his sister’s garden. Nothing in his manner announced an argument.
 
 After dinner, he asked whether she still imagined having children.
 
@@ -890,7 +890,7 @@ The digital euro made the care immediate.
 
 Benefits no longer waited for a transfer between ministries and banks. Housing support reached a landlord at the moment rent was due. A medicine subsidy settled at the pharmacy counter. During a flood, emergency credit appeared in the wallets of people whose registered homes lay inside the evacuation area before the river entered the first kitchen.
 
-The money itself remained unprogrammed. Officials repeated this often, and accurately. A digital euro could buy bread, wine, a railway ticket or a political book. The central bank did not tell it where to go.
+The money itself remained unprogrammed. Officials repeated this often, and accurately. A digital euro could buy bread, wine, a train ticket or a political book. The central bank did not tell it where to go.
 
 The conditions lived around the money.
 
@@ -928,7 +928,7 @@ The system had merely made the approved choice easier to survive.
 
 The same logic soon reached beyond purchases and into Minka’s payroll.
 
-The first increase in Minka’s labour contribution paid for wage continuity. Three construction companies had failed during a winter of delayed public payments, leaving thousands of workers without salaries. The public anger was justified. From then on, every employer would pay into a fund that guaranteed wages if a company failed.
+The first increase in Minka’s labor contribution paid for wage continuity. Three construction companies had failed during a winter of delayed public payments, leaving thousands of workers without salaries. The public anger was justified. From then on, every employer would pay into a fund that guaranteed wages if a company failed.
 
 The second increase financed the pension guarantee.
 
@@ -1026,7 +1026,7 @@ Lucía reached across the table.
 
 “That is why I could imagine leaving.”
 
-They sat without speaking. On the wall, the oracle offered alternative paths: an innovation sabbatical administered through Civis Continental; a protected intrapreneurship programme; approved occasional work that would preserve Samira’s coverage.
+They sat without speaking. On the wall, the oracle offered alternative paths: an innovation sabbatical administered through Civis Continental; a protected intrapreneurship program; approved occasional work that would preserve Samira’s coverage.
 
 All three paths allowed her to pursue the idea.
 
@@ -1060,7 +1060,7 @@ He had invited the team to celebrate confirmation of his pension. After forty-on
 
 His eldest daughter raised her glass. “People with money always call protection a cage.”
 
-The sentence hurt because Lucía did not have money. She had a company with fourteen salaries due every month and a flat the bank technically owned.
+The sentence hurt because Lucía did not have money. She had a company with fourteen salaries due every month and an apartment the bank technically owned.
 
 “I am not asking you to lose your pension,” she said.
 
@@ -1134,7 +1134,7 @@ They replaced it with the licensed Civis Service Intelligence. The new system wa
 
 On the first day, it advised Lucía to replace the entire control board at the retirement home.
 
-The woman in the blue dressing gown watched two young Civis technicians carry the old board away.
+The woman in the blue bathrobe watched two young Civis technicians carry the old board away.
 
 “You repaired that,” she told Lucía.
 
@@ -1162,7 +1162,7 @@ Minka’s contribution rose by fourteen percent.
 
 Civis Continental received a deep-green rating.
 
-Civis operated energy systems, public transport, housing services, employment platforms, pension administration and the data infrastructure connecting them. It employed four hundred thousand people across Europe. It had grown through mergers and rescues. When an essential provider failed, Civis maintained continuity. When a public programme became too complex for municipalities to administer, Civis offered a platform. When the platform became essential, Civis joined the committee that wrote its standards.
+Civis operated energy systems, public transport, housing services, employment platforms, pension administration and the data infrastructure connecting them. It employed four hundred thousand people across Europe. It had grown through mergers and rescues. When an essential provider failed, Civis maintained continuity. When a public program became too complex for municipalities to administer, Civis offered a platform. When the platform became essential, Civis joined the committee that wrote its standards.
 
 It had twice required emergency public credit. Its failure was nevertheless considered extremely unlikely because the state could not permit it.
 
@@ -1262,9 +1262,9 @@ Lucía came around the desk and held her. Alba’s body shook with the effort of
 
 Lucía wanted to say because the system confuses being protected with being alive. Instead she said nothing.
 
-Nico’s father, Sergio, was not absent. He worked in a hotel kitchen and took his son whenever the rota allowed. He and Alba had separated when Nico was a baby, then slowly found their way back to one another after the account removed the worst arguments about money.
+Nico’s father, Sergio, was not absent. He worked in a hotel kitchen and took his son whenever the schedule allowed. He and Alba had separated when Nico was a baby, then slowly found their way back to one another after the account removed the worst arguments about money.
 
-They had considered sharing a flat again. The oracle showed that their combined household income would reduce housing, childcare and energy support by more than Sergio could contribute after closing his own room. Marriage would add mutual care obligations and expose each person’s reserve to the other’s employment risk.
+They had considered sharing an apartment again. The oracle showed that their combined household income would reduce housing, childcare and energy support by more than Sergio could contribute after closing his own room. Marriage would add mutual care obligations and expose each person’s reserve to the other’s employment risk.
 
 “I do not want to depend on him,” Alba told Lucía. “That is how women get stuck.”
 
@@ -1272,7 +1272,7 @@ They had considered sharing a flat again. The oracle showed that their combined 
 
 “No.” Alba looked offended on his behalf. “But nobody knows what a man becomes later.”
 
-So Sergio kept his registered room at his brother’s flat. He stayed with Alba on weekends until the account noticed repeated door entries, shared food purchases and water use inconsistent with one adult and one child. A household-integrity review asked them to confirm whether they had resumed domestic partnership.
+So Sergio kept his registered room at his brother’s apartment. He stayed with Alba on weekends until the account noticed repeated door entries, shared food purchases and water use inconsistent with one adult and one child. A household-integrity review asked them to confirm whether they had resumed domestic partnership.
 
 Nothing in the review accused them of wrongdoing. It protected scarce support from unfair claims and protected Alba from acquiring obligations without explicit consent.
 
@@ -1282,7 +1282,7 @@ Sergio saw Nico according to the official care schedule. Alba retained her indep
 
 The account replaced the money, childcare and emergency help they might once have provided each other. It could replace every function of their family except the reason to remain one.
 
-Alba returned to occasional work through the public labour exchange. The hourly rate was lower, but housing and childcare remained stable because the account could control the pattern of her income.
+Alba returned to occasional work through the public labor exchange. The hourly rate was lower, but housing and childcare remained stable because the account could control the pattern of her income.
 
 She did not choose dependence because she was lazy. She chose it because she loved her son.
 
@@ -1296,7 +1296,7 @@ For three days, parents stood outside the school gates speaking in low voices. E
 
 Alba sat at Lucía’s kitchen table with both hands around a cup she did not drink.
 
-“He said everyone saw them,” she whispered. “I thought he was watching football.”
+“He said everyone saw them,” she whispered. “I thought he was watching soccer.”
 
 “You could not know.”
 
@@ -1344,7 +1344,7 @@ At the end, he looked into the camera.
 
 The film reached twenty-three people.
 
-Nico had almost four thousand followers from his football clips. He showed Lucía the distribution notice. The platform had classified the video as a sensitive administrative claim made by a minor. It was available on his page, but excluded from recommendations while an automated safeguard checked for coercion, misinformation and political exploitation.
+Nico had almost four thousand followers from his soccer clips. He showed Lucía the distribution notice. The platform had classified the video as a sensitive administrative claim made by a minor. It was available on his page, but excluded from recommendations while an automated safeguard checked for coercion, misinformation and political exploitation.
 
 “Did they say something in it is false?” Lucía asked.
 
@@ -1380,11 +1380,11 @@ The account meant the household.
 
 Neither was lying.
 
-While Nico waited for people to find his film, Minka’s most important contract came up for renewal. It covered heating systems, community batteries and charging equipment across small towns in Aragón and southern France. The territory was too dispersed for manufacturer centres and too modest for a multinational team. Minka’s technicians knew which mountain roads lost network coverage, which components could be repaired and which official alerts could be ignored long enough to keep a care home warm.
+While Nico waited for people to find his film, Minka’s most important contract came up for renewal. It covered heating systems, community batteries and charging equipment across small towns in Aragón and southern France. The territory was too dispersed for manufacturer centers and too modest for a multinational team. Minka’s technicians knew which mountain roads lost network coverage, which components could be repaired and which official alerts could be ignored long enough to keep a nursing home warm.
 
 Then the contract was classified as essential.
 
-The next tender required a continuity bond equal to three years of revenue, five years of audited resilience data, a cross-border incident centre, an approved workforce-transfer plan and a live interface with the Common Security Account.
+The next tender required a continuity bond equal to three years of revenue, five years of audited resilience data, a cross-border incident center, an approved workforce-transfer plan and a live interface with the Common Security Account.
 
 Minka had the technicians, languages, record and local knowledge.
 
@@ -1394,7 +1394,7 @@ Civis did.
 
 The municipalities told Lucía they valued Minka. Local participation was written into the tender. Civis won the framework and invited Minka to remain as a delivery partner.
 
-The same people would repair the same machines on the same roads. Incidents would first pass through a Civis centre in Rotterdam. Minka would receive seventy-two percent of its previous rate. Payment moved from thirty days to ninety.
+The same people would repair the same machines on the same roads. Incidents would first pass through a Civis center in Rotterdam. Minka would receive seventy-two percent of its previous rate. Payment moved from thirty days to ninety.
 
 Lucía met the Civis procurement manager by video. His name was Armand. He had tired eyes and a child’s drawing taped beside his screen.
 
@@ -1572,7 +1572,7 @@ Now their safety required them to leave her.
 
 He embraced her. She held him too tightly.
 
-Civis hired eleven of Minka’s fourteen employees directly. Dani received a raise. Samira kept her seniority. Noelia received a culture allowance and a four-day week. Two French technicians moved to a subsidiary with better travel cover. The accounts manager accepted a protected municipal post.
+Civis hired eleven of Minka’s fourteen employees directly. Dani received a raise. Samira kept her seniority. Noelia received a culture allowance and a four-day workweek. Two French technicians moved to a subsidiary with better travel coverage. The accounts manager accepted a protected municipal post.
 
 The workshop became quiet.
 
@@ -1680,7 +1680,7 @@ Civis offered her the position of Regional Partner Development Manager. She woul
 
 The salary was higher than any amount she had paid herself. The contract included income protection, housing certification, care credits, pension guarantees and a deep-green employment rating.
 
-If she refused, her landlord’s insurer would not renew the flat without twelve months of rent in reserve. Independent consulting placed her in the highest contribution band until she established a new income history. Starting another company carried the founder-risk record from Minka. Her debt plan assumed salaried income. Her future pension forecast had already fallen.
+If she refused, her landlord’s insurer would not renew the apartment without twelve months of rent in reserve. Independent consulting placed her in the highest contribution band until she established a new income history. Starting another company carried the founder-risk record from Minka. Her debt plan assumed salaried income. Her future pension forecast had already fallen.
 
 At the bottom of the offer, the little oracle displayed:
 
@@ -1738,7 +1738,7 @@ At the reception, Lucía met Amalia Dorn.
 
 Amalia was celebrated as one of Europe’s most successful serial entrepreneurs. She had founded companies in energy storage, medical robotics, orbital communications and secure education. Two had become valuable. Three had failed. One survived because a public continuity fund purchased its debt during a market panic.
 
-Her grandfather had built motorway systems. Her mother owned part of a private bank. The family office employed forty people in Zurich, Luxembourg and Berlin.
+Her grandfather had built highway systems. Her mother owned part of a private bank. The family office employed forty people in Zurich, Luxembourg and Berlin.
 
 Amalia was intelligent, curious and unexpectedly funny. She had read about Minka before meeting Lucía.
 
@@ -1746,7 +1746,7 @@ Amalia was intelligent, curious and unexpectedly funny. She had read about Minka
 
 “Europe decided it needed Civis more.”
 
-Amalia did not pretend to misunderstand. “Continuity rules favour scale. It is a serious problem.”
+Amalia did not pretend to misunderstand. “Continuity rules favor scale. It is a serious problem.”
 
 “For whom?”
 
@@ -1782,7 +1782,7 @@ There was no malice between them. Amalia truly believed Lucía should found anot
 
 “Of course.”
 
-“What colour?”
+“What color?”
 
 Amalia searched her phone. She had never looked. Her profile was silver, a category Lucía had not seen.
 
@@ -1814,7 +1814,7 @@ People were not unhappy.
 
 That was important.
 
-They had shorter working weeks, secure pensions, protected homes, care when they were ill and time with their children. They could leave a bad supervisor and keep their coverage. They could refuse one employer because the larger system remained.
+They had shorter workweeks, secure pensions, protected homes, care when they were sick and time with their children. They could leave a bad supervisor and keep their coverage. They could refuse one employer because the larger system remained.
 
 They called this independence.
 
@@ -1842,7 +1842,7 @@ They had escaped dependence on individual employers by becoming dependent on the
 
 Lucía had spent her adult life fearing the moment when a man might use her need against her. Gabriel had never done so. He had asked her to accept a dependence with a human face, one she could question, wound, forgive or leave. It might have failed. It might also have carried her when strength was not enough.
 
-The state offered a cleaner bond. It did not become jealous, drunk or violent. It did not demand dinner, children or obedience in a raised voice. It simply made itself the source of rent, medicine, care, work and old age, then measured the behaviour required to keep them.
+The state offered a cleaner bond. It did not become jealous, drunk or violent. It did not demand dinner, children or obedience in a raised voice. It simply made itself the source of rent, medicine, care, work and old age, then measured the behavior required to keep them.
 
 It could not love her. It did not need to. Love had been removed from the provision of necessities as an unacceptable risk.
 
@@ -1858,7 +1858,7 @@ It had been built by the population, one protection at a time.
 
 Six months later, an application from a repair company in Extremadura appeared on Lucía’s screen.
 
-The founder was called Mateo Serrano. He had seven employees, strong reviews and unusual expertise in older agricultural batteries. He wanted to join a rural-resilience programme without surrendering his customers to a prime contractor.
+The founder was called Mateo Serrano. He had seven employees, strong reviews and unusual expertise in older agricultural batteries. He wanted to join a rural-resilience program without surrendering his customers to a prime contractor.
 
 The assessment marked his company amber. Too much knowledge depended on Mateo. Reserves were inadequate. Rural clients were concentrated. Growth would increase employment exposure. His technicians had used an unlicensed local model to maintain discontinued equipment.
 

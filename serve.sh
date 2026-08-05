@@ -48,6 +48,7 @@ exec bundle exec jekyll serve \
   --port "$PORT" \
   --baseurl "$LOCAL_BASEURL" \
   --future \
+  --unpublished \
   --livereload \
   --livereload-port "$LIVERELOAD_PORT" \
   "$@"
