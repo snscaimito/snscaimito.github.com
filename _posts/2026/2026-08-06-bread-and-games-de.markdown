@@ -688,3 +688,12 @@ Mara kannte sie seit fast zwanzig Jahren als Übersetzerin, Programmierer und Il
 Lina begann, die nächste Runde auszuteilen.
 
 „Heute Abend“, sagte sie, „seid ihr alle in meinem Team.“
+
+<details class="future-vision" style="--future-vision-image: url('/img/bread-and-games/bread-and-games-future-vision.jpeg');">
+	<summary class="future-vision__question">
+		<span class="future-vision__question-text">Was erwartet uns, wenn die Arbeit verschwunden ist?</span>
+	</summary>
+	<figure class="future-vision__figure">
+		<img class="future-vision__image" src="/img/bread-and-games/bread-and-games-future-vision.jpeg" alt="Menschen teilen Essen, Musik, Kunst und Zeit in einer leuchtenden Gartenstadt, während Roboter Felder, Wasserwege, Bauarbeiten und Transport übernehmen." loading="lazy" />
+	</figure>
+</details>

@@ -688,3 +688,12 @@ Mara los había conocido durante casi veinte años como traductora, programador 
 Lina empezó a repartir la siguiente mano.
 
 —Esta noche —dijo—, todos estáis en mi equipo.
+
+<details class="future-vision" style="--future-vision-image: url('/img/bread-and-games/bread-and-games-future-vision.jpeg');">
+	<summary class="future-vision__question">
+		<span class="future-vision__question-text">¿Qué nos espera cuando el trabajo haya desaparecido?</span>
+	</summary>
+	<figure class="future-vision__figure">
+		<img class="future-vision__image" src="/img/bread-and-games/bread-and-games-future-vision.jpeg" alt="La gente comparte comida, música, arte y tiempo en una luminosa ciudad jardín mientras los robots se ocupan de los cultivos, los canales, la construcción y el transporte." loading="lazy" />
+	</figure>
+</details>

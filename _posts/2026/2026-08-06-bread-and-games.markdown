@@ -688,3 +688,12 @@ Mara had known them as a translator, a programmer, and an illustrator for almost
 Lina began dealing the next round.
 
 “Tonight,” she said, “you are all on my team.”
+
+<details class="future-vision" style="--future-vision-image: url('/img/bread-and-games/bread-and-games-future-vision.jpeg');">
+	<summary class="future-vision__question">
+		<span class="future-vision__question-text">What waits for us when work is gone?</span>
+	</summary>
+	<figure class="future-vision__figure">
+		<img class="future-vision__image" src="/img/bread-and-games/bread-and-games-future-vision.jpeg" alt="People share food, music, art, and time in a luminous garden city while robots tend crops, waterways, construction, and transport." loading="lazy" />
+	</figure>
+</details>
