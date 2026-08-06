@@ -1,18 +1,17 @@
 <section class="home-latest no-print">
 
-	{% assign with_image = "" | split: "" %}
-	{% for post in site.posts %}
-	{% if post.lang == nil or post.lang == 'en' %}
-	{% if post.image and post.image != "" %}
-	{% assign with_image = with_image | push: post %}
-	{% endif %}
-	{% endif %}
-	{% endfor %}
-
 	<div class="home-stories">
 		<div class="stories-row">
-			{% for post in with_image %}
+			{% for post in site.posts %}
+			{% if post.lang == nil or post.lang == 'en' %}
 			{% assign thumb = post.image %}
+			{% if thumb == nil or thumb == "" %}
+			{% assign image_markup = post.content | split: '<img ' | slice: 1, 1 | first %}
+			{% if image_markup contains 'src="' %}
+			{% assign thumb = image_markup | split: 'src="' | slice: 1, 1 | first | split: '"' | first %}
+			{% endif %}
+			{% endif %}
+			{% if thumb and thumb != "" %}
 			{% assign thumb_first = thumb | slice: 0, 1 %}
 			{% if thumb contains '://' %}
 			{% assign thumb_url = thumb %}
@@ -32,6 +31,8 @@
 					<span class="story-card-date">{{ post.date | date: "%d %b %Y" }}</span>
 				</span>
 			</a>
+			{% endif %}
+			{% endif %}
 			{% endfor %}
 		</div>
 	</div>

@@ -1,24 +1,29 @@
 <section class="home-explore no-print">
 
-	{% assign blog_posts = "" | split: "" %}
-	{% for post in site.posts %}
-	{% if post.lang == nil or post.lang == 'en' %}
-	{% unless post.image and post.image != "" %}
-	{% assign blog_posts = blog_posts | push: post %}
-	{% endunless %}
-	{% endif %}
-	{% endfor %}
-
 	<div class="home-explore-inner">
 
 		<div class="explore-col explore-col-wide">
 			<p class="section">From the blog</p>
 			<ul class="explore-list explore-blog-list">
-				{% for post in blog_posts limit:7 %}
+				{% assign text_post_count = 0 %}
+				{% for post in site.posts %}
+				{% if post.lang == nil or post.lang == 'en' %}
+				{% assign thumb = post.image %}
+				{% if thumb == nil or thumb == "" %}
+				{% assign image_markup = post.content | split: '<img ' | slice: 1, 1 | first %}
+				{% if image_markup contains 'src="' %}
+				{% assign thumb = image_markup | split: 'src="' | slice: 1, 1 | first | split: '"' | first %}
+				{% endif %}
+				{% endif %}
+				{% if thumb == nil or thumb == "" %}
 				<li>
 					<a href="{{ post.url }}">{{ post.title }}</a>
 					<span class="explore-date">{{ post.date | date: "%d %b %Y" }}</span>
 				</li>
+				{% assign text_post_count = text_post_count | plus: 1 %}
+				{% if text_post_count == 7 %}{% break %}{% endif %}
+				{% endif %}
+				{% endif %}
 				{% endfor %}
 			</ul>
 
