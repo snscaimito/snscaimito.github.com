@@ -1,3 +1,11 @@
 _site/
 .bundle/
 vendor/bundle/
+# Local credentials, drafts, and API state; never commit these.
+.env
+.env.*
+!.env.example
+.x-publisher/
+.x-publisher-token.json
+_tools/.x-publisher/
+_tools/private-drafts/

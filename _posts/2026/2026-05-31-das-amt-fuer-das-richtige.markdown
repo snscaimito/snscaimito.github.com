@@ -4,6 +4,14 @@ title: Das Amt für das Richtige
 image: /img/das-amt-fuer-das-richtige/das-amt-fuer-das-richtige-hero.jpeg
 description:
 draft: true
+lang: de
+language_switcher: true
+translation_en: true
+translation_de: true
+translation_es: true
+translation_en_url: /2026/05/31/das-amt-fuer-das-richtige-en.html
+translation_de_url: /2026/05/31/das-amt-fuer-das-richtige.html
+translation_es_url: /2026/05/31/das-amt-fuer-das-richtige-es.html
 tags:
 - de
 categories:

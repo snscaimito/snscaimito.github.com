@@ -9,7 +9,11 @@ encoding: UTF-8
 
 exclude:
   - .bundle
+  - .x-publisher
+  - .env
+  - .env.*
+  - node_modules
   - runLocally.sh
   - TODO.txt
+  - _tools
   - vendor
-  

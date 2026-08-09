@@ -1,8 +1,11 @@
 {% assign current_lang = page.lang | default: 'en' %}
 {% assign current_url = page.url %}
-{% assign english_url = current_url | replace: '-de.html', '.html' | replace: '-es.html', '.html' %}
-{% assign german_url = english_url | replace: '.html', '-de.html' %}
-{% assign spanish_url = english_url | replace: '.html', '-es.html' %}
+{% assign default_english_url = current_url | replace: '-de.html', '.html' | replace: '-es.html', '.html' %}
+{% assign english_url = page.translation_en_url | default: default_english_url %}
+{% assign default_german_url = default_english_url | replace: '.html', '-de.html' %}
+{% assign german_url = page.translation_de_url | default: default_german_url %}
+{% assign default_spanish_url = default_english_url | replace: '.html', '-es.html' %}
+{% assign spanish_url = page.translation_es_url | default: default_spanish_url %}
 
 <div class="post-language-switcher" aria-label="Article languages">
 	{% if page.translation_en %}
