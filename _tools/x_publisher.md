@@ -60,6 +60,17 @@ ruby _tools/x.rb preview --file _tools/private-drafts/the-little-oracle-01.json
 
 The preview prints the exact text, status, character count, and absolute image path. It validates the JSON and image but does not authorize, refresh a token, upload media, or publish. Codex can render the reported image path in this chat when you ask to preview a card.
 
+Review the manual cadence and its recommended next installment without contacting X:
+
+```sh
+ruby _tools/x.rb cadence
+ruby _tools/x.rb cadence --series 'The Mouth Between Suns'
+ruby _tools/x.rb preview-next
+ruby _tools/x.rb preview-next --series 'The Mouth Between Suns'
+```
+
+The cadence is one story installment every 24 hours. The recommendation considers only prepared `draft` cards, continues each series in part order, and mixes topics by preferring the started series that has waited longest. A series that has not started becomes eligible after no started series has a publishable next card. This is calculated only when the command runs; there is no scheduler, daemon, polling process, or background publication.
+
 Publish only after reviewing the exact copy and image:
 
 ```sh
@@ -73,6 +84,15 @@ Publish an approved prepared card the same way:
 ```sh
 ruby _tools/x.rb post --file _tools/private-drafts/the-little-oracle-01.json
 ```
+
+Publish the recommended next installment only in response to an explicit request:
+
+```sh
+ruby _tools/x.rb post-next
+ruby _tools/x.rb post-next --series 'Bread and Games'
+```
+
+`post-next` refuses to publish before the 24-hour window. An explicit decision to publish early can be carried out with `--override-cadence`; that option bypasses only the timing check, never the draft-status or duplicate-publication safeguards.
 
 Every successful API publication is written locally to `_tools/.x-publisher/publications.jsonl`, including its X post ID, URL, timestamp, exact text, attached image, and source card. Historical posts recovered from X are kept separately in `_tools/.x-publisher/historical-publications.jsonl`; they retain their confirmed IDs, URLs, and timestamps without pretending to be newly published. Review the combined history without contacting X:
 
@@ -94,11 +114,15 @@ X Articles are richer and suit long-form reading, but X documents their creation
 
 X is a distribution mechanism for the full canonical story—not a place to publish an adaptation, teaser, summary, excerpt, or rewritten version. When distributing a site story, use a source-backed card that reads the canonical article directly.
 
-Divide only at existing article chapter boundaries. If the article has an introduction before its first chapter, include it with the first card. Each source-backed card posts every word of the selected narrative body unaltered, in source order. The only removed material is the website's section heading, Jekyll front matter, and site-only image/lightbox markup; its image is attached to the X post separately. Do not add a title, series label, part number, link, or rewritten closing to the narrative. Add only a separate, compact footer after the narrative to identify the series through one clickable hashtag, for example `Part of #TheMouthBetweenSuns.`
+Divide only at existing article chapter or scene boundaries. If the article has an introduction before its first chapter, include it with the first card. Each source-backed card posts every word of the selected narrative body unaltered, in source order. The only removed material is the website's section heading, Jekyll front matter, and site-only image/lightbox markup. Do not add a title, series label, part number, link, or rewritten closing to the narrative.
 
-The source-backed cards for *The Mouth Between Suns* and *Mobility, As Authorized* follow this rule. They are `draft`—not approved or scheduled—and are kept locally in `_tools/private-drafts/`. `preview --file <card>` displays the exact distribution payload, while `post --file <card>` sends that same payload to X and records the outcome locally.
+Every prepared story post is a three-part publication package: the complete canonical chapter or scene text as written, its matching image, and a separate compact footer containing exactly one clickable hashtag that identifies the series, for example `Part of #TheMouthBetweenSuns.` The footer is part of the package, not part of the story text. A footer never makes a summary, excerpt, adaptation, or rewritten scene acceptable.
+
+The source-backed cards for *The Mouth Between Suns* and *Mobility, As Authorized* follow this rule. Unpublished cards remain `draft`—not approved or scheduled—and are kept locally in `_tools/private-drafts/`. `preview --file <card>` displays the exact distribution payload, while `post --file <card>` sends that same payload to X and records the outcome locally.
 
 ## Scheduling and measurement
+
+The cadence commands are advisory and manual. `cadence` reports what is due, `preview-next` shows the exact payload, and `post-next` is the only one of those commands that contacts X—and it does so only when explicitly invoked. Successful publication updates the existing local ledger and card status, so the next invocation advances automatically without a separate queue pointer.
 
 X does not expose post scheduling through its public API. X Pro has a web scheduler, but X states that longer posts cannot currently be scheduled on the web.
 

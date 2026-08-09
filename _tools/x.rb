@@ -26,6 +26,8 @@ STATE = File.join(TOOLS, ".x-publisher")
 TOKEN_FILE = File.join(STATE, "token.json")
 PUBLICATIONS_FILE = File.join(STATE, "publications.jsonl")
 HISTORICAL_PUBLICATIONS_FILE = File.join(STATE, "historical-publications.jsonl")
+PRIVATE_DRAFTS = File.join(TOOLS, "private-drafts")
+CADENCE_INTERVAL_HOURS = 24
 SCOPES = %w[tweet.read tweet.write users.read media.write offline.access].freeze
 IMAGE_TYPES = {
   ".jpg" => "image/jpeg", ".jpeg" => "image/jpeg", ".png" => "image/png",
@@ -176,11 +178,24 @@ def load_publication_card(path)
   %w[id status image].each do |field|
     fail "Publication card #{card_path} is missing #{field}." unless card[field].is_a?(String) && !card[field].strip.empty?
   end
+  validate_story_package(card, card_path)
   card["text"] = publication_text(card)
   image_type(card_image_path(card))
   [card_path, card]
 rescue JSON::ParserError => error
   fail "Publication card #{card_path} is not valid JSON: #{error.message}"
+end
+
+def validate_story_package(card, card_path)
+  return unless card["status"] == "draft" && card["series"].is_a?(String) && !card["series"].strip.empty?
+
+  footer = card["footer"]
+  hashtags = footer.is_a?(String) ? footer.scan(/#[A-Za-z0-9_]+/) : []
+  series_key = card.fetch("series").gsub(/[^A-Za-z0-9]/, "").downcase
+  hashtag_key = hashtags.one? ? hashtags.first.delete_prefix("#").delete("_").downcase : nil
+  unless footer.is_a?(String) && !footer.strip.empty? && hashtag_key == series_key
+    fail "Draft story card #{card_path} needs one separate hashtag footer identifying #{card.fetch("series")}."
+  end
 end
 
 def publication_text(card)
@@ -241,6 +256,172 @@ end
 
 def publication_recorded_for_card?(card_id)
   publication_records.any? { |record| record["card_id"] == card_id }
+end
+
+def publication_record_time(record)
+  Time.iso8601(record.fetch("published_at"))
+rescue ArgumentError, KeyError
+  fail "Publication record has an invalid published_at timestamp: #{record.inspect}"
+end
+
+def next_publication_cards
+  cards = Dir.glob(File.join(PRIVATE_DRAFTS, "*.json")).sort.filter_map do |path|
+    card = JSON.parse(File.read(path))
+    next unless card["status"] == "draft"
+    next unless card["series"].is_a?(String) && !card["series"].strip.empty?
+    next unless card["part"].is_a?(Integer) && card["part"].positive?
+
+    { "path" => path, "id" => card.fetch("id"), "series" => card.fetch("series"), "part" => card.fetch("part") }
+  rescue JSON::ParserError => error
+    fail "Publication card #{path} is not valid JSON: #{error.message}"
+  end
+
+  cards.group_by { |card| card.fetch("series") }.transform_values do |series_cards|
+    series_cards.min_by { |card| card.fetch("part") }
+  end
+end
+
+def matching_series_name(requested, available)
+  normalized = requested.to_s.strip.downcase
+  exact = available.find { |name| name.downcase == normalized }
+  return exact if exact
+
+  matches = available.select { |name| name.downcase.include?(normalized) }
+  return matches.first if matches.length == 1
+
+  if matches.length > 1
+    fail "Series name is ambiguous: #{requested}. Matches: #{matches.sort.join(", ")}"
+  end
+  fail "No publishable next card for #{requested}. Available: #{available.sort.join(", ")}"
+end
+
+def cadence_snapshot(requested_series = nil, now: Time.now)
+  candidates = next_publication_cards
+  fail "No draft story cards are available." if candidates.empty?
+
+  records = publication_records.select do |record|
+    record["series"].is_a?(String) && !record["series"].strip.empty?
+  end
+  publications_by_series = records.group_by { |record| record.fetch("series") }
+  latest = records.max_by { |record| publication_record_time(record) }
+  due_at = latest ? publication_record_time(latest) + (CADENCE_INTERVAL_HOURS * 60 * 60) : now
+
+  candidate = if requested_series
+                series = matching_series_name(requested_series, candidates.keys)
+                candidates.fetch(series)
+              else
+                started = candidates.values.select { |card| publications_by_series.key?(card.fetch("series")) }
+                if started.empty?
+                  candidates.values.min_by { |card| [card.fetch("series").downcase, card.fetch("part")] }
+                else
+                  started.min_by do |card|
+                    series_records = publications_by_series.fetch(card.fetch("series"))
+                    publication_record_time(series_records.max_by { |record| publication_record_time(record) })
+                  end
+                end
+              end
+
+  {
+    "candidate" => candidate,
+    "candidates" => candidates,
+    "publications_by_series" => publications_by_series,
+    "latest" => latest,
+    "due_at" => due_at,
+    "due" => now >= due_at,
+    "now" => now
+  }
+end
+
+def format_local_time(time)
+  time.getlocal.iso8601
+end
+
+def format_wait(seconds)
+  minutes = (seconds.abs / 60.0).ceil
+  hours, remaining_minutes = minutes.divmod(60)
+  return "#{remaining_minutes}m" if hours.zero?
+  return "#{hours}h" if remaining_minutes.zero?
+
+  "#{hours}h #{remaining_minutes}m"
+end
+
+def parse_cadence_options(argv, banner, allow_override: false)
+  options = { override_cadence: false }
+  parser = OptionParser.new do |opts|
+    opts.banner = banner
+    opts.on("--series NAME", "Choose a specific series") { |value| options[:series] = value }
+    if allow_override
+      opts.on("--override-cadence", "Publish before the #{CADENCE_INTERVAL_HOURS}-hour window after an explicit decision") do
+        options[:override_cadence] = true
+      end
+    end
+  end
+  parser.parse!(argv)
+  fail "Unexpected argument: #{argv.first}" unless argv.empty?
+  options
+end
+
+def cadence(argv)
+  options = parse_cadence_options(argv, "Usage: ruby _tools/x.rb cadence [--series NAME]")
+  snapshot = cadence_snapshot(options[:series])
+  latest = snapshot.fetch("latest")
+  candidate = snapshot.fetch("candidate")
+
+  puts "Manual cadence: one story installment every #{CADENCE_INTERVAL_HOURS} hours"
+  if latest
+    puts "Last published: #{format_local_time(publication_record_time(latest))} — #{latest.fetch("series")}#{latest["part"] ? " part #{latest["part"]}" : ""}"
+  else
+    puts "Last published: none"
+  end
+  if snapshot.fetch("due")
+    puts "Status: due now (window opened #{format_wait(snapshot.fetch("now") - snapshot.fetch("due_at"))} ago)"
+  else
+    puts "Status: not due for #{format_wait(snapshot.fetch("due_at") - snapshot.fetch("now"))}"
+  end
+  puts "Next window: #{format_local_time(snapshot.fetch("due_at"))}"
+  puts "Recommended: #{candidate.fetch("series")} — part #{candidate.fetch("part")} (#{candidate.fetch("id")})"
+  puts "Card: #{candidate.fetch("path")}"
+  puts "\nNext by series:"
+  snapshot.fetch("candidates").keys.sort.each do |series|
+    card = snapshot.fetch("candidates").fetch(series)
+    series_records = snapshot.fetch("publications_by_series")[series]
+    state = if series_records
+              last = series_records.max_by { |record| publication_record_time(record) }
+              "started; last published #{format_local_time(publication_record_time(last))}"
+            else
+              "not started"
+            end
+    puts "- #{series}: part #{card.fetch("part")} (#{state})"
+  end
+end
+
+def preview_next(argv)
+  options = parse_cadence_options(argv, "Usage: ruby _tools/x.rb preview-next [--series NAME]")
+  snapshot = cadence_snapshot(options[:series])
+  candidate = snapshot.fetch("candidate")
+  timing = snapshot.fetch("due") ? "due now" : "next window #{format_local_time(snapshot.fetch("due_at"))}"
+  puts "Cadence: #{timing}"
+  puts "Selected: #{candidate.fetch("series")} — part #{candidate.fetch("part")}\n\n"
+  preview(["--file", candidate.fetch("path")])
+end
+
+def post_next(argv)
+  options = parse_cadence_options(
+    argv,
+    "Usage: ruby _tools/x.rb post-next [--series NAME] [--override-cadence]",
+    allow_override: true
+  )
+  snapshot = cadence_snapshot(options[:series])
+  candidate = snapshot.fetch("candidate")
+  unless snapshot.fetch("due") || options.fetch(:override_cadence)
+    fail "Cadence is not due until #{format_local_time(snapshot.fetch("due_at"))}. Use --override-cadence only after an explicit decision to publish early."
+  end
+
+  if options.fetch(:override_cadence) && !snapshot.fetch("due")
+    puts "Cadence override: publishing before #{format_local_time(snapshot.fetch("due_at"))}."
+  end
+  puts "Selected: #{candidate.fetch("series")} — part #{candidate.fetch("part")} (#{candidate.fetch("id")})"
+  post(["--file", candidate.fetch("path")])
 end
 
 def append_publication(record)
@@ -438,6 +619,9 @@ def usage
       ruby _tools/x.rb authorize
       ruby _tools/x.rb post (--file CARD.json | --text "Text" [--link URL] [--image FILE]) [--dry-run]
       ruby _tools/x.rb preview --file CARD.json
+      ruby _tools/x.rb cadence [--series NAME]
+      ruby _tools/x.rb preview-next [--series NAME]
+      ruby _tools/x.rb post-next [--series NAME] [--override-cadence]
       ruby _tools/x.rb history [--limit COUNT]
       ruby _tools/x.rb me
       ruby _tools/x.rb posts [--limit COUNT]
@@ -450,6 +634,9 @@ case command
 when "authorize" then authorize
 when "post" then post(ARGV)
 when "preview" then preview(ARGV)
+when "cadence" then cadence(ARGV)
+when "preview-next" then preview_next(ARGV)
+when "post-next" then post_next(ARGV)
 when "history" then history(ARGV)
 when "me" then me
 when "posts" then posts(ARGV)
