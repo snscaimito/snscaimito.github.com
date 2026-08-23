@@ -264,6 +264,32 @@ rescue ArgumentError, KeyError
   fail "Publication record has an invalid published_at timestamp: #{record.inspect}"
 end
 
+def quote_target_for(card)
+  series = card["series"]
+  return nil unless series.is_a?(String) && !series.strip.empty?
+
+  part = card["part"]
+  fail "Story card #{card.fetch("id")} needs a positive integer part." unless part.is_a?(Integer) && part.positive?
+  return nil if part == 1
+
+  previous = publication_records.select do |record|
+    record["series"] == series && record["part"] == part - 1
+  end.max_by { |record| publication_record_time(record) }
+  fail "Story card #{card.fetch("id")} cannot quote #{series} part #{part - 1}: no recorded predecessor." unless previous
+
+  quoted_post_id = previous["x_post_id"]
+  unless quoted_post_id.is_a?(String) && !quoted_post_id.empty?
+    fail "Story card #{card.fetch("id")} cannot quote #{series} part #{part - 1}: its recorded predecessor has no X post ID."
+  end
+
+  {
+    "x_post_id" => quoted_post_id,
+    "x_post_url" => previous["x_post_url"],
+    "series" => series,
+    "part" => part - 1
+  }
+end
+
 def next_publication_cards
   cards = Dir.glob(File.join(PRIVATE_DRAFTS, "*.json")).sort.filter_map do |path|
     card = JSON.parse(File.read(path))
@@ -444,7 +470,7 @@ ensure
   File.delete(temporary_path) if temporary_path && File.exist?(temporary_path)
 end
 
-def record_publication(id, text, image_path, card_path: nil, card: nil)
+def record_publication(id, text, image_path, card_path: nil, card: nil, quote_target: nil)
   url = "https://x.com/i/web/status/#{id}"
   record = {
     "published_at" => Time.now.utc.iso8601,
@@ -456,6 +482,10 @@ def record_publication(id, text, image_path, card_path: nil, card: nil)
     "card_file" => card_path,
     "text" => text,
     "image" => image_path,
+    "quote_tweet_id" => quote_target && quote_target.fetch("x_post_id"),
+    "quote_tweet_url" => quote_target && quote_target["x_post_url"],
+    "quote_series" => quote_target && quote_target.fetch("series"),
+    "quote_part" => quote_target && quote_target.fetch("part"),
     "has_url" => text.match?(%r{https?://})
   }.compact
   append_publication(record)
@@ -466,6 +496,10 @@ def record_publication(id, text, image_path, card_path: nil, card: nil)
   card["published_at"] = record.fetch("published_at")
   card["x_post_id"] = id
   card["x_post_url"] = url
+  if quote_target
+    card["quote_tweet_id"] = quote_target.fetch("x_post_id")
+    card["quote_tweet_url"] = quote_target["x_post_url"]
+  end
   save_publication_card(card_path, card)
   url
 end
@@ -516,6 +550,7 @@ def post(argv)
     card_path, card = load_publication_card(options[:file])
     text = card.fetch("text")
     image_path = card_image_path(card)
+    quote_target = quote_target_for(card)
   else
     card_path = nil
     card = nil
@@ -523,10 +558,17 @@ def post(argv)
     image_path = options[:image]
     fail "Provide --file, --text, --link, or --image." if text.empty? && !image_path
     image_type(image_path) if image_path
+    quote_target = nil
   end
 
   if options[:dry_run]
-    puts JSON.pretty_generate("card_id" => card && card.fetch("id"), "text" => text, "image" => image_path)
+    puts JSON.pretty_generate(
+      "card_id" => card && card.fetch("id"),
+      "text" => text,
+      "image" => image_path,
+      "quote_tweet_id" => quote_target && quote_target.fetch("x_post_id"),
+      "quote_tweet_url" => quote_target && quote_target["x_post_url"]
+    )
     return
   end
 
@@ -539,9 +581,10 @@ def post(argv)
   body = {}
   body["text"] = text unless text.empty?
   body["media"] = { "media_ids" => [upload_image(image_path, token)] } if image_path
+  body["quote_tweet_id"] = quote_target.fetch("x_post_id") if quote_target
   response = x_request(:post, "/2/tweets", token: token, body: JSON.generate(body), content_type: "application/json")
   id = response.dig("data", "id") or fail "X returned no post ID."
-  url = record_publication(id, text, image_path, card_path: card_path, card: card)
+  url = record_publication(id, text, image_path, card_path: card_path, card: card, quote_target: quote_target)
   puts "Published and recorded: #{url}"
 end
 
@@ -560,6 +603,12 @@ def preview(argv)
   puts "Card: #{card_path}"
   puts "Status: #{card.fetch("status")}" 
   puts "Image: #{card_image_path(card)}" 
+  quote_target = quote_target_for(card)
+  if quote_target
+    puts "Quote post: #{quote_target.fetch("series")} part #{quote_target.fetch("part")} — #{quote_target["x_post_url"] || quote_target.fetch("x_post_id")}"
+  else
+    puts "Quote post: none (series opener)"
+  end
   puts "Characters: #{card.fetch("text").length}"
   puts "\n#{"-" * 72}\n\n#{card.fetch("text")}"
 end
@@ -587,6 +636,7 @@ def history(argv)
     puts "#{record.fetch("published_at")}  #{record.fetch("x_post_url")}  #{source}"
     puts record.fetch("text")
     puts "image #{record["image"]}" if record["image"]
+    puts "quotes #{record["quote_tweet_url"] || record["quote_tweet_id"]}" if record["quote_tweet_id"]
     puts "historical import: #{record["archive_note"]}" if record["historical_import"]
     puts
   end
