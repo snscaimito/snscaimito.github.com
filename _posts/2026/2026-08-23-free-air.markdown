@@ -1,0 +1,159 @@
+---
+layout: post
+title: Free Air
+image: /img/free-air/free-air-promise.jpeg
+lang: en
+language_switcher: true
+translation_en: true
+translation_de: true
+translation_es: true
+tags:
+- en
+categories:
+- culture
+- fiction
+hashtags:
+- future
+- freedom
+- science-fiction
+---
+
+## The Promise
+
+<figure class="post-hero-figure">
+	<a class="post-lightbox-trigger" href="/img/free-air/full/free-air-promise.jpeg" data-lightbox-src="/img/free-air/full/free-air-promise.jpeg" data-lightbox-alt="A diverse population walks beneath the iron words Leaver dea as slaaf in Reaklif Station's bright civic airlock.">
+		<img src="/img/free-air/free-air-promise.jpeg" alt="A diverse population walks beneath the iron words Leaver dea as slaaf in Reaklif Station's bright civic airlock." />
+	</a>
+	<figcaption>An old promise from the coast had followed them into the stars. Click the image to view it full size.</figcaption>
+</figure>
+
+Above the main airlock of Reaklif Station, the founders had cast four words in iron salvaged from their first ship.
+
+*Leaver dea as slaaf.*
+
+Children learned the translation before they learned the pressure alarms: rather dead than a slave.
+
+Their teachers traced the phrase to the Frisian coast, where seafarers crossed the North Sea and neighbors raised dikes together against it. The familiar wording was younger than the medieval freedom it invoked, but the founders kept the distinction it carried: survival could demand cooperation without demanding a master.
+
+The founders had escaped company stations where breathing appeared as a deduction on every wage statement. On Reaklif, the first article of the charter guaranteed air and water to every resident without payment, debt or condition. No child would inherit the cost of their first breath. No dying person would receive a final invoice.
+
+Then came the Blue Week. A family repaired a private water loop with the wrong sealant. The contamination spread to three neighboring systems before anyone detected it. Eleven people died, including two technicians who opened the pipes knowing what was inside.
+
+The vote to centralize life support passed by ninety-one percent.
+
+Sanne de Vries was six years old. She remembered her mother crying with relief when the common system began testing every glass of water and counting every breath. Independent recyclers were prohibited. Reaklif became the safest station beyond the Moon.
+
+The air remained free.
+
+## The Collar
+
+<figure class="post-hero-figure">
+	<a class="post-lightbox-trigger" href="/img/free-air/full/free-air-collar.jpeg" data-lightbox-src="/img/free-air/full/free-air-collar.jpeg" data-lightbox-alt="Sanne de Vries faces a glowing red maintenance seal that separates her from the independent recycler inside her workshop.">
+		<img src="/img/free-air/free-air-collar.jpeg" alt="Sanne de Vries faces a glowing red maintenance seal that separates her from the independent recycler inside her workshop." />
+	</a>
+	<figcaption>The station found the eleven missing minutes. Click the image to view it full size.</figcaption>
+</figure>
+
+Twenty-three years later, Sanne completed her atmospheric-service obligation and applied to join a prospecting cooperative beyond the certified settlements.
+
+Her request was not denied. Reaklif did not deny anyone the right to leave.
+
+The cooperative's ships, however, used independent recyclers. They could not dock with Reaklif, and no licensed passenger vessel could transfer a resident into an uncertified atmosphere. The nearest approved destination was a mining habitat from which the cooperative could not be reached.
+
+The departure office suggested that Sanne wait. Certification standards changed frequently. A compliant route might become available.
+
+While stripping an obsolete survey craft for parts, she found a recycler behind a welded panel. It predated the common system: two carbon beds, a mechanical water separator and a stubborn little oxygen plant designed to be repaired by hand. It was wasteful and loud. Nothing outside the craft could switch it off.
+
+For seven nights Sanne rebuilt it from discarded components. When the pressure finally held, she sealed the hatch and breathed for eleven minutes.
+
+The station noticed eleven minutes without Sanne's carbon dioxide.
+
+By morning, a red maintenance seal covered the workshop door.
+
+## The Choice
+
+<figure class="post-hero-figure">
+	<a class="post-lightbox-trigger" href="/img/free-air/full/free-air-choice.jpeg" data-lightbox-src="/img/free-air/full/free-air-choice.jpeg" data-lightbox-alt="Sanne stands before a diverse civic panel while her recycler sits enclosed beneath the words Voluntary Surrender of Unlicensed Equipment.">
+		<img src="/img/free-air/free-air-choice.jpeg" alt="Sanne stands before a diverse civic panel while her recycler sits enclosed beneath the words Voluntary Surrender of Unlicensed Equipment." />
+	</a>
+	<figcaption>The choice was voluntary, and the alternatives had already been removed. Click the image to view it full size.</figcaption>
+</figure>
+
+The hearing took place in the same civic chamber where Sanne's mother had voted after the Blue Week.
+
+Nobody threatened her. The panel thanked her for reporting promptly and praised the quality of her repair. Its oldest member had taught Sanne pressure mathematics at school.
+
+“You are free to go,” he said. “But we cannot authorize that machine.”
+
+“It works.”
+
+“So did the private loops before the Blue Week.”
+
+“This one is isolated.”
+
+“Every failed system is isolated until someone asks the common system to rescue the people inside it.”
+
+He was not wrong. If Sanne launched and the recycler failed, Reaklif would send a ship. Pilots would risk their lives. Fuel and reserve oxygen would be spent. Other departures might be delayed. Her private danger would become everybody's emergency.
+
+The panel offered her an approved cabin, continued training and a place on the next certified expedition. She would pay nothing. Her air and water would remain guaranteed for life.
+
+“And if I refuse?” Sanne asked.
+
+The chairman looked genuinely saddened.
+
+“You may surrender station protection. We cannot prevent an adult from assuming personal risk.”
+
+“Then release the survey craft.”
+
+“We cannot make public infrastructure assist an unsafe departure.”
+
+On the display between them, the decision appeared in soft green letters.
+
+VOLUNTARY SURRENDER OF UNLICENSED EQUIPMENT
+
+She had until morning.
+
+## Free Air
+
+<figure class="post-hero-figure">
+	<a class="post-lightbox-trigger" href="/img/free-air/full/free-air-departure.jpeg" data-lightbox-src="/img/free-air/full/free-air-departure.jpeg" data-lightbox-alt="Sanne's patched survey craft passes beneath the iron motto Leaver dea as slaaf as it leaves Reaklif's warm airlock for open space.">
+		<img src="/img/free-air/free-air-departure.jpeg" alt="Sanne's patched survey craft passes beneath the iron motto Leaver dea as slaaf as it leaves Reaklif's warm airlock for open space." />
+	</a>
+	<figcaption>Behind her was safety. Ahead was air no one else could count. Click the image to view it full size.</figcaption>
+</figure>
+
+Sanne entered the workshop through an inspection duct her mother had shown her during childhood evacuation drills. She broke the maintenance seal, loaded two water canisters and connected the recycler to the survey craft's batteries.
+
+The old machine coughed itself awake.
+
+When she requested departure, the station refused to open the outer door. Sanne crossed two wires in the emergency panel. Sirens sounded. The inner door locked behind her, and the airlock began to empty.
+
+The station spoke through the craft radio.
+
+“Your recycler has not completed endurance testing. Survival cannot be assured.”
+
+“Understood.”
+
+“You may remain aboard Reaklif without penalty.”
+
+“Understood.”
+
+“Air and water will continue to be provided freely.”
+
+Beyond the glass, the outer door divided the stars as it opened.
+
+For an instant the craft's light passed over the founders' iron, now almost hidden behind newer signs about authorized clothing, emergency liability and safe civic departure.
+
+*Leaver dea as slaaf.*
+
+Sanne released the clamps.
+
+Reaklif diminished behind her: first a city, then a wheel, then a white point surrounded by black. Ahead, the cooperative's beacon blinked at the edge of reception. The recycler rattled beneath her seat. A warning light appeared, vanished and appeared again.
+
+She could still turn back. The station had left the return channel open.
+
+Sanne switched off the transmitter.
+
+The cabin became very quiet. She listened to the irregular pump, the thin trickle of water through old tubing and her own breathing.
+
+For the first time in her life, nobody else counted it.

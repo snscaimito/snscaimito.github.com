@@ -33,6 +33,9 @@ IMAGE_TYPES = {
   ".jpg" => "image/jpeg", ".jpeg" => "image/jpeg", ".png" => "image/png",
   ".gif" => "image/gif", ".webp" => "image/webp"
 }.freeze
+ARTICLE_BLOCK_TYPES = %w[
+  unstyled header-one header-two header-three unordered-list-item ordered-list-item blockquote atomic
+].freeze
 
 def fail(message)
   warn "Error: #{message}"
@@ -532,6 +535,186 @@ def upload_image(path, token)
   media_id
 end
 
+def article_source_path(path, label)
+  expanded_path = File.expand_path(path)
+  fail "#{label} not found: #{expanded_path}" unless File.file?(expanded_path)
+
+  expanded_path
+end
+
+def article_block(text, type)
+  { "text" => text, "type" => type }
+end
+
+def markdown_article_content_state(markdown, source_path)
+  markdown = markdown.sub(/\A---\r?\n.*?\r?\n---\s*(?:\r?\n)?/m, "")
+  blocks = []
+  entities = []
+  embedded_images = []
+  paragraph = []
+  flush_paragraph = lambda do
+    next if paragraph.empty?
+
+    text = paragraph.join("\n").strip
+    blocks << article_block(text, "unstyled") unless text.empty?
+    paragraph.clear
+  end
+
+  markdown.each_line do |line|
+    line = line.chomp
+    if line.strip.empty?
+      flush_paragraph.call
+      next
+    end
+
+    image_match = line.match(/\A!\[([^\]]*)\]\(([^)]+)\)\s*\z/)
+    if image_match
+      flush_paragraph.call
+      caption = image_match[1]
+      image_path = File.expand_path(image_match[2], File.dirname(source_path))
+      image_type(image_path)
+      entity_index = entities.length
+      marker = "__LOCAL_ARTICLE_IMAGE_#{entity_index}__"
+      entity_data = {
+        "media_items" => [{ "media_category" => "tweet_image", "media_id" => marker }]
+      }
+      entity_data["caption"] = caption unless caption.empty?
+      entities << {
+        "key" => entity_index.to_s,
+        "value" => { "type" => "image", "mutability" => "immutable", "data" => entity_data }
+      }
+      blocks << {
+        "text" => " ",
+        "type" => "atomic",
+        "entity_ranges" => [{ "key" => entity_index, "offset" => 0, "length" => 1 }]
+      }
+      embedded_images << { "entity_index" => entity_index, "path" => image_path, "caption" => caption }
+    elsif (match = line.match(/\A(\#{1,3})\s+(.+)\z/))
+      flush_paragraph.call
+      blocks << article_block(match[2], "header-#{%w[one two three][match[1].length - 1]}")
+    elsif (match = line.match(/\A\s*[-*+]\s+(.+)\z/))
+      flush_paragraph.call
+      blocks << article_block(match[1], "unordered-list-item")
+    elsif (match = line.match(/\A\s*\d+\.\s+(.+)\z/))
+      flush_paragraph.call
+      blocks << article_block(match[1], "ordered-list-item")
+    elsif (match = line.match(/\A>\s?(.+)\z/))
+      flush_paragraph.call
+      blocks << article_block(match[1], "blockquote")
+    else
+      paragraph << line
+    end
+  end
+  flush_paragraph.call
+  fail "Markdown source has no publishable text." if blocks.empty?
+
+  [{ "blocks" => blocks, "entities" => entities }, embedded_images]
+end
+
+def validate_article_content_state(content_state)
+  unless content_state.is_a?(Hash) && content_state["blocks"].is_a?(Array) && content_state["entities"].is_a?(Array)
+    fail "Article content state must be a JSON object with blocks and entities arrays."
+  end
+  fail "Article content state has no blocks." if content_state.fetch("blocks").empty?
+
+  content_state.fetch("blocks").each_with_index do |block, index|
+    unless block.is_a?(Hash) && block["text"].is_a?(String) && ARTICLE_BLOCK_TYPES.include?(block["type"])
+      fail "Article content-state block #{index + 1} needs text and a supported DraftJS type."
+    end
+  end
+end
+
+def load_article_content_state(markdown_path: nil, content_state_path: nil)
+  if markdown_path
+    path = article_source_path(markdown_path, "Markdown source")
+    content_state, embedded_images = markdown_article_content_state(File.read(path), path)
+    source = { "format" => "markdown", "path" => path }
+  else
+    path = article_source_path(content_state_path, "Content-state JSON")
+    content_state = JSON.parse(File.read(path))
+    embedded_images = []
+    source = { "format" => "content_state", "path" => path }
+  end
+  validate_article_content_state(content_state)
+  [content_state, source, embedded_images]
+rescue JSON::ParserError => error
+  fail "Content-state JSON is not valid JSON: #{error.message}"
+end
+
+def upload_embedded_article_images(content_state, embedded_images, token)
+  embedded_images.each do |image|
+    media_id = upload_image(image.fetch("path"), token)
+    entity = content_state.fetch("entities").fetch(image.fetch("entity_index"))
+    entity.fetch("value").fetch("data").fetch("media_items").first["media_id"] = media_id
+  end
+end
+
+def article(argv)
+  options = { dry_run: false, draft_only: false }
+  parser = OptionParser.new do |opts|
+    opts.banner = "Usage: ruby _tools/x.rb article --title TITLE (--markdown FILE.md | --content-state FILE.json) [--cover IMAGE] [--draft-only] [--dry-run]"
+    opts.on("--title TITLE", "Article title") { |value| options[:title] = value }
+    opts.on("--markdown FILE", "Markdown source; converts headings, lists, quotes, and paragraphs to DraftJS blocks") { |value| options[:markdown] = value }
+    opts.on("--content-state FILE", "Complete DraftJS content-state JSON") { |value| options[:content_state] = value }
+    opts.on("--cover FILE", "Optional JPG, PNG, GIF, or WebP cover image") { |value| options[:cover] = value }
+    opts.on("--draft-only", "Create and retain an X Article draft without publishing it") { options[:draft_only] = true }
+    opts.on("--dry-run", "Show the Article request without calling X") { options[:dry_run] = true }
+  end
+  parser.parse!(argv)
+  fail "Unexpected argument: #{argv.first}" unless argv.empty?
+  fail "--title is required." unless options[:title].is_a?(String) && !options[:title].strip.empty?
+  fail "Provide exactly one of --markdown or --content-state." unless [options[:markdown], options[:content_state]].compact.one?
+
+  content_state, source, embedded_images = load_article_content_state(markdown_path: options[:markdown], content_state_path: options[:content_state])
+  cover_path = File.expand_path(options[:cover]) if options[:cover]
+  image_type(cover_path) if cover_path
+
+  if options[:dry_run]
+    puts JSON.pretty_generate(
+      "title" => options[:title],
+      "content_state" => content_state,
+      "source" => source,
+      "cover_image" => cover_path,
+      "embedded_images" => embedded_images,
+      "action" => options[:draft_only] ? "create draft" : "create draft, then publish"
+    )
+    return
+  end
+
+  token = access_token
+  upload_embedded_article_images(content_state, embedded_images, token)
+  request_body = { "title" => options[:title], "content_state" => content_state }
+  if cover_path
+    request_body["cover_media"] = {
+      "media_category" => "tweet_image",
+      "media_id" => upload_image(cover_path, token)
+    }
+  end
+  draft = x_request(:post, "/2/articles/draft", token: token, body: JSON.generate(request_body), content_type: "application/json")
+  article_id = draft.dig("data", "id") or fail "X returned no Article ID."
+  if options[:draft_only]
+    puts "Article draft created: #{article_id}"
+    return
+  end
+
+  published = x_request(:post, "/2/articles/#{article_id}/publish", token: token)
+  post_id = published.dig("data", "post_id") or fail "X returned no announcement post ID for Article #{article_id}."
+  post_url = "https://x.com/i/web/status/#{post_id}"
+  append_publication(
+    "published_at" => Time.now.utc.iso8601,
+    "publication_type" => "article",
+    "article_id" => article_id,
+    "article_title" => options[:title],
+    "article_source" => source,
+    "article_content_state" => content_state,
+    "x_post_id" => post_id,
+    "x_post_url" => post_url,
+    "text" => options[:title],
+    "cover_image" => cover_path
+  )
+  puts "Article published and recorded: #{post_url}"
+end
+
 def post(argv)
   options = { dry_run: false }
   parser = OptionParser.new do |opts|
@@ -634,7 +817,12 @@ def history(argv)
                "manual"
              end
     puts "#{record.fetch("published_at")}  #{record.fetch("x_post_url")}  #{source}"
-    puts record.fetch("text")
+    if record["publication_type"] == "article"
+      puts "Article: #{record.fetch("article_title")} (#{record.fetch("article_id")})"
+      puts "cover #{record["cover_image"]}" if record["cover_image"]
+    else
+      puts record.fetch("text")
+    end
     puts "image #{record["image"]}" if record["image"]
     puts "quotes #{record["quote_tweet_url"] || record["quote_tweet_id"]}" if record["quote_tweet_id"]
     puts "historical import: #{record["archive_note"]}" if record["historical_import"]
@@ -668,6 +856,7 @@ def usage
     Usage:
       ruby _tools/x.rb authorize
       ruby _tools/x.rb post (--file CARD.json | --text "Text" [--link URL] [--image FILE]) [--dry-run]
+      ruby _tools/x.rb article --title "Title" (--markdown FILE.md | --content-state FILE.json) [--cover IMAGE] [--draft-only] [--dry-run]
       ruby _tools/x.rb preview --file CARD.json
       ruby _tools/x.rb cadence [--series NAME]
       ruby _tools/x.rb preview-next [--series NAME]
@@ -683,6 +872,7 @@ command = ARGV.shift
 case command
 when "authorize" then authorize
 when "post" then post(ARGV)
+when "article" then article(ARGV)
 when "preview" then preview(ARGV)
 when "cadence" then cadence(ARGV)
 when "preview-next" then preview_next(ARGV)

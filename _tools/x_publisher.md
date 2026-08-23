@@ -102,13 +102,35 @@ ruby _tools/x.rb history
 
 When publishing a card, the CLI first rejects anything other than a `draft` and refuses a card already present in the ledger. After X confirms publication, it appends the ledger record and updates the card with `published` status, timestamp, X post ID, X URL, and quote target where applicable. The ledger and the cards are local and Git-ignored.
 
-The tool has been authorized and has successfully read the latest post from the configured account. A disposable test post has confirmed live text publishing, image upload, and link attachment. Long-form publishing remains to be confirmed separately.
+The tool has been authorized and has successfully read the latest post from the configured account. Live use has confirmed regular text publishing, image upload, native longer posts, and Article draft/publish flow with embedded Article images. Article publication remains a separate, explicit command.
 
-## Long-form publishing strategy
+## Publishing format decision
 
-X Premium subscribers can create native longer posts (up to 25,000 characters) with images. That is the appropriate X format for this local API workflow, subject to the account’s entitlement; the first approved long-form publication will confirm it live.
+Use native longer posts for a serialized story. Every chapter remains an independent top-level post, and part 2 onward quotes the immediately preceding recorded part. This gives the series an X-native reading path, keeps replies on the chapter post, and preserves the existing cadence, preview, duplicate, and fail-closed predecessor safeguards.
 
-X Articles are richer and suit long-form reading, but X documents their creation through the Articles tab on x.com. No public X API endpoint for publishing Articles has been identified, so Articles are not part of this CLI workflow.
+Use an X Article for a complete standalone story or essay that benefits from rich layout, a cover, and inline images. Do not use Articles for a chapter-by-chapter serial: the Articles API cannot make a published Article announcement quote its predecessor, update a published Article body, or add forward navigation after a later chapter exists.
+
+This is a publication-format choice made for each approved work. It does not change the existing regular-post workflow or automatically convert any queued story.
+
+## X Articles
+
+X Articles are an opt-in extension to the existing post/card workflow. They do not affect `post`, `preview`, cadence, prepared story cards, or quote-post chaining. Invoke the Article command only for a specifically approved standalone publication.
+
+The command creates an X Article draft and publishes it immediately by default. Use `--dry-run` to review the exact DraftJS request locally, or `--draft-only` to create a draft without making it public:
+
+```sh
+ruby _tools/x.rb article --title "A considered Article" --markdown article.md --cover image.png --dry-run
+ruby _tools/x.rb article --title "A considered Article" --markdown article.md --cover image.png
+ruby _tools/x.rb article --title "A considered Article" --content-state article.json --draft-only
+```
+
+`--markdown` converts paragraphs, level-one through level-three headings, ordered and unordered list items, and block quotes into DraftJS blocks. A standalone Markdown image line such as `![A short caption](images/divider.jpeg)` becomes an atomic Article image block: the CLI uploads the local image, adds its media ID to an `image` entity, and places the block at that point in the Article. It is best for straightforward prose. The `--title` value is the Article heading rendered by X; do not repeat that title as a Markdown `#` heading in the body. For rich formatting, links, code, tables, dividers, LaTeX, or embedded posts, provide the complete native DraftJS state with `--content-state`; the CLI passes it through after structural validation. `--cover` uploads a JPG, PNG, GIF, or WebP through the existing media-upload flow and sends its `tweet_image` media ID as the Article cover.
+
+On publication, the local ledger records the Article ID, exact title and content state, source file, optional cover image, and the announcement-post URL returned by X. Replies belong to that announcement post, not to individual Article blocks. A draft-only command prints its Article ID but deliberately does not write a publication record. The Articles endpoints require the existing user-context OAuth flow and the account's current X Article eligibility.
+
+The current Article command accepts a standalone Markdown file or native DraftJS JSON. It does not yet import a Jekyll `_post` directly: passing an existing post with site `<figure>` markup would render that markup as text. Keep using source-backed cards for serialized `_posts`. A future Jekyll importer must remove front matter, turn each site figure into an atomic Article image, select a cover image, and preserve canonical chapter boundaries before it is used for site posts.
+
+Articles can link back to an earlier announcement through a DraftJS link or embedded-post entity, but this is only one-way. The documented API has draft creation and publication endpoints, not Article editing or a `quote_tweet_id` option. For durable two-way navigation among Article-sized chapters, use an editable site-hosted series index; do not pretend the Article API supplies a native quote chain.
 
 ## Story distribution rule
 
