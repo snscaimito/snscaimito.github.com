@@ -55,7 +55,7 @@ ruby _tools/x.rb post --text 'A considered post.' --link 'https://example.com' -
 Preview a prepared publication card without contacting X:
 
 ```sh
-ruby _tools/x.rb preview --file _tools/private-drafts/the-little-oracle-01.json
+ruby _tools/x.rb preview --file _tools/publication-queue/the-little-oracle-01.json
 ```
 
 The preview prints the exact text, status, character count, absolute image path, and—when applicable—the preceding installment that the post will quote. It validates the JSON and image but does not authorize, refresh a token, upload media, or publish. Codex can render the reported image path in this chat when you ask to preview a card.
@@ -69,7 +69,7 @@ ruby _tools/x.rb preview-next
 ruby _tools/x.rb preview-next --series 'The Mouth Between Suns'
 ```
 
-The cadence is one story installment every 24 hours. The recommendation considers only prepared `draft` cards, continues each series in part order, and mixes topics by preferring the started series that has waited longest. A series that has not started becomes eligible after no started series has a publishable next card. This is calculated only when the command runs; there is no scheduler, daemon, polling process, or background publication.
+The cadence is one story installment every 24 hours. The recommendation considers only final `queued` cards, continues each series in part order, and mixes topics by preferring the started series that has waited longest. A series that has not started becomes eligible after no started series has a publishable next card. This is calculated only when the command runs; there is no scheduler, daemon, polling process, or background publication.
 
 Publish only after reviewing the exact copy and image:
 
@@ -82,7 +82,7 @@ The link is appended to the text. Images may be JPG, PNG, GIF, or WebP, up to 5 
 Publish an approved prepared card the same way:
 
 ```sh
-ruby _tools/x.rb post --file _tools/private-drafts/the-little-oracle-01.json
+ruby _tools/x.rb post --file _tools/publication-queue/the-little-oracle-01.json
 ```
 
 Publish the recommended next installment only in response to an explicit request:
@@ -92,7 +92,7 @@ ruby _tools/x.rb post-next
 ruby _tools/x.rb post-next --series 'Bread and Games'
 ```
 
-`post-next` refuses to publish before the 24-hour window. An explicit decision to publish early can be carried out with `--override-cadence`; that option bypasses only the timing check, never the draft-status or duplicate-publication safeguards.
+`post-next` refuses to publish before the 24-hour window. An explicit decision to publish early can be carried out with `--override-cadence`; that option bypasses only the timing check, never the queue-status or duplicate-publication safeguards.
 
 Every successful API publication is written locally to `_tools/.x-publisher/publications.jsonl`, including its X post ID, URL, timestamp, exact text, attached image, source card, and quote target when present. Historical posts recovered from X are kept separately in `_tools/.x-publisher/historical-publications.jsonl`; they retain their confirmed IDs, URLs, and timestamps without pretending to be newly published. Review the combined history without contacting X:
 
@@ -100,13 +100,13 @@ Every successful API publication is written locally to `_tools/.x-publisher/publ
 ruby _tools/x.rb history
 ```
 
-When publishing a card, the CLI first rejects anything other than a `draft` and refuses a card already present in the ledger. After X confirms publication, it appends the ledger record and updates the card with `published` status, timestamp, X post ID, X URL, and quote target where applicable. The ledger and the cards are local and Git-ignored.
+When publishing a card, the CLI first rejects anything other than `queued` and refuses a card already present in the ledger. After X confirms publication, it appends the ledger record and updates the card with `published` status, timestamp, X post ID, X URL, and quote target where applicable. The ledger and the queue are local and Git-ignored.
 
 The tool has been authorized and has successfully read the latest post from the configured account. Live use has confirmed regular text publishing, image upload, native longer posts, and Article draft/publish flow with embedded Article images. Article publication remains a separate, explicit command.
 
 ## Publishing format decision
 
-Use native longer posts for a serialized story. Every chapter remains an independent top-level post, and part 2 onward quotes the immediately preceding recorded part. This gives the series an X-native reading path, keeps replies on the chapter post, and preserves the existing cadence, preview, duplicate, and fail-closed predecessor safeguards.
+Use native longer posts for a serialized story. Every chapter remains an independent top-level post; part 2 onward quotes the recorded part 1 hub, and part 1 receives a direct navigation reply that natively quotes each new chapter. This gives the series an X-native two-way reading path while preserving the existing cadence, preview, duplicate, and fail-closed opener safeguards.
 
 Use an X Article for a complete standalone story or essay that benefits from rich layout, a cover, and inline images. Do not use Articles for a chapter-by-chapter serial: the Articles API cannot make a published Article announcement quote its predecessor, update a published Article body, or add forward navigation after a later chapter exists.
 
@@ -138,17 +138,19 @@ X is a distribution mechanism for the full canonical story—not a place to publ
 
 Divide only at existing article chapter or scene boundaries. If the article has an introduction before its first chapter, include it with the first card. Each source-backed card posts every word of the selected narrative body unaltered, in source order. The only removed material is the website's section heading, Jekyll front matter, and site-only image/lightbox markup. Do not add a title, series label, part number, link, or rewritten closing to the narrative.
 
-Every prepared story post is a three-part publication package: the complete canonical chapter or scene text as written, its matching image, and a separate compact footer containing exactly one series-identifying hashtag, for example `Part of #TheMouthBetweenSuns.` The footer is part of the package, not part of the story text. A footer never makes a summary, excerpt, adaptation, or rewritten scene acceptable.
+Every prepared story post is a three-part publication package: the complete canonical chapter or scene text as written, its matching image, and a separate plain-language footer in the exact form `<Series Title> — a serialized story.` For example: `The Mouth Between Suns — a serialized story.` Do not use hashtags; they no longer serve as the series identifier. The footer is part of the package, not part of the story text. A footer never makes a summary, excerpt, adaptation, or rewritten scene acceptable.
 
-## Series linking through quote posts
+## Series linking through the part 1 hub
 
-Each series opener (part 1) is a normal top-level X post. Every later prepared installment is also a top-level post, but quotes the immediately preceding recorded part in the same series. This preserves independent timeline reach while giving readers a direct path back through the series. Do not use X replies for this workflow, and do not add a title, summary, teaser, CTA, or body link to create the connection: the X quote relationship is the only link.
+Each series opener (part 1) is the permanent hub and a normal top-level X post. Every later installment is another top-level post that natively quotes part 1. After that installment succeeds, the publisher creates a direct reply beneath part 1 whose text is only `Part N` and which natively quotes the new installment. The root therefore carries forward links to every later part, while every later part links back to the root.
 
-For a prepared card with part 2 or later, the publisher requires a local publication record for exactly the preceding part with an X post ID. It sends that ID as `quote_tweet_id`, records it in both the publication ledger and the card, and refuses publication when the predecessor is missing or cannot be identified. `preview --file <card>` and `post --file <card> --dry-run` show the quote target before any X request. Use the Ruby CLI only; do not create the quote through browser automation.
+The publisher uses X reference fields for both directions. The installment request sends `quote_tweet_id` for part 1. The navigation request sends `reply.in_reply_to_tweet_id` for part 1 and `quote_tweet_id` for the new installment. It deliberately puts no URL in the navigation text: X's pay-per-use pricing distinguishes ordinary content creation from the more expensive “Content: Create (with URL)” operation. The navigation reply remains a second content-create request, but it is URL-free. Recheck the [current X API pricing](https://docs.x.com/x-api/getting-started/pricing) before live use because rates and entitlements can change.
 
-Previously published top-level posts cannot be retroactively linked without reposting. Begin the quote chain at the next unpublished installment: for example, the next *The Mouth Between Suns* card quotes its recorded part 3 post; the following card quotes that newly published part 4 post.
+For a prepared card with part 2 or later, the publisher requires a local publication record for part 1 with an X post ID and refuses publication when the opener cannot be identified. `preview --file <card>` and `post --file <card> --dry-run` show the root quote plus the URL-free navigation reply before any X request. Use the Ruby CLI only; do not create either relationship through browser automation.
 
-The source-backed cards for *The Mouth Between Suns* and *Mobility, As Authorized* follow this rule. Unpublished cards remain `draft`—not approved or scheduled—and are kept locally in `_tools/private-drafts/`. `preview --file <card>` displays the exact distribution payload, while `post --file <card>` sends that same payload to X and records the outcome locally.
+The installment is recorded immediately after X creates it, before the root reply is attempted, so a second-request failure cannot cause a duplicate installment. Its card remains marked with `series_root_reply_status: pending`; rerunning the same `post --file` command retries only the missing root reply. A successful navigation reply receives its own ledger record and changes the relationship status to `published` on the card.
+
+The source-backed cards for *The Mouth Between Suns* and *Mobility, As Authorized* follow this rule. Final unpublished packages remain `queued`—ready for an explicit publication decision but not scheduled—and are kept locally in `_tools/publication-queue/`. `preview --file <card>` displays the exact distribution payload, while `post --file <card>` sends that same payload to X and records the outcome locally.
 
 ## Scheduling and measurement
 

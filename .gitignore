@@ -8,4 +8,4 @@ vendor/bundle/
 .x-publisher/
 .x-publisher-token.json
 _tools/.x-publisher/
-_tools/private-drafts/
+_tools/publication-queue/

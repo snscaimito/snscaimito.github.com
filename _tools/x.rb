@@ -26,7 +26,7 @@ STATE = File.join(TOOLS, ".x-publisher")
 TOKEN_FILE = File.join(STATE, "token.json")
 PUBLICATIONS_FILE = File.join(STATE, "publications.jsonl")
 HISTORICAL_PUBLICATIONS_FILE = File.join(STATE, "historical-publications.jsonl")
-PRIVATE_DRAFTS = File.join(TOOLS, "private-drafts")
+PUBLICATION_QUEUE = File.join(TOOLS, "publication-queue")
 CADENCE_INTERVAL_HOURS = 24
 SCOPES = %w[tweet.read tweet.write users.read media.write offline.access].freeze
 IMAGE_TYPES = {
@@ -190,14 +190,12 @@ rescue JSON::ParserError => error
 end
 
 def validate_story_package(card, card_path)
-  return unless card["status"] == "draft" && card["series"].is_a?(String) && !card["series"].strip.empty?
+  return unless card["status"] == "queued" && card["series"].is_a?(String) && !card["series"].strip.empty?
 
   footer = card["footer"]
-  hashtags = footer.is_a?(String) ? footer.scan(/#[A-Za-z0-9_]+/) : []
-  series_key = card.fetch("series").gsub(/[^A-Za-z0-9]/, "").downcase
-  hashtag_key = hashtags.one? ? hashtags.first.delete_prefix("#").delete("_").downcase : nil
-  unless footer.is_a?(String) && !footer.strip.empty? && hashtag_key == series_key
-    fail "Draft story card #{card_path} needs one separate hashtag footer identifying #{card.fetch("series")}."
+  expected_footer = "#{card.fetch("series")} — a serialized story."
+  unless footer == expected_footer && !footer.include?("#")
+    fail "Queued story card #{card_path} needs the plain-language footer #{expected_footer.inspect} and no hashtags."
   end
 end
 
@@ -267,7 +265,7 @@ rescue ArgumentError, KeyError
   fail "Publication record has an invalid published_at timestamp: #{record.inspect}"
 end
 
-def quote_target_for(card)
+def quote_target_for(card, records: publication_records)
   series = card["series"]
   return nil unless series.is_a?(String) && !series.strip.empty?
 
@@ -275,28 +273,48 @@ def quote_target_for(card)
   fail "Story card #{card.fetch("id")} needs a positive integer part." unless part.is_a?(Integer) && part.positive?
   return nil if part == 1
 
-  previous = publication_records.select do |record|
-    record["series"] == series && record["part"] == part - 1
+  opener = records.select do |record|
+    record["series"] == series && record["part"] == 1
   end.max_by { |record| publication_record_time(record) }
-  fail "Story card #{card.fetch("id")} cannot quote #{series} part #{part - 1}: no recorded predecessor." unless previous
+  fail "Story card #{card.fetch("id")} cannot quote #{series} part 1: no recorded series opener." unless opener
 
-  quoted_post_id = previous["x_post_id"]
+  quoted_post_id = opener["x_post_id"]
   unless quoted_post_id.is_a?(String) && !quoted_post_id.empty?
-    fail "Story card #{card.fetch("id")} cannot quote #{series} part #{part - 1}: its recorded predecessor has no X post ID."
+    fail "Story card #{card.fetch("id")} cannot quote #{series} part 1: its recorded series opener has no X post ID."
   end
 
   {
     "x_post_id" => quoted_post_id,
-    "x_post_url" => previous["x_post_url"],
+    "x_post_url" => opener["x_post_url"],
     "series" => series,
-    "part" => part - 1
+    "part" => 1
+  }
+end
+
+def series_root_reply_text(card)
+  part = card["part"]
+  fail "Story card #{card.fetch("id")} needs a later installment for a series-root reply." unless part.is_a?(Integer) && part > 1
+
+  text = "Part #{part}"
+  fail "Series-root reply text must not contain a URL." if text.match?(%r{https?://})
+  text
+end
+
+def series_root_reply_body(card, root_target, installment_id)
+  fail "Series-root reply needs the part 1 target." unless root_target && root_target["part"] == 1
+  fail "Series-root reply needs the new installment post ID." unless installment_id.is_a?(String) && !installment_id.empty?
+
+  {
+    "text" => series_root_reply_text(card),
+    "reply" => { "in_reply_to_tweet_id" => root_target.fetch("x_post_id") },
+    "quote_tweet_id" => installment_id
   }
 end
 
 def next_publication_cards
-  cards = Dir.glob(File.join(PRIVATE_DRAFTS, "*.json")).sort.filter_map do |path|
+  cards = Dir.glob(File.join(PUBLICATION_QUEUE, "*.json")).sort.filter_map do |path|
     card = JSON.parse(File.read(path))
-    next unless card["status"] == "draft"
+    next unless card["status"] == "queued"
     next unless card["series"].is_a?(String) && !card["series"].strip.empty?
     next unless card["part"].is_a?(Integer) && card["part"].positive?
 
@@ -326,7 +344,7 @@ end
 
 def cadence_snapshot(requested_series = nil, now: Time.now)
   candidates = next_publication_cards
-  fail "No draft story cards are available." if candidates.empty?
+  fail "No queued story cards are available." if candidates.empty?
 
   records = publication_records.select do |record|
     record["series"].is_a?(String) && !record["series"].strip.empty?
@@ -489,6 +507,7 @@ def record_publication(id, text, image_path, card_path: nil, card: nil, quote_ta
     "quote_tweet_url" => quote_target && quote_target["x_post_url"],
     "quote_series" => quote_target && quote_target.fetch("series"),
     "quote_part" => quote_target && quote_target.fetch("part"),
+    "series_root_reply_status" => quote_target && "pending",
     "has_url" => text.match?(%r{https?://})
   }.compact
   append_publication(record)
@@ -502,9 +521,45 @@ def record_publication(id, text, image_path, card_path: nil, card: nil, quote_ta
   if quote_target
     card["quote_tweet_id"] = quote_target.fetch("x_post_id")
     card["quote_tweet_url"] = quote_target["x_post_url"]
+    card["series_root_post_id"] = quote_target.fetch("x_post_id")
+    card["series_root_post_url"] = quote_target["x_post_url"]
+    card["series_root_reply_status"] = "pending"
   end
   save_publication_card(card_path, card)
   url
+end
+
+def publish_series_root_reply(card_path, card, root_target, installment_id, token)
+  installment_url = "https://x.com/i/web/status/#{installment_id}"
+  body = series_root_reply_body(card, root_target, installment_id)
+  response = x_request(:post, "/2/tweets", token: token, body: JSON.generate(body), content_type: "application/json")
+  reply_id = response.dig("data", "id") or fail "X returned no series-root reply post ID."
+  reply_url = "https://x.com/i/web/status/#{reply_id}"
+  published_at = Time.now.utc.iso8601
+
+  append_publication(
+    "published_at" => published_at,
+    "publication_type" => "series_root_reply",
+    "x_post_id" => reply_id,
+    "x_post_url" => reply_url,
+    "source_card_id" => card.fetch("id"),
+    "series" => card.fetch("series"),
+    "linked_part" => card.fetch("part"),
+    "text" => body.fetch("text"),
+    "reply_to_tweet_id" => root_target.fetch("x_post_id"),
+    "reply_to_tweet_url" => root_target["x_post_url"],
+    "quote_tweet_id" => installment_id,
+    "quote_tweet_url" => installment_url,
+    "has_url" => false
+  )
+
+  card["series_root_reply_status"] = "published"
+  card["series_root_reply_published_at"] = published_at
+  card["series_root_reply_post_id"] = reply_id
+  card["series_root_reply_post_url"] = reply_url
+  card["series_root_reply_text"] = body.fetch("text")
+  save_publication_card(card_path, card)
+  reply_url
 end
 
 def wait_for_media(media_id, token, result)
@@ -745,18 +800,34 @@ def post(argv)
   end
 
   if options[:dry_run]
+    installment_id = card && card["x_post_id"] || "<new installment post ID>"
+    root_reply = quote_target && series_root_reply_body(card, quote_target, installment_id)
     puts JSON.pretty_generate(
       "card_id" => card && card.fetch("id"),
       "text" => text,
       "image" => image_path,
       "quote_tweet_id" => quote_target && quote_target.fetch("x_post_id"),
-      "quote_tweet_url" => quote_target && quote_target["x_post_url"]
+      "quote_tweet_url" => quote_target && quote_target["x_post_url"],
+      "series_root_reply" => root_reply && {
+        "text" => root_reply.fetch("text"),
+        "reply_to_tweet_id" => root_reply.dig("reply", "in_reply_to_tweet_id"),
+        "quote_tweet_id" => root_reply.fetch("quote_tweet_id"),
+        "contains_url" => root_reply.fetch("text").match?(%r{https?://})
+      }
     )
     return
   end
 
   if card
-    fail "Publication card #{card_path} is #{card.fetch("status")}, not draft." unless card.fetch("status") == "draft"
+    if card.fetch("status") == "published" && card["series_root_reply_status"] == "pending"
+      installment_id = card["x_post_id"]
+      fail "Published card #{card.fetch("id")} has no installment post ID." unless installment_id.is_a?(String) && !installment_id.empty?
+
+      reply_url = publish_series_root_reply(card_path, card, quote_target, installment_id, access_token)
+      puts "Series-root reply published and recorded: #{reply_url}"
+      return
+    end
+    fail "Publication card #{card_path} is #{card.fetch("status")}, not queued." unless card.fetch("status") == "queued"
     fail "Publication card #{card.fetch("id")} is already recorded as published." if publication_recorded_for_card?(card.fetch("id"))
   end
 
@@ -769,6 +840,10 @@ def post(argv)
   id = response.dig("data", "id") or fail "X returned no post ID."
   url = record_publication(id, text, image_path, card_path: card_path, card: card, quote_target: quote_target)
   puts "Published and recorded: #{url}"
+  if card && quote_target
+    reply_url = publish_series_root_reply(card_path, card, quote_target, id, token)
+    puts "Series-root reply published and recorded: #{reply_url}"
+  end
 end
 
 def preview(argv)
@@ -788,7 +863,8 @@ def preview(argv)
   puts "Image: #{card_image_path(card)}" 
   quote_target = quote_target_for(card)
   if quote_target
-    puts "Quote post: #{quote_target.fetch("series")} part #{quote_target.fetch("part")} — #{quote_target["x_post_url"] || quote_target.fetch("x_post_id")}"
+    puts "Quote series opener: #{quote_target.fetch("series")} part 1 — #{quote_target["x_post_url"] || quote_target.fetch("x_post_id")}"
+    puts "Series-root reply: #{series_root_reply_text(card)}; replies to part 1 and natively quotes this installment (no URL text)"
   else
     puts "Quote post: none (series opener)"
   end
@@ -811,6 +887,8 @@ def history(argv)
   records.each do |record|
     source = if record["card_id"]
                record["card_id"]
+             elsif record["source_card_id"]
+               "#{record.fetch("source_card_id")} navigation"
              elsif record["historical_import"]
                "#{record.fetch("series")} (historical)"
              else
@@ -820,11 +898,14 @@ def history(argv)
     if record["publication_type"] == "article"
       puts "Article: #{record.fetch("article_title")} (#{record.fetch("article_id")})"
       puts "cover #{record["cover_image"]}" if record["cover_image"]
+    elsif record["publication_type"] == "series_root_reply"
+      puts "#{record.fetch("series")} root reply for part #{record.fetch("linked_part")}: #{record.fetch("text")}"
     else
       puts record.fetch("text")
     end
     puts "image #{record["image"]}" if record["image"]
     puts "quotes #{record["quote_tweet_url"] || record["quote_tweet_id"]}" if record["quote_tweet_id"]
+    puts "replies to #{record["reply_to_tweet_url"] || record["reply_to_tweet_id"]}" if record["reply_to_tweet_id"]
     puts "historical import: #{record["archive_note"]}" if record["historical_import"]
     puts
   end
@@ -868,17 +949,19 @@ def usage
   exit 1
 end
 
-command = ARGV.shift
-case command
-when "authorize" then authorize
-when "post" then post(ARGV)
-when "article" then article(ARGV)
-when "preview" then preview(ARGV)
-when "cadence" then cadence(ARGV)
-when "preview-next" then preview_next(ARGV)
-when "post-next" then post_next(ARGV)
-when "history" then history(ARGV)
-when "me" then me
-when "posts" then posts(ARGV)
-else usage
+if __FILE__ == $PROGRAM_NAME
+  command = ARGV.shift
+  case command
+  when "authorize" then authorize
+  when "post" then post(ARGV)
+  when "article" then article(ARGV)
+  when "preview" then preview(ARGV)
+  when "cadence" then cadence(ARGV)
+  when "preview-next" then preview_next(ARGV)
+  when "post-next" then post_next(ARGV)
+  when "history" then history(ARGV)
+  when "me" then me
+  when "posts" then posts(ARGV)
+  else usage
+  end
 end
