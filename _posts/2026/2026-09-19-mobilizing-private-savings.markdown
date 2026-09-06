@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Mobilizing Private Savings
+x_post_id: "2094584178071199786"
 description: A gym founder, a software builder, and a diligent bureaucrat discover what institutions can recognize—and what can cross an ocean without permission.
 image: /img/mobilizing-private-savings/mobilizing-private-savings-scene-01-the-productive-future.jpeg
 image_alt: Halden and six colleagues watch their unit chief explain a public investment mandate in a pale government conference room.

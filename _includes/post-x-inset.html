@@ -1,0 +1,11 @@
+{% if page.x_post_id %}
+<aside class="post-x-inset" aria-label="This article on X">
+	<a class="post-x-inset__symbol" href="https://x.com/snscaimito/status/{{ page.x_post_id | escape }}" aria-label="Read the master post for {{ page.title | escape }} on X" title="Read on X">𝕏</a>
+	<div class="post-x-inset__embed">
+		<blockquote class="twitter-tweet" data-conversation="none" data-dnt="true">
+			<a href="https://x.com/snscaimito/status/{{ page.x_post_id | escape }}">Read the master post for {{ page.title | escape }} on X.</a>
+		</blockquote>
+	</div>
+</aside>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{% endif %}

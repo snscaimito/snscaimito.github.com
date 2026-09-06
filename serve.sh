@@ -9,19 +9,20 @@ LIVERELOAD_START_PORT="${JEKYLL_LIVERELOAD_PORT_START:-35729}"
 LIVERELOAD_END_PORT="${JEKYLL_LIVERELOAD_PORT_END:-35829}"
 
 find_free_port() {
-  port="$1"
-  end_port="$2"
-
-  while [ "$port" -le "$end_port" ]; do
-    if ! lsof -nP -iTCP:"$port" -sTCP:LISTEN >/dev/null 2>&1; then
-      printf '%s\n' "$port"
-      return 0
-    fi
-
-    port=$((port + 1))
-  done
-
-  return 1
+  ruby -rsocket -e '
+    host, first, last = ARGV
+    (Integer(first)..Integer(last)).each do |port|
+      begin
+        server = TCPServer.new(host, port)
+        server.close
+        puts port
+        exit 0
+      rescue Errno::EADDRINUSE, Errno::EACCES
+        next
+      end
+    end
+    exit 1
+  ' "$HOST" "$1" "$2"
 }
 
 if ! command -v bundle >/dev/null 2>&1; then
@@ -42,6 +43,7 @@ LIVERELOAD_PORT="$(find_free_port "$LIVERELOAD_START_PORT" "$LIVERELOAD_END_PORT
 LOCAL_BASEURL="${JEKYLL_LOCAL_BASEURL:-}"
 
 echo "Starting Jekyll on http://$HOST:$PORT/"
+echo "LiveReload port: $LIVERELOAD_PORT"
 
 exec bundle exec jekyll serve \
   --host "$HOST" \

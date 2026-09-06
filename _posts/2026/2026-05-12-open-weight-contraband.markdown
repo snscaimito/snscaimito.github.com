@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Open Weight Contraband
+x_post_id: "2084375731031724139"
 image: /img/open-weight-contraband/open-weight-contraband-hero.jpeg
 tags:
 - en

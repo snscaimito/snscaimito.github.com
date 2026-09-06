@@ -1,0 +1,5 @@
+{% if include.post.x_post_id %}
+<span class="post-social-links">
+	<a href="https://x.com/snscaimito/status/{{ include.post.x_post_id | escape }}" aria-label="Read {{ include.post.title | escape }} on X" title="Read on X">𝕏</a>
+</span>
+{% endif %}

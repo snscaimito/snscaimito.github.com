@@ -9,6 +9,7 @@
 			{% if page.language_switcher %}
 			{% include post-language-switcher.html %}
 			{% endif %}
+			{% include post-x-inset.html %}
 			{% if page.hero_image %}
 			<figure class="post-hero-figure">
 				<a class="post-lightbox-trigger" href="{{ page.hero_image_full | default: page.hero_image }}" data-lightbox-src="{{ page.hero_image_full | default: page.hero_image }}" data-lightbox-alt="{{ page.hero_image_alt }}">
