@@ -33,6 +33,7 @@ IMAGE_TYPES = {
   ".jpg" => "image/jpeg", ".jpeg" => "image/jpeg", ".png" => "image/png",
   ".gif" => "image/gif", ".webp" => "image/webp"
 }.freeze
+MAX_POST_IMAGES = 4
 ARTICLE_BLOCK_TYPES = %w[
   unstyled header-one header-two header-three unordered-list-item ordered-list-item blockquote atomic
 ].freeze
@@ -173,17 +174,25 @@ def image_type(path)
   type
 end
 
+def validate_image_paths(paths)
+  fail "A post may include at most #{MAX_POST_IMAGES} images." unless (1..MAX_POST_IMAGES).cover?(paths.length)
+
+  types = paths.map { |path| image_type(path) }
+  fail "An animated GIF must be the only image attached to a post." if paths.length > 1 && types.include?("image/gif")
+  paths
+end
+
 def load_publication_card(path)
   card_path = File.expand_path(path)
   fail "Publication card not found: #{card_path}" unless File.file?(card_path)
 
   card = JSON.parse(File.read(card_path))
-  %w[id status image].each do |field|
+  %w[id status].each do |field|
     fail "Publication card #{card_path} is missing #{field}." unless card[field].is_a?(String) && !card[field].strip.empty?
   end
   validate_story_package(card, card_path)
   card["text"] = publication_text(card)
-  image_type(card_image_path(card))
+  validate_image_paths(card_image_paths(card))
   [card_path, card]
 rescue JSON::ParserError => error
   fail "Publication card #{card_path} is not valid JSON: #{error.message}"
@@ -233,12 +242,29 @@ def source_section_text(card)
            else
              body.sub(/\A[^\n]*\n/, "")
            end
-    body.gsub(/<figure.*?<\/figure>\n*/m, "").strip
+    strip_site_only_markup(body)
   end.join("\n\n")
 end
 
+def strip_site_only_markup(body)
+  body
+    .gsub(/<details\b[^>]*\bclass=["'][^"']*\bfuture-vision\b[^"']*["'][^>]*>.*?<\/details>\n*/m, "")
+    .gsub(/<figure.*?<\/figure>\n*/m, "")
+    .strip
+end
+
+def card_image_paths(card)
+  fail "Publication card #{card.fetch("id")} cannot define both image and images." if card.key?("image") && card.key?("images")
+
+  values = card.key?("images") ? card["images"] : [card["image"]]
+  unless values.is_a?(Array) && values.all? { |value| value.is_a?(String) && !value.strip.empty? }
+    fail "Publication card #{card.fetch("id")} needs image or an images array."
+  end
+  values.map { |value| File.expand_path(value, REPOSITORY) }
+end
+
 def card_image_path(card)
-  File.expand_path(card.fetch("image"), REPOSITORY)
+  card_image_paths(card).first
 end
 
 def publication_records
@@ -491,8 +517,9 @@ ensure
   File.delete(temporary_path) if temporary_path && File.exist?(temporary_path)
 end
 
-def record_publication(id, text, image_path, card_path: nil, card: nil, quote_target: nil)
+def record_publication(id, text, image_paths, card_path: nil, card: nil, quote_target: nil)
   url = "https://x.com/i/web/status/#{id}"
+  image_paths = Array(image_paths)
   record = {
     "published_at" => Time.now.utc.iso8601,
     "x_post_id" => id,
@@ -502,7 +529,8 @@ def record_publication(id, text, image_path, card_path: nil, card: nil, quote_ta
     "part" => card && card["part"],
     "card_file" => card_path,
     "text" => text,
-    "image" => image_path,
+    "image" => image_paths.first,
+    "images" => image_paths,
     "quote_tweet_id" => quote_target && quote_target.fetch("x_post_id"),
     "quote_tweet_url" => quote_target && quote_target["x_post_url"],
     "quote_series" => quote_target && quote_target.fetch("series"),
@@ -771,31 +799,31 @@ def article(argv)
 end
 
 def post(argv)
-  options = { dry_run: false }
+  options = { dry_run: false, images: [] }
   parser = OptionParser.new do |opts|
-    opts.banner = "Usage: ruby _tools/x.rb post (--file CARD.json | --text TEXT [--link URL] [--image FILE]) [--dry-run]"
+    opts.banner = "Usage: ruby _tools/x.rb post (--file CARD.json | --text TEXT [--link URL] [--image FILE ...]) [--dry-run]"
     opts.on("--file FILE", "Prepared local publication-card JSON file") { |value| options[:file] = value }
     opts.on("--text TEXT", "Post text") { |value| options[:text] = value }
     opts.on("--link URL", "Optional link, appended to the text") { |value| options[:link] = value }
-    opts.on("--image FILE", "Optional JPG, PNG, GIF, or WebP image") { |value| options[:image] = value }
+    opts.on("--image FILE", "JPG, PNG, GIF, or WebP image; repeat for up to four photos") { |value| options[:images] << value }
     opts.on("--dry-run", "Show the content without calling X") { options[:dry_run] = true }
   end
   parser.parse!(argv)
   fail "Unexpected argument: #{argv.first}" unless argv.empty?
 
   if options[:file]
-    fail "--file cannot be combined with --text, --link, or --image." if options[:text] || options[:link] || options[:image]
+    fail "--file cannot be combined with --text, --link, or --image." if options[:text] || options[:link] || options[:images].any?
     card_path, card = load_publication_card(options[:file])
     text = card.fetch("text")
-    image_path = card_image_path(card)
+    image_paths = card_image_paths(card)
     quote_target = quote_target_for(card)
   else
     card_path = nil
     card = nil
     text = [options[:text], options[:link]].compact.join(" ").strip
-    image_path = options[:image]
-    fail "Provide --file, --text, --link, or --image." if text.empty? && !image_path
-    image_type(image_path) if image_path
+    image_paths = options[:images]
+    fail "Provide --file, --text, --link, or --image." if text.empty? && image_paths.empty?
+    validate_image_paths(image_paths) if image_paths.any?
     quote_target = nil
   end
 
@@ -805,7 +833,7 @@ def post(argv)
     puts JSON.pretty_generate(
       "card_id" => card && card.fetch("id"),
       "text" => text,
-      "image" => image_path,
+      "images" => image_paths,
       "quote_tweet_id" => quote_target && quote_target.fetch("x_post_id"),
       "quote_tweet_url" => quote_target && quote_target["x_post_url"],
       "series_root_reply" => root_reply && {
@@ -834,11 +862,11 @@ def post(argv)
   token = access_token
   body = {}
   body["text"] = text unless text.empty?
-  body["media"] = { "media_ids" => [upload_image(image_path, token)] } if image_path
+  body["media"] = { "media_ids" => image_paths.map { |path| upload_image(path, token) } } if image_paths.any?
   body["quote_tweet_id"] = quote_target.fetch("x_post_id") if quote_target
   response = x_request(:post, "/2/tweets", token: token, body: JSON.generate(body), content_type: "application/json")
   id = response.dig("data", "id") or fail "X returned no post ID."
-  url = record_publication(id, text, image_path, card_path: card_path, card: card, quote_target: quote_target)
+  url = record_publication(id, text, image_paths, card_path: card_path, card: card, quote_target: quote_target)
   puts "Published and recorded: #{url}"
   if card && quote_target
     reply_url = publish_series_root_reply(card_path, card, quote_target, id, token)
@@ -860,7 +888,9 @@ def preview(argv)
   puts "Preview: #{card.fetch("id")}" 
   puts "Card: #{card_path}"
   puts "Status: #{card.fetch("status")}" 
-  puts "Image: #{card_image_path(card)}" 
+  image_paths = card_image_paths(card)
+  puts "Images (#{image_paths.length}):"
+  image_paths.each { |path| puts "- #{path}" }
   quote_target = quote_target_for(card)
   if quote_target
     puts "Quote series opener: #{quote_target.fetch("series")} part 1 — #{quote_target["x_post_url"] || quote_target.fetch("x_post_id")}"
@@ -903,7 +933,8 @@ def history(argv)
     else
       puts record.fetch("text")
     end
-    puts "image #{record["image"]}" if record["image"]
+    images = record["images"] || Array(record["image"])
+    images.each { |path| puts "image #{path}" }
     puts "quotes #{record["quote_tweet_url"] || record["quote_tweet_id"]}" if record["quote_tweet_id"]
     puts "replies to #{record["reply_to_tweet_url"] || record["reply_to_tweet_id"]}" if record["reply_to_tweet_id"]
     puts "historical import: #{record["archive_note"]}" if record["historical_import"]
@@ -936,7 +967,7 @@ def usage
   warn <<~TEXT
     Usage:
       ruby _tools/x.rb authorize
-      ruby _tools/x.rb post (--file CARD.json | --text "Text" [--link URL] [--image FILE]) [--dry-run]
+      ruby _tools/x.rb post (--file CARD.json | --text "Text" [--link URL] [--image FILE ...]) [--dry-run]
       ruby _tools/x.rb article --title "Title" (--markdown FILE.md | --content-state FILE.json) [--cover IMAGE] [--draft-only] [--dry-run]
       ruby _tools/x.rb preview --file CARD.json
       ruby _tools/x.rb cadence [--series NAME]

@@ -49,7 +49,7 @@ ruby _tools/x.rb posts --limit 20
 Review a post without contacting X:
 
 ```sh
-ruby _tools/x.rb post --text 'A considered post.' --link 'https://example.com' --image image.png --dry-run
+ruby _tools/x.rb post --text 'A considered post.' --link 'https://example.com' --image image-1.png --image image-2.png --dry-run
 ```
 
 Preview a prepared publication card without contacting X:
@@ -74,10 +74,12 @@ The cadence is one story installment every 24 hours. The recommendation consider
 Publish only after reviewing the exact copy and image:
 
 ```sh
-ruby _tools/x.rb post --text 'A considered post.' --link 'https://example.com' --image image.png
+ruby _tools/x.rb post --text 'A considered post.' --link 'https://example.com' --image image-1.png --image image-2.png
 ```
 
-The link is appended to the text. Images may be JPG, PNG, GIF, or WebP, up to 5 MB.
+The link is appended to the text. Images may be JPG, PNG, GIF, or WebP, up to 5 MB each. Repeat `--image` to attach up to four photos. An animated GIF must be the only attachment.
+
+Prepared cards remain backward-compatible with the singular `"image"` field. For multiple photos, use an ordered `"images"` array containing one to four repository-relative paths. The publisher uploads every image and sends the returned IDs together in `media.media_ids`.
 
 Publish an approved prepared card the same way:
 
@@ -94,7 +96,7 @@ ruby _tools/x.rb post-next --series 'Bread and Games'
 
 `post-next` refuses to publish before the 24-hour window. An explicit decision to publish early can be carried out with `--override-cadence`; that option bypasses only the timing check, never the queue-status or duplicate-publication safeguards.
 
-Every successful API publication is written locally to `_tools/.x-publisher/publications.jsonl`, including its X post ID, URL, timestamp, exact text, attached image, source card, and quote target when present. Historical posts recovered from X are kept separately in `_tools/.x-publisher/historical-publications.jsonl`; they retain their confirmed IDs, URLs, and timestamps without pretending to be newly published. Review the combined history without contacting X:
+Every successful API publication is written locally to `_tools/.x-publisher/publications.jsonl`, including its X post ID, URL, timestamp, exact text, attached images, source card, and quote target when present. Historical posts recovered from X are kept separately in `_tools/.x-publisher/historical-publications.jsonl`; they retain their confirmed IDs, URLs, and timestamps without pretending to be newly published. Review the combined history without contacting X:
 
 ```sh
 ruby _tools/x.rb history

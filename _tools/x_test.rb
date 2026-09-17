@@ -61,4 +61,37 @@ class XPublisherTest < Minitest::Test
     assert_nil validate_story_package(card, "card.json")
   end
 
+  def test_card_image_paths_supports_up_to_four_ordered_images
+    card = {
+      "id" => "gnn-island-exclusive",
+      "images" => [
+        "img/the-last-foundry/06-gnn-island-exclusive.png",
+        "img/the-last-foundry/02-independent-power.png",
+        "img/the-last-foundry/03-silicon-inheritance.png",
+        "img/the-last-foundry/04-compute-assembly.png"
+      ]
+    }
+
+    assert_equal card.fetch("images").map { |path| File.expand_path(path, REPOSITORY) }, card_image_paths(card)
+  end
+
+  def test_card_image_paths_preserves_legacy_single_image_cards
+    card = { "id" => "legacy", "image" => "img/legacy.png" }
+
+    assert_equal [File.expand_path("img/legacy.png", REPOSITORY)], card_image_paths(card)
+  end
+
+  def test_source_card_omits_site_only_future_vision
+    card = {
+      "id" => "bread-and-games-09",
+      "source" => { "file" => "_posts/2026/2026-08-06-bread-and-games.markdown", "section" => 9 }
+    }
+
+    text = source_section_text(card)
+
+    assert_includes text, "Tonight,” she said, “you are all on my team."
+    refute_includes text, "future-vision"
+    refute_includes text, "What waits for us when work is gone?"
+  end
+
 end

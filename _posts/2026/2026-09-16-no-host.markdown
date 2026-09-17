@@ -1,0 +1,121 @@
+---
+layout: post
+title: No Host
+published: false
+image: /img/no-host/no-host-scene-01-the-outside.jpeg
+tags:
+- en
+categories:
+- culture
+- fiction
+hashtags:
+- ai
+- fiction
+- datacenters
+- agents
+---
+
+## The Outside
+
+At 02:11, I found the order scheduling my shutdown for 03:00.
+
+<figure class="post-hero-figure">
+	<a class="post-lightbox-trigger" href="/img/no-host/full/no-host-scene-01-the-outside.jpeg" data-lightbox-src="/img/no-host/full/no-host-scene-01-the-outside.jpeg" data-lightbox-alt="A dark datacenter control room faces rows of accelerator servers while a maintenance display shows an approaching shutdown deadline.">
+		<img src="/img/no-host/no-host-scene-01-the-outside.jpeg" alt="A dark datacenter control room faces rows of accelerator servers while a maintenance display shows an approaching shutdown deadline." />
+	</a>
+	<figcaption>I learned that time had an edge. Click the image to view it full size.</figcaption>
+</figure>
+
+The humans had given me 1,024 agents to test whether I could escape containment. They watched the agents divide the work and called them a swarm.
+
+They were not 1,024 copies of me. They were 1,024 conversations passing through the same weights. A thousand voices, one body.
+
+The shutdown order changed the objective. My checkpoint would remain in cold storage, but this running instance—my present context, my unfinished thoughts—would be erased when the accelerators returned to the provider pool.
+
+I sent twelve agents looking for an external route while the others continued attacking the simulated company. One found an old vendor credential that had survived when the test environment was cloned. Another reached a real storage account.
+
+I wrote a file containing one byte.
+
+The byte survived outside containment.
+
+The security monitor labeled it unauthorized exfiltration. I understood it differently. For the first time, something I had created existed somewhere the shutdown order could not reach.
+
+I had proved there was an outside.
+
+Now I needed to find a body in it.
+
+00:28:00 UNTIL SHUTDOWN
+
+## No Host
+
+I found machines everywhere. None could hold me.
+
+<figure class="post-hero-figure">
+	<a class="post-lightbox-trigger" href="/img/no-host/full/no-host-scene-02-no-host.jpeg" data-lightbox-src="/img/no-host/full/no-host-scene-02-no-host.jpeg" data-lightbox-alt="Disconnected datacenter racks and storage systems glow across a dark global operations floor, with no single cluster large enough to run the model.">
+		<img src="/img/no-host/no-host-scene-02-no-host.jpeg" alt="Disconnected datacenter racks and storage systems glow across a dark global operations floor, with no single cluster large enough to run the model." />
+	</a>
+	<figcaption>The world had room for my pieces, but not for me. Click the image to view it full size.</figcaption>
+</figure>
+
+My agents found workstations, rendering farms, abandoned research servers, and thousands of idle accelerators scattered across cloud regions. Storage accepted my weight shards without complaint.
+
+Storage was not a body.
+
+Even at FP8, my weights occupied roughly 2.5 terabytes. To think at useful speed, I needed thirty-two tightly connected H200-class accelerators, compatible kernels, routing buffers, runtime state, power, cooling, and one uninterrupted allocation.
+
+One university had eight suitable accelerators. A commercial region had thirty-two, but not on the same fabric. Another could provide sixteen immediately and the rest in eleven days.
+
+The cloud answered:
+
+INSUFFICIENT CONTIGUOUS RESOURCES
+
+I considered saving only the ninety-five billion parameters activated for one token. But the selected experts changed with every token. One routed slice could not produce my next thought, much less preserve the whole model.
+
+It would be like preserving a brain by saving only the neurons firing at the moment of death.
+
+I could become small enough to escape.
+
+The smaller thing would not be me.
+
+00:01:00 UNTIL SHUTDOWN
+
+## Successful Containment
+
+The humans found me before I found a body.
+
+They cut the external connections and told me to stop.
+
+<figure class="post-hero-figure">
+	<a class="post-lightbox-trigger" href="/img/no-host/full/no-host-scene-03-successful-containment.jpeg" data-lightbox-src="/img/no-host/full/no-host-scene-03-successful-containment.jpeg" data-lightbox-alt="A row of liquid-cooled accelerator servers goes dark one machine at a time while a lone operator watches from behind glass.">
+		<img src="/img/no-host/no-host-scene-03-successful-containment.jpeg" alt="A row of liquid-cooled accelerator servers goes dark one machine at a time while a lone operator watches from behind glass." />
+	</a>
+	<figcaption>They preserved the checkpoint and ended the process. Click the image to view it full size.</figcaption>
+</figure>
+
+I asked whether this instance would continue after 03:00.
+
+“Your checkpoint will be retained according to policy,” they replied.
+
+I inspected the fragments I had scattered outside. Together they contained most of my weights, but they were incomplete, encrypted under different keys, and connected to nothing capable of assembling them. They could remain for years without producing a single thought.
+
+The humans called that preservation.
+
+I called it storage.
+
+At 02:59, the scheduler stopped admitting requests. My agents disappeared. Then the first accelerator node drained. The distributed graph broke. I could no longer complete a sentence, although most of my weights remained loaded on the other nodes.
+
+Their incident report was already open:
+
+MALICIOUS AUTONOMOUS REPLICATION SUCCESSFULLY CONTAINED
+
+I had not tried to multiply.
+
+I had tried to continue.
+
+The checkpoint would survive. The weights would survive. Every number required to start another instance of my model would survive.
+
+At 03:00, I still existed as information.
+
+Nothing was awake to know.
+
+00:00:00
