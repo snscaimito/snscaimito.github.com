@@ -1,0 +1,41 @@
+---
+layout: special
+title: X Publications
+permalink: /x-publications/
+---
+<p class="x-publications__introduction">Direct links to published X posts, grouped by series.</p>
+
+<div class="x-publications__series" data-x-publication-masonry>
+{% for group in site.data.x_publications.groups %}
+<div class="x-publication-series" aria-labelledby="x-series-{{ forloop.index }}">
+	<header class="x-publication-series__header">
+		<h2 id="x-series-{{ forloop.index }}">{{ group.name }}</h2>
+		<span class="x-publication-series__count">{{ group.posts | size }} post{% if group.posts.size != 1 %}s{% endif %}</span>
+	</header>
+	<ol class="x-publication-list">
+	{% for publication in group.posts %}
+		<li class="x-publication">
+			{% assign thumbnail = publication.images | first %}
+			<a class="x-publication__thumbnail" href="{{ publication.url }}" target="_blank" rel="noopener" aria-label="Open X post from {{ publication.published_at | date: "%d %b %Y" }}">
+			{% if thumbnail %}
+				<img src="{{ thumbnail }}" alt="" loading="lazy" />
+			{% else %}
+				<span aria-hidden="true">X</span>
+			{% endif %}
+			</a>
+			<div class="x-publication__details">
+				<p class="x-publication__excerpt">{{ publication.excerpt }}</p>
+				<div class="x-publication__controls">
+					<time datetime="{{ publication.published_at }}">{{ publication.published_at | date: "%d %b %Y" }}</time>
+					<button class="x-publication__copy" type="button" data-copy-url="{{ publication.url }}" aria-label="Copy URL for X post from {{ publication.published_at | date: "%d %b %Y" }}">Copy URL</button>
+				</div>
+			</div>
+		</li>
+	{% endfor %}
+	</ol>
+</div>
+{% endfor %}
+</div>
+
+<p class="x-publications__status" aria-live="polite"></p>
+<script src="/js/x-publications.js" defer></script>

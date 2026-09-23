@@ -10,6 +10,12 @@ Repository-specific guidance for AI assistance in this Jekyll site.
 - Do not run Jekyll build or serve commands unless explicitly asked.
 - Keep generated blog prose suitable for direct publication and avoid adding explanatory notes inside the post unless requested.
 
+## X Publications
+
+- Do not impose a 280-character limit on X posts. This repository's X workflow supports native long posts.
+- Treat the character count shown by `_tools/x.rb preview` as informational only. Never shorten, summarize, excerpt, or otherwise rewrite canonical or user-approved copy solely to fit 280 characters.
+- Shorten X copy only when the user explicitly requests an editorial shortening. Preserve the complete text and its series footer otherwise.
+
 ## Blog Posts
 
 - Blog posts live under `_posts/<year>/` and use dated filenames such as `YYYY-MM-DD-title-slug.markdown`.

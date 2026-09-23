@@ -16,4 +16,5 @@ exclude:
   - runLocally.sh
   - TODO.txt
   - _tools
+  - _planning
   - vendor

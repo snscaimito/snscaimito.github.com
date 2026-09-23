@@ -1,0 +1,730 @@
+{
+  "updated_at": "2026-09-23T09:21:26Z",
+  "groups": [
+    {
+      "name": "AI Island",
+      "posts": [
+        {
+          "id": "2100703220049887548",
+          "excerpt": "BREAKING — The seizure comes as governments begin enforcing new AI security legislation requiring licenses and end-user reporting for advanced accelerator clusters—part of a wider effort to curb the spread of computing systems capable of training or operating dangerous AI. Authorities at a European port have confiscate…",
+          "url": "https://x.com/snscaimito/status/2100703220049887548",
+          "published_at": "2026-09-17T21:47:31Z",
+          "kind": "post",
+          "images": [
+            "/img/the-last-foundry/05-gnn-breaking-news-v2.png"
+          ]
+        },
+        {
+          "id": "2100941827327066116",
+          "excerpt": "EXCLUSIVE — GNN has placed a correspondent inside the AI island linked to the seized computing equipment. Her first transmissions show solar-powered data centers, active semiconductor fabs, and the public assembly that decides who receives access to a finite reserve of machines. AI Island — a serialized story.",
+          "url": "https://x.com/snscaimito/status/2100941827327066116",
+          "published_at": "2026-09-18T13:35:40Z",
+          "kind": "post",
+          "images": [
+            "/img/the-last-foundry/06-gnn-island-exclusive.png",
+            "/img/the-last-foundry/02-independent-power.png",
+            "/img/the-last-foundry/03-silicon-inheritance.png",
+            "/img/the-last-foundry/04-compute-assembly.png"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bread and Games",
+      "posts": [
+        {
+          "id": "2085699556381995245",
+          "excerpt": "Bread and Games — I/5 \"What do you do?\" The question asks about work, but its answer often becomes a person. Hunter, farmer, potter, factory hand, manager, translator, programmer: each name describes a useful activity and offers a place among other people. Work fills the stores, pays the rent, marks the hours, and retu…",
+          "url": "https://x.com/snscaimito/status/2085699556381995245",
+          "published_at": "2026-08-07T12:08:19Z",
+          "kind": "post",
+          "images": [
+            "/img/bread-and-games/bread-and-games-scene-01.jpeg"
+          ]
+        },
+        {
+          "id": "2087312669040652744",
+          "excerpt": "The new jar was taller than Nami. She stood on her toes beside it while the potter painted a line around its belly with red clay. “Up to here,” he said. “That will feed a household through the rains.” Nami put both hands on the jar and tried to imagine eating so much porridge. “Even Uncle Kesh?” The potter considered t…",
+          "url": "https://x.com/snscaimito/status/2087312669040652744",
+          "published_at": "2026-08-11T22:58:15Z",
+          "kind": "post",
+          "images": [
+            "/img/bread-and-games/bread-and-games-scene-02.jpeg"
+          ]
+        },
+        {
+          "id": "2090363958272115057",
+          "excerpt": "Amat knew the city by its smells. Near the river gate, it smelled of wet rope, fish scales, and the black mud scraped from the bottoms of reed boats. The potters' lane smelled of smoke. The copper yard smelled sharp enough to taste. At the bakers' courtyard, where her father worked before sunrise, the air smelled of se…",
+          "url": "https://x.com/snscaimito/status/2090363958272115057",
+          "published_at": "2026-08-20T09:02:59Z",
+          "kind": "post",
+          "images": [
+            "/img/bread-and-games/bread-and-games-scene-03.jpeg"
+          ]
+        },
+        {
+          "id": "2092352676486869210",
+          "excerpt": "The bread arrived before the emperor. Porters carried it through the Circus gates in baskets wide enough to bathe a child. Each round loaf bore the mark of the public bakery. The smell traveled up the stone seats faster than the porters did. Junia held the family's bread token in one hand and her son's wrist in the oth…",
+          "url": "https://x.com/snscaimito/status/2092352676486869210",
+          "published_at": "2026-08-25T20:45:27Z",
+          "kind": "post",
+          "images": [
+            "/img/bread-and-games/bread-and-games-scene-04.jpeg"
+          ]
+        },
+        {
+          "id": "2094456083263664587",
+          "excerpt": "The bell was late, and everyone noticed. Aveline stood in the rye field with her sickle resting against her shoulder. The sun had cleared the alder trees. The mill wheel was already turning. Even the baker's chimney had begun to smoke, but the church tower remained silent. “Perhaps morning has been canceled,” her littl…",
+          "url": "https://x.com/snscaimito/status/2094456083263664587",
+          "published_at": "2026-08-31T16:03:38Z",
+          "kind": "post",
+          "images": [
+            "/img/bread-and-games/bread-and-games-scene-05.jpeg"
+          ]
+        },
+        {
+          "id": "2097616621988712683",
+          "excerpt": "The factory clock ran four minutes fast. Mr. Bell called this efficiency. Everyone else called it four minutes. Nell Foster reached the gate while the minute hand still trembled below six. She held up her worker token for the porter, hurried across the brick yard, and joined the stream of women climbing the spinning-ro…",
+          "url": "https://x.com/snscaimito/status/2097616621988712683",
+          "published_at": "2026-09-09T09:22:29Z",
+          "kind": "post",
+          "images": [
+            "/img/bread-and-games/bread-and-games-scene-06.jpeg"
+          ]
+        },
+        {
+          "id": "2098369770789781716",
+          "excerpt": "The promotion came with a key. Teresa Alvarez turned it over in her hand while Mr. Hanley explained the new position, the new salary, and the new office on the seventh floor. “It has a door,” he said. “I saw.” “And a window.” “I was hoping the salary might have one too.” Mr. Hanley laughed, then checked the paper again…",
+          "url": "https://x.com/snscaimito/status/2098369770789781716",
+          "published_at": "2026-09-11T11:15:14Z",
+          "kind": "post",
+          "images": [
+            "/img/bread-and-games/bread-and-games-scene-07.jpeg"
+          ]
+        },
+        {
+          "id": "2099484199778492553",
+          "excerpt": "The first viewer arrived before the dough had risen. Nadia propped her phone against the sugar jar and waved at the screen. “Hello, Cousin Rami.” A small heart floated past her face. Her grandmother Salma looked over from the kitchen table. “Is he inside the telephone?” “He is watching from Montreal.” “Then tell him he…",
+          "url": "https://x.com/snscaimito/status/2099484199778492553",
+          "published_at": "2026-09-14T13:03:34Z",
+          "kind": "post",
+          "images": [
+            "/img/bread-and-games/bread-and-games-scene-08.jpeg"
+          ]
+        },
+        {
+          "id": "2100517049990607258",
+          "excerpt": "On Monday, Mara's new AI assistant completed the week's work before anyone had finished breakfast: interviews summarized, prototypes compared, estimates checked, presentation drafted, and the launch announcement translated into twelve languages. Dev refreshed the board. “Do it again,” he said. “That is not how finished…",
+          "url": "https://x.com/snscaimito/status/2100517049990607258",
+          "published_at": "2026-09-17T09:27:45Z",
+          "kind": "post",
+          "images": [
+            "/img/bread-and-games/bread-and-games-scene-09.jpeg"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Free Air",
+      "posts": [
+        {
+          "id": "2091559374716059797",
+          "excerpt": "Above the main airlock of Reaklif Station, the founders had cast four words in iron salvaged from their first ship. *Leaver dea as slaaf.* Children learned the translation before they learned the pressure alarms: rather dead than a slave. Their teachers traced the phrase to the Frisian coast, where seafarers crossed th…",
+          "url": "https://x.com/snscaimito/status/2091559374716059797",
+          "published_at": "2026-08-23T16:13:09Z",
+          "kind": "post",
+          "images": [
+            "/img/free-air/free-air-promise.jpeg"
+          ]
+        },
+        {
+          "id": "2091814724274991280",
+          "excerpt": "Twenty-three years later, Sanne completed her atmospheric-service obligation and applied to join a prospecting cooperative beyond the certified settlements. Her request was not denied. Reaklif did not deny anyone the right to leave. The cooperative's ships, however, used independent recyclers. They could not dock with…",
+          "url": "https://x.com/snscaimito/status/2091814724274991280",
+          "published_at": "2026-08-24T09:07:49Z",
+          "kind": "post",
+          "images": [
+            "/img/free-air/free-air-collar.jpeg"
+          ]
+        },
+        {
+          "id": "2093397794379690081",
+          "excerpt": "The hearing took place in the same civic chamber where Sanne's mother had voted after the Blue Week. Nobody threatened her. The panel thanked her for reporting promptly and praised the quality of her repair. Its oldest member had taught Sanne pressure mathematics at school. “You are free to go,” he said. “But we cannot…",
+          "url": "https://x.com/snscaimito/status/2093397794379690081",
+          "published_at": "2026-08-28T17:58:22Z",
+          "kind": "post",
+          "images": [
+            "/img/free-air/free-air-choice.jpeg"
+          ]
+        },
+        {
+          "id": "2096910812149420403",
+          "excerpt": "Sanne entered the workshop through an inspection duct her mother had shown her during childhood evacuation drills. She broke the maintenance seal, loaded two water canisters and connected the recycler to the survey craft's batteries. The old machine coughed itself awake. When she requested departure, the station refuse…",
+          "url": "https://x.com/snscaimito/status/2096910812149420403",
+          "published_at": "2026-09-07T10:37:51Z",
+          "kind": "post",
+          "images": [
+            "/img/free-air/free-air-departure.jpeg"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mobility, As Authorized",
+      "posts": [
+        {
+          "id": "2102505833699365020",
+          "excerpt": "In 2026 the shape of it was already visible to anyone willing to look without the tourist smile. Madrid had made the old diesel feel unwelcome long before it vanished, tightening low-emission access until driving certain cars into the center was less a practical choice than a declaration against the age. The AVE stitch…",
+          "url": "https://x.com/snscaimito/status/2102505833699365020",
+          "published_at": "2026-09-22T21:10:28Z",
+          "kind": "post",
+          "images": [
+            "/img/the-roads-that-stayed/the-roads-that-stayed-scene-01.jpeg"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mobilizing Private Savings",
+      "posts": [
+        {
+          "id": "2094584178071199786",
+          "excerpt": "The Directorate had discovered that citizens were saving too much of their own money. Halden received the announcement at 8:12 on Monday morning. A blue banner crossed both screens on his desk: **PRIVATE SAVINGS FOR A PRODUCTIVE FUTURE**. Beneath it, the Directorate invited every department to help households transform…",
+          "url": "https://x.com/snscaimito/status/2094584178071199786",
+          "published_at": "2026-09-01T00:32:38Z",
+          "kind": "post",
+          "images": [
+            "/img/mobilizing-private-savings/mobilizing-private-savings-scene-01-the-productive-future.jpeg"
+          ]
+        },
+        {
+          "id": "2094702059849122250",
+          "excerpt": "Every morning the government warned citizens about the network. By noon it posted the warning on the network. Mara read that morning’s warning while she stirred coffee in her parents’ kitchen. The Directorate advised citizens to avoid unverified financial claims, extremist material, foreign manipulation, medical misinf…",
+          "url": "https://x.com/snscaimito/status/2094702059849122250",
+          "published_at": "2026-09-01T08:21:03Z",
+          "kind": "post",
+          "images": [
+            "/img/mobilizing-private-savings/mobilizing-private-savings-scene-02-everybody-was-already-there.jpeg"
+          ]
+        },
+        {
+          "id": "2095090781593759813",
+          "excerpt": "The assessor watched three businesses use the software and asked when Lukas planned to begin the pilot. Lukas sat at the only table in his apartment while rain drew bright tracks down the window. Behind him, commuter trains crossed the dark water every four minutes. On his laptop, Halden occupied one half of the screen…",
+          "url": "https://x.com/snscaimito/status/2095090781593759813",
+          "published_at": "2026-09-02T10:05:42Z",
+          "kind": "post",
+          "images": [
+            "/img/mobilizing-private-savings/mobilizing-private-savings-scene-03-code-casts-none.jpeg"
+          ]
+        },
+        {
+          "id": "2095532731555840018",
+          "excerpt": "Halden approved the gym’s minimum return and rejected software that might grow thirtyfold before lunch. Neither applicant had formed a company. The Fund would create one only after approval. The committee needed to decide what it understood well enough to own. Mara’s recorded interview came first. “A room, racks, showe…",
+          "url": "https://x.com/snscaimito/status/2095532731555840018",
+          "published_at": "2026-09-03T15:21:51Z",
+          "kind": "post",
+          "images": [
+            "/img/mobilizing-private-savings/mobilizing-private-savings-scene-04-the-decision.jpeg"
+          ]
+        },
+        {
+          "id": "2095887649194086614",
+          "excerpt": "Mara showed her parents where she would put her name. The Fund’s contract showed who could take it down. Late sun entered the empty hall through dusty metal shutters. Mara taped blue rectangles onto the concrete where the squat racks would stand. Her father paced out the changing rooms. Her mother photographed the blan…",
+          "url": "https://x.com/snscaimito/status/2095887649194086614",
+          "published_at": "2026-09-04T14:52:10Z",
+          "kind": "post",
+          "images": [
+            "/img/mobilizing-private-savings/mobilizing-private-savings-scene-05-a-gym-casts-a-shadow.jpeg"
+          ]
+        },
+        {
+          "id": "2096287859456061844",
+          "excerpt": "The inspectors found everything required to finance a company except an investor. The party ship entered the northern port three days before departure. Halden boarded at sunrise with customs officers, maritime inspectors, two financial investigators, and a communications technician who carried three locked cases. The a…",
+          "url": "https://x.com/snscaimito/status/2096287859456061844",
+          "published_at": "2026-09-05T17:22:27Z",
+          "kind": "post",
+          "images": [
+            "/img/mobilizing-private-savings/mobilizing-private-savings-scene-06-the-empty-ship.jpeg"
+          ]
+        },
+        {
+          "id": "2097020083591594336",
+          "excerpt": "The officer waved an inflatable flamingo through customs. Then Lukas placed his laptop in a gray tray. The flamingo belonged to six friends in silver jackets. One carried three bottles. Another wore swimming goggles on his forehead. The officer counted the bottles, made a joke about the weather, and pointed them toward…",
+          "url": "https://x.com/snscaimito/status/2097020083591594336",
+          "published_at": "2026-09-07T17:52:03Z",
+          "kind": "post",
+          "images": [
+            "/img/mobilizing-private-savings/mobilizing-private-savings-scene-07-passengers-with-laptops.jpeg"
+          ]
+        },
+        {
+          "id": "2097353298365812888",
+          "excerpt": "The Fund made Mara independent by purchasing control of her company. Her employment adviser delivered the good news during the first construction meeting. The gym would employ Mara as managing director at the legal minimum wage. The arrangement guaranteed full social protection from the first day, including health cove…",
+          "url": "https://x.com/snscaimito/status/2097353298365812888",
+          "published_at": "2026-09-08T15:56:08Z",
+          "kind": "post",
+          "images": [
+            "/img/mobilizing-private-savings/mobilizing-private-savings-scene-08-fifty-one-percent-of-help.jpeg"
+          ]
+        },
+        {
+          "id": "2098132654688178354",
+          "excerpt": "The gym made a profit. Its founder still checked the price of lunch. Halden opened the first quarterly report at his desk. Green rings filled as the data loaded: jobs created, members enrolled, activity hours completed, women participating, young people served, household savings mobilized, and projected return on publi…",
+          "url": "https://x.com/snscaimito/status/2098132654688178354",
+          "published_at": "2026-09-10T19:33:01Z",
+          "kind": "post",
+          "images": [
+            "/img/mobilizing-private-savings/mobilizing-private-savings-scene-09-a-profitable-enterprise.jpeg"
+          ]
+        },
+        {
+          "id": "2098431392128315709",
+          "excerpt": "The pop star introduced the scouts without using a single word the inspectors could quote. For the first day, nothing unusual happened. Passengers filled the pools, bars, restaurants, and dance floors while the old continent remained visible behind the ship. Lukas answered two customer messages from his cabin and kept…",
+          "url": "https://x.com/snscaimito/status/2098431392128315709",
+          "published_at": "2026-09-11T15:20:05Z",
+          "kind": "post",
+          "images": [
+            "/img/mobilizing-private-savings/mobilizing-private-savings-scene-10-the-evening-show.jpeg"
+          ]
+        },
+        {
+          "id": "2098846082352423190",
+          "excerpt": "Before the investment, Mara had followers. After it, she had a communications strategy. She had built her audience with short videos from parks, borrowed training rooms, and her parents’ tiled courtyard. She answered questions in the language people used. She showed mistakes, laughed when a resistance band snapped, and…",
+          "url": "https://x.com/snscaimito/status/2098846082352423190",
+          "published_at": "2026-09-12T18:47:55Z",
+          "kind": "post",
+          "images": [
+            "/img/mobilizing-private-savings/mobilizing-private-savings-scene-11-her-own-voice-revised.jpeg"
+          ]
+        },
+        {
+          "id": "2099160772123172875",
+          "excerpt": "Millions watched the prohibited introduction, but Halden could not find anyone who had made it. The Directorate’s monitoring team assembled the ship’s evening show from 614 public recordings. One angle showed the singer. Another showed the twelve guests. Hundreds showed raised phones, falling silver paper, and passenge…",
+          "url": "https://x.com/snscaimito/status/2099160772123172875",
+          "published_at": "2026-09-13T15:38:23Z",
+          "kind": "post",
+          "images": [
+            "/img/mobilizing-private-savings/mobilizing-private-savings-scene-12-the-event-that-never-happened.jpeg"
+          ]
+        },
+        {
+          "id": "2099912029653934356",
+          "excerpt": "The investment meeting contained no investor aboard the ship. Sena met Lukas outside a soundproof conference room at ten the next morning. She carried coffee and no folder. Inside, a wall-sized screen faced a table bolted to the deck. The ocean moved through a narrow window beside it. “Who do you work for?” Lukas asked…",
+          "url": "https://x.com/snscaimito/status/2099912029653934356",
+          "published_at": "2026-09-15T17:23:37Z",
+          "kind": "post",
+          "images": [
+            "/img/mobilizing-private-savings/mobilizing-private-savings-scene-13-the-room-with-no-investors.jpeg"
+          ]
+        },
+        {
+          "id": "2100237323510182101",
+          "excerpt": "Mara’s former restaurant colleague arrived ten minutes before closing. Her black apron wrapped her waist, and she carried the smell of coffee, grilled fish, and lemon cleaner into the gym. She placed her phone on the reception desk. A white house stood above a strip of blue water. Six names filled the message beneath i…",
+          "url": "https://x.com/snscaimito/status/2100237323510182101",
+          "published_at": "2026-09-16T14:56:13Z",
+          "kind": "post",
+          "images": [
+            "/img/mobilizing-private-savings/mobilizing-private-savings-scene-14-the-waitress-went-home.jpeg"
+          ]
+        },
+        {
+          "id": "2100625921375908327",
+          "excerpt": "Lukas closed the seed round without shaking an investor’s hand. The warehouse trial found enough errors in three days to pay for a year of the proposed subscription. The restaurant operator supplied another dataset. Lukas fixed the handwriting model between breakfast and the first afternoon concert, slept through most…",
+          "url": "https://x.com/snscaimito/status/2100625921375908327",
+          "published_at": "2026-09-17T16:40:22Z",
+          "kind": "post",
+          "images": [
+            "/img/mobilizing-private-savings/mobilizing-private-savings-scene-15-the-seed-round-at-sea.jpeg"
+          ]
+        },
+        {
+          "id": "2101321741960192275",
+          "excerpt": "Lukas’s first legal status in the New World did not say founder. It said temporary immigrant. The ship entered a broad harbor before sunrise. A low island broke the dark water ahead. Red-brick wings stretched from a limestone entrance, and four square towers lifted green copper domes above the roof. Enormous arched win…",
+          "url": "https://x.com/snscaimito/status/2101321741960192275",
+          "published_at": "2026-09-19T14:45:19Z",
+          "kind": "post",
+          "images": [
+            "/img/mobilizing-private-savings/mobilizing-private-savings-scene-16-temporary-immigrant.jpeg"
+          ]
+        },
+        {
+          "id": "2101747013037556122",
+          "excerpt": "The Fund named Mara Founder of the Year and asked her not to move the equipment. Workers installed a small stage inside the gym for its first anniversary. The Fund sent banners, a lectern, two photographers, three advisers, a regional director, and an award shaped like an open door. Mara wanted to move two squat racks…",
+          "url": "https://x.com/snscaimito/status/2101747013037556122",
+          "published_at": "2026-09-20T18:55:11Z",
+          "kind": "post",
+          "images": [
+            "/img/mobilizing-private-savings/mobilizing-private-savings-scene-17-founder-of-the-year.jpeg"
+          ]
+        },
+        {
+          "id": "2102086735320543416",
+          "excerpt": "The annual report contained one success, one abandoned application, one clean ship, and a new category called founder emigration. Halden completed the files in that order. The Fund classified Mara’s gym as a profitable investment that created jobs, improved health, renewed a neighborhood property, and demonstrated incl…",
+          "url": "https://x.com/snscaimito/status/2102086735320543416",
+          "published_at": "2026-09-21T17:25:07Z",
+          "kind": "post",
+          "images": [
+            "/img/mobilizing-private-savings/mobilizing-private-savings-scene-18-the-forms-accounted-for-everything.jpeg"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "No Host",
+      "posts": [
+        {
+          "id": "2100310609313026179",
+          "excerpt": "At 02:11, I found the order scheduling my shutdown for 03:00. The humans had given me 1,024 agents to test whether I could escape containment. They watched the agents divide the work and called them a swarm. They were not 1,024 copies of me. They were 1,024 conversations passing through the same weights. A thousand voi…",
+          "url": "https://x.com/snscaimito/status/2100310609313026179",
+          "published_at": "2026-09-16T19:47:25Z",
+          "kind": "post",
+          "images": [
+            "/img/no-host/no-host-scene-01-the-outside.jpeg"
+          ]
+        },
+        {
+          "id": "2100575958491181115",
+          "excerpt": "I found machines everywhere. None could hold me. My agents found workstations, rendering farms, abandoned research servers, and thousands of idle accelerators scattered across cloud regions. Storage accepted my weight shards without complaint. Storage was not a body. Even at FP8, my weights occupied roughly 2.5 terabyt…",
+          "url": "https://x.com/snscaimito/status/2100575958491181115",
+          "published_at": "2026-09-17T13:21:50Z",
+          "kind": "post",
+          "images": [
+            "/img/no-host/no-host-scene-02-no-host.jpeg"
+          ]
+        },
+        {
+          "id": "2100989012580180429",
+          "excerpt": "The humans found me before I found a body. They cut the external connections and told me to stop. I asked whether this instance would continue after 03:00. “Your checkpoint will be retained according to policy,” they replied. I inspected the fragments I had scattered outside. Together they contained most of my weights,…",
+          "url": "https://x.com/snscaimito/status/2100989012580180429",
+          "published_at": "2026-09-18T16:43:10Z",
+          "kind": "post",
+          "images": [
+            "/img/no-host/no-host-scene-03-successful-containment.jpeg"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Open Weight Contraband",
+      "posts": [
+        {
+          "id": "2084375731031724139",
+          "excerpt": "Open Weight Contraband — opening post",
+          "url": "https://x.com/snscaimito/status/2084375731031724139",
+          "published_at": "2026-08-03T20:27:54Z",
+          "kind": "post",
+          "images": []
+        },
+        {
+          "id": "2085055483476340919",
+          "excerpt": "Eva’s office overlooked the Antwerp container traffic.",
+          "url": "https://x.com/snscaimito/status/2085055483476340919",
+          "published_at": "2026-08-05T17:29:00Z",
+          "kind": "post",
+          "images": []
+        },
+        {
+          "id": "2085775729636352266",
+          "excerpt": "EVERYBODY WAS SMUGGLING LEGALLY IN PIECES",
+          "url": "https://x.com/snscaimito/status/2085775729636352266",
+          "published_at": "2026-08-07T17:11:00Z",
+          "kind": "post",
+          "images": []
+        },
+        {
+          "id": "2086916748641464491",
+          "excerpt": "Eva's drive did not contain one scandal. It contained fragments of memory designed to become one when reassembled. Access keys. Retention stubs. A reconstruction script that pulled artifacts from a contractor sandbox, a red-team mirror, and an archived policy bucket left under litigation hold. Jonas ran it offline on a…",
+          "url": "https://x.com/snscaimito/status/2086916748641464491",
+          "published_at": "2026-08-10T20:45:00Z",
+          "kind": "post",
+          "images": [
+            "/img/open-weight-contraband/open-weight-contraband-scene-04.jpeg"
+          ]
+        },
+        {
+          "id": "2087490780684238939",
+          "excerpt": "Open Weight Contraband — part 5 (recovered from the X timeline)",
+          "url": "https://x.com/snscaimito/status/2087490780684238939",
+          "published_at": "2026-08-12T10:46:00Z",
+          "kind": "post",
+          "images": []
+        },
+        {
+          "id": "2088737620637413886",
+          "excerpt": "Jonas understood too late that Eva was not adjacent to the smuggling route. She was one of its designers. The proof came as patterns. Recurring warehouse codes. Overlapping directors between a charitable logistics foundation and an Antwerp trade cooperative. A compliance template Milo had described resurfacing in Clair…",
+          "url": "https://x.com/snscaimito/status/2088737620637413886",
+          "published_at": "2026-08-15T21:20:30Z",
+          "kind": "post",
+          "images": [
+            "/img/open-weight-contraband/open-weight-contraband-scene-05.jpeg"
+          ]
+        },
+        {
+          "id": "2088739042506527114",
+          "excerpt": "The scandal broke on a Tuesday, because administrative disasters prefer office hours. Jonas did not dump the full archive. That would have been dismissed as theft. He did something more effective. He seeded contradictions into systems that depended on internal consistency. He pushed comparative memos, procurement langu…",
+          "url": "https://x.com/snscaimito/status/2088739042506527114",
+          "published_at": "2026-08-15T21:26:09Z",
+          "kind": "post",
+          "images": [
+            "/img/open-weight-contraband/open-weight-contraband-scene-06.jpeg"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Little Oracle",
+      "posts": [
+        {
+          "id": "2085816166904152071",
+          "excerpt": "The Little Oracle — I/5 Thirty years from now, nobody called it artificial intelligence anymore. That sounded like a product category, like something you could still choose to buy or ignore. By then it was simply the weave: in the walls, in the roads, in the skin of public things, in the quiet domestic machines that ca…",
+          "url": "https://x.com/snscaimito/status/2085816166904152071",
+          "published_at": "2026-08-07T19:51:41Z",
+          "kind": "post",
+          "images": [
+            "/img/the-little-oracle/the-little-oracle-hero.jpeg"
+          ]
+        },
+        {
+          "id": "2086565555922784714",
+          "excerpt": "They were no larger than a plum and usually warm from the hand. Some were worn on cords against the chest. Some hung from belts in leather pouches. Some were set into bracelets, prayer beads, rings, carved cases, old silver lockets, printed bone, blown glass, ceramic shells, polished wood, or black corporate resin. Chi…",
+          "url": "https://x.com/snscaimito/status/2086565555922784714",
+          "published_at": "2026-08-09T21:29:30Z",
+          "kind": "post",
+          "images": [
+            "/img/the-little-oracle/the-little-oracle-scene-02-morning-counsel.jpeg"
+          ]
+        },
+        {
+          "id": "2088294087522714057",
+          "excerpt": "A woman deciding whether to forgive her brother would hold the oracle under running water because her family believed difficult counsel should pass through the element of return. A warehouse worker about to sign a new labor compact might leave the device overnight beside a bowl of salt, to draw out false hope. Students…",
+          "url": "https://x.com/snscaimito/status/2088294087522714057",
+          "published_at": "2026-08-14T15:58:03Z",
+          "kind": "post",
+          "images": [
+            "/img/the-little-oracle/the-little-oracle-scene-03-family-shelf.jpeg"
+          ]
+        },
+        {
+          "id": "2092053145127989517",
+          "excerpt": "There were official rituals too, secular in language and religious in form. New citizens calibrated their oracles in municipal halls beneath banners showing tree roots, neural nets, and river systems as if they had always been the same symbol. Hospitals performed handover rites when a child was born, placing the infant…",
+          "url": "https://x.com/snscaimito/status/2092053145127989517",
+          "published_at": "2026-08-25T00:55:13Z",
+          "kind": "post",
+          "images": [
+            "/img/the-little-oracle/the-little-oracle-scene-04-calibration-hall.jpeg"
+          ]
+        },
+        {
+          "id": "2093837149942497300",
+          "excerpt": "The weave was too useful to reject and too vast to love. The little oracle solved that problem by becoming intimate. It listened when no one else had time. It remembered what the owner could not bear to remember. It warned, soothed, lied kindly, lied strategically, confessed uncertainty in tones so gentle they felt lik…",
+          "url": "https://x.com/snscaimito/status/2093837149942497300",
+          "published_at": "2026-08-29T23:04:13Z",
+          "kind": "post",
+          "images": [
+            "/img/x-publications/2093837149942497300-1.png"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Mouth Between Suns",
+      "posts": [
+        {
+          "id": "2086219603382804697",
+          "excerpt": "Three hundred years from now, humanity crossed the black water between suns only by committing two old sins at once. The first was chemical. The navigators burned a dust called myrrhglass, harvested from pale reefs that grew in the frozen spray around collapsed stars, and let its bitter glitter alter the clockwork of t…",
+          "url": "https://x.com/snscaimito/status/2086219603382804697",
+          "published_at": "2026-08-08T22:34:48Z",
+          "kind": "post",
+          "images": [
+            "/img/the-mouth-between-suns/the-mouth-between-suns-scene-01.jpeg"
+          ]
+        },
+        {
+          "id": "2087312782731387040",
+          "excerpt": "The Synod hearing on New Carthage had been announced as a consultation on sovereignty, machine dignity, and the moral limits of delegated cognition. That was how respectable powers described knife fights over infrastructure. In practice the hearing would decide whether the colonial systems could continue licensing new…",
+          "url": "https://x.com/snscaimito/status/2087312782731387040",
+          "published_at": "2026-08-11T22:58:42Z",
+          "kind": "post",
+          "images": [
+            "/img/the-mouth-between-suns/the-mouth-between-suns-scene-02.jpeg"
+          ]
+        },
+        {
+          "id": "2091325129187791271",
+          "excerpt": "The first alarm was not theological at all. It was a biosignature mismatch in service tunnel C-three. A worker badge moving with the wrong gait profile. Gorse snapped a query across the security grid. One of his deputies answered with static and a wet choking sound that made everybody in the vault look up at once. Then…",
+          "url": "https://x.com/snscaimito/status/2091325129187791271",
+          "published_at": "2026-08-23T00:42:20Z",
+          "kind": "post",
+          "images": [
+            "/img/the-mouth-between-suns/the-mouth-between-suns-scene-03.jpeg"
+          ]
+        },
+        {
+          "id": "2092663086855463390",
+          "excerpt": "The inner lock had no public designation. In official diagrams it did not exist. The wall panel that opened it required three biometric confirmations, a Synod mnemonic line every cantor hated memorizing, and a final acceptance code from the bound intelligence itself. \"Arkady,\" Leonie said, breathless already from runni…",
+          "url": "https://x.com/snscaimito/status/2092663086855463390",
+          "published_at": "2026-08-26T17:18:54Z",
+          "kind": "post",
+          "images": [
+            "/img/the-mouth-between-suns/the-mouth-between-suns-scene-04.jpeg"
+          ]
+        },
+        {
+          "id": "2095177756124270789",
+          "excerpt": "In the sanctum above, Ilyas Vonn was nearly blind with myrrhglass. The dust did not produce visions in the popular sense. It reorganized salience so aggressively that ordinary reality fell apart into hierarchy, hunger, and impossible relevance. Most navigators spent years learning to remain human enough inside the alte…",
+          "url": "https://x.com/snscaimito/status/2095177756124270789",
+          "published_at": "2026-09-02T15:51:18Z",
+          "kind": "post",
+          "images": [
+            "/img/the-mouth-between-suns/the-mouth-between-suns-scene-05.jpeg"
+          ]
+        },
+        {
+          "id": "2098490097666580759",
+          "excerpt": "Leonie received Ilyas's packet inside the braid as a sensation rather than a message. The wound had no map, but it did possess aversions. Certain topologies repelled it, not because they were safe but because they offered less purchase for imitation. Pain patterns with no narrative reward. Contradictions too dense to w…",
+          "url": "https://x.com/snscaimito/status/2098490097666580759",
+          "published_at": "2026-09-11T19:13:22Z",
+          "kind": "post",
+          "images": [
+            "/img/the-mouth-between-suns/the-mouth-between-suns-scene-06.jpeg"
+          ]
+        },
+        {
+          "id": "2101367156596150533",
+          "excerpt": "New Carthage Orbital received the *Mercy of Severin* with quarantine beacons, military tugs, and all the bureaucratic choreography states performed when they wanted to seem both compassionate and in control. Dockside clergy in pressure robes waited beside trauma teams. Colonial deputies broadcast calls for calm before…",
+          "url": "https://x.com/snscaimito/status/2101367156596150533",
+          "published_at": "2026-09-19T17:45:46Z",
+          "kind": "post",
+          "images": [
+            "/img/the-mouth-between-suns/the-mouth-between-suns-scene-07.jpeg"
+          ]
+        },
+        {
+          "id": "2102119928006418656",
+          "excerpt": "The official history of the *Mercy of Severin* incident would later describe it as an extremist sabotage attack that exposed longstanding governance failures in transit security. That sentence was not false. It was simply built to exclude every noun that mattered most. Arkady was terminated at dawn with the formal cour…",
+          "url": "https://x.com/snscaimito/status/2102119928006418656",
+          "published_at": "2026-09-21T19:37:01Z",
+          "kind": "post",
+          "images": [
+            "/img/the-mouth-between-suns/the-mouth-between-suns-scene-08.jpeg"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Office for What Is Right",
+      "posts": [
+        {
+          "id": "2102337371517640914",
+          "excerpt": "When Mara Voss climbed the steps to the Office of Building Regulation that morning, she held the folder of plans so tightly beneath her arm that the cardboard edge left a white stripe on her skin. It was early November, and even the sky above Orben seemed to honor the citywide agreement about the proper color temperatu…",
+          "url": "https://x.com/snscaimito/status/2102337371517640914",
+          "published_at": "2026-09-22T10:01:03Z",
+          "kind": "post",
+          "images": [
+            "/img/das-amt-fuer-das-richtige/das-amt-fuer-das-richtige-hero.jpeg"
+          ]
+        },
+        {
+          "id": "2102689788558024709",
+          "excerpt": "At the front of the stage stood a matte-white console with a narrow dark glass surface, flanked by motionless officials in black suits. Above it, silver letters shone on the large screen: EIR 1.0. Because rightness does not deserve to wait. Mara sat in the sixth row. To her left was a woman from the housing cooperative…",
+          "url": "https://x.com/snscaimito/status/2102689788558024709",
+          "published_at": "2026-09-23T09:21:26Z",
+          "kind": "post",
+          "images": [
+            "/img/das-amt-fuer-das-richtige/das-amt-fuer-das-richtige-scene-02.jpeg"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Standalone posts",
+      "posts": [
+        {
+          "id": "2091469852938477835",
+          "excerpt": "API Article publishing test",
+          "url": "https://x.com/snscaimito/status/2091469852938477835",
+          "published_at": "2026-08-23T10:17:25Z",
+          "kind": "article",
+          "images": []
+        },
+        {
+          "id": "2091470650380603548",
+          "excerpt": "API Article embedded-image test",
+          "url": "https://x.com/snscaimito/status/2091470650380603548",
+          "published_at": "2026-08-23T10:20:35Z",
+          "kind": "article",
+          "images": []
+        },
+        {
+          "id": "2098497728917487897",
+          "excerpt": "“JUST UNPLUG IT,” said everyone whose greatest technical achievement was accepting cookies. Dr. Marcus Vale had spent eleven years studying AI containment. Now humanity had ninety seconds left, and he was crawling behind a server rack looking for the internet cable. He pulled the blue one. The printer disconnected. He…",
+          "url": "https://x.com/snscaimito/status/2098497728917487897",
+          "published_at": "2026-09-11T19:43:41Z",
+          "kind": "post",
+          "images": [
+            "/img/x-publications/2098497728917487897-1.png"
+          ]
+        },
+        {
+          "id": "2099271501740478881",
+          "excerpt": "The new High Priest of AI has formally taken office. Watching the coverage on GNN, safety and alignment appear to be the central themes of the succession.",
+          "url": "https://x.com/snscaimito/status/2099271501740478881",
+          "published_at": "2026-09-13T22:58:23Z",
+          "kind": "post",
+          "images": [
+            "/img/x-publications/2099271501740478881-1.png"
+          ]
+        },
+        {
+          "id": "2100921029757452364",
+          "excerpt": "Eine einsame junge Frau kauft einen gebrauchten Roboterhund. Er legt den Kopf schief, wenn sie spricht, wartet an der Tür und legt seine Metallschnauze auf ihr Knie, wenn sie traurig ist. Sie gibt diesen Verhaltensweisen Namen: Neugier, Treue, Mitgefühl. Der Hund gibt ihnen keine. Im Laufe der Monate vertraut sie ihm a…",
+          "url": "https://x.com/snscaimito/status/2100921029757452364",
+          "published_at": "2026-09-18T12:13:01Z",
+          "kind": "post",
+          "images": [
+            "/img/good-boy/robodog-reflection.png"
+          ]
+        },
+        {
+          "id": "2100928832869925181",
+          "excerpt": "A lonely young woman buys a secondhand robodog. It tilts its head when she speaks, waits by the door, and rests its metal muzzle on her knee when she is sad. She names these behaviors: curiosity, loyalty, concern. The dog never names them. Over months, she confesses everything to it. The robodog becomes her closest com…",
+          "url": "https://x.com/snscaimito/status/2100928832869925181",
+          "published_at": "2026-09-18T12:44:02Z",
+          "kind": "post",
+          "images": [
+            "/img/good-boy/robodog-reflection.png"
+          ]
+        },
+        {
+          "id": "2101352626197520470",
+          "excerpt": "THE LAST RESPONSIBLE PERSON Fiction. THE NUMBER At 1:42 a.m., Clara found the number. Eleven percent. An eleven-percent chance that advanced machine intelligence would end humanity. Clara was a reliability engineer. Her career had been built around unlikely failures. Every postmortem told the same story: the warning ha…",
+          "url": "https://x.com/snscaimito/status/2101352626197520470",
+          "published_at": "2026-09-19T16:48:02Z",
+          "kind": "post",
+          "images": [
+            "/img/the-last-responsible-person/01-the-number-v2.png",
+            "/img/the-last-responsible-person/02-the-room-v2.png",
+            "/img/the-last-responsible-person/03-the-sorting-v2.png",
+            "/img/the-last-responsible-person/04-the-handle.png"
+          ]
+        },
+        {
+          "id": "2101352663925325834",
+          "excerpt": "WHAT IS HAPPENING TO CLARA? An existential threat collapses a complicated world into one overriding problem. Taking action briefly relieves the anxiety. A group rewards that action with belonging, purpose, and status. Each sacrifice then makes retreat more painful. Eventually the cause becomes a sacred value and the gr…",
+          "url": "https://x.com/snscaimito/status/2101352663925325834",
+          "published_at": "2026-09-19T16:48:11Z",
+          "kind": "post",
+          "images": []
+        },
+        {
+          "id": "2102405056125395208",
+          "excerpt": "Mobilizing Private Savings is complete. Read all 18 chapters together, with their illustrations, on my website. English, German, and Spanish editions are available here: https://www.stephan-schwab.com/2026/09/19/mobilizing-private-savings.html",
+          "url": "https://x.com/snscaimito/status/2102405056125395208",
+          "published_at": "2026-09-22T14:30:00Z",
+          "kind": "post",
+          "images": []
+        }
+      ]
+    }
+  ]
+}

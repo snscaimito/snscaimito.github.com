@@ -58,7 +58,7 @@ Preview a prepared publication card without contacting X:
 ruby _tools/x.rb preview --file _tools/publication-queue/the-little-oracle-01.json
 ```
 
-The preview prints the exact text, status, character count, absolute image path, and—when applicable—the preceding installment that the post will quote. It validates the JSON and image but does not authorize, refresh a token, upload media, or publish. Codex can render the reported image path in this chat when you ask to preview a card.
+The preview prints the exact text, status, character count, absolute image path, and—when applicable—the preceding installment that the post will quote. The character count is informational: do not impose a 280-character limit or shorten copy to meet one. This workflow supports native long posts, and canonical or user-approved text must remain complete unless the user explicitly requests editorial shortening. The preview validates the JSON and image but does not authorize, refresh a token, upload media, or publish. Codex can render the reported image path in this chat when you ask to preview a card.
 
 Review the manual cadence and its recommended next installment without contacting X:
 
@@ -81,6 +81,10 @@ The link is appended to the text. Images may be JPG, PNG, GIF, or WebP, up to 5 
 
 Prepared cards remain backward-compatible with the singular `"image"` field. For multiple photos, use an ordered `"images"` array containing one to four repository-relative paths. The publisher uploads every image and sends the returned IDs together in `media.media_ids`.
 
+A text-only prepared card may omit both image fields. To publish it as a direct reply to another prepared card, set `"reply_to_card_id"` to the parent card's ID. The publisher resolves the parent's recorded X post ID, sends it through `reply.in_reply_to_tweet_id`, records the relationship, and refuses to publish when the parent has no local publication record.
+
+Mark the final installment of a series with `"series_end": true`, a short `"series_summary"`, and the full article's `"article_url"` on `https://www.stephan-schwab.com/`. Source-backed cards that include the article's final section require these fields. Review the complete package with `post --file CARD.json --dry-run`. Publishing that installment posts the chapter and its usual series-root navigation reply, then posts the summary and website link as a **top-level quote of part 1**, just like a chapter. The summary is the last X post for the series. The publisher rejects an incomplete summary, an off-site link, a later queued or published chapter, or an attempt to continue a closed series. If X accepts the chapter or navigation reply but the summary fails, rerun `post --file CARD.json`; it posts the pending summary without reposting the chapter.
+
 Publish an approved prepared card the same way:
 
 ```sh
@@ -101,6 +105,8 @@ Every successful API publication is written locally to `_tools/.x-publisher/publ
 ```sh
 ruby _tools/x.rb history
 ```
+
+Successful content publications also regenerate the tracked, public-safe `_data/x_publications.json` export used by the unlinked `/x-publications/` Jekyll page. The export contains series names, short post excerpts, post IDs, canonical account-qualified X URLs (`https://x.com/<account>/status/<id>`), publication timestamps, publication kinds, and public image paths; it never exposes complete post text, local paths, or Article content state. The account-qualified form lets X recognize a pasted link as a post and render its preview. Series-root navigation replies are excluded. Images already under `img/` are reused directly; originals elsewhere are copied unchanged to `img/x-publications/` so Jekyll can display them.
 
 When publishing a card, the CLI first rejects anything other than `queued` and refuses a card already present in the ledger. After X confirms publication, it appends the ledger record and updates the card with `published` status, timestamp, X post ID, X URL, and quote target where applicable. The ledger and the queue are local and Git-ignored.
 
