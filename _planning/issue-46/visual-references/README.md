@@ -4,6 +4,8 @@ Keep approved character portraits, age variants, and style references for the mo
 
 Current mother reference set: `mother-15-test.png`, `mother-22-pageant-test.png`, and `mother-36-reference.png`. The last is the selected age-36 reference; the other age-36 files record the visual iterations.
 
+Daughter subject: `Renata Rivas Salcedo` in the `Strongman Story` CMS project. The active Nilo reference is the new age-25 image `Fictional Woman at State Ceremony` (media handle `COBALT-SILK`), attached as `daughter-25-nilo-reference.jpeg`. The earlier local `daughter-25-reference.png` was identified as wrong and is not active. Other local variants are `daughter-25-ceremonial-base.png`, `daughter-25-ceremonial-knee-draft.png`, `daughter-25-office-draft.png`, and `daughter-34-reference.png`; the last has an unresolved scale problem.
+
 This directory is excluded from the Jekyll build through `_config.yml`. Place only selected publication images under `img/<post-slug>/` and `img/<post-slug>/full/`.
 
 The finished story never names its country or any location. Keep its images free of place names, identifying landmarks, flags, and maps.

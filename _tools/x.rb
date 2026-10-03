@@ -28,7 +28,6 @@ PUBLICATIONS_FILE = File.join(STATE, "publications.jsonl")
 HISTORICAL_PUBLICATIONS_FILE = File.join(STATE, "historical-publications.jsonl")
 PUBLICATION_QUEUE = File.join(TOOLS, "publication-queue")
 X_PUBLICATIONS_DATA_FILE = File.join(REPOSITORY, "_data", "x_publications.json")
-CADENCE_INTERVAL_HOURS = 24
 SCOPES = %w[tweet.read tweet.write users.read media.write offline.access].freeze
 IMAGE_TYPES = {
   ".jpg" => "image/jpeg", ".jpeg" => "image/jpeg", ".png" => "image/png",
@@ -201,7 +200,7 @@ def load_publication_card(path)
   end
   validate_story_package(card, card_path)
   validate_final_source_section(card)
-  series_summary_text(card) if card["series_end"] == true
+  series_summary_text(card) if card["publication_type"] == "series_summary"
   validate_series_end(card) if card["series_end"] == true
   card["text"] = publication_text(card)
   image_paths = card_image_paths(card)
@@ -222,6 +221,8 @@ def validate_story_package(card, card_path)
 end
 
 def publication_text(card)
+  return series_summary_text(card) if card["publication_type"] == "series_summary"
+
   text = if card["text"].is_a?(String) && !card["text"].strip.empty?
            card.fetch("text")
          else
@@ -383,10 +384,7 @@ def quote_target_for(card, records: publication_records, account: expected_accou
   series = card["series"]
   return nil unless series.is_a?(String) && !series.strip.empty?
 
-  if records.any? do |record|
-       record["series"] == series && record["publication_type"] == "series_summary" &&
-         !(record["source_card_id"] == card["id"] && card["status"] == "published" && card["series_summary_status"] == "pending")
-     end
+  if records.any? { |record| record["series"] == series && record["publication_type"] == "series_summary" }
     fail "Story series #{series} is already closed by its summary post."
   end
 
@@ -461,24 +459,43 @@ def series_root_reply_body(card, root_target, installment_id)
 end
 
 def series_summary_text(card)
-  return nil unless card["series_end"] == true
+  return nil unless card["publication_type"] == "series_summary"
 
   unless card["series"].is_a?(String) && !card["series"].strip.empty? && card["part"].is_a?(Integer) && card["part"].positive?
-    fail "Final story card #{card.fetch("id")} needs a series and positive part number."
+    fail "Series summary card #{card.fetch("id")} needs a series and positive part number."
   end
-  summary = card["series_summary"]
+  summary = card["text"]
   url = card["article_url"]
-  fail "Final story card #{card.fetch("id")} needs a summary." unless summary.is_a?(String) && !summary.strip.empty?
-  fail "Final story card #{card.fetch("id")} needs an article URL." unless url.is_a?(String)
+  fail "Series summary card #{card.fetch("id")} needs text." unless summary.is_a?(String) && !summary.strip.empty?
+  fail "Series summary card #{card.fetch("id")} needs an article URL." unless url.is_a?(String)
   uri = URI.parse(url)
   unless uri.scheme == "https" && uri.host == "www.stephan-schwab.com" && uri.path.end_with?(".html") && !uri.query && !uri.fragment
-    fail "Final story card #{card.fetch("id")} needs a full article URL on www.stephan-schwab.com."
+    fail "Series summary card #{card.fetch("id")} needs a full article URL on www.stephan-schwab.com."
   end
-  fail "Final story card #{card.fetch("id")} must keep the article URL outside its summary." if summary.match?(%r{https?://})
+  return summary if card["status"] == "published" && summary.include?("Read the full story: #{url}")
 
-  "#{summary.strip}\n\nRead the full story: #{url}"
+  fail "Series summary card #{card.fetch("id")} must keep the article URL outside its text." if summary.match?(%r{https?://})
+
+  "#{summary.strip}\n\nRead the full story: #{url}\n\n#{card.fetch("footer")}"
 rescue URI::InvalidURIError
-  fail "Final story card #{card.fetch("id")} has an invalid article URL."
+  fail "Series summary card #{card.fetch("id")} has an invalid article URL."
+end
+
+def series_summary_card_for(card, queue: PUBLICATION_QUEUE)
+  summary_id = card["series_summary_card_id"]
+  fail "Final story card #{card.fetch("id")} needs a queued summary card ID." unless summary_id.is_a?(String) && !summary_id.strip.empty?
+
+  path = File.join(queue, "#{summary_id}.json")
+  fail "Final story card #{card.fetch("id")} has no summary card at #{path}." unless File.file?(path)
+
+  summary = JSON.parse(File.read(path))
+  unless summary["id"] == summary_id && summary["publication_type"] == "series_summary" &&
+         summary["series"] == card["series"] && summary["part"] == card["part"] + 1 &&
+         %w[queued published].include?(summary["status"])
+    fail "Final story card #{card.fetch("id")} has an invalid summary card."
+  end
+  series_summary_text(summary)
+  [path, summary]
 end
 
 def validate_final_source_section(card)
@@ -495,7 +512,7 @@ def validate_final_source_section(card)
 
   last_section = File.read(path).split(/^## /).length - 1
   if sections.include?(last_section) && card["series_end"] != true
-    fail "Final story card #{card.fetch("id")} needs series_end, series_summary, and article_url."
+    fail "Final story card #{card.fetch("id")} needs series_end and a queued summary card."
   end
 end
 
@@ -503,23 +520,39 @@ def validate_series_end(card, records: publication_records, queue: PUBLICATION_Q
   return unless card["series_end"] == true
 
   later_record = records.any? do |record|
-    record["series"] == card.fetch("series") && record["part"].is_a?(Integer) && record["part"] > card.fetch("part")
+    record["series"] == card.fetch("series") && record["publication_type"] != "series_summary" &&
+      record["part"].is_a?(Integer) && record["part"] > card.fetch("part")
   end
   later_card = Dir.glob(File.join(queue, "*.json")).any? do |path|
     candidate = JSON.parse(File.read(path))
-    candidate["series"] == card.fetch("series") && candidate["part"].is_a?(Integer) &&
+    candidate["series"] == card.fetch("series") && candidate["publication_type"] != "series_summary" && candidate["part"].is_a?(Integer) &&
       candidate["part"] > card.fetch("part") && %w[queued published].include?(candidate["status"])
   end
   fail "Story card #{card.fetch("id")} is not the last part of its series." if later_record || later_card
+  series_summary_card_for(card, queue: queue)
 end
 
 def series_summary_body(card, root_id)
   fail "Series summary needs the series opener post ID." unless root_id.is_a?(String) && !root_id.empty?
 
   {
-    "text" => series_summary_text(card) || fail("Story card #{card.fetch("id")} is not marked as the series end."),
+    "text" => series_summary_text(card) || fail("Story card #{card.fetch("id")} is not a series summary."),
     "quote_tweet_id" => root_id
   }
+end
+
+def validate_series_summary_predecessor(card, records: publication_records, queue: PUBLICATION_QUEUE)
+  return unless card["publication_type"] == "series_summary"
+
+  final = Dir.glob(File.join(queue, "*.json")).filter_map do |path|
+    candidate = JSON.parse(File.read(path))
+    candidate if candidate["series_summary_card_id"] == card.fetch("id") && candidate["series_end"] == true
+  end
+  unless final.one? && final.first["part"] == card.fetch("part") - 1 &&
+         (final.first["part"] == 1 || final.first["series_root_reply_status"] == "published") &&
+         records.any? { |record| record["card_id"] == final.first["id"] && record["part"] == final.first["part"] }
+    fail "Series summary #{card.fetch("id")} cannot publish before its final chapter."
+  end
 end
 
 def next_publication_cards
@@ -553,7 +586,7 @@ def matching_series_name(requested, available)
   fail "No publishable next card for #{requested}. Available: #{available.sort.join(", ")}"
 end
 
-def cadence_snapshot(requested_series = nil, now: Time.now)
+def cadence_snapshot(requested_series = nil)
   candidates = next_publication_cards
   fail "No queued story cards are available." if candidates.empty?
 
@@ -561,9 +594,6 @@ def cadence_snapshot(requested_series = nil, now: Time.now)
     record["series"].is_a?(String) && !record["series"].strip.empty?
   end
   publications_by_series = records.group_by { |record| record.fetch("series") }
-  latest = records.max_by { |record| publication_record_time(record) }
-  due_at = latest ? publication_record_time(latest) + (CADENCE_INTERVAL_HOURS * 60 * 60) : now
-
   candidate = if requested_series
                 series = matching_series_name(requested_series, candidates.keys)
                 candidates.fetch(series)
@@ -582,11 +612,7 @@ def cadence_snapshot(requested_series = nil, now: Time.now)
   {
     "candidate" => candidate,
     "candidates" => candidates,
-    "publications_by_series" => publications_by_series,
-    "latest" => latest,
-    "due_at" => due_at,
-    "due" => now >= due_at,
-    "now" => now
+    "publications_by_series" => publications_by_series
   }
 end
 
@@ -594,25 +620,11 @@ def format_local_time(time)
   time.getlocal.iso8601
 end
 
-def format_wait(seconds)
-  minutes = (seconds.abs / 60.0).ceil
-  hours, remaining_minutes = minutes.divmod(60)
-  return "#{remaining_minutes}m" if hours.zero?
-  return "#{hours}h" if remaining_minutes.zero?
-
-  "#{hours}h #{remaining_minutes}m"
-end
-
-def parse_cadence_options(argv, banner, allow_override: false)
-  options = { override_cadence: false }
+def parse_cadence_options(argv, banner)
+  options = {}
   parser = OptionParser.new do |opts|
     opts.banner = banner
     opts.on("--series NAME", "Choose a specific series") { |value| options[:series] = value }
-    if allow_override
-      opts.on("--override-cadence", "Publish before the #{CADENCE_INTERVAL_HOURS}-hour window after an explicit decision") do
-        options[:override_cadence] = true
-      end
-    end
   end
   parser.parse!(argv)
   fail "Unexpected argument: #{argv.first}" unless argv.empty?
@@ -622,21 +634,18 @@ end
 def cadence(argv)
   options = parse_cadence_options(argv, "Usage: ruby _tools/x.rb cadence [--series NAME]")
   snapshot = cadence_snapshot(options[:series])
-  latest = snapshot.fetch("latest")
+  records = publication_records.select do |record|
+    record["series"].is_a?(String) && !record["series"].strip.empty?
+  end
+  latest = records.max_by { |record| publication_record_time(record) }
   candidate = snapshot.fetch("candidate")
 
-  puts "Manual cadence: one story installment every #{CADENCE_INTERVAL_HOURS} hours"
+  puts "Manual recommendation: next installment from the longest-waiting started series"
   if latest
-    puts "Last published: #{format_local_time(publication_record_time(latest))} — #{latest.fetch("series")}#{latest["part"] ? " part #{latest["part"]}" : ""}"
+    puts "Most recent publication: #{format_local_time(publication_record_time(latest))} — #{latest.fetch("series")}#{latest["part"] ? " part #{latest["part"]}" : ""}"
   else
-    puts "Last published: none"
+    puts "Most recent publication: none"
   end
-  if snapshot.fetch("due")
-    puts "Status: due now (window opened #{format_wait(snapshot.fetch("now") - snapshot.fetch("due_at"))} ago)"
-  else
-    puts "Status: not due for #{format_wait(snapshot.fetch("due_at") - snapshot.fetch("now"))}"
-  end
-  puts "Next window: #{format_local_time(snapshot.fetch("due_at"))}"
   puts "Recommended: #{candidate.fetch("series")} — part #{candidate.fetch("part")} (#{candidate.fetch("id")})"
   puts "Card: #{candidate.fetch("path")}"
   puts "\nNext by series:"
@@ -657,8 +666,6 @@ def preview_next(argv)
   options = parse_cadence_options(argv, "Usage: ruby _tools/x.rb preview-next [--series NAME]")
   snapshot = cadence_snapshot(options[:series])
   candidate = snapshot.fetch("candidate")
-  timing = snapshot.fetch("due") ? "due now" : "next window #{format_local_time(snapshot.fetch("due_at"))}"
-  puts "Cadence: #{timing}"
   puts "Selected: #{candidate.fetch("series")} — part #{candidate.fetch("part")}\n\n"
   preview(["--file", candidate.fetch("path")])
 end
@@ -666,18 +673,10 @@ end
 def post_next(argv)
   options = parse_cadence_options(
     argv,
-    "Usage: ruby _tools/x.rb post-next [--series NAME] [--override-cadence]",
-    allow_override: true
+    "Usage: ruby _tools/x.rb post-next [--series NAME]"
   )
   snapshot = cadence_snapshot(options[:series])
   candidate = snapshot.fetch("candidate")
-  unless snapshot.fetch("due") || options.fetch(:override_cadence)
-    fail "Cadence is not due until #{format_local_time(snapshot.fetch("due_at"))}. Use --override-cadence only after an explicit decision to publish early."
-  end
-
-  if options.fetch(:override_cadence) && !snapshot.fetch("due")
-    puts "Cadence override: publishing before #{format_local_time(snapshot.fetch("due_at"))}."
-  end
   puts "Selected: #{candidate.fetch("series")} — part #{candidate.fetch("part")} (#{candidate.fetch("id")})"
   post(["--file", candidate.fetch("path")])
 end
@@ -711,6 +710,7 @@ def record_publication(id, text, image_paths, card_path: nil, card: nil, quote_t
     "x_post_id" => id,
     "x_post_url" => url,
     "card_id" => card && card.fetch("id"),
+    "publication_type" => card && card["publication_type"],
     "series" => card && card["series"],
     "part" => card && card["part"],
     "card_file" => card_path,
@@ -724,8 +724,8 @@ def record_publication(id, text, image_paths, card_path: nil, card: nil, quote_t
     "reply_to_tweet_id" => reply_target && reply_target.fetch("x_post_id"),
     "reply_to_tweet_url" => reply_target && reply_target["x_post_url"],
     "reply_to_card_id" => reply_target && reply_target.fetch("card_id"),
-    "series_root_reply_status" => quote_target && "pending",
-    "series_summary_status" => card && card["series_end"] == true ? "pending" : nil,
+    "series_root_reply_status" => quote_target && card["publication_type"] != "series_summary" ? "pending" : nil,
+    "article_url" => card && card["article_url"],
     "has_url" => text.match?(%r{https?://})
   }.compact
   append_publication(record)
@@ -736,14 +736,13 @@ def record_publication(id, text, image_paths, card_path: nil, card: nil, quote_t
   card["published_at"] = record.fetch("published_at")
   card["x_post_id"] = id
   card["x_post_url"] = url
-  if quote_target
+  if quote_target && card["publication_type"] != "series_summary"
     card["quote_tweet_id"] = quote_target.fetch("x_post_id")
     card["quote_tweet_url"] = quote_target["x_post_url"]
     card["series_root_post_id"] = quote_target.fetch("x_post_id")
     card["series_root_post_url"] = quote_target["x_post_url"]
     card["series_root_reply_status"] = "pending"
   end
-  card["series_summary_status"] = "pending" if card["series_end"] == true
   if reply_target
     card["reply_to_tweet_id"] = reply_target.fetch("x_post_id")
     card["reply_to_tweet_url"] = reply_target["x_post_url"]
@@ -783,47 +782,6 @@ def publish_series_root_reply(card_path, card, root_target, installment_id, toke
   card["series_root_reply_text"] = body.fetch("text")
   save_publication_card(card_path, card)
   reply_url
-end
-
-def publish_series_summary(card_path, card, root_id, token)
-  existing = publication_records.find do |record|
-    record["publication_type"] == "series_summary" && record["source_card_id"] == card.fetch("id")
-  end
-  if existing
-    card["series_summary_status"] = "published"
-    card["series_summary_published_at"] = existing.fetch("published_at")
-    card["series_summary_post_id"] = existing.fetch("x_post_id")
-    card["series_summary_post_url"] = existing.fetch("x_post_url")
-    save_publication_card(card_path, card)
-    return existing.fetch("x_post_url")
-  end
-
-  body = series_summary_body(card, root_id)
-  response = x_request(:post, "/2/tweets", token: token, body: JSON.generate(body), content_type: "application/json")
-  summary_id = response.dig("data", "id") or fail "X returned no series summary post ID."
-  summary_url = x_post_url(summary_id)
-  published_at = Time.now.utc.iso8601
-
-  append_publication(
-    "published_at" => published_at,
-    "publication_type" => "series_summary",
-    "x_post_id" => summary_id,
-    "x_post_url" => summary_url,
-    "source_card_id" => card.fetch("id"),
-    "series" => card.fetch("series"),
-    "text" => body.fetch("text"),
-    "article_url" => card.fetch("article_url"),
-    "quote_tweet_id" => root_id,
-    "quote_tweet_url" => x_post_url(root_id),
-    "has_url" => true
-  )
-
-  card["series_summary_status"] = "published"
-  card["series_summary_published_at"] = published_at
-  card["series_summary_post_id"] = summary_id
-  card["series_summary_post_url"] = summary_url
-  save_publication_card(card_path, card)
-  summary_url
 end
 
 def wait_for_media(media_id, token, result)
@@ -1068,9 +1026,10 @@ def post(argv)
 
   if options[:dry_run]
     installment_id = card && card["x_post_id"] || "<new installment post ID>"
-    root_reply = quote_target && series_root_reply_body(card, quote_target, installment_id)
+    root_reply = quote_target && card["publication_type"] != "series_summary" ? series_root_reply_body(card, quote_target, installment_id) : nil
     root_id = quote_target && quote_target.fetch("x_post_id") || installment_id
-    summary_post = card && card["series_end"] == true ? series_summary_body(card, root_id) : nil
+    summary_card = card && card["series_end"] == true ? series_summary_card_for(card).last : nil
+    summary_post = summary_card && series_summary_body(summary_card, root_id)
     puts JSON.pretty_generate(
       "card_id" => card && card.fetch("id"),
       "text" => text,
@@ -1095,23 +1054,18 @@ def post(argv)
   end
 
   if card
-    if card.fetch("status") == "published" && (card["series_root_reply_status"] == "pending" || card["series_summary_status"] == "pending")
+    if card.fetch("status") == "published" && card["series_root_reply_status"] == "pending"
       installment_id = card["x_post_id"]
       fail "Published card #{card.fetch("id")} has no installment post ID." unless installment_id.is_a?(String) && !installment_id.empty?
 
       token = access_token
-      if card["series_root_reply_status"] == "pending"
-        reply_url = publish_series_root_reply(card_path, card, quote_target, installment_id, token)
-        puts "Series-root reply published and recorded: #{reply_url}"
-      end
-      if card["series_summary_status"] == "pending"
-        summary_url = publish_series_summary(card_path, card, quote_target ? quote_target.fetch("x_post_id") : installment_id, token)
-        puts "Series summary published and recorded: #{summary_url}"
-      end
+      reply_url = publish_series_root_reply(card_path, card, quote_target, installment_id, token)
+      puts "Series-root reply published and recorded: #{reply_url}"
       return
     end
     fail "Publication card #{card_path} is #{card.fetch("status")}, not queued." unless card.fetch("status") == "queued"
     fail "Publication card #{card.fetch("id")} is already recorded as published." if publication_recorded_for_card?(card.fetch("id"))
+    validate_series_summary_predecessor(card)
   end
 
   token = access_token
@@ -1126,13 +1080,9 @@ def post(argv)
     quote_target: quote_target, reply_target: reply_target
   )
   puts "Published and recorded: #{url}"
-  if card && quote_target
+  if card && quote_target && card["publication_type"] != "series_summary"
     reply_url = publish_series_root_reply(card_path, card, quote_target, id, token)
     puts "Series-root reply published and recorded: #{reply_url}"
-  end
-  if card && card["series_end"] == true
-    summary_url = publish_series_summary(card_path, card, quote_target ? quote_target.fetch("x_post_id") : id, token)
-    puts "Series summary published and recorded: #{summary_url}"
   end
 end
 
@@ -1158,7 +1108,11 @@ def preview(argv)
   fail "Publication card #{card.fetch("id")} cannot both quote and reply." if quote_target && reply_target
   if quote_target
     puts "Quote series opener: #{quote_target.fetch("series")} part 1 — #{quote_target["x_post_url"] || quote_target.fetch("x_post_id")}"
-    puts "Series-root reply: #{series_root_reply_text(card)}; replies to part 1 and natively quotes this installment (no URL text)"
+    if card["publication_type"] == "series_summary"
+      puts "Series ending: summary quotes part 1 and links to the full article"
+    else
+      puts "Series-root reply: #{series_root_reply_text(card)}; replies to part 1 and natively quotes this installment (no URL text)"
+    end
   elsif card["series"].is_a?(String) && !card["series"].strip.empty?
     puts "Quote post: none (series opener)"
   else
@@ -1243,7 +1197,7 @@ def usage
       ruby _tools/x.rb preview --file CARD.json
       ruby _tools/x.rb cadence [--series NAME]
       ruby _tools/x.rb preview-next [--series NAME]
-      ruby _tools/x.rb post-next [--series NAME] [--override-cadence]
+      ruby _tools/x.rb post-next [--series NAME]
       ruby _tools/x.rb history [--limit COUNT]
       ruby _tools/x.rb me
       ruby _tools/x.rb posts [--limit COUNT]

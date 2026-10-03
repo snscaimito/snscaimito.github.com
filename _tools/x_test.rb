@@ -51,29 +51,33 @@ class XPublisherTest < Minitest::Test
 
   def test_final_series_summary_quotes_the_series_opener_with_the_article_link
     card = {
-      "id" => "free-air-04",
+      "id" => "free-air-summary",
       "series" => "Free Air",
-      "part" => 4,
-      "series_end" => true,
-      "series_summary" => "Sanne leaves the station to choose her own future.",
-      "article_url" => "https://www.stephan-schwab.com/2026/08/23/free-air.html"
+      "part" => 5,
+      "publication_type" => "series_summary",
+      "status" => "queued",
+      "text" => "Sanne leaves the station to choose her own future.",
+      "article_url" => "https://www.stephan-schwab.com/2026/08/23/free-air.html",
+      "footer" => "Free Air — a serialized story."
     }
 
     body = series_summary_body(card, "1001")
 
-    assert_equal "Sanne leaves the station to choose her own future.\n\nRead the full story: https://www.stephan-schwab.com/2026/08/23/free-air.html", body.fetch("text")
+    assert_equal "Sanne leaves the station to choose her own future.\n\nRead the full story: https://www.stephan-schwab.com/2026/08/23/free-air.html\n\nFree Air — a serialized story.", body.fetch("text")
     assert_equal "1001", body.fetch("quote_tweet_id")
     refute body.key?("reply")
   end
 
   def test_final_series_summary_rejects_an_external_article_link
     card = {
-      "id" => "free-air-04",
+      "id" => "free-air-summary",
       "series" => "Free Air",
-      "part" => 4,
-      "series_end" => true,
-      "series_summary" => "A summary.",
-      "article_url" => "https://example.com/2026/08/23/free-air.html"
+      "part" => 5,
+      "publication_type" => "series_summary",
+      "status" => "queued",
+      "text" => "A summary.",
+      "article_url" => "https://example.com/2026/08/23/free-air.html",
+      "footer" => "Free Air — a serialized story."
     }
 
     _, stderr = capture_io do
@@ -90,6 +94,49 @@ class XPublisherTest < Minitest::Test
       assert_raises(SystemExit) { quote_target_for(card, records: closed_records, account: "snscaimito") }
     end
     assert_includes stderr, "already closed"
+  end
+
+  def test_final_chapter_has_a_separate_queued_summary_card
+    Dir.mktmpdir do |queue|
+      final = {
+        "id" => "free-air-04", "series" => "Free Air", "part" => 4,
+        "series_end" => true, "series_summary_card_id" => "free-air-summary"
+      }
+      summary = {
+        "id" => "free-air-summary", "series" => "Free Air", "part" => 5,
+        "publication_type" => "series_summary", "status" => "queued",
+        "text" => "Sanne chooses her own future.",
+        "article_url" => "https://www.stephan-schwab.com/2026/08/23/free-air.html",
+        "footer" => "Free Air — a serialized story."
+      }
+      File.write(File.join(queue, "free-air-summary.json"), JSON.generate(summary))
+
+      path, loaded_summary = series_summary_card_for(final, queue: queue)
+
+      assert_equal "free-air-summary.json", File.basename(path)
+      assert_equal "queued", loaded_summary.fetch("status")
+      assert_equal 5, loaded_summary.fetch("part")
+      assert_equal "series_summary", loaded_summary.fetch("publication_type")
+    end
+  end
+
+  def test_summary_waits_for_its_final_chapter
+    Dir.mktmpdir do |queue|
+      final = {
+        "id" => "free-air-04", "series" => "Free Air", "part" => 4,
+        "series_end" => true, "series_summary_card_id" => "free-air-summary",
+        "series_root_reply_status" => "published"
+      }
+      File.write(File.join(queue, "free-air-04.json"), JSON.generate(final))
+      summary = { "id" => "free-air-summary", "series" => "Free Air", "part" => 5, "publication_type" => "series_summary" }
+
+      _, stderr = capture_io do
+        assert_raises(SystemExit) { validate_series_summary_predecessor(summary, records: [], queue: queue) }
+      end
+      assert_includes stderr, "before its final chapter"
+
+      assert_nil validate_series_summary_predecessor(summary, records: records + [{ "card_id" => "free-air-04", "part" => 4 }], queue: queue)
+    end
   end
 
   def test_a_source_backed_final_chapter_requires_a_summary_package

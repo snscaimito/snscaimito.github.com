@@ -69,7 +69,7 @@ ruby _tools/x.rb preview-next
 ruby _tools/x.rb preview-next --series 'The Mouth Between Suns'
 ```
 
-The cadence is one story installment every 24 hours. The recommendation considers only final `queued` cards, continues each series in part order, and mixes topics by preferring the started series that has waited longest. A series that has not started becomes eligible after no started series has a publishable next card. This is calculated only when the command runs; there is no scheduler, daemon, polling process, or background publication.
+The recommendation considers only final `queued` cards, continues each series in part order, and mixes topics by preferring the started series that has waited longest. A series that has not started becomes eligible after no started series has a publishable next card. This is a manual recommendation only; it does not impose a publication window or schedule posts. It is calculated when the command runs; there is no scheduler, daemon, polling process, or background publication.
 
 Publish only after reviewing the exact copy and image:
 
@@ -83,7 +83,7 @@ Prepared cards remain backward-compatible with the singular `"image"` field. For
 
 A text-only prepared card may omit both image fields. To publish it as a direct reply to another prepared card, set `"reply_to_card_id"` to the parent card's ID. The publisher resolves the parent's recorded X post ID, sends it through `reply.in_reply_to_tweet_id`, records the relationship, and refuses to publish when the parent has no local publication record.
 
-Mark the final installment of a series with `"series_end": true`, a short `"series_summary"`, and the full article's `"article_url"` on `https://www.stephan-schwab.com/`. Source-backed cards that include the article's final section require these fields. Review the complete package with `post --file CARD.json --dry-run`. Publishing that installment posts the chapter and its usual series-root navigation reply, then posts the summary and website link as a **top-level quote of part 1**, just like a chapter. The summary is the last X post for the series. The publisher rejects an incomplete summary, an off-site link, a later queued or published chapter, or an attempt to continue a closed series. If X accepts the chapter or navigation reply but the summary fails, rerun `post --file CARD.json`; it posts the pending summary without reposting the chapter.
+Mark the final chapter with `"series_end": true` and `"series_summary_card_id"` naming a separate queued card. That summary card has the next part number, `"publication_type": "series_summary"`, summary `"text"`, the full article's `"article_url"` on `https://www.stephan-schwab.com/`, and the usual series footer. Source-backed cards that include the article's final section require this summary card. Publishing the final chapter leaves the summary in the queue for its own reviewed publication. The summary quotes part 1 as a top-level post, like a chapter, and includes the website link. It creates no later navigation reply, so it remains the last X post for the series. The publisher refuses a summary before its final chapter and refuses further chapters after the summary.
 
 Publish an approved prepared card the same way:
 
@@ -98,7 +98,7 @@ ruby _tools/x.rb post-next
 ruby _tools/x.rb post-next --series 'Bread and Games'
 ```
 
-`post-next` refuses to publish before the 24-hour window. An explicit decision to publish early can be carried out with `--override-cadence`; that option bypasses only the timing check, never the queue-status or duplicate-publication safeguards.
+`post-next` publishes the recommended queued installment whenever explicitly invoked. The recommendation does not delay publication; queue-status and duplicate-publication safeguards remain in force.
 
 Every successful API publication is written locally to `_tools/.x-publisher/publications.jsonl`, including its X post ID, URL, timestamp, exact text, attached images, source card, and quote target when present. Historical posts recovered from X are kept separately in `_tools/.x-publisher/historical-publications.jsonl`; they retain their confirmed IDs, URLs, and timestamps without pretending to be newly published. Review the combined history without contacting X:
 
@@ -114,7 +114,7 @@ The tool has been authorized and has successfully read the latest post from the 
 
 ## Publishing format decision
 
-Use native longer posts for a serialized story. Every chapter remains an independent top-level post; part 2 onward quotes the recorded part 1 hub, and part 1 receives a direct navigation reply that natively quotes each new chapter. This gives the series an X-native two-way reading path while preserving the existing cadence, preview, duplicate, and fail-closed opener safeguards.
+Use native longer posts for a serialized story. Every chapter remains an independent top-level post; part 2 onward quotes the recorded part 1 hub, and part 1 receives a direct navigation reply that natively quotes each new chapter. This gives the series an X-native two-way reading path while preserving the manual recommendation, preview, duplicate, and fail-closed opener safeguards.
 
 Use an X Article for a complete standalone story or essay that benefits from rich layout, a cover, and inline images. Do not use Articles for a chapter-by-chapter serial: the Articles API cannot make a published Article announcement quote its predecessor, update a published Article body, or add forward navigation after a later chapter exists.
 
@@ -142,6 +142,8 @@ Articles can link back to an earlier announcement through a DraftJS link or embe
 
 ## Story distribution rule
 
+For serialized X posts, there are only two editorial states: discussion in the current task and a complete `queued` card. Keep proposed text and image choices in the conversation until the user asks to queue the post. Do not create a separate draft, review, held, or pending publication state, or leave a finished publication package outside the queue. When asked to queue, save the full canonical text and matching image, create the `queued` source-backed card, then run `preview --file` and `cadence --series` to confirm that the card is publishable and visible. A queued card is ready for a later explicit publication request; it is not permission to post now. This rule concerns serialized X posts; the separate X Articles API has its own draft operation.
+
 X is a distribution mechanism for the full canonical story—not a place to publish an adaptation, teaser, summary, excerpt, or rewritten version. When distributing a site story, use a source-backed card that reads the canonical article directly.
 
 Divide only at existing article chapter or scene boundaries. If the article has an introduction before its first chapter, include it with the first card. Each source-backed card posts every word of the selected narrative body unaltered, in source order. The only removed material is the website's section heading, Jekyll front matter, and site-only image/lightbox markup. Do not add a title, series label, part number, link, or rewritten closing to the narrative.
@@ -162,7 +164,7 @@ The source-backed cards for *The Mouth Between Suns* and *Mobility, As Authorize
 
 ## Scheduling and measurement
 
-The cadence commands are advisory and manual. `cadence` reports what is due, `preview-next` shows the exact payload, and `post-next` is the only one of those commands that contacts X—and it does so only when explicitly invoked. Successful publication updates the existing local ledger and card status, so the next invocation advances automatically without a separate queue pointer.
+The recommendation commands are advisory and manual. `cadence` reports which queued installment is recommended next, `preview-next` shows the exact payload, and `post-next` is the only one of those commands that contacts X—and it does so only when explicitly invoked. No publication window is enforced. Successful publication updates the existing local ledger and card status, so the next invocation advances automatically without a separate queue pointer.
 
 X does not expose post scheduling through its public API. X Pro has a web scheduler, but X states that longer posts cannot currently be scheduled on the web.
 

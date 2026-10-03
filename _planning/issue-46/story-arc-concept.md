@@ -2,6 +2,11 @@
 
 Companion to [issue #46](https://github.com/snscaimito/snscaimito.github.com/issues/46). This is a scene map for a serial story on X, not finished posts. The title remains open.
 
+## Working names
+
+- Mother: **Mariela Salcedo Ibarra**. Salcedo is her first surname and the family name her daughter may use publicly.
+- Daughter: name still open. **Renata Rivas Salcedo** was suggested but has not been chosen.
+
 ## Form
 
 - About 35 posts, each readable on its own in no more than two minutes. Aim for roughly 170–230 words per finished post when the scene needs that space; do not impose a character limit.
@@ -11,7 +16,7 @@ Companion to [issue #46](https://github.com/snscaimito/snscaimito.github.com/iss
 
 ## Causal spine
 
-The mother learns as a child that her presence can get help to people whom procedure has failed. Beauty gives her attention; successful intervention gives her a moral purpose. She wins a competitive election and uses the same habit of personal intervention in office. Helpful exceptions create loyal dependents. Career seekers turn her wishes into procedures, while a few enforcers enjoy the authority they receive. The state gradually becomes the means by which she protects her work, her family, and herself. She removes the possibility of losing power, stays in office for life, and places relatives in consequential roles.
+Mariela Salcedo Ibarra learns as a child that her presence can get help to people whom procedure has failed. Beauty gives her attention; successful intervention gives her a moral purpose. She wins a competitive election and uses the same habit of personal intervention in office. Helpful exceptions create loyal dependents. Career seekers turn her wishes into procedures, while a few enforcers enjoy the authority they receive. The state gradually becomes the means by which she protects her work, her family, and herself. She removes the possibility of losing power, stays in office for life, and places relatives in consequential roles.
 
 The daughter grows up inside that arrangement. She shares her mother’s beauty but receives honors that others secure in advance, including a pageant crown. Adults absorb the costs of her outbursts instead of requiring repair. After elections have been canceled, her mother gives her state authority. Her lover can reach her emotionally and challenge the officials who have learned to manage her moods. An entrenched circle of agency and party loyalists calls him a “bad influence” because they fear losing their hold on her. They arrange his death without either woman’s knowledge. When the daughter inherits the state, she repeats her mother’s language of protection with fewer doubts and fewer limits.
 
