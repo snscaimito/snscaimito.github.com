@@ -17,6 +17,8 @@ Repository-specific guidance for AI assistance in this Jekyll site.
 - Do not impose a 280-character limit on X posts. This repository's X workflow supports native long posts.
 - Treat the character count shown by `_tools/x.rb preview` as informational only. Never shorten, summarize, excerpt, or otherwise rewrite canonical or user-approved copy solely to fit 280 characters.
 - Shorten X copy only when the user explicitly requests an editorial shortening. Preserve the complete text and its series footer otherwise.
+- Every authorized X content publication must also update its existing blog article or create one if none exists. For an ongoing series, append the newly published installment as a chapter in the same article, preserving its first-publication date, published narrative text, matching images, and X publication metadata.
+- At the time of posting to X, create or update the blog article's English, German, and Spanish editions, including the new chapter in every edition and maintaining the language switcher. Translate the blog content only; publish the X post solely in its approved original language, without translating it or creating translated X posts. Complete the blog updates and translations in the same posting task before reporting completion; queueing or previewing alone does not trigger this requirement.
 
 ## Blog Posts
 

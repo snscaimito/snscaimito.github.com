@@ -150,6 +150,16 @@ Divide only at existing article chapter or scene boundaries. If the article has 
 
 Every prepared story post is a three-part publication package: the complete canonical chapter or scene text as written, its matching image, and a separate plain-language footer in the exact form `<Series Title> — a serialized story.` For example: `The Mouth Between Suns — a serialized story.` Do not use hashtags; they no longer serve as the series identifier. The footer is part of the package, not part of the story text. A footer never makes a summary, excerpt, adaptation, or rewritten scene acceptable.
 
+## Blog synchronization and translation
+
+Every authorized X content publication includes updating its existing blog article or creating one if no corresponding article exists. This applies when actually posting to X, not merely queueing or previewing. An existing article must contain the published content once and have current X publication metadata; do not create duplicate articles or chapters.
+
+For fiction first published to X, use one blog entry per series, dated to the first published installment in Europe/Madrid. After X confirms publication, use the recorded text, images, post ID, and timestamp to add the installment as the next chapter and extend `x_chapters`. Keep the article's original filename and date, and keep `x_post_id` pointing to the series opener. Preserve the published narrative verbatim, omit the X series footer, and add no unpublished installments, transitions, summaries, or endings. Navigation replies link chapters on X; they do not create additional blog entries.
+
+At the time of posting, create or update the blog article's English, German, and Spanish editions. Translate the newly published chapter into every other blog language, preserving its meaning, chapter order, and matching images; translate image descriptions and captions and maintain the language-switcher metadata and links. For an existing complete article, verify that all three blog editions already contain the corresponding chapter and update them where needed. Keep the original article URL stable and use explicit translation URLs when its canonical language is not English.
+
+Translate the blog post only. The X post stays in its approved original language and is published once; do not translate its copy or publish translated versions on X. The posting task is complete only after the corresponding blog updates and translations have been verified and committed locally under the repository workflow. If X publication succeeds but a blog update is interrupted, resume from the recorded publication instead of posting to X again. A request to post to X does not by itself authorize pushing or deploying the blog changes.
+
 ## Series linking through the part 1 hub
 
 Each series opener (part 1) is the permanent hub and a normal top-level X post. Every later installment is another top-level post that natively quotes part 1. After that installment succeeds, the publisher creates a direct reply beneath part 1 whose text is only `Part N` and which natively quotes the new installment. The root therefore carries forward links to every later part, while every later part links back to the root.
