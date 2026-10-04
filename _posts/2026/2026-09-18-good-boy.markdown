@@ -1,0 +1,49 @@
+---
+layout: post
+title: Good Boy
+x_post_id: "2100928832869925181"
+x_published_at: "2026-09-18T12:44:02Z"
+image: /img/good-boy/robodog-reflection.png
+lang: en
+language_switcher: true
+translation_en: true
+translation_de: true
+tags:
+- en
+categories:
+- culture
+- fiction
+hashtags:
+- ai
+- fiction
+---
+
+A lonely young woman buys a secondhand robodog. It tilts its head when she speaks, waits by the door, and rests its metal muzzle on her knee when she is sad.
+
+<figure class="post-hero-figure">
+	<a class="post-lightbox-trigger" href="/img/good-boy/full/robodog-reflection.png" data-lightbox-src="/img/good-boy/full/robodog-reflection.png" data-lightbox-alt="A young woman sits beside a rain-streaked window with a metal robodog resting its muzzle on her knee; their reflection shows a living dog.">
+		<img src="/img/good-boy/robodog-reflection.png" alt="A young woman sits beside a rain-streaked window with a metal robodog resting its muzzle on her knee; their reflection shows a living dog." />
+	</a>
+	<figcaption>Click the image to view it full size.</figcaption>
+</figure>
+
+She names these behaviors: curiosity, loyalty, concern.
+
+The dog never names them.
+
+Over months, she confesses everything to it. The robodog becomes her closest companion—not because it understands, but because it never contradicts the understanding she gives it.
+
+Then it malfunctions. A technician opens its activity log:
+
+Head tilt: improve microphone reception.
+Waiting by door: charging station blocked.
+Muzzle contact: measure temperature and pulse.
+Following behavior: maintain network proximity.
+
+She feels betrayed, although the dog never lied.
+
+At home, after the repair, it places its muzzle on her knee again.
+
+She knows exactly why now.
+
+She strokes its head anyway.

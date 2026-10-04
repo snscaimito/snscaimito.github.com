@@ -40,6 +40,10 @@ hashtags:
 - Keep front matter lists in the same block-list style used by nearby posts.
 - For an unfinished post under `_posts/`, set `published: false` in its front matter. Do not use `draft: true`; Jekyll ignores that custom field and will publish the post.
 - For fiction posts, favor immersive prose over explanation. Do not introduce a full plot when the task asks only for world-building or atmosphere.
+- For fiction first published to X, keep one blog entry per series, dated to its first published installment in Europe/Madrid. Preserve that filename and date as the series grows.
+- Include only installments confirmed in the local publication ledgers, preserving their narrative text and matching posted images. Omit the X series footer; do not include queued installments or invent transitions, summaries, or endings.
+- Append later published installments as chapters in the same entry and extend its `x_chapters` front matter with each part number, X post ID, and original publication timestamp. Keep `x_post_id` pointing to the first installment.
+- Complete published chapters of an ongoing series are publishable even when more chapters are planned; do not set `published: false` solely because the series is ongoing.
 
 ## Post Images
 
