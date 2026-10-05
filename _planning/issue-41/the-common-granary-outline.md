@@ -6,6 +6,8 @@ Planning only. This is not the written story and is not queued or published cont
 
 In a future farming town, a loving family with several children prospers through hard work, knowledge, and preparation. They help freely, teach generously, respect other people's choices, and expect to be left alone. The granary begins as genuine voluntary assistance. Rules and demands gradually change who can decide over the family's work and planting seed. A small group of highly educated, empathetic young adults leads the drive to take the seed, and eventually the mob that burns the farm. The family escapes with only their lives. Nothing is planted in spring, every remaining town resident dies, and the displaced family alone survives from that community.
 
+The same organizers change through the beliefs they adopt and reinforce in one another. They come to believe that need gives them authority over other people's work, that independent decisions obstruct fairness, and that resistance proves a lack of compassion. The family's voluntary help becomes an obligation, its preparation becomes hoarding, its teaching becomes obstruction, and its independence becomes cruelty in their eyes. Each coercive step feels to them like a further act of care. Their anger at the farm grows from this conviction: they believe they are protecting the hungry by forcing the family to surrender. Their familiar faces, concern for children, and sense of doing good persist throughout the transformation.
+
 ## Visual continuity
 
 - Photorealistic people, places, and everyday objects with the appearance of US/European life in 2026. The story remains a potential future, without historical or futuristic costumes.
@@ -13,6 +15,7 @@ In a future farming town, a loving family with several children prospers through
 - The organizers are predominantly highly educated women in their early twenties, accompanied by ordinary student-aged men. The women wear low-rise trousers and cropped casual tops with exposed midriffs; the men wear ordinary student clothes. Weather-appropriate layers are added in cold scenes.
 - No ideological signs, uniforms, recognizable slogans, badges, or villain styling. Education and good intentions appear through ordinary work, notebooks, conversation, and help. Early scenes contain no tell-tale hints of what follows.
 - The farmhouse, modern grain shed, village hall, seed sacks, faces, and base wardrobes recur. New scenes use the opening family image and the volunteer scene as visual references.
+- The five volunteers remain individually recognizable from the soup table to the shed entrance. Warm cooperation gradually gives way to insistence, moral certainty, and anger. Their change appears in how they address the same family and use the same hands, notebooks, and doorway.
 - The mob's anger appears through familiar faces, demanding gestures, and its advance through the grain-shed entrance. The fire and physical violence occur outside the images; spring reveals the burned ruins.
 - No political labels appear in the eventual narration or dialogue. Theoretical and historical background remains in the GitHub research record. A brief separate Activity Theory afterword may describe the tools, rules, and roles without political labels.
 
@@ -36,7 +39,7 @@ Another household starves after illness interrupts its ordinary exchanges. The f
 
 ### 3. The Promise
 
-The family contributes food, labor, and knowledge. The granary genuinely helps. A small group of highly educated, empathetic young women organizes meals and assistance. Their concern for hungry families earns trust.
+The family contributes food, labor, and knowledge. The granary genuinely helps. A small group of highly educated, empathetic young women organizes meals and assistance. Their concern for hungry families earns trust. The future mob leaders warmly thank the parents and learn from the older children; they accept the family's help as freely given.
 
 **Visual:** The family and student-aged organizers work together at a cheerful food-distribution table inside the modern grain shed. This establishes the organizers' ordinary appearance and genuine warmth.
 
@@ -44,7 +47,7 @@ The family contributes food, labor, and knowledge. The granary genuinely helps. 
 
 ### 4. The Ledger
 
-Contributions are recorded, then expected. The family's reliable harvests bring increasing demands. Separate entries for food and planting seed become a single total of available grain. The organizers ask why some households should decide what others may receive.
+Contributions are recorded, then expected. The family's reliable harvests bring increasing demands. Separate entries for food and planting seed become a single total of available grain. The organizer who once thanked the mother now counts her reserves as something others are owed. Her colleagues reinforce the belief that nobody should decide privately what a hungry neighbor may receive.
 
 **Visual:** The mother and two young organizers compare household records and a tablet at a folding table beside carefully stacked seed sacks.
 
@@ -52,7 +55,7 @@ Contributions are recorded, then expected. The family's reliable harvests bring 
 
 ### 5. The Common Measure
 
-Gifts become quotas. Exchanges between neighbors require approval. Decisions about next season's fields move away from the households working them. The older children's lessons attract objections when pupils question how planting reserves are counted.
+Gifts become quotas. Exchanges between neighbors require approval. Decisions about next season's fields move away from the households working them. The organizers call uniform obligations fairer than voluntary gifts. When the older children's lessons lead pupils to question how planting reserves are counted, the same knowledge once welcomed as help is treated as undermining the common effort.
 
 **Visual:** A practical planting lesson is interrupted by an organizer holding a new form. The young teacher remains calm while learners look between the notebook and the form.
 
@@ -60,7 +63,7 @@ Gifts become quotas. Exchanges between neighbors require approval. Decisions abo
 
 ### 6. The Appeal
 
-The parents challenge the demands while continuing to help. Their accounts are heard, but no binding protection follows. New council members retain the same powers. The organizers increasingly treat the family's insistence on deciding for itself as an obstacle to feeding others.
+The parents challenge the demands while continuing to help. Their accounts are heard, but no binding protection follows. New council members retain the same powers. The organizers increasingly treat the family's insistence on deciding for itself as an obstacle to feeding others. A familiar organizer answers their planting calculations by asking why they insist on a right to refuse. The dispute turns from what the grain can produce to whether the family should be allowed that choice.
 
 **Visual:** The parents present their seed calculations at an ordinary community meeting. The young organizers listen and respond from the same crowded table.
 
@@ -68,7 +71,7 @@ The parents challenge the demands while continuing to help. Their accounts are h
 
 ### 7. The Long Winter
 
-Supplies diminish throughout the region. The family shares remaining food, reduces its own meals, and searches for alternatives. The older children demonstrate what will happen if the seed is eaten. The organizers return to the hungry children waiting outside.
+Supplies diminish throughout the region. The family shares remaining food, reduces its own meals, and searches for alternatives. The older children demonstrate what will happen if the seed is eaten. The organizers return to the hungry children waiting outside. Among themselves, they interpret preserving seed as choosing property over people. Their distress strengthens their certainty that compelling surrender is their duty.
 
 **Visual:** The family gives away a small meal while an older child explains the last planting reserve. An organizer listens but watches the waiting families.
 
@@ -76,7 +79,7 @@ Supplies diminish throughout the region. The family shares remaining food, reduc
 
 ### 8. The Vote
 
-The family argues for preserving enough seed to plant, acknowledging the immediate suffering this entails. The organizers demand its release while replacements are sought. A majority orders surrender. The family refuses to give up the next harvest.
+The family argues for preserving enough seed to plant, acknowledging the immediate suffering this entails. The organizers demand its release while replacements are sought. A majority orders surrender. The family refuses to give up the next harvest. The organizers take the vote as authority to act and the refusal as proof that the family has placed itself against the hungry. Their earlier friendship no longer protects the parents from accusation.
 
 **Visual:** Neighbors raise their hands in a village hall. The family stays together, hands lowered, beside their notebook and a jar of seed; the young organizer addresses the room.
 
@@ -84,7 +87,7 @@ The family argues for preserving enough seed to plant, acknowledging the immedia
 
 ### 9. The Taking
 
-The young organizers lead neighbors to the farm. Accusations become physical restraint and injury. The mob takes the last seed, then deliberately burns the house and barns. The parents and older children get every child out. They flee with only their lives. The seed is milled and eaten.
+The same young organizers who served soup beside the family lead neighbors to the farm. They demand entry with the conviction that taking the grain is an act of rescue. Their anger focuses on the family's continued refusal to submit. Accusations become physical restraint and injury. The mob takes the last seed, then deliberately burns the house and barns. The parents and older children get every child out. They flee with only their lives. The seed is milled and eaten.
 
 **Visual:** From inside the grain shed, the parents face the same young volunteers, now angry and leading townspeople through the entrance. The blonde organizer braces the door open and points insistently; her colleagues demand entry with tense faces and raised hands. Seed sacks remain beside the parents. The children, fire, and physical violence stay outside the frame.
 
