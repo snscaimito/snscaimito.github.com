@@ -84,6 +84,16 @@ Use case: identity-preserve / photorealistic-natural. Replace scene nine of a fi
 
 References, in order: 03-the-promise.png — the five adult volunteer identities and clothes; the superseded 09-the-taking.png — farm setting and parent identities. The second reference was the original generated image `exec-38b50719-4606-4761-a2ea-2d753dae827d.png`, rather than the revised scene now saved under that filename.
 
+### 09b. After the escape — image pending
+
+Requested as an additional image, preserving the approved intrusion scene. Show the same family in tears watching their farm burn after narrowly escaping, with the escape visible in their faces and clothes.
+
+Three attempts were rejected by the image service at output moderation with category `other` and no further explanation: a new composition using scenes 01 and 09, a simpler composition using scene 01, and a direct edit of the superseded fire scene. No new asset was saved. The final attempted prompt was:
+
+Edit this fictional photorealistic image into a quiet scene of loss. Keep the same six family members, their exact faces, hair and fully covering 2026 winter clothes, and keep the distant burning farmhouse and barn separated from them by the open field. Remove all five people, grain sacks, cart and shed at the right, leaving empty countryside there. The family has stopped safely on the roadside and turns three-quarter toward their home, staying close together. Show visible tears on their cheeks and sorrowful expressions as they watch the fire; the parents comfort the younger children and the older daughter holds her sister close. All six remain safe and uninjured, with no one inside or near the distant buildings. Give their coats and jeans dust and soot smudges, slightly disheveled hair and rumpled sleeves. No wounds or body damage. No belongings. Keep realistic photography and the same landscape dimensions. Their faces and clothes should convey that they have just escaped, and now grieve their lost home together.
+
+Edit target: original generated fire image `exec-38b50719-4606-4761-a2ea-2d753dae827d.png`. The approved 09-the-taking.png remains the crowd entering the grain shed.
+
 ### 10. The Spring
 
 SCENE 10 — THE SPRING. A quiet photorealistic wide photograph in the same village at gentle early-spring daylight. Fertile brown fields are completely unplanted, green grass and budding trees at their margins. The same three adult women organizers ages 22-24 and same two male students sit exhausted at the now-empty food-distribution table beside the open grain shed. They look hungry, weakened, frightened and disbelieving, not grotesquely emaciated. Same ordinary crop tops and low-rise jeans/cargo pants, open cardigans or light jackets, casual student men's hoodies/tees. An empty bowl and empty sacks, no food, no seed, no planted crop. No family appears here because they fled. No corpse, exposed bones, graphic suffering, supernatural punishment, propaganda, ominous costumes or readable text. Material emptiness and the ordinary continuity of spring.
