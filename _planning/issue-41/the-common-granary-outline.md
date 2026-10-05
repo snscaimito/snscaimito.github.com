@@ -16,7 +16,7 @@ The same organizers change through the beliefs they adopt and reinforce in one a
 - No ideological signs, uniforms, recognizable slogans, badges, or villain styling. Education and good intentions appear through ordinary work, notebooks, conversation, and help. Early scenes contain no tell-tale hints of what follows.
 - The farmhouse, modern grain shed, village hall, seed sacks, faces, and base wardrobes recur. New scenes use the opening family image and the volunteer scene as visual references.
 - The five volunteers remain individually recognizable from the soup table to the shed entrance. Warm cooperation gradually gives way to insistence, moral certainty, and anger. Their change appears in how they address the same family and use the same hands, notebooks, and doorway.
-- The mob's anger appears through familiar faces, demanding gestures, and its advance through the grain-shed entrance. An additional image shows the tearful family watching the distant farm burn after escaping. Physical violence remains outside the images; spring reveals the burned ruins.
+- The mob's anger appears through familiar faces, demanding gestures, and its advance through the grain-shed entrance. An additional image shows the tearful family watching the distant farm burn after escaping. Physical violence remains outside the images. By early summer, the same five organizers appear in their shared home with extremely thin bodies, visible ribs and collarbones, and loose clothing.
 - No political labels appear in the eventual narration or dialogue. Theoretical and historical background remains in the GitHub research record. A brief separate Activity Theory afterword may describe the tools, rules, and roles without political labels.
 
 ## Scenes
@@ -39,7 +39,7 @@ Another household starves after illness interrupts its ordinary exchanges. The f
 
 ### 3. The Promise
 
-The family contributes food, labor, and knowledge. The granary genuinely helps. A small group of highly educated, empathetic young women organizes meals and assistance. Their concern for hungry families earns trust. The future mob leaders warmly thank the parents and learn from the older children; they accept the family's help as freely given.
+The family contributes food, labor, and knowledge. The granary genuinely helps. A small group of highly educated, empathetic young women organizes meals and assistance. The five young volunteers share a house in town. Their concern for hungry families earns trust. The future mob leaders warmly thank the parents and learn from the older children; they accept the family's help as freely given.
 
 **Visual:** The family and student-aged organizers work together at a cheerful food-distribution table inside the modern grain shed. This establishes the organizers' ordinary appearance and genuine warmth.
 
@@ -97,13 +97,13 @@ The same young organizers who served soup beside the family lead neighbors to th
 
 ![Seen from behind and to their right, all six family members face the burning farmhouse and barns across the field, huddled together in dirty winter clothing.](visuals/09b-after-the-escape.png)
 
-### 10. The Spring
+### 10. Early Summer
 
-The fields are fertile, but nothing is planted. No replacement seed arrives. The brief relief ends. As the season advances, the organizers and the same neighbors who burned the farm starve alongside the other townspeople.
+Spring passes without planting. No replacement seed arrives. The brief relief ends. By early summer, the five young organizers are starving in the home they share, too weak to move. They and the same neighbors who burned the farm starve alongside the other townspeople.
 
-**Visual:** The same organizers sit exhausted at an empty food-distribution table beside the burned farm and unplanted fields. Spring is green at the margins, but the fields remain bare. The final deaths stay outside the frame.
+**Visual:** The same five young adults lie or recline on a sofa, an armchair, and a rug in their shared living room. Their cheeks are deeply sunken, collarbones and ribs prominent beneath their skin, and arms and wrists very thin. Their clothes hang loosely; their heads tilt and hands rest limp. A TV, iPad, refrigerator, oven, microwave, dishwasher, and washing machine are visible. Early-summer sunlight enters through the windows, with green leaves outside. The coffee table holds the iPad and remotes.
 
-![The same organizers sit exhausted at an empty food-distribution table beside the burned farm and unplanted fields. Spring is green at the margins, but the fields remain bare. The final deaths stay outside the frame.](visuals/10-the-spring.png)
+![The same five young adults recline in their shared living room with hollow cheeks, prominent ribs and collarbones, thin limbs, and loose clothing; a TV, iPad, and modern kitchen appliances are visible.](visuals/10-the-spring.png)
 
 ### 11. Nobody Left
 

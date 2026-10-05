@@ -1,6 +1,6 @@
 # The Common Granary — image prompts
 
-Built-in image generation; photorealistic-natural. Generated for scene planning on October 5, 2026. Each scene begins as a new image using references for character appearance and location. Targeted corrections to scenes 03, 07, and 10 use their initial images as edit targets. Scene 09 was recomposed using its previous image and the original volunteer reference.
+Built-in image generation; photorealistic-natural. Generated for scene planning on October 5, 2026. Each scene begins as a new image using references for character appearance and location. Targeted corrections to scenes 03, 07, 09b, and 10 use their initial images as edit targets. Scene 09 was recomposed using its previous image and the original volunteer reference. Scene 10 was replaced with the early-summer shared-home composition.
 
 ## Shared prompt
 
@@ -18,7 +18,7 @@ Recurring fictional young adult volunteers: leader woman 22, shoulder-length blo
 
 For scenes 04–08, the shared prompt and continuity prompts are preceded by this reference instruction: “Input image 1 is a visual reference for the family's faces and base clothing only. Input image 2 is a visual reference for the adult organizers' faces, clothing and grain shed only. Generate a NEW scene with the following composition; do not copy the soup table composition of either reference.”
 
-For scene 10, only the adult volunteer continuity prompt is included, with this reference instruction: “Input image 1 is only a reference for the farm's material setting; the family MUST NOT appear in this scene. Input image 2 is a reference for the adult organizers' faces and base clothing. Generate a NEW scene after the food is gone.”
+Scene 10 uses its standalone prompt below and scene 09 as the reference for the five young adult identities.
 
 For scene 11, only the family continuity prompt is included, with this reference instruction: “Input image 1 is a visual reference for the family's faces and base clothing only. Generate a NEW scene; do not reproduce the supper table.”
 
@@ -100,15 +100,21 @@ Edit this photograph's camera angle and the six people's orientation. Keep exact
 
 Edit target: original aftermath generation `exec-41f10104-c739-43e3-a0d8-68ec2cee13bd.png`. The corrected image replaces visuals/09b-after-the-escape.png.
 
-### 10. The Spring
+### 10. Early Summer
 
-SCENE 10 — THE SPRING. A quiet photorealistic wide photograph in the same village at gentle early-spring daylight. Fertile brown fields are completely unplanted, green grass and budding trees at their margins. The same three adult women organizers ages 22-24 and same two male students sit exhausted at the now-empty food-distribution table beside the open grain shed. They look hungry, weakened, frightened and disbelieving, not grotesquely emaciated. Same ordinary crop tops and low-rise jeans/cargo pants, open cardigans or light jackets, casual student men's hoodies/tees. An empty bowl and empty sacks, no food, no seed, no planted crop. No family appears here because they fled. No corpse, exposed bones, graphic suffering, supernatural punishment, propaganda, ominous costumes or readable text. Material emptiness and the ordinary continuity of spring.
+Selected scene: the same five young adults in their shared home. Standalone generation prompt:
 
-References: 01-the-house.png — family appearance; 03-the-promise.png — adult volunteers and grain shed.
+Photorealistic landscape photograph,1536x1024. The same FIVE YOUNG ADULTS from the reference photograph inside a contemporary shared house's living room and open-plan kitchen. Preserve their individual identities: blonde woman22, woman23 with dark curly bob, woman24 with straight black shoulder-length hair, man23 with brown curls and glasses, man24 with short dark curly hair. ONLY these five adults. A wide eye-level35mm photograph from the living-room doorway, clear view of all five faces and bodies at different places in the room. Bright early-summer daylight through open curtains; dense green leaves outside. Ordinary US/European2026 interior: gray fabric sofa, upholstered armchair, wood floor, flat-screen TV on a stand, iPad on the coffee table with charging cable, modern stainless refrigerator, induction stove, oven, microwave, dishwasher, and washing machine visible in an adjoining kitchen alcove. Refrigerator door open with bare shelves. Empty plates and glasses on the coffee table, empty cooking pot on the stove. Three young adult women wear the SAME cream, rust, and white casual cropped tops and the SAME low-rise blue jeans, olive cargo trousers, and faded jeans as in the reference; men's SAME navy and olive hoodies lie nearby while they wear plain T-shirts and their usual loose trousers. EVERY adult has an extremely thin emaciated body: profoundly hollow cheeks, prominent cheekbones and jaw, deep-set eyes with dark circles, bony neck, pronounced collarbones, narrow shoulders, very thin upper arms and forearms, projecting elbows, small thin wrists, bony hands and knuckles. Their trousers hang loosely with slack fabric gathered at the waist. Rib outlines are clearly visible beneath intact skin at the adult women's exposed midriff sides, knees and ankles sharply outlined beneath loose trousers. The blonde woman lies lengthwise on the sofa with her head sunk into a cushion, one thin arm hanging over its edge, eyes open. The curly-haired woman lies on the rug with her head on a small pillow and hands resting loosely beside her, eyes open. The black-haired woman reclines low in the armchair with her head against its side and feet resting on the floor, eyes open. The man with glasses is half-reclined at the other end of the sofa, head tilted, thin forearms resting limp on his lap, eyes open. The dark-haired man sits slumped in a kitchen chair near the refrigerator, shoulders dropped, thin hands hanging beside his thighs, eyes open. Nobody stands or gestures. All bodies fully visible enough to show their extremely thin limbs, loose everyday clothes and low resting postures. Realistic living skin, normal anatomical proportions altered by extreme thinness, dry lips, matte pallor, realistic fabric and furniture texture. Everyday clean modern house, no ruined or apocalyptic interior, no additional people, no text or symbols.
 
-Targeted setting correction, using the initial spring image as the edit target:
+Reference: 09-the-taking.png — the five young adult identities, hair, and base clothing.
 
-Use case: identity-preserve. Edit this photorealistic early-spring photograph. Preserve exactly the same five adult student organizers, faces, exhausted concerned expressions, everyday 2026 clothing, empty bowls, empty seed sacks, table, outdoor landscape framing and realistic daylight. Correct the setting's continuity after the farm was burned to the ground: remove the intact grain shed and shelving at the right. In their place show an outdoor area beside low blackened foundations, a few collapsed charred beams and twisted roof metal of a farm building destroyed by fire weeks earlier. No standing shed or restored structure. Also remove the intact red farm building and silo in the distant center, replacing those with a low indistinct burned ruin against empty unplanted fields. Keep the fertile bare fields, fresh green margins and budding tree. The organizers sit at their empty distribution table outdoors near the destroyed farm. No fire still burning, no flames or smoke, no corpses, no new people, no family, no food or seed, no political symbols or text. Natural photorealistic 1536x1024.
+Object-only edit of the generated home image:
+
+Edit only household objects in this photograph. Remove the plates, drinking glasses and crumbs from the foreground coffee table. Keep the iPad, charging cable, remote controls and potted plant on that table. Close the refrigerator door. Remove the pot from the stove. Add a flat-screen television on the rear-left wall above the bookshelf. Leave all five people, their faces, bodies, clothing and positions, and all furniture and daylight unchanged. Photorealistic1536x1024.
+
+Edit target: initial home generation `exec-ead2cc1f-0845-4742-bd1c-e6842f6e500d.png`.
+
+Saved image: visuals/10-the-spring.png.
 
 ### 11. Nobody Left
 
