@@ -10,8 +10,9 @@ The same organizers change through the beliefs they adopt and reinforce in one a
 
 ## Visual continuity
 
-- Photorealistic people, places, and everyday objects with the appearance of US/European life in 2026. The story remains a potential future, without historical or futuristic costumes.
-- The family has two parents and four children. The visual ages are 41, 43, 19, 16, 10, and 7; these are planning choices for consistent reference images, not finalized character biographies. All six survive and remain together.
+- Photorealistic people, places, and everyday objects with the appearance of rural Midwestern US life in 2026. The story remains a potential future, without historical or futuristic costumes.
+- The Miller family has two parents and four children: Sarah (41), Dan (43), Emma (19), Luke (16), Abby (10), and Ben (7). These names and visual ages remain consistent throughout the scenes. All six survive and remain together.
+- Sarah’s sister Rachel lives at the reservoir house outside the settlement. Mr. Peterson is the neighbor whose tire Luke helps patch in the opening scene.
 - The organizers are predominantly highly educated women in their early twenties, accompanied by ordinary student-aged men. The women wear low-rise trousers and cropped casual tops with exposed midriffs; the men wear ordinary student clothes. Weather-appropriate layers are added in cold scenes.
 - Early scenes have no ideological signs, uniforms, badges, or villain styling. Education and good intentions appear through ordinary work, notebooks, conversation, and help. The town-square image includes readable placards saying “JUSTICE FOR ALL,” “NO DISCRIMINATION,” and “EQUAL RIGHTS.” Clothing and faces remain contemporary and ordinary throughout.
 - The farmhouse, modern grain shed, village hall, seed sacks, faces, and base wardrobes recur. New scenes use the opening family image and the volunteer scene as visual references.

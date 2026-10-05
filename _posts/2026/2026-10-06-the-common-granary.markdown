@@ -16,25 +16,25 @@ hashtags:
 
 ## 1. The House
 
-Claire found Ben’s arithmetic under the bread basket.
+Sarah Miller found Ben’s arithmetic under the bread basket.
 
 Six people. Twelve slices. Two each.
 
 Below that, in smaller writing: *Dad’s are bigger.*
 
-She slid the paper across the table to Daniel. He studied it with the gravity he usually reserved for machinery that had stopped making an expensive noise.
+She slid the paper across the table to her husband, Dan. He studied it with the gravity he usually reserved for machinery that had stopped making an expensive noise.
 
 “An allegation,” he said.
 
 “Evidence,” said Ben.
 
-Sophie leaned over her little brother’s shoulder. “You have to measure them.”
+Abby leaned over her little brother’s shoulder. “You have to measure them.”
 
 “I’ve eaten mine.”
 
-“Convenient,” said Nora.
+“Convenient,” said Emma.
 
-Daniel looked at Claire. “You’ve raised a suspicious household.”
+Dan looked at Sarah. “You’ve raised a suspicious household.”
 
 She gave him the heel of the loaf. He broke it in half and put the larger piece on her plate.
 
@@ -45,13 +45,13 @@ She gave him the heel of the loaf. He broke it in half and put the larger piece 
 	<figcaption>Supper in the farmhouse kitchen. Click the image to view it full size.</figcaption>
 </figure>
 
-The kitchen windows had gone dark. Beyond them stood the grain shed, its drying fans still humming after a day of unloading wheat. Claire could feel the work in her shoulders when she reached for the soup. Across the table, Daniel had a shallow cut on one knuckle and flour on his sleeve where Ben had embraced him during bread making.
+The kitchen windows had gone dark. Beyond them stood the grain shed, its drying fans still humming after a day of unloading wheat. Sarah could feel the work in her shoulders when she reached for the soup. Across the table, Dan had a shallow cut on one knuckle and flour on his sleeve where Ben had embraced him during bread making.
 
-Eli came in through the back door.
+Luke came in through the back door.
 
-“Sorry. Mr. Bell’s tire wouldn’t hold.”
+“Sorry. Mr. Peterson’s tire wouldn’t hold.”
 
-“Did you patch it?” Daniel asked.
+“Did you patch it?” Dan asked.
 
 “He patched it. I showed him where it was leaking.”
 
@@ -59,7 +59,7 @@ Eli came in through the back door.
 
 “He’ll do the next one himself.”
 
-Eli washed his hands and squeezed into the chair beside his father. Sixteen, and already nearly as tall. Claire moved the soup pot within his reach.
+Luke washed his hands and squeezed into the chair beside his father. Sixteen, and already nearly as tall. Sarah moved the soup pot within his reach.
 
 “Did he pay you?”
 
@@ -69,9 +69,9 @@ Eli washed his hands and squeezed into the chair beside his father. Sixteen, and
 
 “I said he could help me straighten the bike wheel.”
 
-Daniel nodded and passed him the bread.
+Dan nodded and passed him the bread.
 
-At the other end of the table, Nora turned her notebook toward Sophie. A row of squares ran across the page, each with a little root drawn underneath.
+At the other end of the table, Emma turned her notebook toward Abby. A row of squares ran across the page, each with a little root drawn underneath.
 
 “The roots need room too,” she said.
 
@@ -89,7 +89,7 @@ Ben bent sideways to inspect the drawing.
 
 “You’ll need a bigger field.”
 
-Claire watched her eldest add the worms. Nineteen, home between classes, and still willing to spend ten minutes making a seven-year-old laugh. Two neighborhood children had spent the afternoon with her in the shed, learning to test grain for moisture. They had left with their own labeled samples and three of Claire’s muffins apiece.
+Sarah watched her eldest add the worms. Nineteen, home between classes, and still willing to spend ten minutes making a seven-year-old laugh. Two neighborhood children had spent the afternoon with her in the shed, learning to test grain for moisture. They had left with their own labeled samples and three of Sarah’s muffins apiece.
 
 Her phone lit beside her plate.
 
@@ -97,9 +97,9 @@ A photograph from her sister: a crooked shelf, a drill, a thumb held up at the e
 
 *Reservoir house now officially has somewhere to put towels.*
 
-Claire showed Daniel.
+Sarah showed Dan.
 
-“Tell Mara to check the pipe before she drills the other wall.”
+“Tell Rachel to check the pipe before she drills the other wall.”
 
 “She did.”
 
@@ -109,19 +109,19 @@ Claire showed Daniel.
 
 “It looks enthusiastic.”
 
-Claire sent her a photograph of the crowded table. Mara replied with six hearts.
+Sarah sent her a photograph of the crowded table. Rachel replied with six hearts.
 
-When supper was finished, Daniel carried the plates to the sink while Eli dried. Ben wiped a widening circle of soup across the table. Sophie followed him with a second cloth.
+When supper was finished, Dan carried the plates to the sink while Luke dried. Ben wiped a widening circle of soup across the table. Abby followed him with a second cloth.
 
-Nora picked up the small jar she had brought in from the shed. Sophie had counted the grains inside it that afternoon.
+Emma picked up the small jar she had brought in from the shed. Abby had counted the grains inside it that afternoon.
 
 “Can these go in the flour?”
 
-“Those stay separate,” Nora said. “They’re from the planting sacks.”
+“Those stay separate,” Emma said. “They’re from the planting sacks.”
 
-Daniel opened a drawer for a label.
+Dan opened a drawer for a label.
 
-Claire wrote the variety, the harvest date, and the field number. Nora checked the figures against her notebook before fixing the label to the glass.
+Sarah wrote the variety, the harvest date, and the field number. Emma checked the figures against her notebook before fixing the label to the glass.
 
 Outside, the wheat they would eat and sell waited in the main bins. Along the shed’s dry inner wall, the planting sacks stood on pallets, counted and marked for spring.
 
@@ -129,13 +129,13 @@ Ben reached for the jar.
 
 “One worm couldn’t eat all that.”
 
-“No,” Nora said. “But you could drop it.”
+“No,” Emma said. “But you could drop it.”
 
 He held it with both hands.
 
-Daniel put on his jacket and opened the back door. Ben followed him into the yard, carrying the jar so carefully that he forgot to ask for a flashlight.
+Dan put on his jacket and opened the back door. Ben followed him into the yard, carrying the jar so carefully that he forgot to ask for a flashlight.
 
-Claire watched their two shadows cross the light from the doorway. Then Sophie pulled at her sleeve.
+Sarah watched their two shadows cross the light from the doorway. Then Abby pulled at her sleeve.
 
 “Mom. Look what he’s done to the table.”
 
