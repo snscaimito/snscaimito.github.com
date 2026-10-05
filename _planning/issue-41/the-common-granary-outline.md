@@ -13,7 +13,7 @@ In a future farming town, a loving family with several children prospers through
 - The organizers are predominantly highly educated women in their early twenties, accompanied by ordinary student-aged men. The women wear low-rise trousers and cropped casual tops with exposed midriffs; the men wear ordinary student clothes. Weather-appropriate layers are added in cold scenes.
 - No ideological signs, uniforms, recognizable slogans, badges, or villain styling. Education and good intentions appear through ordinary work, notebooks, conversation, and help. Early scenes contain no tell-tale hints of what follows.
 - The farmhouse, modern grain shed, village hall, seed sacks, faces, and base wardrobes recur. New scenes use the opening family image and the volunteer scene as visual references.
-- Violence is shown through the burning farm, removed seed, and the family's flight. Death and graphic injury remain outside the images.
+- The mob's anger appears through familiar faces, demanding gestures, and its advance through the grain-shed entrance. The fire and physical violence occur outside the images; spring reveals the burned ruins.
 - No political labels appear in the eventual narration or dialogue. Theoretical and historical background remains in the GitHub research record. A brief separate Activity Theory afterword may describe the tools, rules, and roles without political labels.
 
 ## Scenes
@@ -86,9 +86,9 @@ The family argues for preserving enough seed to plant, acknowledging the immedia
 
 The young organizers lead neighbors to the farm. Accusations become physical restraint and injury. The mob takes the last seed, then deliberately burns the house and barns. The parents and older children get every child out. They flee with only their lives. The seed is milled and eaten.
 
-**Visual:** The whole family escapes on foot from the burning farm while the same young organizers and neighbors remove the last sacks of seed. The family carries no belongings.
+**Visual:** From inside the grain shed, the parents face the same young volunteers, now angry and leading townspeople through the entrance. The blonde organizer braces the door open and points insistently; her colleagues demand entry with tense faces and raised hands. Seed sacks remain beside the parents. The children, fire, and physical violence stay outside the frame.
 
-![The whole family escapes on foot from the burning farm while the same young organizers and neighbors remove the last sacks of seed. The family carries no belongings.](visuals/09-the-taking.png)
+![The same five young volunteers lead angry townspeople into the grain shed, confronting the parents with demanding faces and gestures.](visuals/09-the-taking.png)
 
 ### 10. The Spring
 
