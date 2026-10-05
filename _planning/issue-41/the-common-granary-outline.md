@@ -105,9 +105,9 @@ Spring passes without planting. No replacement seed arrives. Sun heats the bare 
 
 ![View through the open driver window: the blonde woman drives with both hands on the wheel while the curly-haired woman smiles from the passenger seat.](visuals/10a-driving.png)
 
-**Next visual — town square:** The same two women stand beside a folding equipment table, smiling toward nearby adults. The blonde woman holds a microphone; the curly-haired woman holds a clipboard and pen. Placards read “JUSTICE FOR ALL,” “NO DISCRIMINATION,” and “EQUAL RIGHTS.” Paint supplies, rolled banners, cable, a loudspeaker, and a folded canopy are beside them. Through the open street beyond the square, bare fields stretch beneath a large tan dust plume.
+**Next visual — town square:** The same two women stand on a low wooden platform with broad smiles. The blonde woman speaks into a microphone with her other arm extended; the curly-haired woman raises one hand and holds a clipboard in the other. Five young adults face them, some clapping and one holding a red pennant. Plain red banners, triangular bunting, and ribbons surround the platform. Red-bordered placards read “JUSTICE FOR ALL,” “NO DISCRIMINATION,” and “EQUAL RIGHTS.” A loudspeaker and a folding table with paint supplies and rolled fabric stand beside them. Empty paving surrounds the small group. Beyond the square, bare fields stretch beneath a twisting column of tan dust.
 
-![The two women stand with a microphone, clipboard, and protest placards in a town square; bare fields and a tall dust plume are visible beyond the street.](visuals/10b-town-square.png)
+![Two smiling women gesture from a low platform toward five young adults beneath plain red banners and bunting; red-bordered placards stand in front, with bare fields and twisting dust behind them.](visuals/10b-town-square.png)
 
 **Later visual — shared home:** The same five young adults lie or recline on a sofa, an armchair, and a rug in their shared living room. Their cheeks are deeply sunken, collarbones and ribs prominent beneath their skin, and arms and wrists very thin. Their clothes hang loosely; their heads tilt and hands rest limp. A TV, iPad, refrigerator, oven, microwave, dishwasher, and washing machine are visible. Early-summer sunlight enters through the windows, with green leaves outside. The coffee table holds the iPad and remotes.
 

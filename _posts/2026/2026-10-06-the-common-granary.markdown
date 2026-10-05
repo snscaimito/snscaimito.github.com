@@ -140,10 +140,10 @@ Spring passes without planting. No replacement seed arrives. Sun heats the bare 
 </figure>
 
 <figure class="post-hero-figure">
-	<a class="post-lightbox-trigger" href="/img/the-common-granary/full/10b-town-square.png" data-lightbox-src="/img/the-common-granary/full/10b-town-square.png" data-lightbox-alt="The two women stand with a microphone and clipboard beside placards reading JUSTICE FOR ALL, NO DISCRIMINATION, and EQUAL RIGHTS; bare fields and a tall dust plume are visible beyond the town square.">
-		<img src="/img/the-common-granary/10b-town-square.png" alt="The two women stand with a microphone and clipboard beside placards reading JUSTICE FOR ALL, NO DISCRIMINATION, and EQUAL RIGHTS; bare fields and a tall dust plume are visible beyond the town square." />
+	<a class="post-lightbox-trigger" href="/img/the-common-granary/full/10b-town-square.png" data-lightbox-src="/img/the-common-granary/full/10b-town-square.png" data-lightbox-alt="Two smiling women gesture from a low platform toward five young adults beneath plain red banners and bunting; red-bordered placards stand in front, with bare fields and twisting dust behind them.">
+		<img src="/img/the-common-granary/10b-town-square.png" alt="Two smiling women gesture from a low platform toward five young adults beneath plain red banners and bunting; red-bordered placards stand in front, with bare fields and twisting dust behind them." />
 	</a>
-	<figcaption>Microphone and placards in the town square. Click the image to view it full size.</figcaption>
+	<figcaption>Five attendees, red banners, and dust above the fields. Click the image to view it full size.</figcaption>
 </figure>
 
 <figure class="post-hero-figure">
