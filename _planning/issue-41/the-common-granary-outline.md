@@ -8,6 +8,11 @@ In a future farming town, a loving family with several children prospers through
 
 The same organizers change through the beliefs they adopt and reinforce in one another. They come to believe that need gives them authority over other people's work, that independent decisions obstruct fairness, and that resistance proves a lack of compassion. The family's voluntary help becomes an obligation, its preparation becomes hoarding, its teaching becomes obstruction, and its independence becomes cruelty in their eyes. Each coercive step feels to them like a further act of care. Their anger at the farm grows from this conviction: they believe they are protecting the hungry by forcing the family to surrender. Their familiar faces, concern for children, and sense of doing good persist throughout the transformation.
 
+## Writing and review
+
+- Write the English narrative directly in the unpublished blog article, which is the canonical source for later X posts. Do not queue installments until requested.
+- Use flowing prose and manageable paragraphs for people reading on phones. Vary sentence length and weave selected dialogue into action and observation; avoid long runs of isolated, short exchanges.
+
 ## Visual continuity
 
 - Photorealistic people, places, and everyday objects with the appearance of rural Midwestern US life in 2026. The story remains a potential future, without historical or futuristic costumes.
