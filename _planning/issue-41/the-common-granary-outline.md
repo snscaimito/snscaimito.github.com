@@ -12,6 +12,7 @@ The same organizers change through the beliefs they adopt and reinforce in one a
 
 - Write the English narrative directly in the unpublished blog article, which is the canonical source for later X posts. Do not queue installments until requested.
 - Use flowing prose and manageable paragraphs for people reading on phones. Vary sentence length and weave selected dialogue into action and observation; avoid long runs of isolated, short exchanges.
+- Keep each scene under two minutes at an editorial baseline of 200 words per minute. Limit the narrative plus the separate X footer to 350 words, leaving room for the blog heading and image caption. Check the count for every scene before recording it in the article.
 
 ## Visual continuity
 

@@ -16,11 +16,9 @@ hashtags:
 
 ## 1. The House
 
-Sarah Miller found Ben’s arithmetic under the bread basket. He had allowed two slices for each of the six people at the table, then added a complaint in smaller writing: *Dad’s are bigger.* She passed the paper to Dan, who studied it with the gravity he usually reserved for machinery that had stopped making an expensive noise.
+Sarah Miller found Ben’s arithmetic under the bread basket. He had allowed two slices for each of them, then added a complaint: *Dad’s are bigger.* Abby proposed measuring the bread, but Dan had already eaten his, which Emma found suspicious.
 
-“This is a serious allegation,” he told their youngest. Ben insisted it was evidence, which prompted Abby to lean over his shoulder and suggest measuring the bread. Dan had already eaten his, a circumstance Emma found suspicious.
-
-Sarah gave her husband the heel of the loaf while the children debated how to conduct a fair investigation. He broke it in half and put the larger piece on her plate, smiling at her across the table.
+“You’ve raised a household of investigators,” he told Sarah. When she passed him the heel of the loaf, he broke it in half and put the larger piece on her plate.
 
 <figure class="post-hero-figure">
 	<a class="post-lightbox-trigger" href="/img/the-common-granary/full/01-the-house.png" data-lightbox-src="/img/the-common-granary/full/01-the-house.png" data-lightbox-alt="Two parents and four children sit around a kitchen table; the mother passes bread and the oldest daughter shows a seed drawing to her younger sister.">
@@ -29,37 +27,19 @@ Sarah gave her husband the heel of the loaf while the children debated how to co
 	<figcaption>Supper in the farmhouse kitchen. Click the image to view it full size.</figcaption>
 </figure>
 
-The kitchen windows held the last of the evening light. Beyond them stood the grain shed, its drying fans still humming after a day of unloading wheat. Sarah could feel the work in her shoulders when she reached for the soup. Dan had a shallow cut on one knuckle and flour on his sleeve where Ben had embraced him during bread making.
+Beyond the kitchen window, the grain shed’s drying fans hummed in the evening light. Sarah’s shoulders ached from unloading wheat. Dan still had flour on his sleeve where Ben had hugged him during bread making.
 
-Luke came through the back door apologizing for being late. Mr. Peterson’s tire had taken longer than expected, though Luke had made the old man do the patch himself. At sixteen, he was nearly as tall as his father; Sarah watched him squeeze into the chair beside Dan and moved the soup pot within his reach.
+Luke arrived late after helping Mr. Peterson patch a tire. Rather than do it himself, he had guided their neighbor through the repair.
 
-“I showed him where it was leaking and talked him through it,” Luke explained. “He’ll be able to do the next one without waiting for me.”
+“He’ll manage the next one without waiting for me,” Luke explained. He had declined payment and asked for help straightening his bike wheel instead. Dan nodded and passed him the bread.
 
-Mr. Peterson had offered to pay, but Luke had asked for help straightening his bike wheel instead. Dan nodded and passed him the bread. They had spent enough afternoons in the workshop together for Sarah to recognize that quiet approval.
+Emma was showing Abby how far roots spread beneath a row of plants. Ben requested two worms for the drawing, and she enlarged the field to fit them. Two neighborhood children had attended her grain-testing lesson that afternoon; Sarah had sent them home with samples and muffins.
 
-At the other end of the table, Emma turned her notebook toward Abby. A row of squares ran across the page, each with roots drawn underneath. Abby had crowded her first sketch too closely, thinking only about the leaves she could see.
+Her phone lit with a photograph from Rachel at the reservoir house: a crooked shelf and an upraised thumb. Dan suggested calling it enthusiastic rather than straight. Sarah sent a photograph of the crowded table, and her sister replied with six hearts.
 
-“The roots need room too,” Emma said, tracing the space between two plants. Abby studied the drawing, then began making another row farther apart.
+After supper, Emma brought over a jar from the planting sacks. Sarah labeled it with the variety, harvest date, and field number while her daughter checked the notebook. Their food grain waited in the main bins; the seed stood separately on dry pallets, counted for spring.
 
-Ben leaned across his sister to request a worm. Emma drew one, then a second when he decided the first looked lonely. Sarah watched her eldest enlarge the field to accommodate them. Nineteen and home between classes, she still had patience for her little brother’s additions.
-
-Two neighborhood children had spent the afternoon with Emma in the shed, learning to test grain for moisture. They had left with their own labeled samples and three of Sarah’s muffins apiece. Emma had offered to check their results when they came back.
-
-Sarah’s phone lit beside her plate with a photograph from Rachel: a crooked shelf, a drill, and her sister’s thumb held up at the edge of the frame. *Reservoir house now officially has somewhere to put towels,* she had written.
-
-Dan leaned over to look. He wanted to know whether Rachel had checked for pipes before drilling, then, assured that she had, suggested Sarah tell her the shelf looked straight. Sarah raised an eyebrow at him.
-
-“All right, tell her it looks enthusiastic,” he said. Sarah laughed and sent a photograph of the crowded table instead. Rachel replied with six hearts.
-
-After supper, Dan carried the plates to the sink while Luke dried. Ben began wiping the table, spreading a small spill of soup over a much larger area. Abby followed him with a second cloth, patiently redoing the places he had finished.
-
-Emma picked up the jar she had brought from the shed that afternoon. Abby had counted its grains and now wanted to know whether they could go into the flour. Emma explained that these came from the planting sacks and needed to stay separate, then handed the jar to Sarah for a label.
-
-Sarah wrote the variety, harvest date, and field number while Emma checked the figures against her notebook. Outside, the wheat they would eat and sell waited in the main bins. Along the shed’s dry inner wall, the planting sacks stood on pallets, counted and marked for spring.
-
-Ben volunteered to carry the jar back. Emma made him take it with both hands before Dan opened the door, and Sarah watched their two shadows cross the light spilling into the yard. Ben was concentrating so hard on keeping the glass upright that he forgot to ask for a flashlight.
-
-Abby pulled at her sleeve to show her the table. Ben had carefully wiped the place where each person had eaten, leaving six clean circles amid the sticky smears. Sarah fetched a fresh cloth and worked alongside her daughter until the whole surface was clean.
+Ben carried the jar outside with both hands, following his father. Abby showed Sarah the table he had wiped: six clean circles surrounded by sticky smears. Sarah fetched a fresh cloth and helped her finish.
 
 ## 2. The Empty House
 
