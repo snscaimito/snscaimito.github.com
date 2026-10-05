@@ -93,9 +93,9 @@ The same young organizers who served soup beside the family lead neighbors to th
 
 ![The same five young volunteers lead angry townspeople into the grain shed, confronting the parents with demanding faces and gestures.](visuals/09-the-taking.png)
 
-**Additional visual — after the escape:** All six family members stand together beside a country road, looking across an open field at their burning farmhouse and barns. Their faces are visible in three-quarter profile, with wet eyes and tears on soot-smudged cheeks. Their hair is disheveled; coats and jeans are dirty, rumpled, and frayed. The parents hold the younger children close; the older children stand beside them. Their hands are empty.
+**Additional visual — after the escape:** All six family members stand together beside a country road. The camera is behind and to their right, showing their backs and partial cheek profiles. Their heads, eyes, and shoulders turn into the scene toward the burning farmhouse and barns across the field. Their hair is disheveled; coats and jeans are dirty, rumpled, and frayed. The parents hold the younger children close; the older children stand beside them. Their hands are empty.
 
-![All six family members stand together with tearful, soot-smudged faces and dirty winter clothing, watching the farmhouse and barns burn across the field.](visuals/09b-after-the-escape.png)
+![Seen from behind and to their right, all six family members face the burning farmhouse and barns across the field, huddled together in dirty winter clothing.](visuals/09b-after-the-escape.png)
 
 ### 10. The Spring
 

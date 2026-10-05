@@ -94,6 +94,12 @@ Reference: 01-the-house.png — all six family members' faces and base clothing.
 
 Saved image: visuals/09b-after-the-escape.png.
 
+Camera and gaze correction, using the first aftermath image as the edit target:
+
+Edit this photograph's camera angle and the six people's orientation. Keep exactly the same six people, faces, hair, winter clothes, soot smudges, tears, embraces, empty hands, snowy field, burning farmhouse and barns, dusk light and photorealistic1536x1024 format. Put the camera BEHIND AND TO THE RIGHT of the group, looking over their shoulders toward the farm. The family occupies the lower-right foreground; the burning buildings occupy the upper-left background. Show the backs of their shoulders and rear three-quarter views of their heads, with narrow side profiles of cheeks and noses still visible. Rotate ALL SIX heads, eyes and torsos diagonally toward the UPPER LEFT, INTO THE DEPTH OF THE IMAGE, directly toward the burning farmhouse across the field. Every person's line of sight must end at the visible burning buildings. Their noses point toward the distant farmhouse within the frame, not horizontally toward the left edge near the camera. Their eyes look away from the camera into the distance. Keep all six individually visible, the parents' arms around the younger children, the two older children close beside them. Wet tear tracks on the visible cheek profiles, dirty rumpled coats and jeans. Preserve the farm and field as the fixed spatial destination of their gaze.
+
+Edit target: original aftermath generation `exec-41f10104-c739-43e3-a0d8-68ec2cee13bd.png`. The corrected image replaces visuals/09b-after-the-escape.png.
+
 ### 10. The Spring
 
 SCENE 10 — THE SPRING. A quiet photorealistic wide photograph in the same village at gentle early-spring daylight. Fertile brown fields are completely unplanted, green grass and budding trees at their margins. The same three adult women organizers ages 22-24 and same two male students sit exhausted at the now-empty food-distribution table beside the open grain shed. They look hungry, weakened, frightened and disbelieving, not grotesquely emaciated. Same ordinary crop tops and low-rise jeans/cargo pants, open cardigans or light jackets, casual student men's hoodies/tees. An empty bowl and empty sacks, no food, no seed, no planted crop. No family appears here because they fled. No corpse, exposed bones, graphic suffering, supernatural punishment, propaganda, ominous costumes or readable text. Material emptiness and the ordinary continuity of spring.
