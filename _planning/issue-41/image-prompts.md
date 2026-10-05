@@ -84,15 +84,15 @@ Use case: identity-preserve / photorealistic-natural. Replace scene nine of a fi
 
 References, in order: 03-the-promise.png — the five adult volunteer identities and clothes; the superseded 09-the-taking.png — farm setting and parent identities. The second reference was the original generated image `exec-38b50719-4606-4761-a2ea-2d753dae827d.png`, rather than the revised scene now saved under that filename.
 
-### 09b. After the escape — image pending
+### 09b. After the escape
 
-Requested as an additional image, preserving the approved intrusion scene. Show the same family in tears watching their farm burn after narrowly escaping, with the escape visible in their faces and clothes.
+Additional image following the approved intrusion scene. Standalone prompt describing only visible subjects, positions, expressions, clothing, buildings, and lighting:
 
-Three attempts were rejected by the image service at output moderation with category `other` and no further explanation: a new composition using scenes 01 and 09, a simpler composition using scene 01, and a direct edit of the superseded fire scene. No new asset was saved. The final attempted prompt was:
+Photorealistic landscape image,1536x1024. The same six people from the reference photograph stand together on a country roadside in the right foreground. A wide empty field separates them from a farmhouse and two barns in the left background. Flames rise from the roofs and windows of the buildings; dark smoke rises into a blue dusk sky. Camera beside the six people, showing their faces in three-quarter profile and the buildings in the same frame. They look left toward the buildings. Tears run down their cheeks, their eyes are wet and reddened, and their mouths tremble. Gray soot smudges on cheeks and foreheads. Hair loose and disheveled. Winter coats over the same green shirt, navy shirt, denim overalls and white shirt, gray shirt, mustard sweatshirt and blue sweatshirt. Coats and jeans are rumpled and dirt-stained, with small frayed patches at sleeve hems and knees. All clothing remains fully covering. The two parents have their arms around the two younger children; the older daughter and teenage son stand close beside them. Their hands are empty. Bare winter trees, traces of snow along the field edges, contemporary farm buildings, ordinary US/European2026 clothing, realistic skin and fabric texture, natural low evening light.
 
-Edit this fictional photorealistic image into a quiet scene of loss. Keep the same six family members, their exact faces, hair and fully covering 2026 winter clothes, and keep the distant burning farmhouse and barn separated from them by the open field. Remove all five people, grain sacks, cart and shed at the right, leaving empty countryside there. The family has stopped safely on the roadside and turns three-quarter toward their home, staying close together. Show visible tears on their cheeks and sorrowful expressions as they watch the fire; the parents comfort the younger children and the older daughter holds her sister close. All six remain safe and uninjured, with no one inside or near the distant buildings. Give their coats and jeans dust and soot smudges, slightly disheveled hair and rumpled sleeves. No wounds or body damage. No belongings. Keep realistic photography and the same landscape dimensions. Their faces and clothes should convey that they have just escaped, and now grieve their lost home together.
+Reference: 01-the-house.png — all six family members' faces and base clothing.
 
-Edit target: original generated fire image `exec-38b50719-4606-4761-a2ea-2d753dae827d.png`. The approved 09-the-taking.png remains the crowd entering the grain shed.
+Saved image: visuals/09b-after-the-escape.png.
 
 ### 10. The Spring
 

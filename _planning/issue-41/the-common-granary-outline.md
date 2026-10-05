@@ -16,7 +16,7 @@ The same organizers change through the beliefs they adopt and reinforce in one a
 - No ideological signs, uniforms, recognizable slogans, badges, or villain styling. Education and good intentions appear through ordinary work, notebooks, conversation, and help. Early scenes contain no tell-tale hints of what follows.
 - The farmhouse, modern grain shed, village hall, seed sacks, faces, and base wardrobes recur. New scenes use the opening family image and the volunteer scene as visual references.
 - The five volunteers remain individually recognizable from the soup table to the shed entrance. Warm cooperation gradually gives way to insistence, moral certainty, and anger. Their change appears in how they address the same family and use the same hands, notebooks, and doorway.
-- The mob's anger appears through familiar faces, demanding gestures, and its advance through the grain-shed entrance. An additional planned image shows the family's grief while watching the distant farm burn after escaping. Physical violence remains outside the images; spring reveals the burned ruins.
+- The mob's anger appears through familiar faces, demanding gestures, and its advance through the grain-shed entrance. An additional image shows the tearful family watching the distant farm burn after escaping. Physical violence remains outside the images; spring reveals the burned ruins.
 - No political labels appear in the eventual narration or dialogue. Theoretical and historical background remains in the GitHub research record. A brief separate Activity Theory afterword may describe the tools, rules, and roles without political labels.
 
 ## Scenes
@@ -93,9 +93,9 @@ The same young organizers who served soup beside the family lead neighbors to th
 
 ![The same five young volunteers lead angry townspeople into the grain shed, confronting the parents with demanding faces and gestures.](visuals/09-the-taking.png)
 
-**Additional visual — after the escape:** All six family members huddle together at a safe roadside across an open field from their burning farmhouse and barns. Their faces remain recognizable in three-quarter profile as they watch: visible tears, shock, and grief. The parents comfort the younger children; the older children stay close. Soot, dirt, disheveled hair, and rumpled or frayed winter clothing show their narrow escape. They have only their clothes. Everyone is alive and uninjured; the crowd is outside this image.
+**Additional visual — after the escape:** All six family members stand together beside a country road, looking across an open field at their burning farmhouse and barns. Their faces are visible in three-quarter profile, with wet eyes and tears on soot-smudged cheeks. Their hair is disheveled; coats and jeans are dirty, rumpled, and frayed. The parents hold the younger children close; the older children stand beside them. Their hands are empty.
 
-**Image status:** Pending. On October 5, 2026, the image service rejected two new compositions and a direct edit of the earlier fire image at output moderation, without a specific explanation. No additional image was produced.
+![All six family members stand together with tearful, soot-smudged faces and dirty winter clothing, watching the farmhouse and barns burn across the field.](visuals/09b-after-the-escape.png)
 
 ### 10. The Spring
 
