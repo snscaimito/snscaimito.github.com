@@ -13,7 +13,7 @@ The same organizers change through the beliefs they adopt and reinforce in one a
 - Photorealistic people, places, and everyday objects with the appearance of US/European life in 2026. The story remains a potential future, without historical or futuristic costumes.
 - The family has two parents and four children. The visual ages are 41, 43, 19, 16, 10, and 7; these are planning choices for consistent reference images, not finalized character biographies. All six survive and remain together.
 - The organizers are predominantly highly educated women in their early twenties, accompanied by ordinary student-aged men. The women wear low-rise trousers and cropped casual tops with exposed midriffs; the men wear ordinary student clothes. Weather-appropriate layers are added in cold scenes.
-- No ideological signs, uniforms, recognizable slogans, badges, or villain styling. Education and good intentions appear through ordinary work, notebooks, conversation, and help. Early scenes contain no tell-tale hints of what follows.
+- Early scenes have no ideological signs, uniforms, badges, or villain styling. Education and good intentions appear through ordinary work, notebooks, conversation, and help. The dusty-field truck image includes readable placards saying “JUSTICE FOR ALL,” “NO DISCRIMINATION,” and “EQUAL RIGHTS.” Clothing and faces remain contemporary and ordinary throughout.
 - The farmhouse, modern grain shed, village hall, seed sacks, faces, and base wardrobes recur. New scenes use the opening family image and the volunteer scene as visual references.
 - The five volunteers remain individually recognizable from the soup table to the shed entrance. Warm cooperation gradually gives way to insistence, moral certainty, and anger. Their change appears in how they address the same family and use the same hands, notebooks, and doorway.
 - The mob's anger appears through familiar faces, demanding gestures, and its advance through the grain-shed entrance. An additional image shows the tearful family watching the distant farm burn after escaping. Physical violence remains outside the images. By early summer, the same five organizers appear in their shared home with extremely thin bodies, visible ribs and collarbones, and loose clothing.
@@ -99,9 +99,13 @@ The same young organizers who served soup beside the family lead neighbors to th
 
 ### 10. Early Summer
 
-Spring passes without planting. No replacement seed arrives. The brief relief ends. By early summer, the five young organizers are starving in the home they share, too weak to move. They and the same neighbors who burned the farm starve alongside the other townspeople.
+Spring passes without planting. No replacement seed arrives. Sun heats the bare fields and wind lifts dust from the soil. The brief relief ends. By early summer, the five young organizers are starving in the home they share, too weak to move. They and the same neighbors who burned the farm starve alongside the other townspeople.
 
-**Visual:** The same five young adults lie or recline on a sofa, an armchair, and a rug in their shared living room. Their cheeks are deeply sunken, collarbones and ribs prominent beneath their skin, and arms and wrists very thin. Their clothes hang loosely; their heads tilt and hands rest limp. A TV, iPad, refrigerator, oven, microwave, dishwasher, and washing machine are visible. Early-summer sunlight enters through the windows, with green leaves outside. The coffee table holds the iPad and remotes.
+**Earlier visual — dusty fields:** The same blonde and curly-haired organizers sit smiling in a dusty pickup beside cracked, unplanted fields. Bright sunlight falls across the bare soil; dust hangs over the horizon. Three placards in the truck bed read “JUSTICE FOR ALL,” “NO DISCRIMINATION,” and “EQUAL RIGHTS.” Paint cans, brushes, a portable loudspeaker, coiled cable, rolled banners, and a folded canopy fill the rest of the bed.
+
+![The blonde and curly-haired organizers smile in a dusty pickup beside bare cracked fields; protest placards, paint supplies, a loudspeaker, and rolled banners fill the truck bed.](visuals/10a-the-dusty-fields.png)
+
+**Later visual — shared home:** The same five young adults lie or recline on a sofa, an armchair, and a rug in their shared living room. Their cheeks are deeply sunken, collarbones and ribs prominent beneath their skin, and arms and wrists very thin. Their clothes hang loosely; their heads tilt and hands rest limp. A TV, iPad, refrigerator, oven, microwave, dishwasher, and washing machine are visible. Early-summer sunlight enters through the windows, with green leaves outside. The coffee table holds the iPad and remotes.
 
 ![The same five young adults recline in their shared living room with hollow cheeks, prominent ribs and collarbones, thin limbs, and loose clothing; a TV, iPad, and modern kitchen appliances are visible.](visuals/10-the-spring.png)
 
