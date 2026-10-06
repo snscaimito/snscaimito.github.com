@@ -22,6 +22,7 @@ exclude:
   - _planning
   - vendor
   - AGENTS.md
+  - design.md
   - Gemfile
   - Gemfile.lock
   - serve.sh

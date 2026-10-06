@@ -9,7 +9,7 @@ require "yaml"
 
 # Runs without building Jekyll. CI also checks the generated artifact before upload.
 class PublicationCheck
-  INTERNAL_PATHS = %w[_planning _tools AGENTS.md Gemfile Gemfile.lock serve.sh elements.md].freeze
+  INTERNAL_PATHS = %w[_planning _tools AGENTS.md design.md Gemfile Gemfile.lock serve.sh elements.md].freeze
 
   def initialize(root, today: Date.today)
     @root = File.expand_path(root)

@@ -2,6 +2,10 @@
 
 Repository-specific guidance for AI assistance in this Jekyll site.
 
+## Website Design
+
+- Read and follow [design.md](design.md) for every layout or styling change. The site must always remain responsive across phone, tablet, and desktop widths.
+
 ## General Editing
 
 - Preserve the author's established voice and keep edits focused on the requested change.
