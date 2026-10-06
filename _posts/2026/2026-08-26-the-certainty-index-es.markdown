@@ -7,6 +7,25 @@ language_switcher: true
 translation_en: true
 translation_de: true
 translation_es: true
+x_post_id: "2104996772900720832"
+x_published_at: "2026-09-29T18:08:34Z"
+x_series: The Certainty Index
+x_chapters:
+- part: 1
+  x_post_id: "2104996772900720832"
+  published_at: "2026-09-29T18:08:34Z"
+- part: 2
+  x_post_id: "2105701106969960777"
+  published_at: "2026-10-01T16:47:21Z"
+- part: 3
+  x_post_id: "2106179013295165889"
+  published_at: "2026-10-03T00:26:22Z"
+- part: 4
+  x_post_id: "2106823203716735311"
+  published_at: "2026-10-04T19:06:09Z"
+- part: 5
+  x_post_id: "2107555841289162934"
+  published_at: "2026-10-06T19:37:24Z"
 tags:
 - es
 categories:
