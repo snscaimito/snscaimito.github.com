@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ page.description | escape }}">
+  <meta name="theme-color" content="#16213e">
+  <title>{{ page.title | escape }}</title>
+  {% assign canonical_url = site.url | replace: 'http://', 'https://' | append: page.url %}
+  <link rel="canonical" href="{{ canonical_url }}">
+  <meta property="og:title" content="{{ page.title | escape }}">
+  <meta property="og:description" content="{{ page.description | escape }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ canonical_url }}">
+  <meta name="twitter:card" content="summary">
+  <link rel="stylesheet" href="/css/schwab.css?v={{ site.time | date: '%s' }}">
+  <link rel="stylesheet" href="/css/links.css?v={{ site.time | date: '%s' }}">
+  <link rel="alternate" type="application/rss+xml" title="Stephan Schwab" href="/rss.xml">
+  <script defer data-domain="www.stephan-schwab.com" src="https://analytics.nilo-assistant.com/js/script.js"></script>
+</head>
+<body class="links-page">
+  <a class="skip-link" href="#my-links">Skip to links</a>
+  {% include header.html %}
+  <main id="my-links" class="links-main">
+    {{ content }}
+  </main>
+  <footer class="links-footer">
+    <h2>Stay in touch</h2>
+    <nav class="links-social" aria-label="Stay in touch">
+      <a href="https://x.com/snscaimito">X</a>
+      <a href="https://www.linkedin.com/in/stephanschwab">LinkedIn</a>
+      <a rel="me" href="https://techhub.social/@snscaimito">Mastodon</a>
+      <a href="https://bsky.app/profile/snscaimito.bsky.social">Bluesky</a>
+      <a href="mailto:sns@caimito.net">Email</a>
+    </nav>
+  </footer>
+</body>
+</html>

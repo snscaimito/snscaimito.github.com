@@ -6,6 +6,9 @@ highlighter: rouge
 permalink: /:year/:month/:day/:title.html
 markdown: kramdown
 encoding: UTF-8
+future: false
+show_drafts: false
+unpublished: false
 
 exclude:
   - .bundle
@@ -18,3 +21,10 @@ exclude:
   - _tools
   - _planning
   - vendor
+  - AGENTS.md
+  - Gemfile
+  - Gemfile.lock
+  - serve.sh
+  - elements.md
+  # Illustrations for an unpublished story, including full-size copies.
+  - img/the-common-granary

@@ -3,7 +3,6 @@ layout: post
 title: La Oficina de lo Correcto
 image: /img/das-amt-fuer-das-richtige/das-amt-fuer-das-richtige-hero.jpeg
 description:
-draft: true
 lang: es
 language_switcher: true
 translation_en: true

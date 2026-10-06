@@ -1,0 +1,137 @@
+.links-page {
+  --links-ink: #16213e;
+  --links-muted: #555;
+  --links-accent: #ab1413;
+  --links-border: #e5e5e5;
+  --links-surface: #fafafa;
+  --links-radius: 0.75rem;
+  --links-space: clamp(0.75rem, 3vw, 1.25rem);
+  --links-serif: Charter, "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  color: var(--links-ink);
+  background: #fff;
+}
+
+.links-page *, .links-page *::before, .links-page *::after { box-sizing: border-box; }
+.links-page a:focus-visible { outline: 3px solid var(--links-accent); outline-offset: 4px; }
+
+.skip-link {
+  position: absolute;
+  top: 0;
+  left: 1rem;
+  padding: 0.75rem 1rem;
+  background: #fff;
+  transform: translateY(-150%);
+  z-index: 1;
+}
+.skip-link:focus { transform: translateY(0); }
+
+/* Keep a single, easy-to-scan link column on wide screens too. */
+.links-main, .links-footer {
+  width: min(100%, 42rem);
+  padding-inline: var(--links-space);
+  margin-inline: auto;
+}
+.links-main { padding-bottom: 1.5rem; }
+.links-intro { text-align: center; margin-bottom: 1.5rem; }
+.links-intro h1 {
+  font-family: var(--links-serif);
+  font-size: 1.75rem;
+  line-height: 1.2;
+  margin: 0 0 0.5rem;
+}
+.links-intro p { color: var(--links-muted); font-size: 0.95rem; line-height: 1.5; margin: 0; }
+.links-intro .links-intro__claim {
+  font-family: var(--links-serif);
+  font-size: 1.15rem;
+  line-height: 1.5;
+  color: var(--links-ink);
+  margin: 0 auto 0.75rem;
+  max-width: 46ch;
+}
+.links-projects { margin-top: 1.75rem; }
+.links-section-title {
+  margin: 0 0 0.75rem;
+  color: var(--links-accent);
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.project-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.project-link {
+  display: flex;
+  align-items: center;
+  gap: var(--links-space);
+  padding: var(--links-space);
+  min-height: 5.25rem;
+  border: 1px solid var(--links-border);
+  border-radius: var(--links-radius);
+  background: var(--links-surface);
+  color: var(--links-ink);
+  text-decoration: none;
+}
+.project-link:hover {
+  border-color: var(--links-ink);
+  background: #f0f0ee;
+  color: var(--links-ink);
+}
+.project-link__badge {
+  display: flex;
+  flex: 0 0 3rem;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+}
+.project-link__badge {
+  font-family: var(--links-serif);
+  font-size: 1.6rem;
+  color: var(--links-ink);
+  background: #e9ecef;
+}
+.project-link__details { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+.project-link__details h2, .project-link__details h3 {
+  font-family: var(--links-serif);
+  font-size: 1.15rem;
+  line-height: 1.3;
+  margin: 0 0 0.25rem;
+}
+.project-link__details p { color: var(--links-muted); font-size: 0.875rem; line-height: 1.45; margin: 0; }
+.project-link__arrow { flex: 0 0 auto; color: var(--links-accent); font-size: 1.2rem; }
+.project-link:hover { text-decoration: none; }
+
+.links-footer { padding-bottom: 1.5rem; text-align: center; }
+.links-footer h2 {
+  border-top: 1px solid var(--links-border);
+  padding-top: 1.25rem;
+  margin: 0 0 0.75rem;
+  color: var(--links-accent);
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.links-social { display: flex; justify-content: center; flex-wrap: wrap; gap: 0.25rem 0.5rem; }
+.links-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.75rem;
+  min-height: 2.75rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--links-border);
+  border-radius: var(--links-radius);
+  color: var(--links-ink);
+  font-size: 0.875rem;
+  text-decoration: none;
+}
+.links-social a:hover { color: var(--links-accent); border-color: var(--links-accent); }

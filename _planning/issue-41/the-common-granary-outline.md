@@ -13,6 +13,7 @@ The same organizers change through the beliefs they adopt and reinforce in one a
 - Write the English narrative directly in the unpublished blog article, which is the canonical source for later X posts. Do not queue installments until requested.
 - Use flowing prose and manageable paragraphs for people reading on phones. Vary sentence length and weave selected dialogue into action and observation; avoid long runs of isolated, short exchanges.
 - Keep each scene under two minutes at an editorial baseline of 200 words per minute. Limit the narrative plus the separate X footer to 350 words, leaving room for the blog heading and image caption. Check the count for every scene before recording it in the article.
+- The English article now contains 14 narrative scenes, each paired with one of the 14 reference images. The Taking and its escape image have separate scene boundaries; the driving, rally, and shared-home images likewise have separate scenes. These expand the 11-chapter planning outline without changing its plot order. The brief Activity Theory afterword remains outside the fictional scenes.
 
 ## Visual continuity
 
@@ -20,6 +21,7 @@ The same organizers change through the beliefs they adopt and reinforce in one a
 - The Miller family has two parents and four children: Sarah (41), Dan (43), Emma (19), Luke (16), Abby (10), and Ben (7). These names and visual ages remain consistent throughout the scenes. All six survive and remain together.
 - Sarah’s sister Rachel lives at the reservoir house outside the settlement. Mr. Peterson is the neighbor whose tire Luke helps patch in the opening scene.
 - The organizers are predominantly highly educated women in their early twenties, accompanied by ordinary student-aged men. The women wear low-rise trousers and cropped casual tops with exposed midriffs; the men wear ordinary student clothes. Weather-appropriate layers are added in cold scenes.
+- The five organizers are Madison Reed (blonde, policy studies), Hannah Brooks (dark curly bob, education), Olivia Hayes (straight black shoulder-length hair, public health), Ethan Parker (brown curls and glasses, records and delivery figures), and Jacob Morris (short dark hair, practical repairs). Their names recur from voluntary meals through seizure and the shared-home scene.
 - Early scenes have no ideological signs, uniforms, badges, or villain styling. Education and good intentions appear through ordinary work, notebooks, conversation, and help. The town-square image includes readable placards saying “JUSTICE FOR ALL,” “NO DISCRIMINATION,” and “EQUAL RIGHTS.” Clothing and faces remain contemporary and ordinary throughout.
 - The farmhouse, modern grain shed, village hall, seed sacks, faces, and base wardrobes recur. New scenes use the opening family image and the volunteer scene as visual references.
 - The five volunteers remain individually recognizable from the soup table to the shed entrance. Warm cooperation gradually gives way to insistence, moral certainty, and anger. Their change appears in how they address the same family and use the same hands, notebooks, and doorway.

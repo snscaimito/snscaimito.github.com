@@ -281,6 +281,18 @@ class XPublisherTest < Minitest::Test
     assert excerpt.end_with?("…")
   end
 
+  def test_publication_page_does_not_export_api_experiments
+    experiments = PUBLICATION_PAGE_EXCLUDED_IDS.map do |post_id|
+      { "x_post_id" => post_id, "published_at" => "2026-08-23T10:17:25Z",
+        "publication_type" => "article", "article_title" => "API publishing test" }
+    end
+
+    data = publication_page_data(records + experiments, account: "snscaimito")
+
+    assert_equal ["Free Air"], data.fetch("groups").map { |group| group.fetch("name") }
+    assert_equal %w[1001 1002], data.dig("groups", 0, "posts").map { |post| post.fetch("id") }
+  end
+
   def test_publication_page_images_use_public_paths_and_copy_non_public_originals
     Dir.mktmpdir do |repository|
       public_directory = File.join(repository, "img", "story")

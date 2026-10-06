@@ -1,0 +1,31 @@
+{% assign preview_image = include.post.image | default: include.post.hero_image %}
+{% assign preview_alt = include.post.image_alt | default: include.post.hero_image_alt | default: '' %}
+{% assign image_entries = include.post.content | split: '<img ' %}
+{% if preview_image == nil or preview_image == '' %}
+  {% assign first_image = image_entries | slice: 1, 1 | first %}
+  {% if first_image contains 'src="' %}
+    {% assign preview_image = first_image | split: 'src="' | slice: 1, 1 | first | split: '"' | first %}
+  {% endif %}
+{% endif %}
+{% if preview_image and preview_image != '' %}
+  {% assign image_first = preview_image | slice: 0, 1 %}
+  {% if preview_image contains '://' or image_first == '/' %}
+    {% assign preview_image_url = preview_image %}
+  {% elsif preview_image contains 'img/' %}
+    {% assign preview_image_url = preview_image | prepend: '/' %}
+  {% else %}
+    {% assign preview_image_url = preview_image | prepend: '/img/posts/' %}
+  {% endif %}
+  {% if preview_alt == '' %}
+    {% for image_entry in image_entries offset: 1 %}
+      {% assign image_source = image_entry | split: 'src="' | slice: 1, 1 | first | split: '"' | first %}
+      {% if image_source == preview_image or image_source == preview_image_url %}
+        {% if image_entry contains 'alt="' %}
+          {% assign preview_alt = image_entry | split: 'alt="' | slice: 1, 1 | first | split: '"' | first %}
+        {% endif %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+  <img class="fiction-articles__image" src="{{ preview_image_url | escape }}" alt="{{ preview_alt | escape }}" loading="lazy" decoding="async">
+{% endif %}

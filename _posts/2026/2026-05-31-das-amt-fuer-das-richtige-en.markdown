@@ -3,7 +3,6 @@ layout: post
 title: The Office for What Is Right
 image: /img/das-amt-fuer-das-richtige/das-amt-fuer-das-richtige-hero.jpeg
 description:
-draft: true
 lang: en
 language_switcher: true
 translation_en: true

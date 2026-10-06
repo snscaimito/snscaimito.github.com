@@ -5,6 +5,13 @@ x_post_id: "2103513166596506067"
 x_published_at: "2026-09-25T15:53:15Z"
 image: /img/company-law-in-europe/germany-1892-family-workshop.png
 lang: en
+language_switcher: true
+translation_en: true
+translation_de: true
+translation_es: true
+translation_en_url: /2026/09/25/company-law-in-europe.html
+translation_de_url: /2026/09/25/company-law-in-europe-de.html
+translation_es_url: /2026/09/25/company-law-in-europe-es.html
 x_series: Company Law in Europe
 x_chapters:
 - part: 1
@@ -31,6 +38,9 @@ x_chapters:
 - part: 8
   x_post_id: "2106352082185834944"
   published_at: "2026-10-03T11:54:05Z"
+- part: 9
+  x_post_id: "2107223878690890124"
+  published_at: "2026-10-05T21:38:18Z"
 tags:
 - en
 categories:
@@ -230,3 +240,34 @@ He took the pen. I had brought him a piece of silk dyed in my smallest vat. He h
 The signatures were only the beginning. We subscribed the capital, brought proof of the first payments to the notary, and sat through the meeting that appointed the people who would run and examine the new company. I kept the merchant's blank bill in my coat until we could give him the company's name.
 
 He came back, looked at the papers, and made the bill out to the works. By winter we had filled the cloth house's order and paid him. My brother brought his son to see the finished silk hanging above the vats. The boy touched a blue length and left a mark on it. My brother laughed before I could object.
+
+## Chapter 9
+
+The silk merchant laid two bills beside my account book. One named our new company. The other needed my signature. Lyon, 1925: my son and I had put 25,000 francs into that company so its ordinary trade debts would not follow us upstairs. He wanted my name anyway.
+
+<figure class="post-hero-figure">
+	<a class="post-lightbox-trigger" href="/img/company-law-in-europe/full/france-1925-two-bills-split.png" data-lightbox-src="/img/company-law-in-europe/full/france-1925-two-bills-split.png" data-lightbox-alt="An older dyer and his adult son stand beside silk vats and company papers; later, the dyer studies two bills across a desk from a merchant.">
+		<img src="/img/company-law-in-europe/france-1925-two-bills-split.png" alt="An older dyer and his adult son stand beside silk vats and company papers; later, the dyer studies two bills across a desk from a merchant." />
+	</a>
+	<figcaption>Click the image to view it full size.</figcaption>
+</figure>
+
+Our dye workshop sat below the rooms where my wife and I slept. At night she could tell which color I had made by the smell rising through the floorboards. For twenty years I had bought silk in my own name. If a customer failed to pay, an unpaid bill could reach everything I owned.
+
+Jean had won an order from a Paris dressmaker: three hundred lengths of blue silk. We knew how to make the color. We needed a larger vat and silk we could buy on credit. A company with shareholders had seemed beyond us. It took seven names, and Jean was the only person I trusted with our accounts.
+
+Then he brought me the new law. The two of us could form a société à responsabilité limitée. We signed the company deed ourselves. Finding the capital was harder: 25,000 francs, with every share paid in full. Jean gave up the savings for a house of his own. I emptied the tin we kept above the stove. Once the papers were complete, some of that money bought a copper vat. We still needed the silk.
+
+The merchant looked at the company’s name on the first bill.
+
+“And if the dressmaker never pays you?”
+
+“The works will owe you.”
+
+“Only the works?”
+
+He pushed the second bill toward me. My name was written above a space for my signature.
+
+I thought of Jean’s savings shining in that new vat. I thought of the rooms above it. Jean said nothing. I set down the pen.
+
+The merchant folded both bills and sold the silk to another dyer. That night the vat held nothing but water. Upstairs, my wife asked whether we could keep our apprentice through winter. I had no answer. The rooms were ours. The order was gone.

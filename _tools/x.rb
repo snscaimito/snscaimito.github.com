@@ -28,6 +28,8 @@ PUBLICATIONS_FILE = File.join(STATE, "publications.jsonl")
 HISTORICAL_PUBLICATIONS_FILE = File.join(STATE, "historical-publications.jsonl")
 PUBLICATION_QUEUE = File.join(TOOLS, "publication-queue")
 X_PUBLICATIONS_DATA_FILE = File.join(REPOSITORY, "_data", "x_publications.json")
+# API experiments remain in the ledger, but do not belong in the public index.
+PUBLICATION_PAGE_EXCLUDED_IDS = %w[2091469852938477835 2091470650380603548].freeze
 SCOPES = %w[tweet.read tweet.write users.read media.write offline.access].freeze
 IMAGE_TYPES = {
   ".jpg" => "image/jpeg", ".jpeg" => "image/jpeg", ".png" => "image/png",
@@ -340,6 +342,7 @@ def publication_page_data(records = publication_records, account: expected_accou
 
     post_id = record["x_post_id"]
     next unless post_id.is_a?(String) && !post_id.empty?
+    next if PUBLICATION_PAGE_EXCLUDED_IDS.include?(post_id)
 
     records_by_id[post_id] = record
   end

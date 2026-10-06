@@ -140,13 +140,29 @@ The current Article command accepts a standalone Markdown file or native DraftJS
 
 Articles can link back to an earlier announcement through a DraftJS link or embedded-post entity, but this is only one-way. The documented API has draft creation and publication endpoints, not Article editing or a `quote_tweet_id` option. For durable two-way navigation among Article-sized chapters, use an editable site-hosted series index; do not pretend the Article API supplies a native quote chain.
 
+## Composing new X posts
+
+Lead with the central claim or tension in the first two lines, then give it a concrete scene and consequence. Keep the quiet, considered voice. For example, an opening such as “Limited liability was supposed to protect the workshop. The merchant still wanted his name on the bill.” establishes the idea before the vignette. Do not manufacture outrage, news hooks, or bait.
+
+Each installment must work for someone encountering the series for the first time. Establish its situation and stakes within the copy, and put the series name in the existing plain-language footer. End newly composed copy with one specific question that readers can answer from their own work, such as “What did the approval actually reduce?” Place it before the footer and approve it as part of the canonical text.
+
+Compose tightly around one observation. Choose an image that carries the same concrete situation; when suitable, put one sharp sentence from the approved copy visibly on it. Check that the lettering remains legible at feed size. Image prompts describe visible composition and literal lettering only; captions and alt text describe visible content, including relevant text, without symbolism or instructions about audience reactions. Concision is a composition choice, not a character-limit check: native long posts remain supported.
+
+Choose the audience language for that publication and publish the original once. Keep English, German, and Spanish versions on the blog with the language switcher. Do not create parallel translated X originals. A later announcement pointing to a language version is a separate publication requiring an explicit request.
+
+Prefer roughly three original pieces a week, with time for substantive replies in relevant conversations about delivery, liability, or regulation. A useful reply contributes one concrete scene or case and its consequence. This editorial preference does not change the CLI's manual cadence, enforce a weekly quota, schedule anything, or authorize public replies.
+
+Use these rules while creating new canonical copy. Existing approved cards and published source text remain intact; revising them requires an explicit editorial request. The publisher distributes the approved package without adding a hook, question, or text overlay during publication. A shorter new post can still be a complete canonical installment.
+
+Treat the supplied claims about reach and algorithm behavior as hypotheses, not verified account analytics. When reviewing results, consider replies, bookmarks, profile clicks, and useful reader contributions alongside views, using available evidence. Do not claim that these changes guarantee wider distribution.
+
 ## Story distribution rule
 
 For serialized X posts, there are only two editorial states: discussion in the current task and a complete `queued` card. Keep proposed text and image choices in the conversation until the user asks to queue the post. Do not create a separate draft, review, held, or pending publication state, or leave a finished publication package outside the queue. When asked to queue, save the full canonical text and matching image, create the `queued` source-backed card, then run `preview --file` and `cadence --series` to confirm that the card is publishable and visible. A queued card is ready for a later explicit publication request; it is not permission to post now. This rule concerns serialized X posts; the separate X Articles API has its own draft operation.
 
 X is a distribution mechanism for the full canonical story—not a place to publish an adaptation, teaser, summary, excerpt, or rewritten version. When distributing a site story, use a source-backed card that reads the canonical article directly.
 
-Divide only at existing article chapter or scene boundaries. If the article has an introduction before its first chapter, include it with the first card. Each source-backed card posts every word of the selected narrative body unaltered, in source order. The only removed material is the website's section heading, Jekyll front matter, and site-only image/lightbox markup. Do not add a title, series label, part number, link, or rewritten closing to the narrative.
+Divide only at existing article chapter or scene boundaries. If the article has an introduction before its first chapter, include it with the first card. Each source-backed card posts every word of the selected narrative body unaltered, in source order, including any opening claim or closing question approved as part of that body. The only removed material is the website's section heading, Jekyll front matter, and site-only image/lightbox markup. Do not add a title, series label, part number, link, or rewritten closing to the narrative during distribution.
 
 Every prepared story post is a three-part publication package: the complete canonical chapter or scene text as written, its matching image, and a separate plain-language footer in the exact form `<Series Title> — a serialized story.` For example: `The Mouth Between Suns — a serialized story.` Do not use hashtags; they no longer serve as the series identifier. The footer is part of the package, not part of the story text. A footer never makes a summary, excerpt, adaptation, or rewritten scene acceptable.
 

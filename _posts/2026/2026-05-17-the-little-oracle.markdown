@@ -3,6 +3,7 @@ layout: post
 title: The Little Oracle
 x_post_id: "2085816166904152071"
 image: /img/the-little-oracle/the-little-oracle-hero.jpeg
+image_alt: A hand holds a smooth gray object glowing orange through fine cracks, beside a dark coat and a blurred tabletop.
 tags:
 - en
 categories:

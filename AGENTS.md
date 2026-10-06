@@ -12,6 +12,13 @@ Repository-specific guidance for AI assistance in this Jekyll site.
 
 ## X Publications
 
+- When composing new X posts, lead with the central claim or tension in the first two lines, then develop it through a concrete scene or consequence. Preserve the author's quiet, considered voice; do not manufacture outrage, news hooks, or bait.
+- Make every installment readable without earlier parts. Establish the situation and stakes within the post; keep the series name in the existing footer instead of opening with a title or part number.
+- End newly composed posts with one concrete, relevant question that readers can answer from their own experience. Make it part of the canonical copy before approval, followed by the series footer when applicable. Do not append an engagement prompt to already approved or published text.
+- Compose new posts tightly around one observation. Use the image as part of the opening: when suitable, place one sharp sentence from the approved copy visibly on the image, with legible typography at feed size. Keep image prompts, captions, and alt text limited to visible subjects, actions, objects, and literal lettering; do not describe symbolism or intended audience reactions.
+- Choose one audience language for each X publication. Keep translations on the blog and accessible through its language switcher. Do not publish parallel translated originals; a later language-version announcement requires its own explicit request.
+- Prefer roughly three original pieces a week, leaving time for substantive replies in relevant conversations about delivery, liability, or regulation. Compose replies with one concrete scene or case and its consequence. This is an editorial preference, not a scheduler or authorization to post originals or replies.
+- Treat the supplied reach and algorithm advice as an editorial hypothesis. When reviewing results, consider replies, bookmarks, profile clicks, and useful contributions alongside views, using available evidence rather than assuming distribution effects.
 - For serialized X posts, use only two editorial states: discussion in the current task or a complete `queued` publication card. Keep proposed copy and image choices in the conversation until the user asks to queue them. Do not create a separate draft, review, held, or pending publication state or keep a finished post outside the queue for later review.
 - When asked to queue a post, save its complete canonical text and matching image, create the card with `status: queued`, and verify it appears in the series cadence. Queuing does not authorize publishing to X.
 - Do not impose a 280-character limit on X posts. This repository's X workflow supports native long posts.

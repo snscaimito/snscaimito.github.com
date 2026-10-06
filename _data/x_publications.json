@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T19:06:09Z",
+  "updated_at": "2026-10-05T21:38:18Z",
   "groups": [
     {
       "name": "AI Island",
@@ -215,6 +215,16 @@
           "kind": "post",
           "images": [
             "/img/x-publications/2106352082185834944-1.png"
+          ]
+        },
+        {
+          "id": "2107223878690890124",
+          "excerpt": "The silk merchant laid two bills beside my account book. One named our new company. The other needed my signature. Lyon, 1925: my son and I had put 25,000 francs into that company so its ordinary trade debts would not follow us upstairs. He wanted my name anyway. Our dye workshop sat below the rooms where my wife and I…",
+          "url": "https://x.com/snscaimito/status/2107223878690890124",
+          "published_at": "2026-10-05T21:38:18Z",
+          "kind": "post",
+          "images": [
+            "/img/x-publications/2107223878690890124-1.png"
           ]
         }
       ]
@@ -910,22 +920,6 @@
     {
       "name": "Standalone posts",
       "posts": [
-        {
-          "id": "2091469852938477835",
-          "excerpt": "API Article publishing test",
-          "url": "https://x.com/snscaimito/status/2091469852938477835",
-          "published_at": "2026-08-23T10:17:25Z",
-          "kind": "article",
-          "images": []
-        },
-        {
-          "id": "2091470650380603548",
-          "excerpt": "API Article embedded-image test",
-          "url": "https://x.com/snscaimito/status/2091470650380603548",
-          "published_at": "2026-08-23T10:20:35Z",
-          "kind": "article",
-          "images": []
-        },
         {
           "id": "2098497728917487897",
           "excerpt": "“JUST UNPLUG IT,” said everyone whose greatest technical achievement was accepting cookies. Dr. Marcus Vale had spent eleven years studying AI containment. Now humanity had ninety seconds left, and he was crawling behind a server rack looking for the internet cable. He pulled the blue one. The printer disconnected. He…",

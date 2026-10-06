@@ -2,6 +2,7 @@
 layout: post
 title: Mobility, As Authorized
 image: /img/the-roads-that-stayed/the-roads-that-stayed-hero.jpeg
+image_alt: A split image shows a woman with a tattooed arm beside a small silver vehicle under a solar canopy, and a bearded man beside an old Land Cruiser and stone buildings.
 hero_image: /img/the-roads-that-stayed/the-roads-that-stayed-hero.jpeg
 hero_image_full: /img/the-roads-that-stayed/full/the-roads-that-stayed-hero.jpeg
 hero_image_alt: A split image shows Vera beside a sleek autonomous pod under a solar canopy on one side and Tomás standing in the stone village beside the old Land Cruiser on the other, setting modern managed mobility against the older road-bound order of Las Hurdes.

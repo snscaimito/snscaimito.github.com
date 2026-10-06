@@ -1,25 +1,23 @@
 ---
 layout: special
 title: Fiction
+show_x_profile: false
 ---
-{% assign posts = "" | split: "" %}
+<ul class="fiction-articles" aria-label="Fiction articles">
 {% for post in site.posts %}
     {% if post.lang == nil or post.lang == 'en' %}
-    {% if post.categories contains 'Fiction' %}
-		{% assign posts = posts | push: post %}
-    {% endif %}
-    {% if post.categories contains 'fiction' %}
-		{% assign posts = posts | push: post %}
+    {% if post.categories contains 'Fiction' or post.categories contains 'fiction' %}
+    <li class="fiction-articles__item">
+        <a class="fiction-articles__story" href="{{ post.url }}">
+            {% include fiction-article-image.html post=post %}
+            <span class="fiction-articles__title">{{ post.title }}</span>
+            {% include fiction-article-opening.html post=post %}
+        </a>
+        <p class="fiction-articles__meta">
+            <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%d %b %Y" }}</time>
+        </p>
+    </li>
     {% endif %}
     {% endif %}
 {% endfor %}
-
-<table class="fiction-articles" aria-label="Fiction articles">
-{% for post in posts %}
-<tr>
-	<td class="fiction-articles__date">{{ post.date | date: "%d %b %Y" }}</td>
-	<td class="fiction-articles__social">{% include post-social-links.html post=post %}</td>
-	<td><a href="{{ post.url }}">{{ post.title }}</a></td>
-</tr>
-{% endfor %}
-</table>
+</ul>

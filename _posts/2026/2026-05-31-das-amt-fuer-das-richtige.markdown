@@ -3,7 +3,6 @@ layout: post
 title: Das Amt für das Richtige
 image: /img/das-amt-fuer-das-richtige/das-amt-fuer-das-richtige-hero.jpeg
 description:
-draft: true
 lang: de
 language_switcher: true
 translation_en: true

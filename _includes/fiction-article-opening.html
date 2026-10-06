@@ -1,0 +1,13 @@
+{% assign opening_text = '' %}
+{% assign paragraphs = include.post.content | split: '<p>' %}
+{% for paragraph in paragraphs offset: 1 %}
+  {% assign paragraph_text = paragraph | split: '</p>' | first | strip_html | strip %}
+  {% assign paragraph_length = paragraph_text | size %}
+  {% if paragraph_length > 80 %}
+    {% assign opening_text = paragraph_text %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+{% if opening_text != '' %}
+  <p class="fiction-articles__opening">{{ opening_text | truncatewords: 40 }}</p>
+{% endif %}

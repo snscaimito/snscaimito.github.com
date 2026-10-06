@@ -27,11 +27,17 @@ jobs:
       - name: Set up Pages
         uses: actions/configure-pages@v5
 
+      - name: Check publication safety
+        run: ruby _tools/check_publication.rb
+
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./
           destination: ./_site
+
+      - name: Check published artifact
+        run: ruby _tools/check_publication.rb _site
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
