@@ -10,6 +10,14 @@ Repository-specific guidance for AI assistance in this Jekyll site.
 - Do not run Jekyll build or serve commands unless explicitly asked.
 - Keep generated blog prose suitable for direct publication and avoid adding explanatory notes inside the post unless requested.
 
+## Website Publication
+
+- Unfinished work is an editorial publication concern, not confidential information. Drafts, outlines, planning files, and experiments may be tracked and pushed to this public repository.
+- The repository remains public on GitHub Free. When the user asks to push, visibility of unfinished source in GitHub is authorized; do not require a separate approval for it or make the repository private.
+- The published website must not reveal unfinished content, including draft articles, excerpts, navigation links, feeds, illustrations, and full-size image copies. Use `published: false` for unfinished posts and exclude their unpublished assets from Jekyll output. Preserve assets shared with finished, published content.
+- Keep internal instructions, tooling, planning files, and test pages out of the published website. Check publication safety with `ruby _tools/check_publication.rb`; CI must also check the generated artifact before uploading it to Pages.
+- Actual secrets, such as credentials, private keys, and access tokens, must remain out of both the public repository and the website. Editorial content does not become secret or confidential merely because it is unfinished or unpublished.
+
 ## X Publications
 
 - When composing new X posts, lead with the central claim or tension in the first two lines, then develop it through a concrete scene or consequence. Preserve the author's quiet, considered voice; do not manufacture outrage, news hooks, or bait.
