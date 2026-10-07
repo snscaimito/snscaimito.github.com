@@ -2,6 +2,25 @@
 
 Research date: October 7, 2026. Scope: individuals, including their investment and business income. Company taxation is a separate subject. Examples illustrate the main arrangements; this is not a classification of every country. Historical findings and present rules are separated below.
 
+## Guiding question for the series
+
+**Why is a human being's personal income taxed in the first place?**
+
+The series will go around the world, introduce the different concepts, and use countries to explain where each came from and why it was chosen. The organizing thread is the reader's “Why?”: why tax income, why claim this person's income, why include these sources, and why keep or change the arrangement over time. Country rules serve those questions; the series is not a tax-planning guide.
+
+Fact gathering must distinguish the reason for introducing a tax, the reason for its geographical reach, and the reasons later given for retaining it. A wartime origin does not answer every present-day question. Record contemporary explanations, later legal arguments, and measured outcomes separately. Where the evidence is missing, preserve the question rather than supply a motive.
+
+The questions to carry through the country cases are:
+
+- Why tax personal income rather than, or alongside, consumption, property, trade, or business profits? Which revenue needs and arguments supported that choice?
+- Why does residence, citizenship, the source of income, or bringing money into a country establish a tax claim? What connection to the person or income was asserted?
+- Why combine income categories, separate them, or tax labor and capital differently? Which reasons supported exemptions and special treatment?
+- If a tax began for an emergency, did it end afterward? If it continued or returned, what reasons were given?
+- Why do some countries operate without a general personal income tax? What finances their spending instead, and what obligations still fall on individuals?
+- What would change if each case's 2026 rules changed? Identify who would pay, which income would be covered, and how spending would be financed before making behavioral predictions.
+
+The connection to [Bread and Games—But What Are We For?](../_posts/2026/2026-08-06-bread-and-games.markdown) and [The Certainty Index](../_posts/2026/2026-08-26-the-certainty-index.markdown) is loose: work, livelihood, public provision, security, and individual choice. Those stories provide related reader questions, not historical evidence or a predetermined conclusion about taxation. This series should stand on its own factual record. Article writing comes later.
+
 ## The main arrangements
 
 A tax system answers two separate questions: **which people are subject to it**, and **which income it includes**. Citizenship, residence, source, and remittance are therefore not interchangeable labels.
@@ -189,7 +208,9 @@ This is a set of documented examples, not an exhaustive inventory of all wartime
 
 ## Postwar abolition and continuation
 
-Britain and the United States abolished their wartime income taxes, then reintroduced income taxation later. Repealing a wartime statute while replacing it with a peacetime tax is a different outcome.
+**Reader question:** “Of the income taxes linked to war financing, did any remove the taxation after the war financing need was gone?”
+
+**Answer:** Yes: Britain and the United States abolished their wartime income taxes after the wars, then reintroduced income taxation later. Australia and Canada retained income taxation; Hong Kong replaced its wartime law while continuing the taxes. The East Prussian tax was short-lived, but its precise cessation circumstances remain unverified. The evidence establishes what happened after the wars, not that all war-related financing needs had disappeared. Dates and sources follow.
 
 | Case | What happened after the war |
 | --- | --- |
@@ -218,6 +239,8 @@ Hong Kong's **May 1, 1947** debate records a sunset clause in the 1941 ordinance
 
 ## Research todo
 
+- [ ] Gather original explanations for choosing personal income as a tax base, including arguments about public spending, ability to pay, distribution of the burden, and alternatives to income taxation. Distinguish stated purposes from demonstrated results.
+- [ ] Document how selected countries without a general personal income tax finance public spending, including the taxes and other charges individuals still pay.
 - [ ] Retrieve the original Prussian cessation statutes and distinguish the early East Prussian tax from later statewide wartime levies; establish the reasons for repeal rather than inferring them from a short collection period.
 - [ ] Establish the earliest foreign-income provisions and contemporary reasons separately for Germany/Prussia, France, Spain, Malta, Ireland, and Thailand. Retrieve original statutes rather than equating a general income tax's start with worldwide coverage.
 - [ ] Verify Myanmar's 2026 law, Eritrea's latest implementation, Hungary's nationality provision history, and the current Italian fixed-tax amount and transition rules before constructing country calculations.
