@@ -41,6 +41,9 @@ x_chapters:
 - part: 9
   x_post_id: "2107223878690890124"
   published_at: "2026-10-05T21:38:18Z"
+- part: 10
+  x_post_id: "2107741795761144101"
+  published_at: "2026-10-07T07:56:19Z"
 tags:
 - en
 categories:
@@ -271,3 +274,32 @@ He pushed the second bill toward me. My name was written above a space for my si
 I thought of Jean’s savings shining in that new vat. I thought of the rooms above it. Jean said nothing. I set down the pen.
 
 The merchant folded both bills and sold the silk to another dyer. That night the vat held nothing but water. Upstairs, my wife asked whether we could keep our apprentice through winter. I had no answer. The rooms were ours. The order was gone.
+
+## Chapter 10
+
+The notary's deed said "limited liability." The iron merchant's bill bore my signature. When he came for payment, my wife began packing her sewing machine. Milan, 1942: I had signed for the iron weeks before our new company entered the court's register.
+
+<figure class="post-hero-figure">
+	<a class="post-lightbox-trigger" href="/img/company-law-in-europe/full/italy-1942-before-the-register-split.png" data-lightbox-src="/img/company-law-in-europe/full/italy-1942-before-the-register-split.png" data-lightbox-alt="An older notary points to papers as two brothers sign at a desk. In a second scene, a man reads a letter while a woman carries a sewing machine past a chair holding a child's coat.">
+		<img src="/img/company-law-in-europe/italy-1942-before-the-register-split.png" alt="An older notary points to papers as two brothers sign at a desk. In a second scene, a man reads a letter while a woman carries a sewing machine past a chair holding a child's coat." />
+	</a>
+	<figcaption>Click the image to view it full size.</figcaption>
+</figure>
+
+My brother Paolo and I made hinges in a shop below our apartment. A furniture maker had asked for enough to fit two hundred iron bedsteads. He would pay when he collected them. We could make the hinges, but the iron merchant would give us the metal only on credit.
+
+Paolo had read about a new kind of company, a società a responsabilità limitata. If it owed for iron it could not pay for, the merchant would have a claim against the company. I thought of the sewing machine upstairs, and of the small coat my wife kept mending at it.
+
+We subscribed 50,000 lire between us and deposited 15,000 at the bank. At the notary's desk, Paolo squeezed my shoulder when I signed. The notary told us he would file the deed, and that the court would examine it before entering the company in its register. I heard him. I also heard the furniture maker's deadline in my head.
+
+The iron merchant brought his bill the next morning. I wrote the new company's name above my own and took the metal. Paolo asked if we could wait for the registration. I showed him the deed, with the notary's signature on its last page. The merchant was at the door. I signed.
+
+We finished the hinges. The furniture maker took them, promised to pay on Monday, and shut his shop before Monday came. I went there twice. On the second visit, a stranger was carrying out the desks.
+
+By then our company was in the court's register. I laid the notice beside the merchant's demand and pointed to the date. He pointed to the date on his bill. His lawyer's letter followed: the company had not yet been registered when I ordered the iron, and the person who had acted for it was answerable without a limit. That person was me.
+
+We sold what we could from the shop. It was not enough. My wife set her sewing machine in a wooden trunk. Our son's coat lay across the chair, one sleeve still open where she had been working.
+
+"I can finish it by hand," she said.
+
+I took the handle at her end of the trunk. We carried it down past the shop where I had made every hinge exactly to measure.

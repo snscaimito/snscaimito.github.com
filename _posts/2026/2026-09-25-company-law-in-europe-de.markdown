@@ -41,6 +41,9 @@ x_chapters:
 - part: 9
   x_post_id: "2107223878690890124"
   published_at: "2026-10-05T21:38:18Z"
+- part: 10
+  x_post_id: "2107741795761144101"
+  published_at: "2026-10-07T07:56:19Z"
 tags:
 - de
 categories:
@@ -271,3 +274,32 @@ Er schob mir die zweite Rechnung hinüber. Über einem Feld für meine Unterschr
 Ich dachte an Jeans Ersparnisse, die in dem neuen Kessel glänzten. Ich dachte an die Zimmer darüber. Jean sagte nichts. Ich legte die Feder hin.
 
 Der Händler faltete beide Rechnungen zusammen und verkaufte die Seide an einen anderen Färber. In jener Nacht war im Kessel nur Wasser. Oben fragte meine Frau, ob wir unseren Lehrling über den Winter behalten könnten. Ich hatte keine Antwort. Die Zimmer gehörten uns. Der Auftrag war weg.
+
+## Kapitel 10
+
+In der Urkunde des Notars stand „beschränkte Haftung“. Auf der Rechnung des Eisenhändlers stand meine Unterschrift. Als er zum Kassieren kam, begann meine Frau, ihre Nähmaschine einzupacken. Mailand, 1942: Ich hatte das Eisen Wochen bevor unsere neue Gesellschaft ins Gerichtsregister eingetragen wurde, auf meinen Namen bestellt.
+
+<figure class="post-hero-figure">
+	<a class="post-lightbox-trigger" href="/img/company-law-in-europe/full/italy-1942-before-the-register-split.png" data-lightbox-src="/img/company-law-in-europe/full/italy-1942-before-the-register-split.png" data-lightbox-alt="Ein älterer Notar zeigt auf Papiere, während zwei Brüder an einem Schreibtisch unterschreiben. In einer zweiten Szene liest ein Mann einen Brief, während eine Frau eine Nähmaschine an einem Stuhl mit einem Kinderrock vorbeiträgt.">
+		<img src="/img/company-law-in-europe/italy-1942-before-the-register-split.png" alt="Ein älterer Notar zeigt auf Papiere, während zwei Brüder an einem Schreibtisch unterschreiben. In einer zweiten Szene liest ein Mann einen Brief, während eine Frau eine Nähmaschine an einem Stuhl mit einem Kinderrock vorbeiträgt." />
+	</a>
+	<figcaption>Zum Vergrößern auf das Bild klicken.</figcaption>
+</figure>
+
+Mein Bruder Paolo und ich fertigten Scharniere in einer Werkstatt unter unserer Wohnung. Ein Möbelmacher hatte genug für zweihundert eiserne Bettgestelle bestellt. Er wollte zahlen, wenn er sie abholte. Wir konnten die Scharniere herstellen, doch der Eisenhändler gab uns das Metall nur auf Kredit.
+
+Paolo hatte von einer neuen Gesellschaftsform gelesen, der società a responsabilità limitata. Wenn sie ihre Eisenschulden nicht bezahlen konnte, hätte der Händler eine Forderung gegen die Gesellschaft. Ich dachte an die Nähmaschine oben und an den kleinen Mantel, den meine Frau daran immer wieder ausbesserte.
+
+Zusammen zeichneten wir 50.000 Lire und zahlten 15.000 bei der Bank ein. Am Schreibtisch des Notars drückte Paolo meine Schulter, als ich unterschrieb. Der Notar sagte, er werde die Urkunde einreichen, und das Gericht werde sie prüfen, bevor es die Gesellschaft in sein Register eintrage. Ich hörte ihn. In meinem Kopf hörte ich auch den Liefertermin des Möbelmachers.
+
+Am nächsten Morgen brachte der Eisenhändler seine Rechnung. Ich schrieb den Namen der neuen Gesellschaft über meinen eigenen und nahm das Metall mit. Paolo fragte, ob wir mit dem Auftrag bis zur Eintragung warten könnten. Ich zeigte ihm die Urkunde mit der Unterschrift des Notars auf der letzten Seite. Der Händler stand schon in der Tür. Ich unterschrieb.
+
+Wir stellten die Scharniere fertig. Der Möbelmacher nahm sie mit, versprach, am Montag zu zahlen, und schloss seinen Laden, bevor der Montag kam. Ich ging zweimal hin. Bei meinem zweiten Besuch trug ein Fremder die Schreibtische hinaus.
+
+Inzwischen stand unsere Gesellschaft im Gerichtsregister. Ich legte den Eintragungsbescheid neben die Zahlungsaufforderung des Händlers und zeigte auf das Datum. Er zeigte auf das Datum seiner Rechnung. Dann kam der Brief seines Anwalts: Als ich das Eisen bestellt hatte, war die Gesellschaft noch nicht eingetragen gewesen. Wer für sie gehandelt hatte, haftete deshalb unbegrenzt. Das war ich.
+
+Wir verkauften, was wir aus der Werkstatt retten konnten. Es reichte nicht. Meine Frau stellte ihre Nähmaschine in eine Holzkiste. Auf dem Stuhl lag der Mantel unseres Sohnes, ein Ärmel noch offen, an dem sie gerade gearbeitet hatte.
+
+„Ich kann ihn mit der Hand fertig nähen“, sagte sie.
+
+Ich nahm den Griff am Ende der Kiste, an dem sie stand. Wir trugen sie an dem Laden vorbei nach unten, in dem ich jedes Scharnier genau nach Maß gefertigt hatte.

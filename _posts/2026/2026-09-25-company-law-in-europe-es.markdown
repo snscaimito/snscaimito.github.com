@@ -41,6 +41,9 @@ x_chapters:
 - part: 9
   x_post_id: "2107223878690890124"
   published_at: "2026-10-05T21:38:18Z"
+- part: 10
+  x_post_id: "2107741795761144101"
+  published_at: "2026-10-07T07:56:19Z"
 tags:
 - es
 categories:
@@ -271,3 +274,32 @@ Me acercó la segunda factura. Mi nombre estaba escrito encima del espacio para 
 Pensé en los ahorros de Jean, brillando en aquella cuba nueva. Pensé en las habitaciones encima. Jean no dijo nada. Dejé la pluma.
 
 El comerciante dobló las dos facturas y vendió la seda a otro tintorero. Aquella noche, la cuba solo contenía agua. Arriba, mi mujer preguntó si podríamos conservar al aprendiz durante el invierno. No tenía respuesta. Las habitaciones eran nuestras. El pedido se había perdido.
+
+## Capítulo 10
+
+La escritura del notario decía «responsabilidad limitada». La factura del comerciante de hierro llevaba mi firma. Cuando vino a cobrar, mi mujer empezó a guardar su máquina de coser. Milán, 1942: había firmado el pedido del hierro semanas antes de que nuestra nueva sociedad se inscribiera en el registro del juzgado.
+
+<figure class="post-hero-figure">
+	<a class="post-lightbox-trigger" href="/img/company-law-in-europe/full/italy-1942-before-the-register-split.png" data-lightbox-src="/img/company-law-in-europe/full/italy-1942-before-the-register-split.png" data-lightbox-alt="Un notario mayor señala unos documentos mientras dos hermanos firman ante un escritorio. En otra escena, un hombre lee una carta y una mujer carga una máquina de coser junto a una silla con un abrigo infantil.">
+		<img src="/img/company-law-in-europe/italy-1942-before-the-register-split.png" alt="Un notario mayor señala unos documentos mientras dos hermanos firman ante un escritorio. En otra escena, un hombre lee una carta y una mujer carga una máquina de coser junto a una silla con un abrigo infantil." />
+	</a>
+	<figcaption>Haz clic en la imagen para verla a tamaño completo.</figcaption>
+</figure>
+
+Mi hermano Paolo y yo fabricábamos bisagras en un taller debajo de nuestro apartamento. Un fabricante de muebles nos había encargado suficientes para doscientas camas de hierro. Nos pagaría cuando las recogiera. Podíamos fabricar las bisagras, pero el comerciante de hierro solo nos daba el metal a crédito.
+
+Paolo había leído sobre una nueva forma de sociedad, una società a responsabilità limitata. Si no podía pagar el hierro, el comerciante tendría un crédito contra la sociedad. Pensé en la máquina de coser de arriba y en el abrigo pequeño que mi mujer remendaba allí.
+
+Suscribimos entre los dos 50.000 liras y depositamos 15.000 en el banco. En el escritorio del notario, Paolo me apretó el hombro cuando firmé. El notario nos dijo que presentaría la escritura y que el juzgado la examinaría antes de inscribir la sociedad en su registro. Lo oí. También oía en mi cabeza el plazo del fabricante de muebles.
+
+A la mañana siguiente, el comerciante de hierro trajo su factura. Escribí el nombre de la nueva sociedad encima del mío y me llevé el metal. Paolo preguntó si podíamos esperar a tener la inscripción. Le enseñé la escritura, con la firma del notario en la última página. El comerciante estaba en la puerta. Firmé.
+
+Terminamos las bisagras. El fabricante de muebles se las llevó, prometió pagar el lunes y cerró su tienda antes de que llegara el lunes. Fui dos veces. En la segunda visita, un desconocido sacaba los escritorios.
+
+Para entonces, nuestra sociedad ya estaba inscrita en el registro del juzgado. Puse el aviso junto a la reclamación del comerciante y señalé la fecha. Él señaló la fecha de su factura. Después llegó la carta de su abogado: la sociedad aún no estaba inscrita cuando encargué el hierro, y quien había actuado en su nombre respondía sin límite. Ese era yo.
+
+Vendimos lo que pudimos sacar del taller. No bastó. Mi mujer metió su máquina de coser en un baúl de madera. El abrigo de nuestro hijo estaba sobre la silla, con una manga todavía descosida donde ella había estado trabajando.
+
+«Puedo terminarlo a mano», dijo.
+
+Agarré el asa del baúl por el extremo donde ella estaba. Lo bajamos pasando por delante del taller en el que yo había fabricado cada bisagra a la medida exacta.
