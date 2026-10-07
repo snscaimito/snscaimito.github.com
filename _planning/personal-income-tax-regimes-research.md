@@ -21,6 +21,47 @@ The questions to carry through the country cases are:
 
 The connection to [Bread and Games—But What Are We For?](../_posts/2026/2026-08-06-bread-and-games.markdown) and [The Certainty Index](../_posts/2026/2026-08-26-the-certainty-index.markdown) is loose: work, livelihood, public provision, security, and individual choice. Those stories provide related reader questions, not historical evidence or a predetermined conclusion about taxation. This series should stand on its own factual record. Article writing comes later.
 
+## When did “tax” first appear, where, and by whom?
+
+**Reader question:** “When were taxes, using that term, first introduced, where, and by whom?”
+
+The history of the English word, the earliest evidence of taxation, and the introduction of modern income tax are separate questions. A historian translating an ancient obligation as a “tax” does not establish that the original text used the English word or an exactly equivalent category.
+
+### The English word
+
+Merriam-Webster dates the noun **tax** to the **14th century**, in the sense of an authority-imposed charge on people or property for public purposes. Its word history traces the verb through Anglo-French **taxer** and Medieval Latin **taxare**, with roots in Latin meanings including assessing or estimating. This is linguistic development, not a dated decree introducing a new institution. The sources reviewed do not identify a person who coined the English word. [Dictionary entry and word history](https://www.merriam-webster.com/dictionary/tax).
+
+The Dictionary of the Older Scottish Tongue records Middle English **tax** before **1327**. A historical English dictionary cites the *Song of the Husbandman*, where a speaker describes repeatedly paying his tax. Thomas Wright's edition prints the original line on page 151. [DOST entry](https://dsl.ac.uk/entry/dost00085775), [historical dictionary quotation](https://wehd.com/93/Tax_sb1.html), [original poem in Wright's edition](https://www.gutenberg.org/files/61511/61511-h/61511-h.htm#Page_151).
+
+**Dating qualification:** the poem's composition and the surviving manuscript's copying are different events. The Parsed Corpus of Middle English Poetry records proposed composition dates of **1297–1310**, but dates the surviving Harley 2253 section to the **1330s–1340s**; it notes that the Middle English Dictionary revised its manuscript date in 2017. The manuscript scribe worked in **Ludlow, Shropshire**. This locates an early surviving use in England; it does not establish where or by whom the word was first invented. Do not present 1327 as a precisely established first-use year. [Corpus dating and manuscript record](https://pcmep.net/textdetails.php?poem_name=Husband).
+
+### Taxation before the English word
+
+Egypt provides evidence of taxation around the formation of the unified state, **circa 3100 BCE**. Sally Katary's research describes a national system centered at **Memphis**, supporting the king, court, building activities, and other state projects. It also records fragmentary evidence of payments to the Royal Treasury from the preceding late Predynastic period. Collection was organized through royal administration; the material reviewed does not establish a named inventor or a unique worldwide first tax. [Katary, *Taxation*, UCLA Encyclopedia of Egyptology, especially pp. 4–5](https://escholarship.org/content/qt9p13z2vp/qt9p13z2vp_noSplash_e060354259cef0ba00c07fec0183167d.pdf).
+
+Early obligations included goods and labor, rather than a modern annual money tax on personal income. The Metropolitan Museum describes payments mainly in goods and compulsory service on royal projects. [Museum account, p. 9](https://resources.metmuseum.org/resources/metpublications/pdf/The_Art_of_Ancient_Egypt_A_Resource_for_Educators.pdf).
+
+The surviving evidence has limits. Some royal annals were inscribed centuries after the events they describe. Records from Tomb U-j at **Abydos**, earlier than the First Dynasty, document goods and their possible origins; such records alone do not conclusively distinguish a tax from other transfers. A research history of the Early Dynastic economy also distinguishes community obligations from evidence of individual tax registration. [Brian Muhs, *The Ancient Egyptian Economy*, Early Dynastic chapter](https://www.cambridge.org/core/books/ancient-egyptian-economy/early-dynastic-period-c-30002686-bce/0DB61A5A16C5DC5ABEEDEAEADEE52533).
+
+### The later income-tax landmark
+
+Britain's modern general income tax was introduced in **1799** by **William Pitt the Younger**, with parliamentary authorization, to finance war against France. This is a documented introduction of a particular income tax, not the invention of taxation or the English term. [Parliament history](https://www.parliament.uk/about/living-heritage/transformingsociety/private-lives/taxation/overview/incometax/).
+
+## Tax versus fee
+
+**Reader question:** “What is the difference between a tax and a fee?”
+
+| Payment | Working distinction for the research |
+| --- | --- |
+| Tax | A compulsory payment to government without a specific benefit normally proportional to the individual's payment. Public services can benefit taxpayers without being individually purchased by each tax payment. |
+| Fee or user charge | Payment for a particular service, generally connected to the cost of providing it. OECD examples of non-tax revenue include passport and court fees. A fee can be compulsory when the service or regulatory process is legally required. |
+
+The name is not decisive. OECD guidance can classify a charge called a fee as a tax when it greatly exceeds service costs, provides no specific service, or benefits someone other than the payer. Earmarking revenue for a public purpose does not by itself establish a fee. These are statistical classifications; a country's legal classification must be checked separately. [OECD Revenue Statistics 2025, interpretative guide, paragraphs 1–2 and 12–15](https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/the-oecd-classification-of-taxes-and-interpretative-guide_c852c459.html).
+
+The IMF likewise distinguishes payment for actual regulatory work, proportionate to its cost, from a licence charge involving little work or an amount out of proportion to the service. “Optional versus compulsory” is therefore insufficient on its own to distinguish fees and taxes. [IMF Government Finance Statistics Manual 2014, paragraphs 5.72–5.74](https://www.imf.org/external/pubs/ft/gfs/manual/2014/gfsfinal.pdf).
+
+For the series, this adds a central “Why?” question: why fund a service from broad taxation rather than charge its users directly? The answer needs evidence about the particular service, beneficiaries, collection costs, and stated policy choice.
+
 ## The main arrangements
 
 A tax system answers two separate questions: **which people are subject to it**, and **which income it includes**. Citizenship, residence, source, and remittance are therefore not interchangeable labels.
@@ -239,6 +280,8 @@ Hong Kong's **May 1, 1947** debate records a sunset clause in the 1941 ordinance
 
 ## Research todo
 
+- [ ] Compare early Egyptian and Mesopotamian fiscal evidence; distinguish contemporary records from later accounts and taxes from tribute, rent, offerings, and internal transfers. Do not assign a single inventor without evidence.
+- [ ] For country examples, distinguish taxes, service fees, compulsory contributions, and fines using both the local legal definition and the international statistical classification; gather reasons for funding services through taxes rather than user fees.
 - [ ] Gather original explanations for choosing personal income as a tax base, including arguments about public spending, ability to pay, distribution of the burden, and alternatives to income taxation. Distinguish stated purposes from demonstrated results.
 - [ ] Document how selected countries without a general personal income tax finance public spending, including the taxes and other charges individuals still pay.
 - [ ] Retrieve the original Prussian cessation statutes and distinguish the early East Prussian tax from later statewide wartime levies; establish the reasons for repeal rather than inferring them from a short collection period.
