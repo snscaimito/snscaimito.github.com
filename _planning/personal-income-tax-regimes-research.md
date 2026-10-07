@@ -80,6 +80,31 @@ Tax residence is a legal classification. It can depend on a home, family and eco
 
 The location of a bank account or employer does not, by itself, establish the source of income. For example, payment by a foreign employer can still be taxable for work performed in Hong Kong. [Hong Kong Inland Revenue Department](https://www.ird.gov.hk/eng/tax/ere_inc_out.htm).
 
+## Reader case: the digital nomad
+
+A young person travels with a laptop, working for an employer or clients in other countries. They may understand themselves as a traveler while tax law connects them to a former home, a place where they work, or their citizenship. The series should follow this person's questions alongside the history of the different regimes.
+
+**Reader question:** “Why can a country claim tax on my income when my clients, employer, and bank account are somewhere else, and I am only traveling?”
+
+**Answer supported by the examples below:** countries can establish tax claims through residence or the place where work is performed; citizenship can add another connection. Receiving payment abroad does not necessarily make work performed locally foreign-source income. Permission to stay, tax residence, income-tax liability, and reporting are separate matters.
+
+| Assumption the reader might make | Fact to explain through country examples |
+| --- | --- |
+| “I stayed less than 183 days, so there is no tax question.” | Day counts are only part of some residence tests. Spain also considers the main base of activities or economic interests. Separately, a nonresident can owe tax on domestic-source income, subject to exemptions and treaties. [Spanish residence rules](https://sede.agenciatributaria.gob.es/Sede/en_gb/no-residentes/residencia-personas-fisicas-juridicas/persona-fisica-residente-espana.html), [IRS nonresident personal-service rules](https://www.irs.gov/individuals/international-taxpayers/pay-for-personal-services-performed) |
+| “The payment comes from abroad, so the work produces foreign income.” | Under U.S. personal-service sourcing rules, where the person performs the work generally determines its source, regardless of the payer's residence or place of payment. This is a U.S. example, not a substitute for checking each country's rules. [IRS sourcing guidance](https://www.irs.gov/individuals/international-taxpayers/source-of-income-personal-service-income) |
+| “My visa settles my tax status.” | Spain explicitly distinguishes administrative residence permits from tax residence. A digital-nomad visa's tax concessions, if any, must be established separately under the applicable rules. [Spanish Tax Agency](https://sede.agenciatributaria.gob.es/Sede/en_gb/no-residentes/residencia-personas-fisicas-juridicas/persona-fisica-residente-espana.html) |
+| “Leaving home ends every obligation there.” | OECD's 2022 digital-nomad review notes that home-country obligations can remain. Establish their actual 2026 legal basis in each example: continuing residence, citizenship, source, or another specific rule. [OECD review, p. 7](https://www.oecd.org/content/dam/oecd/en/publications/reports/2022/07/should-oecd-countries-develop-new-digital-nomad-visas_4d283d33/4d425e15-en.pdf) |
+
+**Reader question:** “How could the income come to a tax authority's attention?”
+
+Financial-account reporting and platform reporting are documented routes. The Common Reporting Standard provides for annual exchange of financial-account information between participating jurisdictions. Its actual application depends on reporting institutions, accounts, residence information, and exchange arrangements. It is not a report of every incoming bank transfer. [OECD CRS overview and consolidated standard](https://www.oecd.org/en/publications/consolidated-text-of-the-common-reporting-standard-2025_055664b1-en.html).
+
+In the EU, DAC7 requires covered platforms to report identifying and financial information for reportable sellers, including covered personal services. The Commission explicitly states that DAC7 does not impose a new tax: reporting helps authorities apply existing taxation. Reported receipts are not automatically the taxable profit or the final tax due. [European Commission DAC7 explanation](https://taxation-customs.ec.europa.eu/taxation/tax-transparency-cooperation/administrative-co-operation-and-mutual-assistance/dac7_en).
+
+The writing should distinguish the legal event creating an obligation from the later event revealing it. The case is an explanation of how an ordinary traveler can misunderstand rules, not an assumption of intentional evasion or proof that most digital nomads violate them. Any claim about how often this happens requires evidence.
+
+For the later country comparisons, record employee versus freelance status, work locations and dates, continuing home ties, citizenship, applicable treaties, visa conditions, social contributions, and any employer obligations. Then investigate what happens when past income was omitted: correction procedures, time limits, interest, penalties, and the treatment of unintentional mistakes. These consequences need country-specific sources.
+
 ## Other rules that need their own classification
 
 | Rule | What it changes | Example |
@@ -280,6 +305,7 @@ Hong Kong's **May 1, 1947** debate records a sunset clause in the 1941 ordinance
 
 ## Research todo
 
+- [ ] Build sourced 2026 digital-nomad cases for an employee and a freelancer traveling between countries. Explain each country's claimed connection, residence tests, income source, treaty relief, reporting, and consequences of discovering earlier omissions. Verify visa and social-security rules separately.
 - [ ] Compare early Egyptian and Mesopotamian fiscal evidence; distinguish contemporary records from later accounts and taxes from tribute, rent, offerings, and internal transfers. Do not assign a single inventor without evidence.
 - [ ] For country examples, distinguish taxes, service fees, compulsory contributions, and fines using both the local legal definition and the international statistical classification; gather reasons for funding services through taxes rather than user fees.
 - [ ] Gather original explanations for choosing personal income as a tax base, including arguments about public spending, ability to pay, distribution of the burden, and alternatives to income taxation. Distinguish stated purposes from demonstrated results.
@@ -294,6 +320,7 @@ Hong Kong's **May 1, 1947** debate records a sunset clause in the 1941 ordinance
 | Case to assess | Change to examine in the later scenario research |
 | --- | --- |
 | Worldwide residence taxation | Replace worldwide coverage with source-only coverage, or change the residence test. |
+| Digital nomads | Change short-stay work rules, residence tests, or nomad exemptions; compare effects on the traveler, continuing home-country obligations, employers, and reporting. |
 | U.S. citizenship taxation | Replace the citizenship connection with residence while specifying domestic-source and expatriation treatment. |
 | Hong Kong and Singapore | Extend the personal foreign-income charge; specify foreign tax credits and administrative changes. |
 | Malta, Ireland, and Thailand | Replace remittance treatment with taxation as income arises, or with full foreign-income exemption. |
