@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require "minitest/autorun"
+require "minitest/mock"
 require "tmpdir"
 require_relative "x"
 
@@ -26,143 +27,241 @@ class XPublisherTest < Minitest::Test
     ]
   end
 
-  def test_later_installments_quote_part_one
-    card = { "id" => "free-air-03", "series" => "Free Air", "part" => 3 }
-
-    target = quote_target_for(card, records: records, account: "snscaimito")
-
-    assert_equal 1, target.fetch("part")
-    assert_equal "1001", target.fetch("x_post_id")
-    assert_equal "https://x.com/snscaimito/status/1001", target.fetch("x_post_url")
-  end
-
-  def test_series_root_reply_uses_native_references_without_a_url
-    card = { "id" => "free-air-03", "series" => "Free Air", "part" => 3 }
-    root = quote_target_for(card, records: records, account: "snscaimito")
-
-    body = series_root_reply_body(card, root, "1003")
-
-    assert_equal "Part 3", body.fetch("text")
-    assert_equal({ "in_reply_to_tweet_id" => "1001" }, body.fetch("reply"))
-    assert_equal "1003", body.fetch("quote_tweet_id")
-    refute_match %r{https?://}, body.fetch("text")
-    refute_match %r{https?://}, JSON.generate(body)
-  end
-
-  def test_final_series_summary_quotes_the_series_opener_with_the_article_link
-    card = {
-      "id" => "free-air-summary",
-      "series" => "Free Air",
-      "part" => 5,
-      "publication_type" => "series_summary",
-      "status" => "queued",
-      "text" => "Sanne leaves the station to choose her own future.",
-      "article_url" => "https://www.stephan-schwab.com/2026/08/23/free-air.html",
-      "footer" => "Free Air — a serialized story."
-    }
-
-    body = series_summary_body(card, "1001")
-
-    assert_equal "Sanne leaves the station to choose her own future.\n\nRead the full story: https://www.stephan-schwab.com/2026/08/23/free-air.html\n\nFree Air — a serialized story.", body.fetch("text")
-    assert_equal "1001", body.fetch("quote_tweet_id")
-    refute body.key?("reply")
-  end
-
-  def test_final_series_summary_rejects_an_external_article_link
-    card = {
-      "id" => "free-air-summary",
-      "series" => "Free Air",
-      "part" => 5,
-      "publication_type" => "series_summary",
-      "status" => "queued",
-      "text" => "A summary.",
-      "article_url" => "https://example.com/2026/08/23/free-air.html",
-      "footer" => "Free Air — a serialized story."
-    }
-
-    _, stderr = capture_io do
-      assert_raises(SystemExit) { series_summary_text(card) }
-    end
-    assert_includes stderr, "needs a full article URL"
-  end
-
-  def test_a_closed_series_cannot_publish_another_chapter
-    card = { "id" => "free-air-05", "series" => "Free Air", "part" => 5 }
-    closed_records = records + [{ "series" => "Free Air", "publication_type" => "series_summary", "source_card_id" => "free-air-04" }]
-
-    _, stderr = capture_io do
-      assert_raises(SystemExit) { quote_target_for(card, records: closed_records, account: "snscaimito") }
-    end
-    assert_includes stderr, "already closed"
-  end
-
-  def test_final_chapter_has_a_separate_queued_summary_card
-    Dir.mktmpdir do |queue|
-      final = {
-        "id" => "free-air-04", "series" => "Free Air", "part" => 4,
-        "series_end" => true, "series_summary_card_id" => "free-air-summary"
-      }
-      summary = {
-        "id" => "free-air-summary", "series" => "Free Air", "part" => 5,
-        "publication_type" => "series_summary", "status" => "queued",
-        "text" => "Sanne chooses her own future.",
-        "article_url" => "https://www.stephan-schwab.com/2026/08/23/free-air.html",
-        "footer" => "Free Air — a serialized story."
-      }
-      File.write(File.join(queue, "free-air-summary.json"), JSON.generate(summary))
-
-      path, loaded_summary = series_summary_card_for(final, queue: queue)
-
-      assert_equal "free-air-summary.json", File.basename(path)
-      assert_equal "queued", loaded_summary.fetch("status")
-      assert_equal 5, loaded_summary.fetch("part")
-      assert_equal "series_summary", loaded_summary.fetch("publication_type")
-    end
-  end
-
-  def test_summary_waits_for_its_final_chapter
-    Dir.mktmpdir do |queue|
-      final = {
-        "id" => "free-air-04", "series" => "Free Air", "part" => 4,
-        "series_end" => true, "series_summary_card_id" => "free-air-summary",
-        "series_root_reply_status" => "published"
-      }
-      File.write(File.join(queue, "free-air-04.json"), JSON.generate(final))
-      summary = { "id" => "free-air-summary", "series" => "Free Air", "part" => 5, "publication_type" => "series_summary" }
-
-      _, stderr = capture_io do
-        assert_raises(SystemExit) { validate_series_summary_predecessor(summary, records: [], queue: queue) }
-      end
-      assert_includes stderr, "before its final chapter"
-
-      assert_nil validate_series_summary_predecessor(summary, records: records + [{ "card_id" => "free-air-04", "part" => 4 }], queue: queue)
-    end
-  end
-
-  def test_a_source_backed_final_chapter_requires_a_summary_package
-    card = {
+  def installment_card
+    {
       "id" => "the-certainty-index-06",
       "status" => "queued",
       "series" => "The Certainty Index",
-      "source" => { "file" => "_posts/2026/2026-08-26-the-certainty-index.markdown", "section" => 6 }
+      "part" => 6,
+      "footer" => "The Certainty Index — a serialized story."
     }
-
-    _, stderr = capture_io do
-      assert_raises(SystemExit) { validate_final_source_section(card) }
-    end
-    assert_includes stderr, "needs series_end"
   end
 
-  def test_series_opener_has_no_quote_target
-    card = { "id" => "free-air-01", "series" => "Free Air", "part" => 1 }
+  def with_card(card)
+    Dir.mktmpdir do |directory|
+      path = File.join(directory, "card.json")
+      File.write(path, JSON.generate(card))
+      yield path
+    end
+  end
 
-    assert_nil quote_target_for(card, records: records, account: "snscaimito")
+  def publish_locally(card, existing_records: [])
+    requests = []
+    ledger = []
+    uploads = []
+    request = lambda do |method, path, **options|
+      requests << [method, path, JSON.parse(options.fetch(:body))]
+      { "data" => { "id" => "test-installment" } }
+    end
+    upload = lambda do |path, _token|
+      uploads << path
+      "media-#{uploads.length}"
+    end
+
+    with_card(card) do |path|
+      stub(:access_token, "test-token") do
+        stub(:expected_account, "snscaimito") do
+          stub(:publication_records, existing_records) do
+            stub(:append_publication, ->(record) { ledger << record }) do
+              stub(:upload_image, upload) do
+                stub(:x_request, request) do
+                  capture_io { post(["--file", path]) }
+                end
+              end
+            end
+          end
+        end
+      end
+      saved = JSON.parse(File.read(path))
+      yield requests, ledger, saved, uploads, path
+    end
+  end
+
+  def test_queue_copy_publishes_one_standalone_installment_and_preserves_images
+    body = "The approval moved the cost to the workshop.\n\nWhat did the approval actually reduce?"
+    card = installment_card.merge(
+      "text" => body,
+      "images" => [
+        "img/the-certainty-index/the-certainty-index-scene-01-the-steady-number.jpeg",
+        "img/the-certainty-index/the-certainty-index-scene-06-the-unpaved-step.jpeg"
+      ],
+      "quote_tweet_id" => "legacy-root",
+      "series_root_reply_status" => "pending",
+      "reply_to_card_id" => "legacy-parent"
+    )
+
+    publish_locally(card) do |requests, ledger, saved, uploads, path|
+      assert_equal 1, requests.length
+      assert_equal [:post, "/2/tweets"], requests.first.first(2)
+      assert_equal "#{body}\n\n#{card.fetch('footer')}", requests.first.last.fetch("text")
+      assert_equal({ "media_ids" => %w[media-1 media-2] }, requests.first.last.fetch("media"))
+      refute requests.first.last.key?("quote_tweet_id")
+      refute requests.first.last.key?("reply")
+      assert_equal card_image_paths(card), uploads
+      assert_equal 1, ledger.length
+      assert_equal "queue", ledger.first.fetch("text_source")
+      assert_equal body, ledger.first.fetch("narrative_text")
+      assert_equal body, saved.fetch("text")
+      assert_equal "published", saved.fetch("status")
+      assert_equal requests.first.last.fetch("text"), publication_text(load_publication_card(path).last)
+      refute saved.key?("quote_tweet_id")
+      refute saved.key?("series_root_reply_status")
+      refute saved.key?("reply_to_card_id")
+    end
+  end
+
+  def test_blog_sourced_final_chapter_publishes_without_an_opener_or_summary
+    card = installment_card.merge(
+      "source" => { "file" => "_posts/2026/2026-08-26-the-certainty-index.markdown", "section" => 6 },
+      "series_summary_card_id" => "missing-summary"
+    )
+    expected = publication_text(card)
+
+    publish_locally(card) do |requests, ledger, saved, _, path|
+      assert_equal 1, requests.length
+      assert_equal({ "text" => expected }, requests.first.last)
+      assert_equal "blog", ledger.first.fetch("text_source")
+      assert_equal card.fetch("source"), ledger.first.fetch("source")
+      narrative = ledger.first.fetch("narrative_text")
+      assert narrative.start_with?("By Friday morning, Elena wore the watch beneath her coat sleeve.")
+      assert narrative.end_with?("The other counted nothing but the seconds that were hers.")
+      refute_includes narrative, "<figure"
+      refute_includes narrative, card.fetch("footer")
+      refute saved.key?("text")
+      refute saved.key?("series_summary_card_id")
+
+      # The exact sent copy remains available even if its original source disappears.
+      saved["source"]["file"] = "_posts/missing-article.markdown"
+      File.write(path, JSON.generate(saved))
+      assert_equal expected, publication_text(load_publication_card(path).last)
+    end
+  end
+
+  def test_linked_queue_copy_and_blog_chapter_must_match_before_posting
+    source = { "file" => "_posts/2026/2026-08-26-the-certainty-index.markdown", "section" => 6 }
+    card = installment_card.merge("source" => source, "text" => "A revision made in the queue.")
+    with_card(card) do |path|
+      stub(:access_token, -> { flunk "Unsynchronized copy must not contact X" }) do
+        _, stderr = capture_io { assert_raises(SystemExit) { post(["--file", path]) } }
+        assert_includes stderr, "Synchronize the queue and source before posting"
+      end
+    end
+
+    card["text"] = source_section_text(card)
+    publish_locally(card) do |requests, ledger, saved, _, _|
+      assert_equal 1, requests.length
+      assert_equal "queue", ledger.first.fetch("text_source")
+      assert_equal card.fetch("text"), ledger.first.fetch("narrative_text")
+      assert_equal source, saved.fetch("source")
+    end
+  end
+
+  def test_preview_and_dry_run_show_only_the_installment_without_reading_x_state
+    card = installment_card.merge("text" => "A complete scene.", "series_end" => true)
+    unexpected = ->(*) { flunk "Preview must not read account state or contact X" }
+
+    with_card(card) do |path|
+      stub(:expected_account, unexpected) do
+        stub(:publication_records, unexpected) do
+          stub(:access_token, unexpected) do
+            stub(:x_request, unexpected) do
+              output, = capture_io { preview(["--file", path]) }
+              assert_includes output, "Text source: queue"
+              assert_includes output, "Quote post: none"
+              assert_includes output, "Reply: none"
+              refute_includes output, "Series-root reply:"
+              dry_run, = capture_io { post(["--file", path, "--dry-run"]) }
+              payload = JSON.parse(dry_run)
+              assert_equal publication_text(card), payload.fetch("text")
+              refute payload.key?("quote_tweet_id")
+              refute payload.key?("reply_to_tweet_id")
+              refute payload.key?("series_root_reply")
+              refute payload.key?("series_summary_post")
+            end
+          end
+        end
+      end
+    end
+  end
+
+  def test_published_legacy_card_with_pending_reply_cannot_send_another_post
+    card = installment_card.merge(
+      "status" => "published", "text" => "The original post.\n\nThe Certainty Index — a serialized story.",
+      "x_post_id" => "old-installment", "series_root_reply_status" => "pending"
+    )
+    with_card(card) do |path|
+      assert_equal card.fetch("text"), publication_text(load_publication_card(path).last)
+      stub(:access_token, -> { flunk "A published card must not contact X" }) do
+        _, stderr = capture_io { assert_raises(SystemExit) { post(["--file", path]) } }
+        assert_includes stderr, "published, not queued"
+      end
+    end
+  end
+
+  def test_previously_recorded_queued_card_cannot_publish_again
+    card = installment_card.merge("text" => "The original post.")
+    with_card(card) do |path|
+      stub(:publication_records, [{ "card_id" => card.fetch("id") }]) do
+        stub(:access_token, -> { flunk "A recorded card must not contact X" }) do
+          _, stderr = capture_io { assert_raises(SystemExit) { post(["--file", path]) } }
+          assert_includes stderr, "already recorded as published"
+        end
+      end
+    end
+  end
+
+  def test_obsolete_summary_cards_are_excluded_from_cadence_and_rejected
+    summary = installment_card.merge("publication_type" => "series_summary", "text" => "A summary.")
+    with_card(summary) do |path|
+      assert_empty next_publication_cards(queue: File.dirname(path))
+      _, stderr = capture_io { assert_raises(SystemExit) { load_publication_card(path) } }
+      assert_includes stderr, "only installments belong in the X queue"
+    end
+  end
+
+  def test_historical_navigation_replies_and_summaries_do_not_affect_cadence
+    candidates = {
+      "Free Air" => { "series" => "Free Air", "part" => 3 },
+      "Other Series" => { "series" => "Other Series", "part" => 2 }
+    }
+    history = [
+      { "series" => "Free Air", "part" => 2, "published_at" => "2026-08-01T10:00:00Z" },
+      { "series" => "Other Series", "part" => 1, "published_at" => "2026-08-02T10:00:00Z" },
+      { "series" => "Free Air", "publication_type" => "series_root_reply", "published_at" => "2026-10-01T10:00:00Z" },
+      { "series" => "Free Air", "publication_type" => "series_summary", "published_at" => "2026-10-02T10:00:00Z" }
+    ]
+    stub(:next_publication_cards, candidates) do
+      stub(:publication_records, history) do
+        assert_equal "Free Air", cadence_snapshot.fetch("candidate").fetch("series")
+      end
+    end
+  end
+
+  def test_separately_requested_reply_outside_a_series_still_uses_one_post
+    card = {
+      "id" => "standalone-reply", "status" => "queued",
+      "text" => "The workshop paid the bill.", "reply_to_card_id" => "parent"
+    }
+    parent = {
+      "card_id" => "parent", "x_post_id" => "parent-post", "published_at" => "2026-10-01T10:00:00Z"
+    }
+    publish_locally(card, existing_records: [parent]) do |requests, ledger, saved, _, _|
+      assert_equal 1, requests.length
+      assert_equal(
+        { "text" => card.fetch("text"), "reply" => { "in_reply_to_tweet_id" => "parent-post" } },
+        requests.first.last
+      )
+      assert_equal "parent-post", ledger.first.fetch("reply_to_tweet_id")
+      assert_equal "parent-post", saved.fetch("reply_to_tweet_id")
+    end
   end
 
   def test_story_package_uses_plain_language_series_footer
     card = {
+      "id" => "mobilizing-private-savings-01",
       "status" => "queued",
       "series" => "Mobilizing Private Savings",
+      "part" => 1,
       "footer" => "Mobilizing Private Savings — a serialized story."
     }
 

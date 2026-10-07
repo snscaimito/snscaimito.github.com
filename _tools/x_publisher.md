@@ -58,7 +58,7 @@ Preview a prepared publication card without contacting X:
 ruby _tools/x.rb preview --file _tools/publication-queue/the-little-oracle-01.json
 ```
 
-The preview prints the exact text, status, character count, absolute image path, and—when applicable—the preceding installment that the post will quote. The character count is informational: do not impose a 280-character limit or shorten copy to meet one. This workflow supports native long posts, and canonical or user-approved text must remain complete unless the user explicitly requests editorial shortening. The preview validates the JSON and image but does not authorize, refresh a token, upload media, or publish. Codex can render the reported image path in this chat when you ask to preview a card.
+The preview prints the exact text, its source, status, character count, and absolute image paths. Every series installment is a standalone post. The character count is informational: do not impose a 280-character limit or shorten copy to meet one. This workflow supports native long posts, and canonical or user-approved text must remain complete unless the user explicitly requests editorial shortening. The preview validates the JSON and images but does not authorize, refresh a token, upload media, or publish. Codex can render the reported image paths in this chat when you ask to preview a card.
 
 Review the manual cadence and its recommended next installment without contacting X:
 
@@ -81,9 +81,9 @@ The link is appended to the text. Images may be JPG, PNG, GIF, or WebP, up to 5 
 
 Prepared cards remain backward-compatible with the singular `"image"` field. For multiple photos, use an ordered `"images"` array containing one to four repository-relative paths. The publisher uploads every image and sends the returned IDs together in `media.media_ids`.
 
-A text-only prepared card may omit both image fields. To publish it as a direct reply to another prepared card, set `"reply_to_card_id"` to the parent card's ID. The publisher resolves the parent's recorded X post ID, sends it through `reply.in_reply_to_tweet_id`, records the relationship, and refuses to publish when the parent has no local publication record.
+A text-only prepared card may omit both image fields. For a separately approved reply outside a series, set `"reply_to_card_id"` to the parent card's ID. The publisher resolves the parent's recorded X post ID, sends it through `reply.in_reply_to_tweet_id`, records the relationship, and refuses to publish when the parent has no local publication record. Series cards ignore legacy reply and quote metadata and always publish as standalone installments.
 
-Mark the final chapter with `"series_end": true` and `"series_summary_card_id"` naming a separate queued card. That summary card has the next part number, `"publication_type": "series_summary"`, summary `"text"`, the full article's `"article_url"` on `https://www.stephan-schwab.com/`, and the usual series footer. Source-backed cards that include the article's final section require this summary card. Publishing the final chapter leaves the summary in the queue for its own reviewed publication. The summary quotes part 1 as a top-level post, like a chapter, and includes the website link. It creates no later navigation reply, so it remains the last X post for the series. The publisher refuses a summary before its final chapter and refuses further chapters after the summary.
+The final chapter follows the same publication path as every other installment. `"series_end": true` may identify it in metadata, but no opener, navigation reply, or summary card is required. Legacy `series_summary` cards are excluded from cadence and rejected for publication. Remove obsolete queued summary cards instead of publishing them.
 
 Publish an approved prepared card the same way:
 
@@ -100,7 +100,7 @@ ruby _tools/x.rb post-next --series 'Bread and Games'
 
 `post-next` publishes the recommended queued installment whenever explicitly invoked. The recommendation does not delay publication; queue-status and duplicate-publication safeguards remain in force.
 
-Every successful API publication is written locally to `_tools/.x-publisher/publications.jsonl`, including its X post ID, URL, timestamp, exact text, attached images, source card, and quote target when present. Historical posts recovered from X are kept separately in `_tools/.x-publisher/historical-publications.jsonl`; they retain their confirmed IDs, URLs, and timestamps without pretending to be newly published. Review the combined history without contacting X:
+Every successful API publication is written locally to `_tools/.x-publisher/publications.jsonl`, including its X post ID, URL, timestamp, exact sent text, narrative without the footer, attached images, source card, source selection, and series/part metadata. Historical posts recovered from X are kept separately in `_tools/.x-publisher/historical-publications.jsonl`; they retain their confirmed IDs, URLs, timestamps, and any old quote or reply relationships without pretending to be newly published. Review the combined history without contacting X:
 
 ```sh
 ruby _tools/x.rb history
@@ -108,13 +108,13 @@ ruby _tools/x.rb history
 
 Successful content publications also regenerate the tracked, public-safe `_data/x_publications.json` export used by the unlinked `/x-publications/` Jekyll page. The export contains series names, short post excerpts, post IDs, canonical account-qualified X URLs (`https://x.com/<account>/status/<id>`), publication timestamps, publication kinds, and public image paths; it never exposes complete post text, local paths, or Article content state. The account-qualified form lets X recognize a pasted link as a post and render its preview. Series-root navigation replies are excluded. Images already under `img/` are reused directly; originals elsewhere are copied unchanged to `img/x-publications/` so Jekyll can display them.
 
-When publishing a card, the CLI first rejects anything other than `queued` and refuses a card already present in the ledger. After X confirms publication, it appends the ledger record and updates the card with `published` status, timestamp, X post ID, X URL, and quote target where applicable. The ledger and the queue are local and Git-ignored.
+When publishing a card, the CLI first rejects anything other than `queued` and refuses a card already present in the ledger. After X confirms publication, it appends the ledger record and updates the card with `published` status, timestamp, X post ID, X URL, `published_text`, and `narrative_text`. It preserves the original queue text or source selector. Later previews use the frozen published text, even if the source changes or disappears. A previously published card with an old pending navigation reply cannot publish or retry that reply. The ledger and the queue are local and Git-ignored.
 
 The tool has been authorized and has successfully read the latest post from the configured account. Live use has confirmed regular text publishing, image upload, native longer posts, and Article draft/publish flow with embedded Article images. Article publication remains a separate, explicit command.
 
 ## Publishing format decision
 
-Use native longer posts for a serialized story. Every chapter remains an independent top-level post; part 2 onward quotes the recorded part 1 hub, and part 1 receives a direct navigation reply that natively quotes each new chapter. This gives the series an X-native two-way reading path while preserving the manual recommendation, preview, duplicate, and fail-closed opener safeguards.
+Use native longer posts for a serialized story. Publish only the installment itself as an independent top-level post. The blog article holds the complete series and grows as installments are published. No X quote chain, navigation reply, or final summary accompanies an installment.
 
 Use an X Article for a complete standalone story or essay that benefits from rich layout, a cover, and inline images. Do not use Articles for a chapter-by-chapter serial: the Articles API cannot make a published Article announcement quote its predecessor, update a published Article body, or add forward navigation after a later chapter exists.
 
@@ -122,7 +122,7 @@ This is a publication-format choice made for each approved work. It does not cha
 
 ## X Articles
 
-X Articles are an opt-in extension to the existing post/card workflow. They do not affect `post`, `preview`, cadence, prepared story cards, or quote-post chaining. Invoke the Article command only for a specifically approved standalone publication.
+X Articles are an opt-in extension to the existing post/card workflow. They do not affect `post`, `preview`, cadence, or standalone installments. Invoke the Article command only for a specifically approved standalone publication.
 
 The command creates an X Article draft and publishes it immediately by default. Use `--dry-run` to review the exact DraftJS request locally, or `--draft-only` to create a draft without making it public:
 
@@ -158,9 +158,56 @@ Treat the supplied claims about reach and algorithm behavior as hypotheses, not 
 
 ## Story distribution rule
 
-For serialized X posts, there are only two editorial states: discussion in the current task and a complete `queued` card. Keep proposed text and image choices in the conversation until the user asks to queue the post. Do not create a separate draft, review, held, or pending publication state, or leave a finished publication package outside the queue. When asked to queue, save the full canonical text and matching image, create the `queued` source-backed card, then run `preview --file` and `cadence --series` to confirm that the card is publishable and visible. A queued card is ready for a later explicit publication request; it is not permission to post now. This rule concerns serialized X posts; the separate X Articles API has its own draft operation.
+For serialized X posts, there are only two editorial states: discussion in the current task and a complete `queued` card. Keep proposed text and image choices in the conversation until the user asks to queue the post. Do not create a separate draft, review, held, or pending publication state, or leave a finished publication package outside the queue. When asked to queue, save the full canonical text and matching images in a text-backed or source-backed `queued` card, then run `preview --file` and `cadence --series` to confirm that the card is publishable and visible. A queued card is ready for a later explicit publication request; it is not permission to post now. This rule concerns serialized X posts; the separate X Articles API has its own draft operation.
 
-X is a distribution mechanism for the full canonical story—not a place to publish an adaptation, teaser, summary, excerpt, or rewritten version. When distributing a site story, use a source-backed card that reads the canonical article directly.
+X distributes the full canonical installment. The canonical copy may come from a blog article or from the posting queue; neither source authorizes an adaptation, teaser, summary, excerpt, or rewritten version.
+
+### Choosing the canonical source
+
+For a blog-sourced installment, omit `text` and select the article's chapter through `source.section` or an ordered `source.sections` array. Section 0 is the introduction before the first `##` heading; later numbers identify chapters. Include `[0, 1]` when the first installment needs both the introduction and first chapter. A source may also reference a repository-owned manuscript while the published blog series is still growing.
+
+```json
+{
+  "id": "the-certainty-index-06",
+  "status": "queued",
+  "series": "The Certainty Index",
+  "part": 6,
+  "source": {
+    "file": "_posts/2026/2026-08-26-the-certainty-index.markdown",
+    "section": 6
+  },
+  "image": "img/the-certainty-index/the-certainty-index-scene-06-the-unpaved-step.jpeg",
+  "footer": "The Certainty Index — a serialized story."
+}
+```
+
+For a queue-sourced installment, put the complete approved narrative in `text`, without the series footer. Use the same image and series metadata. No blog article has to exist before posting.
+
+```json
+{
+  "id": "example-series-01",
+  "status": "queued",
+  "series": "Example Series",
+  "part": 1,
+  "text": "The complete approved installment.",
+  "image": "img/example-series/scene-01.png",
+  "footer": "Example Series — a serialized story."
+}
+```
+
+If both `text` and `source` are present, the queue narrative and selected source narrative must match, apart from trailing whitespace and the existing removal of site-only material. The publisher rejects mismatches before accessing X. Resolve a mismatch using the user's requested edit direction; do not silently choose one copy, remove the source link, or publish stale text. `preview` and `post --dry-run` report `queue`, `blog`, or `source_file` so the selected source is visible before publication. Keep an approved package intact when changing its storage; verify the complete text and matching images again.
+
+### Article-first and X-first work
+
+These are standing workflows for every agent working in this repository. Read the card, its linked source, and the publication ledger before editing or posting. Identify the workflow from those files; the user does not need to explain it again.
+
+**Article first:** work on the complex story in its blog article. Keep unfinished articles unpublished under the website safety rules. When asked to queue, select complete chapters through `source.section` or `source.sections` and attach their matching images. An article revision flows into source-backed cards directly; update any stored queue copy, image paths, and section selectors affected by the edit. After each confirmed X publication, update that chapter's X metadata in the article and its language editions without duplicating the narrative.
+
+**X first:** work on complete installments in queue cards or referenced manuscripts. Before a corresponding article chapter exists, the queue is the source. After publication, compile the ledger's narrative and matching images into one article per series and language. Add the saved card's `source` selector for the corresponding original-language chapter so later agents can find both copies. Keep waiting installments out of the public article; synchronize linked unpublished copies while they are being edited.
+
+**Edits in either direction:** apply the requested narrative or image change to both linked copies. An article edit updates waiting cards; a queue edit updates its linked chapter. Check chapter order and source selectors after moving or adding headings. Keep the X footer outside the blog narrative. When the source article exists, a card with both `text` and `source` is ready only when both contain the same narrative and use the matching images. Do not automatically shorten, translate, or otherwise rewrite the approved X copy while synchronizing it.
+
+**After publication:** the exact sent text and historical records remain fixed. Use `published_text` and the ledger's `narrative_text` to complete or recover the blog update. A later source edit does not change what was posted. A posting task is complete only after the corresponding article, chapter metadata, images, and English, German, and Spanish editions have been checked and committed locally. Resume an interrupted blog update from the ledger; never repost the installment to repair the blog.
 
 Divide only at existing article chapter or scene boundaries. If the article has an introduction before its first chapter, include it with the first card. Each source-backed card posts every word of the selected narrative body unaltered, in source order, including any opening claim or closing question approved as part of that body. The only removed material is the website's section heading, Jekyll front matter, and site-only image/lightbox markup. Do not add a title, series label, part number, link, or rewritten closing to the narrative during distribution.
 
@@ -170,23 +217,23 @@ Every prepared story post is a three-part publication package: the complete cano
 
 Every authorized X content publication includes updating its existing blog article or creating one if no corresponding article exists. This applies when actually posting to X, not merely queueing or previewing. An existing article must contain the published content once and have current X publication metadata; do not create duplicate articles or chapters.
 
-For fiction first published to X, use one blog entry per series, dated to the first published installment in Europe/Madrid. After X confirms publication, use the recorded text, images, post ID, and timestamp to add the installment as the next chapter and extend `x_chapters`. Keep the article's original filename and date, and keep `x_post_id` pointing to the series opener. Preserve the published narrative verbatim, omit the X series footer, and add no unpublished installments, transitions, summaries, or endings. Navigation replies link chapters on X; they do not create additional blog entries.
+For fiction first published to X, use one blog entry per series, dated to the first published installment in Europe/Madrid. After X confirms publication, use the ledger's `narrative_text`, images, post ID, and timestamp to add the installment as the next chapter and extend `x_chapters`. Keep the article's original filename and date, and keep `x_post_id` pointing to the first installment. Preserve the published narrative verbatim, omit the X series footer, and add no unpublished installments, transitions, summaries, or endings. For older records without `narrative_text`, recover the recorded text and remove only its known series footer.
+
+For a queue-sourced installment, create the series article if needed or append to the existing article. For a blog-sourced installment, verify the selected chapter already appears once and update its X metadata; do not append a duplicate. The published ledger is the record of what was sent. Blog synchronization and translation remain required work in the posting task; the Ruby CLI records the publication but does not generate blog prose or translations.
 
 At the time of posting, create or update the blog article's English, German, and Spanish editions. Translate the newly published chapter into every other blog language, preserving its meaning, chapter order, and matching images; translate image descriptions and captions and maintain the language-switcher metadata and links. For an existing complete article, verify that all three blog editions already contain the corresponding chapter and update them where needed. Keep the original article URL stable and use explicit translation URLs when its canonical language is not English.
 
 Translate the blog post only. The X post stays in its approved original language and is published once; do not translate its copy or publish translated versions on X. The posting task is complete only after the corresponding blog updates and translations have been verified and committed locally under the repository workflow. If X publication succeeds but a blog update is interrupted, resume from the recorded publication instead of posting to X again. A request to post to X does not by itself authorize pushing or deploying the blog changes.
 
-## Series linking through the part 1 hub
+## Standalone installments and the blog series
 
-Each series opener (part 1) is the permanent hub and a normal top-level X post. Every later installment is another top-level post that natively quotes part 1. After that installment succeeds, the publisher creates a direct reply beneath part 1 whose text is only `Part N` and which natively quotes the new installment. The root therefore carries forward links to every later part, while every later part links back to the root.
+Every installment, including the first and last, creates one standalone X post. Its request contains the approved text and attached media only. It does not quote part 1, reply to another post, publish a navigation reply, or require a recorded opener. Part numbers control the queue's reading order and the blog's chapter metadata.
 
-The publisher uses X reference fields for both directions. The installment request sends `quote_tweet_id` for part 1. The navigation request sends `reply.in_reply_to_tweet_id` for part 1 and `quote_tweet_id` for the new installment. It deliberately puts no URL in the navigation text: X's pay-per-use pricing distinguishes ordinary content creation from the more expensive “Content: Create (with URL)” operation. The navigation reply remains a second content-create request, but it is URL-free. Recheck the [current X API pricing](https://docs.x.com/x-api/getting-started/pricing) before live use because rates and entitlements can change.
+The blog article is the series archive. Update it after each confirmed publication and keep its language editions aligned. If the blog update is interrupted, finish it from the ledger without reposting the installment.
 
-For a prepared card with part 2 or later, the publisher requires a local publication record for part 1 with an X post ID and refuses publication when the opener cannot be identified. `preview --file <card>` and `post --file <card> --dry-run` show the root quote plus the URL-free navigation reply before any X request. Use the Ruby CLI only; do not create either relationship through browser automation.
+Existing X posts, old quote relationships, navigation replies, and historical ledger entries remain unchanged. Queued cards with legacy chain fields are published without those relationships. Already published cards are rejected, including cards with `series_root_reply_status: pending`; the publisher no longer retries navigation replies.
 
-The installment is recorded immediately after X creates it, before the root reply is attempted, so a second-request failure cannot cause a duplicate installment. Its card remains marked with `series_root_reply_status: pending`; rerunning the same `post --file` command retries only the missing root reply. A successful navigation reply receives its own ledger record and changes the relationship status to `published` on the card.
-
-The source-backed cards for *The Mouth Between Suns* and *Mobility, As Authorized* follow this rule. Final unpublished packages remain `queued`—ready for an explicit publication decision but not scheduled—and are kept locally in `_tools/publication-queue/`. `preview --file <card>` displays the exact distribution payload, while `post --file <card>` sends that same payload to X and records the outcome locally.
+Final unpublished packages remain `queued` in `_tools/publication-queue/` for an explicit publication decision. `preview --file <card>` displays the exact payload, while `post --file <card>` sends that payload to X and records the outcome locally. Cadence considers installments only; old navigation replies and summaries do not affect the recommendation.
 
 ## Scheduling and measurement
 
