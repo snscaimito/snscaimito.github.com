@@ -110,7 +110,7 @@ The earliest foreign-income clauses and legislative reasons for each continental
 
 On **March 14, 1940**, the Legislative Council debated the War Revenue Bill. The Financial Secretary sought war revenue from those better able to pay while proposing separate taxes on property, salaries, business profits, and corporate profits. The debate addressed resistance to intrusive examination of private affairs, difficulty identifying and assessing nonresidents, double taxation, and the possibility of capital leaving Hong Kong. A source-limited, category-based structure addressed these practical problems. [Original Legislative Council proceedings, especially pp. 23–27](https://www.legco.gov.hk/1940/h400314.pdf).
 
-This historical record supports several reasons for territorial taxation at once: collection and administration, limits on intrusive inquiries, cross-border tax overlap, and retention of capital. It does not support reducing the choice to a single modern slogan. The Inland Revenue Department began operating on **April 1, 1947**; the postwar Inland Revenue Ordinance was enacted on **May 3, 1947**. [IRD institutional history](https://www.ird.gov.hk/dar/2007-08/eng/chapter12/content.htm).
+This historical record supports several reasons for territorial taxation at once: collection and administration, limits on intrusive inquiries, cross-border tax overlap, and retention of capital. It does not support reducing the choice to a single modern slogan. The Inland Revenue Department began operating on **April 1, 1947**. The postwar Inland Revenue Ordinance passed the Legislative Council on **May 1, 1947**, and received the governor's assent on **May 2**. The IRD retrospective gives May 3 as its enactment date; the original ordinance distinguishes passage and assent. [IRD institutional history](https://www.ird.gov.hk/dar/2007-08/eng/chapter12/content.htm), [original 1947 ordinance](https://en.wikisource.org/wiki/Inland_Revenue_Ordinance,_1947).
 
 A **2001** government tax-base review considered worldwide taxation. It observed that credits for higher foreign taxes could leave little additional Hong Kong revenue while requiring substantially more administration. That is a dated policy assessment, not a universal prediction for every country. [Tax-base review, Table VIII](https://www.fstb.gov.hk/en/treasury/general/docs/btreport_annex_condoc.pdf).
 
@@ -187,6 +187,23 @@ War financing is documented for several different arrangements. It does not iden
 
 This is a set of documented examples, not an exhaustive inventory of all wartime tax measures. It concerns income taxation; war loans, customs duties, excises, and excess-profits taxes are additional financing instruments with their own histories. A war-related starting date does not prove that every feature still operating in 2026 was introduced to finance that war.
 
+## Postwar abolition and continuation
+
+Britain and the United States abolished their wartime income taxes, then reintroduced income taxation later. Repealing a wartime statute while replacing it with a peacetime tax is a different outcome.
+
+| Case | What happened after the war |
+| --- | --- |
+| Britain | Income tax was abolished in **1802**, after the Peace of Amiens, and restored in **1803**, when war resumed. It was abolished again in **1816**, after the Napoleonic wars. Strong public opposition and a Commons defeat forced the government to abandon it, despite its wish to retain revenue for war debt. Peel reintroduced it in **1842** as a peacetime measure supporting tariff reductions. [1848 parliamentary account](https://api.parliament.uk/historic-hansard/commons/1848/mar/06/the-income-tax), [Parliament history](https://www.parliament.uk/about/living-heritage/transformingsociety/private-lives/taxation/overview/incometaxbolished/) |
+| United States | Congress repealed the Civil War income tax in **1872**, seven years after the war ended. An **1894** income tax was struck down by the Supreme Court; lasting federal income taxation returned in **1913**, following the Sixteenth Amendment. The citizenship-related wartime provisions therefore did not operate uninterrupted from 1864 to today. [National Archives](https://www.archives.gov/milestone-documents/16th-amendment) |
+| East Prussia | The BMF history records the early tax in **1811–1813**. That establishes a short-lived levy, but not a verified repeal because postwar financing needs had disappeared. The precise cessation statute and its reasons remain an archival task. [BMF history](https://www.bpb.de/system/files/dokument_pdf/BMF_Steuern%20von%20A%20bis%20Z.pdf) |
+| Australia | Federal income tax continued after **World War I**. State and federal income taxes operated between the wars; federal consolidation in **1942** also survived **World War II**. [Treasury history](https://treasury.gov.au/speech/looking-forward-100-years-where-to-for-income-tax) |
+| Canada | Income tax continued after **World War I**. The 1917 measure had no fixed time limit, although the finance minister called for postwar review. In **1948**, the Income Tax Act replaced the Income War Tax Act; income taxation was retained. [CRA milestones](https://www.canada.ca/content/dam/cra-arc/serv-info/tax/individuals/edu-prgms/sdnt-wrksht/wrksht_2_mlstns-en.pdf) |
+| Hong Kong | The **1947** Inland Revenue Ordinance repealed the War Revenue Ordinance, 1941, under **section 90**, while **section 88** continued taxes for 1947 and subsequent assessment years. This replaced wartime legislation without abolishing income taxation. [Original 1947 ordinance](https://en.wikisource.org/wiki/Inland_Revenue_Ordinance,_1947) |
+
+The end of fighting did not necessarily end war-related spending. Canada's official history records veterans' pensions and debt interest after World War I. Britain sought to retain income tax in 1816 to reduce national debt. These sources establish postwar repeal or continuation; they do not establish that every war-financing need had disappeared.
+
+Hong Kong's **May 1, 1947** debate records a sunset clause in the 1941 ordinance tied to the termination of the war. The government's position was that the ordinance remained technically in force until a peace treaty was signed or the ordinance was repealed. The debate also advanced peacetime reasons for taxation, including financial rehabilitation, reserves, and social services. Do not equate the end of hostilities in 1945 with automatic legal expiry of that tax. [Legislative Council proceedings, pp. 137–139](https://www.legco.gov.hk/1947/h470501.pdf).
+
 ## Documented reasons, with their limits
 
 | Reason | Direct evidence in this research | What the evidence establishes |
@@ -201,6 +218,7 @@ This is a set of documented examples, not an exhaustive inventory of all wartime
 
 ## Research todo
 
+- [ ] Retrieve the original Prussian cessation statutes and distinguish the early East Prussian tax from later statewide wartime levies; establish the reasons for repeal rather than inferring them from a short collection period.
 - [ ] Establish the earliest foreign-income provisions and contemporary reasons separately for Germany/Prussia, France, Spain, Malta, Ireland, and Thailand. Retrieve original statutes rather than equating a general income tax's start with worldwide coverage.
 - [ ] Verify Myanmar's 2026 law, Eritrea's latest implementation, Hungary's nationality provision history, and the current Italian fixed-tax amount and transition rules before constructing country calculations.
 - [ ] Complete a dated 2026 baseline for each case: taxpayer status, income types, source, remittance, exemptions, rates, credits, treaties, reporting, and departure rules. Separate enacted future rules from rules already effective.
