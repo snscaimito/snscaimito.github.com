@@ -1,6 +1,6 @@
 # Personal income taxation: regimes, origins, and reasons
 
-Research date: October 7, 2026. Scope: individuals, including their investment and business income. Company taxation is a separate subject. Examples illustrate the main arrangements; this is not a classification of every country. Historical findings and present rules are separated below.
+Research date: October 7, 2026. Scope: individuals, including their investment and business income. Company taxation is included where necessary to distinguish company profits from a founder's personal income and explain competing claims to digital business income. Examples illustrate the main arrangements; this is not a classification of every country. Historical findings and present rules are separated below.
 
 ## Guiding question for the series
 
@@ -104,6 +104,28 @@ In the EU, DAC7 requires covered platforms to report identifying and financial i
 The writing should distinguish the legal event creating an obligation from the later event revealing it. The case is an explanation of how an ordinary traveler can misunderstand rules, not an assumption of intentional evasion or proof that most digital nomads violate them. Any claim about how often this happens requires evidence.
 
 For the later country comparisons, record employee versus freelance status, work locations and dates, continuing home ties, citizenship, applicable treaties, visa conditions, social contributions, and any employer obligations. Then investigate what happens when past income was omitted: correction procedures, time limits, interest, penalties, and the treatment of unintentional mistakes. These consequences need country-specific sources.
+
+## Reader case: the software founder at home
+
+A startup founder lives with their family in one country and works at a desk in their own home. There is no travel. They build a SaaS product or another software business whose value lies largely in software, knowledge, and intellectual property. Customers may be anywhere; the business may have no factory, warehouse, inventory, or separately rented office.
+
+**Reader question:** “Why does the country where I live claim part of the income from something valuable I built at my desk, when the product is digital and its customers are elsewhere?”
+
+Begin with the founder's ordinary home and family life, then follow the different legal connections: the person's residence, the place of work, the company's incorporation and management, and the customers' locations. Explain the historical and stated policy reasons for each claim alongside the rule itself. A legal connection and an argument that it is justified are separate findings.
+
+| Distinction | Fact or question to carry into the country cases |
+| --- | --- |
+| Physical assets and intangible assets | Software can itself be an intangible asset. A business with little physical property can still own valuable assets. [Office for National Statistics: intangible assets](https://www.ons.gov.uk/economy/economicoutputandproductivity/productivitymeasures/bulletins/investmentinintangibleassetsintheuk/2023) |
+| Company receipts and personal income | A customer's subscription payment, company profit, the founder's salary, and a dividend are different amounts. A U.S. C corporation, for example, is a separate taxpayer; corporate profit and a shareholder distribution can be taxed at different stages. [IRS: forming a corporation](https://www.irs.gov/businesses/small-businesses-self-employed/forming-a-corporation) |
+| Retained profits and the owner's tax | Entity treatment matters. U.S. S-corporation income can pass through to shareholders' personal returns, including income that has not been distributed. This is a specific example, not a rule for every incorporated startup. [Congressional tax explanation, p. 18](https://www.govinfo.gov/content/pkg/CPRT-115SPRT27718/pdf/CPRT-115SPRT27718.pdf), [IRS stock and debt basis](https://www.irs.gov/businesses/small-businesses-self-employed/s-corporation-stock-and-debt-basis) |
+| Incorporation and actual management | A foreign registration does not alone settle every country's claim. UK company-residence rules, for example, consider where central management and control actually occurs for companies incorporated abroad. A founder's decisions at home can therefore matter; the result depends on the facts and applicable law. [HMRC company-residence guidance](https://www.gov.uk/hmrc-internal-manuals/international-manual/intm120060) |
+| Business valuation and taxable income | A high company valuation, subscription revenue, profit, and a gain on selling shares must be recorded separately. Under ordinary U.S. capital-gain rules, a sale is compared with the asset's adjusted basis. Other events and regimes require their own examination. [IRS capital gains explanation](https://www.irs.gov/taxtopics/tc409) |
+
+The reader's further “Why?” questions are: why does remaining at home establish a claim over worldwide personal income; why can incorporating elsewhere leave obligations at home; why can the company and founder be taxed separately; and why might earnings from work, dividends, and gains receive different treatment? Investigate the treatment of reinvested profits, losses, and development costs as well as successful sales.
+
+Start the later factual examples with a founder operating a business in the country where they live. Compare this with the same stationary founder owning a company incorporated abroad. Specify who owns the software and who performs development and management. Keep personal income tax, company income tax, social contributions, and taxes collected on customer sales distinct. Customer-location rules for sales taxes or VAT answer a different question from the founder's personal residence tax.
+
+The 2026 rule-change comparison should hold the founder's home, family, work, and customers constant while changing one rule at a time. This case should explain taxation of value created through software without assuming that travel, substantial physical property, or deliberate tax avoidance is involved.
 
 ## Other rules that need their own classification
 
@@ -305,6 +327,7 @@ Hong Kong's **May 1, 1947** debate records a sunset clause in the 1941 ordinance
 
 ## Research todo
 
+- [ ] Build sourced 2026 cases for a stationary SaaS/software founder living with family: a domestic business and a foreign-incorporated business run from the same home. Separate personal and company income, intangible ownership, management, retained profits, losses, dividends, and sale gains; establish the reasons for each tax claim.
 - [ ] Build sourced 2026 digital-nomad cases for an employee and a freelancer traveling between countries. Explain each country's claimed connection, residence tests, income source, treaty relief, reporting, and consequences of discovering earlier omissions. Verify visa and social-security rules separately.
 - [ ] Compare early Egyptian and Mesopotamian fiscal evidence; distinguish contemporary records from later accounts and taxes from tribute, rent, offerings, and internal transfers. Do not assign a single inventor without evidence.
 - [ ] For country examples, distinguish taxes, service fees, compulsory contributions, and fines using both the local legal definition and the international statistical classification; gather reasons for funding services through taxes rather than user fees.
@@ -321,6 +344,7 @@ Hong Kong's **May 1, 1947** debate records a sunset clause in the 1941 ordinance
 | --- | --- |
 | Worldwide residence taxation | Replace worldwide coverage with source-only coverage, or change the residence test. |
 | Digital nomads | Change short-stay work rules, residence tests, or nomad exemptions; compare effects on the traveler, continuing home-country obligations, employers, and reporting. |
+| Stationary software founders | Hold home and work location constant; change worldwide personal coverage, company-residence or pass-through rules, or dividend and gain treatment. Compare domestic and foreign incorporation and the treatment of reinvested profits. |
 | U.S. citizenship taxation | Replace the citizenship connection with residence while specifying domestic-source and expatriation treatment. |
 | Hong Kong and Singapore | Extend the personal foreign-income charge; specify foreign tax credits and administrative changes. |
 | Malta, Ireland, and Thailand | Replace remittance treatment with taxation as income arises, or with full foreign-income exemption. |
