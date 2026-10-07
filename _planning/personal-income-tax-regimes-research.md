@@ -1,0 +1,188 @@
+# Personal income taxation: regimes, origins, and reasons
+
+Research date: October 7, 2026. Scope: individuals, including their investment and business income. Company taxation is a separate subject. Examples illustrate the main arrangements; this is not a classification of every country. Historical findings and present rules are separated below.
+
+## The main arrangements
+
+A tax system answers two separate questions: **which people are subject to it**, and **which income it includes**. Citizenship, residence, source, and remittance are therefore not interchangeable labels.
+
+| Arrangement | Who and what it ordinarily covers | Examples and qualifications |
+| --- | --- | --- |
+| Residence with worldwide income | Tax residents' domestic and foreign income, subject to exemptions and treaty relief. Nonresidents usually remain taxable on specified domestic income. | The ordinary rules in many European countries. There is no single EU personal income tax law. [EU explanation](https://europa.eu/youreurope/citizens/work/taxes/income-taxes-abroad/indexamp_en.htm) |
+| Citizenship plus residence, with worldwide income | Citizens can remain subject to tax while living abroad; qualifying noncitizen residents are also covered. | United States. Possessing a passport is not the legal test. [IRS Publication 54](https://www.irs.gov/publications/p54) |
+| Territorial or source-limited taxation | Specified domestic-source income is taxed; foreign-source income is generally excluded. Residence may still affect rates, relief, and administration. | Hong Kong's separate salaries, profits, and property taxes. Singapore generally exempts individuals' foreign income, including remittances, with exceptions. [Hong Kong salaries guidance](https://www.ird.gov.hk/eng/pdf/dipn10.pdf), [Singapore foreign income guidance](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/what-is-taxable-what-is-not/income-received-from-overseas) |
+| Remittance basis | Domestic income is covered; specified foreign income becomes taxable when brought into or used in the country. | Certain residents of Malta and Ireland. Thailand also has an important foreign-income remittance rule. Eligibility, capital gains, and what constitutes a remittance differ. [Malta guidance](https://mtca.gov.mt/docs/default-source/documents/mtca-guidelines-on-the-remittance-under-the-income-tax.pdf), [Irish Revenue](https://www.revenue.ie/en/jobs-and-pensions/tax-residence/domicile-domicile-levy.aspx), [Thailand's 2024 return guide](https://www.rd.go.th/fileadmin/download/english_form/2024/GUIDE_91_67_Complete.pdf) |
+| No general personal income tax | The country does not impose a general income tax on individuals. Other taxes can still apply. | UAE: no general personal income tax, but an individual's qualifying business activities can fall under corporate tax. This differs from taxing domestic income while exempting foreign income. [UAE government](https://u.ae/en/information-and-services/finance-and-investment/taxation), [Federal Tax Authority: natural persons](https://tax.gov.ae/en/content/taxation.of.natural.persons.under.the.corporate.tax.law.aspx) |
+
+Worldwide taxation does not necessarily mean paying two full taxes. Treaties and domestic relief can exempt foreign income or credit foreign tax. Exempt income may sometimes affect the rate applied to other income. A filing or reporting requirement also does not establish that additional tax is payable. [OECD Model Convention, Articles 23A–23B](https://legalinstruments.oecd.org/public/doc/471/12f5c630-3029-41a7-9f20-84b8cd2d822a.htm), [IRS foreign tax credit](https://www.irs.gov/individuals/international-taxpayers/foreign-tax-credit).
+
+Tax residence is a legal classification. It can depend on a home, family and economic ties, presence, or nationality. A universal “183 days” rule does not exist. Two countries can initially treat the same person as resident; a treaty may resolve that conflict. [OECD Model Convention, Article 4](https://legalinstruments.oecd.org/public/doc/471/12f5c630-3029-41a7-9f20-84b8cd2d822a.htm).
+
+The location of a bank account or employer does not, by itself, establish the source of income. For example, payment by a foreign employer can still be taxable for work performed in Hong Kong. [Hong Kong Inland Revenue Department](https://www.ird.gov.hk/eng/tax/ere_inc_out.htm).
+
+## Other rules that need their own classification
+
+| Rule | What it changes | Example |
+| --- | --- | --- |
+| Temporary foreign-income exemption | A qualifying resident receives relief for a limited period before ordinary worldwide rules apply. | UK four-year foreign income and gains regime; New Zealand transitional residence. |
+| Fixed substitute tax on foreign income | A qualifying resident pays a fixed annual amount for covered foreign income. Domestic income remains subject to separate rules. | Italy's new-resident regime. |
+| Expenditure-based assessment | Tax is calculated from a spending-based assessment, with statutory minimums and checks. | Switzerland's expenditure taxation for qualifying foreigners. It is not simply a fixed annual fee. |
+| Continued residence after departure | A nationality-linked presumption or rule can extend tax residence beyond the move. | Finland's three-year rule. It can be displaced when the required lack of substantial ties is established. |
+| Nationality inside the residence definition | Citizenship can itself establish domestic-law tax residence, subject to exceptions and treaties. | Hungary. This is a reason to avoid claiming that only two countries ever use nationality in income taxation. |
+| Exit or expatriation tax | A departure or change of status can trigger a tax on specified gains or other amounts. | U.S. expatriation rules for covered expatriates. This is separate from annual citizenship taxation. |
+
+Sources and eligibility details for these arrangements appear in the country sections below.
+
+There is also a separate distinction concerning **how income is grouped and rated**:
+
+- A comprehensive or “global” tax aggregates income categories. Here, “global” describes aggregation, not geographical worldwide coverage.
+- A schedular tax treats categories such as wages, rents, and business profits separately.
+- A dual income tax generally separates capital income from labor income, often combining a proportional capital rate with progressive labor rates.
+- Progressive rates, a flat percentage, and a fixed annual payment describe different rate structures. None determines whether foreign income is included.
+
+Most systems combine elements of these designs. [IMF, *Tax Law Design and Drafting*, chapter 14](https://www.elibrary.imf.org/display/book/9781557756336/CH014.xml). Finland introduced its dual income system in 1993. [OECD Economic Survey of Finland, 2018](https://www.oecd.org/en/publications/oecd-economic-surveys-finland-2018_eco_surveys-fin-2018-en/full-report/component-6.html).
+
+## Britain: early residence taxation included foreign income, with remittance limits
+
+Britain introduced its modern income tax in **1799** to finance war against France. It included foreign income, but foreign property income was generally taxed when remitted. The early tax therefore should not be described as identical to today's taxation of all foreign income as it arises. The **1803** system's Schedule D covered residents' property wherever situated and nonresidents' domestic income, while retaining remittance limitations. [UK Parliament: origins](https://www.parliament.uk/about/living-heritage/transformingsociety/private-lives/taxation/overview/incometax/), [House of Commons Library, *Taxation of non-domiciles*, historical section, p. 8](https://researchbriefings.files.parliament.uk/documents/SN04604/SN04604.pdf).
+
+Section 5 of the **Finance Act 1914** extended taxation of specified foreign securities, shares, and rents to the full income, regardless of remittance. It preserved exceptions for people not domiciled in the UK and for British subjects not ordinarily resident. This was an important extension, not the first British recognition of foreign income. [Original Finance Act 1914, section 5](https://www.legislation.gov.uk/ukpga/Geo5/4-5/10/pdfs/ukpga_19140010_en.pdf).
+
+The July 22, 1914 debate explicitly addressed wealthy residents retaining and reinvesting income abroad to escape tax, and the resulting burden on others. Members also raised double taxation and collection difficulties. Those are documented reasons and objections, rather than motives inferred from the law alone. [Commons debate on clause 5](https://api.parliament.uk/historic-hansard/commons/1914/jul/22/clause-5-taxation-of-income-in-respect-of).
+
+**2026 position:** the UK replaced its former remittance regime on **April 6, 2025** with a four-year foreign income and gains regime for qualifying new residents following ten consecutive tax years of nonresidence. Claims and eligible income have specific conditions. [HMRC current guidance](https://www.gov.uk/guidance/check-if-you-can-claim-the-4-year-foreign-income-and-gains-regime).
+
+## Prussia: a historical citizenship rule, later restricted
+
+An official government explanation published on **November 14, 1890** says that Prussia's existing classified income tax applied to Prussian nationals living abroad without a time limit. It refers to the **1851 law as amended in 1873**. The lower-income class tax, by contrast, ended when the inhabitant permanently left the state.
+
+The proposed unified income tax would generally release nationals without a domestic home after more than two years permanently abroad. The explanation says that citizens abroad might receive little corresponding benefit, normally paid foreign taxes, and were difficult to assess or pursue. It also retained a delay to discourage abusive departures. The document supplies an unusually direct record of arguments for restricting citizenship taxation. [*Deutscher Reichsanzeiger*, November 14, 1890, p. 6, section on personal tax liability](https://digi.bib.uni-mannheim.de/reichsanzeiger/ocr/film/tesseract-4.0.0-20181201/103-8022/0156.hocr).
+
+**Evidence boundary:** this confirms the government's description of the earlier rule. The original 1851 statute and the final 1891 provisions still need comparison before assigning the first date and full foreign-income scope to a particular section. It does establish that nationality-based taxation abroad was not historically exclusive to the United States.
+
+## United States: distinguish 1861 from the worldwide extension in 1864
+
+The original statutes show a distinction often lost in short historical accounts:
+
+| Date | Rule in the original statute |
+| --- | --- |
+| August 5, **1861**, section 49 | Residents were charged on broad income, including income from elsewhere. Citizens abroad were charged on income from specified property, securities, and stocks **owned in the United States**. [Original 1861 act](https://fraser.stlouisfed.org/title/revenue-act-1861-1117/fulltext) |
+| July 1, **1862**, section 90 | The statute again distinguished residents' broad income from citizens abroad receiving income from U.S.-located property. [Original 1862 act](https://fraser.stlouisfed.org/title/revenue-act-1862-6137/fulltext) |
+| June 30, **1864**, section 116 | The charge explicitly covered residents and citizens abroad, with income from property, employment, and other sources in the United States **or elsewhere**. This is the verified worldwide extension for citizens abroad. [13 Stat. 281, section 116](https://www.govinfo.gov/content/pkg/STATUTE-13/pdf/STATUTE-13-Pg223.pdf) |
+
+The federal income tax began as Civil War financing. The wartime tax expired in 1872; permanent federal income taxation followed the Sixteenth Amendment and legislation in 1913. [National Archives: Sixteenth Amendment](https://www.archives.gov/milestone-documents/16th-amendment).
+
+In **Cook v. Tait, decided May 5, 1924**, the Supreme Court upheld taxation of a U.S. citizen resident in Mexico on income from Mexican property. Its stated justification was that citizenship carried continuing governmental benefits and protection, even when citizen and property were abroad. This is a judicial justification articulated decades after the Civil War legislation; it does not establish the legislators' exact motive in 1864. [Original judgment, 265 U.S. 47](https://tile.loc.gov/storage-services/service/ll/usrep/usrep265/usrep265047/usrep265047.pdf).
+
+**2026 position:** citizens and resident aliens generally fall within worldwide taxation. Citizenship does not require holding a current passport. Noncitizens can qualify through residence tests. Foreign tax credits and the foreign earned income exclusion can reduce liability, subject to separate conditions; the earned income exclusion is not a blanket exemption for all foreign income. [IRS Publication 54](https://www.irs.gov/publications/p54), [IRS Publication 519](https://www.irs.gov/publications/p519), [foreign earned income exclusion](https://www.irs.gov/individuals/international-taxpayers/foreign-earned-income-exclusion).
+
+FATCA supplies account-reporting and enforcement rules; it did not create the underlying citizenship tax. [IRS explanation](https://www.irs.gov/businesses/corporations/foreign-account-tax-compliance-act-fatca). Expatriation rules can also affect specified former citizens and long-term residents; merely moving abroad does not make every citizen subject to an exit tax. [IRS expatriation tax](https://www.irs.gov/individuals/international-taxpayers/expatriation-tax).
+
+**Unestablished origin story:** the primary material reviewed establishes war financing, statutory expansion, and the later citizenship-benefit judgment. It does not establish that the worldwide rule was specifically created to punish draft evaders. That claim requires its own contemporary evidence.
+
+## Continental Europe: national developments, not one EU starting date
+
+Germany, France, and Spain did not acquire income taxation through a common EU rule. Their general income taxes developed at different dates. The date of an income tax's creation must also be distinguished from the date it first covered foreign income.
+
+- **Germany:** the Finance Ministry records early taxation in East Prussia in 1811–1813, the Prussian reform of 1891, and the Reich income tax of 1920 replacing state systems. These are landmarks in general income taxation, not proof that worldwide residence taxation first began in 1891. [German Finance Ministry history](https://www.bundesfinanzministerium.de/Content/DE/Glossareintraege/E/einkommensteuer.html?view=renderHelp).
+- **France:** the general income tax was enacted on **July 15, 1914** and first implemented in 1916 for 1915 income. Its legislative creation must be kept separate from later amendments and treaty relief. [French Ministry of Finance archival account](https://www.economie.gouv.fr/saef/document-du-mois/rien-declarer).
+- **Spain:** the December 20, **1932** law introduced a general income contribution for 1933. A 1933 official explanation described its total-income character without distinction by territory of origin. Thus **1978 is not a defensible first date for all Spanish taxation of worldwide personal income**. The 1978 IRPF statute expressly covered income regardless of where produced or the payer's residence. [1933 official explanation](https://www.boe.es/gazeta/dias/1933/12/08/pdfs/GMD-1933-342.pdf), [1978 law, Articles 4 and 7](https://www.boe.es/buscar/doc.php?id=BOE-A-1978-23326).
+
+The earliest foreign-income clauses and legislative reasons for each continental country remain a separate archival task. These general-tax dates should not substitute for that investigation.
+
+## Hong Kong: territorial taxation through separately collectible taxes
+
+On **March 14, 1940**, the Legislative Council debated the War Revenue Bill. The Financial Secretary sought war revenue from those better able to pay while proposing separate taxes on property, salaries, business profits, and corporate profits. The debate addressed resistance to intrusive examination of private affairs, difficulty identifying and assessing nonresidents, double taxation, and the possibility of capital leaving Hong Kong. A source-limited, category-based structure addressed these practical problems. [Original Legislative Council proceedings, especially pp. 23–27](https://www.legco.gov.hk/1940/h400314.pdf).
+
+This historical record supports several reasons for territorial taxation at once: collection and administration, limits on intrusive inquiries, cross-border tax overlap, and retention of capital. It does not support reducing the choice to a single modern slogan. The Inland Revenue Department began operating on **April 1, 1947**; the postwar Inland Revenue Ordinance was enacted on **May 3, 1947**. [IRD institutional history](https://www.ird.gov.hk/dar/2007-08/eng/chapter12/content.htm).
+
+A **2001** government tax-base review considered worldwide taxation. It observed that credits for higher foreign taxes could leave little additional Hong Kong revenue while requiring substantially more administration. That is a dated policy assessment, not a universal prediction for every country. [Tax-base review, Table VIII](https://www.fstb.gov.hk/en/treasury/general/docs/btreport_annex_condoc.pdf).
+
+**2026 position:** personal salaries taxation remains source-based, with detailed employment and service rules. Present corporate foreign-income provisions must not be applied indiscriminately to individuals. [IRD salaries guidance](https://www.ird.gov.hk/eng/pdf/dipn10.pdf).
+
+## Singapore: a later exemption intended to bring foreign funds home
+
+Singapore's Income Tax Ordinance dates to **1947**, with assessment beginning in **1948**. Today's treatment of individuals' foreign income is a later development. [IRAS institutional history](https://www.iras.gov.sg/who-we-are/our-organisation/history-and-milestones).
+
+Foreign-sourced income received by resident individuals became generally exempt from **January 1, 2004**, except income received through Singapore partnerships. The finance minister's **November 17, 2004** explanation explicitly said the change would facilitate remitting offshore funds for investment and management in Singapore. Related domestic investment exemptions aimed to avoid favoring foreign instruments over Singapore instruments and simplify treatment. [Contemporary legislative explanation, paragraphs 9–10](https://www.mof.gov.sg/news-resources/newsroom/second-reading-speech-by-raymond-lim-acting-second-minister-for-finance-on-the-income-tax-amendment-bill-2004-at-the-parliament-17-nov-04/).
+
+**2026 position:** individuals' overseas income is generally exempt even when received in Singapore. Exceptions include partnerships and certain income connected with Singapore employment or business. Payment from abroad for work in Singapore does not automatically receive the exemption. [Current IRAS guidance](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/what-is-taxable-what-is-not/income-received-from-overseas).
+
+## Remittance systems that still matter
+
+- **Malta:** residents who are ordinarily resident and domiciled generally face worldwide taxation. Certain other residents use the remittance basis. Foreign capital gains can be outside the charge even when remitted, while foreign income remitted can be taxable. Residence-status exceptions and minimum-tax rules prevent a blanket description covering all foreigners. [MTCA remittance guidance](https://mtca.gov.mt/docs/default-source/documents/mtca-guidelines-on-the-remittance-under-the-income-tax.pdf).
+- **Ireland:** domicile remains relevant to foreign-income treatment. A qualifying resident who is not Irish-domiciled can be taxed on specified foreign income by reference to remittances. Domicile and citizenship are different legal concepts. [Irish Revenue](https://www.revenue.ie/en/jobs-and-pensions/tax-residence/domicile-domicile-levy.aspx).
+- **Thailand:** official return instructions cover foreign income earned from **January 1, 2024** when the person was Thai-resident, and brought into Thailand in that year or a later year. The residence threshold is at least 180 days in the tax year. This differs from both complete territorial exemption and taxation of all foreign income without regard to remittance. [Revenue Department's 2024 return guide](https://www.rd.go.th/fileadmin/download/english_form/2024/GUIDE_91_67_Complete.pdf).
+
+The original introduction and stated legislative reasons for the Maltese, Irish, and Thai arrangements have not yet been established in this dossier. Britain's historical remittance rules cannot by themselves prove another country's legislative motive.
+
+## Citizenship and nationality outside the United States
+
+**Eritrea:** official and commissioned records describe a diaspora recovery and rehabilitation tax with roots in **1991**, codified through **Proclamation 67/1995**. The reproduced proclamation imposes 2% on specified net income earned abroad. Eritrean official explanations link contributions to rebuilding and diaspora participation. These stated purposes should be distinguished from evidence concerning collection through consular services and coercion. [Proclamation reproduced in a Dutch government-commissioned report](https://zoek.officielebekendmakingen.nl/blg-820215.pdf), [UK Home Office country report, December 2025, section 18.2](https://www.gov.uk/government/publications/eritrea-country-policy-and-information-notes/country-policy-and-information-note-national-service-and-illegal-exit-eritrea-december-2025-accessible). This is not an identical copy of U.S. tax rates, exclusions, or administration.
+
+**Hungary:** section 3(2)(a) of the personal income tax statute treats Hungarian citizens as domestic residents, with an exception for dual citizens lacking the specified Hungarian registered home or place of stay. Treaties can change the result. Hungary's tax authority illustrates a citizen becoming treaty-resident abroad after moving and giving up the Hungarian home. [Current consolidated statute](https://net.jogtar.hu/jogszabaly?docid=99500117.tv), [NAV explanation of a residence change](https://nav.gov.hu/ado/szja/illetosegvaltas-az-adoeven-belul). The provision's original rationale remains to be researched.
+
+**Finland:** Finnish citizens are generally presumed resident for the year of departure and the following three years, unless they establish that substantial ties have ended under the applicable rules. This is a limited continuing-residence rule, not lifelong taxation of every Finnish citizen abroad. [Finnish Tax Administration](https://www.vero.fi/en/individuals/tax-cards-and-tax-returns/moving_away_from_finland/finnish_citizens_and_the_3year_rul/).
+
+**Myanmar:** official 2023–2024 material records the restoration of tax on nonresident citizens' foreign-currency salaries from **October 1, 2023**. That is sufficient to disprove historical claims that citizenship-linked overseas income taxation has existed only in two countries. The exact rules still in force in 2026 require a separate check before using Myanmar as a current worked example. [IRD annual report](https://www.ird.gov.mm/storage/annual-reports/67356d9f24a2c-Annual_Report%282024%29%281%29.pdf), [government newspaper, December 13, 2023](https://www.moi.gov.mm/nlm/sites/default/files/newspaper-pdf/2023-12/13_Dec_23_gnlm.pdf).
+
+## Preferential residence arrangements: attracting people and spending
+
+**Switzerland:** an expenditure-tax arrangement existed in **Vaud in 1862**; later milestones include Geneva in 1928 and federal provisions in 1934. A study hosted by the Federal Tax Administration links the early arrangements with attracting foreign residents and tourism. The study distinguishes the author's economic analysis from official government policy. [Historical study, p. 4](https://www.estv2.admin.ch/stp/berichte/stp-berichte-2010-besteuerung-nach-aufwand-aus-oekonomischer-sicht-de.pdf).
+
+Today, qualifying foreign nationals who do not work in Switzerland can be assessed by reference to expenditure, subject to minimum and comparative calculations. Eligibility includes first residence or return after ten years abroad. Ordinary rates apply to the assessed base. Cantonal availability differs. [Federal Department of Finance](https://www.efd.admin.ch/en/lump-sum-taxation).
+
+**Italy:** the 2017 budget legislation introduced a fixed substitute tax on covered foreign income for qualifying new residents, generally requiring nine of the preceding ten tax years abroad and allowing participation for up to fifteen years. An official 2018 guide presented the arrangements as attracting investment, consumption, and economic resources. Historical amounts should not be quoted as current 2026 amounts. [Italian Revenue Agency guide, introduction and chapter 5](https://ambberlino.esteri.it/wp-content/uploads/2024/03/All.-BREVE-GUIDA-SUL-REGIME-FISCALE-AGEVOLATO-PER-NEO-RESIDENTI-AD-ALTO-REDDITO.-ATTIVITA-PROMOZIONALE.pdf).
+
+**New Zealand:** a temporary foreign-income exemption became available for qualifying arrivals from **April 1, 2006**, including qualifying returning residents after ten years away. It lasts approximately four years and covers much foreign investment income, but not overseas employment or personal-service income. [IRD eligibility and scope](https://www.ird.govt.nz/tte), [contemporary legislative bulletin](https://www.taxtechnical.ird.govt.nz/-/media/project/ir/tt/pdfs/tib/volume-18---2006/tib-vol18-no5.pdf?modified=20200329213954).
+
+These arrangements are exceptions within residence systems. A newcomer exemption does not make the entire country territorial.
+
+## No general personal income tax: a different revenue choice
+
+The UAE currently does not impose a general personal income tax. Its natural-person corporate-tax rules separately exclude wages and qualifying personal investment and real estate investment income from business taxation. [UAE government](https://u.ae/en/information-and-services/finance-and-investment/taxation), [FTA natural-person tax guide](https://tax.gov.ae/Datafolder/Files/Guides/CT/Taxation%20of%20natural%20persons%20-%2025%2011%202023.pdf).
+
+The reason for foregoing a general income tax has to be investigated through each country's revenue structure and political history. Resource revenue, consumption taxes, duties, and fees can substitute for it in different proportions; absence of personal income tax does not establish absence of taxation.
+
+**Oman provides a documented change:** Royal Decree **56/2025** enacted a personal income tax scheduled to take effect at the **beginning of 2028**. The Tax Authority states the purposes as diversifying revenue, reducing dependence on oil, redistributing wealth, and funding social protection. Enactment and commencement are different: this tax is not already operating in 2026. [Oman Tax Authority announcement](https://tms.taxoman.gov.om/portal/en/web/taxportal/w/issuance-of-personal-income-tax-pit-law).
+
+## Why countries had to coordinate
+
+Residence and source taxation can overlap: one country taxes the resident's overall income while another taxes income arising within its territory. The **League of Nations' 1923 report** treated this as a problem of dividing taxing claims according to economic allegiance. It examined ability to pay, benefits, and connections to the place where wealth originates and the place where it is enjoyed. The report developed coordination principles; it did not invent all the underlying national taxes. [Original report by Bruins, Einaudi, Seligman, and Stamp](https://www.luigieinaudi.it/pubblicazione/report-on-double-taxation-submitted-to-the-financial-committee/).
+
+League model conventions followed in **1928**, with later Mexico and London models in **1943** and **1946**. The OECD's draft model appeared in **1963** and its Model Convention in **1977**. These are milestones in treaty coordination, not a single date when European worldwide taxation began. [OECD Model Convention, historical introduction](https://www.oecd.org/content/dam/oecd/en/publications/reports/2000/10/model-tax-convention-on-income-and-on-capital-2000-full-version_g1ghgca4/9789264189409-en.pdf).
+
+## Documented reasons, with their limits
+
+| Reason | Direct evidence in this research | What the evidence establishes |
+| --- | --- | --- |
+| Fund war and expand revenue | Britain 1799; U.S. Civil War tax; Hong Kong 1940. | A reason to introduce or expand income taxation. It does not, alone, explain every geographical boundary. |
+| Prevent residents avoiding tax by keeping income abroad | British 1914 debate. | An explicit argument for extending taxation beyond remitted foreign income. |
+| Treat ability to pay across income sources | League 1923 report. | A stated principle for evaluating personal taxation and dividing international claims. |
+| Citizenship carries continuing benefits | U.S. Supreme Court, 1924. | A judicial defense of citizenship taxation; not direct evidence of the 1864 legislature's intentions. |
+| Collection limits and foreign tax overlap | Prussian 1890 explanation; Hong Kong 1940 debate and 2001 review. | Reasons to limit overseas taxation or retain a territorial structure. |
+| Attract remitted funds, residents, investment, or spending | Singapore 2004 explanation; Swiss historical study; Italian 2018 official guide. | Specific stated objectives. Whether the policies achieved them requires outcome evidence. |
+| Diversify away from resource revenue and support social protection | Oman 2025 announcement. | Official purposes for an enacted tax scheduled to begin in 2028. |
+
+## Research todo
+
+- [ ] Establish the earliest foreign-income provisions and contemporary reasons separately for Germany/Prussia, France, Spain, Malta, Ireland, and Thailand. Retrieve original statutes rather than equating a general income tax's start with worldwide coverage.
+- [ ] Verify Myanmar's 2026 law, Eritrea's latest implementation, Hungary's nationality provision history, and the current Italian fixed-tax amount and transition rules before constructing country calculations.
+- [ ] Complete a dated 2026 baseline for each case: taxpayer status, income types, source, remittance, exemptions, rates, credits, treaties, reporting, and departure rules. Separate enacted future rules from rules already effective.
+- [ ] **Answer what would happen if the 2026 rules changed for each case.** Define the precise alternative first; compare legal effects with separately labeled behavioral and revenue scenarios.
+
+| Case to assess | Change to examine in the later scenario research |
+| --- | --- |
+| Worldwide residence taxation | Replace worldwide coverage with source-only coverage, or change the residence test. |
+| U.S. citizenship taxation | Replace the citizenship connection with residence while specifying domestic-source and expatriation treatment. |
+| Hong Kong and Singapore | Extend the personal foreign-income charge; specify foreign tax credits and administrative changes. |
+| Malta, Ireland, and Thailand | Replace remittance treatment with taxation as income arises, or with full foreign-income exemption. |
+| Hungary, Finland, Eritrea, and Myanmar | Remove or narrow the nationality-linked rule; distinguish continuing residence from a separate diaspora levy. |
+| UK, Italy, Switzerland, and New Zealand | Remove, narrow, or extend newcomer relief, fixed foreign-income taxation, or expenditure assessment. |
+| Countries without general personal income tax | Introduce it and specify which other revenues it replaces or supplements. Use Oman's scheduled reform as a documented comparison. |
+| Comprehensive, schedular, and dual taxes | Change aggregation or capital/labor rates while holding geographical scope constant. |
+| Treaty and departure rules | Change credits, exemptions, reporting, or exit taxation independently of the main annual tax. |
+
+For every scenario, answer who starts or stops owing tax; which income changes treatment; what happens to double taxation and compliance; the immediate revenue change before behavior; and possible changes in migration, investment, remittances, and income classification. Quantified predictions require data and stated assumptions. Legislative purposes are not evidence that those outcomes occurred.
+
+Article drafting remains a later task.
