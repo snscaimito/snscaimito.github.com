@@ -172,11 +172,26 @@ Residence and source taxation can overlap: one country taxes the resident's over
 
 League model conventions followed in **1928**, with later Mexico and London models in **1943** and **1946**. The OECD's draft model appeared in **1963** and its Model Convention in **1977**. These are milestones in treaty coordination, not a single date when European worldwide taxation began. [OECD Model Convention, historical introduction](https://www.oecd.org/content/dam/oecd/en/publications/reports/2000/10/model-tax-convention-on-income-and-on-capital-2000-full-version_g1ghgca4/9789264189409-en.pdf).
 
+## Income taxes linked to war financing
+
+War financing is documented for several different arrangements. It does not identify one geographical tax regime: both residence-based taxes and territorial taxes have wartime origins, and the U.S. citizenship charge expanded during wartime legislation.
+
+| Place and date | Tax introduced or expanded | Documented war connection |
+| --- | --- | --- |
+| Britain, **1799** | Personal income tax, including residents' foreign income under remittance limitations. | Revenue for war against France. [Parliament history](https://www.parliament.uk/about/living-heritage/transformingsociety/private-lives/taxation/overview/incometax/) |
+| East Prussia, **1811–1813** | An early modern personal income tax. Its precise foreign-income reach is not established here. | The German Finance Ministry records that Stein recommended it in 1808 as a war contribution, modeled on Britain's 1799 income tax. [BMF, *Steuern von A bis Z*, 2013, income-tax history](https://www.bpb.de/system/files/dokument_pdf/BMF_Steuern%20von%20A%20bis%20Z.pdf) |
+| United States, **1861–1864** | Federal income tax; residents' broad income and, from 1864, explicit worldwide coverage of citizens abroad. | Civil War financing. The purpose of raising war revenue is established; the specific reason for extending citizens' foreign-income coverage still requires legislative evidence. [National Archives](https://www.archives.gov/milestone-documents/16th-amendment), [1864 statute, section 116](https://www.govinfo.gov/content/pkg/STATUTE-13/pdf/STATUTE-13-Pg223.pdf) |
+| Australia, **1915** | Federal income tax, originally charging income from Australian sources under section 10. | Financing participation in World War I. This original territorial scope must not be replaced with today's worldwide-residence rules in the historical account. [Treasury history](https://treasury.gov.au/publication/economic-roundup-winter-2006/a-brief-history-of-australias-tax-system), [original 1915 act, section 10](https://www.legislation.gov.au/C1915A00034/asmade/1915-09-13/text/original/pdf) |
+| Canada, **1917** | The federal Income War Tax Act. | Introduced as a temporary measure to finance World War I. The original foreign-income clauses still need comparison with later amendments before assigning their precise starting date. [Canada Revenue Agency history](https://www.canada.ca/en/revenue-agency/corporate/about-canada-revenue-agency-cra/ministerial-transition-2019/booktwo.html) |
+| Hong Kong, **1940** | Separate property, salaries, and profits taxes with limited territorial scope. | The original War Revenue Ordinance was explicitly a measure to raise additional revenue during World War II. [Legislative Council, August 29, 1940](https://www.legco.gov.hk/1940/h400829.pdf) |
+
+This is a set of documented examples, not an exhaustive inventory of all wartime tax measures. It concerns income taxation; war loans, customs duties, excises, and excess-profits taxes are additional financing instruments with their own histories. A war-related starting date does not prove that every feature still operating in 2026 was introduced to finance that war.
+
 ## Documented reasons, with their limits
 
 | Reason | Direct evidence in this research | What the evidence establishes |
 | --- | --- | --- |
-| Fund war and expand revenue | Britain 1799; U.S. Civil War tax; Hong Kong 1940. | A reason to introduce or expand income taxation. It does not, alone, explain every geographical boundary. |
+| Fund war and expand revenue | Britain 1799; East Prussia 1811–1813; U.S. Civil War tax; Australia 1915; Canada 1917; Hong Kong 1940. | A reason to introduce or expand income taxation. It does not, alone, explain every geographical boundary. |
 | Prevent residents avoiding tax by keeping income abroad | British 1914 debate. | An explicit argument for extending taxation beyond remitted foreign income. |
 | Treat ability to pay across income sources | League 1923 report. | A stated principle for evaluating personal taxation and dividing international claims. |
 | Citizenship carries continuing benefits | U.S. Supreme Court, 1924. | A judicial defense of citizenship taxation; not direct evidence of the 1864 legislature's intentions. |
