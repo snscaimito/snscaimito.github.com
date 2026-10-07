@@ -26,6 +26,9 @@ x_chapters:
 - part: 5
   x_post_id: "2107555841289162934"
   published_at: "2026-10-06T19:37:24Z"
+- part: 6
+  x_post_id: "2107884635602477415"
+  published_at: "2026-10-07T17:23:54Z"
 tags:
 - de
 categories:
