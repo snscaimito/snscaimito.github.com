@@ -10,6 +10,14 @@ future: false
 show_drafts: false
 unpublished: false
 
+collections:
+  topics:
+    output: true
+    permalink: /topics/:name/
+
+plugins:
+  - jekyll-redirect-from
+
 exclude:
   - .bundle
   - .x-publisher

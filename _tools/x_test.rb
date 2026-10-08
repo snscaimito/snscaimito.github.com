@@ -156,6 +156,23 @@ class XPublisherTest < Minitest::Test
     end
   end
 
+  def test_topic_sourced_chapter_preserves_narrative_and_publication_source
+    card = installment_card.merge(
+      "series" => "Company Law in Europe", "part" => 11,
+      "footer" => "Company Law in Europe — a serialized story.",
+      "source" => { "file" => "_topics/company-law-in-europe.markdown", "section" => 11 }
+    )
+    expected = source_section_text(card)
+
+    publish_locally(card) do |requests, ledger, saved, _, _|
+      assert_equal "#{expected}\n\n#{card.fetch('footer')}", requests.first.last.fetch("text")
+      assert_equal "topic", ledger.first.fetch("text_source")
+      assert_equal expected, ledger.first.fetch("narrative_text")
+      assert_equal card.fetch("source"), saved.fetch("source")
+      refute_includes expected, "<figure"
+    end
+  end
+
   def test_preview_and_dry_run_show_only_the_installment_without_reading_x_state
     card = installment_card.merge("text" => "A complete scene.", "series_end" => true)
     unexpected = ->(*) { flunk "Preview must not read account state or contact X" }

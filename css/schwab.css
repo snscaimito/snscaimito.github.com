@@ -1075,7 +1075,7 @@ BUTTON.print-button:active {
 /* ---- Home: hero + bodies of work ---- */
 
 .home-story-promo-strip {
-	margin: 0 0 1.5rem;
+	margin: 0;
 	padding: 0 clamp(1rem, 4vw, 4rem);
 	overflow: hidden;
 }
@@ -1143,39 +1143,52 @@ BUTTON.print-button:active {
 	}
 }
 
-.home-intro {
-	margin: 0 0 1.35rem;
-	padding: 0 clamp(1rem, 4vw, 4rem);
-	text-align: center;
+.home-band {
+	--home-band-gap: clamp(2rem, 4vw, 3.5rem);
+	--home-band-heading-gap: 1.5rem;
+	margin: 0;
+	padding-block: var(--home-band-gap);
 }
 
-.home-intro-line {
+.home-books {
+	padding-top: 0;
+}
+
+.home-band-title {
+	padding: 0;
+	text-align: center;
+	box-sizing: border-box;
 	font-family: Charter, "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
 	font-size: clamp(1.4rem, 2.15vw, 2rem);
+	font-weight: 700;
 	line-height: 1.22;
-	margin: 0 auto;
-	max-width: 30ch;
+	margin: 0 auto var(--home-band-heading-gap);
+	max-width: min(30ch, calc(100% - 2rem));
 	color: #16213e;
 }
 
 .home-about {
-	margin: 0 auto 1.5rem;
-	padding: 0 clamp(1rem, 4vw, 4rem);
-	max-width: 62rem;
+	padding-inline: clamp(1rem, 4vw, 4rem);
+}
+
+.home-about .home-band-title {
+	padding-inline: 0;
 }
 
 .home-about-layout {
-	display: grid;
-	grid-template-columns: minmax(0, 1.8fr) minmax(260px, 0.9fr);
+	display: flex;
+	flex-wrap: wrap;
 	gap: clamp(1.5rem, 3vw, 3rem);
 	align-items: center;
 }
 
 .home-about-main {
+	flex: 2 1 30rem;
 	min-width: 0;
 }
 
 .home-about-side {
+	flex: 1 1 16rem;
 	min-width: 0;
 	display: flex;
 	flex-direction: column;
@@ -1244,6 +1257,129 @@ BUTTON.print-button:active {
 	content: "";
 	display: block;
 	clear: both;
+}
+
+.home-topics {
+	padding-inline: clamp(1rem, 4vw, 4rem);
+	background: #fafafa;
+}
+
+.home-topics-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1.5rem;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.home-topic {
+	flex: 1 1 30rem;
+	min-width: 0;
+}
+
+.home-topic-link {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: clamp(1rem, 3vw, 3rem);
+	color: #16213e;
+	text-decoration: none;
+}
+
+.home-topic-image {
+	flex: 1 1 18rem;
+	width: 0;
+	min-width: min(100%, 18rem);
+	aspect-ratio: 16 / 9;
+	object-fit: cover;
+	border-radius: 12px;
+}
+
+.home-topic-body {
+	flex: 2 1 22rem;
+	min-width: 0;
+}
+
+.home-topic-title {
+	margin: 0 0 0.75rem;
+	font-family: Charter, "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+	font-size: clamp(1.4rem, 2.15vw, 2rem);
+	line-height: 1.22;
+}
+
+.home-topic-description {
+	font-family: Charter, "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+	font-size: 1.1rem;
+	line-height: 1.6;
+	color: #333;
+}
+
+.home-topic-meta {
+	margin: 0;
+	font-size: 0.9rem;
+	color: #666;
+}
+
+.home-topic-link:hover,
+.home-topic-link:focus-visible {
+	color: #16213e;
+	text-decoration: none;
+}
+
+.home-topic-link:hover .home-topic-title,
+.home-topic-link:focus-visible .home-topic-title {
+	text-decoration: underline;
+}
+
+.topic-page {
+	padding: clamp(1rem, 4vw, 4rem);
+}
+
+.topic {
+	max-width: 76rem;
+	margin-inline: auto;
+}
+
+.topic p {
+	text-align: left;
+}
+
+.topic .topic-introduction {
+	font-size: 1.15rem;
+}
+
+.topic-contents {
+	margin-block: 2rem;
+	padding: 1.5rem;
+	background: #fafafa;
+	border: 1px solid #e5e5e5;
+	border-radius: 12px;
+}
+
+.topic-contents h2 {
+	margin-top: 0;
+}
+
+.topic-chapters {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.75rem 2rem;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.topic-chapter {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	gap: 0.5rem 1rem;
+	flex: 1 1 16rem;
+}
+
+.topic-chapter-x {
+	font-size: 0.85rem;
 }
 
 .bodies-of-work {
@@ -1328,8 +1464,14 @@ BUTTON.print-button:active {
 
 @media screen and (max-width: 860px) {
 	.home-about-layout {
-		grid-template-columns: 1fr;
+		flex-direction: column;
+		align-items: stretch;
 		gap: 1.5rem;
+	}
+
+	.home-about-main,
+	.home-about-side {
+		flex-basis: auto;
 	}
 
 	.home-about-side p {
@@ -1355,8 +1497,12 @@ BUTTON.print-button:active {
 /* ---- Home: latest writing strip ---- */
 
 .home-latest {
-	margin: 0 0 2.5rem;
-	padding: 0 clamp(1rem, 4vw, 4rem);
+	padding-inline: clamp(1rem, 4vw, 4rem);
+}
+
+.home-latest .home-band-title,
+.home-explore .home-band-title {
+	padding-inline: 0;
 }
 
 .home-latest .section {
@@ -1365,26 +1511,22 @@ BUTTON.print-button:active {
 
 /* Bold thumbnail cards for stories that have images */
 .home-stories {
-	margin-bottom: 2.75rem;
-	padding: 0 0 1.75rem;
+	margin: 0;
 }
 
 .home-stories .section {
 	color: #AB1413;
 }
 
-/* Single-row strip: flexbox. Cards wrap, but only the first row is shown, so
-   the viewport decides how many WHOLE cards fit. Items on the first row grow to
-   fill the width edge-to-edge, so there is never a clipped/partial card. */
+/* Cards wrap below the visible first row; the viewport decides how many fit. */
 .stories-row {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	gap: clamp(1rem, 2vw, 1.75rem);
 	margin: 0;
-	/* Clip to exactly one card row (245px card + top padding). Any wrapped cards
-	   sit below this and are hidden, so only whole cards on row one show. */
-	height: 253px;
+	/* Leave room for wrapped titles and dates before hiding subsequent rows. */
+	height: 288px;
 	padding: 4px 4px 4px;
 	overflow: hidden;
 }
@@ -1497,8 +1639,7 @@ BUTTON.print-button:active {
 /* ---- Home: explore (replaces the old sidebar) ---- */
 
 .home-explore {
-	margin: 3rem 0 0;
-	padding: 2.5rem clamp(1rem, 4vw, 4rem) 0;
+	padding-inline: clamp(1rem, 4vw, 4rem);
 	border-top: 1px solid #e5e5e5;
 	background: #fafafa;
 }

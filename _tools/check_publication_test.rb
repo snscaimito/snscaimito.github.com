@@ -124,4 +124,42 @@ class PublicationCheckTest < Minitest::Test
     assert_empty check("_site")
     assert check("missing").any? { |error| error.start_with?("Missing publication artifact:") }
   end
+
+  def topic(name, metadata, content = "")
+    @config["collections"] = { "topics" => { "output" => true, "permalink" => "/topics/:name/" } }
+    write("_config.yml", @config.to_yaml)
+    write("_topics/#{name}.markdown", "#{metadata.to_yaml}---\n#{content}")
+  end
+
+  def test_unpublished_topic_images_and_links_are_protected
+    topic("unfinished", { "published" => false }, '<img src="/img/leaking/topic.png">')
+    write("index.html", "---\n---\n<a href=\"/topics/unfinished/\">Topic</a>")
+    write("_site/topics/unfinished/index.html", "Unfinished topic")
+
+    errors = check("_site")
+    assert_includes errors, "Exclude unpublished illustration: /img/leaking/topic.png"
+    assert_includes errors, "index.html links to unpublished post: /topics/unfinished/"
+    assert_includes errors, "Unfinished or internal file in publication artifact: topics/unfinished/index.html"
+  end
+
+  def test_published_topic_can_share_an_unpublished_posts_image
+    image = '<img src="/img/shared/scene.png">'
+    post("unfinished", { "published" => false }, image)
+    topic("finished", { "layout" => "topic" }, image)
+
+    assert_empty check
+  end
+
+  def test_published_topic_cannot_reference_excluded_images
+    topic("finished", { "layout" => "topic" }, '<img src="/img/unfinished/scene.png">')
+
+    assert_includes check, "Published content references excluded illustration: /img/unfinished/scene.png"
+  end
+
+  def test_unpublished_topic_redirects_do_not_publish
+    topic("unfinished", { "published" => false, "redirect_from" => ["/old-topic.html"] })
+    write("_site/old-topic.html", "Redirect")
+
+    assert_includes check("_site"), "Unfinished or internal file in publication artifact: old-topic.html"
+  end
 end

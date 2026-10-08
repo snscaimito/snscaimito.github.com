@@ -234,7 +234,10 @@ end
 def publication_text_source(card)
   return "queue" if card["text"].is_a?(String) && !card["text"].strip.empty?
 
-  card.dig("source", "file").to_s.start_with?("_posts/") ? "blog" : "source_file"
+  file = card.dig("source", "file").to_s
+  return "topic" if file.start_with?("_topics/")
+
+  file.start_with?("_posts/") ? "blog" : "source_file"
 end
 
 def publication_narrative(card)

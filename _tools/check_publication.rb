@@ -30,7 +30,10 @@ class PublicationCheck
     private_images = Set.new
     public_images = Set.new
     public_sources = []
-    Dir.glob(File.join(@root, "_posts", "**", "*")).each do |path|
+    collections = @config.fetch("collections", {}).select { |_, options| options.is_a?(Hash) && options["output"] }
+    documents = Dir.glob(File.join(@root, "_posts", "**", "*"))
+    collections.each_key { |name| documents.concat(Dir.glob(File.join(@root, "_#{name}", "**", "*"))) }
+    documents.each do |path|
       next unless File.file?(path)
       next unless %w[.markdown .md .html .textile].include?(File.extname(path))
 
@@ -41,13 +44,24 @@ class PublicationCheck
       relative = Pathname.new(path).relative_path_from(Pathname.new(@root)).to_s
       problems << "#{relative}: replace draft: true with published: false" if metadata["draft"] == true
       filename = File.basename(path)
-      date = Date.parse((metadata["date"] || filename[0, 10]).to_s)
-      if metadata["published"] == false || metadata["draft"] == true || date > @today
-        slug = metadata["slug"] || filename.sub(/\A\d{4}-\d{2}-\d{2}-/, "").sub(/\.[^.]+\z/, "")
-        url = (metadata["permalink"] || @config.fetch("permalink")).gsub(":year", date.strftime("%Y"))
-          .gsub(":month", date.strftime("%m")).gsub(":day", date.strftime("%d"))
-          .gsub(":title", slug).gsub(":slug", slug)
+      post = relative.start_with?("_posts/")
+      date = post ? Date.parse((metadata["date"] || filename[0, 10]).to_s) : nil
+      if metadata["published"] == false || metadata["draft"] == true || (date && date > @today)
+        if post
+          slug = metadata["slug"] || filename.sub(/\A\d{4}-\d{2}-\d{2}-/, "").sub(/\.[^.]+\z/, "")
+          url = (metadata["permalink"] || @config.fetch("permalink")).gsub(":year", date.strftime("%Y"))
+            .gsub(":month", date.strftime("%m")).gsub(":day", date.strftime("%d"))
+            .gsub(":title", slug).gsub(":slug", slug)
+        else
+          collection = relative.split("/").first.delete_prefix("_")
+          name = File.basename(path, File.extname(path))
+          document_path = relative.delete_prefix("_#{collection}/").sub(/\.[^.]+\z/, "")
+          url = (metadata["permalink"] || collections.fetch(collection).fetch("permalink", "/:collection/:path/"))
+            .gsub(":collection", collection).gsub(":path", document_path).gsub(":name", name)
+            .gsub(":title", name).gsub(":slug", metadata.fetch("slug", name))
+        end
         hidden_urls << url
+        hidden_urls.merge(Array(metadata["redirect_from"]))
         private_images.merge(image_paths(text))
       else
         public_sources << [relative, text]
@@ -60,7 +74,7 @@ class PublicationCheck
       next unless File.file?(path)
 
       relative = Pathname.new(path).relative_path_from(Pathname.new(@root)).to_s
-      next if relative.start_with?("_posts/", "_site/") || excluded?(relative)
+      next if documents.include?(path) || relative.start_with?("_site/") || excluded?(relative)
       next unless relative == "_data/x_publications.json" ||
         (!relative.start_with?("_") && %w[.html .markdown .md .xml].include?(File.extname(path)))
 

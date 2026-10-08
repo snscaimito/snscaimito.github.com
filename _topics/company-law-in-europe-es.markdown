@@ -1,6 +1,9 @@
 ---
-layout: post
+layout: topic
 title: Derecho de sociedades en Europa
+description: Historias sobre emprender, la responsabilidad personal y la constitución de sociedades en Europa.
+redirect_from:
+- /2026/09/25/company-law-in-europe-es.html
 x_post_id: "2103513166596506067"
 x_published_at: "2026-09-25T15:53:15Z"
 image: /img/company-law-in-europe/germany-1892-family-workshop.png
@@ -9,9 +12,9 @@ language_switcher: true
 translation_en: true
 translation_de: true
 translation_es: true
-translation_en_url: /2026/09/25/company-law-in-europe.html
-translation_de_url: /2026/09/25/company-law-in-europe-de.html
-translation_es_url: /2026/09/25/company-law-in-europe-es.html
+translation_en_url: /topics/company-law-in-europe/
+translation_de_url: /topics/company-law-in-europe-de/
+translation_es_url: /topics/company-law-in-europe-es/
 x_series: Company Law in Europe
 x_chapters:
 - part: 1

@@ -1,0 +1,21 @@
+{% assign topics = site.topics | sort: 'order' %}
+{% assign english_topics = topics | where: 'lang', 'en' | where_exp: 'topic', 'topic.published != false' %}
+{% if english_topics.size > 0 %}
+<section class="home-topics home-band no-print" aria-labelledby="home-topics-title">
+	<h2 id="home-topics-title" class="home-band-title">Topics explored through connected stories.</h2>
+	<ul class="home-topics-list">
+		{% for topic in english_topics %}
+		<li class="home-topic">
+			<a class="home-topic-link" href="{{ topic.url }}">
+				<img class="home-topic-image" src="{{ topic.image }}" alt="{{ topic.image_alt | escape }}" loading="lazy" />
+				<div class="home-topic-body">
+					<h3 class="home-topic-title">{{ topic.title }}</h3>
+					<p class="home-topic-description">{{ topic.description }}</p>
+					<p class="home-topic-meta">{{ topic.x_chapters.size }} installments &middot; Read the series &rarr;</p>
+				</div>
+			</a>
+		</li>
+		{% endfor %}
+	</ul>
+</section>
+{% endif %}

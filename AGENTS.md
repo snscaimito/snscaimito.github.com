@@ -45,6 +45,14 @@ Repository-specific guidance for AI assistance in this Jekyll site.
 - Every authorized X content publication must also update its existing blog article or create one if none exists. For an ongoing series, append the newly published installment as a chapter in the same article, preserving its first-publication date, published narrative text, matching images, and X publication metadata.
 - At the time of posting to X, create or update the blog article's English, German, and Spanish editions, including the new chapter in every edition and maintaining the language switcher. Translate the blog content only; publish the X post solely in its approved original language, without translating it or creating translated X posts. Complete the blog updates and translations in the same posting task before reporting completion; queueing or previewing alone does not trigger this requirement.
 
+## Topic Pages
+
+- Topics are undated collections of connected installments, stored in `_topics/` with `layout: topic`.
+- Keep one topic page per language, with explicit language-switcher URLs under `/topics/`.
+- Preserve published narrative, images, `x_post_id`, `x_published_at`, and `x_chapters` when converting a blog series. Redirect its former dated URLs and update linked queue source paths without rewriting sent text or ledger records.
+- Append later confirmed X installments to an existing topic and all its language editions. The topic replaces the blog article for that series; do not create a duplicate dated post.
+- Use `order` for homepage ordering and `published: false` for unfinished topics. Exclude their unpublished images under the same publication rules as posts.
+
 ## Blog Posts
 
 - Blog posts live under `_posts/<year>/` and use dated filenames such as `YYYY-MM-DD-title-slug.markdown`.
