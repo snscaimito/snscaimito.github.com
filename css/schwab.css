@@ -48,7 +48,8 @@ DIV.with-sidebar {
 	padding: 0.25rem;
 }
 
-.fiction-articles {
+.fiction-articles,
+.topic-articles {
 	--fiction-border: #e5e5e5;
 	--fiction-muted: #666;
 	--fiction-gap: 1.5rem;
@@ -62,7 +63,8 @@ DIV.with-sidebar {
 	margin: 0;
 }
 
-.fiction-articles__item {
+.fiction-articles__item,
+.topic-articles__item {
 	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
@@ -72,7 +74,8 @@ DIV.with-sidebar {
 	min-width: 0;
 }
 
-.fiction-articles__story {
+.fiction-articles__story,
+.topic-articles__topic {
 	display: flex;
 	flex-direction: column;
 	flex: 1;
@@ -80,29 +83,34 @@ DIV.with-sidebar {
 	text-decoration: none;
 }
 
-.fiction-articles__story:hover {
+.fiction-articles__story:hover,
+.topic-articles__topic:hover {
 	color: #16213e;
 	text-decoration: none;
 }
 
-.fiction-articles__story:hover .fiction-articles__title {
+.fiction-articles__story:hover .fiction-articles__title,
+.topic-articles__topic:hover .topic-articles__title {
 	text-decoration: underline;
 }
 
-.fiction-articles__story:focus-visible {
+.fiction-articles__story:focus-visible,
+.topic-articles__topic:focus-visible {
 	outline: 3px solid #ab1413;
 	outline-offset: 4px;
 	border-radius: var(--fiction-radius);
 }
 
-.fiction-articles__image {
+.fiction-articles__image,
+.topic-articles__image {
 	display: block;
 	width: 100%;
 	height: auto;
 	border-radius: var(--fiction-radius) var(--fiction-radius) 0 0;
 }
 
-.fiction-articles__title {
+.fiction-articles__title,
+.topic-articles__title {
 	display: flex;
 	align-items: center;
 	min-height: 2.75rem;
@@ -114,7 +122,8 @@ DIV.with-sidebar {
 	text-underline-offset: 0.2em;
 }
 
-.fiction-articles .fiction-articles__meta {
+.fiction-articles .fiction-articles__meta,
+.topic-articles .topic-articles__meta {
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
@@ -128,7 +137,8 @@ DIV.with-sidebar {
 	font-variant-numeric: tabular-nums;
 }
 
-.fiction-articles .fiction-articles__opening {
+.fiction-articles .fiction-articles__opening,
+.topic-articles .topic-articles__description {
 	font-size: 1rem;
 	line-height: 1.5;
 	text-align: left;
@@ -137,11 +147,13 @@ DIV.with-sidebar {
 }
 
 @container (max-width: 40rem) {
-	.fiction-articles {
+	.fiction-articles,
+	.topic-articles {
 		flex-direction: column;
 	}
 
-	.fiction-articles__item {
+	.fiction-articles__item,
+	.topic-articles__item {
 		flex-basis: auto;
 	}
 }

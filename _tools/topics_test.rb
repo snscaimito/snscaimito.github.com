@@ -123,6 +123,38 @@ class TopicsTest < Minitest::Test
     end
   end
 
+  def test_topic_landing_lists_published_english_topics_and_links_from_navigation
+    landing = @site.pages.find { |page| page.path == "topics/index.html" }
+    assert_equal "/topics/", landing.url
+    html = render(landing)
+    assert_equal HOME_TOPIC_URLS, html.css(".topic-articles__topic").map { |link| link["href"] }
+    assert_equal ["11 installments", "9 installments", "5 installments"], html.css(".topic-articles__meta").map { |meta| meta.text.strip }
+    assert_equal 3, html.css(".topic-articles__image").size
+    assert_equal 3, html.css(".topic-articles__description").size
+    assert_empty html.css("time")
+    save_preview(landing.url, html.to_html)
+
+    %w[l/index.html index.html category/fiction.html].each do |path|
+      page = @site.pages.find { |candidate| candidate.path == path }
+      assert render(page).at_css('a[href="/topics/"]'), "#{path} must link to the topic landing"
+      save_preview(page.url, render(page).to_html) if path == "l/index.html"
+    end
+  end
+
+  def test_topic_landing_accepts_later_topics_and_hides_unfinished_topics
+    landing = @site.pages.find { |page| page.path == "topics/index.html" }
+    collection = @site.collections.fetch("topics")
+    [["future-topic", true], ["unfinished-topic", false]].each do |slug, published|
+      topic = Jekyll::Document.new(File.join(ROOT, "_topics", "#{slug}.markdown"), site: @site, collection: collection)
+      topic.data.merge!(collection.docs.find { |doc| doc.data["lang"] == "en" }.data)
+      topic.data.merge!("title" => slug, "order" => 4, "slug" => slug, "published" => published)
+      collection.docs << topic
+    end
+    expanded = render(landing)
+    assert_equal HOME_TOPIC_URLS + ["/topics/future-topic/"], expanded.css(".topic-articles__topic").map { |link| link["href"] }
+    refute_includes expanded.text, "unfinished-topic"
+  end
+
   def test_converted_topics_are_absent_from_fiction_and_blog_feeds
     fiction = @site.pages.find { |page| page.path == "category/fiction.html" }
     links = render(fiction).css(".fiction-articles__story").map { |link| link["href"] }

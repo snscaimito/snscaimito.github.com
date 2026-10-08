@@ -1,0 +1,26 @@
+---
+layout: special
+title: Topics
+description: What shapes how we live and why
+permalink: /topics/
+show_x_profile: false
+---
+{% assign topics = site.topics | sort: 'order' %}
+{% assign english_topics = topics | where: 'lang', 'en' | where_exp: 'topic', 'topic.published != false' %}
+<ul class="topic-articles" aria-label="Topics">
+{% for topic in english_topics %}
+    <li class="topic-articles__item">
+        <a class="topic-articles__topic" href="{{ topic.url }}">
+            {% if topic.image %}
+            <img class="topic-articles__image" src="{{ topic.image | escape }}" alt="{{ topic.image_alt | default: '' | escape }}" loading="lazy" decoding="async">
+            {% endif %}
+            <span class="topic-articles__title">{{ topic.title }}</span>
+            <p class="topic-articles__description">{{ topic.description }}</p>
+        </a>
+        {% assign installment_count = topic.x_chapters | size %}
+        {% if installment_count > 0 %}
+        <p class="topic-articles__meta">{{ installment_count }} {% if installment_count == 1 %}installment{% else %}installments{% endif %}</p>
+        {% endif %}
+    </li>
+{% endfor %}
+</ul>
