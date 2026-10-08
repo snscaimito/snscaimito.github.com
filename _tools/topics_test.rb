@@ -8,6 +8,16 @@ require "tmpdir"
 
 class TopicsTest < Minitest::Test
   ROOT = File.expand_path("..", __dir__)
+  TOPICS = {
+    "Company Law in Europe" => { "languages" => %w[de en es], "chapters" => 11, "summary_paragraphs" => 3 },
+    "Bread and Games" => { "languages" => %w[de en es], "chapters" => 9, "summary_paragraphs" => 4 },
+    "The Little Oracle" => { "languages" => %w[en], "chapters" => 5, "summary_paragraphs" => 3 }
+  }.freeze
+  HOME_TOPIC_URLS = %w[
+    /topics/who-can-afford-to-take-a-risk/
+    /topics/bread-and-games/
+    /topics/the-little-oracle/
+  ].freeze
 
   def setup
     @site = Jekyll::Site.new(Jekyll.configuration("source" => ROOT, "quiet" => true))
@@ -20,15 +30,21 @@ class TopicsTest < Minitest::Test
 
   def test_topics_preserve_translations_chapters_and_links_without_a_page_date
     topics = @site.collections.fetch("topics").docs
-    assert_equal %w[de en es], topics.map { |doc| doc.data.fetch("lang") }.sort
+    assert_equal TOPICS.keys.sort, topics.map { |doc| doc.data.fetch("x_series") }.uniq.sort
+    TOPICS.each do |series, expected|
+      assert_equal expected.fetch("languages"), topics.select { |doc| doc.data["x_series"] == series }.map { |doc| doc.data.fetch("lang") }.sort
+    end
     topics.each do |topic|
+      expected = TOPICS.fetch(topic.data.fetch("x_series"))
       html = render(topic)
-      assert_equal 11, html.css(".topic > h2").size
+      assert_equal expected.fetch("chapters"), html.css(".topic > h2").size
       assert_empty html.css(".topic-contents")
-      assert_equal 3, html.css(".topic-summary > p").size
+      assert_equal expected.fetch("summary_paragraphs"), html.css(".topic-summary > p").size
       assert_operator html.at_css(".topic-summary").line, :<, html.at_css(".topic > h2").line
-      chapter_prefix = { "en" => "chapter", "de" => "kapitel", "es" => "capítulo" }.fetch(topic.data.fetch("lang"))
-      assert_equal (1..11).map { |part| "#{chapter_prefix}-#{part}" }, html.css(".topic > h2").map { |heading| heading["id"] }
+      if topic.data["x_series"] == "Company Law in Europe"
+        chapter_prefix = { "en" => "chapter", "de" => "kapitel", "es" => "capítulo" }.fetch(topic.data.fetch("lang"))
+        assert_equal (1..11).map { |part| "#{chapter_prefix}-#{part}" }, html.css(".topic > h2").map { |heading| heading["id"] }
+      end
       html.css(".topic > h2").each do |heading|
         refute_match(/\A(?:Chapter|Kapitel|Capítulo) \d+\z/, heading.text)
       end
@@ -44,12 +60,13 @@ class TopicsTest < Minitest::Test
         assert_operator reference_index, :<, next_heading_index if next_heading_index
       end
       assert_empty html.css(".twitter-tweet, .post-x-inset")
-      assert_equal 2, html.css("a.post-language-switcher-button").size
+      assert_equal expected.fetch("languages").size - 1, html.css("a.post-language-switcher-button").size
       assert_empty html.css(".postfooter")
+      assert_empty html.css("time")
       front_matter = YAML.safe_load(File.read(topic.path).match(/\A---\s*\n(.*?)\n---/m)[1], permitted_classes: [Date, Time])
       refute front_matter.key?("date")
       refute_includes html.at_css(".topic").text, "25 Sep 2026"
-      topic.data.values_at("translation_en_url", "translation_de_url", "translation_es_url").each do |url|
+      topic.data.values_at("translation_en_url", "translation_de_url", "translation_es_url").compact.each do |url|
         assert topics.any? { |candidate| candidate.url == url }
       end
       assert_empty @site.posts.docs.select { |post| post.data["x_series"] == topic.data["x_series"] }
@@ -69,11 +86,13 @@ class TopicsTest < Minitest::Test
     end
     assert_equal 4, html.css(".home-books .home-card").size
     assert_equal 4, html.css(".home-latest .home-card").size
-    assert_equal 1, html.css(".home-topics .home-card").size
-    assert_equal "/topics/who-can-afford-to-take-a-risk/", html.at_css(".home-topics .home-card-link")["href"]
+    assert_equal 3, html.css(".home-topics .home-card").size
+    assert_equal HOME_TOPIC_URLS, html.css(".home-topics .home-card-link").map { |link| link["href"] }
     assert_equal "Who Can Afford to Take a Risk?", html.at_css(".home-topics .home-card-title").text
-    assert_includes html.at_css(".home-topics .home-card-meta").text, "11 installments"
-    refute html.css(".home-latest .home-card").any? { |card| card.text.include?("Who Can Afford to Take a Risk?") }
+    assert_equal ["11 installments", "9 installments", "5 installments"], html.css(".home-topics .home-card-meta").map { |meta| meta.text.strip }
+    assert_equal 3, html.css(".home-topics .home-card-image").size
+    assert_empty html.css(".home-topics time")
+    assert_empty HOME_TOPIC_URLS & html.css(".home-latest .home-card-link").map { |link| link["href"] }
     save_preview("/", html.to_html)
   end
 
@@ -81,20 +100,20 @@ class TopicsTest < Minitest::Test
     collection = @site.collections.fetch("topics")
     topic = Jekyll::Document.new(File.join(ROOT, "_topics", "another-topic.markdown"), site: @site, collection: collection)
     topic.data.merge!(collection.docs.find { |doc| doc.data["lang"] == "en" }.data)
-    topic.data.merge!("title" => "Another topic", "order" => 2, "slug" => "another-topic")
+    topic.data.merge!("title" => "Another topic", "order" => 4, "slug" => "another-topic")
     collection.docs << topic
 
     homepage = @site.pages.find { |page| page.name == "index.html" && page.dir == "/" }
     html = render(homepage)
-    assert_equal ["Who Can Afford to Take a Risk?", "Another topic"], html.css(".home-topics .home-card-title").map(&:text)
-    assert_equal 2, html.css(".home-topics .home-card-image").size
+    assert_equal ["Who Can Afford to Take a Risk?", "Bread and Games—But What Are We For?", "The Little Oracle", "Another topic"], html.css(".home-topics .home-card-title").map(&:text)
+    assert_equal 4, html.css(".home-topics .home-card-image").size
     assert_empty html.css(".home-topic-link")
   end
 
   def test_old_language_urls_redirect_to_their_topic
     JekyllRedirectFrom::Generator.new.generate(@site)
     @site.collections.fetch("topics").docs.each do |topic|
-      assert_equal 2, topic.data.fetch("redirect_from").size
+      refute_empty topic.data.fetch("redirect_from")
       topic.data.fetch("redirect_from").each do |old_url|
         redirect = @site.pages.find { |page| page.url == old_url }
         refute_nil redirect
@@ -102,6 +121,42 @@ class TopicsTest < Minitest::Test
         save_preview(old_url, redirect.output)
       end
     end
+  end
+
+  def test_converted_topics_are_absent_from_fiction_and_blog_feeds
+    fiction = @site.pages.find { |page| page.path == "category/fiction.html" }
+    links = render(fiction).css(".fiction-articles__story").map { |link| link["href"] }
+    refute links.any? { |url| url.include?("bread-and-games") || url.include?("the-little-oracle") }
+    refute @site.posts.docs.any? { |post| post.path.include?("bread-and-games") || post.path.include?("the-little-oracle") }
+    save_preview("/category/fiction.html", render(fiction).to_html)
+  end
+
+  def test_bread_introduction_and_future_vision_are_preserved_once
+    topic = @site.collections.fetch("topics").docs.find { |doc| doc.url == "/topics/bread-and-games/" }
+    html = render(topic)
+    assert_equal 1, html.css(".topic-summary").size
+    assert_includes html.at_css(".topic-summary").text, "What do you do?"
+    assert_equal 1, html.css(".future-vision").size
+    assert_includes html.at_css(".future-vision").text, "What waits for us when work is gone?"
+  end
+
+  def test_oracle_sections_follow_the_published_installment_boundaries
+    topic = @site.collections.fetch("topics").docs.find { |doc| doc.url == "/topics/the-little-oracle/" }
+    html = render(topic)
+    assert_equal ["The Weave", "A God in the Hand", "Advice Becomes Ritual", "The State Learns to Bless", "Prayer with a Return Channel"],
+      html.css(".topic > h2").map(&:text)
+    openings = [
+      "Thirty years from now, nobody called it artificial intelligence anymore.",
+      "They were no larger than a plum",
+      "A woman deciding whether to forgive her brother",
+      "There were official rituals too",
+      "The weave was too useful to reject and too vast to love."
+    ]
+    html.css(".topic > h2").zip(openings).each do |heading, opening|
+      assert heading.next_element.text.start_with?(opening)
+    end
+    assert_equal %w[2085816166904152071 2086565555922784714 2088294087522714057 2092053145127989517 2093837149942497300],
+      topic.data.fetch("x_chapters").map { |chapter| chapter.fetch("x_post_id") }
   end
 
   def save_preview(url, html)

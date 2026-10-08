@@ -1,11 +1,49 @@
 ---
-layout: post
+layout: topic
 title: Brot und Spiele – aber wofür sind wir da?
+description: Vom gemeinsamen Feuer bis zum KI-verfassten Lebenslauf gibt Arbeit Menschen einen Platz—und kann ihn ihnen wieder nehmen.
+image: /img/bread-and-games/bread-and-games-scene-01.jpeg
+redirect_from:
+- /2026/08/06/bread-and-games-de.html
+x_post_id: "2085699556381995245"
+x_published_at: "2026-08-07T12:08:19Z"
+x_series: Bread and Games
+x_chapters:
+- part: 1
+  x_post_id: "2085699556381995245"
+  published_at: "2026-08-07T12:08:19Z"
+- part: 2
+  x_post_id: "2087312669040652744"
+  published_at: "2026-08-11T22:58:15Z"
+- part: 3
+  x_post_id: "2090363958272115057"
+  published_at: "2026-08-20T09:02:59Z"
+- part: 4
+  x_post_id: "2092352676486869210"
+  published_at: "2026-08-25T20:45:27Z"
+- part: 5
+  x_post_id: "2094456083263664587"
+  published_at: "2026-08-31T16:03:38Z"
+- part: 6
+  x_post_id: "2097616621988712683"
+  published_at: "2026-09-09T09:22:29Z"
+- part: 7
+  x_post_id: "2098369770789781716"
+  published_at: "2026-09-11T11:15:14Z"
+- part: 8
+  x_post_id: "2099484199778492553"
+  published_at: "2026-09-14T13:03:34Z"
+- part: 9
+  x_post_id: "2100517049990607258"
+  published_at: "2026-09-17T09:27:45Z"
 lang: de
 language_switcher: true
 translation_en: true
 translation_de: true
 translation_es: true
+translation_en_url: /topics/bread-and-games/
+translation_de_url: /topics/bread-and-games-de/
+translation_es_url: /topics/bread-and-games-es/
 tags:
 - de
 categories:

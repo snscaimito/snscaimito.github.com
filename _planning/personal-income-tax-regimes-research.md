@@ -19,7 +19,7 @@ The questions to carry through the country cases are:
 - Why do some countries operate without a general personal income tax? What finances their spending instead, and what obligations still fall on individuals?
 - What would change if each case's 2026 rules changed? Identify who would pay, which income would be covered, and how spending would be financed before making behavioral predictions.
 
-The connection to [Bread and Games—But What Are We For?](../_posts/2026/2026-08-06-bread-and-games.markdown) and [The Certainty Index](../_posts/2026/2026-08-26-the-certainty-index.markdown) is loose: work, livelihood, public provision, security, and individual choice. Those stories provide related reader questions, not historical evidence or a predetermined conclusion about taxation. This series should stand on its own factual record. Article writing comes later.
+The connection to [Bread and Games—But What Are We For?](../_topics/bread-and-games.markdown) and [The Certainty Index](../_posts/2026/2026-08-26-the-certainty-index.markdown) is loose: work, livelihood, public provision, security, and individual choice. Those works provide related reader questions, not historical evidence or a predetermined conclusion about taxation. This series should stand on its own factual record. Article writing comes later.
 
 ## X content ideas
 

@@ -447,7 +447,7 @@ class XPublisherTest < Minitest::Test
   def test_source_card_omits_site_only_future_vision
     card = {
       "id" => "bread-and-games-09",
-      "source" => { "file" => "_posts/2026/2026-08-06-bread-and-games.markdown", "section" => 9 }
+      "source" => { "file" => "_topics/bread-and-games.markdown", "section" => 9 }
     }
 
     text = source_section_text(card)

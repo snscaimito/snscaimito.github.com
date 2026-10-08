@@ -9,8 +9,12 @@
 			{% if page.language_switcher %}
 			{% include post-language-switcher.html %}
 			{% endif %}
+			{% assign chapters = content | split: '<h2 ' %}
+			{% assign content_introduction = chapters.first | strip %}
 			{% if page.summary %}
 			<div class="topic-summary">{{ page.summary | markdownify }}</div>
+			{% elsif content_introduction != '' %}
+			<div class="topic-summary">{{ chapters.first }}</div>
 			{% elsif page.description %}
 			<p class="topic-introduction">{{ page.description }}</p>
 			{% endif %}
@@ -20,8 +24,6 @@
 			{% elsif page.lang == 'es' %}
 			{% assign x_reference_label = 'Publicación original en X' %}
 			{% endif %}
-			{% assign chapters = content | split: '<h2 ' %}
-			{{ chapters.first }}
 			{% for chapter in chapters offset:1 %}
 			<h2 {{ chapter }}
 			{% assign publication = page.x_chapters[forloop.index0] %}
