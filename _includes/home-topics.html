@@ -2,7 +2,7 @@
 {% assign english_topics = topics | where: 'lang', 'en' | where_exp: 'topic', 'topic.published != false' %}
 {% if english_topics.size > 0 %}
 <section class="home-topics home-band no-print" aria-labelledby="home-topics-title">
-	<h2 id="home-topics-title" class="home-band-title">Topics explored through connected stories.</h2>
+	<h2 id="home-topics-title" class="home-band-title">Questions that shape how we live.</h2>
 	<ul class="home-card-list">
 		{% for topic in english_topics %}
 		{% assign topic_meta = topic.x_chapters.size | append: ' installments' %}
