@@ -1147,11 +1147,7 @@ BUTTON.print-button:active {
 	--home-band-gap: clamp(2rem, 4vw, 3.5rem);
 	--home-band-heading-gap: 1.5rem;
 	margin: 0;
-	padding-block: var(--home-band-gap);
-}
-
-.home-books {
-	padding-top: 0;
+	padding: var(--home-band-gap) clamp(1rem, 4vw, 4rem);
 }
 
 .home-band-title {
@@ -1162,13 +1158,13 @@ BUTTON.print-button:active {
 	font-size: clamp(1.4rem, 2.15vw, 2rem);
 	font-weight: 700;
 	line-height: 1.22;
-	margin: 0 auto var(--home-band-heading-gap);
+	margin: 0 auto var(--home-band-heading-gap, 1.5rem);
 	max-width: min(30ch, calc(100% - 2rem));
 	color: #16213e;
 }
 
 .home-about {
-	padding-inline: clamp(1rem, 4vw, 4rem);
+	padding: clamp(2rem, 4vw, 3.5rem) clamp(1rem, 4vw, 4rem);
 }
 
 .home-about .home-band-title {
@@ -1259,77 +1255,99 @@ BUTTON.print-button:active {
 	clear: both;
 }
 
-.home-topics {
-	padding-inline: clamp(1rem, 4vw, 4rem);
-	background: #fafafa;
-}
-
-.home-topics-list {
+.home-card-list {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 1.5rem;
+	gap: clamp(1rem, 2vw, 1.75rem);
 	list-style: none;
 	padding: 0;
 	margin: 0;
 }
 
-.home-topic {
-	flex: 1 1 30rem;
+.home-card {
+	box-sizing: border-box;
+	display: flex;
+	flex: 0 1 calc((100% - 3 * clamp(1rem, 2vw, 1.75rem)) / 4);
 	min-width: 0;
+	border: 1px solid #e8e8e8;
+	border-radius: 12px;
+	overflow: hidden;
+	background: #fff;
+	box-shadow: 0 6px 18px rgba(15, 23, 42, 0.07);
 }
 
-.home-topic-link {
+.home-card-link {
 	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	gap: clamp(1rem, 3vw, 3rem);
+	flex-direction: column;
+	width: 100%;
+	min-width: 0;
 	color: #16213e;
 	text-decoration: none;
 }
 
-.home-topic-image {
-	flex: 1 1 18rem;
-	width: 0;
-	min-width: min(100%, 18rem);
+.home-card-image {
+	display: block;
+	width: 100%;
 	aspect-ratio: 16 / 9;
 	object-fit: cover;
-	border-radius: 12px;
 }
 
-.home-topic-body {
-	flex: 2 1 22rem;
+.home-card-body {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	gap: 0.5rem;
 	min-width: 0;
+	padding: 0.85rem 1rem 1.05rem;
 }
 
-.home-topic-title {
-	margin: 0 0 0.75rem;
+.home-card-title {
+	margin: 0;
 	font-family: Charter, "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
-	font-size: clamp(1.4rem, 2.15vw, 2rem);
-	line-height: 1.22;
+	font-size: 1.15rem;
+	line-height: 1.25;
 }
 
-.home-topic-description {
+.home-card-description {
+	margin: 0;
 	font-family: Charter, "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
-	font-size: 1.1rem;
-	line-height: 1.6;
+	font-size: 1rem;
+	line-height: 1.5;
 	color: #333;
 }
 
-.home-topic-meta {
+.home-card-meta {
 	margin: 0;
-	font-size: 0.9rem;
+	font-size: 0.8rem;
 	color: #666;
 }
 
-.home-topic-link:hover,
-.home-topic-link:focus-visible {
+.home-card-link:hover,
+.home-card-link:focus-visible {
 	color: #16213e;
 	text-decoration: none;
 }
 
-.home-topic-link:hover .home-topic-title,
-.home-topic-link:focus-visible .home-topic-title {
+.home-card-link:focus-visible {
+	outline: 3px solid #ab1413;
+	outline-offset: -3px;
+}
+
+.home-card-link:hover .home-card-title,
+.home-card-link:focus-visible .home-card-title {
 	text-decoration: underline;
+}
+
+@media screen and (max-width: 1199px) {
+	.home-card {
+		flex-basis: calc((100% - clamp(1rem, 2vw, 1.75rem)) / 2);
+	}
+}
+
+@media screen and (max-width: 599px) {
+	.home-card {
+		flex-basis: 100%;
+	}
 }
 
 .topic-page {
@@ -1494,108 +1512,6 @@ BUTTON.print-button:active {
 	}
 }
 
-/* ---- Home: latest writing strip ---- */
-
-.home-latest {
-	padding-inline: clamp(1rem, 4vw, 4rem);
-}
-
-.home-latest .home-band-title,
-.home-explore .home-band-title {
-	padding-inline: 0;
-}
-
-.home-latest .section {
-	margin-top: 0;
-}
-
-/* Bold thumbnail cards for stories that have images */
-.home-stories {
-	margin: 0;
-}
-
-.home-stories .section {
-	color: #AB1413;
-}
-
-/* Cards wrap below the visible first row; the viewport decides how many fit. */
-.stories-row {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	gap: clamp(1rem, 2vw, 1.75rem);
-	margin: 0;
-	/* Leave room for wrapped titles and dates before hiding subsequent rows. */
-	height: 288px;
-	padding: 4px 4px 4px;
-	overflow: hidden;
-}
-
-.stories-row .story-card {
-	/* Fixed size: never grow or shrink. The viewport decides how many fit;
-	   any that don't fit wrap to a hidden second row. */
-	flex: 0 0 260px;
-	max-width: 260px;
-}
-
-.story-card {
-	display: flex;
-	flex-direction: column;
-	text-decoration: none;
-	color: inherit;
-	border-radius: 12px;
-	overflow: hidden;
-	background: #fff;
-	border: 1px solid #e8e8e8;
-	box-shadow: 0 6px 18px rgba(15, 23, 42, 0.07);
-	transition: transform 0.18s ease, box-shadow 0.18s ease;
-}
-
-.story-card:hover,
-.story-card:focus {
-	transform: translateY(-3px);
-	box-shadow: 0 12px 28px rgba(15, 23, 42, 0.16);
-}
-
-.story-card-thumb {
-	display: block;
-	height: 170px;
-	overflow: hidden;
-	background: #1d2a3a;
-}
-
-.story-card-thumb img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	display: block;
-	transition: transform 0.35s ease;
-}
-
-.story-card:hover .story-card-thumb img {
-	transform: scale(1.04);
-}
-
-.story-card-body {
-	display: flex;
-	flex-direction: column;
-	gap: 0.3rem;
-	padding: 0.85rem 1rem 1.05rem;
-}
-
-.story-card-title {
-	font-family: Charter, "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
-	font-size: 1.15rem;
-	line-height: 1.25;
-	font-weight: 700;
-	color: #16213e;
-}
-
-.story-card-date {
-	font-size: 0.8rem;
-	color: #888;
-}
-
 .latest-list {
 	list-style: none;
 	padding: 0;
@@ -1639,7 +1555,8 @@ BUTTON.print-button:active {
 /* ---- Home: explore (replaces the old sidebar) ---- */
 
 .home-explore {
-	padding-inline: clamp(1rem, 4vw, 4rem);
+	margin: 0;
+	padding: 2.5rem clamp(1rem, 4vw, 4rem) 0;
 	border-top: 1px solid #e5e5e5;
 	background: #fafafa;
 }

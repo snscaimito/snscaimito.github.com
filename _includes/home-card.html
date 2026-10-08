@@ -1,0 +1,14 @@
+<li class="home-card">
+	<a class="home-card-link" href="{{ include.url }}">
+		<img class="home-card-image" src="{{ include.image }}" alt="{{ include.image_alt | escape }}" loading="lazy" />
+		<div class="home-card-body">
+			<h3 class="home-card-title">{{ include.title }}</h3>
+			{% if include.description %}
+			<p class="home-card-description">{{ include.description }}</p>
+			{% endif %}
+			{% if include.meta %}
+			<p class="home-card-meta">{{ include.meta }}</p>
+			{% endif %}
+		</div>
+	</a>
+</li>

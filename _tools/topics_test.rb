@@ -45,13 +45,34 @@ class TopicsTest < Minitest::Test
   def test_homepage_band_order_and_topic_card
     homepage = @site.pages.find { |page| page.name == "index.html" && page.dir == "/" }
     html = render(homepage)
-    assert_equal %w[home-books-title home-topics-title home-latest-title home-explore-title home-about-title],
+    assert_equal %w[home-books-title home-topics-title home-latest-title],
       html.css(".home-band > .home-band-title").map { |heading| heading["id"] }
-    assert_equal 1, html.css(".home-topic").size
-    assert_equal "/topics/company-law-in-europe/", html.at_css(".home-topic-link")["href"]
-    assert_includes html.at_css(".home-topic-meta").text, "11 installments"
-    refute html.css(".story-card").any? { |card| card.text.include?("Company Law in Europe") }
+    assert_equal %w[home-books home-topics home-latest home-about home-explore],
+      html.css("body > section").map { |section| section["class"].split.first }
+    %w[home-books home-topics home-latest].each do |band|
+      assert html.at_css(".#{band} > .home-card-list")
+    end
+    assert_equal 4, html.css(".home-books .home-card").size
+    assert_equal 4, html.css(".home-latest .home-card").size
+    assert_equal 1, html.css(".home-topics .home-card").size
+    assert_equal "/topics/company-law-in-europe/", html.at_css(".home-topics .home-card-link")["href"]
+    assert_includes html.at_css(".home-topics .home-card-meta").text, "11 installments"
+    refute html.css(".home-latest .home-card").any? { |card| card.text.include?("Company Law in Europe") }
     save_preview("/", html.to_html)
+  end
+
+  def test_homepage_displays_multiple_topics_using_the_same_cards
+    collection = @site.collections.fetch("topics")
+    topic = Jekyll::Document.new(File.join(ROOT, "_topics", "another-topic.markdown"), site: @site, collection: collection)
+    topic.data.merge!(collection.docs.find { |doc| doc.data["lang"] == "en" }.data)
+    topic.data.merge!("title" => "Another topic", "order" => 2, "slug" => "another-topic")
+    collection.docs << topic
+
+    homepage = @site.pages.find { |page| page.name == "index.html" && page.dir == "/" }
+    html = render(homepage)
+    assert_equal ["Company Law in Europe", "Another topic"], html.css(".home-topics .home-card-title").map(&:text)
+    assert_equal 2, html.css(".home-topics .home-card-image").size
+    assert_empty html.css(".home-topic-link")
   end
 
   def test_old_language_urls_redirect_to_their_topic

@@ -3,18 +3,10 @@
 {% if english_topics.size > 0 %}
 <section class="home-topics home-band no-print" aria-labelledby="home-topics-title">
 	<h2 id="home-topics-title" class="home-band-title">Topics explored through connected stories.</h2>
-	<ul class="home-topics-list">
+	<ul class="home-card-list">
 		{% for topic in english_topics %}
-		<li class="home-topic">
-			<a class="home-topic-link" href="{{ topic.url }}">
-				<img class="home-topic-image" src="{{ topic.image }}" alt="{{ topic.image_alt | escape }}" loading="lazy" />
-				<div class="home-topic-body">
-					<h3 class="home-topic-title">{{ topic.title }}</h3>
-					<p class="home-topic-description">{{ topic.description }}</p>
-					<p class="home-topic-meta">{{ topic.x_chapters.size }} installments &middot; Read the series &rarr;</p>
-				</div>
-			</a>
-		</li>
+		{% assign topic_meta = topic.x_chapters.size | append: ' installments' %}
+		{% include home-card.html title=topic.title url=topic.url image=topic.image image_alt=topic.image_alt description=topic.description meta=topic_meta %}
 		{% endfor %}
 	</ul>
 </section>
