@@ -109,6 +109,11 @@ DIV.with-sidebar {
 	border-radius: var(--fiction-radius) var(--fiction-radius) 0 0;
 }
 
+.topic-articles__image {
+	aspect-ratio: 16 / 9;
+	object-fit: cover;
+}
+
 .fiction-articles__title,
 .topic-articles__title {
 	display: flex;
