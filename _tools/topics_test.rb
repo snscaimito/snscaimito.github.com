@@ -24,11 +24,26 @@ class TopicsTest < Minitest::Test
     topics.each do |topic|
       html = render(topic)
       assert_equal 11, html.css(".topic > h2").size
-      assert_equal 11, html.css(".topic-chapter").size
-      assert_equal 11, html.css(".topic-chapter-x").size
-      html.css(".topic-chapter > a:first-child").each do |link|
-        assert html.at_css("[id='#{link['href'].delete_prefix('#')}']"), "Missing chapter target #{link['href']}"
+      assert_empty html.css(".topic-contents")
+      assert_equal 3, html.css(".topic-summary > p").size
+      assert_operator html.at_css(".topic-summary").line, :<, html.at_css(".topic > h2").line
+      chapter_prefix = { "en" => "chapter", "de" => "kapitel", "es" => "capítulo" }.fetch(topic.data.fetch("lang"))
+      assert_equal (1..11).map { |part| "#{chapter_prefix}-#{part}" }, html.css(".topic > h2").map { |heading| heading["id"] }
+      html.css(".topic > h2").each do |heading|
+        refute_match(/\A(?:Chapter|Kapitel|Capítulo) \d+\z/, heading.text)
       end
+      references = html.css(".topic-x-reference > a")
+      assert_equal topic.data.fetch("x_chapters").map { |chapter| "https://x.com/snscaimito/status/#{chapter.fetch('x_post_id')}" },
+        references.map { |link| link["href"] }
+      html.css(".topic > h2").each do |heading|
+        following = heading.xpath("following-sibling::*")
+        reference_index = following.index { |element| element["class"] == "topic-x-reference" }
+        next_heading_index = following.index { |element| element.name == "h2" }
+        refute_nil reference_index
+        assert_operator reference_index, :>, 0
+        assert_operator reference_index, :<, next_heading_index if next_heading_index
+      end
+      assert_empty html.css(".twitter-tweet, .post-x-inset")
       assert_equal 2, html.css("a.post-language-switcher-button").size
       assert_empty html.css(".postfooter")
       front_matter = YAML.safe_load(File.read(topic.path).match(/\A---\s*\n(.*?)\n---/m)[1], permitted_classes: [Date, Time])
@@ -55,9 +70,10 @@ class TopicsTest < Minitest::Test
     assert_equal 4, html.css(".home-books .home-card").size
     assert_equal 4, html.css(".home-latest .home-card").size
     assert_equal 1, html.css(".home-topics .home-card").size
-    assert_equal "/topics/company-law-in-europe/", html.at_css(".home-topics .home-card-link")["href"]
+    assert_equal "/topics/who-can-afford-to-take-a-risk/", html.at_css(".home-topics .home-card-link")["href"]
+    assert_equal "Who Can Afford to Take a Risk?", html.at_css(".home-topics .home-card-title").text
     assert_includes html.at_css(".home-topics .home-card-meta").text, "11 installments"
-    refute html.css(".home-latest .home-card").any? { |card| card.text.include?("Company Law in Europe") }
+    refute html.css(".home-latest .home-card").any? { |card| card.text.include?("Who Can Afford to Take a Risk?") }
     save_preview("/", html.to_html)
   end
 
@@ -70,7 +86,7 @@ class TopicsTest < Minitest::Test
 
     homepage = @site.pages.find { |page| page.name == "index.html" && page.dir == "/" }
     html = render(homepage)
-    assert_equal ["Company Law in Europe", "Another topic"], html.css(".home-topics .home-card-title").map(&:text)
+    assert_equal ["Who Can Afford to Take a Risk?", "Another topic"], html.css(".home-topics .home-card-title").map(&:text)
     assert_equal 2, html.css(".home-topics .home-card-image").size
     assert_empty html.css(".home-topic-link")
   end
@@ -78,11 +94,13 @@ class TopicsTest < Minitest::Test
   def test_old_language_urls_redirect_to_their_topic
     JekyllRedirectFrom::Generator.new.generate(@site)
     @site.collections.fetch("topics").docs.each do |topic|
-      old_url = topic.data.fetch("redirect_from").first
-      redirect = @site.pages.find { |page| page.url == old_url }
-      refute_nil redirect
-      assert_equal "#{@site.config.fetch('url')}#{topic.url}", redirect.data.fetch("redirect").fetch("to")
-      save_preview(old_url, redirect.output)
+      assert_equal 2, topic.data.fetch("redirect_from").size
+      topic.data.fetch("redirect_from").each do |old_url|
+        redirect = @site.pages.find { |page| page.url == old_url }
+        refute_nil redirect
+        assert_equal "#{@site.config.fetch('url')}#{topic.url}", redirect.data.fetch("redirect").fetch("to")
+        save_preview(old_url, redirect.output)
+      end
     end
   end
 

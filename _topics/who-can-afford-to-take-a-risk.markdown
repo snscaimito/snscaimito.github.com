@@ -1,11 +1,18 @@
 ---
 layout: topic
-title: Company Law in Europe
-description: Stories about starting a business, personal liability, and company formation across Europe.
+title: Who Can Afford to Take a Risk?
+description: An opportunity to build a business, a family home at stake, and someone else waiting to be paid.
+summary: |
+  An order can be the beginning of a better life—or the debt that costs a family its home. An ironworker has an invention, a dyer knows his trade, and a programmer has built something people need. Before they can earn a living from their work, they must decide how much they are willing to lose. Their tools and savings may be only the beginning. Their children's beds can be part of the bargain.
+
+  Across Europe and New York, people try to put a boundary around that risk. A company offers a way to keep ordinary business debts from following them home, if they can meet the conditions to form one. A silk dyer waits for royal permission while a wealthy family's new vats begin to turn. Later reforms let smaller businesses through, but a merchant can still insist on a personal signature. By 2026, a young couple can have working software, a company, and a willing customer—and spend their savings waiting for one more number.
+
+  On the other side of the bill is someone who has supplied the coal, delivered the leather, or worked all week. They have families too. In New York, a founder's mare stays behind his gate while the unpaid coal supplier walks home. Then the workers come for their wages, and the same gate opens. A company's protection can determine whose savings disappear, whose home survives, and which child watches a stranger carry something away.
 image_alt: An ironworker makes a clamp at a workbench in a cramped family room while his pregnant wife and four children watch.
 order: 1
 redirect_from:
 - /2026/09/25/company-law-in-europe.html
+- /topics/company-law-in-europe/
 x_post_id: "2103513166596506067"
 x_published_at: "2026-09-25T15:53:15Z"
 image: /img/company-law-in-europe/germany-1892-family-workshop.png
@@ -14,9 +21,9 @@ language_switcher: true
 translation_en: true
 translation_de: true
 translation_es: true
-translation_en_url: /topics/company-law-in-europe/
-translation_de_url: /topics/company-law-in-europe-de/
-translation_es_url: /topics/company-law-in-europe-es/
+translation_en_url: /topics/who-can-afford-to-take-a-risk/
+translation_de_url: /topics/who-can-afford-to-take-a-risk-de/
+translation_es_url: /topics/who-can-afford-to-take-a-risk-es/
 x_series: Company Law in Europe
 x_chapters:
 - part: 1
@@ -62,7 +69,7 @@ hashtags:
 - entrepreneurship
 ---
 
-## Chapter 1
+## A Hundred Clamps {#chapter-1}
 
 Our four children sleep beside my workbench. When I file iron after dark, I lay a cloth over their blankets to keep off the dust. My wife is carrying our fifth. She watches me sweep the filings from the table before we eat there.
 
@@ -87,7 +94,7 @@ By winter our savings are gone, and we cannot pay the rent. My wife packs the ch
 
 Our youngest asks whether I am coming home with them. I look back at the room, at the clean patch on the floor where my bench stood, and cannot tell him where home will be.
 
-## Chapter 2
+## The Apartment My Father Bought {#chapter-2}
 
 The apartment my father bought while I studied computer science is for sale because of one missing check in my code. It is 2026 in Germany. I built a SaaS on my laptop, registered my trade, and began working as a sole proprietor. The regulator's letters carry my name.
 
@@ -110,7 +117,7 @@ Father had put the apartment in my name when I started my computer science degre
 
 On moving day, Father found the key ring he had given me for my first semester. He held it out, then remembered it no longer opened a home of mine.
 
-## Chapter 3
+## The Customer Is Ready {#chapter-3}
 
 I won our first big customer. Four months after we requested our EU VAT number, it still cannot start: our German limited-liability company has no number. It is 2026 in Cologne. My boyfriend built the SaaS; I sold it. We have a company, a notary's bill, and no sale.
 
@@ -135,7 +142,7 @@ Today the director called again. Her team is making next month's schedules witho
 
 I put down the phone and cried at the kitchen table, furious that I could lose the customer I had spent a year winning. Jonas closed the laptop where his finished software was running. He sat beside me. The VAT number still had not arrived.
 
-## Chapter 4
+## Waiting for the King {#chapter-4}
 
 I need the King’s permission before my company can shield me from its trade debts. The men with money can wait. The silk merchant cannot. It is 1837 in Lyon, and he wants my signature for his bales by Friday. He knows where my children sleep.
 
@@ -158,7 +165,7 @@ By autumn the vats are working and we have paid six men. Then a fire takes the w
 
 The bailiff writes down our table and then the beds. My son says the King may yet send his answer. I cannot tell him what use it would be now.
 
-## Chapter 5
+## Father Knows Whom to Ask {#chapter-5}
 
 The King's authorization is on Father's desk before our new dye vats reach Lyon. It is 1837. Our family has the money to enlarge its silk dye works. Just as useful, Father knows whom to ask in Paris.
 
@@ -175,7 +182,7 @@ Father summons me to his study. The plans for the dye house cover one table; the
 
 When the silk merchant brings his bales, he accepts the company's signature. The new vats begin to turn. We meet our orders and pay him on time. He returns with more silk, and Father asks the mason where we might put a second dye house.
 
-## Chapter 6
+## The Mare Behind the Gate {#chapter-6}
 
 The mare behind his gate could have paid my coal bill twice over. I stood there in New York in 1848 with the pigment works' invoice in my hand, trying to understand why the man who owned her could send me home empty. My wife was waiting for that money.
 
@@ -200,7 +207,7 @@ I went back to the gate once more. The founder came out with his wife. His daugh
 
 My wife opened our coin box. Our son asked when the coal wagon would go out again. I looked at the few coins inside and said, “Tomorrow.”
 
-## Chapter 7
+## Four Workers at the Door {#chapter-7}
 
 The coal merchant stood at my gate, looking past me at the mare. He could not make me sell her for the pigment works' bill. Then our four workers came for their wages. New York, 1848: by evening, my daughter would watch a stranger lead the mare away.
 
@@ -225,7 +232,7 @@ My partners brought what they could. I could have asked the men to wait longer, 
 
 My daughter watched the buyer lead her down the street. She stayed at the window long after they were gone.
 
-## Chapter 8
+## The Seventh Name {#chapter-8}
 
 The government no longer decided whether I could form a société anonyme. My brother did. Lyon, 1867: I had six willing shareholders and an empty seventh line. The silk merchant wanted my name on his bill. If I signed myself, the rooms above my vats stood behind the debt.
 
@@ -252,7 +259,7 @@ The signatures were only the beginning. We subscribed the capital, brought proof
 
 He came back, looked at the papers, and made the bill out to the works. By winter we had filled the cloth house's order and paid him. My brother brought his son to see the finished silk hanging above the vats. The boy touched a blue length and left a mark on it. My brother laughed before I could object.
 
-## Chapter 9
+## Two Bills on the Table {#chapter-9}
 
 The silk merchant laid two bills beside my account book. One named our new company. The other needed my signature. Lyon, 1925: my son and I had put 25,000 francs into that company so its ordinary trade debts would not follow us upstairs. He wanted my name anyway.
 
@@ -283,7 +290,7 @@ I thought of Jean’s savings shining in that new vat. I thought of the rooms ab
 
 The merchant folded both bills and sold the silk to another dyer. That night the vat held nothing but water. Upstairs, my wife asked whether we could keep our apprentice through winter. I had no answer. The rooms were ours. The order was gone.
 
-## Chapter 10
+## The Date on the Bill {#chapter-10}
 
 The notary's deed said "limited liability." The iron merchant's bill bore my signature. When he came for payment, my wife began packing her sewing machine. Milan, 1942: I had signed for the iron weeks before our new company entered the court's register.
 
@@ -312,7 +319,7 @@ We sold what we could from the shop. It was not enough. My wife set her sewing m
 
 I took the handle at her end of the trunk. We carried it down past the shop where I had made every hinge exactly to measure.
 
-## Chapter 11
+## What the Press Is Worth {#chapter-11}
 
 My brother could triple the value of our worn press with a stroke of the notary's pen. That number might win the leather for our largest order. Valencia, 1953: if it was false, the new law would leave both of us personally answerable.
 

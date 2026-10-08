@@ -9,32 +9,26 @@
 			{% if page.language_switcher %}
 			{% include post-language-switcher.html %}
 			{% endif %}
+			{% if page.summary %}
+			<div class="topic-summary">{{ page.summary | markdownify }}</div>
+			{% elsif page.description %}
 			<p class="topic-introduction">{{ page.description }}</p>
-			{% assign chapter_label = 'Chapter' %}
-			{% assign contents_label = 'Contents' %}
-			{% assign x_label = 'Read on X' %}
-			{% if page.lang == 'de' %}
-			{% assign chapter_label = 'Kapitel' %}
-			{% assign contents_label = 'Inhalt' %}
-			{% assign x_label = 'Auf X lesen' %}
-			{% elsif page.lang == 'es' %}
-			{% assign chapter_label = 'Capítulo' %}
-			{% assign contents_label = 'Contenido' %}
-			{% assign x_label = 'Leer en X' %}
 			{% endif %}
-			<nav class="topic-contents" aria-label="{{ contents_label }}">
-				<h2>{{ contents_label }}</h2>
-				<ol class="topic-chapters">
-					{% for chapter in page.x_chapters %}
-					{% assign chapter_title = chapter_label | append: ' ' | append: chapter.part %}
-					<li class="topic-chapter">
-						<a href="#{{ chapter_title | slugify }}">{{ chapter_title }}</a>
-						<a class="topic-chapter-x" href="https://x.com/snscaimito/status/{{ chapter.x_post_id }}">{{ x_label }}</a>
-					</li>
-					{% endfor %}
-				</ol>
-			</nav>
-			{{ content }}
+			{% assign x_reference_label = 'Original post on X' %}
+			{% if page.lang == 'de' %}
+			{% assign x_reference_label = 'Originalbeitrag auf X' %}
+			{% elsif page.lang == 'es' %}
+			{% assign x_reference_label = 'Publicación original en X' %}
+			{% endif %}
+			{% assign chapters = content | split: '<h2 ' %}
+			{{ chapters.first }}
+			{% for chapter in chapters offset:1 %}
+			<h2 {{ chapter }}
+			{% assign publication = page.x_chapters[forloop.index0] %}
+			{% if publication.x_post_id %}
+			<p class="topic-x-reference"><a href="https://x.com/snscaimito/status/{{ publication.x_post_id }}">{{ x_reference_label }}</a></p>
+			{% endif %}
+			{% endfor %}
 		</article>
 	</main>
 	{% include scripts.html %}

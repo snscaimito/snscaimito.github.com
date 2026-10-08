@@ -1367,36 +1367,12 @@ BUTTON.print-button:active {
 	font-size: 1.15rem;
 }
 
-.topic-contents {
+.topic-summary {
 	margin-block: 2rem;
-	padding: 1.5rem;
-	background: #fafafa;
-	border: 1px solid #e5e5e5;
-	border-radius: 12px;
 }
 
-.topic-contents h2 {
-	margin-top: 0;
-}
-
-.topic-chapters {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 0.75rem 2rem;
-	padding: 0;
-	margin: 0;
-	list-style: none;
-}
-
-.topic-chapter {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: baseline;
-	gap: 0.5rem 1rem;
-	flex: 1 1 16rem;
-}
-
-.topic-chapter-x {
+.topic .topic-x-reference {
+	margin-block: 1.5rem 2rem;
 	font-size: 0.85rem;
 }
 

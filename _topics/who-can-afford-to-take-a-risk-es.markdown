@@ -1,9 +1,16 @@
 ---
 layout: topic
-title: Derecho de sociedades en Europa
-description: Historias sobre emprender, la responsabilidad personal y la constitución de sociedades en Europa.
+title: ¿Quién puede permitirse arriesgarse?
+description: Una oportunidad de crear un negocio, el hogar familiar en juego y alguien que espera cobrar.
+summary: |
+  Un pedido puede ser el comienzo de una vida mejor—o la deuda que le cuesta a una familia su hogar. Un herrero tiene un invento, un tintorero conoce su oficio y una programadora ha creado algo que la gente necesita. Antes de poder vivir de su trabajo, deben decidir cuánto están dispuestos a perder. Sus herramientas y sus ahorros pueden ser solo el principio. Las camas de sus hijos también pueden formar parte del trato.
+
+  En Europa y Nueva York, hay quienes intentan poner un límite a ese riesgo. Una sociedad ofrece una manera de impedir que las deudas ordinarias del negocio lleguen hasta su hogar, si pueden cumplir las condiciones para constituirla. Un tintorero de seda espera el permiso del rey mientras las nuevas cubas de una familia adinerada ya están funcionando. Las reformas posteriores abren el camino a negocios más pequeños, pero un comerciante todavía puede exigir una firma personal. En 2026, una pareja joven puede tener un programa que funciona, una sociedad y un cliente dispuesto a comprar—y gastar sus ahorros mientras espera un número más.
+
+  Al otro lado de la factura hay alguien que ha suministrado el carbón, entregado el cuero o trabajado toda la semana. También tiene una familia. En Nueva York, la yegua de un fundador permanece detrás de su verja mientras el proveedor de carbón vuelve a casa sin cobrar. Después llegan los trabajadores a reclamar sus salarios, y esa misma verja se abre. La protección de una sociedad puede decidir de quién desaparecen los ahorros, qué hogar se conserva y qué niño ve a un desconocido llevarse algo.
 redirect_from:
 - /2026/09/25/company-law-in-europe-es.html
+- /topics/company-law-in-europe-es/
 x_post_id: "2103513166596506067"
 x_published_at: "2026-09-25T15:53:15Z"
 image: /img/company-law-in-europe/germany-1892-family-workshop.png
@@ -12,9 +19,9 @@ language_switcher: true
 translation_en: true
 translation_de: true
 translation_es: true
-translation_en_url: /topics/company-law-in-europe/
-translation_de_url: /topics/company-law-in-europe-de/
-translation_es_url: /topics/company-law-in-europe-es/
+translation_en_url: /topics/who-can-afford-to-take-a-risk/
+translation_de_url: /topics/who-can-afford-to-take-a-risk-de/
+translation_es_url: /topics/who-can-afford-to-take-a-risk-es/
 x_series: Company Law in Europe
 x_chapters:
 - part: 1
@@ -60,7 +67,7 @@ hashtags:
 - entrepreneurship
 ---
 
-## Capítulo 1
+## Cien abrazaderas {#capítulo-1}
 
 Nuestros cuatro hijos duermen junto a mi banco de trabajo. Cuando limo hierro después del anochecer, pongo una tela sobre sus mantas para que no les caiga el polvo. Mi mujer está embarazada de nuestro quinto hijo. Me observa barrer las limaduras de la mesa antes de que comamos allí.
 
@@ -85,7 +92,7 @@ Al llegar el invierno, nuestros ahorros se han agotado y no podemos pagar el alq
 
 El pequeño me pregunta si me voy a casa con ellos. Miro atrás, a la habitación y al trozo limpio del suelo donde estaba mi banco, y no sé decirle dónde estará nuestro hogar.
 
-## Capítulo 2
+## El apartamento que compró mi padre {#capítulo-2}
 
 El apartamento que mi padre compró mientras estudiaba informática está en venta por una comprobación que me faltó en el código. Es 2026, en Alemania. Desarrollé un SaaS en mi portátil, registré mi actividad y empecé a trabajar como autónoma. Las cartas del organismo regulador llevan mi nombre.
 
@@ -108,7 +115,7 @@ Papá había puesto el apartamento a mi nombre cuando empecé la carrera de info
 
 El día de la mudanza, Papá encontró el llavero que me regaló en mi primer semestre. Me lo tendió y entonces recordó que ya no abría ninguna casa mía.
 
-## Capítulo 3
+## El cliente está listo {#capítulo-3}
 
 He conseguido nuestro primer gran cliente. Han pasado cuatro meses desde que solicitamos el número de IVA de la UE y todavía no podemos empezar: nuestra sociedad alemana de responsabilidad limitada no tiene número. Es 2026, en Colonia. Mi novio desarrolló el SaaS; yo lo vendí. Tenemos una sociedad, una factura del notario y ninguna venta.
 
@@ -133,7 +140,7 @@ Hoy volvió a llamar la directora. Su equipo está preparando los horarios del m
 
 Colgué y me puse a llorar en la mesa de la cocina, furiosa porque podía perder al cliente que llevaba un año intentando ganar. Jonas cerró el portátil, donde seguía funcionando su software terminado. Se sentó a mi lado. El número de IVA aún no había llegado.
 
-## Capítulo 4
+## A la espera del rey {#capítulo-4}
 
 Necesito el permiso del rey antes de que mi sociedad pueda protegerme de sus deudas comerciales. Los hombres con dinero pueden esperar. El comerciante de seda, no. Es 1837, en Lyon, y quiere mi firma por sus fardos antes del viernes. Sabe dónde duermen mis hijos.
 
@@ -156,7 +163,7 @@ Para el otoño las cubas están en marcha y hemos pagado a seis hombres. Entonce
 
 El alguacil anota nuestra mesa y después las camas. Mi hijo dice que el rey todavía puede enviar su respuesta. No sé decirle de qué serviría ahora.
 
-## Capítulo 5
+## Padre sabe a quién preguntar {#capítulo-5}
 
 La autorización del rey está sobre el escritorio de Papá antes de que las nuevas cubas de teñido lleguen a Lyon. Es 1837. Nuestra familia tiene dinero para ampliar su fábrica de tintes de seda. También ayuda que Papá sepa a quién preguntar en París.
 
@@ -173,7 +180,7 @@ Papá me llama a su despacho. Los planos de la tintorería cubren una mesa y las
 
 Cuando el comerciante de seda trae sus fardos, acepta la firma de la sociedad. Las nuevas cubas empiezan a funcionar. Cumplimos los pedidos y le pagamos a tiempo. Vuelve con más seda, y Papá pregunta al albañil dónde podríamos construir una segunda tintorería.
 
-## Capítulo 6
+## La yegua detrás de la verja {#capítulo-6}
 
 La yegua detrás de su puerta habría pagado mi factura de carbón dos veces. Estaba allí, en Nueva York, en 1848, con la factura de la fábrica de pigmentos en la mano, intentando entender por qué el hombre que la poseía podía mandarme a casa con las manos vacías. Mi mujer esperaba ese dinero.
 
@@ -198,7 +205,7 @@ Volví una vez más a la puerta. El fundador salió con su mujer. Su hija se que
 
 Mi mujer abrió nuestra caja de monedas. Nuestro hijo preguntó cuándo volvería a salir el carro de carbón. Miré las pocas monedas que quedaban y dije: «Mañana».
 
-## Capítulo 7
+## Cuatro trabajadores en la puerta {#capítulo-7}
 
 El comerciante de carbón estaba en mi puerta, mirando por encima de mí a la yegua. No podía obligarme a venderla para pagar la factura de la fábrica de pigmentos. Entonces llegaron nuestros cuatro trabajadores a cobrar. Nueva York, 1848: al caer la tarde, mi hija vería a un desconocido llevarse la yegua.
 
@@ -223,7 +230,7 @@ Mis socios aportaron lo que pudieron. Podría haberles pedido a los hombres que 
 
 Mi hija vio cómo el comprador se la llevaba calle abajo. Se quedó en la ventana mucho después de que desaparecieran.
 
-## Capítulo 8
+## El séptimo nombre {#capítulo-8}
 
 El gobierno ya no decidía si podía constituir una société anonyme. Mi hermano sí. Lyon, 1867: tenía seis accionistas dispuestos y una séptima línea vacía. El comerciante de seda quería mi nombre en su factura. Si firmaba yo, la deuda podía alcanzar las habitaciones sobre mis cubas.
 
@@ -250,7 +257,7 @@ Las firmas eran solo el principio. Suscribimos el capital, llevamos al notario l
 
 Volvió, miró los documentos y puso la factura a nombre de la fábrica. Para el invierno habíamos completado el pedido de la fábrica de tejidos y le habíamos pagado. Mi hermano llevó a su hijo a ver la seda terminada colgada sobre las cubas. El niño tocó una pieza azul y la manchó. Mi hermano se rio antes de que yo pudiera protestar.
 
-## Capítulo 9
+## Dos facturas sobre la mesa {#capítulo-9}
 
 El comerciante de seda dejó dos facturas junto a mi libro de cuentas. En una figuraba el nombre de nuestra nueva sociedad. La otra necesitaba mi firma. Lyon, 1925: mi hijo y yo habíamos aportado 25.000 francos a esa sociedad para que sus deudas comerciales ordinarias no llegaran hasta nosotros, arriba. Aun así, quería mi nombre.
 
@@ -281,7 +288,7 @@ Pensé en los ahorros de Jean, brillando en aquella cuba nueva. Pensé en las ha
 
 El comerciante dobló las dos facturas y vendió la seda a otro tintorero. Aquella noche, la cuba solo contenía agua. Arriba, mi mujer preguntó si podríamos conservar al aprendiz durante el invierno. No tenía respuesta. Las habitaciones eran nuestras. El pedido se había perdido.
 
-## Capítulo 10
+## La fecha de la factura {#capítulo-10}
 
 La escritura del notario decía «responsabilidad limitada». La factura del comerciante de hierro llevaba mi firma. Cuando vino a cobrar, mi mujer empezó a guardar su máquina de coser. Milán, 1942: había firmado el pedido del hierro semanas antes de que nuestra nueva sociedad se inscribiera en el registro del juzgado.
 
@@ -310,7 +317,7 @@ Vendimos lo que pudimos sacar del taller. No bastó. Mi mujer metió su máquina
 
 Agarré el asa del baúl por el extremo donde ella estaba. Lo bajamos pasando por delante del taller en el que yo había fabricado cada bisagra a la medida exacta.
 
-## Capítulo 11
+## Cuánto vale la prensa {#capítulo-11}
 
 Mi hermano podía triplicar el valor de nuestra prensa desgastada con un trazo de la pluma del notario. Esa cifra quizá nos conseguiría el cuero para nuestro mayor pedido. Valencia, 1953: si era falsa, la nueva ley nos haría responsables personalmente a los dos.
 

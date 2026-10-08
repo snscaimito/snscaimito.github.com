@@ -160,7 +160,7 @@ class XPublisherTest < Minitest::Test
     card = installment_card.merge(
       "series" => "Company Law in Europe", "part" => 11,
       "footer" => "Company Law in Europe — a serialized story.",
-      "source" => { "file" => "_topics/company-law-in-europe.markdown", "section" => 11 }
+      "source" => { "file" => "_topics/who-can-afford-to-take-a-risk.markdown", "section" => 11 }
     )
     expected = source_section_text(card)
 
