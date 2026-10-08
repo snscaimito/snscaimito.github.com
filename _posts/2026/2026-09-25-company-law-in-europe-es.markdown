@@ -44,6 +44,9 @@ x_chapters:
 - part: 10
   x_post_id: "2107741795761144101"
   published_at: "2026-10-07T07:56:19Z"
+- part: 11
+  x_post_id: "2108158397312819651"
+  published_at: "2026-10-08T11:31:44Z"
 tags:
 - es
 categories:
@@ -303,3 +306,30 @@ Vendimos lo que pudimos sacar del taller. No bastó. Mi mujer metió su máquina
 «Puedo terminarlo a mano», dijo.
 
 Agarré el asa del baúl por el extremo donde ella estaba. Lo bajamos pasando por delante del taller en el que yo había fabricado cada bisagra a la medida exacta.
+
+## Capítulo 11
+
+Mi hermano podía triplicar el valor de nuestra prensa desgastada con un trazo de la pluma del notario. Esa cifra quizá nos conseguiría el cuero para nuestro mayor pedido. Valencia, 1953: si era falsa, la nueva ley nos haría responsables personalmente a los dos.
+
+<figure class="post-hero-figure">
+	<a class="post-lightbox-trigger" href="/img/company-law-in-europe/full/spain-1953-value-of-the-press-split.png" data-lightbox-src="/img/company-law-in-europe/full/spain-1953-value-of-the-press-split.png" data-lightbox-alt="Un notario revisa la valoración de una prensa de cortar cuero con dos hermanos. En otra escena, un zapatero está junto a una prensa vieja mientras un hombre se lleva un trozo de cuero.">
+		<img src="/img/company-law-in-europe/spain-1953-value-of-the-press-split.png" alt="Un notario revisa la valoración de una prensa de cortar cuero con dos hermanos. En otra escena, un zapatero está junto a una prensa vieja mientras un hombre se lleva un trozo de cuero." />
+	</a>
+	<figcaption>El notario revisa la valoración de la prensa.</figcaption>
+</figure>
+
+Un mayorista quería cuatrocientos pares de botas de trabajo antes del invierno. Yo tenía los patrones y un aprendiz joven que podía cortar una suela con tanta precisión como yo. No teníamos suficiente cuero. El comerciante nos lo suministraría a crédito si le convencía el capital que figuraba en la escritura de nuestra nueva sociedad. De lo contrario, quería que firmara la letra con mi nombre.
+
+Ya había firmado letras así. Si el taller no podía pagar, yo debía el resto. Mi hermano y yo queríamos operar mediante una pequeña sociedad limitada. En España llevaban años creándose sociedades de ese tipo; aquel verano, por fin, tenían una ley propia. Nos llevamos nuestros ahorros y una fotografía de la prensa de cortar cuero al notario.
+
+La prensa era vieja, pero funcionaba. Mi hermano propuso un valor que hiciera parecer sólida nuestra sociedad ante el comerciante de cuero. El notario dejó la pluma. Dijo que todo el capital de la escritura debía aportarse desde el principio. Y que, si atribuíamos a la prensa un valor que no tenía, los fundadores responderíamos solidariamente ante la sociedad y sus acreedores por la diferencia.
+
+Mi hermano me miró. Oía al aprendiz golpear las suelas abajo. Un pedido mayor significaba que podría conservar su empleo durante el invierno. Tal vez en primavera podríamos comprar una prensa nueva.
+
+—La rueda patina —dije—. Hay que ajustarla a mano.
+
+Mi hermano dijo que el comerciante nunca vendría a inspeccionar la rueda. Probablemente tenía razón. Le pedí al notario que anotara lo que podíamos pedir honestamente por la máquina. Mi hermano vio cómo la cifra más alta desaparecía de la página.
+
+Cuando nuestra sociedad quedó inscrita en el Registro Mercantil, el comerciante examinó la escritura. Dio un golpecito en la cifra del capital y luego me tendió otro documento de pago para que lo firmara a título personal. Pensé en nuestro piso encima del taller. Le devolví la pluma.
+
+Se llevó el cuero a otro zapatero. El viernes pagué al aprendiz y le dije que no podía prometerle trabajo para el lunes. Dobló su delantal sobre el taburete vacío junto a la prensa. Cuando se marchó, mi hermano giró despacio una vez la rueda que patinaba. Ninguno de los dos dijo nada.

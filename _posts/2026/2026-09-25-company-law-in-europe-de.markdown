@@ -44,6 +44,9 @@ x_chapters:
 - part: 10
   x_post_id: "2107741795761144101"
   published_at: "2026-10-07T07:56:19Z"
+- part: 11
+  x_post_id: "2108158397312819651"
+  published_at: "2026-10-08T11:31:44Z"
 tags:
 - de
 categories:
@@ -303,3 +306,30 @@ Wir verkauften, was wir aus der Werkstatt retten konnten. Es reichte nicht. Mein
 „Ich kann ihn mit der Hand fertig nähen“, sagte sie.
 
 Ich nahm den Griff am Ende der Kiste, an dem sie stand. Wir trugen sie an dem Laden vorbei nach unten, in dem ich jedes Scharnier genau nach Maß gefertigt hatte.
+
+## Kapitel 11
+
+Mit einem Federstrich beim Notar hätte mein Bruder den Wert unserer abgenutzten Presse verdreifachen können. Diese Zahl hätte uns vielleicht das Leder für unseren größten Auftrag verschafft. Valencia, 1953: Wäre sie falsch gewesen, hätte das neue Gesetz uns beide persönlich haften lassen.
+
+<figure class="post-hero-figure">
+	<a class="post-lightbox-trigger" href="/img/company-law-in-europe/full/spain-1953-value-of-the-press-split.png" data-lightbox-src="/img/company-law-in-europe/full/spain-1953-value-of-the-press-split.png" data-lightbox-alt="Ein Notar prüft mit zwei Brüdern die Bewertung einer Lederschneidepresse. In einer zweiten Szene steht ein Schuhmacher neben einer alten Presse, während ein Mann ein Lederstück fortträgt.">
+		<img src="/img/company-law-in-europe/spain-1953-value-of-the-press-split.png" alt="Ein Notar prüft mit zwei Brüdern die Bewertung einer Lederschneidepresse. In einer zweiten Szene steht ein Schuhmacher neben einer alten Presse, während ein Mann ein Lederstück fortträgt." />
+	</a>
+	<figcaption>Der Notar prüft die Bewertung der Presse.</figcaption>
+</figure>
+
+Ein Großhändler wollte vor dem Winter vierhundert Paar Arbeitsstiefel. Ich hatte die Schnittmuster und einen jungen Lehrling, der Sohlen so sauber zuschneiden konnte wie ich. Uns fehlte Leder. Der Händler wollte es auf Kredit liefern, wenn das Kapital in der Urkunde unserer neuen Gesellschaft ihn überzeugte. Andernfalls wollte er meine Unterschrift auf dem Wechsel.
+
+Solche Wechsel hatte ich schon unterschrieben. Wenn die Werkstatt nicht zahlen konnte, schuldete ich den Rest selbst. Mein Bruder und ich wollten stattdessen über eine kleine Gesellschaft mit beschränkter Haftung handeln. In Spanien gab es solche Gesellschaften schon seit Jahren; in jenem Sommer erhielten sie endlich ein eigenes Gesetz. Wir nahmen unsere Ersparnisse und ein Foto unserer Lederschneidepresse mit zum Notar.
+
+Die Presse war alt, funktionierte aber. Mein Bruder setzte einen Wert an, der unsere Gesellschaft für den Lederhändler bedeutend aussehen lassen sollte. Der Notar legte seinen Stift hin. Jede Peseta des in der Urkunde ausgewiesenen Stammkapitals müsse von Anfang an eingebracht werden, sagte er. Und wenn wir die Presse höher bewerteten, als sie wert war, müssten wir Gründer gemeinsam für die Differenz gegenüber der Gesellschaft und ihren Gläubigern haften.
+
+Mein Bruder sah mich an. Unten hörte ich den Lehrling Sohlen klopfen. Mit einem größeren Auftrag konnte ich ihn den Winter über beschäftigen. Vielleicht reichte es im Frühjahr für eine neue Presse.
+
+„Das Rad rutscht“, sagte ich. „Man muss es von Hand einstellen.“
+
+Mein Bruder sagte, der Händler werde die Presse nie prüfen kommen. Wahrscheinlich hatte er recht. Ich bat den Notar, den Betrag einzutragen, den wir für die Maschine ehrlich verlangen konnten. Mein Bruder sah zu, wie die höhere Zahl von der Seite verschwand.
+
+Nachdem unsere Gesellschaft ins Handelsregister eingetragen worden war, sah sich der Händler ihre Urkunde an. Er tippte auf die Kapitalangabe und schob mir dann einen zweiten Wechsel hin, den ich mit meinem eigenen Namen unterschreiben sollte. Ich dachte an unsere Wohnung über der Werkstatt. Ich gab ihm den Stift zurück.
+
+Er brachte sein Leder zu einem anderen Schuhmacher. Am Freitag bezahlte ich den Lehrling und sagte ihm, dass ich ihm für Montag keine Arbeit versprechen könne. Er legte seine Schürze über den leeren Hocker neben der Presse. Nachdem er gegangen war, drehte mein Bruder langsam einmal an ihrem rutschenden Rad. Keiner von uns sagte etwas.
