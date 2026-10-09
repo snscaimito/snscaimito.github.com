@@ -1389,8 +1389,29 @@ BUTTON.print-button:active {
 }
 
 .topic .topic-x-reference {
-	margin-block: 1.5rem 2rem;
-	font-size: 0.85rem;
+	margin-block: 0 1rem;
+	font-size: 1rem;
+}
+
+.topic-x-reference__link {
+	display: inline-flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+	min-height: 2.75rem;
+	font-variant-numeric: tabular-nums;
+	text-underline-offset: 0.2em;
+}
+
+.topic-x-reference__link:focus-visible {
+	outline: 2px solid currentColor;
+	outline-offset: 4px;
+}
+
+.topic-x-reference__logo {
+	flex: none;
+	width: 1.1em;
+	height: 1.1em;
 }
 
 .bodies-of-work {

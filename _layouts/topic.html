@@ -24,12 +24,19 @@
 			{% elsif page.lang == 'es' %}
 			{% assign x_reference_label = 'Publicación original en X' %}
 			{% endif %}
-			{% for chapter in chapters offset:1 %}
-			<h2 {{ chapter }}
-			{% assign publication = page.x_chapters[forloop.index0] %}
+			{% for chapter in chapters reversed offset:1 %}
+			{% assign chapter_heading = chapter | split: '</h2>' | first %}
+			<h2 {{ chapter_heading }}</h2>
+			{% assign publication = page.x_chapters[forloop.rindex0] %}
 			{% if publication.x_post_id %}
-			<p class="topic-x-reference"><a href="https://x.com/snscaimito/status/{{ publication.x_post_id }}">{{ x_reference_label }}</a></p>
+			<p class="topic-x-reference">
+				<a class="topic-x-reference__link" href="https://x.com/snscaimito/status/{{ publication.x_post_id | escape }}" aria-label="{{ x_reference_label }}: {{ publication.published_at | date: '%d %b %Y' }}">
+					<svg class="topic-x-reference__logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.64 7.584H.47l8.6-9.835L0 1.154h7.594l5.243 6.932 6.064-6.933Zm-1.29 19.49h2.039L6.487 3.24H4.3l13.31 17.403Z" /></svg>
+					<time datetime="{{ publication.published_at | escape }}">{{ publication.published_at | date: '%d %b %Y' }}</time>
+				</a>
+			</p>
 			{% endif %}
+			{{ chapter | remove_first: chapter_heading | remove_first: '</h2>' }}
 			{% endfor %}
 		</article>
 	</main>

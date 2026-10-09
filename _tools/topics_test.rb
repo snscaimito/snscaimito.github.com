@@ -9,7 +9,7 @@ require "tmpdir"
 class TopicsTest < Minitest::Test
   ROOT = File.expand_path("..", __dir__)
   TOPICS = {
-    "Company Law in Europe" => { "languages" => %w[de en es], "chapters" => 11, "summary_paragraphs" => 3 },
+    "Company Law in Europe" => { "languages" => %w[de en es], "chapters" => 12, "summary_paragraphs" => 3 },
     "Bread and Games" => { "languages" => %w[de en es], "chapters" => 9, "summary_paragraphs" => 4 },
     "The Little Oracle" => { "languages" => %w[en], "chapters" => 5, "summary_paragraphs" => 3 }
   }.freeze
@@ -43,29 +43,35 @@ class TopicsTest < Minitest::Test
       assert_operator html.at_css(".topic-summary").line, :<, html.at_css(".topic > h2").line
       if topic.data["x_series"] == "Company Law in Europe"
         chapter_prefix = { "en" => "chapter", "de" => "kapitel", "es" => "capítulo" }.fetch(topic.data.fetch("lang"))
-        assert_equal (1..11).map { |part| "#{chapter_prefix}-#{part}" }, html.css(".topic > h2").map { |heading| heading["id"] }
+        assert_equal topic.data.fetch("x_chapters").reverse.map { |chapter| "#{chapter_prefix}-#{chapter.fetch('part')}" },
+          html.css(".topic > h2").map { |heading| heading["id"] }
       end
       html.css(".topic > h2").each do |heading|
         refute_match(/\A(?:Chapter|Kapitel|Capítulo) \d+\z/, heading.text)
       end
       references = html.css(".topic-x-reference > a")
-      assert_equal topic.data.fetch("x_chapters").map { |chapter| "https://x.com/snscaimito/status/#{chapter.fetch('x_post_id')}" },
+      publications = topic.data.fetch("x_chapters").reverse
+      assert_equal publications.map { |chapter| "https://x.com/snscaimito/status/#{chapter.fetch('x_post_id')}" },
         references.map { |link| link["href"] }
-      html.css(".topic > h2").each do |heading|
+      html.css(".topic > h2").zip(publications).each do |heading, publication|
         following = heading.xpath("following-sibling::*")
         reference_index = following.index { |element| element["class"] == "topic-x-reference" }
         next_heading_index = following.index { |element| element.name == "h2" }
         refute_nil reference_index
-        assert_operator reference_index, :>, 0
+        assert_equal 0, reference_index
         assert_operator reference_index, :<, next_heading_index if next_heading_index
+        link = heading.next_element.at_css("a")
+        assert link.at_css('svg[aria-hidden="true"] path')
+        assert_includes link["aria-label"], "X"
+        assert_equal publication.fetch("published_at"), link.at_css("time")["datetime"]
+        assert_equal Time.iso8601(publication.fetch("published_at")).strftime("%d %b %Y"), link.at_css("time").text
       end
       assert_empty html.css(".twitter-tweet, .post-x-inset")
       assert_equal expected.fetch("languages").size - 1, html.css("a.post-language-switcher-button").size
       assert_empty html.css(".postfooter")
-      assert_empty html.css("time")
+      assert_equal publications.size, html.css("time").size
       front_matter = YAML.safe_load(File.read(topic.path).match(/\A---\s*\n(.*?)\n---/m)[1], permitted_classes: [Date, Time])
       refute front_matter.key?("date")
-      refute_includes html.at_css(".topic").text, "25 Sep 2026"
       topic.data.values_at("translation_en_url", "translation_de_url", "translation_es_url").compact.each do |url|
         assert topics.any? { |candidate| candidate.url == url }
       end
@@ -89,7 +95,7 @@ class TopicsTest < Minitest::Test
     assert_equal 3, html.css(".home-topics .home-card").size
     assert_equal HOME_TOPIC_URLS, html.css(".home-topics .home-card-link").map { |link| link["href"] }
     assert_equal "Who Can Afford to Take a Risk?", html.at_css(".home-topics .home-card-title").text
-    assert_equal ["11 installments", "9 installments", "5 installments"], html.css(".home-topics .home-card-meta").map { |meta| meta.text.strip }
+    assert_equal ["12 installments", "9 installments", "5 installments"], html.css(".home-topics .home-card-meta").map { |meta| meta.text.strip }
     assert_equal 3, html.css(".home-topics .home-card-image").size
     assert_empty html.css(".home-topics time")
     assert_empty HOME_TOPIC_URLS & html.css(".home-latest .home-card-link").map { |link| link["href"] }
@@ -128,7 +134,7 @@ class TopicsTest < Minitest::Test
     assert_equal "/topics/", landing.url
     html = render(landing)
     assert_equal HOME_TOPIC_URLS, html.css(".topic-articles__topic").map { |link| link["href"] }
-    assert_equal ["11 installments", "9 installments", "5 installments"], html.css(".topic-articles__meta").map { |meta| meta.text.strip }
+    assert_equal ["12 installments", "9 installments", "5 installments"], html.css(".topic-articles__meta").map { |meta| meta.text.strip }
     assert_equal 3, html.css(".topic-articles__image").size
     assert_equal 3, html.css(".topic-articles__description").size
     assert_empty html.css("time")
@@ -175,7 +181,7 @@ class TopicsTest < Minitest::Test
   def test_oracle_sections_follow_the_published_installment_boundaries
     topic = @site.collections.fetch("topics").docs.find { |doc| doc.url == "/topics/the-little-oracle/" }
     html = render(topic)
-    assert_equal ["The Weave", "A God in the Hand", "Advice Becomes Ritual", "The State Learns to Bless", "Prayer with a Return Channel"],
+    assert_equal ["The Weave", "A God in the Hand", "Advice Becomes Ritual", "The State Learns to Bless", "Prayer with a Return Channel"].reverse,
       html.css(".topic > h2").map(&:text)
     openings = [
       "Thirty years from now, nobody called it artificial intelligence anymore.",
@@ -184,11 +190,29 @@ class TopicsTest < Minitest::Test
       "There were official rituals too",
       "The weave was too useful to reject and too vast to love."
     ]
-    html.css(".topic > h2").zip(openings).each do |heading, opening|
-      assert heading.next_element.text.start_with?(opening)
+    html.css(".topic > h2").zip(openings.reverse).each do |heading, opening|
+      assert heading.next_element.next_element.text.start_with?(opening)
     end
     assert_equal %w[2085816166904152071 2086565555922784714 2088294087522714057 2092053145127989517 2093837149942497300],
       topic.data.fetch("x_chapters").map { |chapter| chapter.fetch("x_post_id") }
+  end
+
+  def test_a_new_confirmed_installment_appears_first_with_its_own_publication
+    topic = @site.collections.fetch("topics").docs.find { |doc| doc.url == "/topics/the-little-oracle/" }
+    previous_publications = topic.data.fetch("x_chapters").dup
+    publication = { "part" => 6, "x_post_id" => "new-confirmed-post", "published_at" => "2026-10-09T12:00:00Z" }
+    topic.content += "\n\n## A New Morning\n\nThe oracle glowed beside the window.\n"
+    topic.data["x_chapters"] = previous_publications + [publication]
+
+    html = render(topic)
+    first_heading = html.at_css(".topic > h2")
+    assert_equal "A New Morning", first_heading.text
+    assert_equal "https://x.com/snscaimito/status/new-confirmed-post", first_heading.next_element.at_css("a")["href"]
+    assert_equal "09 Oct 2026", first_heading.next_element.at_css("time").text
+    assert_equal "The oracle glowed beside the window.", first_heading.next_element.next_element.text
+    assert_equal previous_publications.reverse.map { |chapter| "https://x.com/snscaimito/status/#{chapter.fetch('x_post_id')}" },
+      html.css(".topic-x-reference > a").drop(1).map { |link| link["href"] }
+    assert_equal 1, html.css(".topic-summary").size
   end
 
   def save_preview(url, html)

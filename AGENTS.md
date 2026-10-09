@@ -51,6 +51,8 @@ Repository-specific guidance for AI assistance in this Jekyll site.
 - Keep one topic page per language, with explicit language-switcher URLs under `/topics/`.
 - Preserve published narrative, images, `x_post_id`, `x_published_at`, and `x_chapters` when converting a blog series. Redirect its former dated URLs and update linked queue source paths without rewriting sent text or ledger records.
 - Append later confirmed X installments to an existing topic and all its language editions. The topic replaces the blog article for that series; do not create a duplicate dated post.
+- Display topic entries newest first, below the topic summary, in every language edition. Keep source chapters and their matching `x_chapters` in chronological order so existing queue source selectors remain stable; the topic layout reverses their display order. Add each confirmed installment and its metadata at the end of the source so it appears at the top of the page.
+- Place each entry's X link directly below its heading, before the narrative. Show the X logo and original posting date in the link, using that entry's `x_post_id` and `published_at`; do not place the link in a footnote or at the end of the entry. Keep the topic itself undated.
 - Use `order` for homepage ordering and `published: false` for unfinished topics. Exclude their unpublished images under the same publication rules as posts.
 
 ## Blog Posts
