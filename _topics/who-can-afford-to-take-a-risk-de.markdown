@@ -57,6 +57,9 @@ x_chapters:
 - part: 11
   x_post_id: "2108158397312819651"
   published_at: "2026-10-08T11:31:44Z"
+- part: 12
+  x_post_id: "2108534747232133289"
+  published_at: "2026-10-09T12:27:13Z"
 tags:
 - de
 categories:
@@ -343,3 +346,28 @@ Mein Bruder sagte, der Händler werde die Presse nie prüfen kommen. Wahrscheinl
 Nachdem unsere Gesellschaft ins Handelsregister eingetragen worden war, sah sich der Händler ihre Urkunde an. Er tippte auf die Kapitalangabe und schob mir dann einen zweiten Wechsel hin, den ich mit meinem eigenen Namen unterschreiben sollte. Ich dachte an unsere Wohnung über der Werkstatt. Ich gab ihm den Stift zurück.
 
 Er brachte sein Leder zu einem anderen Schuhmacher. Am Freitag bezahlte ich den Lehrling und sagte ihm, dass ich ihm für Montag keine Arbeit versprechen könne. Er legte seine Schürze über den leeren Hocker neben der Presse. Nachdem er gegangen war, drehte mein Bruder langsam einmal an ihrem rutschenden Rad. Keiner von uns sagte etwas.
+
+## Die offene Steuerfrage {#kapitel-12}
+
+Wyoming bot mir eine Gesellschaft an, die verhindern konnte, dass eine Bohrschuld unser Haus erreichte. Meine Geldgeber schoben die Papiere über den Schreibtisch zurück. Cheyenne, 1977: Der Bundesstaat hatte sein neues LLC-Gesetz verabschiedet, doch niemand konnte uns sagen, wie die US-Steuerbehörde IRS eine solche Gesellschaft besteuern würde. Die Bohranlage war bis Freitag reserviert.
+
+<figure class="post-hero-figure">
+	<a class="post-lightbox-trigger" href="/img/company-law-in-europe/full/wyoming-1977-blank-llc-papers-split.png" data-lightbox-src="/img/company-law-in-europe/full/wyoming-1977-blank-llc-papers-split.png" data-lightbox-alt="Drei Männer prüfen Unterlagen zum Bohrpachtvertrag an einem Schreibtisch. In einer zweiten Szene stehen ein Mann und eine Frau neben einem Pick-up, während ein weiterer Mann die Schlüssel entgegennimmt.">
+		<img src="/img/company-law-in-europe/wyoming-1977-blank-llc-papers-split.png" alt="Drei Männer prüfen Unterlagen zum Bohrpachtvertrag an einem Schreibtisch. In einer zweiten Szene stehen ein Mann und eine Frau neben einem Pick-up, während ein weiterer Mann die Schlüssel entgegennimmt." />
+	</a>
+	<figcaption>Der Anwalt legt zwei Mappen neben die Karte.</figcaption>
+</figure>
+
+Unser Geld reichte für eine Probebohrung. Zwei Männer wollten den größten Teil beisteuern; ich hatte den Pachtvertrag gefunden und sollte die Arbeit leiten. Wenn das Bohrloch trocken blieb, wollten sie die Verluste in ihren Steuererklärungen wie Verluste einer Personengesellschaft behandeln. Wenn ein Auftragnehmer nicht bezahlt würde, wollte ich unsere Häuser vor seinem Zugriff schützen.
+
+Unser Anwalt legte zwei Mappen neben die Pachtkarte. Eine Kapitalgesellschaft hätte uns von ihren gewöhnlichen Schulden getrennt, aber meinen Geldgebern nicht die steuerliche Behandlung einer Personengesellschaft geboten, die sie wollten. In einer Kommanditgesellschaft konnten sie als Kommanditisten passiv beteiligt sein. Sie wollten, dass ich Komplementär werde. In dieser Rolle hätte ich persönlich für ihre Rechnungen gehaftet.
+
+Dann zeigte uns der Anwalt die neuen Unterlagen für eine Wyoming Limited Liability Company. Der Bundesstaat würde uns alle als Mitglieder zulassen, ohne einen von uns zum persönlich haftenden Komplementär zu machen. Den Antrag hatte er vorbereitet. Die Steuerfrage, sagte er, müsse Washington beantworten, nicht Wyoming.
+
+Ein Geldgeber bat um eine verbindliche Auskunft der IRS. Der Anwalt breitete die leeren Hände aus. Der andere sagte, er werde sein Geld in ein anderes Bohrloch stecken, wenn wir bei der steuerlichen Behandlung ein Risiko eingehen wollten. Ich hörte die Bedingungen des Bohrunternehmers in meinem Kopf: bis Freitag unterschreiben, sonst nehme er einen anderen Auftrag an.
+
+Ich unterschrieb die Papiere der Kommanditgesellschaft als Komplementär. Noch am selben Abend erzählte ich meiner Frau neben unserem Pick-up von der Entscheidung. Ich zeigte auf den Pachtvertrag und sagte, auf dem Nachbargrundstück gebe es Öl. Sie fragte, ob das eine Rechnung für unser Grundstück bezahlen würde. Ich sagte, das würden wir herausfinden.
+
+Wir fanden kein Öl. Die Geldgeber verloren, was sie investiert hatten. Der Bohrunternehmer schickte mir die offene Rechnung. Ich brachte sie zu unserem Anwalt; sein Finger hielt bei meinem Namen im Gesellschaftsvertrag inne.
+
+Als der Käufer unseren Pick-up abholte, gab meine Frau ihm die Schlüssel. Ich stand neben ihr und sah dem Wagen nach. Im Büro des Anwalts lagen die LLC-Papiere noch immer in einer Mappe, ohne unsere Unterschriften.

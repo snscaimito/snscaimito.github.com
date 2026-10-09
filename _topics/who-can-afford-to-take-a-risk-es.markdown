@@ -57,6 +57,9 @@ x_chapters:
 - part: 11
   x_post_id: "2108158397312819651"
   published_at: "2026-10-08T11:31:44Z"
+- part: 12
+  x_post_id: "2108534747232133289"
+  published_at: "2026-10-09T12:27:13Z"
 tags:
 - es
 categories:
@@ -343,3 +346,28 @@ Mi hermano dijo que el comerciante nunca vendría a inspeccionar la rueda. Proba
 Cuando nuestra sociedad quedó inscrita en el Registro Mercantil, el comerciante examinó la escritura. Dio un golpecito en la cifra del capital y luego me tendió otro documento de pago para que lo firmara a título personal. Pensé en nuestro piso encima del taller. Le devolví la pluma.
 
 Se llevó el cuero a otro zapatero. El viernes pagué al aprendiz y le dije que no podía prometerle trabajo para el lunes. Dobló su delantal sobre el taburete vacío junto a la prensa. Cuando se marchó, mi hermano giró despacio una vez la rueda que patinaba. Ninguno de los dos dijo nada.
+
+## La duda fiscal {#capítulo-12}
+
+Wyoming me ofrecía una sociedad que podía impedir que una deuda de perforación llegara hasta nuestra casa. Mis inversores empujaron sus documentos de vuelta por el escritorio. Cheyenne, 1977: el estado había aprobado su nueva ley de LLC, pero nadie sabía cómo gravaría el IRS una de esas sociedades. El equipo de perforación estaba reservado hasta el viernes.
+
+<figure class="post-hero-figure">
+	<a class="post-lightbox-trigger" href="/img/company-law-in-europe/full/wyoming-1977-blank-llc-papers-split.png" data-lightbox-src="/img/company-law-in-europe/full/wyoming-1977-blank-llc-papers-split.png" data-lightbox-alt="Tres hombres revisan documentos de arrendamiento para perforar en una mesa. En otra escena, una pareja está junto a una camioneta mientras otro hombre recibe sus llaves.">
+		<img src="/img/company-law-in-europe/wyoming-1977-blank-llc-papers-split.png" alt="Tres hombres revisan documentos de arrendamiento para perforar en una mesa. En otra escena, una pareja está junto a una camioneta mientras otro hombre recibe sus llaves." />
+	</a>
+	<figcaption>El abogado dispone dos carpetas junto al mapa.</figcaption>
+</figure>
+
+Nos alcanzaba el dinero para un pozo de prueba. Dos hombres aportarían la mayor parte; yo había encontrado el terreno arrendado y dirigiría el trabajo. Si el pozo salía seco, querían declarar las pérdidas como pérdidas de una sociedad colectiva en sus declaraciones de impuestos. Si dejábamos una factura de un contratista sin pagar, yo quería que nuestras casas quedaran fuera de su alcance.
+
+Nuestro abogado puso dos carpetas junto al mapa del terreno arrendado. Una sociedad anónima nos separaría de sus deudas ordinarias, pero no ofrecía a mis inversores el tratamiento fiscal de una sociedad colectiva que buscaban. En una sociedad comanditaria podían ser socios comanditarios pasivos. Querían que yo fuera el socio colectivo. En ese puesto respondería personalmente de sus facturas.
+
+Entonces el abogado nos enseñó los nuevos documentos de la sociedad de responsabilidad limitada de Wyoming. El estado permitiría que todos fuéramos miembros sin obligar a uno de nosotros a ser el socio colectivo personalmente responsable. Ya había preparado la solicitud. La respuesta fiscal, dijo, correspondía a Washington, no a Wyoming.
+
+Un inversor pidió una resolución del IRS. El abogado abrió las manos vacías. El otro dijo que llevaría su dinero a otro pozo si íbamos a arriesgarnos con el tratamiento fiscal. En mi cabeza oía las condiciones del operador de la plataforma: firmar antes del viernes o aceptaría otro trabajo.
+
+Firmé los documentos de la sociedad comanditaria como socio colectivo. Esa noche, junto a nuestra camioneta, le conté a mi mujer lo que había decidido. Señalé el terreno arrendado y dije que había petróleo en la parcela vecina. Me preguntó si eso pagaría una factura de la nuestra. Dije que ya lo averiguaríamos.
+
+No encontramos petróleo. Los inversores perdieron lo que habían aportado. El operador de la plataforma me envió el saldo pendiente. Llevé la factura al abogado; su dedo se detuvo en mi nombre, en el acuerdo de la sociedad.
+
+Cuando el comprador vino por nuestra camioneta, mi mujer le entregó las llaves. Me quedé a su lado viendo cómo se alejaba. En el despacho del abogado, los documentos de la LLC seguían dentro de una carpeta, sin nuestras firmas.

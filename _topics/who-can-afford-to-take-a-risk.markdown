@@ -59,6 +59,9 @@ x_chapters:
 - part: 11
   x_post_id: "2108158397312819651"
   published_at: "2026-10-08T11:31:44Z"
+- part: 12
+  x_post_id: "2108534747232133289"
+  published_at: "2026-10-09T12:27:13Z"
 tags:
 - en
 categories:
@@ -345,3 +348,28 @@ My brother said the merchant would never come to inspect the wheel. He was proba
 After our company was entered in the Mercantile Register, the merchant studied its deed. He tapped the capital figure, then held out a second bill for me to sign in my own name. I thought of our apartment above the workshop. I gave the pen back.
 
 He took his leather to another shoemaker. On Friday I paid the apprentice and told him I could not promise work on Monday. He folded his apron over the empty stool beside the press. After he left, my brother turned its slipping wheel once, slowly, and neither of us spoke.
+
+## The Tax Question {#chapter-12}
+
+Wyoming offered me a company that could keep a drilling debt from reaching our house. My investors pushed its papers back across the desk. Cheyenne, 1977: the state had passed its new LLC law, but no one could tell us how the IRS would tax one. The drilling rig was reserved until Friday.
+
+<figure class="post-hero-figure">
+	<a class="post-lightbox-trigger" href="/img/company-law-in-europe/full/wyoming-1977-blank-llc-papers-split.png" data-lightbox-src="/img/company-law-in-europe/full/wyoming-1977-blank-llc-papers-split.png" data-lightbox-alt="Three men review drilling lease papers at a desk. In a second scene, a couple stands beside a pickup as another man takes its keys.">
+		<img src="/img/company-law-in-europe/wyoming-1977-blank-llc-papers-split.png" alt="Three men review drilling lease papers at a desk. In a second scene, a couple stands beside a pickup as another man takes its keys." />
+	</a>
+	<figcaption>The lawyer lays out two sets of papers.</figcaption>
+</figure>
+
+We had money for one test well. Two men would put up most of it; I had found the lease and would run the work. If the hole came up dry, they wanted the losses treated as partnership losses on their tax returns. If a contractor went unpaid, I wanted our homes out of his reach.
+
+Our lawyer set two folders beside the lease map. A corporation would put a company between us and its ordinary debts, but it did not give my investors the partnership tax treatment they had come for. In a limited partnership they could be passive investors. They wanted me to serve as general partner. In that role I would answer personally for its bills.
+
+Then the lawyer showed us the new Wyoming limited liability company papers. The state would let all of us be members without making one of us the personally liable general partner. He had prepared the filing. The tax answer, he said, belonged to Washington, not Wyoming.
+
+One investor asked for an IRS ruling. The lawyer opened his empty hands. The other investor said he would move his money to a different well if we were going to gamble on the tax treatment. I could hear the rig operator's terms in my head: sign by Friday or he would take another job.
+
+I signed the limited partnership papers as general partner. I told my wife about the decision that night beside our pickup. I pointed toward the lease and said there was oil on the neighboring tract. She asked whether that would pay a bill on ours. I said we would find out.
+
+We found no oil. The investors lost what they had put in. The rig operator sent the unpaid balance to me. I took the bill to our lawyer; his finger stopped at my name on the partnership agreement.
+
+When the buyer came for our pickup, my wife handed him the keys. I stood beside her and watched the truck leave. In the lawyer's office, the LLC papers still lay in a folder without our signatures.
