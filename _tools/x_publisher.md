@@ -229,6 +229,8 @@ At the time of posting, create or update the blog article's English, German, and
 
 Translate the blog post only. The X post stays in its approved original language and is published once; do not translate its copy or publish translated versions on X. The posting task is complete only after the corresponding blog updates and translations have been verified and committed locally under the repository workflow. If X publication succeeds but a blog update is interrupted, resume from the recorded publication instead of posting to X again. A request to post to X does not by itself authorize pushing or deploying the blog changes.
 
+After updating, verifying, and committing the website content locally, suggest running `git push` in the completion message so the website updates can be published. Push only when the user has authorized it. If the changes have already been pushed, report that instead of suggesting another push.
+
 ## Standalone installments and the blog series
 
 Every installment, including the first and last, creates one standalone X post. Its request contains the approved text and attached media only. It does not quote part 1, reply to another post, publish a navigation reply, or require a recorded opener. Part numbers control the queue's reading order and the blog's chapter metadata.
