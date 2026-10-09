@@ -139,9 +139,9 @@ Every resident who remained in the settlement dies. Elsewhere, the displaced par
 
 A GNN crew arrives during recovery, after every remaining resident has died. The producer remembers muting the organizers' accusations and assuming somebody nearer was responding. The reporter finds a photograph of the organizers and family serving food together. During her live report, she struggles to continue while workers remove the dead behind her and the studio anchor gives her time.
 
-**Visual:** A GNN broadcast frame shows a tearful reporter holding a microphone and tissue. Workers in protective coveralls carry sealed black body bags from houses to an open recovery truck behind her. A studio anchor appears in the adjacent panel. The headline reads “ENTIRE VILLAGE DIES OF STARVATION,” with “NO SURVIVORS FOUND IN THE VILLAGE” below it.
+**Visual:** A GNN broadcast frame shows a tearful reporter holding a microphone and tissue. Behind her, two workers in protective coveralls walk away from an empty house doorway toward an open truck, carrying a sealed black body bag on a stretcher. Both face the truck. A third worker reaches from inside the truck to receive the stretcher. A studio anchor appears in the adjacent panel. The headline reads “ENTIRE VILLAGE DIES OF STARVATION,” with “NO SURVIVORS FOUND IN THE VILLAGE” below it.
 
-![A tearful GNN reporter and studio anchor appear beside workers carrying sealed black body bags from houses to a truck; the headline reads ENTIRE VILLAGE DIES OF STARVATION.](visuals/12-gnn-epilogue.png)
+![A tearful GNN reporter and studio anchor appear beside two workers carrying a sealed body bag toward a truck, both facing the truck, and a third worker reaching from inside it.](visuals/12-gnn-epilogue-v2.png)
 
 ## Generation record
 

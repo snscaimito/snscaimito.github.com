@@ -465,8 +465,8 @@ Outside, workers carried sealed bags from the houses to a truck. The anchor aske
 She tried to continue. Behind the lens, her cameraman wiped his face without taking his other hand from the camera. She had a daughter the little girl’s age. In her earpiece, the anchor told her to take her time.
 
 <figure class="post-hero-figure">
-	<a class="post-lightbox-trigger" href="/img/the-common-granary/full/12-gnn-epilogue.png" data-lightbox-src="/img/the-common-granary/full/12-gnn-epilogue.png" data-lightbox-alt="A GNN broadcast shows a tearful reporter holding a microphone and tissue as workers carry sealed black body bags from houses to a truck; a studio anchor appears beside her. The headline reads ENTIRE VILLAGE DIES OF STARVATION.">
-		<img src="/img/the-common-granary/12-gnn-epilogue.png" alt="A GNN broadcast shows a tearful reporter holding a microphone and tissue as workers carry sealed black body bags from houses to a truck; a studio anchor appears beside her. The headline reads ENTIRE VILLAGE DIES OF STARVATION." />
+	<a class="post-lightbox-trigger" href="/img/the-common-granary/full/12-gnn-epilogue-v2.png" data-lightbox-src="/img/the-common-granary/full/12-gnn-epilogue-v2.png" data-lightbox-alt="A tearful GNN reporter holds a microphone and tissue. Behind her, two workers walk away from an empty house doorway toward a truck, carrying a sealed black body bag on a stretcher; a third worker reaches from inside the truck. A studio anchor appears beside her, above the headline ENTIRE VILLAGE DIES OF STARVATION.">
+		<img src="/img/the-common-granary/12-gnn-epilogue-v2.png" alt="A tearful GNN reporter holds a microphone and tissue. Behind her, two workers walk away from an empty house doorway toward a truck, carrying a sealed black body bag on a stretcher; a third worker reaches from inside the truck. A studio anchor appears beside her, above the headline ENTIRE VILLAGE DIES OF STARVATION." />
 	</a>
 	<figcaption>GNN’s reporter and anchor during the recovery. Click the image to view it full size.</figcaption>
 </figure>

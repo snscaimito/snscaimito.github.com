@@ -150,4 +150,16 @@ A GNN broadcast frame. Large live field feed on the left, smaller studio anchor 
 The right studio panel shows a male news anchor about 45 in a dark suit seated behind a desk, looking toward the field feed, lips parted and eyes wet. Modern television studio.
 Crisp professional broadcast graphics along the bottom, beneath both panels, with exact legible lettering: large logo "GNN"; small network name "GLOBAL NEWS NETWORK"; red tag "LIVE"; main lower-third headline "ENTIRE VILLAGE DIES OF STARVATION"; smaller line "NO SURVIVORS FOUND IN THE VILLAGE". Keep text inside safe margins. Clean single broadcast still with no television bezel, no app controls, and no additional captions.
 
-Saved image: visuals/12-gnn-epilogue.png. Identical copies are used at img/the-common-granary/12-gnn-epilogue.png and img/the-common-granary/full/12-gnn-epilogue.png. The broadcast still closes the unpublished article.
+Initial image: visuals/12-gnn-epilogue.png. Retained as the original generation; superseded in the article by the correction below.
+
+#### Direction-of-movement correction — October 9, 2026
+
+Built-in image generation edit. Edit target: img/the-common-granary/12-gnn-epilogue.png. Final edit prompt:
+
+Edit the supplied GNN broadcast still. Change only the recovery workers, stretcher, and truck cargo in the field-feed background. Preserve the reporter's identity, tearful face, pale blue shirt, microphone and tissue; preserve the anchor, split-screen layout, buildings, daylight, all broadcast graphics, and all existing lettering exactly.
+
+The house doorway at the far left is empty. Exactly two recovery workers carry ONE horizontal stretcher with ONE fully closed opaque black body bag along the path from that left-hand house toward the open truck on the right. Both workers are completely outside the house, several steps beyond the porch. Both workers' heads, shoulders, hips, and feet face RIGHT toward the truck. Show their right-facing profiles and a forward walking step to the right. The leading worker is nearest the truck, holding the front stretcher handles behind their hips; the trailing worker is nearest the house, holding the rear handles ahead of their hips. The stretcher is between these two workers. Neither worker faces or steps toward the house. Keep enough of both profiles, both sets of hands, and the stretcher visible around the reporter to show their positions.
+
+Exactly one additional worker stands INSIDE the open cargo bay of the truck, facing left, with empty gloved hands extended outward to receive the approaching stretcher. No worker steps out of the truck. Two other fully sealed black body bags already lie flat and stationary inside the truck. No other workers or moving stretchers. No exposed bodies, blood, or wounds. Preserve photographic realism and plausible anatomy. Preserve the exact on-screen text: "GNN", "GLOBAL NEWS NETWORK", "LIVE", "ENTIRE VILLAGE DIES OF STARVATION", and "NO SURVIVORS FOUND IN THE VILLAGE".
+
+Selected image: visuals/12-gnn-epilogue-v2.png. Identical copies are used at img/the-common-granary/12-gnn-epilogue-v2.png and img/the-common-granary/full/12-gnn-epilogue-v2.png. Both stretcher carriers face and walk toward the truck; a third worker reaches from inside it. This corrected broadcast still closes the unpublished article.
