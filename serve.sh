@@ -42,10 +42,21 @@ LIVERELOAD_PORT="$(find_free_port "$LIVERELOAD_START_PORT" "$LIVERELOAD_END_PORT
 
 LOCAL_BASEURL="${JEKYLL_LOCAL_BASEURL:-}"
 
+# Restore story illustrations only for this local unpublished preview.
+# Derive the config so every other production exclusion stays in effect.
+PREVIEW_CONFIG_DIR="$(mktemp -d "${TMPDIR:-/tmp}/jekyll-preview.XXXXXX")"
+PREVIEW_CONFIG="$PREVIEW_CONFIG_DIR/_config.yml"
+ruby -ryaml -e '
+  config = YAML.load_file("_config.yml")
+  config["exclude"] = Array(config["exclude"]).reject { |path| path.start_with?("img/") }
+  File.write(ARGV.fetch(0), config.to_yaml)
+' "$PREVIEW_CONFIG"
+
 echo "Starting Jekyll on http://$HOST:$PORT/"
 echo "LiveReload port: $LIVERELOAD_PORT"
 
 exec bundle exec jekyll serve \
+  --config "$PREVIEW_CONFIG" \
   --host "$HOST" \
   --port "$PORT" \
   --baseurl "$LOCAL_BASEURL" \

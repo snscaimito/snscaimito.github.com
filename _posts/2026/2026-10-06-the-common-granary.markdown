@@ -432,18 +432,6 @@ Ben woke and asked when they could go home. Dan gathered him into his good arm. 
 
 Sarah drew her close. Luke put his arms around them both, and Abby pushed into the space beneath her mother’s elbow. They stayed beside the road until Rachel came looking for them with supper going cold.
 
-## Afterword: Activity Theory
-
-Activity Theory offers a way to examine the granary’s changed purpose through its subjects, object, tools, rules, community, and division of labor. These categories come from [Yrjö Engeström’s *Learning by Expanding*](https://lchc.ucsd.edu/mca/Paper/Engestrom/expanding/ch2.htm).
-
-In this story, the organizers and council pursue provision through ledgers, testimony, assessments, votes, and collection orders. Households, growers, volunteers, and recipients share the consequences. Cultivation, teaching, counting, authorizing, collecting, and cooking become separate responsibilities.
-
-The practical object narrows toward obtaining food for immediate distribution. The spreadsheet counts seed as available stock, while the planting notebook records what must remain. Revised rules reward completed deliveries and make household refusal an offense. Empathy follows the hungry person encountered today; the same person’s later need is assigned to somebody else’s task.
-
-Tensions within provisioning concern its tools, rules, and stated purpose. The conflict with cultivation concerns a neighboring activity whose productive reserve is consumed. Calling every change a tertiary contradiction would obscure these distinctions.
-
-The organizers understand the warning and choose to override it. The framework helps examine how their work reinforces that choice; responsibility remains with the people who authorize, seize, injure, and burn.
-
 ## Epilogue: The News Crew
 
 The GNN van arrived as recovery trucks reached the square. Its tires raised dust along the unplanted fields. The reporter had brought a jacket; by the time she stepped outside, sweat had darkened her shirt beneath it.
@@ -470,3 +458,19 @@ She tried to continue. Behind the lens, her cameraman wiped his face without tak
 	</a>
 	<figcaption>GNN’s reporter and anchor during the recovery. Click the image to view it full size.</figcaption>
 </figure>
+
+<aside class="post-afterword" aria-labelledby="afterword-activity-theory" markdown="1">
+
+## Afterword: Activity Theory
+
+Activity Theory offers a way to examine the granary’s changed purpose through its subjects, object, tools, rules, community, and division of labor. These categories come from [Yrjö Engeström’s *Learning by Expanding*](https://lchc.ucsd.edu/mca/Paper/Engestrom/expanding/ch2.htm).
+
+In this story, the organizers and council pursue provision through ledgers, testimony, assessments, votes, and collection orders. Households, growers, volunteers, and recipients share the consequences. Cultivation, teaching, counting, authorizing, collecting, and cooking become separate responsibilities.
+
+The practical object narrows toward obtaining food for immediate distribution. The spreadsheet counts seed as available stock, while the planting notebook records what must remain. Revised rules reward completed deliveries and make household refusal an offense. Empathy follows the hungry person encountered today; the same person’s later need is assigned to somebody else’s task.
+
+Tensions within provisioning concern its tools, rules, and stated purpose. The conflict with cultivation concerns a neighboring activity whose productive reserve is consumed. Calling every change a tertiary contradiction would obscure these distinctions.
+
+The organizers understand the warning and choose to override it. The framework helps examine how their work reinforces that choice; responsibility remains with the people who authorize, seize, injure, and burn.
+
+</aside>

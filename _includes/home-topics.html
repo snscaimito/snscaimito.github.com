@@ -1,11 +1,15 @@
 {% assign topics = site.topics | sort: 'order' %}
-{% assign english_topics = topics | where: 'lang', 'en' | where_exp: 'topic', 'topic.published != false' %}
+{% assign english_topics = topics | where: 'lang', 'en' %}
+{% unless site.unpublished and jekyll.environment != 'production' %}
+{% assign english_topics = english_topics | where_exp: 'topic', 'topic.published != false' %}
+{% endunless %}
 {% if english_topics.size > 0 %}
 <section class="home-topics home-band no-print" aria-labelledby="home-topics-title">
 	<h2 id="home-topics-title" class="home-band-title">What shapes how we live and why</h2>
 	<ul class="home-card-list">
 		{% for topic in english_topics %}
 		{% assign topic_meta = topic.x_chapters.size | append: ' installments' %}
+		{% if topic.x_chapters.size == 1 %}{% assign topic_meta = '1 installment' %}{% endif %}
 		{% include home-card.html title=topic.title url=topic.url image=topic.image image_alt=topic.image_alt description=topic.description meta=topic_meta %}
 		{% endfor %}
 	</ul>

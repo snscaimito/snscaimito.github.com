@@ -142,7 +142,7 @@ Articles can link back to an earlier announcement through a DraftJS link or embe
 
 ## Composing new X posts
 
-Lead with the central claim or tension in the first two lines, then give it a concrete scene and consequence. Keep the quiet, considered voice. For example, an opening such as “Limited liability was supposed to protect the workshop. The merchant still wanted his name on the bill.” establishes the idea before the vignette. Do not manufacture outrage, news hooks, or bait.
+Establish the central claim or tension in the first two or three sentences, then develop it through a concrete scene and consequence. A story should begin inside the predicament, with enough context to recognize what is at stake. Do not open with a summary of the lesson or outcome. Keep the author's quiet, considered voice without flattening the character's feelings. Do not manufacture outrage, news hooks, or bait.
 
 Each installment must work for someone encountering the series for the first time. Establish its situation and stakes within the copy, and put the series name in the existing plain-language footer. End newly composed copy with one specific question that readers can answer from their own work, such as “What did the approval actually reduce?” Place it before the footer and approve it as part of the canonical text.
 
@@ -155,6 +155,25 @@ Prefer roughly three original pieces a week, with time for substantive replies i
 Use these rules while creating new canonical copy. Existing approved cards and published source text remain intact; revising them requires an explicit editorial request. The publisher distributes the approved package without adding a hook, question, or text overlay during publication. A shorter new post can still be a complete canonical installment.
 
 Treat the supplied claims about reach and algorithm behavior as hypotheses, not verified account analytics. When reviewing results, consider replies, bookmarks, profile clicks, and useful reader contributions alongside views, using available evidence. Do not claim that these changes guarantee wider distribution.
+
+### First-person stories grounded in real rules
+
+These instructions apply to fictional narrative installments, including the tax and company-law series. They do not require ordinary announcements or factual commentary to impersonate a character.
+
+- Write from inside the participant's experience: what I want, assume, notice, resist, fear, and decide. First-person pronouns alone do not turn an explanatory report into a story. Let inner thoughts and natural dialogue carry the discovery.
+- Make the opening immediately relevant to the intended reader's own working life. Introduce a specific conflict and a question the scene will develop. A famous name can enter through conversation, but the next sentences must connect it to the narrator's stakes. Fulfill the opening's promise within the post.
+- Give the narrator competence, desires, and something concrete to protect. A challenged assumption about independence, earnings, family, or work can carry the emotion. Do not substitute obligatory poverty, tears, bodily symptoms, or self-reproach for a developed conflict.
+- Build around one consequential discovery. Let research determine what can actually happen, then show the person interpreting and responding to it. A friend should sound like a friend, not a legal reference page. Keep the larger “Why?” alive through what the character cannot reconcile.
+- Use connected paragraphs and varied sentence lengths. Do not put every sentence on its own line or disguise a string of disconnected dramatic fragments as a paragraph. Details should change how we understand the person's predicament.
+- Keep character belief, fear, and verified rules distinct. A feared assessment is not an established debt or investigation. A celebrity's dispute does not prove another person's liability. Fictional dialogue and social-media encounters are scenes, not evidence about population-wide behavior; retain the fictional framing in the series presentation.
+- Give the scene a meaningful turn or consequence before the closing question. Aim for recognition that makes a reader think of their own situation or someone they know. Ask one concrete question about relevant experience; avoid generic vulnerability prompts and requests for likes or reposts.
+- Keep research citations in the planning record and eventual host page when the requested X copy contains no links. Do not turn the narrative into a source summary or append an explanatory moral.
+
+### Reach as an editorial test
+
+Write for a relevant reader to recognize the situation, continue reading, and have a reason to share it or contribute an experience. These are editorial aims to evaluate, not guaranteed algorithm effects. First-person narration, a closing question, emotional intensity, and length do not independently establish a reach advantage. Inspect the opening in its likely feed context, but do not assume a fixed preview cutoff or shorten the complete post to 280 characters.
+
+The [public X recommendation code](https://github.com/xai-org/x-algorithm) describes personalized ranking using predicted reader actions, including reading time, replies, and sharing, alongside negative feedback. Its weights are not exchange rates between actual likes and replies, and published code does not establish an account's live configuration. [X view counts](https://help.x.com/en/using-x/view-counts) can include repeat views and the author's own views; they do not establish unique readers or completion. Keep account observations separate from assumptions about why distribution changed. These sources were reviewed on October 9, 2026; recheck them before making new platform claims.
 
 ## Story distribution rule
 

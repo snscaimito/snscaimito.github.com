@@ -11,12 +11,14 @@ class TopicsTest < Minitest::Test
   TOPICS = {
     "Company Law in Europe" => { "languages" => %w[de en es], "chapters" => 12, "summary_paragraphs" => 3 },
     "Bread and Games" => { "languages" => %w[de en es], "chapters" => 9, "summary_paragraphs" => 4 },
-    "The Little Oracle" => { "languages" => %w[en], "chapters" => 5, "summary_paragraphs" => 3 }
+    "The Little Oracle" => { "languages" => %w[en], "chapters" => 5, "summary_paragraphs" => 3 },
+    "Why My Income?" => { "languages" => %w[de en es], "chapters" => 1, "summary_paragraphs" => 2 }
   }.freeze
   HOME_TOPIC_URLS = %w[
     /topics/who-can-afford-to-take-a-risk/
     /topics/bread-and-games/
     /topics/the-little-oracle/
+    /topics/why-my-income/
   ].freeze
 
   def setup
@@ -92,11 +94,11 @@ class TopicsTest < Minitest::Test
     end
     assert_equal 4, html.css(".home-books .home-card").size
     assert_equal 4, html.css(".home-latest .home-card").size
-    assert_equal 3, html.css(".home-topics .home-card").size
+    assert_equal 4, html.css(".home-topics .home-card").size
     assert_equal HOME_TOPIC_URLS, html.css(".home-topics .home-card-link").map { |link| link["href"] }
     assert_equal "Who Can Afford to Take a Risk?", html.at_css(".home-topics .home-card-title").text
-    assert_equal ["12 installments", "9 installments", "5 installments"], html.css(".home-topics .home-card-meta").map { |meta| meta.text.strip }
-    assert_equal 3, html.css(".home-topics .home-card-image").size
+    assert_equal ["12 installments", "9 installments", "5 installments", "1 installment"], html.css(".home-topics .home-card-meta").map { |meta| meta.text.strip }
+    assert_equal 4, html.css(".home-topics .home-card-image").size
     assert_empty html.css(".home-topics time")
     assert_empty HOME_TOPIC_URLS & html.css(".home-latest .home-card-link").map { |link| link["href"] }
     save_preview("/", html.to_html)
@@ -106,19 +108,20 @@ class TopicsTest < Minitest::Test
     collection = @site.collections.fetch("topics")
     topic = Jekyll::Document.new(File.join(ROOT, "_topics", "another-topic.markdown"), site: @site, collection: collection)
     topic.data.merge!(collection.docs.find { |doc| doc.data["lang"] == "en" }.data)
-    topic.data.merge!("title" => "Another topic", "order" => 4, "slug" => "another-topic")
+    topic.data.merge!("title" => "Another topic", "order" => 5, "slug" => "another-topic")
     collection.docs << topic
 
     homepage = @site.pages.find { |page| page.name == "index.html" && page.dir == "/" }
     html = render(homepage)
-    assert_equal ["Who Can Afford to Take a Risk?", "Bread and Games—But What Are We For?", "The Little Oracle", "Another topic"], html.css(".home-topics .home-card-title").map(&:text)
-    assert_equal 4, html.css(".home-topics .home-card-image").size
+    assert_equal ["Who Can Afford to Take a Risk?", "Bread and Games—But What Are We For?", "The Little Oracle", "Why My Income?", "Another topic"], html.css(".home-topics .home-card-title").map(&:text)
+    assert_equal 5, html.css(".home-topics .home-card-image").size
     assert_empty html.css(".home-topic-link")
   end
 
   def test_old_language_urls_redirect_to_their_topic
     JekyllRedirectFrom::Generator.new.generate(@site)
     @site.collections.fetch("topics").docs.each do |topic|
+      next unless topic.data.key?("redirect_from")
       refute_empty topic.data.fetch("redirect_from")
       topic.data.fetch("redirect_from").each do |old_url|
         redirect = @site.pages.find { |page| page.url == old_url }
@@ -134,9 +137,9 @@ class TopicsTest < Minitest::Test
     assert_equal "/topics/", landing.url
     html = render(landing)
     assert_equal HOME_TOPIC_URLS, html.css(".topic-articles__topic").map { |link| link["href"] }
-    assert_equal ["12 installments", "9 installments", "5 installments"], html.css(".topic-articles__meta").map { |meta| meta.text.strip }
-    assert_equal 3, html.css(".topic-articles__image").size
-    assert_equal 3, html.css(".topic-articles__description").size
+    assert_equal ["12 installments", "9 installments", "5 installments", "1 installment"], html.css(".topic-articles__meta").map { |meta| meta.text.strip }
+    assert_equal 4, html.css(".topic-articles__image").size
+    assert_equal 4, html.css(".topic-articles__description").size
     assert_empty html.css("time")
     save_preview(landing.url, html.to_html)
 
@@ -153,12 +156,42 @@ class TopicsTest < Minitest::Test
     [["future-topic", true], ["unfinished-topic", false]].each do |slug, published|
       topic = Jekyll::Document.new(File.join(ROOT, "_topics", "#{slug}.markdown"), site: @site, collection: collection)
       topic.data.merge!(collection.docs.find { |doc| doc.data["lang"] == "en" }.data)
-      topic.data.merge!("title" => slug, "order" => 4, "slug" => slug, "published" => published)
+      topic.data.merge!("title" => slug, "order" => 5, "slug" => slug, "published" => published)
       collection.docs << topic
     end
     expanded = render(landing)
     assert_equal HOME_TOPIC_URLS + ["/topics/future-topic/"], expanded.css(".topic-articles__topic").map { |link| link["href"] }
     refute_includes expanded.text, "unfinished-topic"
+  end
+
+  def test_unpublished_topics_are_listed_only_in_explicit_nonproduction_previews
+    original_environment = ENV["JEKYLL_ENV"]
+    [["development", false, false], ["development", true, true],
+     ["production", false, false], ["production", true, false]].each do |environment, unpublished, visible|
+      ENV["JEKYLL_ENV"] = environment
+      @site = Jekyll::Site.new(Jekyll.configuration("source" => ROOT, "quiet" => true, "unpublished" => unpublished))
+      @site.read
+      collection = @site.collections.fetch("topics")
+      %w[en de].each do |language|
+        slug = "unfinished-preview-#{language}"
+        topic = Jekyll::Document.new(File.join(ROOT, "_topics", "#{slug}.markdown"), site: @site, collection: collection)
+        topic.data.merge!(collection.docs.find { |doc| doc.data["lang"] == "en" }.data)
+        topic.data.merge!("title" => slug, "slug" => slug, "lang" => language,
+          "published" => false, "image" => "/img/#{slug}.jpeg")
+        collection.docs << topic
+      end
+
+      ["index.html", "topics/index.html"].each do |path|
+        html = render(@site.pages.find { |page| page.path == path })
+        label = "#{path}: #{environment}, unpublished=#{unpublished}"
+        assert_equal visible, !html.at_css('a[href="/topics/unfinished-preview-en/"]').nil?, label
+        assert_equal visible, !html.at_css('img[src="/img/unfinished-preview-en.jpeg"]').nil?, label
+        assert_nil html.at_css('a[href="/topics/unfinished-preview-de/"]'), label
+        HOME_TOPIC_URLS.each { |url| assert html.at_css("a[href='#{url}']"), label }
+      end
+    end
+  ensure
+    ENV["JEKYLL_ENV"] = original_environment
   end
 
   def test_converted_topics_are_absent_from_fiction_and_blog_feeds

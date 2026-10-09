@@ -6,7 +6,10 @@ permalink: /topics/
 show_x_profile: false
 ---
 {% assign topics = site.topics | sort: 'order' %}
-{% assign english_topics = topics | where: 'lang', 'en' | where_exp: 'topic', 'topic.published != false' %}
+{% assign english_topics = topics | where: 'lang', 'en' %}
+{% unless site.unpublished and jekyll.environment != 'production' %}
+{% assign english_topics = english_topics | where_exp: 'topic', 'topic.published != false' %}
+{% endunless %}
 <ul class="topic-articles" aria-label="Topics">
 {% for topic in english_topics %}
     <li class="topic-articles__item">

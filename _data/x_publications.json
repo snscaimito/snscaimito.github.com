@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T12:27:13Z",
+  "updated_at": "2026-10-09T18:33:31Z",
   "groups": [
     {
       "name": "AI Island",
@@ -963,6 +963,21 @@
           "kind": "post",
           "images": [
             "/img/the-outside-line/01-apartment-search.png"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Why My Income?",
+      "posts": [
+        {
+          "id": "2108626931407101975",
+          "excerpt": "“Didn't you notice what they did to Shakira?” Lena asks. I’ve just told her Spain has nothing to do with the money my German clients pay me. Now I’m waiting for her to laugh. We’re in my kitchen in Valencia, trying to book a weekend away. I said it would be good to leave Spain for a few days anyway. Reset the clock. Wh…",
+          "url": "https://x.com/snscaimito/status/2108626931407101975",
+          "published_at": "2026-10-09T18:33:31Z",
+          "kind": "post",
+          "images": [
+            "/img/why-my-income/maya-valencia-tax-agency.jpeg"
           ]
         }
       ]
