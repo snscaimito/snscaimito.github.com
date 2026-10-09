@@ -1,5 +1,9 @@
 # Repository Instructions
 
+## Repository boundary
+
+These instructions apply only to this repository and the work requested here. Nested instructions refine only their own directories. Related repositories, hosted services and available credentials do not expand the task; do not inspect or change them unless the user's request includes them. Preserve this repository's own stack, design and runtime boundaries.
+
 Repository-specific guidance for AI assistance in this Jekyll site.
 
 ## Website Design
@@ -104,3 +108,20 @@ Use the image integration pattern established by `_posts/2026/2026-05-12-open-we
 - Use meaningful alt text that describes the image, not generic labels like "hero image".
 - Keep captions short and in the tone of the article.
 - Place the first image near the beginning of the post, after the opening paragraph or first setup beat.
+
+## Local delivery rules
+
+- Default to this repository's trunk, `master`. Do not switch an existing checkout's branch as a side effect of unrelated work.
+- Do not create branches or pull requests unless the user explicitly asks.
+- After completing an authorized repository change and passing its relevant verification, create a local commit before reporting completion; do not wait for a separate commit request.
+- Keep commits local until pushing is authorized. When asked to push, commit verified outstanding changes and push `master` directly unless the user requests a different workflow; follow any more specific deployment authorization documented here.
+- The delivery unit is this repository's complete tested working tree. Do not selectively stage files or hunks, cherry-pick a subset, or commit/push only part of the state that was verified. If unrelated or concurrent changes make complete delivery unsafe, stop and ask before testing or committing.
+- For deployments owned by this repository, use its documented deployment path and validated, committed primary `master` checkout; never deploy from detached HEAD or a temporary worktree. Preserve any CI-owned deployment boundary.
+- Select verification for the affected files and runtime. Documentation/instruction-only edits require text, link and `git diff --check` validation, not application compilation or tests solely for prose changes.
+- Before pushing executable changes, run the required suites for the affected runtime against the complete delivery state. Reuse passing checks while their code, tests and executable configuration are unchanged; committing or elapsed time alone does not invalidate them.
+- For complete, verified GitHub issue work, use a clear imperative commit subject and a real closing footer such as `Fixes #123`. Only an explicitly requested incomplete checkpoint uses a non-closing reference. Do not close a parent issue while its own scope or child issues remain unfinished.
+- Use real newlines in commit messages. A closing footer in a local commit does not authorize pushing.
+
+## Layout scope
+
+- For HTML/CSS work in this repository, prefer flexbox and layouts that adapt to viewport width unless a technical constraint requires otherwise. Preserve this project's existing framework, styling system and design; this preference does not authorize introducing another project's UI stack.
