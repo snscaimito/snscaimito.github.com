@@ -54,6 +54,10 @@ Follow the [X composition and publication instructions](../AGENTS.md) and [publi
 
 ### Historical people at the introduction of taxes
 
+**Part 2 queued, October 9, 2026:** Thomas, a fictional London cloth merchant in 1799, wants his brother's naval ship supplied but resents disclosing his income. His income exceeds £200 a year, placing him at the 10 percent rate in Pitt's new income tax. Paying it postpones a larger shop. The military spending, increased borrowing, rate threshold, and resistance to intrusion into private finances are grounded in [UK Parliament's history](https://www.parliament.uk/about/living-heritage/transformingsociety/private-lives/taxation/overview/incometax/), rechecked October 9, 2026. The family, shop, letter, conversation, and postponed move are fictional. The £200 refers to personal income, not shop turnover. Do not turn the scene into a claim that all earners paid 10 percent or that 1799 was the beginning of all taxation.
+
+The complete approved copy is in `_tools/publication-queue/why-my-income-02.json`; the [image production record](why-my-income-image-prompts.md) holds the prompt and asset paths. After X confirms publication, append the recorded narrative and matching image to the existing English topic, translate the new chapter into its German and Spanish editions, add the actual X ID and timestamp to each edition's `x_chapters`, retain Maya's first-publication metadata, and link the card to the English chapter through `source`. Until then, keep Thomas out of the live topic and retain both image exclusions in `_config.yml`.
+
 These additional people are fictional scene concepts, not documented individuals or eyewitness testimony. Their thoughts, family circumstances, and dialogue must not be presented as archival facts. For income-tax cases, choose a person whose income falls within the original charge; do not assume that every worker paid the new tax.
 
 The opening sketches below describe each conflict; when composing, rebuild them as first-person moments following the narrative brief above. They are not approved opening copy or a template for an observer's voice.

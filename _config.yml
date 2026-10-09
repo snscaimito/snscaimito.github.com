@@ -37,3 +37,6 @@ exclude:
   - elements.md
   # Illustrations for an unpublished story, including full-size copies.
   - img/the-common-granary
+  # Queued Why My Income? installment; preserve Maya's published images.
+  - img/why-my-income/britain-1799-private-accounts.jpeg
+  - img/why-my-income/full/britain-1799-private-accounts.jpeg
