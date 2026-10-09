@@ -27,19 +27,19 @@ Sarah Miller found Ben’s arithmetic under the bread basket. He had allowed two
 	<figcaption>Supper in the farmhouse kitchen. Click the image to view it full size.</figcaption>
 </figure>
 
-Beyond the kitchen window, the grain shed’s drying fans hummed in the evening light. Sarah’s shoulders ached from unloading wheat. Dan still had flour on his sleeve where Ben had hugged him during bread making.
+The grain shed’s fans hummed beyond the window. The highway was three hours away; after dark, theirs were the only lights along this road. Sarah’s shoulders ached from unloading wheat. Dan had flour on his sleeve where Ben had hugged him during bread making.
 
 Luke arrived late after helping Mr. Peterson patch a tire. Rather than do it himself, he had guided their neighbor through the repair.
 
 “He’ll manage the next one without waiting for me,” Luke explained. He had declined payment and asked for help straightening his bike wheel instead. Dan nodded and passed him the bread.
 
-Emma was showing Abby how far roots spread beneath a row of plants. Ben requested two worms for the drawing, and she enlarged the field to fit them. Two neighborhood children had attended her grain-testing lesson that afternoon; Sarah had sent them home with samples and muffins.
+Emma showed Abby how roots spread beneath plants. Ben requested two worms for the drawing, and she enlarged the field to fit them. Her afternoon pupils had gone home with grain samples and muffins.
 
-Her phone lit with a photograph from Rachel at the reservoir house: a crooked shelf and an upraised thumb. Dan suggested calling it enthusiastic rather than straight. Sarah sent a photograph of the crowded table, and her sister replied with six hearts.
+Her phone lit with a photograph from Rachel at the reservoir house: a crooked shelf and an upraised thumb. Sarah sent a photograph of the crowded table, and her sister replied with six hearts.
 
 After supper, Emma brought over a jar from the planting sacks. Sarah labeled it with the variety, harvest date, and field number while her daughter checked the notebook. Their food grain waited in the main bins; the seed stood separately on dry pallets, counted for spring.
 
-Ben carried the jar outside with both hands, following his father. Abby showed Sarah the table he had wiped: six clean circles surrounded by sticky smears. Sarah fetched a fresh cloth and helped her finish.
+Before carrying the jar outside, Ben backed against the kitchen doorframe. Dan marked his height, although they had measured him yesterday. Sarah watched her husband bend to write the date beside all the other dates, then fetched a cloth to help Abby wipe the table.
 
 ## 2. The Empty House
 
@@ -54,11 +54,13 @@ By February, Sarah realized she had not seen Jim Walker since Christmas. His rep
 
 Beth opened the door with one hand against the frame. Sarah held her while Dan carried in the groceries. In the kitchen, Emma knelt beside Lucy, who was trying to eat bread too quickly.
 
-Jim had become ill while caring for his father. The shop brought in nothing, their cupboards emptied, and Beth’s requests for assistance remained marked for review. By the time a neighbor called the county nurse, both men had starved. Lucy had survived on what her mother could find.
+Jim had become ill while caring for his father. The shop brought in nothing, their cupboards emptied, and Beth’s requests for assistance remained marked for review. By the time the county nurse reached their remote town, both men had starved. Lucy had survived on what her mother could find.
 
 Sarah recognized the little girl’s jacket. She had passed it on when Abby outgrew it. They had been close enough to exchange children’s clothes, yet nobody had understood what was happening behind this door.
 
-Dan and Luke helped prepare the burial. Emma stayed with Lucy while Sarah cooked. Outside, Abby kept Ben occupied on the steps, answering his questions as carefully as she could.
+Lucy pulled a piece from her bread and laid it beside her plate. She was saving it for her father. Beth covered her mouth, and Emma sat down on the floor beside the child, close enough for their knees to touch.
+
+Dan and Luke helped prepare the burial. Emma stayed with Lucy while Sarah cooked. Outside, Abby kept Ben occupied on the steps.
 
 That evening, Sarah could scarcely swallow her own supper. Wheat had been sitting in their shed while Jim’s household went hungry.
 
@@ -81,7 +83,7 @@ Madison Reed arrived at the grain shed carrying a soup pot nearly as wide as her
 
 Madison and four friends had rented a house in town after college. Hannah Brooks had studied education; Olivia Hayes, public health. Ethan Parker worked patiently through the delivery spreadsheet, while Jacob Morris repaired the door closer that kept catching people’s heels. Madison’s policy coursework proved useful when they applied for equipment.
 
-They called their group Common Share. Within a week, Sarah knew which cupboard held Hannah’s favorite mug and how to keep Madison from skipping lunch while serving everybody else.
+They called their group Common Share. Sarah gave Hannah a blue mug to keep at the shed and learned to put Madison’s lunch aside before she gave it away.
 
 The founding agreement fitted on one page. Households chose their contributions and could leave. Food and planting grain were recorded separately; seed stayed with the growers.
 
@@ -89,11 +91,9 @@ When Madison asked to change the wording from assistance to guaranteed access, t
 
 For now, the meals mattered. Beth regained enough strength to reopen Jim’s shop. Lucy began following Emma around the shed, copying labels in a careful hand.
 
-Luke showed Jacob how to replace the closer without stripping its screws. Hannah watched Emma’s planting lesson and asked whether she could bring more children next Saturday.
+Luke showed Jacob how to repair the closer. Hannah brought children to Emma’s planting lesson. When Abby caught her finger in a tray, Hannah knelt and held it under cool water until the sobbing stopped. Afterward, Abby slipped her unhurt hand into Hannah’s and stayed there through lunch.
 
-“You explain it so they can do it themselves,” she said, handing Emma a stack of clean trays.
-
-That evening, Rachel called about maintenance vacancies at the reservoir. Staff housing and a canteen came with the work; she thought Dan might like the workshop. He thanked her, but the Millers had a farm to plant.
+Rachel called about maintenance vacancies at the reservoir. Staff housing and a canteen came with the work. Dan thanked her, but the Millers had a farm to plant.
 
 Sarah watched Madison tuck an extra roll into Lucy’s lunch bag. When the young woman looked up, they smiled at one another across the table.
 
@@ -124,7 +124,7 @@ Sarah showed her the seed total and the acreage it would plant. Madison checked 
 
 Sarah turned the tablet back. “It explains what the fields need.”
 
-Hannah asked how they should account for a family whose cupboards were bare. Sarah offered another food delivery and help drying the damp grain left at the mill. Neither woman entered those offers before returning to the total.
+Hannah asked how they should account for a family whose cupboards were bare. Sarah offered another delivery and help drying grain at the mill. Hannah touched the blue mug with both hands, then asked why feeding a child should depend on Sarah’s permission. Neither offer went onto the form.
 
 A week later, the assessment arrived. The Millers’ share had been calculated from all their stocks, including seed. Beside the amount due stood the word *expected*.
 
@@ -157,17 +157,15 @@ Among the papers was a field schedule assigning part of the Millers’ land to a
 
 Emma returned to the trays. Lucy asked why the council’s grain total included sacks needed for planting. Emma explained the difference between grain eaten once and grain left to grow.
 
-Madison listened until two more children asked the same question. Then she told Emma to postpone the lesson while the council clarified its message.
+Madison listened until Lucy asked whether taking the seed would make them hungry again. Her face tightened. She told Emma to postpone the lesson.
 
 Sarah moved beside her daughter. “She’s showing them how to plant.”
 
-“She’s telling them the distribution figures are wrong.”
+“She’s frightening children who have already been through enough.”
 
-“They are wrong.”
+Hannah began collecting the trays. Abby held hers out, expecting the smile she usually received. Hannah took it without looking at her.
 
-The children sat quietly with their notebooks open. Hannah, who had once brought them to the lesson, began collecting the trays.
-
-Sarah kept one hand on Emma’s shoulder as the room emptied. Outside, Mr. Peterson waited by her truck. He had brought a receipt number instead of the beans.
+Emma waited until the children had gone before asking her mother whether she should stop teaching. Sarah kept a hand on her shoulder. Outside, Mr. Peterson waited by the truck with a receipt number instead of the beans.
 
 ## 6. The Appeal
 
@@ -180,11 +178,11 @@ Sarah carried the founding agreement into the council meeting with Emma’s note
 	<figcaption>The notebook and seed jar at the meeting. Click the image to view it full size.</figcaption>
 </figure>
 
-New members had taken office after the election. One had campaigned on protecting household decisions, and Sarah greeted him with relief. He read their calculations carefully.
+The meeting began with a complaint against the last freight driver. He had refused to unload without payment; the council had seized his cargo, and Madison had posted his name beneath *PROFITS BEFORE CHILDREN*. Other carriers stopped answering. She said they had exposed what the town was up against.
 
 Madison sat across the table with Hannah, Olivia, Ethan, and Jacob. She asked whether the Millers’ proposed exemption would leave the kitchen short. Sarah showed how much food remained, how much the household could spare, and what must wait for planting.
 
-The council member agreed that seed mattered. He could recommend an exemption, but the emergency provision allowed the council to withdraw it whenever supplies fell.
+An elected council member agreed that seed mattered. He could recommend an exemption, but the council could withdraw it whenever supplies fell.
 
 Sarah asked who could stop that from happening. Nobody at the table named anyone outside the council.
 
@@ -192,13 +190,13 @@ Sarah asked who could stop that from happening. Nobody at the table named anyone
 
 Madison leaned toward him. “Then who answers the person you decide not to help?”
 
-Sarah thought of Beth’s doorway. She had answered that person before Madison knew her name. Now she had to explain why answering once did not mean surrendering every future choice.
+Sarah reached for the thermos she had brought to share. Madison had been coughing through the meeting. For a moment Sarah could not remember whether offering her tea would make anything better or worse.
 
 Their appeal was recorded and deferred. The jar remained on the table while the next household took its seats.
 
-On the drive home, Dan proposed sending the children to Rachel for a while. The reservoir still housed its maintenance crews, though its canteen served workers and dependents only. Sarah considered it, then looked back at Abby asleep against Emma.
+On the drive home, Dan proposed sending the children to Rachel. The reservoir still housed its maintenance crews and fed their dependents. Abby woke against Emma and asked whether Hannah was angry with them.
 
-At home, they unloaded another delivery for the kitchen before going inside. Sarah put the agreement away with the birth certificates.
+At home, Sarah packed tea beside the next kitchen delivery. She could not leave it out.
 
 ## 7. The Long Winter
 
@@ -211,7 +209,7 @@ By late winter, Sarah could identify most people waiting at the shed by their co
 	<figcaption>Soup and a planting notebook at the shed. Click the image to view it full size.</figcaption>
 </figure>
 
-The county’s harvest had failed again. Food shipments were diverted before reaching them, fuel was rationed, and the bridge on the freight route remained closed. Calls to seed suppliers returned refusals or unanswered rings. The council now required departure permits, telling households to stay until relief arrived.
+The county’s harvest had failed again. The freight bridge remained closed, and fuel was rationed. Common Share answered suppliers’ refusals with names, photographs, and accusations. Calls ended when people recognized the town. At the distant district office, its messages went into the same folder as months of demands and threats. Nobody came to look. The council required departure permits, telling households to stay until relief arrived.
 
 Their livestock had already gone to the kitchen. Root crops spoiled in flooded stores, and the last sound potatoes had been eaten. Other farms had surrendered their seed weeks earlier. The Millers’ dry sacks were now the town’s last viable planting grain.
 
@@ -223,13 +221,11 @@ Madison followed each calculation. When Emma finished, she looked past her at Lu
 
 Sarah offered the last flour from their food bin. Dan was searching an abandoned warehouse with Jacob; Luke had gone with neighbors to try the fishing channel. Nobody pretended these efforts would be enough.
 
-Madison returned the notebook without disputing a figure. Hannah urged her to keep asking for the seed. Olivia stood beside them with the names of households that had missed meals.
+Madison returned the notebook without disputing a figure. Hannah had spent the night beside Lucy, rubbing her feet to warm them. She asked Olivia whether she could go back and explain that they had left food behind a locked door. Olivia lowered her eyes. Madison said the regional office would have to find replacement seed.
 
-Sarah heard Hannah say that another night of waiting meant another child too weak to stand. When Olivia asked about spring, Madison answered that replacement stock was the regional office’s responsibility.
+That evening, Ben studied the bread on his father’s plate and pushed half his own slice across. Dan tried to give it back, but Ben covered it with his hand.
 
-That evening, Dan came home empty-handed. Sarah warmed his hands between hers before telling him what had been said. He held on when she finished.
-
-Upstairs, Emma was reading to Abby and Ben. Luke sat on the landing, listening with his head against the wall.
+Sarah went to the sink and ran the water until she could turn around.
 
 ## 8. The Vote
 
@@ -242,13 +238,11 @@ Sarah placed the seed jar beside the microphone so everyone could see what they 
 	<figcaption>Raised hands in the village hall. Click the image to view it full size.</figcaption>
 </figure>
 
-She explained that preserving the reserve would not feed everybody through the remaining winter. Some might die before a harvest. They had asked for help, searched for food, and offered everything they could eat without destroying the next crop.
-
-Then Emma showed what would happen if the seed went through the mill.
+She explained that keeping the seed would not feed everybody through winter. Some might die before a harvest. Her voice broke on that admission. Emma stood beside her and opened the planting notebook; Sarah waited until she could speak again.
 
 A neighbor asked about replacements. The regional request was still marked *pending*. No supplier had confirmed grain, a vehicle, or an arrival date.
 
-Madison stood with a letter bearing the council’s seal. She had taken statements from hungry households, and read several aloud. Sarah recognized every name.
+Madison read statements from hungry households. When she reached Beth’s, she had to stop and swallow. Sarah knew the words: Lucy was saving food for her dead father again.
 
 “We can’t make a child wait for permission to eat,” Madison said. “Release what we have. We will keep pressing for the replacement.”
 
@@ -256,17 +250,15 @@ Dan asked whether the motion depended on replacement seed arriving before the so
 
 Sarah watched Mr. Peterson lift his hand. Beth kept hers lowered, but the majority was clear. The motion required surrender of all remaining grain.
 
-When Dan refused, Madison turned toward their table. Her voice rose above the scrape of chairs.
+When Dan refused, Hannah stood. She had held Lucy through the night; she could not bear to go back empty-handed. Looking at Emma, she asked how anyone who loved children could teach them to accept this.
 
-“You’ve heard what’s happening in these homes. You know these people.”
+Emma closed the notebook. Sarah rose beside her daughter. “Lucy will need to eat in summer, too. Please. We’re trying to keep her alive.”
 
-Sarah knew them so well she had labeled their children’s coats and remembered which men could no longer lift sacks. She rose beside her husband.
-
-“And they’ll still need to eat after tonight.”
+Madison turned away before Sarah finished. She asked who would help collect the grain.
 
 The chair instructed the collection team to proceed. He authorized the grain’s removal; nothing was said about burning a house.
 
-Outside, Abby asked whether the vote meant they had to obey. Sarah buttoned her coat before answering. Behind them, Madison was gathering volunteers who knew the way to the farm.
+Outside, Abby waited for Hannah to come down the steps. Hannah passed her without stopping. Sarah buttoned her daughter’s coat with fingers that would not go through the holes.
 
 ## 9. The Taking
 
@@ -279,25 +271,25 @@ Sarah recognized Madison’s voice before she saw the crowd. Dan had stayed besi
 	<figcaption>At the grain-shed entrance. Click the image to view it full size.</figcaption>
 </figure>
 
-Madison came up the path with the collection order. Hannah held a stock list; Ethan and Olivia were behind her, and Jacob walked beside Mr. Peterson. Sarah had served supper to every one of them.
+Madison carried the collection order. Hannah had the stock list; Ethan, Olivia, Jacob, and Mr. Peterson followed. Sarah knew how every one of them took their tea.
 
-Dan kept the door half closed and offered to speak outside. Madison braced it with her hand. People crowded behind her until Sarah had to step back among the sacks.
+Dan offered to speak outside. Madison braced the door open, and the crowd pushed Sarah back among the sacks.
 
 “You don’t get to keep deciding who goes hungry,” Madison said. She pointed toward the reserve, and Hannah began calling for help carrying it out.
 
-Dan reached for the order. Mr. Peterson caught his arm while Jacob forced the door wider. When Dan tried to pull free, Tom Harris, the miller, struck him across the wrist with a length of wood. Sarah heard the blow and moved between them. Someone shoved her against a pallet.
+Dan reached for the order. Mr. Peterson caught his arm while Jacob forced the door wider. Tom Harris struck Dan’s wrist with a length of wood. Sarah went to him and was shoved against a pallet.
 
-Luke reached them as the first sack went out. He tried to steady his father, but Mr. Peterson held him while Hannah checked the departing loads. Ethan looked at Dan’s wrist, then lifted another sack.
+Luke tried to reach his father. Mr. Peterson held him back, and Luke called him *sir*, as he always had. Ethan saw Dan’s wrist, then bent for another sack. Olivia was crying as she helped him lift it.
 
-Sarah could no longer see Olivia through the people at the doorway. Madison was still there, answering objections with the council’s decision.
+Someone shouted that the Millers would lock the door again as soon as they had another harvest. Hannah looked from the emptied shed to the house. Sarah heard her say that nobody would ever have to beg here again.
 
-From the house, Emma shouted for her mother.
+At the kitchen window, Hannah held a burning strip of cloth. Abby appeared behind the glass and called her name. Hannah hesitated, looking straight at the child whose hurt finger she had held. Then she pushed the cloth inside.
 
-Hannah had left the counting table. She stood at the kitchen window beside a burning strip of cloth, then pushed it inside. Madison watched without calling her back. Someone cheered that the Millers would never lock them out again.
+Madison saw it happen. When Sarah begged her to stop Hannah, she turned toward the grain being carried away.
 
 As smoke crossed the yard, Mr. Peterson released Luke. Sarah struggled toward the house. Luke followed, supporting Dan with his uninjured arm. Behind them, the last sack disappeared through the shed door.
 
-Emma met them at the back steps with Abby and Ben. Sarah put a hand on each child and counted all four before they ran.
+Emma met them at the back steps, carrying Ben and pulling Abby. Sarah counted four children with her hands. Abby was still calling for Hannah as they ran.
 
 ## 10. The Road
 
@@ -310,23 +302,23 @@ The Millers stopped where the farm lane met the county road. Sarah turned when A
 	<figcaption>The family faces the burning farm. Click the image to view it full size.</figcaption>
 </figure>
 
-Dan stood with his injured wrist pressed against his coat. Luke stayed close enough to catch him if he fell. Emma held Ben, whose shoes were on the wrong feet; Abby clung to Sarah with both hands.
+Emma held Ben, whose shoes were on the wrong feet. Luke supported Dan. Abby clung to Sarah and asked what she had done to make Hannah angry.
 
-They watched the house burn while people carried grain away from the shed. The room where Sarah kept the children’s heights penciled on the doorframe glowed behind its windows. She could hear Ben asking whether somebody would put it out.
+Sarah knelt in the mud and took her daughter’s face between her hands. She said Abby had done nothing, then said it again because the child was waiting for an explanation she could understand.
 
-Nobody did. Fire spread to the barns, and figures crossed the yard carrying more burning cloth. Sarah looked for the faces she knew, but smoke hid them.
+Across the field, people carried away the grain. Fire reached the barns. Ben wanted someone to put it out; he kept asking more quietly, as though the problem was how he had asked.
 
-Dan wanted to check whether the truck was reachable. Sarah held his sleeve. They had all six lives in front of them, and she could not bear to see one turn back.
+Dan moved toward the lane. Sarah caught his sleeve with both hands. He stood there shaking, looking at the house he had built rooms onto each time another baby came.
 
-They had no phones, money, food, tools, or seed. Emma’s notebook was on the kitchen table. Their coats were what they had worn to the meeting; everything else remained inside the burning farm.
+The kitchen doorframe was burning. All those smaller Bens, with their dates in Dan’s handwriting, were inside.
 
-Rachel’s reservoir house was beyond the county line. They had walked the service path on summer visits, and Luke knew where it crossed the drainage channel.
+They had no phones, money, food, or seed. Emma had left her notebook on the table. Sarah turned Ben’s shoes the right way around, and they started along the service path toward Rachel’s reservoir housing beyond the county line.
 
-Sarah pulled Ben’s shoes off and put them back correctly. They set out with the fire behind them, stopping whenever Dan needed to rest.
+They spent two nights under drainage culverts. When Emma thought the others were asleep, she pressed her face into Sarah’s coat. Sarah held her as she had when Emma was small enough to lift, and felt her eldest child trying not to make a sound.
 
-They slept briefly in a culvert, with the younger children between the adults. By the following evening, they reached the reservoir gate. A maintenance worker recognized Sarah from her visits and fetched Rachel.
+At the reservoir gate, Rachel came running. She took Ben, reached for Abby, and looked behind Sarah for the others.
 
-Her sister opened the gate and took Ben before Sarah could ask for anything. Later, wrapped in a borrowed blanket, Sarah heard Dan telling the workshop foreman that he could still work when his wrist healed.
+Sarah counted them aloud for her sister. She could say their names, but when Rachel asked what had happened, she could not get any further.
 
 ## 11. The Fields
 
@@ -339,7 +331,7 @@ In May, Madison drove the pickup past the Millers’ farm. Hannah sat beside her
 	<figcaption>Through the driver's window. Click the image to view it full size.</figcaption>
 </figure>
 
-The winter collection had kept the kitchen open. Madison remembered the first bread made from the seized wheat, and Lucy eating without having to stop after each bite. The daily meal totals had risen for almost three weeks.
+The winter collection had kept the kitchen open for almost three weeks. Madison remembered Lucy finishing a whole slice and asking for another. She had gone into the pantry afterward and cried with relief. Hannah had found her there, and they had held each other between the shelves.
 
 Now portions were shrinking again. The reserve had gone through the mill, and the replacements had never come. A message from the regional office explained that its suppliers had lost their own stocks.
 
@@ -349,7 +341,7 @@ Madison smiled when Hannah rehearsed the introduction. It was the speech they ha
 
 Beyond the open window, dust lifted from the fields. No green rows broke the brown ground. The last planting window had passed without seed, and there was nothing to put in the soil.
 
-Madison had read the agricultural notice before leaving. She could repeat Emma’s calculation from memory. But the kitchen register still showed each person who had eaten because the grain was released, and she intended to name them.
+Madison had read the agricultural notice before leaving. She could repeat Emma’s calculation. Yesterday she had begun a message to Sarah, then deleted it when she reached the word *sorry*. She could still remember Lucy asking for another slice. She needed that to have been enough.
 
 Hannah reached over to brush dust from Madison’s shoulder. They laughed as another gust came through the window, then rolled it partway up.
 
@@ -382,7 +374,7 @@ Madison moved nearer the front of the platform. “The children who ate that bre
 
 Ethan started clapping again. Hannah raised her arm, and Madison smiled toward a phone held up by one of the students. For a moment, they stood together beneath the banners while the loudspeaker carried the applause across the square.
 
-Then Jacob walked away. Madison watched him until he passed the folding table, but Hannah was already turning the clipboard to the next page.
+Then Jacob walked away. Hannah turned the clipboard to the next page. Beside the speaking notes, she had written Lucy’s name to remind herself why they must keep going.
 
 ## 13. Early Summer
 
@@ -397,21 +389,21 @@ By June, Madison could not lift the tablet from the coffee table. She had put it
 
 Hannah lay on the rug with a pillow beneath her head. Her cargo pants folded loosely around hips that had grown sharp beneath the fabric. When she turned, Madison could see each rib along her exposed side.
 
-Olivia rested in the armchair, her cheeks hollow and her knees pressed together. Ethan had stopped adjusting his glasses. Beside Madison on the sofa, his thin forearms lay across his lap. Jacob sat low in a kitchen chair, with his hands hanging beside his thighs.
+Olivia rested in the armchair, her cheeks hollow. Ethan’s glasses had slipped down his nose. Madison had tried to straighten them for him, but her hand fell before it reached his face. Jacob sat in a kitchen chair; he had come home after the rally and stayed.
 
 The house still had electricity from the reservoir grid. The refrigerator clicked on, the television showed an old program, and somewhere a washing machine played its cheerful completion tune. None of them rose to switch it off.
 
-They had eaten the last of the kitchen’s flour weeks earlier. Foraging had bought scattered meals, then less than meals. Madison remembered Jacob returning from the creek with nothing but mud on his shoes.
+They had eaten the last flour weeks ago. Jacob had kept going to the creek until he fell on the way home. Now he apologized whenever anyone looked at him. Olivia kept telling him he had tried.
 
-From the window, she could see a strip of the fields. Nothing had been planted. There would be no local harvest to wait for.
+Nobody checked the requests anymore. The last answer had come from a carrier whose truck they had threatened to take. He told them never to contact him again. Beyond the window, the fields were bare.
 
-Hannah asked whether Madison had checked the request again. Her voice scarcely reached the sofa.
+Hannah asked Madison to sit beside her on the floor. She did not want to be down there alone. Madison tried, but pain folded her back against the sofa.
 
-Madison tried to sit forward. Pain caught beneath her ribs, and she sank against the cushion. Olivia watched without moving.
+She remembered Sarah putting lunch aside for her, wrapped in a clean towel so it would stay warm. She had never asked whether Sarah had eaten.
 
-The collection figures were still saved on the tablet: sacks obtained, portions served, households reached. Emma’s planting warning had been attached to the same report, beneath the completed distribution entries.
+Hannah’s hand lay open beside the pillow. Madison reached down until her fingertips found it. Neither could close a grip, so they rested their fingers together.
 
-Madison shut her eyes. When she opened them, the screen had gone black, and Hannah’s hand was still beside the pillow, palm upward.
+When Hannah began to cry, Madison told her she was there. She kept saying it until she no longer had the breath.
 
 ## 14. Nobody Left
 
@@ -424,21 +416,21 @@ Sarah sat beside the service road with Ben asleep against her. Abby leaned into 
 	<figcaption>The family together beside a country road. Click the image to view it full size.</figcaption>
 </figure>
 
-That morning, the district team had brought the final report from town. They had found Madison, Hannah, Olivia, Ethan, and Jacob in the house they shared. Mr. Peterson was dead. So were Beth and Lucy.
+That morning, the district team had brought the final report. Every resident left in the village had died of starvation. They had checked every house. There were no survivors, no evacuations, nobody waiting to be found.
 
-The seed had been eaten, the fields had stayed bare, and no food shipment had reached the settlement. Gardens and foraging had failed to carry people through. As fuel ran out, departures required permissions the council withheld while promising relief. By the time its officials could no longer enforce the orders, those still waiting were too weak to leave.
+Madison, Hannah, Olivia, Ethan, and Jacob had died in their shared home. Mr. Peterson was dead. Beth and Lucy had been found together.
 
-Every resident who remained had died of starvation: those who took the grain, those who opposed them, and those who had stayed silent. The last occupied house was empty. The Millers were the only surviving household from that town.
+The last seed had been eaten. Nothing was planted, no shipment arrived, and foraging failed. The council withheld departure permits while promising relief, until the people waiting were too weak to leave. The Millers were the village’s only surviving household.
 
-At the reservoir, Rachel had shared her room until staff lodging opened. Luke worked with the maintenance crew, Emma helped in the canteen, and Dan repaired equipment as his wrist recovered. Their wages and the workers’ provisions kept all six fed. They had brought nothing from the farm.
+Sarah and Rachel had called the district office repeatedly. Its clerk remembered the town’s threats against visiting drivers. He had filed their warning with the complaints. The team went out only after the reservoir crew reported weeks without a single voice on the local radio channel.
 
-Sarah had read each name twice. Lucy should have been learning the next planting lesson. Mr. Peterson should have been straightening Luke’s wheel.
+Rachel had shared her room until staff lodging opened. Dan and Luke worked in maintenance; Emma helped in the canteen. Wages and workers’ provisions fed all six. They had arrived with nothing.
 
-Ben woke and asked whether they could go home. Sarah stroked the hair from his forehead while Dan moved closer.
+Sarah read Hannah’s name again. Abby had asked whether she could send her a letter. Sarah had said perhaps, when things were better.
 
-Their fields were still there, but the house, tools, grain, and everything they had saved were gone. Sarah told him they would go back to Rachel’s for supper.
+Ben woke and asked when they could go home. Dan gathered him into his good arm. Sarah was trying to answer when Emma began crying about Lucy’s unfinished planting lesson.
 
-Abby took her hand when they stood. Dan gathered Ben into his good arm, and they walked back together.
+Sarah drew her close. Luke put his arms around them both, and Abby pushed into the space beneath her mother’s elbow. They stayed beside the road until Rachel came looking for them with supper going cold.
 
 ## Afterword: Activity Theory
 
@@ -451,3 +443,30 @@ The practical object narrows toward obtaining food for immediate distribution. T
 Tensions within provisioning concern its tools, rules, and stated purpose. The conflict with cultivation concerns a neighboring activity whose productive reserve is consumed. Calling every change a tertiary contradiction would obscure these distinctions.
 
 The organizers understand the warning and choose to override it. The framework helps examine how their work reinforces that choice; responsibility remains with the people who authorize, seize, injure, and burn.
+
+## Epilogue: The News Crew
+
+The GNN van arrived as recovery trucks reached the square. Its tires raised dust along the unplanted fields. The reporter had brought a jacket; by the time she stepped outside, sweat had darkened her shirt beneath it.
+
+Red fabric hung in strips from the platform. Someone had put the microphone away in its case. The crew stepped around a clipboard swollen by rain.
+
+Her producer remembered the town. Months earlier, he had watched its organizers name drivers and shopkeepers, accusing them of starving children. There had been demands for coverage, then accusations against anyone who questioned their figures. Eventually he had muted the account. He had assumed somebody nearer was dealing with it.
+
+There was no nearer newsroom. There had been no regular carrier since the seized load, no passing traffic since the freight bridge closed. From the highway, the crew had driven three hours without seeing another vehicle.
+
+A district officer let them into the organizers’ house. Five places had been marked for recovery. On the refrigerator was a photograph of the soup table: Sarah holding one end of a pot, Madison the other, both laughing. Hannah knelt beside a little girl whose hand rested in hers.
+
+The reporter asked the officer for their names. She wrote down every one.
+
+Outside, workers carried sealed bags from the houses to a truck. The anchor asked in her earpiece whether anyone had survived.
+
+“Nobody who stayed,” she answered. “They starved in every house.”
+
+She tried to continue. Behind the lens, her cameraman wiped his face without taking his other hand from the camera. She had a daughter the little girl’s age. In her earpiece, the anchor told her to take her time.
+
+<figure class="post-hero-figure">
+	<a class="post-lightbox-trigger" href="/img/the-common-granary/full/12-gnn-epilogue.png" data-lightbox-src="/img/the-common-granary/full/12-gnn-epilogue.png" data-lightbox-alt="A GNN broadcast shows a tearful reporter holding a microphone and tissue as workers carry sealed black body bags from houses to a truck; a studio anchor appears beside her. The headline reads ENTIRE VILLAGE DIES OF STARVATION.">
+		<img src="/img/the-common-granary/12-gnn-epilogue.png" alt="A GNN broadcast shows a tearful reporter holding a microphone and tissue as workers carry sealed black body bags from houses to a truck; a studio anchor appears beside her. The headline reads ENTIRE VILLAGE DIES OF STARVATION." />
+	</a>
+	<figcaption>GNN’s reporter and anchor during the recovery. Click the image to view it full size.</figcaption>
+</figure>

@@ -1,6 +1,6 @@
 # The Common Granary — visual planning outline
 
-Planning only. This is not the written story and is not queued or published content. Companion to [GitHub issue #41](https://github.com/snscaimito/snscaimito.github.com/issues/41). Updated October 5, 2026.
+Planning record, not queued or published content. The written English draft lives in [_posts/2026/2026-10-06-the-common-granary.markdown](../../_posts/2026/2026-10-06-the-common-granary.markdown). Companion to [GitHub issue #41](https://github.com/snscaimito/snscaimito.github.com/issues/41). Updated October 9, 2026.
 
 ## Story premise
 
@@ -8,12 +8,17 @@ In a future farming town, a loving family with several children prospers through
 
 The same organizers change through the beliefs they adopt and reinforce in one another. They come to believe that need gives them authority over other people's work, that independent decisions obstruct fairness, and that resistance proves a lack of compassion. The family's voluntary help becomes an obligation, its preparation becomes hoarding, its teaching becomes obstruction, and its independence becomes cruelty in their eyes. Each coercive step feels to them like a further act of care. Their anger at the farm grows from this conviction: they believe they are protecting the hungry by forcing the family to surrender. Their familiar faces, concern for children, and sense of doing good persist throughout the transformation.
 
+The emotional center is sincere care becoming selective and destructive. The organizers are victims as well as perpetrators: the meals they serve help real people, they deliberately hurt the family, and they eventually suffer and die under the conditions they helped create. Their final scene retains their tenderness toward one another. The family's protection of seed also expresses care for those same hungry children, extending beyond the current meal.
+
+The village is remote, three hours from the highway. The organizers seize a carrier's cargo and publicly threaten and accuse suppliers and other outsiders. Carriers withdraw; distant officials and media dismiss or stop noticing its appeals. The family tries to alert the district from its refuge, but its warnings are filed with earlier complaints. No relief reaches the village. Every resident who remains literally dies of starvation, including the organizers, their victims, opponents, and children. A news crew arrives during the recovery, after all deaths.
+
 ## Writing and review
 
 - Write the English narrative directly in the unpublished blog article, which is the canonical source for later X posts. Do not queue installments until requested.
 - Use flowing prose and manageable paragraphs for people reading on phones. Vary sentence length and weave selected dialogue into action and observation; avoid long runs of isolated, short exchanges.
 - Keep each scene under two minutes at an editorial baseline of 200 words per minute. Limit the narrative plus the separate X footer to 350 words, leaving room for the blog heading and image caption. Check the count for every scene before recording it in the article.
-- The English article now contains 14 narrative scenes, each paired with one of the 14 reference images. The Taking and its escape image have separate scene boundaries; the driving, rally, and shared-home images likewise have separate scenes. These expand the 11-chapter planning outline without changing its plot order. The brief Activity Theory afterword remains outside the fictional scenes.
+- The English article contains 14 main scenes and a news-crew epilogue, with 15 images. The Taking and its escape image have separate scene boundaries; the driving, rally, and shared-home images likewise have separate scenes. These expand the original 11-chapter outline without changing its plot order. The brief Activity Theory afterword remains outside the fictional scenes, before the epilogue so the article ends on the GNN broadcast image.
+- Build emotion through remembered hospitality, individual children, touch, interrupted teaching, and the loss of familiar household details. Preserve flowing paragraphs and restrained dialogue. The same organizers must remain recognizable in their affection, cruelty, and final suffering; do not replace their sincere concern with secret malice or erase their responsibility.
 
 ## Visual continuity
 
@@ -130,6 +135,14 @@ Every resident who remained in the settlement dies. Elsewhere, the displaced par
 
 ![The family rests together beside a distant road, empty-handed. Their love remains visible, but there is no new home, restored farm, or triumphant expression.](visuals/11-nobody-left.png)
 
+### 12. Epilogue — The News Crew
+
+A GNN crew arrives during recovery, after every remaining resident has died. The producer remembers muting the organizers' accusations and assuming somebody nearer was responding. The reporter finds a photograph of the organizers and family serving food together. During her live report, she struggles to continue while workers remove the dead behind her and the studio anchor gives her time.
+
+**Visual:** A GNN broadcast frame shows a tearful reporter holding a microphone and tissue. Workers in protective coveralls carry sealed black body bags from houses to an open recovery truck behind her. A studio anchor appears in the adjacent panel. The headline reads “ENTIRE VILLAGE DIES OF STARVATION,” with “NO SURVIVORS FOUND IN THE VILLAGE” below it.
+
+![A tearful GNN reporter and studio anchor appear beside workers carrying sealed black body bags from houses to a truck; the headline reads ENTIRE VILLAGE DIES OF STARVATION.](visuals/12-gnn-epilogue.png)
+
 ## Generation record
 
-The built-in image generation tool was used. Full prompts and reference-image roles are recorded in [image-prompts.md](image-prompts.md). Images are planning references and remain outside the published blog and X queue.
+The built-in image generation tool was used. Full prompts and reference-image roles are recorded in [image-prompts.md](image-prompts.md). Images are included in the unpublished draft and remain excluded from the published website and outside the X queue.
