@@ -4,14 +4,34 @@ Research date: October 7, 2026. Scope: individuals, including their investment a
 
 ## Guiding question for the series
 
-**Why is a human being's personal income taxed in the first place?**
+**Who gets to decide what your work is for?**
 
-The series will go around the world, introduce the different concepts, and use countries to explain where each came from and why it was chosen. The organizing thread is the reader's “Why?”: why tax income, why claim this person's income, why include these sources, and why keep or change the arrangement over time. Country rules serve those questions; the series is not a tax-planning guide.
+The underlying research question remains: **Why is a human being's personal income taxed in the first place?** The series approaches it through the individual's freedom to decide how to use the proceeds of their labor. Work produces resources for a person's own purposes; an authority claims part of those resources for purposes it chooses. The central conflict is that transfer of control and whether the individual can refuse.
+
+The series will go around the world and use specific historical and present-day cases to examine the claim, its justification, and its enforcement. Residence, citizenship, source of income, and other tax concepts matter because they explain which authority asserts power over a person's earnings. Country rules serve the reader's question about freedom and consent; the series is not a tax-planning guide.
+
+## Editorial stance and evidence
+
+Concept revised October 10, 2026. **Nobody should be forced to finance someone else's project.** A person should be free to decide how to use the proceeds of their labor. A government's wish to fund a project, even a worthwhile one, does not by itself establish a moral entitlement to compel that person's contribution. Begin with the individual and their choices, rather than treating the government's revenue needs as the natural starting point.
+
+The series' moral thesis is that compulsory taxation is a form of **legalized theft**: legal authorization does not establish consent or moral legitimacy. Apply that objection across history and across forms of government, regardless of what rulers called themselves. This is an explicit moral position, not an uncontested historical finding or a claim that a lawful tax meets the legal definition of theft. Historical evidence must establish the particular demand, authority, stated purpose, enforcement, and use of resources. Do not claim that research has proved every tax in every society morally identical.
+
+Treat government explanations as justifications to examine. A war, a debt, a hospital, or a road may explain why revenue was sought; its usefulness does not alone settle whether compulsion was justified. Give those explanations accurately, including evidence of benefits and objections that challenge the series' position. Distinguish documented public spending from a ruler's personal enrichment; do not assume corruption or invent motives.
+
+Examine monarchies, republics, and democracies through the same consent question while recording real differences in representation, accountability, and opportunities to contest a demand. Do not silently equate voting, residence, citizenship, or receiving a benefit with individual consent; identify the argument and let readers dispute it. Equally, do not erase those institutional differences to make the thesis easier to argue.
+
+Keep paying for a service distinct from compulsory funding. Health insurance, tolls, fees, and taxes offer useful comparisons, but verify the actual arrangements: premiums or tolls may coexist with taxes, and some insurance or fees may themselves be compulsory. Do not assume that direct payment proves the absence of public funding or that a voluntary alternative would produce the same outcome without evidence.
+
+The tone is personal, direct, and skeptical of authority, with controversy arising from the documented case. Show lost control through hours worked, commitments made, and choices displaced. Let a person resent compulsion without inventing shame, selfishness, ignorance, pride in financing war, or gratitude for being forced. Do not generalize a fictional character's feelings to an entire population. Avoid agitation, insults, slogans repeated in place of scenes, and demands that readers agree. Readers must have enough honest evidence to challenge the argument.
 
 Fact gathering must distinguish the reason for introducing a tax, the reason for its geographical reach, and the reasons later given for retaining it. A wartime origin does not answer every present-day question. Record contemporary explanations, later legal arguments, and measured outcomes separately. Where the evidence is missing, preserve the question rather than supply a motive.
 
 The questions to carry through the country cases are:
 
+- What did the person want to do with their earnings, and which decision did the tax transfer to someone else?
+- Who asserted the claim, who decided how the resources would be used, and what evidence establishes the spending or its beneficiaries?
+- Could the person refuse? What enforcement provisions, exemptions, appeals, or opportunities to withdraw existed? Distinguish legal powers and threatened consequences from documented enforcement events.
+- What justification was offered for compulsion, what objections were raised, and what evidence challenges the series' moral position?
 - Why tax personal income rather than, or alongside, consumption, property, trade, or business profits? Which revenue needs and arguments supported that choice?
 - Why does residence, citizenship, the source of income, or bringing money into a country establish a tax claim? What connection to the person or income was asserted?
 - Why combine income categories, separate them, or tax labor and capital differently? Which reasons supported exemptions and special treatment?
@@ -19,13 +39,23 @@ The questions to carry through the country cases are:
 - Why do some countries operate without a general personal income tax? What finances their spending instead, and what obligations still fall on individuals?
 - What would change if each case's 2026 rules changed? Identify who would pay, which income would be covered, and how spending would be financed before making behavioral predictions.
 
-The connection to [Bread and Games—But What Are We For?](../_topics/bread-and-games.markdown) and [The Certainty Index](../_posts/2026/2026-08-26-the-certainty-index.markdown) is loose: work, livelihood, public provision, security, and individual choice. Those works provide related reader questions, not historical evidence or a predetermined conclusion about taxation. This series should stand on its own factual record. Article writing comes later.
+The connection to [Bread and Games—But What Are We For?](../_topics/bread-and-games.markdown) and [The Certainty Index](../_posts/2026/2026-08-26-the-certainty-index.markdown) is loose: work, livelihood, public provision, security, and individual choice. Those works provide related reader questions, not historical evidence for the moral thesis. This series must stand on its own factual record.
 
 ## X content ideas
 
 Working series title: **Why My Income?** Each eventual installment should take roughly two minutes to read, with an initial target of **350–450 words**. The people below are fictional; the historical events and tax rules require sources. These are content ideas, not completed posts or publication cards. Article writing comes later.
 
-Editorial brief updated October 9, 2026: write these installments in the persona's first person, with inner thoughts, natural conversation, and connected paragraphs. Open inside a consequential moment in the first two or three sentences. Let one factual discovery challenge something the person wants to preserve, so the reader recognizes their own life and asks why the authority can claim part of their income. Keep links and research exposition out of the X copy. End with a concrete question about the reader's relevant experience, followed by “Why My Income? — a serialized story.” Apply the shared [first-person narrative guidance](../_tools/x_publisher.md#first-person-stories-grounded-in-real-rules).
+Editorial brief updated October 10, 2026: write these installments in the persona's first person, with inner thoughts, natural conversation, and connected paragraphs. Open inside the conflict over control of their earnings in the first two or three sentences. Make the controversial question specific to the case; do not open with an abstract slogan or a summary of tax policy. Keep links and research exposition out of the X copy. Apply the shared [first-person narrative guidance](../_tools/x_publisher.md#first-person-stories-grounded-in-real-rules).
+
+Build each installment around one documented case:
+
+1. Establish the person's work and a concrete purpose for their earnings.
+2. Introduce the authority's competing claim under the actual historical or present-day rule.
+3. Show what the ability or inability to refuse means for that person's choice. Ground any enforcement detail in sources, distinguishing a feared consequence from an actual event.
+4. Bring the stated justification into conversation with the person's objection. A useful purpose does not automatically answer why they must finance it.
+5. Give the scene a consequence, then end with one concrete question that invites disagreement and an answer from the reader's own experience. For example: “What have you been required to fund despite opposing it, and what would justify that requirement?” Follow it with “Why My Income? — a serialized story.”
+
+These instructions govern future composition. Earlier suggested openings and closing questions below are research prompts to reconsider under this brief, not approved copy. Published narratives and records remain unchanged. Revising this concept does not authorize rewriting the existing queued installment or composing, queuing, or publishing another installment.
 
 ### Four recurring modern readers
 
@@ -36,7 +66,7 @@ Editorial brief updated October 9, 2026: write these installments in the persona
 | Nora, 35, salaried worker | She opens her payslip while calculating whether the family can replace a broken washing machine. | “Why is part of what I earned already someone else's?” |
 | Eva, 41, U.S. citizen raised abroad | Another tax return competes with dinner, homework, and bills from the country she calls home. | “Why does citizenship give a country a claim on my working life?” |
 
-**Nora: the money she never receives.** Opening direction: I compare the salary I agreed to with the deposit in my account while pricing a replacement washing machine. Develop why governments chose personal income as a tax base through her household decisions and the services she uses. Suggested closing question: “When did you first look closely at the gap between your salary and your take-home pay?”
+**Nora: the money she never receives.** Opening direction: I compare the salary I agreed to with the deposit in my account while pricing a replacement washing machine. Show which household choice she loses control over and who decides how the deducted resources are used. Government spending and services may enter as stated justifications to examine, not as an automatic resolution of her objection. Suggested closing question: “When did you first look closely at the gap between your salary and your take-home pay?”
 
 **Maya: the agency she had never heard of.** Opening direction: I am explaining why my foreign clients' payments have nothing to do with Spain when my friend Lena asks, “Didn't you notice what they did to Shakira?” Connect the reference immediately to Maya's livelihood. She has relied on confident freelancer advice on X about moving around and the 183-day rule; discovering Spain's Agencia Tributaria makes her feel watched even though nobody has contacted her. Preserve her competence at her work and the independence she has built. Her fear comes from realizing that she may have misunderstood which country can claim her earnings, not from being portrayed as irresponsible or destitute. A bank's tax-residence form may trigger the conversation but is optional. Suggested closing question: “Which tax rule did you first hear from another freelancer?”
 
@@ -48,7 +78,7 @@ For Maya's factual discovery, Spain's presence test concerns more than 183 days 
 
 **Eva: the country that follows her.** Opening direction: I clear space among dinner dishes and homework for a tax return to a country where I have never worked. Put the extra obligation inside an ordinary evening. Develop the citizenship connection and its history without assuming that she owes two full taxes. Suggested closing question: “Has a country you left—or barely knew—continued to shape your life?”
 
-Return to these people for later ideas about wartime taxes retained after peace, territorial taxation, remittances, taxes versus fees, and changes to the 2026 rules. Each installment needs one concrete scene, one consequence, one factual explanation, and one question the reader can answer from experience.
+Return to these people for later ideas about wartime taxes retained after peace, territorial taxation, remittances, taxes versus fees, and changes to the 2026 rules. Each installment needs one concrete conflict over freedom and resources, a documented claim and justification, a personal consequence, and one question readers can debate from experience.
 
 Follow the [X composition and publication instructions](../AGENTS.md) and [publisher workflow](../_tools/x_publisher.md): make every installment stand alone and give the scene a consequence before its closing question. Native long posts are supported. Possible visible image subjects are a payslip at a kitchen table, a bank form beside a laptop, a desk beside a laundry basket, and tax paperwork among homework books. Any image lettering should come from the eventual approved copy.
 
