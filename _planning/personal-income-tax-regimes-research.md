@@ -81,6 +81,34 @@ A separate ruling reported in May 2026 concerned 2011: the Audiencia Nacional re
 
 The editorial question is: **What does the right to challenge a demand mean if the person loses access to the resources needed to challenge it?** Investigate documented restrictions on household funds, wages, or business cash, the cost and duration of proceedings, and outcomes after a successful challenge. “Destroyed somebody's life” requires evidence about the particular person's losses; the existence of a seizure power alone does not prove that outcome. A fictional scene may explore these stakes but must not invent a real person's bankruptcy, imprisonment, or innocence.
 
+## Deductions, official discretion, and selective sympathy
+
+Research and concept added October 10, 2026. **Who gets to decide which costs of earning a living count?** The person chooses how to run a business and bears the cost; an authority may later reject the claimed tax treatment. Explore the loss of control involved in having to defend that choice, especially where a business asset is also enjoyable, expensive, or socially conspicuous. Distinguish permission to buy an asset from recognition of its cost for tax purposes.
+
+Allowances, deductions, credits, exemptions, and depreciation can affect what remains under the person's control in different ways. Some define taxable income; others encourage particular behavior. Do not treat every deduction as a discretionary gift, every allowance as an inspector's decision, or a deductible purchase as free. For a high-value asset, establish whether the claim concerns current expenses, depreciation, lease payments, or VAT before describing the dispute. A rule's effect on purchasing decisions is worth investigating separately from its stated purpose.
+
+### Institutional incentives and the power to reject a claim
+
+The potential tension is that a revenue-collecting institution also examines claims that reduce liabilities. Identify who writes the rule, interprets it, assesses the claim, collects payment, and reviews a challenge. An initial administrative decision can have substantial consequences even when it is reviewable; do not imply that the inspector has unlimited discretion or the final judicial word. Keep the cost of challenging an adverse decision in the human scene.
+
+Spain's AEAT 2026 objectives include debt-management and induced-revenue indicators, alongside assistance and service-quality measures. Its published 2025 productivity instruction links compensation allocation to weighted inspection objectives. These establish collection objectives and performance-related pay, not a finding that a particular official earns a commission for rejecting a deduction. The 2025 pay instruction is historical evidence, not confirmation of the 2026 formula. Investigate the precise incentives, including how reversals and quality are treated, before attributing an individual decision to them. [AEAT 2026 objectives](https://sede.agenciatributaria.gob.es/static_files/Sede/Agencia_Tributaria/Planificacion/Plan_objetivos/Plan_Objetivos_2026.pdf), [2025 productivity instruction](https://sede.agenciatributaria.gob.es/static_files/Sede/Tema/Agencia_tributaria/Gobierno_abierto/Transparencia/Instruc_Baremo_2025.pdf).
+
+For a concrete distinction, AEAT's 2025 income-tax manual requires business expenses to be linked to the activity and supported by evidence. Passenger cars generally require exclusive business use for IRPF asset allocation, with specified exceptions. VAT uses different rules: qualifying business use of passenger cars generally carries a rebuttable 50 percent presumption. Neither rule establishes that a luxury car is automatically deductible. Keep these tax regimes separate. [AEAT 2025 IRPF manual, asset allocation and deductible expenses](https://sede.agenciatributaria.gob.es/static_files/Sede/Biblioteca/Manual/Practicos/IRPF/IRPF-2025/ManualRenta2025Parte1_es_es.pdf), [AEAT VAT deductions](https://sede.agenciatributaria.gob.es/Sede/iva/que-iva-soportado-puedo-deducir/que-puedo-deducir.html).
+
+### Does sympathy depend on what the person bought?
+
+The pool used to entertain clients is currently a hypothetical research lead, not a verified judgment. Find a real dispute and establish the asset's ownership, business and private use, evidence, statutory exclusions, and outcome. Compare it with a less conspicuous asset without assuming either claim is valid. A pool for a swimming instructor and a pool at a private home used for occasional client gatherings are different factual cases; changing the use changes more than public perception.
+
+The editorial question is whether people support an authority's power because they dislike the purchase, then question the same power when they identify with the taxpayer. Envy is a possible interpretation or a fictional character's reaction, not a demonstrated motive of everyone who disputes a luxury deduction. Other explanations include perceived fairness, suspected private use, or a different view of shared obligations. Let the conversation reveal the reaction and test its consistency. A costly or enjoyable purchase is not by itself proof of abuse; a claimed business purpose is not by itself proof of entitlement.
+
+Explore whether people change purchases to fit categories they believe an inspector will accept, including choosing or leasing a car rather than another asset. This is a behavioral hypothesis to investigate, not an established general reason people buy luxury cars. Possible discussion question: “Have you ever changed a business purchase because you thought it would be easier to justify to the tax office?”
+
+### Political framing: buses and Lamborghinis
+
+On September 4, 2024, Pedro Sánchez contrasted public transport with luxury cars in his opening-of-political-year speech. The official transcript says: “más autobuses públicos y por tanto más transporte público y menos Lamborghinis.” The surrounding passage also favors Spanish-made electric cars and presents higher taxation of the very wealthy as protection for middle- and working-class people. It is political framing of taxation and spending, not a statement about business-expense deductibility. [Official speech transcript](https://www.lamoncloa.gob.es/presidente/intervenciones/paginas/2024/intervenc-pte-gobierno-inicio-curso-politico.aspx).
+
+Use the contrast to examine how a recognizable luxury object can affect attitudes toward taxation and control. “An appeal to envy” is an interpretation to debate, not a verified statement of Sánchez's private motive or evidence that the audience felt envy. Preserve the stated justification and allow readers to question it. The scene should invite readers to notice whether their view of a person's freedom changes when they disapprove of that person's tastes.
+
 ## X content ideas
 
 Working series title: **Why My Income?** Each eventual installment should take roughly two minutes to read, with an initial target of **350–450 words**. The people below are fictional; the historical events and tax rules require sources. These are content ideas, not completed posts or publication cards. Article writing comes later.
@@ -462,6 +490,9 @@ Hong Kong's **May 1, 1947** debate records a sunset clause in the 1941 ordinance
 
 ## Research todo
 
+- [ ] Retrieve decided disputes about expensive or mixed-use business assets, including the proposed client-entertainment pool case. Record the claimed treatment, evidence, legal basis for rejection, review outcome, and cost of contesting it; keep hypothetical cases labeled until verified.
+- [ ] Verify current tax-authority incentive arrangements and whether they reward assessed sums, collected revenue, completed work, quality, or upheld decisions. Distinguish organizational targets from individual compensation and demonstrated bias.
+- [ ] Investigate whether deduction rules change purchasing decisions and whether attitudes toward enforcement vary with the asset's luxury image. Treat envy and politically intended effects as hypotheses unless supported by evidence.
 - [ ] Build an enforcement comparison for Spain, France, and the United States: assessment, notice, administrative collection, protected assets, judicial authorization, appeals, suspension or security, and the distinction between attachment and sale. Verify exact rules for each proposed scene.
 - [ ] Find documented individual cases showing the practical cost of contesting a tax claim, including access to funds during proceedings, actual losses, successful challenges, and compensation. Do not infer personal ruin solely from enforcement powers.
 - [ ] Retrieve the Shakira judgments and verify subsequent appeals, keeping the 2011 assessment, 2012–2014 convictions, and other proceedings separate. Use the defense's account of personal strain as attributed testimony.
