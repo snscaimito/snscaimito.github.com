@@ -101,9 +101,69 @@ On November 20, 2023, Shakira accepted conviction for six tax offenses concernin
 
 A separate ruling reported in May 2026 concerned 2011: the Audiencia Nacional rejected the residence-based assessment and ordered reimbursement. This does not overturn the 2012–2014 convictions. Keep years and proceedings separate; retrieve the judgment and verify any appeal before claiming a final outcome. [AP report on the 2011 dispute](https://apnews.com/article/shakira-spain-tax-fraud-31dd4eae0515bf7c823e764550824e3c).
 
+**Attribution check, October 10, 2026:** The statement located about using Shakira to send a threatening message to other taxpayers is Shakira's own accusation, issued through her team in May 2026. It is not an official admission by Spain. [El País, reporting her statement](https://elpais.com/economia/2026-05-18/shakira-tras-la-sentencia-de-la-audiencia-nacional-he-soportado-un-senalamiento-publico-brutal.html). Her agreed sentence establishes the particular route by which she avoided imprisonment. It does not establish what a contested trial would have produced or that every poorer defendant would necessarily have been imprisoned or financially destroyed. Investigate unequal practical capacity to defend or settle through documented cases rather than that counterfactual. The U.S. Snipes case below supplies an explicit official deterrence statement.
+
 ### Human consequences to investigate
 
 The editorial question is: **What does the right to challenge a demand mean if the person loses access to the resources needed to challenge it?** Investigate documented restrictions on household funds, wages, or business cash, the cost and duration of proceedings, and outcomes after a successful challenge. “Destroyed somebody's life” requires evidence about the particular person's losses; the existence of a seizure power alone does not prove that outcome. A fictional scene may explore these stakes but must not invent a real person's bankruptcy, imprisonment, or innocence.
+
+## Extreme enforcement cases around the world
+
+Research added October 10, 2026. These cases supply evidence of business destruction, family separation, imprisonment, and deaths connected with taxation or resistance to it. They are a selected set of extreme outcomes, not an estimate of how often enforcement causes them. Separate personal income taxation from company taxes, tax-administered benefits, and poll taxes; the wider cases illuminate authority over livelihood without changing the series' main subject.
+
+### Canada: Jean-Yves Archambault and Groupe Enico, 2005–2016
+
+**Established:** The Quebec Court of Appeal upheld findings of abusive enforcement involving erroneous assessments, retention of research tax credits, and seizure of Enico's bank account without judicial authorization. It found a causal connection to the company's financial collapse and upheld C$1 million in punitive damages to the company. Archambault's psychological harm was also recognized; his separate punitive award was overturned. This is a company-tax case with consequences for its founder, not a personal income-tax conviction. [SOQUIJ summary of 2016 QCCA 76](https://canliiconnects.org/fr/r%C3%A9sum%C3%A9/41782), [Supreme Court registry, case 36921](https://www.scc-csc.ca/fr/cases-dossiers/search-recherche/36921/).
+
+**Human question:** What can winning years later restore when the business you built has already been ruined? Obtain the full appellate judgment before writing a detailed scene; the retrieved SOQUIJ summary is not the judgment itself. Do not confuse damages awarded to Enico with compensation personally awarded to Archambault.
+
+### Netherlands: childcare-benefit recoveries and family separation
+
+**Established:** In June 2025, the Dutch government acknowledged that unfair tax-authority demands caused debt, poverty, and stress that created or worsened family problems. It accepted that failures to recognize those financial causes contributed to child-care orders that could have been prevented. This concerns the Tax and Customs Administration's management of benefits, not unpaid personal income tax. Child-protection bodies and courts were involved in care decisions; the tax office did not itself remove children. [Government response to the Hamer Commission](https://www.government.nl/latest/news/2025/06/30/government-acknowledges-additional-suffering-of-children-placed-in-care).
+
+**Human question:** What happens when an official demand creates a family crisis and another institution then treats that crisis as a reason to separate the family? Select a documented parent's testimony before constructing an installment; do not attribute every placement to the scandal or invent a family's reunion.
+
+### United Kingdom: contractors and the loan charge, 2017–2026
+
+**Established:** Schemes paid earnings partly as loans. The 2025 independent review criticized the loan charge's treatment of past years, prolonged disputes, and settlement demands that people could not afford. It recorded ten deaths by suicide among affected individuals and noted a possible eleventh. These are documented deaths in the affected population, not proof of one exclusive cause in each case. The review also criticized promoters and advisers; do not present all participants' knowledge or conduct as identical. [Ray McCann's independent review, foreword and executive summary](https://assets.publishing.service.gov.uk/media/6925d50e22424e25e6bc3199/Loan_Charge_Review_2025_-_Final_Report.pdf).
+
+**Later response:** HMRC's February 2026 guidance describes a new settlement opportunity with reduced liabilities and payment arrangements. Include that development when explaining the history; verify an individual's actual settlement before claiming they received relief. [HMRC operational guidance](https://www.gov.uk/government/publications/hmrc-issue-briefing-operational-activity-following-the-new-independent-review-of-the-loan-charge/hmrc-operational-activity-following-the-new-independent-review-of-the-loan-charge).
+
+**Human question:** What can a contractor do when the arrangement they relied on becomes a demand larger than their available resources? Find individual testimony, advice received, chronology, and outcome before selecting a narrator. Do not invent suicide methods or use deaths as a dramatic ending to fictionalize.
+
+### United States: Wesley Snipes and explicit deterrence, 2008
+
+**Established:** Snipes received a three-year prison sentence for failure to file income-tax returns. Assistant Attorney General Nathan Hochman said it should “send a loud and crystal clear message to all tax defiers.” This is direct official evidence of using an individual's punishment to deter others. His co-defendants' conspiracy and fraudulent-claim convictions were separate; do not attribute those convictions to Snipes. [U.S. Department of Justice sentencing announcement](https://www.justice.gov/archive/tax/usaopress/2008/txdv08343.htm).
+
+**Human question:** When punishment is intended to influence strangers, how much of the individual's sentence is being justified by other people's future choices? This case establishes a criminal sentence and its public justification, not imprisonment merely for poverty. Celebrity cases remain useful where they establish something specific; ordinary people should lead the broader selection.
+
+### Vietnam: environmental lawyer Dang Dinh Bach, 2021–2024
+
+**Established:** Arrested in June 2021, Bach received a five-year tax-evasion sentence, upheld on appeal in August 2022. The UN Working Group on Arbitrary Detention found his detention arbitrary. In February 2024, UN experts described a closed trial, inadequate access to counsel, restricted family contact, and reports of mistreatment. This is evidence of disputed prosecution and violations identified by UN experts, not a finding that all tax prosecutions in Vietnam have political motives. [OHCHR statement, reproduced by ecoi.net](https://www.ecoi.net/en/document/2104666.html).
+
+**Human question:** How does a person defend their work and family life when the law used against them also removes their ability to participate publicly? Distinguish the Vietnamese conviction from the UN findings. These sources establish historical events; verify release and later developments before describing his present circumstances.
+
+### Kenya: deaths during protests against the Finance Bill, June 25, 2024
+
+**Established:** A joint investigation by Kenyan rights and legal organizations documented unlawful police force at protests against proposed tax increases. Its account includes testimony from a father, given the pseudonym Jared, whose son was killed by police gunfire. The son's first wages were used for his coffin. Researchers used witness interviews, photographs, and video. These were deaths during policing of protests, not executions following convictions for refusing an individual tax bill. [Amnesty Kenya and partner organizations' investigation](https://www.amnestykenya.org/kenya-25-june-2024-end-police-use-of-unlawful-force-time-for-accountability-and-justice/).
+
+**Human question:** What does consent through public debate mean to a family whose child dies protesting a proposed demand? Keep pseudonyms identified as such. Preserve the distinction between peaceful participants, particular violent incidents, and the conduct of police; do not assign one account to every participant.
+
+### Colonial Natal, now South Africa: poll-tax resistance and martial law, 1906
+
+**Established:** Resistance to a new poll tax escalated into the Bhambatha rebellion amid wider colonial grievances. Michael Lobban's archival research documents land confiscation, shelling of a settlement after women and children were removed, martial-law prosecutions, and executions for the killing of policemen. The chapter also records chief Charlie Fynn favoring payment while some followers resisted. This provides differing convictions within one community. It does not support describing every casualty as someone executed simply for tax nonpayment. [Lobban, *Imperial Incarceration*, chapter 10](https://www.cambridge.org/core/books/imperial-incarceration/martial-law-the-privy-council-and-the-zulu-rebellion-of-1906/F37D5A99C6E98C0CD7271BD2BA9D390E).
+
+**Human question:** What choices remain when refusal brings punishment to a whole community? Develop the particular person's actions and charges before choosing a narrator. Use the chapter's archival references to investigate contemporary arguments for coercion and the objections to military justice.
+
+### Questions these cases add to the writing research
+
+- What could the person afford to lose while a dispute continued, and did collection precede effective independent review?
+- Which consequences followed a lawful sentence, which followed administrative error or abuse, and which resulted from repression of protest? Does the justification offered answer the actual harm?
+- When officials invoke deterrence, who says so, about which conduct, and with what evidence that the punishment achieves its purpose?
+- Can damages, debt relief, or an apology restore years of work, family contact, health, or life? Record remedies as well as losses without assuming they cancel one another.
+- What did people who supported compliance believe would happen without it? Find their own evidence and voices rather than inventing a generic defense of authority.
+
+**Selection priority:** Enico for the founder and the cost of challenging authority; a Dutch parent's documented testimony for family consequences; a UK contractor for reliance on advice and an unaffordable demand. Kenya and Natal extend the inquiry to lethal suppression of resistance. Snipes supplies unusually clear official deterrence language; Bach examines tax law used against civil-society work. This is research for possible installments, not approved copy or a queue change. Published narratives remain unchanged.
 
 ## Deductions, official discretion, and selective sympathy
 
