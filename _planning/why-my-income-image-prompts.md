@@ -29,3 +29,28 @@ Use case: historical-scene. Create a landscape editorial story illustration, 153
 The image shows Thomas and his wife seated at a table with an open ledger, a quill, an inkwell, a candle, and two supper bowls. His wife points to a ledger entry. Folded cloth and a sash window appear behind them. The lettering reads “Then the larger shop waits.” The generated PNG was converted to JPEG without cropping or changing the composition; the full-size copy uses the same JPEG.
 
 Suggested alt text for the English topic: Thomas and his wife sit over an open ledger at a candlelit table in London in 1799. She points to an entry. The lettering reads: “Then the larger shop waits.”
+
+## Thomas and his wife after the war
+
+Generated October 10, 2026 with the built-in imagegen tool, using the 1799 illustration as a character and room reference. Part 3 is queued in `_tools/publication-queue/why-my-income-03.json`.
+
+Selected image: `img/why-my-income/britain-1816-the-war-is-over.jpeg`. Matching full-size copy: `img/why-my-income/full/britain-1816-the-war-is-over.jpeg`. Both files are excluded from the production website while this installment awaits publication.
+
+### Final generation prompt
+
+Use case: historical-scene.
+Asset type: landscape editorial story illustration, 1536x1024 composition.
+Input image: reference for the two characters, their room, and the natural photographic period-film style. Create a new scene seventeen years later; do not retain the reference's lettering or poses.
+London, early 1816. Thomas, the same cloth merchant now about fifty-seven, sits at the worn wooden table in the room above his shop with his wife, now in her mid-fifties. Preserve their recognizable facial features while adding age: graying curly hair and pronounced lines on Thomas, gray hair visible under his wife's linen cap and natural lines on her face. Thomas wears a practical dark brown wool coat and waistcoat, white linen shirt and loosely tied neckcloth. His wife wears a muted blue-gray early-1810s long-sleeved gown and simple linen kerchief and cap.
+Thomas has just pushed an open handwritten ledger away with one hand, his forearm still extended, fingers taut against the book's edge. He turns toward his wife, brows drawn together, jaw tight, lips slightly parted as he speaks. His wife holds a folded newspaper just above the table, looking directly at him with a tense mouth and furrowed brow. Her other hand rests on the table; neither smiles.
+Close three-quarter view, realistic faces and anatomically correct hands. Worn wood, a small inkwell and quill, folded wool cloth on a background shelf, a sash window with neighboring brickwork. Soft cold daylight from the right, warm subdued room tones. Keep the couple center and right, with plain dark wall space upper left.
+On that wall render only this exact large warm-white serif lettering, in four readable lines: "The war is over, / and they still / want my / money." The slash marks indicate line breaks and must not appear. Preserve the exact words and punctuation. Lettering must be clearly legible at feed size and separate from the faces.
+Ledger and newspaper printing should remain small and indistinct. No other overlay text, no old lettering, no invented readable headline or official notice, no watermark, modern objects, military uniforms, coins scattered on the table, officials, or extra people.
+
+### Visual check
+
+The image shows Thomas with one hand on an open ledger pushed toward the left edge of the table. His wife holds a newspaper and looks at him. Both have lined faces and furrowed brows. A quill, inkwell, folded cloth, and sash window appear in the room. The lettering reads “The war is over, and they still want my money.” The generated PNG was converted to JPEG without cropping or changing the composition; the full-size copy uses the same JPEG.
+
+Suggested alt text for the English topic: Thomas turns toward his wife with one hand on an open ledger. She holds a newspaper at their wooden table. The lettering reads: “The war is over, and they still want my money.”
+
+After confirmed X publication, append the recorded narrative and matching image to all three topic editions, add the publication metadata, link the card to English chapter 3, and remove only these two image exclusions.
