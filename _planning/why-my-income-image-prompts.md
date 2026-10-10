@@ -16,9 +16,9 @@ The selected image shows one woman at a kitchen table with a laptop, phone, note
 
 ## Thomas and his wife over the accounts
 
-Generated October 9, 2026 with the built-in imagegen tool. Complete approved text and image are queued as part 2 in `_tools/publication-queue/why-my-income-02.json`. This queue card is the canonical source until X publication; it has no source selector for a chapter that does not yet exist.
+Generated October 9, 2026 with the built-in imagegen tool. Part 2 was published to X on October 10, 2026: https://x.com/snscaimito/status/2108843653175087269. The published card now links to chapter 2 in `_topics/why-my-income.markdown`.
 
-Selected image: `img/why-my-income/britain-1799-private-accounts.jpeg`. Matching full-size copy: `img/why-my-income/full/britain-1799-private-accounts.jpeg`. Both files are individually excluded from the production website while this installment is queued. Maya's published image remains available. Remove these two exclusions when Thomas's installment is published and appended to all three topic editions.
+Selected image: `img/why-my-income/britain-1799-private-accounts.jpeg`. Matching full-size copy: `img/why-my-income/full/britain-1799-private-accounts.jpeg`. Both files are now included in the production website with the published chapter in all three topic editions. Maya's published image remains available.
 
 ### Final generation prompt
 

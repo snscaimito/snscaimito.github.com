@@ -12,7 +12,7 @@ class TopicsTest < Minitest::Test
     "Company Law in Europe" => { "languages" => %w[de en es], "chapters" => 12, "summary_paragraphs" => 3 },
     "Bread and Games" => { "languages" => %w[de en es], "chapters" => 9, "summary_paragraphs" => 4 },
     "The Little Oracle" => { "languages" => %w[en], "chapters" => 5, "summary_paragraphs" => 3 },
-    "Why My Income?" => { "languages" => %w[de en es], "chapters" => 1, "summary_paragraphs" => 2 }
+    "Why My Income?" => { "languages" => %w[de en es], "chapters" => 2, "summary_paragraphs" => 2 }
   }.freeze
   HOME_TOPIC_URLS = %w[
     /topics/who-can-afford-to-take-a-risk/
@@ -97,7 +97,7 @@ class TopicsTest < Minitest::Test
     assert_equal 4, html.css(".home-topics .home-card").size
     assert_equal HOME_TOPIC_URLS, html.css(".home-topics .home-card-link").map { |link| link["href"] }
     assert_equal "Who Can Afford to Take a Risk?", html.at_css(".home-topics .home-card-title").text
-    assert_equal ["12 installments", "9 installments", "5 installments", "1 installment"], html.css(".home-topics .home-card-meta").map { |meta| meta.text.strip }
+    assert_equal ["12 installments", "9 installments", "5 installments", "2 installments"], html.css(".home-topics .home-card-meta").map { |meta| meta.text.strip }
     assert_equal 4, html.css(".home-topics .home-card-image").size
     assert_empty html.css(".home-topics time")
     assert_empty HOME_TOPIC_URLS & html.css(".home-latest .home-card-link").map { |link| link["href"] }
@@ -137,7 +137,7 @@ class TopicsTest < Minitest::Test
     assert_equal "/topics/", landing.url
     html = render(landing)
     assert_equal HOME_TOPIC_URLS, html.css(".topic-articles__topic").map { |link| link["href"] }
-    assert_equal ["12 installments", "9 installments", "5 installments", "1 installment"], html.css(".topic-articles__meta").map { |meta| meta.text.strip }
+    assert_equal ["12 installments", "9 installments", "5 installments", "2 installments"], html.css(".topic-articles__meta").map { |meta| meta.text.strip }
     assert_equal 4, html.css(".topic-articles__image").size
     assert_equal 4, html.css(".topic-articles__description").size
     assert_empty html.css("time")

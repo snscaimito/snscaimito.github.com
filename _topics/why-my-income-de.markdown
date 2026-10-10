@@ -25,6 +25,9 @@ x_chapters:
 - part: 1
   x_post_id: "2108626931407101975"
   published_at: "2026-10-09T18:33:31Z"
+- part: 2
+  x_post_id: "2108843653175087269"
+  published_at: "2026-10-10T08:54:42Z"
 tags:
 - de
 categories:
@@ -62,3 +65,32 @@ Nachdem sie gegangen ist, öffne ich immer wieder die Seite der Behörde. Nieman
 Ich öffne X, um meine Antwort über Lissabon zu löschen. Jemand darunter hat geschrieben: „Buche jetzt Spanien. Danke!“ Einen Moment lang beneide ich diese Person. Sie fühlt sich noch so, wie ich mich heute Morgen gefühlt habe. Dann fange ich an zu tippen: „Bitte prüf das, bevor du buchst. Ich habe mich auch darauf verlassen.“
 
 Von welcher Steuerregel hast du zum ersten Mal durch einen anderen Freelancer gehört?
+
+## Der größere Laden muss warten {#kapitel-2}
+
+Mein Bruder ist auf See und kämpft gegen die Franzosen. Ich möchte, dass sein Schiff versorgt und sein Lohn bezahlt wird und dass sein Platz an unserem Tisch wieder besetzt ist. Trotzdem will ich nicht, dass die Regierung erfährt, was ich verdiene.
+
+<figure class="post-hero-figure">
+	<a class="post-lightbox-trigger" href="/img/why-my-income/full/britain-1799-private-accounts.jpeg" data-lightbox-src="/img/why-my-income/full/britain-1799-private-accounts.jpeg" data-lightbox-alt="Ein Mann und eine Frau beugen sich bei Kerzenlicht über ein offenes Geschäftsbuch. Auf dem Bild steht auf Englisch: „Then the larger shop waits.“">
+		<img src="/img/why-my-income/britain-1799-private-accounts.jpeg" alt="Ein Mann und eine Frau beugen sich bei Kerzenlicht über ein offenes Geschäftsbuch. Auf dem Bild steht auf Englisch: „Then the larger shop waits.“" />
+	</a>
+	<figcaption>Thomas und seine Frau prüfen die Bücher.</figcaption>
+</figure>
+
+Meine Frau hat nach dem Abendessen den Tisch über unserem Stoffladen in London abgeräumt. Es ist 1799, und ich erkläre ihr die neue Einkommensteuer von Mr. Pitt, während sie eine Kerze näher an meine Bücher hält. Ich verdiene mehr als zweihundert Pfund im Jahr. Ein Pfund von zehn, sage ich ihr.
+
+Sie sieht auf die Summe, die ich aufgeschrieben habe. „Dann muss der größere Laden warten.“ Wir sind schon dreimal gemeinsam daran vorbeigegangen. Hinter dem Tresen wäre Platz für ihre Bücher, und sie müsste sie nicht jedes Mal wegräumen, wenn jemand essen will. Ich hatte ihr gesagt, dieses Jahr würden wir es schaffen. Sie hatte bereits entschieden, wo die Regale stehen sollten.
+
+„Haben wir nicht schon genug bezahlt?“, fragt sie. Ich beginne, von den Schiffen und Soldaten zu erzählen, von den Steuern, die nicht genug einbringen, und vom Geld, das die Regierung immer weiter leiht. Mitten im Satz höre ich, wie ich genau die Forderung verteidige, über die ich den ganzen Nachmittag geflucht habe.
+
+Sie zieht mein Kassenbuch zu sich. „Und wer darf wissen, was wir einnehmen?“ Jahrelang habe ich gelernt, was ich einem Kunden erzähle und was ich für mich behalte. Niemand, der Stoff kauft, muss wissen, wie viel nach dem Einkauf übrig bleibt oder wie sehr mich eine schlechte Saison beunruhigen würde. Jetzt soll ich mein Einkommen offenlegen, weil das Land Geld braucht.
+
+„Wir können das bezahlen, Thomas.“ Ich sage, dass ich es weiß, obwohl ich mir gewünscht hätte, sie hätte widersprochen. Dann gäbe es etwas, wogegen ich mich stemmen könnte. Stattdessen sieht sie das Kontobuch an, das wir zur Eröffnung gekauft hatten und auf dessen erster Seite so wenige Einträge standen. Ich erinnere mich daran, wie ich fürchtete, wir würden es nie füllen.
+
+Der letzte Brief meines Bruders liegt oben. Ich habe ihn so oft gelesen, dass ich weiß, wo er schreibt, es gehe ihm gut, und wo er das Thema wechselt. Wenn wir von einem verlorenen Schiff hören, suche ich nach seinem Namen, bevor ich wieder ans Atmen denke.
+
+Ich nehme die Feder und rechne aus, was uns bleiben wird. Meine Frau sieht zu, wie ich das Geld für die neuen Geschäftsräume durchstreiche. Dann geht sie nach oben, um seinen Brief zu holen.
+
+Ich sitze vor der kleineren Summe, bis sie zurückkommt. Ich möchte nicht, dass sie merkt, wie ich überlege, was wir sonst damit hätten anfangen können.
+
+Was hast du aufgeschoben, um eine Steuerrechnung zu bezahlen, von der du wusstest, dass du sie dir leisten konntest?
