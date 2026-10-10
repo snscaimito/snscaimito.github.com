@@ -41,6 +41,36 @@ The questions to carry through the country cases are:
 
 The connection to [Bread and Games—But What Are We For?](../_topics/bread-and-games.markdown) and [The Certainty Index](../_posts/2026/2026-08-26-the-certainty-index.markdown) is loose: work, livelihood, public provision, security, and individual choice. Those works provide related reader questions, not historical evidence for the moral thesis. This series must stand on its own factual record.
 
+## Enforcement: what happens when the person does not pay?
+
+Research added October 10, 2026. Enforcement is central to the freedom question. Compare a documented historical collection method with a specific modern procedure, rather than assuming all earlier taxes were collected by soldiers or that modern coercion requires physical confrontation. Ask who can restrict access to earnings or assets, when independent judicial review occurs, and what practical resources a person needs to contest the demand. The existence of an appeal does not by itself establish that the person can finance or withstand the process.
+
+Separate assessment, administrative collection, penalties, and criminal prosecution. Do not describe them as an automatic sequence in which lawful avoidance becomes evasion when the amount increases. Lawful tax planning, a rejected tax position, inability to pay, and intentional fraud are different questions. The IRS explicitly distinguishes permissible avoidance from criminal evasion; use each jurisdiction's own definitions when applying that distinction. [IRS Criminal Statutory Provisions, section 9.1.3.3.2.1](https://www.irs.gov/irm/part9/irm_09-001-003).
+
+### Collection without a prior court judgment
+
+**Spain:** General Tax Law articles 163 and 167 establish an administrative enforcement procedure; its enforcement order has the executive force of a judicial judgment against assets. Collection therefore need not await a court victory. Appeals do not invariably suspend collection: articles 224 and 233 provide for suspension with security and specified exceptions, while challenged tax sanctions receive separate treatment. Attachment and sale are distinct: article 172.3 generally postpones disposal until the assessment is final, subject to exceptions. Do not suggest there is no judicial review or that any inspector can seize any property at will. [General Tax Law, articles 163, 167, 172, 224 and 233](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186).
+
+The AEAT describes notice of the enforcement order, a payment deadline, and subsequent execution of guarantees or attachment of assets if payment is not made. Identify the competent collection authority and the actual procedural stage in any scene. [AEAT enforcement procedure](https://sede.agenciatributaria.gob.es/Sede/procedimientos/RA19.shtml).
+
+**United States:** The IRS describes administrative levy as collection without first going to court. Its manual also records notice, hearing rights, and restrictions; seizure of a principal residence requires judicial approval. This supports the narrower claim about administrative collection, not unrestricted power over every asset. [IRS Levy and Sale, sections 5.17.3.2, 5.17.3.4 and 5.17.3.5.5](https://www.irs.gov/irm/part5/irm_05-017-003).
+
+**France:** Under the administrative third-party seizure procedure, the administration can require a bank, employer, or other holder of a debtor's money to pay it toward an unpaid public claim. The recipient normally has 30 days to remit the funds. Challenges and routes to court exist. [French tax administration: SATD](https://www.impots.gouv.fr/particulier/questions/jai-recu-un-avis-tiers-detenteur-de-quoi-sagit-il), [contesting SATD](https://www.impots.gouv.fr/particulier/questions/je-veux-contester-un-avis-tiers-detenteur-comment-proceder).
+
+These are specific examples, not a count of countries or evidence that every seizure lacks prior judicial authorization. For each case, distinguish freezing, attachment, transfer of money, and sale of property; record protected assets, notice, review, and suspension rules.
+
+### Criminal liability and the Shakira cases
+
+For Spain's ordinary domestic tax-fraud offense, Criminal Code article 305 specifies fraud exceeding €120,000 and a prison range of one to five years, with fines and a statutory regularization exception. The threshold concerns tax defrauded, not gross income; periodic taxes have tax-period calculation rules. The amount alone does not turn a lawful arrangement or an unpaid bill into fraud. [BOE Criminal Code, 2026 edition, article 305](https://www.boe.es/biblioteca_juridica/abrir_pdf.php?id=PUB-DP-2026-118).
+
+On November 20, 2023, Shakira accepted conviction for six tax offenses concerning 2012–2014. Her defense firm's account specifies six six-month prison sentences replaced by fines, in addition to a €7.3 million fine. She did not serve prison time in that case. The firm attributes her decision to the personal strain of the proceedings; label that as the defense's explanation, not an independent finding. [Molins, the defense firm's account](https://www.molins.eu/los-detalles-de-la-conformidad-de-la-artista-internacional-shakira/).
+
+A separate ruling reported in May 2026 concerned 2011: the Audiencia Nacional rejected the residence-based assessment and ordered reimbursement. This does not overturn the 2012–2014 convictions. Keep years and proceedings separate; retrieve the judgment and verify any appeal before claiming a final outcome. [AP report on the 2011 dispute](https://apnews.com/article/shakira-spain-tax-fraud-31dd4eae0515bf7c823e764550824e3c).
+
+### Human consequences to investigate
+
+The editorial question is: **What does the right to challenge a demand mean if the person loses access to the resources needed to challenge it?** Investigate documented restrictions on household funds, wages, or business cash, the cost and duration of proceedings, and outcomes after a successful challenge. “Destroyed somebody's life” requires evidence about the particular person's losses; the existence of a seizure power alone does not prove that outcome. A fictional scene may explore these stakes but must not invent a real person's bankruptcy, imprisonment, or innocence.
+
 ## X content ideas
 
 Working series title: **Why My Income?** Each eventual installment should take roughly two minutes to read, with an initial target of **350–450 words**. The people below are fictional; the historical events and tax rules require sources. These are content ideas, not completed posts or publication cards. Article writing comes later.
@@ -420,6 +450,9 @@ Hong Kong's **May 1, 1947** debate records a sunset clause in the 1941 ordinance
 
 ## Research todo
 
+- [ ] Build an enforcement comparison for Spain, France, and the United States: assessment, notice, administrative collection, protected assets, judicial authorization, appeals, suspension or security, and the distinction between attachment and sale. Verify exact rules for each proposed scene.
+- [ ] Find documented individual cases showing the practical cost of contesting a tax claim, including access to funds during proceedings, actual losses, successful challenges, and compensation. Do not infer personal ruin solely from enforcement powers.
+- [ ] Retrieve the Shakira judgments and verify subsequent appeals, keeping the 2011 assessment, 2012–2014 convictions, and other proceedings separate. Use the defense's account of personal strain as attributed testimony.
 - [ ] Build sourced 2026 cases for a stationary SaaS/software founder living with family: a domestic business and a foreign-incorporated business run from the same home. Separate personal and company income, intangible ownership, management, retained profits, losses, dividends, and sale gains; establish the reasons for each tax claim.
 - [ ] Build sourced 2026 digital-nomad cases for an employee and a freelancer traveling between countries. Explain each country's claimed connection, residence tests, income source, treaty relief, reporting, and consequences of discovering earlier omissions. Verify visa and social-security rules separately.
 - [ ] Compare early Egyptian and Mesopotamian fiscal evidence; distinguish contemporary records from later accounts and taxes from tribute, rent, offerings, and internal transfers. Do not assign a single inventor without evidence.
